@@ -67,6 +67,7 @@ class ContributionFetcher {
 
     try {
       // Fetch commits
+      console.log(`  Fetching commits...`);
       const commits = await this.octokit.paginate(this.octokit.repos.listCommits, {
         owner: repo.owner,
         repo: repo.name,
@@ -74,52 +75,101 @@ class ContributionFetcher {
         since: since,
         per_page: 100,
       });
-      
+
       contributions.commits = commits.map(commit => ({
         sha: commit.sha,
         message: commit.commit.message.split('\n')[0],
         date: commit.commit.author.date,
         url: commit.html_url,
       }));
+      console.log(`  Found ${contributions.commits.length} commits`);
 
-      // Fetch PRs
-      const prs = await this.octokit.paginate(this.octokit.search.issuesAndPullRequests, {
-        q: `type:pr author:${username} repo:${repo.owner}/${repo.name} created:>=${since}`,
-        per_page: 100,
-      });
+      // Fetch PRs using GraphQL Search API
+      console.log(`  Fetching PRs...`);
+      const sinceDate = since.split('T')[0]; // Convert to YYYY-MM-DD
+      const prsQuery = `
+        query($searchQuery: String!) {
+          search(query: $searchQuery, type: ISSUE, first: 100) {
+            issueCount
+            edges {
+              node {
+                ... on PullRequest {
+                  number
+                  title
+                  state
+                  createdAt
+                  closedAt
+                  mergedAt
+                  url
+                  isDraft
+                }
+              }
+            }
+          }
+        }
+      `;
 
-      for (const pr of prs) {
-        const prDetail = await this.octokit.pulls.get({
-          owner: repo.owner,
-          repo: repo.name,
-          pull_number: pr.number,
-        });
+      const searchQuery = `repo:${repo.owner}/${repo.name} is:pr author:${username} created:>=${sinceDate}`;
+      const prsResponse = await this.octokit.graphql(prsQuery, { searchQuery });
 
-        contributions.prs.push({
-          number: pr.number,
-          title: pr.title,
-          state: pr.state,
-          created_at: pr.created_at,
-          closed_at: pr.closed_at,
-          merged_at: prDetail.data.merged_at,
-          url: pr.html_url,
-          ready_for_review_at: prDetail.data.draft ? null : pr.created_at,
-          first_review_at: null, // Will be populated later
-        });
+      if (prsResponse.search && prsResponse.search.edges) {
+        for (const edge of prsResponse.search.edges) {
+          const pr = edge.node;
+          contributions.prs.push({
+            number: pr.number,
+            title: pr.title,
+            state: pr.state,
+            created_at: pr.createdAt,
+            closed_at: pr.closedAt,
+            merged_at: pr.mergedAt,
+            url: pr.url,
+            ready_for_review_at: pr.isDraft ? null : pr.createdAt,
+            first_review_at: null,
+          });
+        }
+        console.log(`  Found ${contributions.prs.length} PRs`);
       }
 
-      // Fetch reviews
-      const reviews = await this.octokit.paginate(this.octokit.search.issuesAndPullRequests, {
-        q: `type:pr reviewed-by:${username} repo:${repo.owner}/${repo.name} created:>=${since}`,
-        per_page: 100,
-      });
+      // Fetch reviews using GraphQL Search API (Note: reviewed-by is deprecated but still works for now)
+      console.log(`  Fetching reviews...`);
+      const reviewsQuery = `
+        query($searchQuery: String!) {
+          search(query: $searchQuery, type: ISSUE, first: 100) {
+            issueCount
+            edges {
+              node {
+                ... on PullRequest {
+                  number
+                  title
+                  url
+                  updatedAt
+                }
+              }
+            }
+          }
+        }
+      `;
 
-      contributions.reviews = reviews.map(review => ({
-        pr_number: review.number,
-        pr_title: review.title,
-        reviewed_at: review.updated_at,
-        url: review.html_url,
-      }));
+      const reviewSearchQuery = `repo:${repo.owner}/${repo.name} is:pr reviewed-by:${username} created:>=${sinceDate}`;
+
+      try {
+        const reviewsResponse = await this.octokit.graphql(reviewsQuery, { searchQuery: reviewSearchQuery });
+
+        if (reviewsResponse.search && reviewsResponse.search.edges) {
+          for (const edge of reviewsResponse.search.edges) {
+            const pr = edge.node;
+            contributions.reviews.push({
+              pr_number: pr.number,
+              pr_title: pr.title,
+              reviewed_at: pr.updatedAt,
+              url: pr.url,
+            });
+          }
+          console.log(`  Found ${contributions.reviews.length} reviews`);
+        }
+      } catch (error) {
+        console.warn(`  Could not fetch reviews (this is optional): ${error.message}`);
+      }
 
     } catch (error) {
       console.error(`Error fetching data for ${username} in ${repo.owner}/${repo.name}:`, error.message);
