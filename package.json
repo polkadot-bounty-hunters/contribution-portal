@@ -4,6 +4,7 @@
   "description": "PBA Nation Contribution Tracking Portal",
   "scripts": {
     "fetch-data": "node scripts/fetch-contributions.js",
+    "fetch-data:force": "node scripts/fetch-contributions.js --force",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview"

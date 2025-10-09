@@ -9,12 +9,15 @@ const { throttling } = require('@octokit/plugin-throttling');
 const MyOctokit = Octokit.plugin(throttling);
 
 const CACHE_DIR = path.join(__dirname, '..', 'data', 'cache');
+const CACHE_CONTRIBUTIONS_DIR = path.join(CACHE_DIR, 'contributions');
 const OUTPUT_DIR = path.join(__dirname, '..', 'data');
 const CONFIG_DIR = path.join(__dirname, '..', 'config');
 const SINCE_DATE = '2022-07-01T00:00:00Z';
+const CACHE_DURATION_HOURS = 23;
 
 class ContributionFetcher {
-  constructor(token) {
+  constructor(token, force = false) {
+    this.force = force;
     this.octokit = new MyOctokit({
       auth: token,
       throttle: {
@@ -55,6 +58,77 @@ class ContributionFetcher {
   async saveCache(cache) {
     await fs.mkdir(CACHE_DIR, { recursive: true });
     await fs.writeFile(path.join(CACHE_DIR, 'last-fetch.json'), JSON.stringify(cache, null, 2));
+  }
+
+  shouldFetch(cacheKey, cache) {
+    if (this.force) {
+      return true;
+    }
+
+    const lastFetch = cache[cacheKey];
+    if (!lastFetch) {
+      return true; // Never fetched before
+    }
+
+    const lastFetchDate = new Date(lastFetch);
+    const now = new Date();
+    const hoursSinceLastFetch = (now - lastFetchDate) / (1000 * 60 * 60);
+
+    return hoursSinceLastFetch >= CACHE_DURATION_HOURS;
+  }
+
+  async loadCachedContributions(username, repo) {
+    const cacheFile = path.join(CACHE_CONTRIBUTIONS_DIR, `${username}_${repo.name}.json`);
+    try {
+      const data = await fs.readFile(cacheFile, 'utf8');
+      return JSON.parse(data);
+    } catch {
+      return null;
+    }
+  }
+
+  async saveCachedContributions(username, repo, contributions) {
+    await fs.mkdir(CACHE_CONTRIBUTIONS_DIR, { recursive: true });
+    const cacheFile = path.join(CACHE_CONTRIBUTIONS_DIR, `${username}_${repo.name}.json`);
+    await fs.writeFile(cacheFile, JSON.stringify(contributions, null, 2));
+  }
+
+  mergeContributions(oldContribs, newContribs) {
+    const merged = {
+      commits: [],
+      prs: [],
+      issues: [],
+      reviews: [],
+    };
+
+    // Merge commits (deduplicate by SHA)
+    const commitMap = new Map();
+    [...(oldContribs?.commits || []), ...(newContribs?.commits || [])].forEach(commit => {
+      commitMap.set(commit.sha, commit);
+    });
+    merged.commits = Array.from(commitMap.values()).sort((a, b) =>
+      new Date(b.date) - new Date(a.date)
+    );
+
+    // Merge PRs (deduplicate by number)
+    const prMap = new Map();
+    [...(oldContribs?.prs || []), ...(newContribs?.prs || [])].forEach(pr => {
+      prMap.set(pr.number, pr);
+    });
+    merged.prs = Array.from(prMap.values()).sort((a, b) =>
+      new Date(b.created_at) - new Date(a.created_at)
+    );
+
+    // Merge reviews (deduplicate by pr_number)
+    const reviewMap = new Map();
+    [...(oldContribs?.reviews || []), ...(newContribs?.reviews || [])].forEach(review => {
+      reviewMap.set(review.pr_number, review);
+    });
+    merged.reviews = Array.from(reviewMap.values()).sort((a, b) =>
+      new Date(b.reviewed_at) - new Date(a.reviewed_at)
+    );
+
+    return merged;
   }
 
   async fetchUserContributions(username, repo, since) {
@@ -202,20 +276,38 @@ class ContributionFetcher {
 
         for (const repo of this.repositories.repositories) {
           const cacheKey = await this.getCacheKey(repo, contributor.github, 'all');
-          const lastFetch = cache[cacheKey] || SINCE_DATE;
-          
-          const contributions = await this.fetchUserContributions(
-            contributor.github,
-            repo,
-            lastFetch
-          );
+
+          let finalContributions;
+
+          if (this.shouldFetch(cacheKey, cache)) {
+            console.log(`  Fetching fresh data for ${repo.name}...`);
+            // If force mode, fetch all data from beginning; otherwise fetch incrementally
+            const lastFetch = this.force ? SINCE_DATE : (cache[cacheKey] || SINCE_DATE);
+
+            const newContributions = await this.fetchUserContributions(
+              contributor.github,
+              repo,
+              lastFetch
+            );
+
+            // Load cached contributions and merge (skip merge if force mode and fetching all data)
+            const cachedContributions = this.force ? null : await this.loadCachedContributions(contributor.github, repo);
+            finalContributions = this.mergeContributions(cachedContributions, newContributions);
+
+            // Save merged contributions to cache
+            await this.saveCachedContributions(contributor.github, repo, finalContributions);
+
+            cache[cacheKey] = now;
+          } else {
+            const hoursSince = ((new Date() - new Date(cache[cacheKey])) / (1000 * 60 * 60)).toFixed(1);
+            console.log(`  Using cached data for ${repo.name} (fetched ${hoursSince}h ago)`);
+            finalContributions = await this.loadCachedContributions(contributor.github, repo);
+          }
 
           userContributions.repositories[`${repo.owner}/${repo.name}`] = {
             category: repo.category,
-            contributions,
+            contributions: finalContributions,
           };
-
-          cache[cacheKey] = now;
         }
 
         allContributions[cohortKey].contributors[contributor.github] = userContributions;
@@ -335,7 +427,15 @@ if (require.main === module) {
     process.exit(1);
   }
 
-  const fetcher = new ContributionFetcher(token);
+  // Parse CLI arguments
+  const args = process.argv.slice(2);
+  const force = args.includes('--force');
+
+  if (force) {
+    console.log('Force mode enabled - fetching fresh data\n');
+  }
+
+  const fetcher = new ContributionFetcher(token, force);
   fetcher.run().catch(console.error);
 }
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-09T19:05:32.305Z",
+  "generated_at": "2025-10-09T19:16:20.005Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 2,
@@ -1363,6 +1363,30 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 8313,
+                    "pr_title": "Add boilerplate and overview for staking-async guide book",
+                    "reviewed_at": "2025-10-08T10:59:32Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8313"
+                  },
+                  {
+                    "pr_number": 9415,
+                    "pr_title": "Cleanup staking try states + fix min bonds",
+                    "reviewed_at": "2025-09-29T07:26:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9415"
+                  },
+                  {
+                    "pr_number": 8353,
+                    "pr_title": "delegated-staking: add and force missing delegator migration",
+                    "reviewed_at": "2025-09-20T05:43:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8353"
+                  },
+                  {
+                    "pr_number": 9619,
+                    "pr_title": "[AHM/Staking/VMP] Paginated Offence Reports + Retries for Validator Set",
+                    "reviewed_at": "2025-09-17T08:07:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9619"
+                  },
+                  {
                     "pr_number": 9659,
                     "pr_title": "staking-async: prevent manual application of cancelled slashes",
                     "reviewed_at": "2025-09-07T06:58:07Z",
@@ -1375,10 +1399,16 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9632"
                   },
                   {
-                    "pr_number": 9619,
-                    "pr_title": "[AHM/Staking/VMP] Paginated Offence Reports + Retries for Validator Set",
-                    "reviewed_at": "2025-09-17T08:07:59Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9619"
+                    "pr_number": 8807,
+                    "pr_title": "[Staking] Use active era and not current era for bonding logic",
+                    "reviewed_at": "2025-09-04T07:10:56Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8807"
+                  },
+                  {
+                    "pr_number": 9016,
+                    "pr_title": "[Staking AHM] Migrated fast-unstake, nomination-pools and delegated-staking from `staking` to `staking-async` for testing and benchmark",
+                    "reviewed_at": "2025-09-03T07:07:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9016"
                   },
                   {
                     "pr_number": 9511,
@@ -1387,16 +1417,16 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9511"
                   },
                   {
+                    "pr_number": 8298,
+                    "pr_title": "Implementation of RFC-0097: Unbonding Queue for pallet-staking-async",
+                    "reviewed_at": "2025-08-19T13:41:09Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8298"
+                  },
+                  {
                     "pr_number": 9433,
                     "pr_title": "[Staking] Configurable window for offence reporting",
                     "reviewed_at": "2025-08-12T22:28:55Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9433"
-                  },
-                  {
-                    "pr_number": 9415,
-                    "pr_title": "Cleanup staking try states + fix min bonds",
-                    "reviewed_at": "2025-09-29T07:26:30Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9415"
                   },
                   {
                     "pr_number": 9411,
@@ -1405,16 +1435,28 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9411"
                   },
                   {
+                    "pr_number": 9387,
+                    "pr_title": "[unstable2507] Backport #9187",
+                    "reviewed_at": "2025-07-31T10:41:14Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9387"
+                  },
+                  {
                     "pr_number": 9392,
                     "pr_title": "[unstable2507] Backport #9380",
                     "reviewed_at": "2025-07-31T07:25:11Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9392"
                   },
                   {
-                    "pr_number": 9387,
-                    "pr_title": "[unstable2507] Backport #9187",
-                    "reviewed_at": "2025-07-31T10:41:14Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9387"
+                    "pr_number": 9380,
+                    "pr_title": "[Staking/AHM] Properly report weight of rc -> ah xcm back to the calls",
+                    "reviewed_at": "2025-07-30T15:37:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9380"
+                  },
+                  {
+                    "pr_number": 9187,
+                    "pr_title": "[Staking Async] Cancel slashes by validator and max slash fraction",
+                    "reviewed_at": "2025-07-30T14:58:13Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9187"
                   },
                   {
                     "pr_number": 9383,
@@ -1423,10 +1465,16 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9383"
                   },
                   {
-                    "pr_number": 9380,
-                    "pr_title": "[Staking/AHM] Properly report weight of rc -> ah xcm back to the calls",
-                    "reviewed_at": "2025-07-30T15:37:30Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9380"
+                    "pr_number": 9079,
+                    "pr_title": "Ensure withdrawals don’t bypass slashing",
+                    "reviewed_at": "2025-07-30T12:57:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9079"
+                  },
+                  {
+                    "pr_number": 7377,
+                    "pr_title": "Add missing events to nomination pool extrinsics",
+                    "reviewed_at": "2025-07-29T23:25:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7377"
                   },
                   {
                     "pr_number": 9299,
@@ -1441,16 +1489,22 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9270"
                   },
                   {
-                    "pr_number": 9187,
-                    "pr_title": "[Staking Async] Cancel slashes by validator and max slash fraction",
-                    "reviewed_at": "2025-07-30T14:58:13Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9187"
-                  },
-                  {
                     "pr_number": 9176,
                     "pr_title": "Allow locking to bump consumer without limits",
                     "reviewed_at": "2025-07-20T21:43:12Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9176"
+                  },
+                  {
+                    "pr_number": 5501,
+                    "pr_title": "[Staking] Currency <> Fungible migration",
+                    "reviewed_at": "2025-07-16T14:57:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5501"
+                  },
+                  {
+                    "pr_number": 8127,
+                    "pr_title": "[AHM] Async Staking module across AH and RC",
+                    "reviewed_at": "2025-07-15T16:10:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8127"
                   },
                   {
                     "pr_number": 9166,
@@ -1463,12 +1517,6 @@
                     "pr_title": "Add BlockNumberProvider to PureCreated Event",
                     "reviewed_at": "2025-07-10T15:55:28Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9107"
-                  },
-                  {
-                    "pr_number": 9079,
-                    "pr_title": "Ensure withdrawals don’t bypass slashing",
-                    "reviewed_at": "2025-07-30T12:57:26Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9079"
                   },
                   {
                     "pr_number": 9056,
@@ -1489,10 +1537,10 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9034"
                   },
                   {
-                    "pr_number": 9016,
-                    "pr_title": "[Staking AHM] Migrated fast-unstake, nomination-pools and delegated-staking from `staking` to `staking-async` for testing and benchmark",
-                    "reviewed_at": "2025-09-03T07:07:34Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9016"
+                    "pr_number": 8684,
+                    "pr_title": "Add optional auto-rebag within on-idle",
+                    "reviewed_at": "2025-07-01T18:08:19Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8684"
                   },
                   {
                     "pr_number": 8987,
@@ -1501,64 +1549,22 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8987"
                   },
                   {
+                    "pr_number": 7997,
+                    "pr_title": "[AHM] The Asset Hub Migration on Westend",
+                    "reviewed_at": "2025-06-27T15:59:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7997"
+                  },
+                  {
                     "pr_number": 8936,
                     "pr_title": "merging donal-ahm with master",
                     "reviewed_at": "2025-06-26T16:12:32Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8936"
                   },
                   {
-                    "pr_number": 8807,
-                    "pr_title": "[Staking] Use active era and not current era for bonding logic",
-                    "reviewed_at": "2025-09-04T07:10:56Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8807"
-                  },
-                  {
-                    "pr_number": 8704,
-                    "pr_title": "[AHM] Report the weights of epmb pallet to expose kusama and polkadot weights",
-                    "reviewed_at": "2025-06-02T17:53:45Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8704"
-                  },
-                  {
-                    "pr_number": 8702,
-                    "pr_title": "[AHM] Relax the requirement for RC-Client to receive +1 session reports",
-                    "reviewed_at": "2025-06-04T23:39:24Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8702"
-                  },
-                  {
-                    "pr_number": 8701,
-                    "pr_title": "[Staking] Cleanups and some improvements",
-                    "reviewed_at": "2025-06-10T09:20:59Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8701"
-                  },
-                  {
-                    "pr_number": 8687,
-                    "pr_title": "Staking (EPMB): Add defensive error handling to voter snapshot creation and solution verification",
-                    "reviewed_at": "2025-05-30T15:56:44Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8687"
-                  },
-                  {
-                    "pr_number": 8684,
-                    "pr_title": "Add optional auto-rebag within on-idle",
-                    "reviewed_at": "2025-07-01T18:08:19Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8684"
-                  },
-                  {
-                    "pr_number": 8666,
-                    "pr_title": "EPMB: Handle empty solution pages gracefully in verifier",
-                    "reviewed_at": "2025-06-13T21:49:15Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8666"
-                  },
-                  {
-                    "pr_number": 8633,
-                    "pr_title": "Staking (EPMB): update the semantics of elect() and Phase::Extract(N)",
-                    "reviewed_at": "2025-05-30T07:28:01Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8633"
-                  },
-                  {
-                    "pr_number": 8585,
-                    "pr_title": "fix epmb solution duplicate issue + add remote mining apparatus to epm",
-                    "reviewed_at": "2025-05-21T16:05:31Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8585"
+                    "pr_number": 7953,
+                    "pr_title": "Add deposit for setting session keys",
+                    "reviewed_at": "2025-06-24T15:27:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7953"
                   },
                   {
                     "pr_number": 8436,
@@ -1567,28 +1573,76 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8436"
                   },
                   {
-                    "pr_number": 8355,
-                    "pr_title": "[stable2412] Backport #6540",
-                    "reviewed_at": "2025-04-30T11:36:10Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8355"
+                    "pr_number": 8666,
+                    "pr_title": "EPMB: Handle empty solution pages gracefully in verifier",
+                    "reviewed_at": "2025-06-13T21:49:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8666"
                   },
                   {
-                    "pr_number": 8353,
-                    "pr_title": "delegated-staking: add and force missing delegator migration",
-                    "reviewed_at": "2025-09-20T05:43:44Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8353"
+                    "pr_number": 4320,
+                    "pr_title": "Whitelist for signed solution submitters in Staking",
+                    "reviewed_at": "2025-06-10T13:26:50Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4320"
                   },
                   {
-                    "pr_number": 8339,
-                    "pr_title": "[AHM] add election-provider-multi-block::minimum-score to genesis config",
-                    "reviewed_at": "2025-05-01T21:28:48Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8339"
+                    "pr_number": 8701,
+                    "pr_title": "[Staking] Cleanups and some improvements",
+                    "reviewed_at": "2025-06-10T09:20:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8701"
                   },
                   {
-                    "pr_number": 8337,
-                    "pr_title": "add staking/election related view functions",
-                    "reviewed_at": "2025-05-02T11:20:38Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8337"
+                    "pr_number": 7685,
+                    "pr_title": "[Nomination Pool] Make staking restrictions configurable",
+                    "reviewed_at": "2025-06-06T08:05:19Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7685"
+                  },
+                  {
+                    "pr_number": 8702,
+                    "pr_title": "[AHM] Relax the requirement for RC-Client to receive +1 session reports",
+                    "reviewed_at": "2025-06-04T23:39:24Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8702"
+                  },
+                  {
+                    "pr_number": 8704,
+                    "pr_title": "[AHM] Report the weights of epmb pallet to expose kusama and polkadot weights",
+                    "reviewed_at": "2025-06-02T17:53:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8704"
+                  },
+                  {
+                    "pr_number": 8687,
+                    "pr_title": "Staking (EPMB): Add defensive error handling to voter snapshot creation and solution verification",
+                    "reviewed_at": "2025-05-30T15:56:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8687"
+                  },
+                  {
+                    "pr_number": 8633,
+                    "pr_title": "Staking (EPMB): update the semantics of elect() and Phase::Extract(N)",
+                    "reviewed_at": "2025-05-30T07:28:01Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8633"
+                  },
+                  {
+                    "pr_number": 5400,
+                    "pr_title": "Enable Merklized Distributions in Assets Pallet",
+                    "reviewed_at": "2025-05-29T09:04:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5400"
+                  },
+                  {
+                    "pr_number": 5724,
+                    "pr_title": "Validator Re-Enabling",
+                    "reviewed_at": "2025-05-23T14:52:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5724"
+                  },
+                  {
+                    "pr_number": 8585,
+                    "pr_title": "fix epmb solution duplicate issue + add remote mining apparatus to epm",
+                    "reviewed_at": "2025-05-21T16:05:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8585"
+                  },
+                  {
+                    "pr_number": 5769,
+                    "pr_title": "Reap pool member whose balance goes below ED",
+                    "reviewed_at": "2025-05-14T06:37:24Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5769"
                   },
                   {
                     "pr_number": 8316,
@@ -1597,10 +1651,22 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8316"
                   },
                   {
-                    "pr_number": 8313,
-                    "pr_title": "Add boilerplate and overview for staking-async guide book",
-                    "reviewed_at": "2025-10-08T10:59:32Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8313"
+                    "pr_number": 8303,
+                    "pr_title": "[AHM] Fully bound staking async",
+                    "reviewed_at": "2025-05-07T12:13:36Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8303"
+                  },
+                  {
+                    "pr_number": 8337,
+                    "pr_title": "add staking/election related view functions",
+                    "reviewed_at": "2025-05-02T11:20:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8337"
+                  },
+                  {
+                    "pr_number": 8339,
+                    "pr_title": "[AHM] add election-provider-multi-block::minimum-score to genesis config",
+                    "reviewed_at": "2025-05-01T21:28:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8339"
                   },
                   {
                     "pr_number": 8307,
@@ -1609,22 +1675,52 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8307"
                   },
                   {
+                    "pr_number": 8355,
+                    "pr_title": "[stable2412] Backport #6540",
+                    "reviewed_at": "2025-04-30T11:36:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8355"
+                  },
+                  {
+                    "pr_number": 6540,
+                    "pr_title": "[Fix|NominationPools] Only allow apply slash to be executed if the slash amount is atleast ED",
+                    "reviewed_at": "2025-04-28T05:07:13Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6540"
+                  },
+                  {
+                    "pr_number": 4822,
+                    "pr_title": "[Pools] Fix issues with member migration to `DelegateStake`",
+                    "reviewed_at": "2025-04-25T16:12:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4822"
+                  },
+                  {
                     "pr_number": 8306,
                     "pr_title": "[stable2503] Backport #8294",
                     "reviewed_at": "2025-04-25T13:37:22Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8306"
                   },
                   {
-                    "pr_number": 8303,
-                    "pr_title": "[AHM] Fully bound staking async",
-                    "reviewed_at": "2025-05-07T12:13:36Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8303"
+                    "pr_number": 7581,
+                    "pr_title": "[AHM] Moves disabling logic into pallet-session",
+                    "reviewed_at": "2025-04-21T08:01:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7581"
                   },
                   {
-                    "pr_number": 8298,
-                    "pr_title": "Implementation of RFC-0097: Unbonding Queue for pallet-staking-async",
-                    "reviewed_at": "2025-08-19T13:41:09Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8298"
+                    "pr_number": 6034,
+                    "pr_title": "[AHM] Adds multi-block election types and refactors current pallets to support new interfaces and types",
+                    "reviewed_at": "2025-04-18T07:48:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6034"
+                  },
+                  {
+                    "pr_number": 6631,
+                    "pr_title": "Remove TransferStake impl from Pools",
+                    "reviewed_at": "2025-04-18T07:48:01Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6631"
+                  },
+                  {
+                    "pr_number": 7936,
+                    "pr_title": "[AHM] Replace Validator FullIdentification from `Exposure` to `Existence`",
+                    "reviewed_at": "2025-04-09T13:30:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7936"
                   },
                   {
                     "pr_number": 8159,
@@ -1633,16 +1729,22 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8159"
                   },
                   {
-                    "pr_number": 8127,
-                    "pr_title": "[AHM] Async Staking module across AH and RC",
-                    "reviewed_at": "2025-07-15T16:10:40Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/8127"
+                    "pr_number": 6307,
+                    "pr_title": "Dedup nomination targets",
+                    "reviewed_at": "2025-04-03T07:08:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6307"
                   },
                   {
                     "pr_number": 8095,
                     "pr_title": "[stable2503] Backport #7933",
                     "reviewed_at": "2025-04-02T12:57:29Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8095"
+                  },
+                  {
+                    "pr_number": 7663,
+                    "pr_title": "Validator disabling in session enhancements",
+                    "reviewed_at": "2025-03-31T10:17:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7663"
                   },
                   {
                     "pr_number": 8084,
@@ -1657,52 +1759,10 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8075"
                   },
                   {
-                    "pr_number": 7997,
-                    "pr_title": "[AHM] The Asset Hub Migration on Westend",
-                    "reviewed_at": "2025-06-27T15:59:25Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7997"
-                  },
-                  {
-                    "pr_number": 7953,
-                    "pr_title": "Add deposit for setting session keys",
-                    "reviewed_at": "2025-06-24T15:27:29Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7953"
-                  },
-                  {
                     "pr_number": 7939,
                     "pr_title": "[AHM] Revert multi-block election, slashing and staking client pallets",
                     "reviewed_at": "2025-03-24T14:59:47Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/7939"
-                  },
-                  {
-                    "pr_number": 7937,
-                    "pr_title": "[AHM] Revert some AH-next staking changes from master",
-                    "reviewed_at": "2025-03-17T07:21:29Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7937"
-                  },
-                  {
-                    "pr_number": 7936,
-                    "pr_title": "[AHM] Replace Validator FullIdentification from `Exposure` to `Existence`",
-                    "reviewed_at": "2025-04-09T13:30:40Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7936"
-                  },
-                  {
-                    "pr_number": 7895,
-                    "pr_title": "fix westend try-state CI",
-                    "reviewed_at": "2025-03-12T17:30:06Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7895"
-                  },
-                  {
-                    "pr_number": 7805,
-                    "pr_title": "staking: add `manual_slash` extrinsic",
-                    "reviewed_at": "2025-03-13T04:12:44Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7805"
-                  },
-                  {
-                    "pr_number": 7782,
-                    "pr_title": "Glue in the staking clients pallets + improve",
-                    "reviewed_at": "2025-03-12T09:02:37Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7782"
                   },
                   {
                     "pr_number": 7723,
@@ -1711,52 +1771,28 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/7723"
                   },
                   {
-                    "pr_number": 7685,
-                    "pr_title": "[Nomination Pool] Make staking restrictions configurable",
-                    "reviewed_at": "2025-06-06T08:05:19Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7685"
+                    "pr_number": 7937,
+                    "pr_title": "[AHM] Revert some AH-next staking changes from master",
+                    "reviewed_at": "2025-03-17T07:21:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7937"
                   },
                   {
-                    "pr_number": 7663,
-                    "pr_title": "Validator disabling in session enhancements",
-                    "reviewed_at": "2025-03-31T10:17:49Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7663"
+                    "pr_number": 7805,
+                    "pr_title": "staking: add `manual_slash` extrinsic",
+                    "reviewed_at": "2025-03-13T04:12:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7805"
                   },
                   {
-                    "pr_number": 7582,
-                    "pr_title": "Implementation of ah-client and rc-client staking pallets",
-                    "reviewed_at": "2025-02-18T03:46:19Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7582"
+                    "pr_number": 7895,
+                    "pr_title": "fix westend try-state CI",
+                    "reviewed_at": "2025-03-12T17:30:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7895"
                   },
                   {
-                    "pr_number": 7581,
-                    "pr_title": "[AHM] Moves disabling logic into pallet-session",
-                    "reviewed_at": "2025-04-21T08:01:20Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7581"
-                  },
-                  {
-                    "pr_number": 7424,
-                    "pr_title": "[Staking] Bounded Slashing: Paginated Offence Processing & Slash Application",
-                    "reviewed_at": "2025-02-17T23:40:57Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7424"
-                  },
-                  {
-                    "pr_number": 7377,
-                    "pr_title": "Add missing events to nomination pool extrinsics",
-                    "reviewed_at": "2025-07-29T23:25:23Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7377"
-                  },
-                  {
-                    "pr_number": 7357,
-                    "pr_title": "[DNM] Implementation of `ah-client` and `rc-client` staking pallets (the old one)",
-                    "reviewed_at": "2025-02-15T08:20:45Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7357"
-                  },
-                  {
-                    "pr_number": 7283,
-                    "pr_title": "Bump zombienet version to `v1.3.119`",
-                    "reviewed_at": "2025-01-21T21:57:26Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7283"
+                    "pr_number": 7782,
+                    "pr_title": "Glue in the staking clients pallets + improve",
+                    "reviewed_at": "2025-03-12T09:02:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7782"
                   },
                   {
                     "pr_number": 7282,
@@ -1765,28 +1801,16 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/7282"
                   },
                   {
-                    "pr_number": 6631,
-                    "pr_title": "Remove TransferStake impl from Pools",
-                    "reviewed_at": "2025-04-18T07:48:01Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6631"
+                    "pr_number": 7582,
+                    "pr_title": "Implementation of ah-client and rc-client staking pallets",
+                    "reviewed_at": "2025-02-18T03:46:19Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7582"
                   },
                   {
-                    "pr_number": 6592,
-                    "pr_title": "[stable2409] Backport #6540",
-                    "reviewed_at": "2024-12-09T14:06:03Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6592"
-                  },
-                  {
-                    "pr_number": 6540,
-                    "pr_title": "[Fix|NominationPools] Only allow apply slash to be executed if the slash amount is atleast ED",
-                    "reviewed_at": "2025-04-28T05:07:13Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6540"
-                  },
-                  {
-                    "pr_number": 6520,
-                    "pr_title": "Implements a mechanism to lock/unlock the SortedListProvider and bags-list iter (v2)",
-                    "reviewed_at": "2025-02-12T19:28:59Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6520"
+                    "pr_number": 7424,
+                    "pr_title": "[Staking] Bounded Slashing: Paginated Offence Processing & Slash Application",
+                    "reviewed_at": "2025-02-17T23:40:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7424"
                   },
                   {
                     "pr_number": 6445,
@@ -1795,22 +1819,40 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/6445"
                   },
                   {
-                    "pr_number": 6307,
-                    "pr_title": "Dedup nomination targets",
-                    "reviewed_at": "2025-04-03T07:08:17Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6307"
+                    "pr_number": 7357,
+                    "pr_title": "[DNM] Implementation of `ah-client` and `rc-client` staking pallets (the old one)",
+                    "reviewed_at": "2025-02-15T08:20:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7357"
+                  },
+                  {
+                    "pr_number": 6520,
+                    "pr_title": "Implements a mechanism to lock/unlock the SortedListProvider and bags-list iter (v2)",
+                    "reviewed_at": "2025-02-12T19:28:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6520"
+                  },
+                  {
+                    "pr_number": 7283,
+                    "pr_title": "Bump zombienet version to `v1.3.119`",
+                    "reviewed_at": "2025-01-21T21:57:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/7283"
+                  },
+                  {
+                    "pr_number": 6592,
+                    "pr_title": "[stable2409] Backport #6540",
+                    "reviewed_at": "2024-12-09T14:06:03Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6592"
+                  },
+                  {
+                    "pr_number": 5723,
+                    "pr_title": "Adds `BlockNumberProvider` in multisig, proxy and nft pallets",
+                    "reviewed_at": "2024-11-22T05:37:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5723"
                   },
                   {
                     "pr_number": 6169,
                     "pr_title": "[Deprecation] deprecate treasury `spend_local` call and related items",
                     "reviewed_at": "2024-11-05T13:22:18Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/6169"
-                  },
-                  {
-                    "pr_number": 6034,
-                    "pr_title": "[AHM] Adds multi-block election types and refactors current pallets to support new interfaces and types",
-                    "reviewed_at": "2025-04-18T07:48:06Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/6034"
                   },
                   {
                     "pr_number": 5985,
@@ -1825,22 +1867,16 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/5961"
                   },
                   {
-                    "pr_number": 5769,
-                    "pr_title": "Reap pool member whose balance goes below ED",
-                    "reviewed_at": "2025-05-14T06:37:24Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5769"
+                    "pr_number": 5554,
+                    "pr_title": "[Identity] Decouple usernames from identities",
+                    "reviewed_at": "2024-10-29T14:58:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5554"
                   },
                   {
-                    "pr_number": 5724,
-                    "pr_title": "Validator Re-Enabling",
-                    "reviewed_at": "2025-05-23T14:52:04Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5724"
-                  },
-                  {
-                    "pr_number": 5723,
-                    "pr_title": "Adds `BlockNumberProvider` in multisig, proxy and nft pallets",
-                    "reviewed_at": "2024-11-22T05:37:38Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5723"
+                    "pr_number": 5399,
+                    "pr_title": "[Staking] Noop refactor to prep pallet for currency fungible migration",
+                    "reviewed_at": "2024-10-07T17:20:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5399"
                   },
                   {
                     "pr_number": 5713,
@@ -1855,46 +1891,22 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/5687"
                   },
                   {
-                    "pr_number": 5554,
-                    "pr_title": "[Identity] Decouple usernames from identities",
-                    "reviewed_at": "2024-10-29T14:58:31Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5554"
-                  },
-                  {
-                    "pr_number": 5501,
-                    "pr_title": "[Staking] Currency <> Fungible migration",
-                    "reviewed_at": "2025-07-16T14:57:31Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5501"
-                  },
-                  {
                     "pr_number": 5465,
                     "pr_title": "Add new try-state check invariant for nomination-pools (points >= stake)",
                     "reviewed_at": "2024-08-29T13:01:43Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/5465"
                   },
                   {
-                    "pr_number": 5400,
-                    "pr_title": "Enable Merklized Distributions in Assets Pallet",
-                    "reviewed_at": "2025-05-29T09:04:30Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5400"
-                  },
-                  {
-                    "pr_number": 5399,
-                    "pr_title": "[Staking] Noop refactor to prep pallet for currency fungible migration",
-                    "reviewed_at": "2024-10-07T17:20:58Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5399"
-                  },
-                  {
-                    "pr_number": 5328,
-                    "pr_title": "Implements selective auto-update target score in the stake-tracker",
-                    "reviewed_at": "2024-08-15T12:50:07Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5328"
-                  },
-                  {
                     "pr_number": 5066,
                     "pr_title": "Patches `Call::Staking.restore_ledger` to ensure a restored ledger has enough free balance to cover staking locks",
                     "reviewed_at": "2024-08-28T12:49:13Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/5066"
+                  },
+                  {
+                    "pr_number": 4574,
+                    "pr_title": "[MOVED] Remove staking controller account logic from pallets & runtimes",
+                    "reviewed_at": "2024-08-23T11:32:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4574"
                   },
                   {
                     "pr_number": 4999,
@@ -1909,16 +1921,16 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/4998"
                   },
                   {
-                    "pr_number": 4822,
-                    "pr_title": "[Pools] Fix issues with member migration to `DelegateStake`",
-                    "reviewed_at": "2025-04-25T16:12:48Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4822"
+                    "pr_number": 4537,
+                    "pr_title": "[Pools] Refactors and runtime apis for DelegateStake",
+                    "reviewed_at": "2024-08-16T08:07:01Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4537"
                   },
                   {
-                    "pr_number": 4768,
-                    "pr_title": "add ref doc for logging practices in FRAME",
-                    "reviewed_at": "2024-06-17T03:57:10Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4768"
+                    "pr_number": 5328,
+                    "pr_title": "Implements selective auto-update target score in the stake-tracker",
+                    "reviewed_at": "2024-08-15T12:50:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/5328"
                   },
                   {
                     "pr_number": 4709,
@@ -1927,28 +1939,16 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/4709"
                   },
                   {
-                    "pr_number": 4574,
-                    "pr_title": "[MOVED] Remove staking controller account logic from pallets & runtimes",
-                    "reviewed_at": "2024-08-23T11:32:38Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4574"
+                    "pr_number": 4768,
+                    "pr_title": "add ref doc for logging practices in FRAME",
+                    "reviewed_at": "2024-06-17T03:57:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4768"
                   },
                   {
-                    "pr_number": 4537,
-                    "pr_title": "[Pools] Refactors and runtime apis for DelegateStake",
-                    "reviewed_at": "2024-08-16T08:07:01Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4537"
-                  },
-                  {
-                    "pr_number": 4364,
-                    "pr_title": "Fix: dust unbonded for zero existential deposit",
-                    "reviewed_at": "2024-05-03T14:49:52Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4364"
-                  },
-                  {
-                    "pr_number": 4320,
-                    "pr_title": "Whitelist for signed solution submitters in Staking",
-                    "reviewed_at": "2025-06-10T13:26:50Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4320"
+                    "pr_number": 4274,
+                    "pr_title": "Implement `CheckMetadataHash` extension",
+                    "reviewed_at": "2024-06-13T07:26:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4274"
                   },
                   {
                     "pr_number": 4301,
@@ -1957,10 +1957,10 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/4301"
                   },
                   {
-                    "pr_number": 4274,
-                    "pr_title": "Implement `CheckMetadataHash` extension",
-                    "reviewed_at": "2024-06-13T07:26:10Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4274"
+                    "pr_number": 4364,
+                    "pr_title": "Fix: dust unbonded for zero existential deposit",
+                    "reviewed_at": "2024-05-03T14:49:52Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/4364"
                   }
                 ]
               }
