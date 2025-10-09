@@ -1,0 +1,47 @@
+# Repositories to track for PBA Nation contributions
+
+repositories:
+  # Parity Core
+  - owner: "paritytech"
+    name: "substrate"
+    category: "core"
+    
+  - owner: "paritytech"
+    name: "polkadot"
+    category: "core"
+    
+  - owner: "paritytech"
+    name: "cumulus"
+    category: "core"
+    
+  # Parity SDKs & Tools
+  - owner: "paritytech"
+    name: "polkadot-sdk"
+    category: "sdk"
+    
+  - owner: "paritytech"
+    name: "subxt"
+    category: "tools"
+    
+  - owner: "paritytech"
+    name: "jsonrpsee"
+    category: "tools"
+    
+  # Web3 Foundation
+  - owner: "w3f"
+    name: "polkadot-wiki"
+    category: "documentation"
+    
+  # Frontier
+  - owner: "paritytech"
+    name: "frontier"
+    category: "ethereum-compat"
+    
+  # ink!
+  - owner: "paritytech"
+    name: "ink"
+    category: "smart-contracts"
+    
+  - owner: "paritytech"
+    name: "cargo-contract"
+    category: "smart-contracts"

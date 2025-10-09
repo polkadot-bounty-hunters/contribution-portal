@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+let stats = null;
+try {
+  const data = await import('../../data/contributions.json');
+  stats = data.default;
+} catch (e) {
+  console.error('No contribution data found');
+}
+
+// Calculate cohort summaries
+const cohortSummaries = {};
+if (stats) {
+  Object.entries(stats.leaderboard.by_cohort).forEach(([cohortKey, contributors]) => {
+    const summary = {
+      name: stats.contributions[cohortKey].name,
+      total_contributors: contributors.length,
+      total_commits: contributors.reduce((sum, c) => sum + c.commits, 0),
+      total_prs: contributors.reduce((sum, c) => sum + c.prs, 0),
+      total_reviews: contributors.reduce((sum, c) => sum + c.reviews, 0),
+      total_score: contributors.reduce((sum, c) => sum + c.score, 0),
+      top_contributor: contributors[0],
+    };
+    cohortSummaries[cohortKey] = summary;
+  });
+}
+---
+
+<Layout title="PBA Nation - Cohorts">
+  <div class="container mx-auto p-6">
+    <h1 class="text-4xl font-bold mb-8">Cohort Competition</h1>
+    
+    {stats && Object.keys(cohortSummaries).length > 0 ? (
+      <div class="space-y-6">
+        {Object.entries(cohortSummaries)
+          .sort(([, a], [, b]) => b.total_score - a.total_score)
+          .map(([cohortKey, summary], index) => (
+            <div class="bg-white rounded-lg shadow p-6">
+              <div class="flex items-center justify-between mb-4">
+                <h2 class="text-2xl font-semibold flex items-center gap-2">
+                  {index === 0 ? '🏆' : ''} {summary.name}
+                </h2>
+                <div class="text-3xl font-bold text-blue-600">
+                  {summary.total_score.toLocaleString()} pts
+                </div>
+              </div>
+              
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                <div>
+                  <p class="text-sm text-gray-600">Contributors</p>
+                  <p class="text-xl font-semibold">{summary.total_contributors}</p>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-600">Commits</p>
+                  <p class="text-xl font-semibold">{summary.total_commits}</p>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-600">Pull Requests</p>
+                  <p class="text-xl font-semibold">{summary.total_prs}</p>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-600">Reviews</p>
+                  <p class="text-xl font-semibold">{summary.total_reviews}</p>
+                </div>
+              </div>
+              
+              {summary.top_contributor && (
+                <div class="border-t pt-4">
+                  <p class="text-sm text-gray-600">Top Contributor</p>
+                  <p class="font-medium">
+                    <a href={`https://github.com/${summary.top_contributor.github}`} 
+                       class="text-blue-600 hover:underline" 
+                       target="_blank">
+                      {summary.top_contributor.name}
+                    </a>
+                    <span class="text-gray-500 ml-2">
+                      ({summary.top_contributor.score} pts)
+                    </span>
+                  </p>
+                </div>
+              )}
+            </div>
+          ))}
+      </div>
+    ) : (
+      <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
+        <p class="font-bold">No data available</p>
+        <p class="text-sm">Run `npm run fetch-data` to generate contribution statistics.</p>
+      </div>
+    )}
+  </div>
+</Layout>

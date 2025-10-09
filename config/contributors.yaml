@@ -1,0 +1,38 @@
+# PBA Nation Contributors
+# Grouped by cohort
+
+cohorts:
+  pba_2022_cambridge:
+    name: "PBA Cambridge 2022"
+    start_date: "2022-07-01"
+    contributors:
+      - github: "ank4n"
+        name: "Ankan"
+      
+  pba_2023_berkeley:
+    name: "PBA Berkeley 2023"
+    start_date: "2023-01-01"
+    contributors:
+      - github: "example-user2"
+        name: "Example User 2"
+      
+  pba_2023_buenos_aires:
+    name: "PBA Buenos Aires 2023"
+    start_date: "2023-05-01"
+    contributors:
+      - github: "example-user3"
+        name: "Example User 3"
+      
+  pba_2024_singapore:
+    name: "PBA Singapore 2024"
+    start_date: "2024-01-01"
+    contributors:
+      - github: "example-user4"
+        name: "Example User 4"
+      
+  pba_2024_hongkong:
+    name: "PBA Hong Kong 2024"
+    start_date: "2024-05-01"
+    contributors:
+      - github: "example-user5"
+        name: "Example User 5"

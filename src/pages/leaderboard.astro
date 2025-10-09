@@ -1,0 +1,92 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+let stats = null;
+try {
+  const data = await import('../../data/contributions.json');
+  stats = data.default;
+} catch (e) {
+  console.error('No contribution data found');
+}
+---
+
+<Layout title="PBA Nation - Leaderboard">
+  <div class="container mx-auto p-6">
+    <h1 class="text-4xl font-bold mb-8">Global Leaderboard</h1>
+    
+    {stats ? (
+      <div class="bg-white rounded-lg shadow overflow-hidden">
+        <table class="min-w-full">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Rank
+              </th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Contributor
+              </th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Cohort
+              </th>
+              <th class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Commits
+              </th>
+              <th class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                PRs (Merged)
+              </th>
+              <th class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Reviews
+              </th>
+              <th class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Score
+              </th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            {stats.leaderboard.overall.map((contributor, index) => (
+              <tr class={index < 3 ? 'bg-yellow-50' : ''}>
+                <td class="px-6 py-4 whitespace-nowrap">
+                  <div class="flex items-center">
+                    <span class="text-lg font-medium">
+                      {index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : index + 1}
+                    </span>
+                  </div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                  <div class="text-sm font-medium text-gray-900">
+                    <a href={`https://github.com/${contributor.github}`} 
+                       class="text-blue-600 hover:underline" 
+                       target="_blank">
+                      {contributor.name}
+                    </a>
+                  </div>
+                  <div class="text-sm text-gray-500">@{contributor.github}</div>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                  {contributor.cohort}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-center">
+                  {contributor.commits}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-center">
+                  {contributor.prs} ({contributor.merged_prs})
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-center">
+                  {contributor.reviews}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-center font-semibold">
+                  {contributor.score}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    ) : (
+      <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
+        <p class="font-bold">No data available</p>
+        <p class="text-sm">Run `npm run fetch-data` to generate contribution statistics.</p>
+      </div>
+    )}
+  </div>
+</Layout>

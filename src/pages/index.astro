@@ -1,0 +1,98 @@
+---
+import Layout from '../layouts/Layout.astro';
+import StatsCard from '../components/StatsCard.astro';
+
+let stats = null;
+try {
+  const data = await import('../../data/contributions.json');
+  stats = data.default;
+} catch (e) {
+  console.error('No contribution data found');
+}
+---
+
+<Layout title="PBA Nation - Dashboard">
+  <div class="container mx-auto p-6">
+    <h1 class="text-4xl font-bold mb-8">PBA Nation Contribution Dashboard</h1>
+    
+    {stats ? (
+      <>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+          <StatsCard 
+            title="Total Contributors" 
+            value={stats.summary.total_contributors}
+            icon="👥"
+          />
+          <StatsCard 
+            title="Total Commits" 
+            value={stats.summary.total_commits}
+            icon="💻"
+          />
+          <StatsCard 
+            title="Pull Requests" 
+            value={stats.summary.total_prs}
+            subtitle={`${stats.summary.total_merged_prs} merged`}
+            icon="🔄"
+          />
+          <StatsCard 
+            title="Code Reviews" 
+            value={stats.summary.total_reviews}
+            icon="👀"
+          />
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 mb-8">
+          <h2 class="text-2xl font-semibold mb-4">Top Contributors</h2>
+          <div class="overflow-x-auto">
+            <table class="min-w-full">
+              <thead>
+                <tr class="border-b">
+                  <th class="text-left py-2">Rank</th>
+                  <th class="text-left py-2">Contributor</th>
+                  <th class="text-left py-2">Cohort</th>
+                  <th class="text-center py-2">Commits</th>
+                  <th class="text-center py-2">PRs</th>
+                  <th class="text-center py-2">Reviews</th>
+                  <th class="text-center py-2">Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                {stats.leaderboard.overall.slice(0, 10).map((contributor, index) => (
+                  <tr class="border-b hover:bg-gray-50">
+                    <td class="py-2">{index + 1}</td>
+                    <td class="py-2 font-medium">
+                      <a href={`https://github.com/${contributor.github}`} 
+                         class="text-blue-600 hover:underline" 
+                         target="_blank">
+                        {contributor.name}
+                      </a>
+                    </td>
+                    <td class="py-2">{contributor.cohort}</td>
+                    <td class="text-center py-2">{contributor.commits}</td>
+                    <td class="text-center py-2">{contributor.prs}</td>
+                    <td class="text-center py-2">{contributor.reviews}</td>
+                    <td class="text-center py-2 font-semibold">{contributor.score}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-4 text-center">
+            <a href="/leaderboard" class="text-blue-600 hover:underline">
+              View Full Leaderboard →
+            </a>
+          </div>
+        </div>
+
+        <div class="text-sm text-gray-500 text-center">
+          Last updated: {new Date(stats.generated_at).toLocaleString()}
+        </div>
+      </>
+    ) : (
+      <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
+        <p class="font-bold">No data available</p>
+        <p class="text-sm">Run `npm run fetch-data` to generate contribution statistics.</p>
+      </div>
+    )}
+  </div>
+</Layout>

@@ -1,0 +1,46 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="PBA Nation Contribution Tracker" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <nav class="bg-gray-900 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">PBA Nation</h1>
+        <ul class="flex space-x-6">
+          <li><a href="/" class="hover:text-blue-400">Dashboard</a></li>
+          <li><a href="/leaderboard" class="hover:text-blue-400">Leaderboard</a></li>
+          <li><a href="/cohorts" class="hover:text-blue-400">Cohorts</a></li>
+          <li><a href="/reviews" class="hover:text-blue-400">PR Reviews</a></li>
+          <li><a href="/mentors" class="hover:text-blue-400">Mentors</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="min-h-screen bg-gray-50">
+      <slot />
+    </main>
+    <footer class="bg-gray-800 text-white p-4 mt-12">
+      <div class="container mx-auto text-center">
+        <p>PBA Nation - Building the Future of Web3</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  html {
+    font-family: system-ui, sans-serif;
+  }
+</style>

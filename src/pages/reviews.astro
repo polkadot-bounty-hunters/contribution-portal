@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+let stats = null;
+try {
+  const data = await import('../../data/contributions.json');
+  stats = data.default;
+} catch (e) {
+  console.error('No contribution data found');
+}
+---
+
+<Layout title="PBA Nation - PR Review Analytics">
+  <div class="container mx-auto p-6">
+    <h1 class="text-4xl font-bold mb-8">PR Review Analytics</h1>
+    
+    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
+      <p class="text-sm">
+        <strong>Coming Soon:</strong> Detailed PR review time analytics to help improve 
+        the review process. This will track time from PR ready state to first review,
+        identify bottlenecks, and highlight top reviewers.
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Review Time Metrics</h2>
+        <p class="text-gray-600">
+          Track average time from PR ready to first review across different repositories.
+        </p>
+        <div class="mt-4 text-center text-gray-400">
+          <p class="text-6xl mb-2">⏱️</p>
+          <p>Data collection in progress...</p>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-xl font-semibold mb-4">Top Reviewers</h2>
+        <p class="text-gray-600">
+          Recognize community members who actively review PRs.
+        </p>
+        <div class="mt-4 text-center text-gray-400">
+          <p class="text-6xl mb-2">👀</p>
+          <p>Data collection in progress...</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bg-white rounded-lg shadow p-6 mt-6">
+      <h2 class="text-xl font-semibold mb-4">Repository Review Performance</h2>
+      <p class="text-gray-600">
+        See which repositories have the fastest and slowest review times.
+      </p>
+      <div class="mt-4 text-center text-gray-400">
+        <p class="text-6xl mb-2">📊</p>
+        <p>Data collection in progress...</p>
+      </div>
+    </div>
+  </div>
+</Layout>
