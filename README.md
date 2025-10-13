@@ -1,4 +1,4 @@
-# PBA Nation Contribution Portal
+# Polkadot Bounty Hunters Contribution Portal
 
 Track and showcase contributions from PBA graduates across the Polkadot ecosystem.
 

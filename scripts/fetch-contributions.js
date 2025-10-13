@@ -14,10 +14,17 @@ const OUTPUT_DIR = path.join(__dirname, '..', 'data');
 const CONFIG_DIR = path.join(__dirname, '..', 'config');
 const SINCE_DATE = '2022-07-01T00:00:00Z';
 const CACHE_DURATION_HOURS = 23;
+const DEFAULT_BATCH_SIZE = 10;
+const RATE_LIMIT_THRESHOLD = 500; // Stop if remaining requests < this
+const BATCH_DELAY_MS = 60000; // 1 minute delay between batches
 
 class ContributionFetcher {
-  constructor(token, force = false) {
+  constructor(token, force = false, batchNumber = null, batchAll = false, batchSize = DEFAULT_BATCH_SIZE) {
     this.force = force;
+    this.batchNumber = batchNumber;
+    this.batchAll = batchAll;
+    this.batchSize = batchSize;
+    this.apiCallCount = 0;
     this.octokit = new MyOctokit({
       auth: token,
       throttle: {
@@ -58,6 +65,38 @@ class ContributionFetcher {
   async saveCache(cache) {
     await fs.mkdir(CACHE_DIR, { recursive: true });
     await fs.writeFile(path.join(CACHE_DIR, 'last-fetch.json'), JSON.stringify(cache, null, 2));
+  }
+
+  async checkRateLimit() {
+    try {
+      const { data } = await this.octokit.rateLimit.get();
+      const core = data.resources.core;
+      return {
+        remaining: core.remaining,
+        limit: core.limit,
+        reset: new Date(core.reset * 1000),
+        used: core.limit - core.remaining,
+      };
+    } catch (error) {
+      console.warn('Could not check rate limit:', error.message);
+      return null;
+    }
+  }
+
+  async waitIfNeededForRateLimit() {
+    const rateLimit = await this.checkRateLimit();
+    if (!rateLimit) return;
+
+    console.log(`API Usage: ${rateLimit.used}/${rateLimit.limit} (${rateLimit.remaining} remaining)`);
+
+    if (rateLimit.remaining < RATE_LIMIT_THRESHOLD) {
+      const now = new Date();
+      const waitTime = rateLimit.reset - now;
+      if (waitTime > 0) {
+        console.warn(`\nRate limit low (${rateLimit.remaining} remaining). Waiting until ${rateLimit.reset.toLocaleTimeString()}...`);
+        await new Promise(resolve => setTimeout(resolve, waitTime + 1000));
+      }
+    }
   }
 
   shouldFetch(cacheKey, cache) {
@@ -286,6 +325,7 @@ class ContributionFetcher {
             closed_at: pr.closedAt,
             merged_at: pr.mergedAt,
             merged_by: prDetails.merged_by,
+            author: username, // Track the PR author
             url: pr.url,
             ready_for_review_at: pr.isDraft ? null : pr.createdAt,
             reviews: prDetails.reviews,
@@ -350,65 +390,125 @@ class ContributionFetcher {
     const now = new Date().toISOString();
     const allContributions = {};
 
+    // Collect all contributors from all cohorts
+    const allContributorsList = [];
     for (const cohortKey of Object.keys(this.contributors.cohorts)) {
       const cohort = this.contributors.cohorts[cohortKey];
-      allContributions[cohortKey] = {
-        name: cohort.name,
-        start_date: cohort.start_date,
-        contributors: {},
-      };
-
       for (const contributor of cohort.contributors) {
-        console.log(`Fetching data for ${contributor.name} (${contributor.github})`);
-        
-        const userContributions = {
-          name: contributor.name,
-          github: contributor.github,
-          repositories: {},
-        };
-
-        for (const repo of this.repositories.repositories) {
-          const cacheKey = await this.getCacheKey(repo, contributor.github, 'all');
-
-          let finalContributions;
-
-          if (this.shouldFetch(cacheKey, cache)) {
-            console.log(`  Fetching fresh data for ${repo.name}...`);
-            // If force mode, fetch all data from beginning; otherwise fetch incrementally
-            const lastFetch = this.force ? SINCE_DATE : (cache[cacheKey] || SINCE_DATE);
-
-            const newContributions = await this.fetchUserContributions(
-              contributor.github,
-              repo,
-              lastFetch
-            );
-
-            // Load cached contributions and merge (skip merge if force mode and fetching all data)
-            const cachedContributions = this.force ? null : await this.loadCachedContributions(contributor.github, repo);
-            finalContributions = this.mergeContributions(cachedContributions, newContributions);
-
-            // Save merged contributions to cache
-            await this.saveCachedContributions(contributor.github, repo, finalContributions);
-
-            cache[cacheKey] = now;
-          } else {
-            const hoursSince = ((new Date() - new Date(cache[cacheKey])) / (1000 * 60 * 60)).toFixed(1);
-            console.log(`  Using cached data for ${repo.name} (fetched ${hoursSince}h ago)`);
-            finalContributions = await this.loadCachedContributions(contributor.github, repo);
-          }
-
-          userContributions.repositories[`${repo.owner}/${repo.name}`] = {
-            category: repo.category,
-            contributions: finalContributions,
-          };
-        }
-
-        allContributions[cohortKey].contributors[contributor.github] = userContributions;
+        allContributorsList.push({
+          cohortKey,
+          cohort,
+          contributor,
+        });
       }
+    }
+
+    // Determine which contributors to process
+    let contributorsToProcess = allContributorsList;
+    const totalContributors = allContributorsList.length;
+    const totalBatches = Math.ceil(totalContributors / this.batchSize);
+
+    if (this.batchNumber !== null) {
+      // Process specific batch
+      const startIdx = (this.batchNumber - 1) * this.batchSize;
+      const endIdx = Math.min(startIdx + this.batchSize, totalContributors);
+      contributorsToProcess = allContributorsList.slice(startIdx, endIdx);
+
+      console.log(`\nProcessing batch ${this.batchNumber}/${totalBatches} (contributors ${startIdx + 1}-${endIdx} of ${totalContributors})\n`);
+    } else if (this.batchAll) {
+      console.log(`\nProcessing all ${totalBatches} batches (${totalContributors} contributors total)\n`);
+    }
+
+    // Initialize cohort structures
+    for (const cohortKey of Object.keys(this.contributors.cohorts)) {
+      const cohort = this.contributors.cohorts[cohortKey];
+      if (!allContributions[cohortKey]) {
+        allContributions[cohortKey] = {
+          name: cohort.name,
+          start_date: cohort.start_date,
+          contributors: {},
+        };
+      }
+    }
+
+    // Process in batches if batch-all mode
+    if (this.batchAll) {
+      for (let batchIdx = 0; batchIdx < totalBatches; batchIdx++) {
+        const batchNum = batchIdx + 1;
+        const startIdx = batchIdx * this.batchSize;
+        const endIdx = Math.min(startIdx + this.batchSize, totalContributors);
+        const batchContributors = allContributorsList.slice(startIdx, endIdx);
+
+        console.log(`\n=== Batch ${batchNum}/${totalBatches} (contributors ${startIdx + 1}-${endIdx}) ===\n`);
+
+        await this.processBatch(batchContributors, allContributions, cache, now);
+
+        // Check rate limit and wait if needed
+        await this.waitIfNeededForRateLimit();
+
+        // Add delay between batches (except for the last one)
+        if (batchNum < totalBatches) {
+          console.log(`\nBatch ${batchNum} complete. Waiting ${BATCH_DELAY_MS / 1000}s before next batch...\n`);
+          await new Promise(resolve => setTimeout(resolve, BATCH_DELAY_MS));
+        }
+      }
+    } else {
+      // Process single batch or all at once
+      await this.processBatch(contributorsToProcess, allContributions, cache, now);
     }
 
     await this.saveCache(cache);
     return allContributions;
+  }
+
+  async processBatch(contributorsToProcess, allContributions, cache, now) {
+    for (const { cohortKey, cohort, contributor } of contributorsToProcess) {
+      console.log(`Fetching data for ${contributor.name} (${contributor.github})`);
+
+      const userContributions = {
+        name: contributor.name,
+        github: contributor.github,
+        repositories: {},
+      };
+
+      for (const repo of this.repositories.repositories) {
+        const cacheKey = await this.getCacheKey(repo, contributor.github, 'all');
+
+        let finalContributions;
+
+        if (this.shouldFetch(cacheKey, cache)) {
+          console.log(`  Fetching fresh data for ${repo.name}...`);
+          // If force mode, fetch all data from beginning; otherwise fetch incrementally
+          const lastFetch = this.force ? SINCE_DATE : (cache[cacheKey] || SINCE_DATE);
+
+          const newContributions = await this.fetchUserContributions(
+            contributor.github,
+            repo,
+            lastFetch
+          );
+
+          // Load cached contributions and merge (skip merge if force mode and fetching all data)
+          const cachedContributions = this.force ? null : await this.loadCachedContributions(contributor.github, repo);
+          finalContributions = this.mergeContributions(cachedContributions, newContributions);
+
+          // Save merged contributions to cache
+          await this.saveCachedContributions(contributor.github, repo, finalContributions);
+
+          cache[cacheKey] = now;
+        } else {
+          const hoursSince = ((new Date() - new Date(cache[cacheKey])) / (1000 * 60 * 60)).toFixed(1);
+          console.log(`  Using cached data for ${repo.name} (fetched ${hoursSince}h ago)`);
+          finalContributions = await this.loadCachedContributions(contributor.github, repo);
+        }
+
+        userContributions.repositories[`${repo.owner}/${repo.name}`] = {
+          category: repo.category,
+          contributions: finalContributions,
+        };
+      }
+
+      allContributions[cohortKey].contributors[contributor.github] = userContributions;
+    }
   }
 
   async generateStats(contributions) {
@@ -534,8 +634,8 @@ class ContributionFetcher {
               }
             }
 
-            // Aggregate merger stats
-            if (pr.merged_by) {
+            // Aggregate merger stats (exclude self-merges)
+            if (pr.merged_by && pr.merged_by !== pr.author) {
               if (!mergerMap.has(pr.merged_by)) {
                 mergerMap.set(pr.merged_by, {
                   merger: pr.merged_by,
@@ -640,12 +740,23 @@ if (require.main === module) {
   // Parse CLI arguments
   const args = process.argv.slice(2);
   const force = args.includes('--force');
+  const batchArg = args.find(arg => arg.startsWith('--batch='));
+  const batchNumber = batchArg ? parseInt(batchArg.split('=')[1]) : null;
+  const batchAll = args.includes('--batch-all');
+  const batchSizeArg = args.find(arg => arg.startsWith('--batch-size='));
+  const batchSize = batchSizeArg ? parseInt(batchSizeArg.split('=')[1]) : undefined;
 
   if (force) {
     console.log('Force mode enabled - fetching fresh data\n');
   }
 
-  const fetcher = new ContributionFetcher(token, force);
+  if (batchNumber !== null) {
+    console.log(`Batch mode: Processing batch #${batchNumber}\n`);
+  } else if (batchAll) {
+    console.log('Batch-all mode: Processing all batches sequentially\n');
+  }
+
+  const fetcher = new ContributionFetcher(token, force, batchNumber, batchAll, batchSize);
   fetcher.run().catch(console.error);
 }
 

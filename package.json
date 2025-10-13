@@ -1,10 +1,12 @@
 {
-  "name": "pba-nation-contribution-portal",
+  "name": "polkadot-bounty-hunters-portal",
   "version": "1.0.0",
-  "description": "PBA Nation Contribution Tracking Portal",
+  "description": "Polkadot Bounty Hunters Contribution Tracking Portal",
   "scripts": {
     "fetch-data": "node scripts/fetch-contributions.js",
     "fetch-data:force": "node scripts/fetch-contributions.js --force",
+    "fetch-data:batch": "node scripts/fetch-contributions.js --batch=",
+    "fetch-data:batch-all": "node scripts/fetch-contributions.js --batch-all",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview"
