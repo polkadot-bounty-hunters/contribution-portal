@@ -613,10 +613,14 @@ class ContributionFetcher {
           }
 
           for (const pr of repo.contributions.prs) {
-            // Aggregate reviewer stats
+            // Aggregate reviewer stats (exclude self-reviews)
             if (pr.reviews && pr.reviews.length > 0) {
               for (const review of pr.reviews) {
                 const reviewer = review.reviewer;
+                // Skip if reviewer is the PR author (self-review)
+                if (reviewer.toLowerCase() === pr.author.toLowerCase()) {
+                  continue;
+                }
                 if (!reviewerMap.has(reviewer)) {
                   reviewerMap.set(reviewer, {
                     reviewer,
@@ -635,7 +639,7 @@ class ContributionFetcher {
             }
 
             // Aggregate merger stats (exclude self-merges)
-            if (pr.merged_by && pr.merged_by !== pr.author) {
+            if (pr.merged_by && pr.merged_by.toLowerCase() !== pr.author.toLowerCase()) {
               if (!mergerMap.has(pr.merged_by)) {
                 mergerMap.set(pr.merged_by, {
                   merger: pr.merged_by,
