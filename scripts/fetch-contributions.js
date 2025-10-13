@@ -131,6 +131,90 @@ class ContributionFetcher {
     return merged;
   }
 
+  async fetchPRDetails(repo, prNumber) {
+    try {
+      // Fetch reviews
+      const reviews = await this.octokit.pulls.listReviews({
+        owner: repo.owner,
+        repo: repo.name,
+        pull_number: prNumber,
+        per_page: 100,
+      });
+
+      // Fetch PR details including merged_by
+      const prData = await this.octokit.pulls.get({
+        owner: repo.owner,
+        repo: repo.name,
+        pull_number: prNumber,
+      });
+
+      // Fetch comments (issue comments)
+      const comments = await this.octokit.issues.listComments({
+        owner: repo.owner,
+        repo: repo.name,
+        issue_number: prNumber,
+        per_page: 100,
+      });
+
+      const readyAt = prData.data.draft ? null : prData.data.created_at;
+      const mergedAt = prData.data.merged_at;
+      const mergedBy = prData.data.merged_by?.login || null;
+
+      // Process reviews
+      const reviewsData = reviews.data
+        .filter(r => r.user && r.submitted_at) // Filter out null users
+        .map(r => ({
+          reviewer: r.user.login,
+          submitted_at: r.submitted_at,
+          state: r.state,
+        }))
+        .sort((a, b) => new Date(a.submitted_at) - new Date(b.submitted_at));
+
+      // Process comments
+      const commentsData = comments.data
+        .filter(c => c.user)
+        .map(c => ({
+          commenter: c.user.login,
+          commented_at: c.created_at,
+        }))
+        .sort((a, b) => new Date(a.commented_at) - new Date(b.commented_at));
+
+      // Calculate time to first review
+      let timeToFirstReviewHours = null;
+      if (readyAt && reviewsData.length > 0) {
+        const firstReview = reviewsData[0];
+        const readyDate = new Date(readyAt);
+        const reviewDate = new Date(firstReview.submitted_at);
+        timeToFirstReviewHours = (reviewDate - readyDate) / (1000 * 60 * 60);
+      }
+
+      // Calculate time to merge
+      let timeToMergeHours = null;
+      if (readyAt && mergedAt) {
+        const readyDate = new Date(readyAt);
+        const mergeDate = new Date(mergedAt);
+        timeToMergeHours = (mergeDate - readyDate) / (1000 * 60 * 60);
+      }
+
+      return {
+        merged_by: mergedBy,
+        reviews: reviewsData,
+        comments: commentsData,
+        time_to_first_review_hours: timeToFirstReviewHours,
+        time_to_merge_hours: timeToMergeHours,
+      };
+    } catch (error) {
+      console.warn(`    Could not fetch details for PR #${prNumber}: ${error.message}`);
+      return {
+        merged_by: null,
+        reviews: [],
+        comments: [],
+        time_to_first_review_hours: null,
+        time_to_merge_hours: null,
+      };
+    }
+  }
+
   async fetchUserContributions(username, repo, since) {
     const contributions = {
       commits: [],
@@ -187,8 +271,13 @@ class ContributionFetcher {
       const prsResponse = await this.octokit.graphql(prsQuery, { searchQuery });
 
       if (prsResponse.search && prsResponse.search.edges) {
+        console.log(`  Found ${prsResponse.search.edges.length} PRs, fetching detailed review data...`);
         for (const edge of prsResponse.search.edges) {
           const pr = edge.node;
+
+          // Fetch detailed review data for this PR
+          const prDetails = await this.fetchPRDetails(repo, pr.number);
+
           contributions.prs.push({
             number: pr.number,
             title: pr.title,
@@ -196,12 +285,16 @@ class ContributionFetcher {
             created_at: pr.createdAt,
             closed_at: pr.closedAt,
             merged_at: pr.mergedAt,
+            merged_by: prDetails.merged_by,
             url: pr.url,
             ready_for_review_at: pr.isDraft ? null : pr.createdAt,
-            first_review_at: null,
+            reviews: prDetails.reviews,
+            comments: prDetails.comments,
+            time_to_first_review_hours: prDetails.time_to_first_review_hours,
+            time_to_merge_hours: prDetails.time_to_merge_hours,
           });
         }
-        console.log(`  Found ${contributions.prs.length} PRs`);
+        console.log(`  Processed ${contributions.prs.length} PRs with review data`);
       }
 
       // Fetch reviews using GraphQL Search API (Note: reviewed-by is deprecated but still works for now)
@@ -395,6 +488,123 @@ class ContributionFetcher {
     stats.summary.total_prs = contributorStats.reduce((sum, c) => sum + c.prs, 0);
     stats.summary.total_merged_prs = contributorStats.reduce((sum, c) => sum + c.merged_prs, 0);
     stats.summary.total_reviews = contributorStats.reduce((sum, c) => sum + c.reviews, 0);
+
+    // Calculate reviewer metrics
+    const reviewerMap = new Map();
+    const mergerMap = new Map();
+    const repoReviewTimes = {};
+    let totalReviewTimeHours = 0;
+    let reviewTimeCount = 0;
+
+    for (const cohortKey of Object.keys(contributions)) {
+      const cohort = contributions[cohortKey];
+      for (const username of Object.keys(cohort.contributors)) {
+        const contributor = cohort.contributors[username];
+        for (const repoKey of Object.keys(contributor.repositories)) {
+          const repo = contributor.repositories[repoKey];
+
+          // Track review times by repository
+          if (!repoReviewTimes[repoKey]) {
+            repoReviewTimes[repoKey] = {
+              total_time: 0,
+              count: 0,
+              merged_count: 0,
+            };
+          }
+
+          for (const pr of repo.contributions.prs) {
+            // Aggregate reviewer stats
+            if (pr.reviews && pr.reviews.length > 0) {
+              for (const review of pr.reviews) {
+                const reviewer = review.reviewer;
+                if (!reviewerMap.has(reviewer)) {
+                  reviewerMap.set(reviewer, {
+                    reviewer,
+                    review_count: 0,
+                    approved_count: 0,
+                    total_time_to_review: 0,
+                    review_time_count: 0,
+                  });
+                }
+                const reviewerStats = reviewerMap.get(reviewer);
+                reviewerStats.review_count++;
+                if (review.state === 'APPROVED') {
+                  reviewerStats.approved_count++;
+                }
+              }
+            }
+
+            // Aggregate merger stats
+            if (pr.merged_by) {
+              if (!mergerMap.has(pr.merged_by)) {
+                mergerMap.set(pr.merged_by, {
+                  merger: pr.merged_by,
+                  merge_count: 0,
+                });
+              }
+              mergerMap.get(pr.merged_by).merge_count++;
+            }
+
+            // Calculate average review times
+            if (pr.time_to_first_review_hours !== null) {
+              totalReviewTimeHours += pr.time_to_first_review_hours;
+              reviewTimeCount++;
+
+              repoReviewTimes[repoKey].total_time += pr.time_to_first_review_hours;
+              repoReviewTimes[repoKey].count++;
+
+              // Add to first reviewer's time stats
+              if (pr.reviews && pr.reviews.length > 0) {
+                const firstReviewer = pr.reviews[0].reviewer;
+                const reviewerStats = reviewerMap.get(firstReviewer);
+                if (reviewerStats) {
+                  reviewerStats.total_time_to_review += pr.time_to_first_review_hours;
+                  reviewerStats.review_time_count++;
+                }
+              }
+            }
+
+            if (pr.merged_at) {
+              repoReviewTimes[repoKey].merged_count++;
+            }
+          }
+        }
+      }
+    }
+
+    // Calculate average review time
+    stats.pr_review_metrics.average_review_time_hours =
+      reviewTimeCount > 0 ? totalReviewTimeHours / reviewTimeCount : 0;
+
+    // Sort and format top reviewers
+    stats.pr_review_metrics.top_reviewers = Array.from(reviewerMap.values())
+      .map(r => ({
+        ...r,
+        avg_time_to_review_hours: r.review_time_count > 0
+          ? r.total_time_to_review / r.review_time_count
+          : null,
+        approval_rate: r.review_count > 0
+          ? (r.approved_count / r.review_count) * 100
+          : 0,
+      }))
+      .sort((a, b) => b.review_count - a.review_count)
+      .slice(0, 20)
+      .map(({ total_time_to_review, review_time_count, ...rest }) => rest);
+
+    // Top mergers
+    stats.pr_review_metrics.top_mergers = Array.from(mergerMap.values())
+      .sort((a, b) => b.merge_count - a.merge_count)
+      .slice(0, 20);
+
+    // Format repositories by review time
+    stats.pr_review_metrics.repositories_by_review_time = Object.entries(repoReviewTimes)
+      .map(([repo, data]) => ({
+        repository: repo,
+        avg_review_time_hours: data.count > 0 ? data.total_time / data.count : 0,
+        pr_count: data.count,
+        merged_count: data.merged_count,
+      }))
+      .sort((a, b) => b.pr_count - a.pr_count);
 
     return stats;
   }

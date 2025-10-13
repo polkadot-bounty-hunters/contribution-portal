@@ -8,53 +8,146 @@ try {
 } catch (e) {
   console.error('No contribution data found');
 }
+
+const formatHours = (hours) => {
+  if (!hours && hours !== 0) return 'N/A';
+  if (hours < 1) return `${Math.round(hours * 60)} minutes`;
+  if (hours < 24) return `${hours.toFixed(1)} hours`;
+  return `${(hours / 24).toFixed(1)} days`;
+};
 ---
 
 <Layout title="PBA Nation - PR Review Analytics">
   <div class="container mx-auto p-6">
     <h1 class="text-4xl font-bold mb-8">PR Review Analytics</h1>
-    
+
     <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
       <p class="text-sm">
-        <strong>Coming Soon:</strong> Detailed PR review time analytics to help improve 
-        the review process. This will track time from PR ready state to first review,
-        identify bottlenecks, and highlight top reviewers.
+        <strong>Who's reviewing PBA graduate PRs?</strong> This page shows who from the community
+        (including Parity team) is reviewing, commenting on, and merging PRs from PBA graduates.
       </p>
     </div>
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="bg-white rounded-lg shadow p-6">
-        <h2 class="text-xl font-semibold mb-4">Review Time Metrics</h2>
-        <p class="text-gray-600">
-          Track average time from PR ready to first review across different repositories.
-        </p>
-        <div class="mt-4 text-center text-gray-400">
-          <p class="text-6xl mb-2">⏱️</p>
-          <p>Data collection in progress...</p>
+
+    {stats && stats.pr_review_metrics ? (
+      <>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-xl font-semibold mb-4">Top Reviewers</h2>
+            <p class="text-gray-600 mb-4 text-sm">
+              People who review PRs from PBA graduates the most
+            </p>
+            <div class="overflow-x-auto">
+              <table class="min-w-full text-sm">
+                <thead>
+                  <tr class="border-b">
+                    <th class="text-left py-2 pr-4">#</th>
+                    <th class="text-left py-2 pr-4">Reviewer</th>
+                    <th class="text-center py-2 pr-4">Reviews</th>
+                    <th class="text-center py-2 pr-4">Avg Time</th>
+                    <th class="text-center py-2">Approval %</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {stats.pr_review_metrics.top_reviewers.slice(0, 15).map((reviewer, index) => (
+                    <tr class="border-b hover:bg-gray-50">
+                      <td class="py-2 pr-4">{index + 1}</td>
+                      <td class="py-2 pr-4">
+                        <a href={`https://github.com/${reviewer.reviewer}`}
+                           class="text-blue-600 hover:underline font-medium"
+                           target="_blank">
+                          {reviewer.reviewer}
+                        </a>
+                      </td>
+                      <td class="text-center py-2 pr-4">{reviewer.review_count}</td>
+                      <td class="text-center py-2 pr-4">{formatHours(reviewer.avg_time_to_review_hours)}</td>
+                      <td class="text-center py-2">{reviewer.approval_rate?.toFixed(0)}%</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-xl font-semibold mb-4">Top Mergers</h2>
+            <p class="text-gray-600 mb-4 text-sm">
+              People who merge PRs from PBA graduates the most
+            </p>
+            <div class="overflow-x-auto">
+              <table class="min-w-full text-sm">
+                <thead>
+                  <tr class="border-b">
+                    <th class="text-left py-2 pr-4">#</th>
+                    <th class="text-left py-2 pr-4">Merger</th>
+                    <th class="text-center py-2">Merges</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {stats.pr_review_metrics.top_mergers.slice(0, 15).map((merger, index) => (
+                    <tr class="border-b hover:bg-gray-50">
+                      <td class="py-2 pr-4">{index + 1}</td>
+                      <td class="py-2 pr-4">
+                        <a href={`https://github.com/${merger.merger}`}
+                           class="text-blue-600 hover:underline font-medium"
+                           target="_blank">
+                          {merger.merger}
+                        </a>
+                      </td>
+                      <td class="text-center py-2">{merger.merge_count}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
-      </div>
-      
-      <div class="bg-white rounded-lg shadow p-6">
-        <h2 class="text-xl font-semibold mb-4">Top Reviewers</h2>
-        <p class="text-gray-600">
-          Recognize community members who actively review PRs.
-        </p>
-        <div class="mt-4 text-center text-gray-400">
-          <p class="text-6xl mb-2">👀</p>
-          <p>Data collection in progress...</p>
+
+        <div class="bg-white rounded-lg shadow p-6">
+          <h2 class="text-xl font-semibold mb-4">Repository Review Performance</h2>
+          <p class="text-gray-600 mb-4 text-sm">
+            Average time to first review by repository
+          </p>
+          <div class="overflow-x-auto">
+            <table class="min-w-full text-sm">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    Repository
+                  </th>
+                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">
+                    PRs Tracked
+                  </th>
+                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">
+                    Merged
+                  </th>
+                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">
+                    Avg Review Time
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-200">
+                {stats.pr_review_metrics.repositories_by_review_time.map((repo) => (
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3 font-medium">{repo.repository}</td>
+                    <td class="px-4 py-3 text-center">{repo.pr_count}</td>
+                    <td class="px-4 py-3 text-center">{repo.merged_count}</td>
+                    <td class="px-4 py-3 text-center">{formatHours(repo.avg_review_time_hours)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
+
+        <div class="mt-6 text-sm text-gray-500 text-center">
+          Data last updated: {new Date(stats.generated_at).toLocaleString()}
+        </div>
+      </>
+    ) : (
+      <div class="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
+        <p class="font-bold">No data available</p>
+        <p class="text-sm">Run `npm run fetch-data:force` to generate PR review statistics.</p>
       </div>
-    </div>
-    
-    <div class="bg-white rounded-lg shadow p-6 mt-6">
-      <h2 class="text-xl font-semibold mb-4">Repository Review Performance</h2>
-      <p class="text-gray-600">
-        See which repositories have the fastest and slowest review times.
-      </p>
-      <div class="mt-4 text-center text-gray-400">
-        <p class="text-6xl mb-2">📊</p>
-        <p>Data collection in progress...</p>
-      </div>
-    </div>
+    )}
   </div>
 </Layout>
