@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-13T18:07:56.707Z",
+  "generated_at": "2025-10-14T03:05:37.410Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 179,
@@ -18710,16 +18710,16 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 9985,
+                    "pr_title": "`pallet-xcm`: extract precompiles to a separate crate",
+                    "reviewed_at": "2025-10-13T23:02:11Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9985"
+                  },
+                  {
                     "pr_number": 9856,
                     "pr_title": "Erc721 transactor",
                     "reviewed_at": "2025-10-12T19:07:41Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9856"
-                  },
-                  {
-                    "pr_number": 9985,
-                    "pr_title": "`pallet-xcm`: extract precompiles to a separate crate",
-                    "reviewed_at": "2025-10-12T10:42:13Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/9985"
                   },
                   {
                     "pr_number": 8297,
