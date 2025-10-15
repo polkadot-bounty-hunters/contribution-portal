@@ -1,0 +1,131 @@
+{
+  "commits": [
+    {
+      "sha": "4096ad7f8f769f740cb43669b4e50feb722d19dc",
+      "message": "Remove pallet::getter usage from treasury (#4962)",
+      "date": "2024-08-28T19:18:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4096ad7f8f769f740cb43669b4e50feb722d19dc"
+    },
+    {
+      "sha": "839ead3441b4012cbf6451af5b19a923bcbc379b",
+      "message": "Remove pallet::getter usage from proxy (#4963)",
+      "date": "2024-07-29T22:12:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/839ead3441b4012cbf6451af5b19a923bcbc379b"
+    }
+  ],
+  "prs": [
+    {
+      "number": 4963,
+      "title": "Remove pallet::getter usage from proxy",
+      "state": "MERGED",
+      "created_at": "2024-07-06T19:36:08Z",
+      "closed_at": "2024-07-29T22:40:30Z",
+      "merged_at": "2024-07-29T22:40:30Z",
+      "merged_by": "bkchr",
+      "author": "Polkaverse",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4963",
+      "ready_for_review_at": "2024-07-06T19:36:08Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-07-11T23:09:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-07-29T21:02:41Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-07-06T19:36:16Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2024-10-10T17:31:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 123.56138888888889,
+      "time_to_merge_hours": 555.0727777777778
+    },
+    {
+      "number": 4962,
+      "title": "Remove pallet::getter usage from treasury",
+      "state": "MERGED",
+      "created_at": "2024-07-06T19:11:44Z",
+      "closed_at": "2024-08-28T20:58:45Z",
+      "merged_at": "2024-08-28T20:58:45Z",
+      "merged_by": "bkchr",
+      "author": "Polkaverse",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4962",
+      "ready_for_review_at": "2024-07-06T19:11:44Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-07-29T21:06:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-07-29T21:06:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-08-28T09:24:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-08-28T09:45:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-08-28T18:46:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-08-28T18:46:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-08-28T18:46:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-08-28T18:47:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-08-28T20:16:31Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-07-06T19:11:52Z"
+        },
+        {
+          "commenter": "Polkaverse",
+          "commented_at": "2024-08-28T08:58:35Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2024-10-10T17:31:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 553.9091666666667,
+      "time_to_merge_hours": 1273.7836111111112
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

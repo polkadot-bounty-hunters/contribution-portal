@@ -1,0 +1,13 @@
+{
+  "commits": [
+    {
+      "sha": "f81f1bae4c2c2e2d06cf1e5aa33625e9f33f004b",
+      "message": "edit xcm simulator test code (#6695)",
+      "date": "2023-02-10T08:50:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f81f1bae4c2c2e2d06cf1e5aa33625e9f33f004b"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

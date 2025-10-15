@@ -1,0 +1,327 @@
+{
+  "commits": [
+    {
+      "sha": "a0a3b84738fdaef7f72be79d388f5b87565b2cb4",
+      "message": "Snowbridge V2: Add `OnNewCommitment` hook to outbound-queue pallet (#8053)",
+      "date": "2025-09-23T09:15:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a0a3b84738fdaef7f72be79d388f5b87565b2cb4"
+    }
+  ],
+  "prs": [
+    {
+      "number": 8175,
+      "title": "Snowbridge V2: Generic inbound message processing",
+      "state": "OPEN",
+      "created_at": "2025-04-07T15:56:45Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Agusrodri",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8175",
+      "ready_for_review_at": "2025-04-07T15:56:45Z",
+      "reviews": [
+        {
+          "reviewer": "yrong",
+          "submitted_at": "2025-04-29T13:46:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "yrong",
+          "submitted_at": "2025-04-29T13:57:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-04-29T22:19:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-04-29T22:24:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "yrong",
+          "submitted_at": "2025-04-30T01:50:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "yrong",
+          "submitted_at": "2025-04-30T01:51:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-04-30T04:38:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "yrong",
+          "submitted_at": "2025-04-30T07:12:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2025-04-30T08:28:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2025-04-30T08:30:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vgeddes",
+          "submitted_at": "2025-04-30T10:46:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-04-30T13:21:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-04-30T13:22:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-04-30T13:23:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vgeddes",
+          "submitted_at": "2025-05-06T14:53:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-05-06T23:41:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-05-20T01:39:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vgeddes",
+          "submitted_at": "2025-05-21T19:52:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-05-21T21:33:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "yrong",
+          "submitted_at": "2025-06-09T09:30:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-10-09T07:37:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-10-09T07:41:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-10-09T07:42:32Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "yrong",
+          "commented_at": "2025-04-30T02:03:38Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-30T04:37:33Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2025-04-30T04:40:58Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2025-09-23T15:46:37Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-09-25T11:08:50Z"
+        }
+      ],
+      "time_to_first_review_hours": 525.8327777777778,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8125,
+      "title": "Snowbridge V2: Add missing `set_operating_mode` call in outbound-queue pallet",
+      "state": "CLOSED",
+      "created_at": "2025-04-01T15:51:24Z",
+      "closed_at": "2025-04-02T13:08:08Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Agusrodri",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8125",
+      "ready_for_review_at": "2025-04-01T15:51:24Z",
+      "reviews": [
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2025-04-01T18:42:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "yrong",
+          "submitted_at": "2025-04-02T10:43:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-04-02T13:07:55Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 2.8544444444444443,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8053,
+      "title": "Snowbridge V2: Add `OnNewCommitment` hook to outbound-queue pallet",
+      "state": "MERGED",
+      "created_at": "2025-03-26T15:18:40Z",
+      "closed_at": "2025-09-23T09:51:04Z",
+      "merged_at": "2025-09-23T09:51:04Z",
+      "merged_by": "acatangiu",
+      "author": "Agusrodri",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8053",
+      "ready_for_review_at": "2025-03-26T15:18:40Z",
+      "reviews": [
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2025-03-28T14:43:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-03-28T14:44:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-02T07:16:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-05-19T15:18:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2025-05-20T15:46:02Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2025-03-27T06:42:55Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2025-03-27T15:37:15Z"
+        },
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2025-03-28T08:54:17Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2025-03-28T14:34:43Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-03-28T14:47:43Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2025-04-01T14:50:38Z"
+        },
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2025-04-01T18:40:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 47.40888888888889,
+      "time_to_merge_hours": 4338.54
+    },
+    {
+      "number": 1579,
+      "title": "Add extrinsic to allow modifying ConfigData inside DMP queue pallet",
+      "state": "CLOSED",
+      "created_at": "2023-09-14T19:04:09Z",
+      "closed_at": "2023-11-03T13:10:56Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Agusrodri",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1579",
+      "ready_for_review_at": "2023-09-14T19:04:09Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-10-26T12:55:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-10-30T11:19:58Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-09-14T19:04:15Z"
+        },
+        {
+          "commenter": "girazoki",
+          "commented_at": "2023-10-26T12:43:34Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-11-02T22:05:49Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2023-11-02T22:10:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 1001.8538888888888,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 8175,
+      "pr_title": "Snowbridge V2: Generic inbound message processing",
+      "reviewed_at": "2025-10-09T07:42:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8175"
+    },
+    {
+      "pr_number": 8125,
+      "pr_title": "Snowbridge V2: Add missing `set_operating_mode` call in outbound-queue pallet",
+      "reviewed_at": "2025-04-02T13:08:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8125"
+    }
+  ]
+}

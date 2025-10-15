@@ -1,0 +1,206 @@
+{
+  "commits": [
+    {
+      "sha": "4b2ca118666ded0d55d8a6c1657320658d3395d9",
+      "message": "refactor: Move `T:Config` into where clause in `#[benchmarks]` macro if needed (#7418)",
+      "date": "2025-02-14T11:51:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4b2ca118666ded0d55d8a6c1657320658d3395d9"
+    },
+    {
+      "sha": "515a9f7ad90e664c80214931d85da3d53c807573",
+      "message": "Fix small typo in fungible token freeze docs (#4943)",
+      "date": "2024-07-06T20:27:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/515a9f7ad90e664c80214931d85da3d53c807573"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7418,
+      "title": "refactor: Move `T:Config` into where clause in `#[benchmarks]` macro if needed",
+      "state": "MERGED",
+      "created_at": "2025-02-01T11:12:44Z",
+      "closed_at": "2025-02-14T12:40:30Z",
+      "merged_at": "2025-02-14T12:40:30Z",
+      "merged_by": "bkchr",
+      "author": "tsenovilla",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7418",
+      "ready_for_review_at": "2025-02-01T11:12:44Z",
+      "reviews": [
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-02-01T14:28:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-02-02T02:03:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-02-03T10:29:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tsenovilla",
+          "submitted_at": "2025-02-03T11:46:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-14T11:39:35Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "tsenovilla",
+          "commented_at": "2025-02-01T16:06:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.2691666666666666,
+      "time_to_merge_hours": 313.4627777777778
+    },
+    {
+      "number": 4943,
+      "title": "Fix small typo in fungible token freeze docs",
+      "state": "MERGED",
+      "created_at": "2024-07-04T13:03:56Z",
+      "closed_at": "2024-07-06T21:00:22Z",
+      "merged_at": "2024-07-06T21:00:22Z",
+      "merged_by": "bkchr",
+      "author": "tsenovilla",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4943",
+      "ready_for_review_at": "2024-07-04T13:03:56Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-07-05T10:33:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-07-05T10:47:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-07-05T11:00:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tsenovilla",
+          "submitted_at": "2024-07-05T11:34:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-07-05T11:48:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tsenovilla",
+          "submitted_at": "2024-07-05T12:14:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-07-05T12:19:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tsenovilla",
+          "submitted_at": "2024-07-05T12:22:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-07-05T12:31:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tsenovilla",
+          "submitted_at": "2024-07-05T12:35:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tsenovilla",
+          "submitted_at": "2024-07-06T11:08:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-07-06T11:36:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-07-06T11:36:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-07-06T12:23:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tsenovilla",
+          "submitted_at": "2024-07-06T13:59:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-07-06T19:49:14Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-07-04T13:04:03Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-07-05T12:12:13Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-07-06T12:24:26Z"
+        },
+        {
+          "commenter": "tsenovilla",
+          "commented_at": "2024-07-06T13:12:53Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-07-06T19:50:32Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-06T19:50:37Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-06T19:54:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 21.490833333333335,
+      "time_to_merge_hours": 55.940555555555555
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 7418,
+      "pr_title": "refactor: Move `T:Config` into where clause in `#[benchmarks]` macro if needed",
+      "reviewed_at": "2025-02-14T12:40:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7418"
+    },
+    {
+      "pr_number": 4943,
+      "pr_title": "Fix small typo in fungible token freeze docs",
+      "reviewed_at": "2024-07-08T08:46:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4943"
+    }
+  ]
+}

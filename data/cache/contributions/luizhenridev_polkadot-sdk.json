@@ -1,0 +1,40 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 8252,
+      "title": "8078 fix",
+      "state": "CLOSED",
+      "created_at": "2025-04-16T01:34:38Z",
+      "closed_at": "2025-05-08T09:58:42Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "luizhenridev",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8252",
+      "ready_for_review_at": "2025-04-16T01:34:38Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-04-16T01:34:45Z"
+        },
+        {
+          "commenter": "luizhenridev",
+          "commented_at": "2025-04-16T01:35:25Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-16T08:00:19Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-05-08T09:58:42Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

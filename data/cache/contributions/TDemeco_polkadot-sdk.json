@@ -1,0 +1,262 @@
+{
+  "commits": [
+    {
+      "sha": "33a43cf48b0dc78fad1212ceb15b64b81fb8e761",
+      "message": "fix: :bug: use `MaxKeys` from `pallet-im-online`'s Config trait instead of hardcoded one in benchmarks (#9325)",
+      "date": "2025-07-25T11:25:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/33a43cf48b0dc78fad1212ceb15b64b81fb8e761"
+    },
+    {
+      "sha": "5e8348f03f49cc32ad48912e186c04b0f1212b16",
+      "message": "sp-trie: correctly avoid panicking when decoding bad compact proofs (#6502)",
+      "date": "2024-11-19T09:29:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5e8348f03f49cc32ad48912e186c04b0f1212b16"
+    },
+    {
+      "sha": "a77940bac783108fcae783c553528c8d5328e5b2",
+      "message": "sp-trie: minor fix to avoid possible panic during node decoding (#6486)",
+      "date": "2024-11-15T10:09:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a77940bac783108fcae783c553528c8d5328e5b2"
+    }
+  ],
+  "prs": [
+    {
+      "number": 9325,
+      "title": "fix: :bug: use `MaxKeys` from `pallet-im-online`'s Config trait instead of hardcoded one in benchmarks",
+      "state": "MERGED",
+      "created_at": "2025-07-24T21:38:20Z",
+      "closed_at": "2025-07-25T12:02:40Z",
+      "merged_at": "2025-07-25T12:02:40Z",
+      "merged_by": "bkchr",
+      "author": "TDemeco",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9325",
+      "ready_for_review_at": "2025-07-24T21:38:20Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-07-25T11:09:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-25T11:21:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rockbmb",
+          "submitted_at": "2025-07-25T11:56:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "TDemeco",
+          "commented_at": "2025-07-25T12:02:52Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-25T12:55:59Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-25T12:56:04Z"
+        }
+      ],
+      "time_to_first_review_hours": 13.526388888888889,
+      "time_to_merge_hours": 14.405555555555555
+    },
+    {
+      "number": 9099,
+      "title": "[stable2412] Backport #8179",
+      "state": "MERGED",
+      "created_at": "2025-07-03T21:15:20Z",
+      "closed_at": "2025-07-25T12:12:36Z",
+      "merged_at": "2025-07-25T12:12:36Z",
+      "merged_by": "EgorPopelyaev",
+      "author": "TDemeco",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9099",
+      "ready_for_review_at": "2025-07-03T21:15:20Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-07-04T20:21:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "TDemeco",
+          "submitted_at": "2025-07-14T13:14:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-07-14T19:50:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "TDemeco",
+          "submitted_at": "2025-07-22T12:21:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "EgorPopelyaev",
+          "submitted_at": "2025-07-25T12:10:36Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "EgorPopelyaev",
+          "commented_at": "2025-07-04T08:44:18Z"
+        },
+        {
+          "commenter": "TDemeco",
+          "commented_at": "2025-07-04T11:24:30Z"
+        },
+        {
+          "commenter": "EgorPopelyaev",
+          "commented_at": "2025-07-24T10:02:10Z"
+        },
+        {
+          "commenter": "TDemeco",
+          "commented_at": "2025-07-24T12:32:38Z"
+        },
+        {
+          "commenter": "TDemeco",
+          "commented_at": "2025-07-24T16:40:02Z"
+        }
+      ],
+      "time_to_first_review_hours": 23.098055555555554,
+      "time_to_merge_hours": 518.9544444444444
+    },
+    {
+      "number": 6502,
+      "title": "sp-trie: correctly avoid panicking when decoding bad compact proofs",
+      "state": "MERGED",
+      "created_at": "2024-11-15T15:47:45Z",
+      "closed_at": "2024-11-19T11:12:03Z",
+      "merged_at": "2024-11-19T11:12:03Z",
+      "merged_by": "bkchr",
+      "author": "TDemeco",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6502",
+      "ready_for_review_at": "2024-11-15T15:47:45Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-11-18T07:58:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-11-18T08:01:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-11-18T08:21:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2024-11-18T08:48:09Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 64.18,
+      "time_to_merge_hours": 91.405
+    },
+    {
+      "number": 6486,
+      "title": "sp-trie: minor fix to avoid possible panic during node decoding",
+      "state": "MERGED",
+      "created_at": "2024-11-14T17:47:07Z",
+      "closed_at": "2024-11-15T11:01:35Z",
+      "merged_at": "2024-11-15T11:01:35Z",
+      "merged_by": "bkchr",
+      "author": "TDemeco",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6486",
+      "ready_for_review_at": "2024-11-14T17:47:07Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-11-14T20:53:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2024-11-15T08:38:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "TDemeco",
+          "submitted_at": "2024-11-15T16:01:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2024-11-18T08:51:29Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-11-14T21:21:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.1119444444444446,
+      "time_to_merge_hours": 17.24111111111111
+    },
+    {
+      "number": 5897,
+      "title": "[1.12.0 backport] Use `polkadot-ckb-merkle-mountain-range` dependency",
+      "state": "MERGED",
+      "created_at": "2024-10-01T18:44:29Z",
+      "closed_at": "2024-10-07T07:47:54Z",
+      "merged_at": "2024-10-07T07:47:54Z",
+      "merged_by": "acatangiu",
+      "author": "TDemeco",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5897",
+      "ready_for_review_at": "2024-10-01T18:44:29Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-10-06T11:12:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2024-10-07T06:29:23Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-10-01T18:44:35Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-10-06T11:19:31Z"
+        }
+      ],
+      "time_to_first_review_hours": 112.46555555555555,
+      "time_to_merge_hours": 133.05694444444444
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 9099,
+      "pr_title": "[stable2412] Backport #8179",
+      "reviewed_at": "2025-07-25T12:12:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9099"
+    },
+    {
+      "pr_number": 6486,
+      "pr_title": "sp-trie: minor fix to avoid possible panic during node decoding",
+      "reviewed_at": "2024-11-18T08:51:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6486"
+    }
+  ]
+}

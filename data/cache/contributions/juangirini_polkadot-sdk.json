@@ -1,0 +1,2650 @@
+{
+  "commits": [
+    {
+      "sha": "bcb4d137c9efffde8f27c3906177519da031552c",
+      "message": "[doc] Example MBM pallet (#2119)",
+      "date": "2024-04-04T11:47:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bcb4d137c9efffde8f27c3906177519da031552c"
+    },
+    {
+      "sha": "cad947951d9e4b2b4b9308db987c0153506f853e",
+      "message": "Finish up polkadot doc (#2798)",
+      "date": "2024-01-02T19:39:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cad947951d9e4b2b4b9308db987c0153506f853e"
+    },
+    {
+      "sha": "b4c816665bd094b6ad703f1d11291c49bf66408f",
+      "message": "Remove rustdocs allowances (#2797)",
+      "date": "2023-12-24T08:03:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b4c816665bd094b6ad703f1d11291c49bf66408f"
+    },
+    {
+      "sha": "7c79741e4019258cf174c02ca7abcf4d48155c9a",
+      "message": "SDK docs ref cli (#2741)",
+      "date": "2023-12-19T14:42:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7c79741e4019258cf174c02ca7abcf4d48155c9a"
+    },
+    {
+      "sha": "d1924013b62cdcddcc1d1720c0c6f6bf27298ca3",
+      "message": "Ref docs: runtime vs contracts (#2609)",
+      "date": "2023-12-19T14:28:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d1924013b62cdcddcc1d1720c0c6f6bf27298ca3"
+    },
+    {
+      "sha": "6b5995ffd162d88df1e3baeaafe05869d1a7d966",
+      "message": "Add a deprecation section to the Contributing notes (#2248)",
+      "date": "2023-12-12T13:24:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6b5995ffd162d88df1e3baeaafe05869d1a7d966"
+    },
+    {
+      "sha": "4df313fbc7abd64a93d3e8f07f4f9870094e8a94",
+      "message": "Improve polkadot sdk docs (#2631)",
+      "date": "2023-12-06T19:26:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4df313fbc7abd64a93d3e8f07f4f9870094e8a94"
+    },
+    {
+      "sha": "a310df263de0755d2a00ad02fd5692810cf2d2a3",
+      "message": "Move `developer-hub` to `polkadot-sdk-docs` (#2598)",
+      "date": "2023-12-05T09:23:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a310df263de0755d2a00ad02fd5692810cf2d2a3"
+    },
+    {
+      "sha": "c30ed6f2ff0b88c37b690884d9049ce05ebd34a4",
+      "message": "Add missing glossary to ref docs (#2572)",
+      "date": "2023-11-30T16:36:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c30ed6f2ff0b88c37b690884d9049ce05ebd34a4"
+    },
+    {
+      "sha": "8cfbee706dab7bf55fe6c9fb3a8bfbe29e6776aa",
+      "message": "Add deprecation checklist document for Substrate (#1583)",
+      "date": "2023-11-03T15:36:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8cfbee706dab7bf55fe6c9fb3a8bfbe29e6776aa"
+    },
+    {
+      "sha": "43415ef58c143b985e09015cd000dbd65f6d3997",
+      "message": "feat: FRAME umbrella crate. (#1337)",
+      "date": "2023-10-27T09:38:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/43415ef58c143b985e09015cd000dbd65f6d3997"
+    },
+    {
+      "sha": "7c87d61f5a8e979a200d3f2676a5c83e35c31db4",
+      "message": "Macros to use path instead of ident (#1474)",
+      "date": "2023-10-14T06:26:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7c87d61f5a8e979a200d3f2676a5c83e35c31db4"
+    },
+    {
+      "sha": "68ab943c65a7d214d62c3b7e0fd94561dd9e64b2",
+      "message": "Remove deprecated `pallet_balances`'s `set_balance_deprecated` and `transfer` dispatchables (#1226)",
+      "date": "2023-09-06T13:06:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/68ab943c65a7d214d62c3b7e0fd94561dd9e64b2"
+    },
+    {
+      "sha": "bdbe98297032e21a553bf191c530690b1d591405",
+      "message": "Restructure `dispatch` macro related exports (#1162)",
+      "date": "2023-08-31T11:08:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bdbe98297032e21a553bf191c530690b1d591405"
+    },
+    {
+      "sha": "bc2b3d9d28cbf9e3b44ee2738836e782028e7f54",
+      "message": "Restructure `frame_benchmarking` macro related exports (#14787)",
+      "date": "2023-08-24T15:32:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bc2b3d9d28cbf9e3b44ee2738836e782028e7f54"
+    },
+    {
+      "sha": "878c562cd48dd30f412dc493e250ccf46d9773cf",
+      "message": "Restructure `frame_support` macro related exports (#14745)",
+      "date": "2023-08-23T12:30:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/878c562cd48dd30f412dc493e250ccf46d9773cf"
+    },
+    {
+      "sha": "c4aa18c4bb091fe90a4d8af7cd367e0d08fd0fed",
+      "message": "Companion: restructure macro related exports (#7626)",
+      "date": "2023-08-23T11:39:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c4aa18c4bb091fe90a4d8af7cd367e0d08fd0fed"
+    },
+    {
+      "sha": "8349c8d18af15c091b2f2a9f23f07a22ff2309cc",
+      "message": "Companion: restructure macro related exports (#3015)",
+      "date": "2023-08-23T11:35:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8349c8d18af15c091b2f2a9f23f07a22ff2309cc"
+    },
+    {
+      "sha": "4f699c70a46ab981070fbedc81a5f986353566c1",
+      "message": "Companion for Contracts remove deposit account (#2973)",
+      "date": "2023-08-18T15:00:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4f699c70a46ab981070fbedc81a5f986353566c1"
+    },
+    {
+      "sha": "9c5315961e2f75b092c431bebe8cc1b4481853db",
+      "message": "Contracts remove deposit accounts (#14589)",
+      "date": "2023-08-18T14:24:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/9c5315961e2f75b092c431bebe8cc1b4481853db"
+    },
+    {
+      "sha": "fef9723d654759ef00a3f526b83a261c4aa9a807",
+      "message": "Jg/13643 contracts migrate to fungible traits (#14020)",
+      "date": "2023-08-02T13:51:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/fef9723d654759ef00a3f526b83a261c4aa9a807"
+    },
+    {
+      "sha": "85f9931e4f9325548ae9ba7604807f8b2bea89f6",
+      "message": "Add `FixedPointOperand` blanket implementation (#14634)",
+      "date": "2023-08-02T07:54:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/85f9931e4f9325548ae9ba7604807f8b2bea89f6"
+    },
+    {
+      "sha": "3513b7e019e6f41be1eb45cdd25e814ca9be3939",
+      "message": "Replace Index for Nonce (#2740)",
+      "date": "2023-07-14T08:46:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/3513b7e019e6f41be1eb45cdd25e814ca9be3939"
+    },
+    {
+      "sha": "b95cc76d7cbeba746857be02b4f09ba7b86717af",
+      "message": "Replace Index for Nonce (#7374)",
+      "date": "2023-07-14T08:13:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b95cc76d7cbeba746857be02b4f09ba7b86717af"
+    },
+    {
+      "sha": "6a29a70a927de1017b5c54626c88c3fa439aef48",
+      "message": "Replace system config `Index` for `Nonce` (#14290)",
+      "date": "2023-07-14T06:56:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6a29a70a927de1017b5c54626c88c3fa439aef48"
+    },
+    {
+      "sha": "ced77b3d3025df8dd3525732e0e517fb2d1b2259",
+      "message": "Companion for Soft deprecate GenesisConfig (#7288)",
+      "date": "2023-06-16T11:34:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ced77b3d3025df8dd3525732e0e517fb2d1b2259"
+    },
+    {
+      "sha": "d77a8826d18adf63cd2919746a5bf4505eed7492",
+      "message": "Companion for Soft deprecate GenesisConfig (#2636)",
+      "date": "2023-06-16T11:05:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d77a8826d18adf63cd2919746a5bf4505eed7492"
+    },
+    {
+      "sha": "6673f836eab0b58b545c7c9d228fefad5c0a7db6",
+      "message": "Add a deprecation warning to the old runtime GenesisConfig (#14224)",
+      "date": "2023-06-16T10:54:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6673f836eab0b58b545c7c9d228fefad5c0a7db6"
+    },
+    {
+      "sha": "4afbff976396923a78f6c1227b1f89efb787319a",
+      "message": "Add Migrations to contracts config (#2701)",
+      "date": "2023-06-09T11:46:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4afbff976396923a78f6c1227b1f89efb787319a"
+    },
+    {
+      "sha": "112a0e73528fdba01638412e7ec56ca13c52a321",
+      "message": "Move `type Migrations` to `Config` (#14309)",
+      "date": "2023-06-09T11:04:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/112a0e73528fdba01638412e7ec56ca13c52a321"
+    },
+    {
+      "sha": "34b2a56af1ac1ed6f44f3662faef830bb6b7dd71",
+      "message": "Soft deprecate GenesisConfig (#14210)",
+      "date": "2023-05-26T09:42:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/34b2a56af1ac1ed6f44f3662faef830bb6b7dd71"
+    },
+    {
+      "sha": "456dc5d5fd06c6da7fcfe55b94ae7a97909727ce",
+      "message": "Add review rules regarding the owned files (#14122)",
+      "date": "2023-05-16T10:24:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/456dc5d5fd06c6da7fcfe55b94ae7a97909727ce"
+    },
+    {
+      "sha": "97da233acd78d3a945ab5ed9a415850afeb1c99b",
+      "message": "Update codeowners file (#14078)",
+      "date": "2023-05-05T12:39:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/97da233acd78d3a945ab5ed9a415850afeb1c99b"
+    },
+    {
+      "sha": "a57745ddf8e6fd4b66f251052bf825148d0bf1ea",
+      "message": "Companion PR for add events to ContractResult (#2510)",
+      "date": "2023-05-03T14:13:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a57745ddf8e6fd4b66f251052bf825148d0bf1ea"
+    },
+    {
+      "sha": "b8a01127d728db06ba2e09abf30afafed4205dc1",
+      "message": "contracts: add events to ContractResult (#13807)",
+      "date": "2023-05-03T13:45:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b8a01127d728db06ba2e09abf30afafed4205dc1"
+    },
+    {
+      "sha": "5db4119f931780eb52900eb2cc81a89352d13e29",
+      "message": "contracts: Make Origin information available (#13708)",
+      "date": "2023-05-02T16:45:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5db4119f931780eb52900eb2cc81a89352d13e29"
+    }
+  ],
+  "prs": [
+    {
+      "number": 6386,
+      "title": "refactor pallet identity to fungibles",
+      "state": "CLOSED",
+      "created_at": "2024-11-06T11:30:35Z",
+      "closed_at": "2025-04-25T10:54:18Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6386",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2025-04-25T10:54:18Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6370,
+      "title": "Jg/refactor pallet identity to fungibles",
+      "state": "CLOSED",
+      "created_at": "2024-11-05T13:05:53Z",
+      "closed_at": "2024-11-06T11:38:43Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6370",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2024-11-06T11:38:43Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3627,
+      "title": "apply review comments",
+      "state": "CLOSED",
+      "created_at": "2024-03-08T16:00:40Z",
+      "closed_at": "2024-03-20T14:21:38Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3627",
+      "ready_for_review_at": "2024-03-08T16:00:40Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-08T16:03:44Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-08T16:03:44Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2024-03-20T14:21:38Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2822,
+      "title": "Refactor pallet identity to fungibles",
+      "state": "CLOSED",
+      "created_at": "2023-12-28T15:52:27Z",
+      "closed_at": "2024-11-06T11:38:09Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2822",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-01-08T11:14:39Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2024-11-06T11:38:09Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2798,
+      "title": "Finish up polkadot doc",
+      "state": "MERGED",
+      "created_at": "2023-12-22T18:57:23Z",
+      "closed_at": "2024-01-02T19:39:51Z",
+      "merged_at": "2024-01-02T19:39:51Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2798",
+      "ready_for_review_at": "2023-12-22T18:57:23Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-23T22:23:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-12-28T11:21:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-29T18:41:35Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2024-01-01T13:13:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2024-01-02T08:06:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-01-02T09:20:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-01-02T10:23:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-01-02T12:44:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2024-01-02T15:46:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2024-01-02T15:47:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-01-02T16:00:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-01-02T18:00:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-01-02T18:26:51Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 27.426944444444445,
+      "time_to_merge_hours": 264.7077777777778
+    },
+    {
+      "number": 2797,
+      "title": "Remove rustdocs allowances",
+      "state": "MERGED",
+      "created_at": "2023-12-22T17:47:33Z",
+      "closed_at": "2023-12-24T08:03:37Z",
+      "merged_at": "2023-12-24T08:03:37Z",
+      "merged_by": "bkchr",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2797",
+      "ready_for_review_at": "2023-12-22T17:47:33Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-24T07:17:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-12-24T07:41:36Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 37.49722222222222,
+      "time_to_merge_hours": 38.26777777777778
+    },
+    {
+      "number": 2741,
+      "title": "SDK docs ref cli",
+      "state": "MERGED",
+      "created_at": "2023-12-18T16:46:09Z",
+      "closed_at": "2023-12-19T14:42:24Z",
+      "merged_at": "2023-12-19T14:42:24Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2741",
+      "ready_for_review_at": "2023-12-18T16:46:09Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-18T19:50:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-12-18T23:10:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-19T05:31:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-19T14:02:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T10:17:46Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 3.0683333333333334,
+      "time_to_merge_hours": 21.9375
+    },
+    {
+      "number": 2683,
+      "title": "Ref docs frame currency",
+      "state": "CLOSED",
+      "created_at": "2023-12-11T17:41:52Z",
+      "closed_at": "2024-03-20T09:24:15Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2683",
+      "ready_for_review_at": "2023-12-11T17:41:52Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-11T17:42:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-11T17:45:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-14T08:23:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-14T12:56:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-14T13:02:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-15T09:26:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:02:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:03:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:04:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:05:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:06:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:07:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:07:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:08:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T16:10:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-01-09T13:08:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2024-01-09T20:57:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-03-08T15:54:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-03-08T15:54:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-03-08T15:55:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-03-08T15:55:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2024-03-12T14:04:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-03-13T05:30:58Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-12-14T13:05:33Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-12-15T09:47:29Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-12-15T14:24:20Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-12-15T15:49:43Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-12-15T15:54:26Z"
+        },
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2023-12-19T16:37:57Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-12-22T15:56:08Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-12-24T07:10:57Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2024-01-09T14:23:33Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-02-16T09:08:41Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2024-03-08T14:47:13Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2024-03-12T14:07:47Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-03-18T20:43:44Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-03-18T20:43:50Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-03-18T20:44:17Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-03-18T20:44:54Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2024-03-20T09:24:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.014722222222222222,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2631,
+      "title": "Improve polkadot sdk docs",
+      "state": "MERGED",
+      "created_at": "2023-12-05T16:42:40Z",
+      "closed_at": "2023-12-06T19:26:07Z",
+      "merged_at": "2023-12-06T19:26:07Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2631",
+      "ready_for_review_at": "2023-12-05T16:42:40Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-05T18:22:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-06T08:23:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-06T13:21:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-06T13:21:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-12-06T15:40:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 1.6697222222222223,
+      "time_to_merge_hours": 26.724166666666665
+    },
+    {
+      "number": 2610,
+      "title": "Deposit events on genesis test",
+      "state": "CLOSED",
+      "created_at": "2023-12-04T16:32:59Z",
+      "closed_at": "2024-07-24T20:29:12Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2610",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-12-04T17:18:31Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2609,
+      "title": "Ref docs: runtime vs contracts",
+      "state": "MERGED",
+      "created_at": "2023-12-04T16:20:42Z",
+      "closed_at": "2023-12-19T14:28:40Z",
+      "merged_at": "2023-12-19T14:28:40Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2609",
+      "ready_for_review_at": "2023-12-04T16:20:42Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-08T14:44:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-08T14:45:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-08T14:45:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-08T14:46:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-08T14:48:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-08T15:20:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-08T15:25:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-11T09:07:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-11T14:46:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "DrW3RK",
+          "submitted_at": "2023-12-18T15:05:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-12-19T09:27:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-12-19T09:29:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-19T13:05:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "DrW3RK",
+          "submitted_at": "2023-12-19T13:23:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-19T13:53:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T10:20:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T10:21:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T10:26:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "al3mart",
+          "submitted_at": "2024-01-22T10:09:45Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 94.39222222222222,
+      "time_to_merge_hours": 358.1327777777778
+    },
+    {
+      "number": 2598,
+      "title": "Move `developer-hub` to `polkadot-sdk-docs`",
+      "state": "MERGED",
+      "created_at": "2023-12-04T11:23:54Z",
+      "closed_at": "2023-12-05T09:23:24Z",
+      "merged_at": "2023-12-05T09:23:24Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2598",
+      "ready_for_review_at": "2023-12-04T11:23:54Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-12-04T14:49:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-04T15:02:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-04T15:03:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-04T15:24:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-12-04T18:45:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "AndWeHaveAPlan",
+          "submitted_at": "2023-12-05T09:08:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "alvicsam",
+          "submitted_at": "2023-12-05T09:11:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-05T09:19:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-05T09:20:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-05T09:28:21Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 3.43,
+      "time_to_merge_hours": 21.991666666666667
+    },
+    {
+      "number": 2572,
+      "title": "Add missing glossary to ref docs",
+      "state": "MERGED",
+      "created_at": "2023-11-30T15:57:45Z",
+      "closed_at": "2023-11-30T16:36:15Z",
+      "merged_at": "2023-11-30T16:36:15Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2572",
+      "ready_for_review_at": "2023-11-30T15:57:45Z",
+      "reviews": [
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-11-30T16:02:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-30T16:04:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-30T21:08:29Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.07666666666666666,
+      "time_to_merge_hours": 0.6416666666666667
+    },
+    {
+      "number": 2565,
+      "title": "Move `developer-hub` to `sdk-docs`",
+      "state": "CLOSED",
+      "created_at": "2023-11-30T10:22:04Z",
+      "closed_at": "2023-12-04T11:24:16Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2565",
+      "ready_for_review_at": "2023-11-30T10:22:04Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-30T10:24:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rmnprkrl",
+          "submitted_at": "2023-12-01T09:08:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-12-01T09:10:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-01T09:19:21Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-30T10:46:24Z"
+        },
+        {
+          "commenter": "rmnprkrl",
+          "commented_at": "2023-12-01T09:25:20Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-12-04T11:24:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.04583333333333333,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2480,
+      "title": "Deposit events on genesis test",
+      "state": "CLOSED",
+      "created_at": "2023-11-24T10:39:28Z",
+      "closed_at": "2023-12-04T16:34:09Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2480",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-24T11:12:34Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-12-04T16:34:03Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2297,
+      "title": "Developer hub runtime vs contracts",
+      "state": "CLOSED",
+      "created_at": "2023-11-13T14:54:12Z",
+      "closed_at": "2023-12-04T16:20:59Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2297",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-13T15:02:31Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-11-23T15:23:42Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-23T15:23:46Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2273,
+      "title": "Add missing glossary to ref docs",
+      "state": "CLOSED",
+      "created_at": "2023-11-10T16:22:23Z",
+      "closed_at": "2023-11-30T15:53:32Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2273",
+      "ready_for_review_at": "2023-11-10T16:22:23Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-10T16:38:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-10T16:42:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-13T12:35:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-13T12:38:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-13T12:40:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-13T19:32:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-13T19:33:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-13T19:41:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-14T09:22:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-14T09:23:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-14T09:25:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-11-14T16:32:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-14T16:47:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-14T16:53:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-15T10:43:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-15T10:48:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-15T10:51:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-11-15T13:22:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2023-11-15T14:41:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chevdor",
+          "submitted_at": "2023-11-20T09:44:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2023-11-27T09:49:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-27T15:21:17Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-11-10T16:35:43Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-11-14T09:33:58Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-27T13:48:18Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-11-30T15:58:12Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.27416666666666667,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2248,
+      "title": "Add a deprecation section to the Contributing notes",
+      "state": "MERGED",
+      "created_at": "2023-11-09T10:46:41Z",
+      "closed_at": "2023-12-12T13:24:27Z",
+      "merged_at": "2023-12-12T13:24:27Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2248",
+      "ready_for_review_at": "2023-11-09T10:46:41Z",
+      "reviews": [
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2023-11-09T11:19:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-11-09T17:11:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2023-11-09T17:35:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-11-14T16:38:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-12-11T11:57:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2023-12-12T10:08:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-12-12T10:14:32Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.5419444444444445,
+      "time_to_merge_hours": 794.6294444444444
+    },
+    {
+      "number": 2119,
+      "title": "[doc] Example MBM pallet",
+      "state": "MERGED",
+      "created_at": "2023-11-01T14:08:06Z",
+      "closed_at": "2024-04-04T12:15:15Z",
+      "merged_at": "2024-04-04T12:15:15Z",
+      "merged_by": "ggwpez",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2119",
+      "ready_for_review_at": "2023-11-01T14:08:06Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-01T14:29:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-01T14:39:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-11-02T09:55:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-07T03:07:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-07T08:05:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-07T08:06:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-07T08:08:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-07T13:19:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-09T13:09:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-09T13:10:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-14T10:43:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-04-02T13:07:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-02T14:40:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-02T14:48:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-03T11:48:37Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-11-02T11:01:57Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-11-07T18:28:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-07T18:28:30Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-07T18:29:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.35777777777777775,
+      "time_to_merge_hours": 3718.119166666667
+    },
+    {
+      "number": 1807,
+      "title": "Refactor pallet recovery to fungibles",
+      "state": "CLOSED",
+      "created_at": "2023-10-06T12:26:25Z",
+      "closed_at": "2024-07-24T19:45:51Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1807",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-06T14:53:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-06T14:58:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-10-09T13:54:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-10-11T11:26:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-07T11:56:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-12-07T16:52:20Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-10-06T15:30:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-10-06T15:30:32Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-10-06T15:30:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-10-06T15:30:50Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-10-06T16:07:36Z"
+        },
+        {
+          "commenter": "georgepisaltu",
+          "commented_at": "2023-10-09T14:20:59Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-10-10T09:12:21Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-10-11T11:02:56Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-10-11T11:03:01Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-10-11T11:38:43Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-10-12T08:54:52Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-12-26T20:20:33Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-07-24T19:45:51Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1583,
+      "title": "Add deprecation checklist document for Substrate",
+      "state": "MERGED",
+      "created_at": "2023-09-15T11:43:53Z",
+      "closed_at": "2023-11-03T15:36:48Z",
+      "merged_at": "2023-11-03T15:36:48Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1583",
+      "ready_for_review_at": "2023-09-15T11:43:53Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-09-15T11:49:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-09-15T12:52:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-09-15T13:35:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-09-15T13:38:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-15T13:59:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-09-15T14:48:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-15T15:18:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-09-15T15:21:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-09-15T15:26:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-15T15:26:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-09-16T08:05:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-16T08:06:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-16T08:06:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2023-09-18T11:25:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "the-right-joyce",
+          "submitted_at": "2023-09-18T12:25:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "the-right-joyce",
+          "submitted_at": "2023-09-18T13:59:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "the-right-joyce",
+          "submitted_at": "2023-09-18T14:05:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-18T14:52:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-18T14:55:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-18T15:02:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-18T15:04:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-18T15:10:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "the-right-joyce",
+          "submitted_at": "2023-09-21T14:19:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-09-22T05:03:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-10-26T08:38:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2023-10-27T07:50:05Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-09-16T09:04:06Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-17T19:37:23Z"
+        },
+        {
+          "commenter": "the-right-joyce",
+          "commented_at": "2023-09-18T14:17:43Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-18T15:34:26Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.09638888888888889,
+      "time_to_merge_hours": 1179.8819444444443
+    },
+    {
+      "number": 1474,
+      "title": "Macros to use path instead of ident",
+      "state": "MERGED",
+      "created_at": "2023-09-08T15:57:16Z",
+      "closed_at": "2023-10-14T06:26:20Z",
+      "merged_at": "2023-10-14T06:26:20Z",
+      "merged_by": "kianenigma",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1474",
+      "ready_for_review_at": "2023-09-08T15:57:16Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-13T08:45:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-13T08:46:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-13T08:52:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-13T16:10:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-13T16:10:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-14T17:15:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-16T11:03:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-16T11:04:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-16T11:04:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-09-21T04:26:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-21T14:56:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-22T16:45:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-25T03:24:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-25T03:27:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-25T03:50:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-25T03:50:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-25T03:51:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2023-09-25T07:25:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2023-09-25T07:33:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-09-25T09:18:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-09-25T14:41:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-09-25T15:29:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-02T07:46:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-02T12:32:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-02T12:39:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-10-03T10:55:46Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-10-03T12:00:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-10-09T14:39:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-14T06:26:11Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-15T10:52:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-15T10:52:17Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-15T10:53:15Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-22T16:47:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 112.81055555555555,
+      "time_to_merge_hours": 854.4844444444444
+    },
+    {
+      "number": 1337,
+      "title": "feat: FRAME umbrella crate.",
+      "state": "MERGED",
+      "created_at": "2023-08-31T14:46:47Z",
+      "closed_at": "2023-10-27T09:38:17Z",
+      "merged_at": "2023-10-27T09:38:17Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1337",
+      "ready_for_review_at": "2023-08-31T14:46:47Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-17T09:08:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-10-18T11:34:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-10-20T15:07:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:07:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:07:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:11:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:31:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:34:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:35:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:35:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:37:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:42:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:44:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:45:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:47:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:58:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-10-22T12:59:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-24T14:41:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-25T14:59:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-10-26T15:31:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-10-26T15:32:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-10-27T02:32:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-27T05:36:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-27T05:52:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-27T05:53:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-27T05:59:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-10-27T05:59:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-10-27T06:00:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-10-27T06:05:33Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-09-22T08:13:26Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-22T08:13:31Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-22T08:16:43Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2023-11-03T14:45:59Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-12-06T22:53:20Z"
+        }
+      ],
+      "time_to_first_review_hours": 1122.355,
+      "time_to_merge_hours": 1362.8583333333333
+    },
+    {
+      "number": 1226,
+      "title": "Remove deprecated `pallet_balances`'s `set_balance_deprecated` and `transfer` dispatchables",
+      "state": "MERGED",
+      "created_at": "2023-08-28T16:26:00Z",
+      "closed_at": "2023-09-06T13:06:47Z",
+      "merged_at": "2023-09-06T13:06:47Z",
+      "merged_by": "juangirini",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1226",
+      "ready_for_review_at": "2023-08-28T16:26:00Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-30T09:52:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-01T10:24:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-09-01T10:37:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-09-04T16:42:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-09-05T14:03:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-09-05T15:29:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "chevdor",
+          "submitted_at": "2023-09-05T16:52:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-29T13:35:08Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-08-29T14:53:17Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-29T15:16:20Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-08-30T09:53:07Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-01T09:58:31Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-04T16:21:21Z"
+        },
+        {
+          "commenter": "chevdor",
+          "commented_at": "2023-09-05T14:14:09Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-06T11:52:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-06T11:52:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-06T11:53:31Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-09-06T22:42:37Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-09-07T07:20:43Z"
+        }
+      ],
+      "time_to_first_review_hours": 41.43833333333333,
+      "time_to_merge_hours": 212.6797222222222
+    },
+    {
+      "number": 1165,
+      "title": "Update repo URL in toml files",
+      "state": "CLOSED",
+      "created_at": "2023-08-25T13:37:27Z",
+      "closed_at": "2023-08-29T11:52:17Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1165",
+      "ready_for_review_at": "2023-08-25T13:37:27Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-25T13:40:32Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-08-29T11:52:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.05138888888888889,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1162,
+      "title": "Restructure `dispatch` macro related exports",
+      "state": "MERGED",
+      "created_at": "2023-08-25T13:17:20Z",
+      "closed_at": "2023-08-31T11:08:44Z",
+      "merged_at": "2023-08-31T11:08:44Z",
+      "merged_by": "ordian",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1162",
+      "ready_for_review_at": "2023-08-25T13:17:20Z",
+      "reviews": [
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-08-26T14:28:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-26T16:00:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-26T17:38:44Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-26T17:40:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-26T18:04:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-08-29T15:17:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2023-08-30T07:11:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2023-08-31T09:09:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-08-26T18:04:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-26T18:04:53Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-26T18:05:32Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-28T09:26:14Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-28T09:26:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 25.186666666666667,
+      "time_to_merge_hours": 141.85666666666665
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 1445,
+      "pr_title": "removed `without_storage_info` from `pallet-collective`",
+      "reviewed_at": "2025-08-26T19:43:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1445"
+    },
+    {
+      "pr_number": 1861,
+      "pr_title": "Fungibles: migrate Democracy pallet",
+      "reviewed_at": "2025-03-14T19:46:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1861"
+    },
+    {
+      "pr_number": 1747,
+      "pr_title": "Implement Inactive balance tracking in Assets pallet",
+      "reviewed_at": "2025-03-14T19:45:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1747"
+    },
+    {
+      "pr_number": 2007,
+      "pr_title": "[xcm-emulator] Add `on_initialize` and `on_finalize` hooks",
+      "reviewed_at": "2025-03-11T21:43:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2007"
+    },
+    {
+      "pr_number": 1337,
+      "pr_title": "feat: FRAME umbrella crate.",
+      "reviewed_at": "2025-02-02T20:11:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1337"
+    },
+    {
+      "pr_number": 1781,
+      "pr_title": "Multi-Block-Migrations, `poll` hook and new System callbacks",
+      "reviewed_at": "2024-09-24T15:51:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1781"
+    },
+    {
+      "pr_number": 1807,
+      "pr_title": "Refactor pallet recovery to fungibles",
+      "reviewed_at": "2024-07-24T19:45:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1807"
+    },
+    {
+      "pr_number": 1660,
+      "pr_title": " Implements a % cap on staking rewards from era inflation",
+      "reviewed_at": "2024-07-18T10:33:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1660"
+    },
+    {
+      "pr_number": 1772,
+      "pr_title": "migrate pallet-fast-unstake to `fungible::*` trait family",
+      "reviewed_at": "2024-07-17T13:42:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1772"
+    },
+    {
+      "pr_number": 1281,
+      "pr_title": "Expiry time for MultiSig calls",
+      "reviewed_at": "2024-07-17T12:29:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1281"
+    },
+    {
+      "pr_number": 1821,
+      "pr_title": "Conviction pallet uses fungible trait",
+      "reviewed_at": "2024-07-10T08:33:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1821"
+    },
+    {
+      "pr_number": 2119,
+      "pr_title": "[doc] Example MBM pallet",
+      "reviewed_at": "2024-04-04T12:15:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2119"
+    },
+    {
+      "pr_number": 1557,
+      "pr_title": "Adds ability to configure default nonce",
+      "reviewed_at": "2024-04-02T10:53:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1557"
+    },
+    {
+      "pr_number": 1976,
+      "pr_title": "Stop `Balances` pallet erroneously double incrementing and decrementing consumers",
+      "reviewed_at": "2024-03-21T16:49:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1976"
+    },
+    {
+      "pr_number": 2683,
+      "pr_title": "Ref docs frame currency",
+      "reviewed_at": "2024-03-20T09:24:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2683"
+    },
+    {
+      "pr_number": 2638,
+      "pr_title": "Finish documenting `#[pallet::xxx]` macros ",
+      "reviewed_at": "2024-03-03T09:02:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2638"
+    },
+    {
+      "pr_number": 1554,
+      "pr_title": "Runtime Upgrade ref docs and Single Block Migration example pallet ",
+      "reviewed_at": "2024-02-28T07:59:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1554"
+    },
+    {
+      "pr_number": 2628,
+      "pr_title": "Add XCM documentation to the sdk docs",
+      "reviewed_at": "2024-02-14T14:29:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2628"
+    },
+    {
+      "pr_number": 2833,
+      "pr_title": "Bump the known_good_semver group with 3 updates",
+      "reviewed_at": "2024-01-30T23:49:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2833"
+    },
+    {
+      "pr_number": 2609,
+      "pr_title": "Ref docs: runtime vs contracts",
+      "reviewed_at": "2024-01-30T23:49:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2609"
+    },
+    {
+      "pr_number": 2598,
+      "pr_title": "Move `developer-hub` to `polkadot-sdk-docs`",
+      "reviewed_at": "2024-01-30T23:49:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2598"
+    },
+    {
+      "pr_number": 2565,
+      "pr_title": "Move `developer-hub` to `sdk-docs`",
+      "reviewed_at": "2024-01-30T23:49:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2565"
+    },
+    {
+      "pr_number": 2273,
+      "pr_title": "Add missing glossary to ref docs",
+      "reviewed_at": "2024-01-30T23:49:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2273"
+    },
+    {
+      "pr_number": 2206,
+      "pr_title": "[`developer_hub`] Defensive Programming in Substrate Reference Document",
+      "reviewed_at": "2024-01-30T23:49:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2206"
+    },
+    {
+      "pr_number": 2118,
+      "pr_title": "[FRAME] Short-circuit fungible self transfer",
+      "reviewed_at": "2024-01-30T23:49:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2118"
+    },
+    {
+      "pr_number": 2102,
+      "pr_title": "Introduce Polkadot-Sdk `developer_hub` ",
+      "reviewed_at": "2024-01-30T23:49:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2102"
+    },
+    {
+      "pr_number": 2064,
+      "pr_title": "parachain-system: Send same event & digest as a standalone chain",
+      "reviewed_at": "2024-01-30T23:49:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2064"
+    },
+    {
+      "pr_number": 1932,
+      "pr_title": "Create new trait for non-dedup storage decode",
+      "reviewed_at": "2024-01-30T23:49:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1932"
+    },
+    {
+      "pr_number": 2039,
+      "pr_title": "cumulus: fix test runtimes panic",
+      "reviewed_at": "2024-01-30T23:49:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2039"
+    },
+    {
+      "pr_number": 1982,
+      "pr_title": "Add force remove vesting",
+      "reviewed_at": "2024-01-30T23:49:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1982"
+    },
+    {
+      "pr_number": 1768,
+      "pr_title": "Add `asset_sufficient` getter for fungibles",
+      "reviewed_at": "2024-01-30T23:49:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1768"
+    },
+    {
+      "pr_number": 1831,
+      "pr_title": "Improve features dev-ex",
+      "reviewed_at": "2024-01-30T23:49:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1831"
+    },
+    {
+      "pr_number": 1823,
+      "pr_title": "Fixes path issue in derive-impl",
+      "reviewed_at": "2024-01-30T23:49:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1823"
+    },
+    {
+      "pr_number": 1800,
+      "pr_title": " Refactor transaction storage pallet to use fungible traits",
+      "reviewed_at": "2024-01-30T23:49:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1800"
+    },
+    {
+      "pr_number": 1790,
+      "pr_title": " migrate babe and authorship to use derive-impl",
+      "reviewed_at": "2024-01-30T23:49:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1790"
+    },
+    {
+      "pr_number": 1785,
+      "pr_title": "Refactors referenda pallet to use fungible traits",
+      "reviewed_at": "2024-01-30T23:49:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1785"
+    },
+    {
+      "pr_number": 1764,
+      "pr_title": "Cleanup deprecated apis",
+      "reviewed_at": "2024-01-30T23:49:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1764"
+    },
+    {
+      "pr_number": 1696,
+      "pr_title": "Contracts: migration v15 acc dec_consumers check",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1696"
+    },
+    {
+      "pr_number": 1683,
+      "pr_title": "fungible/s decrease balance preserves account",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1683"
+    },
+    {
+      "pr_number": 1677,
+      "pr_title": "pallet-asset-conversion: Swap Credit",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1677"
+    },
+    {
+      "pr_number": 1539,
+      "pr_title": "feat: compute pallet/storage prefix hash at compile time",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1539"
+    },
+    {
+      "pr_number": 1642,
+      "pr_title": "update `genesis_config` related docs and tests and error messages",
+      "reviewed_at": "2024-01-30T23:49:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1642"
+    },
+    {
+      "pr_number": 1636,
+      "pr_title": "migrate alliance, fast-unstake and bags list to use derive-impl",
+      "reviewed_at": "2024-01-30T23:49:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1636"
+    },
+    {
+      "pr_number": 1633,
+      "pr_title": "Implement wrapping of EPM types",
+      "reviewed_at": "2024-01-30T23:49:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1633"
+    },
+    {
+      "pr_number": 1583,
+      "pr_title": "Add deprecation checklist document for Substrate",
+      "reviewed_at": "2024-01-30T23:49:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1583"
+    },
+    {
+      "pr_number": 1474,
+      "pr_title": "Macros to use path instead of ident",
+      "reviewed_at": "2024-01-30T23:49:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1474"
+    },
+    {
+      "pr_number": 1545,
+      "pr_title": "asset-rate pallet: box asset kind parameter",
+      "reviewed_at": "2024-01-30T23:49:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1545"
+    },
+    {
+      "pr_number": 1544,
+      "pr_title": "Enable `runtime-benchmarks` feature for crates",
+      "reviewed_at": "2024-01-30T23:49:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1544"
+    },
+    {
+      "pr_number": 1477,
+      "pr_title": "Revive Substrate Crate",
+      "reviewed_at": "2024-01-30T23:49:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1477"
+    },
+    {
+      "pr_number": 1553,
+      "pr_title": "Bump the known_good_semver group with 2 updates",
+      "reviewed_at": "2024-01-30T23:49:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1553"
+    },
+    {
+      "pr_number": 1546,
+      "pr_title": "[improve docs] Example pallet crate and Basic Example pallet",
+      "reviewed_at": "2024-01-30T23:49:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1546"
+    },
+    {
+      "pr_number": 1504,
+      "pr_title": "Fix mistakes in Cargo.toml",
+      "reviewed_at": "2024-01-30T23:49:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1504"
+    },
+    {
+      "pr_number": 1503,
+      "pr_title": "Stabilize `VersionedMigration`",
+      "reviewed_at": "2024-01-30T23:49:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1503"
+    },
+    {
+      "pr_number": 1435,
+      "pr_title": "[improve docs]: Timestamp pallet",
+      "reviewed_at": "2024-01-30T23:49:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1435"
+    },
+    {
+      "pr_number": 1209,
+      "pr_title": "[improve docs]: Sudo Pallet",
+      "reviewed_at": "2024-01-30T23:49:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1209"
+    },
+    {
+      "pr_number": 1485,
+      "pr_title": "Bump the known_good_semver group with 2 updates",
+      "reviewed_at": "2024-01-30T23:49:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1485"
+    },
+    {
+      "pr_number": 1415,
+      "pr_title": "Merge `CODEOWNERS` Part 2",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1415"
+    },
+    {
+      "pr_number": 1393,
+      "pr_title": "Remove redundant calls to `borrow()`",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1393"
+    },
+    {
+      "pr_number": 1371,
+      "pr_title": "pallet asset-conversion additional quote tests",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1371"
+    },
+    {
+      "pr_number": 1309,
+      "pr_title": "Markdown linter",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1309"
+    },
+    {
+      "pr_number": 1284,
+      "pr_title": "Bump the known_good_semver group with 2 updates",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1284"
+    },
+    {
+      "pr_number": 1226,
+      "pr_title": "Remove deprecated `pallet_balances`'s `set_balance_deprecated` and `transfer` dispatchables",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1226"
+    },
+    {
+      "pr_number": 1221,
+      "pr_title": "Relax genesis config to not require `Default` impl",
+      "reviewed_at": "2024-01-30T23:48:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1221"
+    },
+    {
+      "pr_number": 1187,
+      "pr_title": "Rename `VersionedRuntimeUpgrade` to `VersionedMigration`",
+      "reviewed_at": "2024-01-30T23:48:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1187"
+    },
+    {
+      "pr_number": 2741,
+      "pr_title": "SDK docs ref cli",
+      "reviewed_at": "2024-01-08T10:17:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2741"
+    },
+    {
+      "pr_number": 2798,
+      "pr_title": "Finish up polkadot doc",
+      "reviewed_at": "2024-01-02T19:39:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2798"
+    },
+    {
+      "pr_number": 2759,
+      "pr_title": "Development Environment Advice Reference Doc",
+      "reviewed_at": "2023-12-29T12:24:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2759"
+    },
+    {
+      "pr_number": 2631,
+      "pr_title": "Improve polkadot sdk docs",
+      "reviewed_at": "2023-12-06T19:26:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2631"
+    },
+    {
+      "pr_number": 1335,
+      "pr_title": "[ci] Remove runtime-benchmarks from tests",
+      "reviewed_at": "2023-09-04T14:58:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1335"
+    },
+    {
+      "pr_number": 1254,
+      "pr_title": "Contracts: `seal0::balance` should return the free balance",
+      "reviewed_at": "2023-09-01T12:33:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1254"
+    },
+    {
+      "pr_number": 1334,
+      "pr_title": "Rename `polkadot-parachain` to `polkadot-parachain-primitives`",
+      "reviewed_at": "2023-08-31T21:53:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1334"
+    },
+    {
+      "pr_number": 1321,
+      "pr_title": "Remove `substrate_test_utils::test`",
+      "reviewed_at": "2023-08-31T10:48:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1321"
+    },
+    {
+      "pr_number": 1289,
+      "pr_title": "Remove old UI test",
+      "reviewed_at": "2023-08-30T09:32:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1289"
+    },
+    {
+      "pr_number": 1161,
+      "pr_title": "pallet-scheduler: Send `CallUnavailable` event if the call isn't present",
+      "reviewed_at": "2023-08-29T20:42:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1161"
+    },
+    {
+      "pr_number": 1266,
+      "pr_title": "Fix `test-rustdoc`",
+      "reviewed_at": "2023-08-29T19:23:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1266"
+    },
+    {
+      "pr_number": 1239,
+      "pr_title": "PRCR - temporary disabled Audit rule",
+      "reviewed_at": "2023-08-29T15:49:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1239"
+    },
+    {
+      "pr_number": 1152,
+      "pr_title": "Fix tests and compile issues",
+      "reviewed_at": "2023-08-25T13:07:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1152"
+    }
+  ]
+}

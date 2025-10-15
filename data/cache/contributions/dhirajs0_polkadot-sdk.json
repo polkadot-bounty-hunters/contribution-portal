@@ -1,0 +1,153 @@
+{
+  "commits": [
+    {
+      "sha": "f96da6f3c37318568a1a662f39511afa76c13791",
+      "message": "transfer function Preservation is changed to Expendable  (#7243)",
+      "date": "2025-02-10T16:10:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f96da6f3c37318568a1a662f39511afa76c13791"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7243,
+      "title": "transfer function Preservation is changed to Expendable ",
+      "state": "MERGED",
+      "created_at": "2025-01-19T14:47:19Z",
+      "closed_at": "2025-02-10T16:49:38Z",
+      "merged_at": "2025-02-10T16:49:38Z",
+      "merged_by": "franciscoaguirre",
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7243",
+      "ready_for_review_at": "2025-01-19T14:47:19Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-01-20T14:09:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "dhirajs0",
+          "submitted_at": "2025-01-20T14:43:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-01-30T22:14:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-01-31T08:24:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-01-31T08:55:56Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-02-03T14:07:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-02-03T14:09:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-02-06T12:34:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-02-10T10:51:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "valentunn",
+          "submitted_at": "2025-02-10T11:01:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ERussel",
+          "submitted_at": "2025-02-10T11:02:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dhirajs0",
+          "submitted_at": "2025-02-10T11:08:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-02-10T11:24:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-02-10T14:59:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-01-19T14:47:26Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-01-20T14:34:44Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2025-01-31T20:11:23Z"
+        },
+        {
+          "commenter": "dhirajs0",
+          "commented_at": "2025-02-01T11:24:49Z"
+        },
+        {
+          "commenter": "raymondkfcheung",
+          "commented_at": "2025-02-03T14:08:05Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-02-03T14:08:27Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-02-03T14:10:02Z"
+        },
+        {
+          "commenter": "dhirajs0",
+          "commented_at": "2025-02-06T12:14:54Z"
+        },
+        {
+          "commenter": "paritytech-cmd-bot-polkadot-sdk[bot]",
+          "commented_at": "2025-02-10T16:50:13Z"
+        },
+        {
+          "commenter": "paritytech-cmd-bot-polkadot-sdk[bot]",
+          "commented_at": "2025-02-10T16:50:21Z"
+        },
+        {
+          "commenter": "paritytech-cmd-bot-polkadot-sdk[bot]",
+          "commented_at": "2025-02-10T16:50:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 23.36611111111111,
+      "time_to_merge_hours": 530.0386111111111
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 7243,
+      "pr_title": "transfer function Preservation is changed to Expendable ",
+      "reviewed_at": "2025-02-10T16:50:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7243"
+    }
+  ]
+}

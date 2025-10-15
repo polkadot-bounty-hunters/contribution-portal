@@ -1,0 +1,2392 @@
+{
+  "commits": [
+    {
+      "sha": "2ffee63df61d45b9c7b2c53afb10a9495bee792e",
+      "message": "Fix calling nominate on a validator that doesn’t exist silently succeeds (#8436)",
+      "date": "2025-06-14T16:47:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/2ffee63df61d45b9c7b2c53afb10a9495bee792e"
+    },
+    {
+      "sha": "4a4009589b17267e32983c0f4e0c7f54860b40cb",
+      "message": "Add deposit for setting session keys (#7953)",
+      "date": "2025-06-14T09:17:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4a4009589b17267e32983c0f4e0c7f54860b40cb"
+    },
+    {
+      "sha": "bee448b580f3de140cf591c899999f09dde33f2c",
+      "message": "Migrate pallet safe mode to umbrella crate (#6905)",
+      "date": "2025-05-07T12:58:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bee448b580f3de140cf591c899999f09dde33f2c"
+    },
+    {
+      "sha": "ea61b4afbe850d6cfa406b53ab04397301dc3b4d",
+      "message": "Migrate pallet-paged-list to umbrella crate (#6931)",
+      "date": "2025-05-06T15:06:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ea61b4afbe850d6cfa406b53ab04397301dc3b4d"
+    },
+    {
+      "sha": "f3be5315d2bb93b7a91e8aba0bad0a79add8ae82",
+      "message": "Added locked flag to readmes that were missing it (#8187)",
+      "date": "2025-04-11T18:14:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f3be5315d2bb93b7a91e8aba0bad0a79add8ae82"
+    },
+    {
+      "sha": "ac7037e417261f3f28accd9ee257d69d16509b2c",
+      "message": "Migrating polkadot-runtime-parachains configuration benchmarking to V2 (#6607)",
+      "date": "2025-03-04T10:24:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ac7037e417261f3f28accd9ee257d69d16509b2c"
+    },
+    {
+      "sha": "10f7f41003b974c11ac200a11843150719b9b858",
+      "message": "Migration of polkadot-runtime-common paras_registrar benchmarking to v2. (#6616)",
+      "date": "2025-02-26T16:19:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/10f7f41003b974c11ac200a11843150719b9b858"
+    },
+    {
+      "sha": "0c0d8929712ca7e306a001bcc214c81886dda386",
+      "message": "Migrating polkadot-runtime-parachains paras_inherent benchmarking to V2 (#6606)",
+      "date": "2025-02-26T15:23:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0c0d8929712ca7e306a001bcc214c81886dda386"
+    },
+    {
+      "sha": "959f1045664a284a0619830b38e08fd07f46915e",
+      "message": "Migrating polkadot-runtime-parachains initializer benchmarking to v2 (#6612)",
+      "date": "2025-02-26T15:11:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/959f1045664a284a0619830b38e08fd07f46915e"
+    },
+    {
+      "sha": "2b9f83b17cb7d78edb1bb46bd51acaf93e5b811c",
+      "message": "Migration of polkadot-runtime-common crowdloan benchmarking to v2 (#6615)",
+      "date": "2025-02-26T14:52:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/2b9f83b17cb7d78edb1bb46bd51acaf93e5b811c"
+    },
+    {
+      "sha": "57f0b95978a0eed283cc894724a4ba1c5d4ca258",
+      "message": "Migrating cumulus-pallet-session-benchmarking to Benchmarking V2  (#6564)",
+      "date": "2025-01-29T11:13:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/57f0b95978a0eed283cc894724a4ba1c5d4ca258"
+    },
+    {
+      "sha": "db3ff60b5af2a9017cb968a4727835f3d00340f0",
+      "message": "Migrating polkadot-runtime-common slots benchmarking to v2 (#6614)",
+      "date": "2025-01-27T14:37:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/db3ff60b5af2a9017cb968a4727835f3d00340f0"
+    },
+    {
+      "sha": "9edaef09a69e39b0785f8339f93a3ed6a1f6e023",
+      "message": "Migrate pallet-paged-list-fuzzer to umbrella crate (#6930)",
+      "date": "2025-01-21T17:36:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/9edaef09a69e39b0785f8339f93a3ed6a1f6e023"
+    },
+    {
+      "sha": "645878a27115db52e5d63115699b4bbb89034067",
+      "message": "adding warning when using default substrateWeight in production (#7046)",
+      "date": "2025-01-07T17:17:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/645878a27115db52e5d63115699b4bbb89034067"
+    },
+    {
+      "sha": "baa3bcc60ddab6a700a713e241ad6599feb046dd",
+      "message": "Fix defensive! macro to be used in umbrella crates (#7069)",
+      "date": "2025-01-07T13:28:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/baa3bcc60ddab6a700a713e241ad6599feb046dd"
+    },
+    {
+      "sha": "cbeb66fbf4c7a950ed90a979373bbcca412dc63c",
+      "message": "Improve pallet paras_registrar file structure (#6783)",
+      "date": "2024-12-19T01:55:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cbeb66fbf4c7a950ed90a979373bbcca412dc63c"
+    },
+    {
+      "sha": "0de6854563bbec2f6b9c46dad14d3a3628148e4b",
+      "message": "Pallet:Auction move tests and benchmark to seperate files (#6746)",
+      "date": "2024-12-19T01:25:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0de6854563bbec2f6b9c46dad14d3a3628148e4b"
+    },
+    {
+      "sha": "03e5db1fed6693c1695bb7aa910d84d8e302dc02",
+      "message": "Improve pallet purchase file structure (#6780)",
+      "date": "2024-12-19T01:13:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/03e5db1fed6693c1695bb7aa910d84d8e302dc02"
+    },
+    {
+      "sha": "d8df46c7a1488f2358e69368813fd772164c4dac",
+      "message": "Improve pallet claims file structure (#6779)",
+      "date": "2024-12-18T09:59:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d8df46c7a1488f2358e69368813fd772164c4dac"
+    },
+    {
+      "sha": "9dcdf8133cbae2184caffd9070d18c1217ac5194",
+      "message": "Migration of polkadot-runtime-common auctions benchmarking to v2 (#6613)",
+      "date": "2024-12-11T01:52:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/9dcdf8133cbae2184caffd9070d18c1217ac5194"
+    },
+    {
+      "sha": "fdb264d0df6fdbed32f001ba43c3282a01dd3d65",
+      "message": "Migrating pallet-state-trie-migration to benchmarking V2 (#6617)",
+      "date": "2024-11-28T16:18:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/fdb264d0df6fdbed32f001ba43c3282a01dd3d65"
+    },
+    {
+      "sha": "23369acd34411cfae924718a2834df1a7ea8bc05",
+      "message": "Migrating pallet-xcm-benchmarks to V2 (#6618)",
+      "date": "2024-11-28T14:27:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/23369acd34411cfae924718a2834df1a7ea8bc05"
+    }
+  ],
+  "prs": [
+    {
+      "number": 9610,
+      "title": "Refactor indices pallet to use fungible traits",
+      "state": "OPEN",
+      "created_at": "2025-08-30T20:06:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9610",
+      "ready_for_review_at": "2025-08-30T20:06:18Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-10-08T15:03:21Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8436,
+      "title": "Fix calling nominate on a validator that doesn’t exist silently succeeds",
+      "state": "MERGED",
+      "created_at": "2025-05-06T08:28:58Z",
+      "closed_at": "2025-06-14T17:22:13Z",
+      "merged_at": "2025-06-14T17:22:13Z",
+      "merged_by": "kianenigma",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8436",
+      "ready_for_review_at": "2025-05-06T08:28:58Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-06T14:52:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-06T14:52:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-05-06T15:24:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-29T16:54:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-29T16:55:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-29T16:57:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-29T16:58:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-05-30T09:06:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-05-30T09:08:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-30T15:34:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-02T13:19:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-06-03T08:51:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-03T16:28:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-03T16:50:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-03T16:56:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-06-03T19:40:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-13T17:27:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-13T20:04:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-13T20:48:39Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-05-06T14:55:25Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-05-06T14:56:38Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-06T15:16:09Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-06T15:16:25Z"
+        },
+        {
+          "commenter": "seadanda",
+          "commented_at": "2025-05-30T09:15:36Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-30T09:21:01Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-05-30T15:33:59Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-05-30T15:37:08Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-06-02T12:52:22Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-06-02T13:33:37Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-06-02T13:38:25Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-06-03T09:00:23Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-03T17:00:46Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-06-04T12:50:25Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-06-04T12:55:15Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-04T14:48:36Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-04T19:00:01Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-06-11T10:11:55Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-11T10:16:52Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-11T14:04:48Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-06-13T21:17:42Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-14T11:42:27Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-06-14T11:58:53Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-14T12:04:25Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-06-14T16:46:45Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-06-14T16:46:50Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-15T13:59:33Z"
+        }
+      ],
+      "time_to_first_review_hours": 6.390555555555555,
+      "time_to_merge_hours": 944.8875
+    },
+    {
+      "number": 8285,
+      "title": "Migrate pallet core fellowship to umbrella crate",
+      "state": "CLOSED",
+      "created_at": "2025-04-18T15:29:17Z",
+      "closed_at": "2025-05-16T15:17:36Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8285",
+      "ready_for_review_at": "2025-04-18T15:29:17Z",
+      "reviews": [
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-18T15:31:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-25T07:54:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-04-29T10:35:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-29T13:08:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-29T18:44:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-29T18:54:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-29T20:21:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-30T08:28:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-04-30T10:19:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-30T10:40:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-30T10:48:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-05-02T19:08:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-05-02T20:14:51Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-05-07T13:56:22Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-16T15:17:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.04083333333333333,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8278,
+      "title": "Migrate rpc collator test to zombienet sdk",
+      "state": "OPEN",
+      "created_at": "2025-04-18T07:32:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8278",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-18T07:40:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lrubasze",
+          "submitted_at": "2025-04-18T08:11:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "AKJUS",
+          "submitted_at": "2025-04-18T08:37:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-18T08:54:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-18T08:54:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lrubasze",
+          "submitted_at": "2025-04-18T09:02:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-18T09:04:12Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-04-18T07:39:10Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8229,
+      "title": "Add readme to zombienet-sdk tests",
+      "state": "OPEN",
+      "created_at": "2025-04-11T09:34:19Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8229",
+      "ready_for_review_at": "2025-04-11T09:34:19Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8187,
+      "title": "Added locked flag to readmes that were missing it",
+      "state": "MERGED",
+      "created_at": "2025-04-08T20:11:03Z",
+      "closed_at": "2025-04-11T19:10:21Z",
+      "merged_at": "2025-04-11T19:10:21Z",
+      "merged_by": "bkchr",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8187",
+      "ready_for_review_at": "2025-04-08T20:11:03Z",
+      "reviews": [
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-04-09T06:40:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-11T16:53:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 10.494444444444444,
+      "time_to_merge_hours": 70.98833333333333
+    },
+    {
+      "number": 7953,
+      "title": "Add deposit for setting session keys",
+      "state": "MERGED",
+      "created_at": "2025-03-18T10:21:47Z",
+      "closed_at": "2025-06-14T09:53:14Z",
+      "merged_at": "2025-06-14T09:53:14Z",
+      "merged_by": "kianenigma",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7953",
+      "ready_for_review_at": "2025-03-18T10:21:47Z",
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2025-03-18T10:47:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-03-18T16:04:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-03-18T17:02:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-04-22T07:51:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-04-22T07:51:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-04-22T07:52:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-04-22T07:53:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-22T16:01:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-22T16:02:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:15:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:15:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:16:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:16:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:16:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:16:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:20:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:20:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:23:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:24:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:25:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:26:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:26:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-18T11:27:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-05-18T14:24:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-06-10T11:16:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-06-10T13:51:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-06-10T19:00:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-06-11T10:05:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T14:53:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T16:59:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-06-11T17:48:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:29:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:29:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:29:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:29:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:29:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:29:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:30:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:30:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:30:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:30:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:30:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:30:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:31:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:31:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:31:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:31:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:31:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:32:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:32:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:32:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:32:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:32:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:32:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:33:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:33:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:33:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:33:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:34:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:34:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:34:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:34:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:37:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-06-11T18:37:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-06-14T08:23:13Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-03-18T11:12:19Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-13T15:21:47Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-05-16T15:33:52Z"
+        },
+        {
+          "commenter": "serban300",
+          "commented_at": "2025-05-16T15:50:09Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-16T16:00:58Z"
+        },
+        {
+          "commenter": "serban300",
+          "commented_at": "2025-05-16T16:05:38Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-18T14:13:18Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-06-10T11:09:08Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-06-11T17:52:58Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-11T18:25:56Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-11T21:16:02Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-06-14T08:34:54Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-06-14T08:34:58Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-06-15T13:59:47Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2025-06-24T15:26:23Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-06-24T15:26:51Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-06-24T15:27:29Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.43027777777777776,
+      "time_to_merge_hours": 2111.5241666666666
+    },
+    {
+      "number": 7069,
+      "title": "Fix defensive! macro to be used in umbrella crates",
+      "state": "MERGED",
+      "created_at": "2025-01-07T09:03:33Z",
+      "closed_at": "2025-01-07T14:31:08Z",
+      "merged_at": "2025-01-07T14:31:08Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7069",
+      "ready_for_review_at": "2025-01-07T09:03:33Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-01-07T10:43:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-07T10:46:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2025-01-07T14:21:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-01-07T10:43:48Z"
+        },
+        {
+          "commenter": "aurexav",
+          "commented_at": "2025-01-08T02:57:08Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.6652777777777779,
+      "time_to_merge_hours": 5.459722222222222
+    },
+    {
+      "number": 7046,
+      "title": "adding warning when using default substrateWeight in production",
+      "state": "MERGED",
+      "created_at": "2025-01-05T14:05:41Z",
+      "closed_at": "2025-01-07T17:49:38Z",
+      "merged_at": "2025-01-07T17:49:38Z",
+      "merged_by": "acatangiu",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7046",
+      "ready_for_review_at": "2025-01-05T14:05:41Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-01-07T10:45:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-01-07T11:52:18Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-01-07T10:46:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 44.66972222222222,
+      "time_to_merge_hours": 51.7325
+    },
+    {
+      "number": 6942,
+      "title": "fixed merge issue with previous issue",
+      "state": "CLOSED",
+      "created_at": "2024-12-18T09:57:07Z",
+      "closed_at": "2024-12-19T09:02:28Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6942",
+      "ready_for_review_at": "2024-12-18T09:57:07Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6931,
+      "title": "Migrate pallet-paged-list to umbrella crate",
+      "state": "MERGED",
+      "created_at": "2024-12-17T21:15:42Z",
+      "closed_at": "2025-05-06T15:37:58Z",
+      "merged_at": "2025-05-06T15:37:57Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6931",
+      "ready_for_review_at": "2024-12-17T21:15:42Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-12-19T12:14:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-12-19T12:15:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-12-19T12:15:42Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-12-19T14:06:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-12-19T15:37:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-01-02T14:44:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-01-02T14:44:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-01-25T02:59:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-01-27T15:44:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-01-28T08:51:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-25T21:44:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-26T09:12:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-26T09:19:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-04-26T16:39:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-26T22:03:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-04-28T16:06:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-05-06T13:53:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-05-06T14:44:37Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-17T21:36:50Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-19T14:10:14Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-01-02T14:41:53Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-01-07T16:49:11Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-04-25T09:00:33Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-04-27T09:10:41Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-05-06T15:47:19Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-05-06T15:50:14Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-05-06T15:50:53Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-05-06T15:51:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 38.98277777777778,
+      "time_to_merge_hours": 3354.3708333333334
+    },
+    {
+      "number": 6930,
+      "title": "Migrate pallet-paged-list-fuzzer to umbrella crate",
+      "state": "MERGED",
+      "created_at": "2024-12-17T20:47:34Z",
+      "closed_at": "2025-01-21T18:15:05Z",
+      "merged_at": "2025-01-21T18:15:05Z",
+      "merged_by": "bkchr",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6930",
+      "ready_for_review_at": "2024-12-17T20:47:34Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-12-20T22:30:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-12-22T21:57:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-21T16:00:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-21T16:01:50Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-12-20T22:30:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 73.70861111111111,
+      "time_to_merge_hours": 837.4586111111112
+    },
+    {
+      "number": 6925,
+      "title": "Migrate pallet sheduler to umbrella crate",
+      "state": "CLOSED",
+      "created_at": "2024-12-17T15:55:19Z",
+      "closed_at": "2025-05-06T15:38:44Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6925",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-06T15:38:44Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6905,
+      "title": "Migrate pallet safe mode to umbrella crate",
+      "state": "MERGED",
+      "created_at": "2024-12-16T10:26:37Z",
+      "closed_at": "2025-05-07T13:44:49Z",
+      "merged_at": "2025-05-07T13:44:49Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6905",
+      "ready_for_review_at": "2024-12-16T10:26:37Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-06T11:09:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-01-06T11:39:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-01-06T11:51:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-07T13:47:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-01-07T16:22:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-07T16:53:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-01-25T05:49:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-01-26T03:36:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-04-28T16:30:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-04-29T12:05:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-04-29T15:52:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "UtkarshBhardwaj007",
+          "submitted_at": "2025-05-07T12:02:58Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-04-25T10:07:14Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-05-06T16:06:24Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-05-07T13:48:39Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-05-07T13:49:04Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-05-07T13:50:09Z"
+        }
+      ],
+      "time_to_first_review_hours": 504.7125,
+      "time_to_merge_hours": 3411.3033333333333
+    },
+    {
+      "number": 6894,
+      "title": "Migrate pallet-recovery to umbrella crate",
+      "state": "CLOSED",
+      "created_at": "2024-12-13T21:37:48Z",
+      "closed_at": "2025-04-25T08:52:23Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6894",
+      "ready_for_review_at": "2024-12-13T21:37:48Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-17T15:12:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-18T09:07:46Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-17T15:25:51Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-04-25T08:45:49Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-04-25T08:52:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 89.58333333333333,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6892,
+      "title": "Migrate pallet-state-trie-migration to umbrella crate",
+      "state": "CLOSED",
+      "created_at": "2024-12-13T21:12:34Z",
+      "closed_at": "2025-05-06T15:38:32Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6892",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-13T21:18:17Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-01-06T10:13:01Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-05-06T15:38:32Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6843,
+      "title": "Extract the prometheus endpoint",
+      "state": "CLOSED",
+      "created_at": "2024-12-11T11:06:56Z",
+      "closed_at": "2025-07-04T19:20:08Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6843",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "AndreiEres",
+          "submitted_at": "2024-12-17T12:04:54Z",
+          "state": "CHANGES_REQUESTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-13T08:53:14Z"
+        },
+        {
+          "commenter": "AndreiEres",
+          "commented_at": "2025-07-03T08:06:09Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-07-04T19:20:09Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6787,
+      "title": "Improve pallet slots file structure",
+      "state": "OPEN",
+      "created_at": "2024-12-07T16:03:25Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6787",
+      "ready_for_review_at": "2024-12-07T16:03:25Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6786,
+      "title": "Improve pallet slots file structure",
+      "state": "CLOSED",
+      "created_at": "2024-12-07T15:54:04Z",
+      "closed_at": "2024-12-07T16:01:35Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6786",
+      "ready_for_review_at": "2024-12-07T15:54:04Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-07T16:01:35Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6785,
+      "title": "Improve pallet crowdloan file structure",
+      "state": "OPEN",
+      "created_at": "2024-12-07T15:21:43Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6785",
+      "ready_for_review_at": "2024-12-07T15:21:43Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6784,
+      "title": "Improve pallet assigned_slots file structure",
+      "state": "OPEN",
+      "created_at": "2024-12-07T14:53:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6784",
+      "ready_for_review_at": "2024-12-07T14:53:49Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6783,
+      "title": "Improve pallet paras_registrar file structure",
+      "state": "MERGED",
+      "created_at": "2024-12-07T14:08:48Z",
+      "closed_at": "2024-12-19T02:31:58Z",
+      "merged_at": "2024-12-19T02:31:58Z",
+      "merged_by": "gui1117",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6783",
+      "ready_for_review_at": "2024-12-07T14:08:48Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-18T19:36:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-12-19T01:22:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 269.4602777777778,
+      "time_to_merge_hours": 276.3861111111111
+    },
+    {
+      "number": 6780,
+      "title": "Improve pallet purchase file structure",
+      "state": "MERGED",
+      "created_at": "2024-12-06T16:28:23Z",
+      "closed_at": "2024-12-19T01:49:30Z",
+      "merged_at": "2024-12-19T01:49:30Z",
+      "merged_by": "gui1117",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6780",
+      "ready_for_review_at": "2024-12-06T16:28:23Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-07T09:12:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-12-18T08:51:38Z",
+          "state": "DISMISSED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-12-19T01:13:01Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2024-12-07T09:12:34Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-12-07T09:13:05Z"
+        },
+        {
+          "commenter": "gui1117",
+          "commented_at": "2024-12-18T09:13:43Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-18T09:19:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 16.73361111111111,
+      "time_to_merge_hours": 297.3519444444444
+    },
+    {
+      "number": 6779,
+      "title": "Improve pallet claims file structure",
+      "state": "MERGED",
+      "created_at": "2024-12-06T15:12:34Z",
+      "closed_at": "2024-12-18T10:47:04Z",
+      "merged_at": "2024-12-18T10:47:04Z",
+      "merged_by": "gui1117",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6779",
+      "ready_for_review_at": "2024-12-06T15:12:34Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-07T09:10:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-12-18T08:59:38Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 17.970277777777778,
+      "time_to_merge_hours": 283.575
+    },
+    {
+      "number": 6746,
+      "title": "Pallet:Auction move tests and benchmark to seperate files",
+      "state": "MERGED",
+      "created_at": "2024-12-03T21:19:54Z",
+      "closed_at": "2024-12-19T02:04:23Z",
+      "merged_at": "2024-12-19T02:04:23Z",
+      "merged_by": "gui1117",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6746",
+      "ready_for_review_at": "2024-12-03T21:19:54Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-05T12:02:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-05T12:05:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-05T12:09:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-05T12:11:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-12-05T16:27:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-12-05T19:38:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-06T10:18:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-12-06T10:20:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-12-18T09:08:04Z",
+          "state": "DISMISSED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-12-19T01:24:55Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "gui1117",
+          "commented_at": "2024-12-18T09:09:58Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-18T09:38:04Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-18T10:00:09Z"
+        },
+        {
+          "commenter": "gui1117",
+          "commented_at": "2024-12-18T10:08:30Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-12-18T10:13:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 38.70388888888889,
+      "time_to_merge_hours": 364.7413888888889
+    },
+    {
+      "number": 6618,
+      "title": "Migrating pallet-xcm-benchmarks to V2",
+      "state": "MERGED",
+      "created_at": "2024-11-22T22:46:49Z",
+      "closed_at": "2024-11-28T15:19:27Z",
+      "merged_at": "2024-11-28T15:19:27Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6618",
+      "ready_for_review_at": "2024-11-22T22:46:49Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-11-24T21:44:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T10:24:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-11-27T10:36:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-11-27T10:39:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T10:40:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-11-27T10:42:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T10:44:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-11-27T11:08:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T12:21:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-11-27T13:47:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T14:21:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-11-27T14:56:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T15:46:07Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-11-27T10:39:53Z"
+        },
+        {
+          "commenter": "clangenb",
+          "commented_at": "2024-11-28T09:47:04Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-11-28T09:52:04Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-11-29T23:45:47Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-29T23:45:52Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-11-30T14:06:43Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-30T14:07:10Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-30T14:08:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 46.96194444444444,
+      "time_to_merge_hours": 136.5438888888889
+    },
+    {
+      "number": 6617,
+      "title": "Migrating pallet-state-trie-migration to benchmarking V2",
+      "state": "MERGED",
+      "created_at": "2024-11-22T20:30:31Z",
+      "closed_at": "2024-11-28T17:10:00Z",
+      "merged_at": "2024-11-28T17:10:00Z",
+      "merged_by": "shawntabrizi",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6617",
+      "ready_for_review_at": "2024-11-22T20:30:31Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-11-25T09:24:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-28T10:50:54Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-11-25T10:09:21Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2024-11-25T10:18:07Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2024-11-28T17:02:09Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-28T17:02:15Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2024-11-28T17:03:40Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2024-11-28T17:12:02Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2024-11-28T17:38:15Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-28T17:38:47Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-28T17:39:22Z"
+        }
+      ],
+      "time_to_first_review_hours": 60.903333333333336,
+      "time_to_merge_hours": 140.65805555555556
+    },
+    {
+      "number": 6616,
+      "title": "Migration of polkadot-runtime-common paras_registrar benchmarking to v2.",
+      "state": "MERGED",
+      "created_at": "2024-11-22T18:23:36Z",
+      "closed_at": "2025-02-26T16:55:08Z",
+      "merged_at": "2025-02-26T16:55:08Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6616",
+      "ready_for_review_at": "2024-11-22T18:23:36Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-16T11:09:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-01-25T13:02:57Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-01-27T14:35:56Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-01-27T15:02:56Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-02-26T15:29:01Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-02-26T15:30:59Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-02-26T16:20:08Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-02-26T16:20:38Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-02-26T16:20:49Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-02-26T17:12:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 568.7713888888889,
+      "time_to_merge_hours": 2302.5255555555555
+    },
+    {
+      "number": 6615,
+      "title": "Migration of polkadot-runtime-common crowdloan benchmarking to v2",
+      "state": "MERGED",
+      "created_at": "2024-11-22T17:28:52Z",
+      "closed_at": "2025-02-26T15:25:44Z",
+      "merged_at": "2025-02-26T15:25:44Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6615",
+      "ready_for_review_at": "2024-11-22T17:28:52Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T10:41:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-01-25T13:02:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-27T14:38:41Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-02-26T14:51:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 113.20305555555555,
+      "time_to_merge_hours": 2301.947777777778
+    },
+    {
+      "number": 6614,
+      "title": "Migrating polkadot-runtime-common slots benchmarking to v2",
+      "state": "MERGED",
+      "created_at": "2024-11-22T17:07:55Z",
+      "closed_at": "2025-01-27T15:14:53Z",
+      "merged_at": "2025-01-27T15:14:53Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6614",
+      "ready_for_review_at": "2024-11-22T17:07:55Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-10T16:27:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-01-25T13:05:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-01-25T23:20:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 431.32722222222225,
+      "time_to_merge_hours": 1582.1161111111112
+    },
+    {
+      "number": 6613,
+      "title": "Migration of polkadot-runtime-common auctions benchmarking to v2",
+      "state": "MERGED",
+      "created_at": "2024-11-22T16:53:59Z",
+      "closed_at": "2024-12-11T02:38:45Z",
+      "merged_at": "2024-12-11T02:38:45Z",
+      "merged_by": "bkchr",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6613",
+      "ready_for_review_at": "2024-11-22T16:53:59Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-10T16:20:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-12-10T21:37:13Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 431.4427777777778,
+      "time_to_merge_hours": 441.74611111111113
+    },
+    {
+      "number": 6612,
+      "title": "Migrating polkadot-runtime-parachains initializer benchmarking to v2",
+      "state": "MERGED",
+      "created_at": "2024-11-22T15:27:31Z",
+      "closed_at": "2025-02-26T15:54:46Z",
+      "merged_at": "2025-02-26T15:54:46Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6612",
+      "ready_for_review_at": "2024-11-22T15:27:31Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-10T16:38:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-01-25T13:06:21Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 433.17833333333334,
+      "time_to_merge_hours": 2304.454166666667
+    },
+    {
+      "number": 6607,
+      "title": "Migrating polkadot-runtime-parachains configuration benchmarking to V2",
+      "state": "MERGED",
+      "created_at": "2024-11-21T23:06:49Z",
+      "closed_at": "2025-03-04T11:04:13Z",
+      "merged_at": "2025-03-04T11:04:13Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6607",
+      "ready_for_review_at": "2024-11-21T23:06:49Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-10T16:36:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-12-10T17:04:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-11T09:35:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-16T10:38:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-01-25T13:10:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2025-01-26T03:33:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-03-04T05:56:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-03-04T05:56:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-03-04T10:24:00Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "re-gius",
+          "commented_at": "2024-12-11T16:26:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-12-11T16:26:50Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-12-11T17:38:13Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-02-26T16:57:34Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-02-26T16:58:14Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-02-26T17:36:08Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-03-04T10:23:56Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-03-04T10:24:39Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-03-04T10:25:11Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-03-04T10:25:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 449.49055555555555,
+      "time_to_merge_hours": 2459.9566666666665
+    },
+    {
+      "number": 6606,
+      "title": "Migrating polkadot-runtime-parachains paras_inherent benchmarking to V2",
+      "state": "MERGED",
+      "created_at": "2024-11-21T22:35:37Z",
+      "closed_at": "2025-02-26T16:12:48Z",
+      "merged_at": "2025-02-26T16:12:48Z",
+      "merged_by": "re-gius",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6606",
+      "ready_for_review_at": "2024-11-21T22:35:37Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-03T18:13:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Krayt78",
+          "submitted_at": "2024-12-03T21:11:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-10T16:30:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-01-25T13:08:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-02-26T16:07:38Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-02-26T16:08:10Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-02-26T16:08:33Z"
+        }
+      ],
+      "time_to_first_review_hours": 283.6336111111111,
+      "time_to_merge_hours": 2321.619722222222
+    },
+    {
+      "number": 6564,
+      "title": "Migrating cumulus-pallet-session-benchmarking to Benchmarking V2 ",
+      "state": "MERGED",
+      "created_at": "2024-11-20T19:31:28Z",
+      "closed_at": "2025-01-29T11:49:43Z",
+      "merged_at": "2025-01-29T11:49:43Z",
+      "merged_by": "bkchr",
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6564",
+      "ready_for_review_at": "2024-11-20T19:31:28Z",
+      "reviews": [
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T10:07:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seemantaggarwal",
+          "submitted_at": "2025-01-25T12:59:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-01-28T23:15:27Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2025-01-06T22:36:19Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-01-29T12:08:58Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-01-29T12:09:29Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2025-01-29T12:09:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 158.60583333333332,
+      "time_to_merge_hours": 1672.3041666666666
+    },
+    {
+      "number": 6543,
+      "title": "migrate-pallet-offences-benchmarking-to-benchmarking-syntax-v2",
+      "state": "CLOSED",
+      "created_at": "2024-11-19T17:35:41Z",
+      "closed_at": "2024-11-21T17:55:17Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6543",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-11-19T17:35:54Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 7953,
+      "pr_title": "Add deposit for setting session keys",
+      "reviewed_at": "2025-06-24T15:27:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7953"
+    },
+    {
+      "pr_number": 8436,
+      "pr_title": "Fix calling nominate on a validator that doesn’t exist silently succeeds",
+      "reviewed_at": "2025-06-15T13:59:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8436"
+    },
+    {
+      "pr_number": 8285,
+      "pr_title": "Migrate pallet core fellowship to umbrella crate",
+      "reviewed_at": "2025-06-14T12:05:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8285"
+    },
+    {
+      "pr_number": 6905,
+      "pr_title": "Migrate pallet safe mode to umbrella crate",
+      "reviewed_at": "2025-05-07T13:50:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6905"
+    },
+    {
+      "pr_number": 6931,
+      "pr_title": "Migrate pallet-paged-list to umbrella crate",
+      "reviewed_at": "2025-05-06T15:51:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6931"
+    },
+    {
+      "pr_number": 8278,
+      "pr_title": "Migrate rpc collator test to zombienet sdk",
+      "reviewed_at": "2025-04-18T09:04:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8278"
+    },
+    {
+      "pr_number": 6607,
+      "pr_title": "Migrating polkadot-runtime-parachains configuration benchmarking to V2",
+      "reviewed_at": "2025-03-04T11:04:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6607"
+    },
+    {
+      "pr_number": 6606,
+      "pr_title": "Migrating polkadot-runtime-parachains paras_inherent benchmarking to V2",
+      "reviewed_at": "2025-02-26T16:12:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6606"
+    },
+    {
+      "pr_number": 6746,
+      "pr_title": "Pallet:Auction move tests and benchmark to seperate files",
+      "reviewed_at": "2024-12-19T02:04:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6746"
+    },
+    {
+      "pr_number": 6618,
+      "pr_title": "Migrating pallet-xcm-benchmarks to V2",
+      "reviewed_at": "2024-11-30T14:08:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6618"
+    }
+  ]
+}

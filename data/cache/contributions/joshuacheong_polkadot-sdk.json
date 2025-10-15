@@ -1,0 +1,41 @@
+{
+  "commits": [
+    {
+      "sha": "aa32faaebf64426becb2feeede347740eb7a3908",
+      "message": "Update README.md (#4623)",
+      "date": "2024-05-29T10:11:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/aa32faaebf64426becb2feeede347740eb7a3908"
+    }
+  ],
+  "prs": [
+    {
+      "number": 4623,
+      "title": "Update README.md",
+      "state": "MERGED",
+      "created_at": "2024-05-29T04:27:37Z",
+      "closed_at": "2024-05-29T10:34:53Z",
+      "merged_at": "2024-05-29T10:34:53Z",
+      "merged_by": "kianenigma",
+      "author": "joshuacheong",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4623",
+      "ready_for_review_at": "2024-05-29T04:27:37Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-05-29T05:12:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2024-05-29T05:41:14Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.7541666666666667,
+      "time_to_merge_hours": 6.121111111111111
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

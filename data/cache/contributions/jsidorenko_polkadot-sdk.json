@@ -1,0 +1,565 @@
+{
+  "commits": [
+    {
+      "sha": "166ae5ae1295c2431c83421439c3869d4f40de7e",
+      "message": "[NFTs] Fix consumers issue (#2653)",
+      "date": "2023-12-19T13:23:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/166ae5ae1295c2431c83421439c3869d4f40de7e"
+    },
+    {
+      "sha": "1bdfb29587800a00aad62acb7222b77b6c2701e7",
+      "message": "[NTFs] Emit CollectionMaxSupplySet on collection create (#2626)",
+      "date": "2023-12-08T10:26:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1bdfb29587800a00aad62acb7222b77b6c2701e7"
+    },
+    {
+      "sha": "6ce530db17600ffb5b14cb6887c5f62ac45673de",
+      "message": "Make owned_item in MintWitness optional (#14800)",
+      "date": "2023-08-21T21:03:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6ce530db17600ffb5b14cb6887c5f62ac45673de"
+    },
+    {
+      "sha": "0baa6433149e7e9bc94955aeecdbd21e21c91aa8",
+      "message": "Sync NFT metadata limits with AssetHub values (#14748)",
+      "date": "2023-08-11T06:35:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0baa6433149e7e9bc94955aeecdbd21e21c91aa8"
+    },
+    {
+      "sha": "26d8e659100ffb545bce7adc10cb6f2ea5252178",
+      "message": "Handle the AllowMultiAssetPools=false case in benchmarks (#14590)",
+      "date": "2023-07-18T09:38:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/26d8e659100ffb545bce7adc10cb6f2ea5252178"
+    },
+    {
+      "sha": "c4e880c1558005888c4f24c27fb272dfa155e66a",
+      "message": "Refactor the asset-conversion-tx-payment pallet (#14558)",
+      "date": "2023-07-13T13:44:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c4e880c1558005888c4f24c27fb272dfa155e66a"
+    },
+    {
+      "sha": "84abf20800770a1db0f5c2e6dc5ad0a4c593798f",
+      "message": "NFT Fractionalization on AssetHub Kusama (#2769)",
+      "date": "2023-07-05T16:09:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/84abf20800770a1db0f5c2e6dc5ad0a4c593798f"
+    },
+    {
+      "sha": "032aa05221f0ab00efd24cadcf625b609d0db3d2",
+      "message": "Use set_balance() instead of write_balance() in benchmark (#14497)",
+      "date": "2023-07-05T10:04:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/032aa05221f0ab00efd24cadcf625b609d0db3d2"
+    },
+    {
+      "sha": "f5776f689768d37ab9d22305b6aafa2ef9811a6d",
+      "message": "Improve NFT locking (#14510)",
+      "date": "2023-07-05T09:17:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f5776f689768d37ab9d22305b6aafa2ef9811a6d"
+    },
+    {
+      "sha": "be7c654c42bd79e2d03ced373b80f16cb5473470",
+      "message": "Pay tx fee with assets by using the asset conversion pallet (#14340)",
+      "date": "2023-06-23T19:17:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/be7c654c42bd79e2d03ced373b80f16cb5473470"
+    },
+    {
+      "sha": "d767d748d36363e4b048b105664de89650ebba71",
+      "message": "Use Incrementable from frame_support::traits (#14367)",
+      "date": "2023-06-13T13:46:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d767d748d36363e4b048b105664de89650ebba71"
+    },
+    {
+      "sha": "50cf22b0bbf5c2d08cd9a2729e5ed5a98df86a48",
+      "message": "[NFTs] Add mint price to the witness object on mint and confirm it (#14257)",
+      "date": "2023-05-29T16:59:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/50cf22b0bbf5c2d08cd9a2729e5ed5a98df86a48"
+    },
+    {
+      "sha": "cb533ffa984e166e5a0f4ddb06b21faae18a2ed3",
+      "message": "[NFTs] Add minting price to the pre-signed mint object (#14242)",
+      "date": "2023-05-29T11:00:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cb533ffa984e166e5a0f4ddb06b21faae18a2ed3"
+    },
+    {
+      "sha": "93b30fe8d851065b6a5ae6519cf75b250d9e40a2",
+      "message": "NFT Fractionalization on Westmint (#2600)",
+      "date": "2023-05-23T11:04:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/93b30fe8d851065b6a5ae6519cf75b250d9e40a2"
+    },
+    {
+      "sha": "79d5691170028b9fea90756962850f7ec30e371d",
+      "message": "Nfts on Statemint (#2595)",
+      "date": "2023-05-23T09:35:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/79d5691170028b9fea90756962850f7ec30e371d"
+    },
+    {
+      "sha": "7a1fc72a4a00608fe8ee7d0c500ea80c5d392006",
+      "message": "[NFTs] Improve offchain signature validation (#13960)",
+      "date": "2023-04-20T12:38:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7a1fc72a4a00608fe8ee7d0c500ea80c5d392006"
+    },
+    {
+      "sha": "d43c88e1669c6b20c44ab846ba16c6dfdf72103e",
+      "message": "NFTs 2.0 on Statemine (#2314)",
+      "date": "2023-03-21T11:25:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d43c88e1669c6b20c44ab846ba16c6dfdf72103e"
+    },
+    {
+      "sha": "5d718e45c1aa58a1709520476343408f27bad26f",
+      "message": "[NFTs] Allow to set the role to None (#13591)",
+      "date": "2023-03-14T07:55:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5d718e45c1aa58a1709520476343408f27bad26f"
+    },
+    {
+      "sha": "654f98df12e9323dde3a0479d820055cd6a6cf4a",
+      "message": "Companion for #13482 (#2303)",
+      "date": "2023-03-13T09:05:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/654f98df12e9323dde3a0479d820055cd6a6cf4a"
+    },
+    {
+      "sha": "f6b9e056ae18e1cf3dfa7e8eb4ea706121a47f46",
+      "message": "[NFTs] Rework permissions model (#13482)",
+      "date": "2023-03-13T08:25:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f6b9e056ae18e1cf3dfa7e8eb4ea706121a47f46"
+    },
+    {
+      "sha": "689c2f6d4e3402a256e13aab4d30ed8453f8df62",
+      "message": "Nfts: minor fixes (#13576)",
+      "date": "2023-03-10T09:52:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/689c2f6d4e3402a256e13aab4d30ed8453f8df62"
+    },
+    {
+      "sha": "889e1ceab1b3ec1499322e7b5ab3a6e750eb72f1",
+      "message": "[NFTs] Emit new PalletAttributeSet event (#13525)",
+      "date": "2023-03-03T12:17:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/889e1ceab1b3ec1499322e7b5ab3a6e750eb72f1"
+    },
+    {
+      "sha": "2156cbc046fd0bb410cf5bbe344fd6998fd1dc41",
+      "message": "Companion for #13352 (#2180)",
+      "date": "2023-03-02T14:37:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/2156cbc046fd0bb410cf5bbe344fd6998fd1dc41"
+    },
+    {
+      "sha": "7981d4aa594acc915bfa7e61973a21a8643a0ba1",
+      "message": "Return account's asset balances (#13352)",
+      "date": "2023-03-02T13:58:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7981d4aa594acc915bfa7e61973a21a8643a0ba1"
+    },
+    {
+      "sha": "ab26b743f74202b6ea57f52c3fb3f04f5fae4399",
+      "message": "Companion for #13349 (#2217)",
+      "date": "2023-02-24T08:24:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ab26b743f74202b6ea57f52c3fb3f04f5fae4399"
+    },
+    {
+      "sha": "668e5d52c61609f6fe25eaa9c6b51147f89e66b4",
+      "message": "Companion for #13390 (#2189)",
+      "date": "2023-02-22T14:28:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/668e5d52c61609f6fe25eaa9c6b51147f89e66b4"
+    },
+    {
+      "sha": "af25310eb0f43b0f3ed71584c62883f01d5a172f",
+      "message": "[NFTs] Update attributes with offchain signature (#13390)",
+      "date": "2023-02-22T13:50:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/af25310eb0f43b0f3ed71584c62883f01d5a172f"
+    },
+    {
+      "sha": "fe85532990c717da78cf73257b5a1844c2159598",
+      "message": "Companion for #13158 (#2121)",
+      "date": "2023-02-14T09:00:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/fe85532990c717da78cf73257b5a1844c2159598"
+    },
+    {
+      "sha": "3b767e1238bc4bef31ecf3f902af9acdb2ba345d",
+      "message": "[NFTs] Offchain mint (#13158)",
+      "date": "2023-02-14T08:19:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/3b767e1238bc4bef31ecf3f902af9acdb2ba345d"
+    },
+    {
+      "sha": "836acb1bd33f1afdf1aa053ebbcac21295909327",
+      "message": "[NFTs] Track item's metadata depositor (#13124)",
+      "date": "2023-01-11T13:27:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/836acb1bd33f1afdf1aa053ebbcac21295909327"
+    },
+    {
+      "sha": "58d2e7de29509a98be849afed56b269d65c7211c",
+      "message": "NFTs 2.0 on Westmint (#2058)",
+      "date": "2023-01-06T11:02:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/58d2e7de29509a98be849afed56b269d65c7211c"
+    },
+    {
+      "sha": "7ead16802ef194b9d37bb2d0aa07ed0cffda3c86",
+      "message": "Allow to clear attributes via traits (#13055)",
+      "date": "2023-01-04T08:31:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7ead16802ef194b9d37bb2d0aa07ed0cffda3c86"
+    },
+    {
+      "sha": "25b4f8c688c9e0f2915323e6165ec95491dbbe73",
+      "message": "Disallow burning externally locked nfts (#13054)",
+      "date": "2023-01-04T08:30:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/25b4f8c688c9e0f2915323e6165ec95491dbbe73"
+    },
+    {
+      "sha": "ae72d1cdf9aadbcba0e1cba6777283a91b23d41b",
+      "message": "Fix pallet's integration (#13056)",
+      "date": "2023-01-04T08:30:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ae72d1cdf9aadbcba0e1cba6777283a91b23d41b"
+    },
+    {
+      "sha": "0edab31776ca97dd899dc83cadd24dd71aab8691",
+      "message": "NFTs 2.0 (#12765)",
+      "date": "2022-12-23T16:07:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0edab31776ca97dd899dc83cadd24dd71aab8691"
+    },
+    {
+      "sha": "c943e5eac497908a80715237a1729b46dff9e92c",
+      "message": "Companion to #11398 (#1324)",
+      "date": "2022-07-13T13:21:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c943e5eac497908a80715237a1729b46dff9e92c"
+    },
+    {
+      "sha": "5d96c0a0ea8f21e5062e24be397ffe285d7bc79a",
+      "message": "Buy&Sell methods for Uniques (#11398)",
+      "date": "2022-07-13T12:41:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5d96c0a0ea8f21e5062e24be397ffe285d7bc79a"
+    }
+  ],
+  "prs": [
+    {
+      "number": 3064,
+      "title": "[NFTs] Improve attributes removal",
+      "state": "OPEN",
+      "created_at": "2024-01-25T12:51:39Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3064",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2653,
+      "title": "[NFTs] Fix consumers issue",
+      "state": "MERGED",
+      "created_at": "2023-12-07T15:05:59Z",
+      "closed_at": "2023-12-19T13:23:58Z",
+      "merged_at": "2023-12-19T13:23:58Z",
+      "merged_by": "jsidorenko",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2653",
+      "ready_for_review_at": "2023-12-07T15:05:59Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-12-07T19:27:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-12-08T13:01:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-12-08T13:04:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-12-08T13:08:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-12-19T12:42:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-19T12:55:08Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-12-19T13:02:54Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-12-19T13:17:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.354722222222223,
+      "time_to_merge_hours": 286.2997222222222
+    },
+    {
+      "number": 2626,
+      "title": "[NTFs] Emit CollectionMaxSupplySet on collection create",
+      "state": "MERGED",
+      "created_at": "2023-12-05T12:58:03Z",
+      "closed_at": "2023-12-08T10:26:13Z",
+      "merged_at": "2023-12-08T10:26:13Z",
+      "merged_by": "jsidorenko",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2626",
+      "ready_for_review_at": "2023-12-05T12:58:03Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-05T14:15:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-12-05T14:20:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-05T14:21:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-12-05T14:23:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-12-06T15:52:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-12-07T19:37:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-07T19:43:03Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 1.295,
+      "time_to_merge_hours": 69.46944444444445
+    },
+    {
+      "number": 1866,
+      "title": "Refactors pallet-uniques to use fungible traits",
+      "state": "CLOSED",
+      "created_at": "2023-10-12T19:13:21Z",
+      "closed_at": "2024-07-17T12:36:30Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1866",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-10-12T19:20:55Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1804,
+      "title": "Refactors pallet-nfts to use fungible traits ",
+      "state": "CLOSED",
+      "created_at": "2023-10-06T06:17:28Z",
+      "closed_at": "2024-07-17T12:36:21Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1804",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-10-09T09:17:27Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-10-12T19:52:23Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 4300,
+      "pr_title": "XCM NFT types that use Granular NFT traits",
+      "reviewed_at": "2025-08-07T11:54:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4300"
+    },
+    {
+      "pr_number": 5620,
+      "pr_title": " New NFT traits: granular and abstract interface",
+      "reviewed_at": "2025-05-05T16:18:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5620"
+    },
+    {
+      "pr_number": 2868,
+      "pr_title": "NFTs: move deposit to new owner on trade",
+      "reviewed_at": "2024-09-20T06:49:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2868"
+    },
+    {
+      "pr_number": 1442,
+      "pr_title": "asset conversion runtime quote api generalised",
+      "reviewed_at": "2024-08-14T09:21:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1442"
+    },
+    {
+      "pr_number": 1448,
+      "pr_title": "add nft apis to kusama + polkadot asset hub runtimes",
+      "reviewed_at": "2024-07-17T12:30:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1448"
+    },
+    {
+      "pr_number": 1340,
+      "pr_title": "Add simple collator election mechanism",
+      "reviewed_at": "2024-06-11T15:25:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1340"
+    },
+    {
+      "pr_number": 2740,
+      "pr_title": ":bug: Depositing PalletAttributeSet on incorrect nft",
+      "reviewed_at": "2024-03-09T22:00:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2740"
+    },
+    {
+      "pr_number": 2668,
+      "pr_title": "Add paseo network `--chain` option and chain spec",
+      "reviewed_at": "2024-01-30T23:49:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2668"
+    },
+    {
+      "pr_number": 2979,
+      "pr_title": "Switch All `construct_runtime`s to New Syntax",
+      "reviewed_at": "2024-01-30T23:49:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2979"
+    },
+    {
+      "pr_number": 2754,
+      "pr_title": "pallet-uniques/nfts: Small optimizations",
+      "reviewed_at": "2024-01-30T23:49:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2754"
+    },
+    {
+      "pr_number": 2727,
+      "pr_title": "Publicly expose inaccessible `pallet_uniques` state",
+      "reviewed_at": "2024-01-30T23:49:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2727"
+    },
+    {
+      "pr_number": 2687,
+      "pr_title": "pallet-uniques: Move migration over to `VersionedMigration`",
+      "reviewed_at": "2024-01-30T23:49:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2687"
+    },
+    {
+      "pr_number": 2653,
+      "pr_title": "[NFTs] Fix consumers issue",
+      "reviewed_at": "2024-01-30T23:49:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2653"
+    },
+    {
+      "pr_number": 2626,
+      "pr_title": "[NTFs] Emit CollectionMaxSupplySet on collection create",
+      "reviewed_at": "2024-01-30T23:49:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2626"
+    },
+    {
+      "pr_number": 2513,
+      "pr_title": "Add traits for managing Memberships and implement for non-fungible",
+      "reviewed_at": "2024-01-30T23:49:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2513"
+    },
+    {
+      "pr_number": 2031,
+      "pr_title": "pallet-asset-conversion: Decoupling Native Currency Dependancy",
+      "reviewed_at": "2024-01-30T23:49:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2031"
+    },
+    {
+      "pr_number": 1914,
+      "pr_title": "Expose collection attributes from `Inspect` trait",
+      "reviewed_at": "2024-01-30T23:49:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1914"
+    },
+    {
+      "pr_number": 1661,
+      "pr_title": "Make `IdentityInfo` generic in `pallet-identity`",
+      "reviewed_at": "2024-01-30T23:49:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1661"
+    },
+    {
+      "pr_number": 1561,
+      "pr_title": "Trading trait and deal with metadata in Mutate trait for nonfungibles_v2",
+      "reviewed_at": "2024-01-30T23:49:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1561"
+    },
+    {
+      "pr_number": 1683,
+      "pr_title": "fungible/s decrease balance preserves account",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1683"
+    },
+    {
+      "pr_number": 1677,
+      "pr_title": "pallet-asset-conversion: Swap Credit",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1677"
+    },
+    {
+      "pr_number": 1371,
+      "pr_title": "pallet asset-conversion additional quote tests",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1371"
+    },
+    {
+      "pr_number": 2490,
+      "pr_title": "Release Process",
+      "reviewed_at": "2024-01-26T22:15:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2490"
+    },
+    {
+      "pr_number": 2384,
+      "pr_title": "[trivial] asset-hubs runtimes: fix incorrect doc-comments",
+      "reviewed_at": "2023-11-17T17:35:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2384"
+    },
+    {
+      "pr_number": 2309,
+      "pr_title": "Delete undecodable Westend Asset Hub `Balances::Hold` and `Nfts::ItemMetadataOf`",
+      "reviewed_at": "2023-11-14T11:01:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2309"
+    },
+    {
+      "pr_number": 1927,
+      "pr_title": "Enable \"cargo run --bin substrate-node\"",
+      "reviewed_at": "2023-10-28T03:20:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1927"
+    },
+    {
+      "pr_number": 1909,
+      "pr_title": "Add Runtime Missing Crate Descriptions",
+      "reviewed_at": "2023-10-18T08:56:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1909"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 3136,
+      "title": "Migrate Currency trait to Fungible in Multisig pallet",
+      "state": "CLOSED",
+      "created_at": "2024-01-30T12:47:34Z",
+      "closed_at": "2024-02-11T16:40:42Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Fiono11",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3136",
+      "ready_for_review_at": "2024-01-30T12:47:34Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-01-30T12:47:41Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-01-30T13:31:43Z"
+        },
+        {
+          "commenter": "gupnik",
+          "commented_at": "2024-01-30T14:08:40Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

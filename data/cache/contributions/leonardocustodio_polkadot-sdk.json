@@ -1,0 +1,72 @@
+{
+  "commits": [
+    {
+      "sha": "3681bd8f56fbc555dea1760c119e10d0938d449f",
+      "message": "Use correct polkadot repository (#8488)",
+      "date": "2025-05-16T14:12:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/3681bd8f56fbc555dea1760c119e10d0938d449f"
+    }
+  ],
+  "prs": [
+    {
+      "number": 8488,
+      "title": "Use correct polkadot repository",
+      "state": "MERGED",
+      "created_at": "2025-05-11T19:04:45Z",
+      "closed_at": "2025-05-16T14:51:01Z",
+      "merged_at": "2025-05-16T14:51:01Z",
+      "merged_by": "nkpar",
+      "author": "leonardocustodio",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8488",
+      "ready_for_review_at": "2025-05-11T19:04:45Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-05-11T20:43:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "nkpar",
+          "submitted_at": "2025-05-11T21:57:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "nkpar",
+          "submitted_at": "2025-05-14T07:52:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-05-15T20:10:26Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "leonardocustodio",
+          "commented_at": "2025-05-12T18:02:09Z"
+        },
+        {
+          "commenter": "leonardocustodio",
+          "commented_at": "2025-05-12T18:03:55Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-05-14T00:08:15Z"
+        },
+        {
+          "commenter": "leonardocustodio",
+          "commented_at": "2025-05-16T12:27:30Z"
+        },
+        {
+          "commenter": "nkpar",
+          "commented_at": "2025-05-16T13:02:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.6408333333333334,
+      "time_to_merge_hours": 115.77111111111111
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

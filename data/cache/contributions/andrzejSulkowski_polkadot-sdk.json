@@ -1,0 +1,54 @@
+{
+  "commits": [
+    {
+      "sha": "d3128dc679a089750a8569acc6e0834787a7b87c",
+      "message": "Refactor: Remove unused variable assignments for fallible functions (#8247)",
+      "date": "2025-04-17T17:10:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d3128dc679a089750a8569acc6e0834787a7b87c"
+    }
+  ],
+  "prs": [
+    {
+      "number": 8247,
+      "title": "Refactor: Remove unused variable assignments for fallible functions",
+      "state": "MERGED",
+      "created_at": "2025-04-15T10:52:43Z",
+      "closed_at": "2025-04-17T17:10:46Z",
+      "merged_at": "2025-04-17T17:10:46Z",
+      "merged_by": "bkchr",
+      "author": "andrzejSulkowski",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8247",
+      "ready_for_review_at": "2025-04-15T10:52:43Z",
+      "reviews": [
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-04-15T11:22:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-17T08:55:41Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-04-15T10:52:51Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-04-17T08:58:23Z"
+        },
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2025-04-17T09:54:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.4986111111111111,
+      "time_to_merge_hours": 54.30083333333334
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

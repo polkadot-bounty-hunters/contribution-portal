@@ -1,0 +1,68 @@
+{
+  "commits": [
+    {
+      "sha": "dbebf539e6ae2c796fb1026be0740fdeec247f85",
+      "message": "Treasury: update expire date on payout (#7958) (#7959)",
+      "date": "2025-03-20T11:05:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/dbebf539e6ae2c796fb1026be0740fdeec247f85"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7959,
+      "title": "Treasury: update expire date on payout (#7958)",
+      "state": "MERGED",
+      "created_at": "2025-03-18T16:57:45Z",
+      "closed_at": "2025-03-20T11:42:41Z",
+      "merged_at": "2025-03-20T11:42:41Z",
+      "merged_by": "bkchr",
+      "author": "josepot",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7959",
+      "ready_for_review_at": "2025-03-18T16:57:45Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-03-18T22:09:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-03-19T10:43:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-03-20T10:07:11Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-03-18T17:19:04Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-03-19T09:18:26Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.1947222222222225,
+      "time_to_merge_hours": 42.74888888888889
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 8840,
+      "pr_title": "include poll_index in voted and vote removed event",
+      "reviewed_at": "2025-07-28T13:56:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8840"
+    },
+    {
+      "pr_number": 5961,
+      "pr_title": "Bounty Pallet: add `approve_bounty_with_curator` call to `bounties` pallet",
+      "reviewed_at": "2024-11-05T11:59:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5961"
+    }
+  ]
+}

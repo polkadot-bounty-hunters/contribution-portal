@@ -1,0 +1,86 @@
+{
+  "commits": [
+    {
+      "sha": "03f1d2d646c35239405514cbb73bd376b85636cd",
+      "message": "[pallet-nfts, pallet_uniques] - Expose private structs (#6087)",
+      "date": "2024-10-21T21:40:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/03f1d2d646c35239405514cbb73bd376b85636cd"
+    }
+  ],
+  "prs": [
+    {
+      "number": 6087,
+      "title": "[pallet-nfts, pallet_uniques] - Expose private structs",
+      "state": "MERGED",
+      "created_at": "2024-10-16T10:27:04Z",
+      "closed_at": "2024-10-21T22:30:27Z",
+      "merged_at": "2024-10-21T22:30:27Z",
+      "merged_by": "bkontur",
+      "author": "dudo50",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6087",
+      "ready_for_review_at": "2024-10-16T10:27:04Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-10-20T20:02:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-10-20T21:00:50Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-10-20T20:03:30Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-10-20T20:41:32Z"
+        },
+        {
+          "commenter": "dudo50",
+          "commented_at": "2024-10-20T20:41:49Z"
+        },
+        {
+          "commenter": "dudo50",
+          "commented_at": "2024-10-21T20:31:02Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-10-21T20:44:41Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-10-21T20:44:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-10-21T20:48:29Z"
+        }
+      ],
+      "time_to_first_review_hours": 105.59833333333333,
+      "time_to_merge_hours": 132.05638888888888
+    },
+    {
+      "number": 5960,
+      "title": "[pallet-nfts] - Add getters for deposits",
+      "state": "CLOSED",
+      "created_at": "2024-10-07T18:43:40Z",
+      "closed_at": "2024-10-16T10:14:05Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dudo50",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5960",
+      "ready_for_review_at": "2024-10-07T18:43:40Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

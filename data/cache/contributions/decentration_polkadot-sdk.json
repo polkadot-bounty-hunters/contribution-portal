@@ -1,0 +1,28 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 3066,
+      "title": " Enable asset Owner to mint tokens even if Asset (or account) is frozen",
+      "state": "OPEN",
+      "created_at": "2024-01-25T15:33:56Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "decentration",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3066",
+      "ready_for_review_at": "2024-01-25T15:33:56Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-01-25T15:51:14Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

@@ -1,0 +1,72 @@
+{
+  "commits": [
+    {
+      "sha": "bb680c093cf687efe9ce650c5acb8b29f1c11b79",
+      "message": "Removing without_storage_info from scored-pool pallet. (#11996)",
+      "date": "2022-09-08T15:57:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bb680c093cf687efe9ce650c5acb8b29f1c11b79"
+    },
+    {
+      "sha": "b1db3df199a24e5df3091504feb76a77c274c1ee",
+      "message": "Bridge/This Chain Ids should be exposed as constants on pallet level. (#1085)",
+      "date": "2021-08-06T13:24:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b1db3df199a24e5df3091504feb76a77c274c1ee"
+    },
+    {
+      "sha": "c99fb933ca4a8651033c5a8984b96c67482cfb93",
+      "message": "Change ChainSpec::from_genesis for Rialto and Millau chains to reflect the chain names. (#1079)",
+      "date": "2021-08-06T13:23:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c99fb933ca4a8651033c5a8984b96c67482cfb93"
+    },
+    {
+      "sha": "e13ff320ea390e66c88a947e8b04bb7b49a812f8",
+      "message": "Adding message relayer scripts, reformating send message scripts (#790)",
+      "date": "2021-03-05T16:25:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e13ff320ea390e66c88a947e8b04bb7b49a812f8"
+    }
+  ],
+  "prs": [
+    {
+      "number": 6072,
+      "title": "Paseo ss58Format chain spec update",
+      "state": "CLOSED",
+      "created_at": "2024-10-15T13:07:58Z",
+      "closed_at": "2024-12-12T11:40:10Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "hbulgarini",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6072",
+      "ready_for_review_at": "2024-10-15T13:07:58Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-10-15T13:36:51Z"
+        },
+        {
+          "commenter": "hbulgarini",
+          "commented_at": "2024-10-16T09:07:00Z"
+        },
+        {
+          "commenter": "hbulgarini",
+          "commented_at": "2024-12-12T11:33:29Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-12-12T11:40:10Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3328,
+      "pr_title": "Add Paseo NetworkId for the new testnet to XCM",
+      "reviewed_at": "2024-07-24T20:33:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3328"
+    }
+  ]
+}

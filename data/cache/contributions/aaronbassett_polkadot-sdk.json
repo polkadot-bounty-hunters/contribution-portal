@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "sha": "a59ea80cecbee507488270baa3cd8df9e5c9a833",
+      "message": "Change license of node-template and FRAME examples to MIT-0 (#13465)",
+      "date": "2023-03-27T20:36:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a59ea80cecbee507488270baa3cd8df9e5c9a833"
+    },
+    {
+      "sha": "1fad957deb22e19f909edebabac370bcb1c19196",
+      "message": "Update pallet licenses to Apache-2.0 (#13467)",
+      "date": "2023-03-27T14:03:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1fad957deb22e19f909edebabac370bcb1c19196"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

@@ -1,0 +1,520 @@
+{
+  "commits": [
+    {
+      "sha": "c0ddfbae0cca0314c9a50f688cb5a3fcdd71015c",
+      "message": "Generic slashing side-effects (#5623)",
+      "date": "2024-10-07T07:08:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c0ddfbae0cca0314c9a50f688cb5a3fcdd71015c"
+    },
+    {
+      "sha": "ad9804f7b1e707d5144bcdc14b67c19db2975da8",
+      "message": "Add `pub` to xcm::v4::PalletInfo (#4976)",
+      "date": "2024-07-18T19:35:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ad9804f7b1e707d5144bcdc14b67c19db2975da8"
+    },
+    {
+      "sha": "8b3bf39ab85ff7146e06e7c8236475bfa4e3bf39",
+      "message": "Add HRMP notification handlers to the xcm-executor (#3696)",
+      "date": "2024-03-19T08:12:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8b3bf39ab85ff7146e06e7c8236475bfa4e3bf39"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7686,
+      "title": "Slash side-effect for pallet-vesting",
+      "state": "OPEN",
+      "created_at": "2025-02-24T16:13:39Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "JuaniRios",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7686",
+      "ready_for_review_at": "2025-02-24T16:13:39Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-02-25T08:37:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-02-25T08:37:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-02-25T08:38:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-02-28T19:07:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2025-03-30T15:53:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2025-03-30T15:54:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2025-03-30T15:57:06Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2025-02-25T13:34:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 16.396944444444443,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 5623,
+      "title": "Generic slashing side-effects",
+      "state": "MERGED",
+      "created_at": "2024-09-06T13:21:49Z",
+      "closed_at": "2024-10-07T07:47:01Z",
+      "merged_at": "2024-10-07T07:47:01Z",
+      "merged_by": "franciscoaguirre",
+      "author": "JuaniRios",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5623",
+      "ready_for_review_at": "2024-09-06T13:21:49Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-09-13T13:09:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-13T14:11:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-13T14:12:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-13T14:13:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-13T14:13:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-13T14:14:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-13T14:14:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2024-09-18T10:05:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-18T10:16:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-18T10:17:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-18T10:17:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-18T10:18:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-10-01T12:03:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-10-01T12:04:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-10-01T13:47:14Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-09-18T10:21:59Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-09-20T12:27:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-20T12:27:50Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-20T12:29:25Z"
+        },
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2024-09-23T14:02:23Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-23T14:02:28Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-09-24T13:13:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-24T13:13:07Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-24T13:14:57Z"
+        },
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2024-09-25T11:04:53Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-09-30T15:17:34Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-30T15:17:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-30T15:21:17Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-10-01T14:44:14Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-10-16T12:23:34Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-10-16T12:23:46Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-10-16T12:23:50Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-10-16T12:24:23Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-10-16T12:25:06Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-10-16T12:25:12Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-10-16T12:25:40Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-10-16T12:26:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 167.78916666666666,
+      "time_to_merge_hours": 738.42
+    },
+    {
+      "number": 4976,
+      "title": "Add `pub` to xcm::v4::PalletInfo",
+      "state": "MERGED",
+      "created_at": "2024-07-08T15:33:34Z",
+      "closed_at": "2024-07-18T20:02:53Z",
+      "merged_at": "2024-07-18T20:02:53Z",
+      "merged_by": "ggwpez",
+      "author": "JuaniRios",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4976",
+      "ready_for_review_at": "2024-07-08T15:33:34Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-07-08T15:37:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-07-08T16:56:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-07-18T09:28:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-07-18T14:38:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-07-18T14:39:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-07-18T16:38:14Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2024-07-18T09:42:42Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-07-18T12:55:42Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.058055555555555555,
+      "time_to_merge_hours": 244.4886111111111
+    },
+    {
+      "number": 3696,
+      "title": "Add HRMP notification handlers to the xcm-executor",
+      "state": "MERGED",
+      "created_at": "2024-03-14T12:15:09Z",
+      "closed_at": "2024-03-19T08:43:11Z",
+      "merged_at": "2024-03-19T08:43:11Z",
+      "merged_by": "bkontur",
+      "author": "JuaniRios",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3696",
+      "ready_for_review_at": "2024-03-14T12:15:09Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-14T13:26:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-14T13:28:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-14T13:30:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2024-03-14T13:32:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2024-03-14T16:02:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-03-14T20:16:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-03-14T20:17:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-03-14T20:19:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-15T08:00:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-15T08:08:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-15T08:09:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2024-03-15T09:48:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2024-03-15T10:15:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2024-03-15T10:15:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-15T21:31:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-16T05:55:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "JuaniRios",
+          "submitted_at": "2024-03-18T12:09:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-18T15:21:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-03-19T08:12:03Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-03-14T12:15:16Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-03-14T12:16:08Z"
+        },
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2024-03-14T12:21:21Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-03-15T08:25:29Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-03-15T08:25:35Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-03-15T08:27:29Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-03-15T08:27:32Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-03-15T21:34:42Z"
+        },
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2024-03-18T12:09:14Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-03-19T11:21:58Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-03-19T12:27:21Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-03-20T10:47:34Z"
+        },
+        {
+          "commenter": "JuaniRios",
+          "commented_at": "2024-03-20T11:16:08Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-03-20T11:46:29Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-03-20T11:47:02Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-03-20T11:47:39Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2024-04-04T08:02:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.1930555555555555,
+      "time_to_merge_hours": 116.46722222222222
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 7686,
+      "pr_title": "Slash side-effect for pallet-vesting",
+      "reviewed_at": "2025-04-07T14:16:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7686"
+    },
+    {
+      "pr_number": 5623,
+      "pr_title": "Generic slashing side-effects",
+      "reviewed_at": "2024-10-16T12:27:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5623"
+    },
+    {
+      "pr_number": 3696,
+      "pr_title": "Add HRMP notification handlers to the xcm-executor",
+      "reviewed_at": "2024-04-04T08:02:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3696"
+    }
+  ]
+}

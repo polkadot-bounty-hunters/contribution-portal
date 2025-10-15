@@ -1,0 +1,657 @@
+{
+  "commits": [
+    {
+      "sha": "2863b7a9a879935ff16987d0e95065d088dad9f8",
+      "message": "Fix generated address returned by Substrate RPC runtime call (#8504)",
+      "date": "2025-05-21T12:10:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/2863b7a9a879935ff16987d0e95065d088dad9f8"
+    },
+    {
+      "sha": "7e5b993c32565f753e7904074ed3e5775a2838d5",
+      "message": "Add new host APIs set_storage_or_clear and get_storage_or_zero (#7857)",
+      "date": "2025-04-25T16:17:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7e5b993c32565f753e7904074ed3e5775a2838d5"
+    },
+    {
+      "sha": "a48b38942f8910aeaee1fdaa7794d0416291ca4b",
+      "message": "Add note for organization contributors about creating branches directly (#7611)",
+      "date": "2025-02-19T11:41:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a48b38942f8910aeaee1fdaa7794d0416291ca4b"
+    }
+  ],
+  "prs": [
+    {
+      "number": 8673,
+      "title": "Fix tracing to take weight charged before the first frame into account",
+      "state": "OPEN",
+      "created_at": "2025-05-27T12:25:43Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "castillax",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8673",
+      "ready_for_review_at": "2025-05-27T12:25:43Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-27T13:27:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-27T13:38:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-27T13:44:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-27T14:34:52Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-05-27T12:25:55Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.0286111111111111,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8608,
+      "title": "Prevent double‐nonce bump on EVM contract deployment by introducing ethereum_call flag",
+      "state": "CLOSED",
+      "created_at": "2025-05-22T09:10:47Z",
+      "closed_at": "2025-06-11T14:13:38Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "castillax",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8608",
+      "ready_for_review_at": "2025-05-22T09:10:47Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-05-22T15:01:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-22T19:31:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-23T07:44:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-23T08:59:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-06-02T10:06:59Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-05-22T09:11:32Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-06-11T12:54:29Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-06-11T14:13:38Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.845,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8504,
+      "title": "Fix generated address returned by Substrate RPC runtime call",
+      "state": "MERGED",
+      "created_at": "2025-05-13T07:17:02Z",
+      "closed_at": "2025-05-21T12:52:28Z",
+      "merged_at": "2025-05-21T12:52:28Z",
+      "merged_by": "athei",
+      "author": "castillax",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8504",
+      "ready_for_review_at": "2025-05-13T07:17:02Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-13T07:26:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-13T10:54:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-05-13T12:57:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-13T13:45:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-15T11:21:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-15T11:21:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-05-15T12:06:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-15T12:07:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-15T12:07:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-05-15T14:53:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-15T20:10:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-16T15:30:56Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-05-19T07:49:17Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-19T15:36:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-05-20T07:59:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-20T08:25:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-20T08:44:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-20T09:31:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-05-20T09:31:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-20T10:25:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-20T10:25:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-05-20T13:47:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-05-21T12:09:00Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-05-13T07:18:01Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-05-13T08:32:42Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-05-13T11:54:31Z"
+        },
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-05-14T19:45:10Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-05-14T19:48:18Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-05-16T07:26:48Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-05-16T11:02:47Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-05-16T15:27:11Z"
+        },
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-05-19T07:59:03Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-05-19T12:42:48Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-05-20T12:53:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.16416666666666666,
+      "time_to_merge_hours": 197.59055555555557
+    },
+    {
+      "number": 8385,
+      "title": "Fix generated address returned by Substrate RPC runtime call",
+      "state": "CLOSED",
+      "created_at": "2025-04-30T11:42:06Z",
+      "closed_at": "2025-05-12T14:14:21Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "castillax",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8385",
+      "ready_for_review_at": "2025-04-30T11:42:06Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-04-30T13:03:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-04-30T13:14:03Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-04-30T11:46:10Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-30T11:48:27Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-04-30T13:01:24Z"
+        },
+        {
+          "commenter": "gui1117",
+          "commented_at": "2025-05-01T01:15:08Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-05-01T07:51:37Z"
+        },
+        {
+          "commenter": "gui1117",
+          "commented_at": "2025-05-02T00:14:01Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-05-02T04:43:29Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-05-02T10:59:52Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-05-09T09:27:53Z"
+        },
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-05-12T14:14:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.3605555555555555,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 7857,
+      "title": "Add new host APIs set_storage_or_clear and get_storage_or_zero",
+      "state": "MERGED",
+      "created_at": "2025-03-10T07:55:04Z",
+      "closed_at": "2025-04-25T16:49:58Z",
+      "merged_at": "2025-04-25T16:49:58Z",
+      "merged_by": "athei",
+      "author": "castillax",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7857",
+      "ready_for_review_at": "2025-03-10T07:55:04Z",
+      "reviews": [
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-03-10T08:30:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-10T09:21:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-10T22:00:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-10T22:39:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-11T10:32:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-11T10:40:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-11T17:22:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-11T18:58:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-13T21:44:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-13T21:44:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-13T21:45:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-14T12:10:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-17T18:39:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-17T18:40:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-17T18:40:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-17T18:40:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-17T18:40:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-18T11:45:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-18T15:18:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-19T10:59:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-19T11:45:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-19T11:45:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-03-19T11:45:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-03-19T12:14:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-04-22T12:13:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-04-22T12:13:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-04-22T12:15:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-04-24T16:37:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-04-24T16:47:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-04-24T20:19:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-04-25T11:30:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "castillax",
+          "submitted_at": "2025-04-25T11:30:39Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "castillax",
+          "commented_at": "2025-03-10T22:39:07Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-03-14T10:31:29Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-03-18T15:19:32Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-04-23T10:44:32Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-04-24T20:46:30Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-04-25T11:28:22Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.5911111111111111,
+      "time_to_merge_hours": 1112.915
+    },
+    {
+      "number": 7611,
+      "title": "Add note for organization contributors about creating branches directly",
+      "state": "MERGED",
+      "created_at": "2025-02-18T16:02:28Z",
+      "closed_at": "2025-02-19T12:14:04Z",
+      "merged_at": "2025-02-19T12:14:04Z",
+      "merged_by": "bkchr",
+      "author": "castillax",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7611",
+      "ready_for_review_at": "2025-02-18T16:02:28Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-02-19T10:52:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-19T11:12:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-02-19T11:40:59Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 18.829166666666666,
+      "time_to_merge_hours": 20.19333333333333
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 8608,
+      "pr_title": "Prevent double‐nonce bump on EVM contract deployment by introducing ethereum_call flag",
+      "reviewed_at": "2025-06-11T14:13:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8608"
+    },
+    {
+      "pr_number": 8662,
+      "pr_title": "[pallet-revive] update dry-run logic",
+      "reviewed_at": "2025-06-02T12:43:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8662"
+    },
+    {
+      "pr_number": 8673,
+      "pr_title": "Fix tracing to take weight charged before the first frame into account",
+      "reviewed_at": "2025-05-27T14:34:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8673"
+    },
+    {
+      "pr_number": 8656,
+      "pr_title": "[stable2503] Backport #8648",
+      "reviewed_at": "2025-05-27T10:48:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8656"
+    },
+    {
+      "pr_number": 8587,
+      "pr_title": "[pallet-revive] make subscription task panic on error",
+      "reviewed_at": "2025-05-26T14:35:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8587"
+    },
+    {
+      "pr_number": 8504,
+      "pr_title": "Fix generated address returned by Substrate RPC runtime call",
+      "reviewed_at": "2025-05-21T12:52:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8504"
+    },
+    {
+      "pr_number": 8495,
+      "pr_title": "[pallet-revive] tracing prepare support for future tracing APIS",
+      "reviewed_at": "2025-05-15T13:14:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8495"
+    },
+    {
+      "pr_number": 8311,
+      "pr_title": "[pallet-revive] update tracing rpc methods parameters",
+      "reviewed_at": "2025-04-29T11:05:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8311"
+    },
+    {
+      "pr_number": 7857,
+      "pr_title": "Add new host APIs set_storage_or_clear and get_storage_or_zero",
+      "reviewed_at": "2025-04-25T16:49:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7857"
+    }
+  ]
+}

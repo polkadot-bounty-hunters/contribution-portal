@@ -1,0 +1,31 @@
+{
+  "commits": [
+    {
+      "sha": "713f6625faf783684255b169ca1a9b1a8088421c",
+      "message": "Consolidate subsystem spans so they are all children of the leaf-activated root span (#6458)",
+      "date": "2023-03-31T15:54:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/713f6625faf783684255b169ca1a9b1a8088421c"
+    },
+    {
+      "sha": "7341dbb20d3ccd3fc5e23bb5aa2eb7742b65624e",
+      "message": "Add buckets on lower end of distribution to network bridge latency metrics (#6359)",
+      "date": "2022-12-02T16:28:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7341dbb20d3ccd3fc5e23bb5aa2eb7742b65624e"
+    },
+    {
+      "sha": "893a3ad784dc1a49f7d059457fb05a9e6ec1cc9e",
+      "message": "Add more granularity to prometheus histogram buckets (#6348)",
+      "date": "2022-11-28T11:30:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/893a3ad784dc1a49f7d059457fb05a9e6ec1cc9e"
+    },
+    {
+      "sha": "b3532393b8f6ffda28e0579c2ab07eea84e2d572",
+      "message": "Malus: add disputed block percentage (#6100)",
+      "date": "2022-10-13T09:48:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b3532393b8f6ffda28e0579c2ab07eea84e2d572"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

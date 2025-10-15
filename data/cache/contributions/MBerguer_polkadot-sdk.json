@@ -1,0 +1,60 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 3172,
+      "title": "Docs/Comments Improvements + Cleanup",
+      "state": "CLOSED",
+      "created_at": "2024-02-01T15:25:43Z",
+      "closed_at": "2024-07-17T12:39:38Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "mberguer",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3172",
+      "ready_for_review_at": "2024-02-01T15:25:43Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-02-01T16:33:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "MBerguer",
+          "submitted_at": "2024-02-02T04:37:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-02-02T20:23:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-02-03T03:46:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-02-01T15:25:49Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-02-05T06:35:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.1302777777777777,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3172,
+      "pr_title": "Docs/Comments Improvements + Cleanup",
+      "reviewed_at": "2024-07-17T12:39:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3172"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "commits": [
+    {
+      "sha": "1cbdb4d2e384e35e27760f24ca895b2f3d601698",
+      "message": " Wait for transaction receipt if instant seal is enabled (#9914)",
+      "date": "2025-10-10T16:01:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1cbdb4d2e384e35e27760f24ca895b2f3d601698"
+    },
+    {
+      "sha": "367de282eb82f6f0e3e6ea9a51dd866d1989c392",
+      "message": "Allow unlimited contract size in debug mode. (#9831)",
+      "date": "2025-10-08T13:21:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/367de282eb82f6f0e3e6ea9a51dd866d1989c392"
+    }
+  ],
+  "prs": [
+    {
+      "number": 9914,
+      "title": " Wait for transaction receipt if instant seal is enabled",
+      "state": "MERGED",
+      "created_at": "2025-10-02T14:56:45Z",
+      "closed_at": "2025-10-10T16:44:45Z",
+      "merged_at": "2025-10-10T16:44:45Z",
+      "merged_by": "pgherveou",
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9914",
+      "ready_for_review_at": "2025-10-02T14:56:45Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-03T09:05:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-07T12:02:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-07T12:11:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-07T12:38:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-07T14:59:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-08T12:38:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T07:08:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T07:43:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T07:53:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T07:59:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T08:00:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-09T10:41:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-09T11:20:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-10-09T15:20:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T15:54:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T15:54:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T16:03:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-09T17:32:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-09T19:34:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-10-10T15:10:16Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2025-10-09T11:58:39Z"
+        },
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2025-10-10T06:15:42Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-10-10T06:43:41Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-10T12:00:49Z"
+        },
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2025-10-10T12:57:42Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-10-10T13:13:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 18.13861111111111,
+      "time_to_merge_hours": 193.8
+    },
+    {
+      "number": 9831,
+      "title": "Allow unlimited contract size in debug mode.",
+      "state": "MERGED",
+      "created_at": "2025-09-24T13:53:54Z",
+      "closed_at": "2025-10-08T16:20:25Z",
+      "merged_at": "2025-10-08T16:20:25Z",
+      "merged_by": "pgherveou",
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9831",
+      "ready_for_review_at": "2025-09-24T13:53:54Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-09-25T08:33:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-09-30T09:34:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-09-30T09:36:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-09-30T09:38:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-01T09:56:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-10-01T14:54:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-02T07:59:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-10-02T15:29:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-10-07T15:25:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-08T13:18:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2025-09-29T06:59:59Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-09-29T07:00:25Z"
+        },
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2025-09-29T07:02:00Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-10-01T09:41:06Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-10-02T07:37:28Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-07T09:34:10Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-10-07T09:36:16Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-07T09:36:57Z"
+        }
+      ],
+      "time_to_first_review_hours": 18.663055555555555,
+      "time_to_merge_hours": 338.44194444444446
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 9914,
+      "pr_title": " Wait for transaction receipt if instant seal is enabled",
+      "reviewed_at": "2025-10-10T16:44:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9914"
+    }
+  ]
+}

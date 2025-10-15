@@ -1,0 +1,369 @@
+{
+  "commits": [
+    {
+      "sha": "50eb12cf2fdbc6fcef98f924ba1a236b465caf98",
+      "message": "Transactional processing for XCM (#1222)",
+      "date": "2024-01-24T16:30:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/50eb12cf2fdbc6fcef98f924ba1a236b465caf98"
+    },
+    {
+      "sha": "a9738adedb74e2ef068d433f2edb5690ebfc0088",
+      "message": "Fix XCMP max message size check (#1250)",
+      "date": "2023-12-04T22:02:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a9738adedb74e2ef068d433f2edb5690ebfc0088"
+    },
+    {
+      "sha": "ae018a01a4a24ed684e6914a70fa51b40c3acd4d",
+      "message": "changes to nfts pallet for xcm integration (#14395)",
+      "date": "2023-07-25T08:02:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ae018a01a4a24ed684e6914a70fa51b40c3acd4d"
+    },
+    {
+      "sha": "119604ed2debcbb649f300466c18870973f6c43b",
+      "message": "companion for xcm alias origin (#2680)",
+      "date": "2023-06-05T16:07:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/119604ed2debcbb649f300466c18870973f6c43b"
+    },
+    {
+      "sha": "e22e449c4ae6bb208d2cc731adef54d1459a3126",
+      "message": "fix log targets for nonfungibles-adapter (#7154)",
+      "date": "2023-05-02T14:22:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e22e449c4ae6bb208d2cc731adef54d1459a3126"
+    },
+    {
+      "sha": "490593bf6e4bd0e1181a77b5a0e105965f0022a7",
+      "message": "Companion for polkadot#6928 (#2356)",
+      "date": "2023-03-23T10:36:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/490593bf6e4bd0e1181a77b5a0e105965f0022a7"
+    },
+    {
+      "sha": "f989b2bb1adc59c0630057fc27ca57b71ddae32b",
+      "message": "Vstam1/xcm admin origin (#6928)",
+      "date": "2023-03-23T09:58:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f989b2bb1adc59c0630057fc27ca57b71ddae32b"
+    }
+  ],
+  "prs": [
+    {
+      "number": 1250,
+      "title": "Fix XCMP max message size check",
+      "state": "MERGED",
+      "created_at": "2023-08-29T11:41:43Z",
+      "closed_at": "2023-12-04T22:02:16Z",
+      "merged_at": "2023-12-04T22:02:16Z",
+      "merged_by": "franciscoaguirre",
+      "author": "vstam1",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1250",
+      "ready_for_review_at": "2023-08-29T11:41:43Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-29T11:51:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-08-29T12:45:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-29T12:50:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-09-05T12:36:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-09-15T13:30:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-09-15T13:52:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-12-04T17:52:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-12-04T17:57:58Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-11-29T13:51:20Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-11-29T14:04:56Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-12-04T18:11:34Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T18:11:41Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T18:12:41Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.16,
+      "time_to_merge_hours": 2338.3425
+    },
+    {
+      "number": 1242,
+      "title": "Introduce nonfungibles v2 adapter",
+      "state": "CLOSED",
+      "created_at": "2023-08-29T09:28:56Z",
+      "closed_at": "2024-04-04T07:28:38Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "vstam1",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1242",
+      "ready_for_review_at": "2023-08-29T09:28:56Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-31T13:40:31Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-04-03T13:32:51Z"
+        },
+        {
+          "commenter": "vstam1",
+          "commented_at": "2024-04-03T17:05:54Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-04-15T14:19:26Z"
+        },
+        {
+          "commenter": "mrshiposha",
+          "commented_at": "2024-04-15T15:15:32Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1222,
+      "title": "Transactional processing for XCM",
+      "state": "MERGED",
+      "created_at": "2023-08-28T14:56:16Z",
+      "closed_at": "2024-01-24T17:11:51Z",
+      "merged_at": "2024-01-24T17:11:50Z",
+      "merged_by": "KiChjang",
+      "author": "vstam1",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1222",
+      "ready_for_review_at": "2023-08-28T14:56:16Z",
+      "reviews": [
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-08-30T11:41:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-08-30T11:42:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-08-30T11:54:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-08-30T12:59:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-08-30T15:05:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-08-30T15:09:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-31T04:59:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-31T05:00:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-31T07:30:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-08-31T09:17:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-31T10:18:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-06T12:01:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-06T12:01:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-06T12:01:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-09-06T12:07:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-09-06T12:25:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-09-06T12:29:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-09-07T08:57:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-09-07T09:10:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-09-09T10:30:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-09-13T08:35:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-25T16:38:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-09-26T17:47:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "louismerlin",
+          "submitted_at": "2023-10-30T14:40:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-01-12T17:04:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-01-25T01:16:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2024-01-25T18:40:55Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "gavofyork",
+          "commented_at": "2023-08-30T15:10:51Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-01-15T13:19:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-01-15T13:19:53Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-01-15T13:22:50Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-01-24T13:44:29Z"
+        }
+      ],
+      "time_to_first_review_hours": 44.75333333333333,
+      "time_to_merge_hours": 3578.2594444444444
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3696,
+      "pr_title": "Add HRMP notification handlers to the xcm-executor",
+      "reviewed_at": "2024-04-04T08:02:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3696"
+    },
+    {
+      "pr_number": 1222,
+      "pr_title": "Transactional processing for XCM",
+      "reviewed_at": "2024-01-30T23:49:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1222"
+    },
+    {
+      "pr_number": 1226,
+      "pr_title": "Remove deprecated `pallet_balances`'s `set_balance_deprecated` and `transfer` dispatchables",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1226"
+    },
+    {
+      "pr_number": 1422,
+      "pr_title": "Added `xcmp_queue_send_xcm_works` test",
+      "reviewed_at": "2023-09-15T08:30:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1422"
+    },
+    {
+      "pr_number": 1193,
+      "pr_title": "Move Relay-Specific Shared Code to One Place",
+      "reviewed_at": "2023-09-05T06:13:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1193"
+    }
+  ]
+}

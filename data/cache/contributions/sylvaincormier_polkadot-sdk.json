@@ -1,0 +1,40 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 6763,
+      "title": "Remove Deref implementation from CandidateHash and update affected co…",
+      "state": "OPEN",
+      "created_at": "2024-12-04T21:32:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "sylvaincormier",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6763",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-12-04T21:33:00Z"
+        },
+        {
+          "commenter": "sylvaincormier",
+          "commented_at": "2024-12-04T22:36:50Z"
+        },
+        {
+          "commenter": "sylvaincormier",
+          "commented_at": "2024-12-05T00:41:46Z"
+        },
+        {
+          "commenter": "eskimor",
+          "commented_at": "2025-01-17T22:01:57Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

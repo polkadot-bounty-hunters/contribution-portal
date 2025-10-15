@@ -1,0 +1,460 @@
+{
+  "commits": [
+    {
+      "sha": "33bbdb3cae5911562edbeb55a53549650e66f3e1",
+      "message": "[parachain-template] benchmarks into `mod benchmarks` (#3818)",
+      "date": "2024-04-05T14:46:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/33bbdb3cae5911562edbeb55a53549650e66f3e1"
+    },
+    {
+      "sha": "8d305343c7a488d3e8504600b5d9f94af899f25b",
+      "message": "[parachain-template] pallet configurations into `mod configs` (#3809)",
+      "date": "2024-04-01T08:54:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8d305343c7a488d3e8504600b5d9f94af899f25b"
+    },
+    {
+      "sha": "60846a081fac6ddb17957606e8ff2efb1d4606ed",
+      "message": "[parachain-template] runtime API Implementations into `mod apis` (#3817)",
+      "date": "2024-03-28T09:12:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/60846a081fac6ddb17957606e8ff2efb1d4606ed"
+    }
+  ],
+  "prs": [
+    {
+      "number": 4314,
+      "title": "[BUG|Crowdloan] Start Period can't be the current",
+      "state": "CLOSED",
+      "created_at": "2024-04-27T03:51:27Z",
+      "closed_at": "2024-04-27T04:24:28Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4314",
+      "ready_for_review_at": "2024-04-27T03:51:27Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2024-04-27T04:24:28Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3995,
+      "title": "Rewrite pr_3817 to reflect just `RUNTIME_API_VERSIONS` change",
+      "state": "CLOSED",
+      "created_at": "2024-04-05T10:25:15Z",
+      "closed_at": "2024-04-06T10:09:47Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3995",
+      "ready_for_review_at": "2024-04-05T10:25:15Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3914,
+      "title": "`pallet-identity-migrator` Becomes a Separate Crate",
+      "state": "CLOSED",
+      "created_at": "2024-03-31T06:23:19Z",
+      "closed_at": "2024-04-02T15:08:00Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3914",
+      "ready_for_review_at": "2024-03-31T06:23:19Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-02T14:54:31Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-31T06:56:45Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-04-01T09:23:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 56.52,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3912,
+      "title": "Integrating `pallet-purchase` as a Distinct Crate",
+      "state": "OPEN",
+      "created_at": "2024-03-30T19:19:35Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3912",
+      "ready_for_review_at": "2024-03-30T19:19:35Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3911,
+      "title": "Elevating `pallet-slots` to an Independent Crate",
+      "state": "OPEN",
+      "created_at": "2024-03-30T19:06:02Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3911",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-30T19:11:58Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3910,
+      "title": "Carving Out `pallet-claims` into Its Dedicated Crate",
+      "state": "OPEN",
+      "created_at": "2024-03-30T17:38:15Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3910",
+      "ready_for_review_at": "2024-03-30T17:38:15Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-30T17:46:34Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3908,
+      "title": "Isolating `pallet-paras-registrar` into a Standalone Crate",
+      "state": "OPEN",
+      "created_at": "2024-03-30T13:01:28Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3908",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-30T13:59:16Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3882,
+      "title": "Extract `pallet-paras-sudo-wrapper` into a Separate Crate Trasparently",
+      "state": "OPEN",
+      "created_at": "2024-03-28T19:09:11Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3882",
+      "ready_for_review_at": "2024-03-28T19:09:11Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-28T23:45:20Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3860,
+      "title": "[vesting|balances] Restrict Vested Transfers to Self with Arbitrary Amount",
+      "state": "OPEN",
+      "created_at": "2024-03-27T12:58:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3860",
+      "ready_for_review_at": "2024-03-27T12:58:24Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3818,
+      "title": "[parachain-template] benchmarks into `mod benchmarks`",
+      "state": "MERGED",
+      "created_at": "2024-03-25T07:55:27Z",
+      "closed_at": "2024-04-05T15:11:10Z",
+      "merged_at": "2024-04-05T15:11:10Z",
+      "merged_by": "kianenigma",
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3818",
+      "ready_for_review_at": "2024-03-25T07:55:27Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-25T13:49:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-25T13:49:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-25T19:11:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "asiniscalchi",
+          "submitted_at": "2024-03-26T17:00:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-28T12:27:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "asiniscalchi",
+          "submitted_at": "2024-03-28T12:44:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-04-01T08:31:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-28T11:51:41Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-28T13:00:01Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-31T18:07:19Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-04-01T11:51:31Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-04-04T17:52:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.897777777777778,
+      "time_to_merge_hours": 271.26194444444445
+    },
+    {
+      "number": 3817,
+      "title": "[parachain-template] runtime API Implementations into `mod apis`",
+      "state": "MERGED",
+      "created_at": "2024-03-25T07:41:12Z",
+      "closed_at": "2024-03-28T09:41:42Z",
+      "merged_at": "2024-03-28T09:41:42Z",
+      "merged_by": "bkchr",
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3817",
+      "ready_for_review_at": "2024-03-25T07:41:12Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-25T13:56:09Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "asiniscalchi",
+          "submitted_at": "2024-03-25T15:21:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-25T15:51:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jasl",
+          "submitted_at": "2024-03-25T17:09:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "asiniscalchi",
+          "submitted_at": "2024-03-25T18:57:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "asiniscalchi",
+          "submitted_at": "2024-03-25T19:04:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-25T19:08:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-25T19:09:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "asiniscalchi",
+          "submitted_at": "2024-03-26T16:57:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jasl",
+          "submitted_at": "2024-03-26T17:21:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-03-27T21:03:03Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jasl",
+          "commented_at": "2024-03-27T13:39:14Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-28T07:05:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 6.2491666666666665,
+      "time_to_merge_hours": 74.00833333333334
+    },
+    {
+      "number": 3809,
+      "title": "[parachain-template] pallet configurations into `mod configs`",
+      "state": "MERGED",
+      "created_at": "2024-03-24T14:46:42Z",
+      "closed_at": "2024-04-01T09:16:06Z",
+      "merged_at": "2024-04-01T09:16:06Z",
+      "merged_by": "kianenigma",
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3809",
+      "ready_for_review_at": "2024-03-24T14:46:42Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-03-26T17:24:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-28T12:33:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-31T09:34:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-31T09:36:30Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-28T10:55:03Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-29T06:34:58Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-31T17:56:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 50.6225,
+      "time_to_merge_hours": 186.49
+    },
+    {
+      "number": 3804,
+      "title": "[parachain-template] refactor pallet configurations for enhanced modularity",
+      "state": "CLOSED",
+      "created_at": "2024-03-23T11:35:51Z",
+      "closed_at": "2024-03-25T20:03:48Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "asiniscalchi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3804",
+      "ready_for_review_at": "2024-03-23T11:35:51Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-03-24T00:48:18Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-24T13:51:23Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-03-24T14:15:41Z"
+        },
+        {
+          "commenter": "asiniscalchi",
+          "commented_at": "2024-03-24T14:53:33Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3818,
+      "pr_title": "[parachain-template] benchmarks into `mod benchmarks`",
+      "reviewed_at": "2024-04-05T15:11:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3818"
+    },
+    {
+      "pr_number": 3817,
+      "pr_title": "[parachain-template] runtime API Implementations into `mod apis`",
+      "reviewed_at": "2024-03-31T07:21:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3817"
+    }
+  ]
+}

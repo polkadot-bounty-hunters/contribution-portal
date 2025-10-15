@@ -1,0 +1,188 @@
+{
+  "commits": [
+    {
+      "sha": "4a869b92b7d7397bfbb30bcafce103461714ec08",
+      "message": "feat(revive): add contract instantiated event (#8789)",
+      "date": "2025-06-25T16:38:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4a869b92b7d7397bfbb30bcafce103461714ec08"
+    },
+    {
+      "sha": "0fa1b005119a7d94db48e3e2cceee10927c0e70f",
+      "message": "[pallet-revive] add get_storage_var_key for variable-sized keys (#8274)",
+      "date": "2025-04-23T10:28:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0fa1b005119a7d94db48e3e2cceee10927c0e70f"
+    }
+  ],
+  "prs": [
+    {
+      "number": 8789,
+      "title": "feat(revive): add contract instantiated event",
+      "state": "MERGED",
+      "created_at": "2025-06-06T12:38:36Z",
+      "closed_at": "2025-06-25T17:20:25Z",
+      "merged_at": "2025-06-25T17:20:25Z",
+      "merged_by": "athei",
+      "author": "voliva",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8789",
+      "ready_for_review_at": "2025-06-06T12:38:36Z",
+      "reviews": [
+        {
+          "reviewer": "voliva",
+          "submitted_at": "2025-06-06T12:48:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "voliva",
+          "submitted_at": "2025-06-06T12:51:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-06-08T21:29:35Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-06-24T09:32:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-06-24T09:33:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-06-24T10:20:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "voliva",
+          "commented_at": "2025-06-06T13:03:03Z"
+        },
+        {
+          "commenter": "xermicus",
+          "commented_at": "2025-06-16T08:31:25Z"
+        },
+        {
+          "commenter": "josepot",
+          "commented_at": "2025-06-16T09:38:22Z"
+        },
+        {
+          "commenter": "xermicus",
+          "commented_at": "2025-06-16T09:51:39Z"
+        },
+        {
+          "commenter": "voliva",
+          "commented_at": "2025-06-16T10:37:14Z"
+        },
+        {
+          "commenter": "josepot",
+          "commented_at": "2025-06-20T21:37:47Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-06-23T10:12:45Z"
+        },
+        {
+          "commenter": "josepot",
+          "commented_at": "2025-06-23T12:52:46Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-06-23T16:54:31Z"
+        },
+        {
+          "commenter": "josepot",
+          "commented_at": "2025-06-23T17:13:14Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-06-23T20:12:24Z"
+        },
+        {
+          "commenter": "josepot",
+          "commented_at": "2025-06-24T09:35:06Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-06-24T10:16:56Z"
+        },
+        {
+          "commenter": "voliva",
+          "commented_at": "2025-06-25T14:12:21Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-06-25T14:31:47Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2025-09-27T13:49:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.16472222222222221,
+      "time_to_merge_hours": 460.69694444444445
+    },
+    {
+      "number": 8274,
+      "title": "[pallet-revive] add get_storage_var_key for variable-sized keys",
+      "state": "MERGED",
+      "created_at": "2025-04-17T13:34:50Z",
+      "closed_at": "2025-04-23T11:10:38Z",
+      "merged_at": "2025-04-23T11:10:38Z",
+      "merged_by": "athei",
+      "author": "voliva",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8274",
+      "ready_for_review_at": "2025-04-17T13:34:50Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-04-22T15:22:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-04-22T15:47:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-04-23T10:27:30Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "voliva",
+          "commented_at": "2025-04-22T14:46:41Z"
+        },
+        {
+          "commenter": "AlexD10S",
+          "commented_at": "2025-06-04T15:59:56Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-06-04T19:09:39Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2025-09-27T13:49:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 121.78833333333333,
+      "time_to_merge_hours": 141.59666666666666
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 8789,
+      "pr_title": "feat(revive): add contract instantiated event",
+      "reviewed_at": "2025-09-27T13:49:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8789"
+    }
+  ]
+}

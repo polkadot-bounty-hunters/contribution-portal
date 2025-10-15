@@ -1,0 +1,815 @@
+{
+  "commits": [
+    {
+      "sha": "cc387132facc83214bd3e67f0ae724bf617f0292",
+      "message": "Add set_partial_params dispatchable function (#3843)",
+      "date": "2024-06-18T11:30:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cc387132facc83214bd3e67f0ae724bf617f0292"
+    },
+    {
+      "sha": "40677b64c5f15f0bdeb30e9d0a2037c0eec2447d",
+      "message": "Remove deprecated treasury pallet calls (#3820)",
+      "date": "2024-06-18T11:16:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/40677b64c5f15f0bdeb30e9d0a2037c0eec2447d"
+    },
+    {
+      "sha": "f34d8e3cf033e2a22a41b505c437972a5dc83d78",
+      "message": "Remove hard-coded indices from pallet-xcm tests (#4248)",
+      "date": "2024-04-29T07:13:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f34d8e3cf033e2a22a41b505c437972a5dc83d78"
+    },
+    {
+      "sha": "d591b16f6b1dec88003323cdae0c3abe3b5c9cbe",
+      "message": "Remove NotConcrete error (#3867)",
+      "date": "2024-04-18T06:44:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d591b16f6b1dec88003323cdae0c3abe3b5c9cbe"
+    },
+    {
+      "sha": "daf04f01823a64dc734c79344314e378e9588546",
+      "message": "Deprecate scheduler traits v1 and v2 (#3718)",
+      "date": "2024-03-28T07:56:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/daf04f01823a64dc734c79344314e378e9588546"
+    }
+  ],
+  "prs": [
+    {
+      "number": 4248,
+      "title": "Remove hard-coded indices from pallet-xcm tests",
+      "state": "MERGED",
+      "created_at": "2024-04-23T04:59:47Z",
+      "closed_at": "2024-04-29T07:43:29Z",
+      "merged_at": "2024-04-29T07:43:29Z",
+      "merged_by": "acatangiu",
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4248",
+      "ready_for_review_at": "2024-04-23T04:59:47Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-24T19:34:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-24T19:34:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-24T19:34:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-24T19:35:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-04-25T04:55:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-04-25T04:55:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-04-25T10:38:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-04-25T04:49:02Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-04-25T10:38:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-04-25T10:39:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-04-25T10:40:39Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-04-25T10:43:18Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-04-25T10:44:02Z"
+        }
+      ],
+      "time_to_first_review_hours": 38.576388888888886,
+      "time_to_merge_hours": 146.72833333333332
+    },
+    {
+      "number": 3890,
+      "title": "Remove treasury deprecated calls in Westend and Rococo runtime `weight::pallet_treasury`",
+      "state": "CLOSED",
+      "created_at": "2024-03-29T09:25:07Z",
+      "closed_at": "2024-03-29T09:30:44Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3890",
+      "ready_for_review_at": "2024-03-29T09:25:07Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-29T09:29:59Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3867,
+      "title": "Remove NotConcrete error",
+      "state": "MERGED",
+      "created_at": "2024-03-27T16:34:25Z",
+      "closed_at": "2024-04-18T07:10:59Z",
+      "merged_at": "2024-04-18T07:10:59Z",
+      "merged_by": "liamaharon",
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3867",
+      "ready_for_review_at": "2024-03-27T16:34:25Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-27T20:15:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-28T03:04:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-03-28T12:23:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-03-29T07:46:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-29T09:40:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-29T09:40:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-03-29T13:14:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-29T14:01:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-03-29T15:04:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-29T21:05:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-04-18T06:44:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-18T11:12:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-04-18T11:16:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-04-18T11:17:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-04-18T11:18:16Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-03-30T03:15:35Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-04-15T08:07:40Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-04-15T11:04:38Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-15T11:23:09Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-04-15T12:22:05Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-04-16T12:57:48Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-18T03:24:24Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2024-04-18T06:44:46Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-04-18T06:45:20Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-04-18T06:45:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.6838888888888888,
+      "time_to_merge_hours": 518.6094444444444
+    },
+    {
+      "number": 3843,
+      "title": "Add set_partial_params dispatchable function",
+      "state": "MERGED",
+      "created_at": "2024-03-26T14:44:20Z",
+      "closed_at": "2024-06-18T11:55:30Z",
+      "merged_at": "2024-06-18T11:55:30Z",
+      "merged_by": "bkchr",
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3843",
+      "ready_for_review_at": "2024-03-26T14:44:20Z",
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-03-27T07:22:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-27T11:03:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-27T12:57:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-27T16:08:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-27T16:08:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-27T16:08:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-27T16:09:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-03-28T00:54:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-09T12:11:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-09T12:13:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-04-18T01:46:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-04-18T01:47:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-18T09:36:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-06-03T09:07:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-06-10T10:50:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-06-15T11:05:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-06-17T19:39:57Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-18T03:21:31Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-06-03T05:10:07Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-06-04T07:33:11Z"
+        }
+      ],
+      "time_to_first_review_hours": 16.63388888888889,
+      "time_to_merge_hours": 2013.1861111111111
+    },
+    {
+      "number": 3820,
+      "title": "Remove deprecated treasury pallet calls",
+      "state": "MERGED",
+      "created_at": "2024-03-25T09:18:05Z",
+      "closed_at": "2024-06-18T11:42:37Z",
+      "merged_at": "2024-06-18T11:42:37Z",
+      "merged_by": "muharem",
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3820",
+      "ready_for_review_at": "2024-03-25T09:18:05Z",
+      "reviews": [
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-03-25T10:15:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-03-25T10:25:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-25T11:07:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-26T01:00:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-03-26T02:11:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-26T04:01:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-03-26T15:43:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-26T15:47:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-03-26T15:57:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-04-03T19:27:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-04-15T12:56:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-06-04T14:39:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-06-15T17:17:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-06-17T12:28:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-06-18T11:05:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-06-18T11:13:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Dinonard",
+          "submitted_at": "2024-10-16T11:26:27Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-03-25T15:30:35Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-03-26T15:56:29Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-03-26T16:05:29Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-03-26T16:17:16Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-03-27T12:44:01Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-04-02T12:33:04Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-04-15T10:32:12Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-15T10:42:36Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-17T18:13:59Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-04-18T17:03:38Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-19T06:48:17Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-04-19T12:29:45Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-20T16:13:06Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-04-22T11:07:08Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-04-22T12:14:41Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-05-17T09:42:51Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-05-17T15:59:34Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-05-20T01:43:38Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-05-21T09:10:39Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-05-22T04:51:43Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-05-22T14:26:11Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-06-03T02:55:36Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-06-04T07:45:34Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-06-04T14:49:08Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-06-11T12:27:26Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-06-14T06:40:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.9613888888888888,
+      "time_to_merge_hours": 2042.408888888889
+    },
+    {
+      "number": 3720,
+      "title": "Handle existential deposit `BelowMinimum` error",
+      "state": "OPEN",
+      "created_at": "2024-03-17T07:49:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3720",
+      "ready_for_review_at": "2024-03-17T07:49:27Z",
+      "reviews": [
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-17T17:50:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-03-18T01:17:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-21T09:35:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-21T09:35:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-21T09:59:54Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 10.024166666666666,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3719,
+      "title": "Add bitflags and implement decode state trait",
+      "state": "CLOSED",
+      "created_at": "2024-03-17T06:26:34Z",
+      "closed_at": "2024-07-17T12:47:40Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3719",
+      "ready_for_review_at": "2024-03-17T06:26:34Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-17T18:12:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-17T18:14:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-03-17T20:44:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-02T10:50:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-02T10:51:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-04-03T22:03:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-09T22:32:29Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-17T20:26:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 11.772777777777778,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3718,
+      "title": "Deprecate scheduler traits v1 and v2",
+      "state": "MERGED",
+      "created_at": "2024-03-17T03:40:56Z",
+      "closed_at": "2024-03-28T08:50:18Z",
+      "merged_at": "2024-03-28T08:50:18Z",
+      "merged_by": "liamaharon",
+      "author": "chungquantin",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3718",
+      "ready_for_review_at": "2024-03-17T03:40:56Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-17T12:55:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-17T13:55:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-17T19:51:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "chungquantin",
+          "submitted_at": "2024-03-18T03:13:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-18T11:51:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-03-28T07:24:00Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-03-17T03:41:03Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-03-17T13:56:08Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-03-17T14:40:24Z"
+        },
+        {
+          "commenter": "chungquantin",
+          "commented_at": "2024-03-19T16:44:53Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-03-19T18:34:48Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2024-03-28T07:24:14Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-03-28T07:24:18Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2024-03-28T07:33:58Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-03-28T07:34:30Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-03-28T07:35:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 9.246666666666666,
+      "time_to_merge_hours": 269.1561111111111
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3820,
+      "pr_title": "Remove deprecated treasury pallet calls",
+      "reviewed_at": "2024-10-16T11:27:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3820"
+    },
+    {
+      "pr_number": 3843,
+      "pr_title": "Add set_partial_params dispatchable function",
+      "reviewed_at": "2024-06-18T15:49:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3843"
+    },
+    {
+      "pr_number": 4248,
+      "pr_title": "Remove hard-coded indices from pallet-xcm tests",
+      "reviewed_at": "2024-04-29T07:43:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4248"
+    },
+    {
+      "pr_number": 3867,
+      "pr_title": "Remove NotConcrete error",
+      "reviewed_at": "2024-04-18T11:18:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3867"
+    },
+    {
+      "pr_number": 3718,
+      "pr_title": "Deprecate scheduler traits v1 and v2",
+      "reviewed_at": "2024-03-28T09:51:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3718"
+    },
+    {
+      "pr_number": 3720,
+      "pr_title": "Handle existential deposit `BelowMinimum` error",
+      "reviewed_at": "2024-03-28T07:34:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3720"
+    }
+  ]
+}

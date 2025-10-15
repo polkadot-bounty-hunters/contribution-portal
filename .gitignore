@@ -26,9 +26,3 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Cache
-data/cache/
-
-# Local data (for development)
-data/contributions.json.local

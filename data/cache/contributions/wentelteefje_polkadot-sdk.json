@@ -1,0 +1,514 @@
+{
+  "commits": [
+    {
+      "sha": "b6965af493eaa277bf7983201311362cf62ce5a9",
+      "message": "Improve FRAME storage docs (#1714)",
+      "date": "2023-11-01T15:28:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b6965af493eaa277bf7983201311362cf62ce5a9"
+    },
+    {
+      "sha": "f0e6d2ad52a8edb277f4144dee620eb1ce8a8a94",
+      "message": "Adding `try_state` hook for `Treasury` pallet (#1820)",
+      "date": "2023-10-12T12:53:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f0e6d2ad52a8edb277f4144dee620eb1ce8a8a94"
+    },
+    {
+      "sha": "ea5792508e8482dc1d5d4d529daa328c3d7ec71d",
+      "message": "Add README to project root (#1253)",
+      "date": "2023-08-31T17:45:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ea5792508e8482dc1d5d4d529daa328c3d7ec71d"
+    }
+  ],
+  "prs": [
+    {
+      "number": 1820,
+      "title": "Adding `try_state` hook for `Treasury` pallet",
+      "state": "MERGED",
+      "created_at": "2023-10-08T15:56:08Z",
+      "closed_at": "2023-10-12T12:53:02Z",
+      "merged_at": "2023-10-12T12:53:02Z",
+      "merged_by": "wentelteefje",
+      "author": "wentelteefje",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1820",
+      "ready_for_review_at": "2023-10-08T15:56:08Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-10-09T09:52:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-10-09T16:07:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-10-10T08:36:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-10-10T15:18:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-10-10T18:34:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-10-10T18:54:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-10-10T19:09:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-10-10T19:11:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-10-10T19:26:06Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-10-10T08:37:10Z"
+        },
+        {
+          "commenter": "wentelteefje",
+          "commented_at": "2023-10-10T09:10:01Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-10-10T09:15:59Z"
+        },
+        {
+          "commenter": "wentelteefje",
+          "commented_at": "2023-10-10T14:20:18Z"
+        },
+        {
+          "commenter": "wentelteefje",
+          "commented_at": "2023-10-10T14:46:16Z"
+        },
+        {
+          "commenter": "wentelteefje",
+          "commented_at": "2023-10-11T12:36:54Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-10-12T12:41:49Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.94472222222222,
+      "time_to_merge_hours": 92.94833333333334
+    },
+    {
+      "number": 1714,
+      "title": "Improve FRAME storage docs",
+      "state": "MERGED",
+      "created_at": "2023-09-26T12:04:31Z",
+      "closed_at": "2023-11-01T15:28:03Z",
+      "merged_at": "2023-11-01T15:28:03Z",
+      "merged_by": "kianenigma",
+      "author": "wentelteefje",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1714",
+      "ready_for_review_at": "2023-09-26T12:04:31Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:45:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:47:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:48:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:49:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:50:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:51:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:53:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:54:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T08:54:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:05:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:06:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:07:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:08:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:09:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:10:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:10:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:11:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:11:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:12:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:12:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:13:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-27T09:15:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-09-29T08:14:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-10-16T13:02:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-10-17T20:15:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-10-18T12:18:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-10-18T19:48:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-11-01T13:24:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-11-01T14:12:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-01T14:28:25Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-09-27T09:17:21Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-10-17T17:27:05Z"
+        },
+        {
+          "commenter": "wentelteefje",
+          "commented_at": "2023-11-01T14:40:22Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-11-01T15:27:51Z"
+        }
+      ],
+      "time_to_first_review_hours": 20.67972222222222,
+      "time_to_merge_hours": 867.3922222222222
+    },
+    {
+      "number": 1253,
+      "title": "Add README to project root",
+      "state": "MERGED",
+      "created_at": "2023-08-29T11:59:17Z",
+      "closed_at": "2023-08-31T17:45:15Z",
+      "merged_at": "2023-08-31T17:45:15Z",
+      "merged_by": "ggwpez",
+      "author": "wentelteefje",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1253",
+      "ready_for_review_at": "2023-08-29T11:59:17Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-29T12:31:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "the-right-joyce",
+          "submitted_at": "2023-08-29T12:38:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-29T13:14:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-29T13:25:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-29T13:30:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-29T17:41:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-29T17:44:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-29T17:47:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T09:16:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T10:41:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T10:41:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T10:45:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-30T10:50:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-30T10:53:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T10:55:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-30T11:04:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T11:57:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T12:34:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T12:36:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-30T12:36:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-30T14:26:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-31T11:56:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-31T13:30:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-08-31T17:23:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-08-31T16:59:27Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-08-31T17:12:08Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.5416666666666666,
+      "time_to_merge_hours": 53.76611111111111
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 1707,
+      "pr_title": "Basic example pallet refactor",
+      "reviewed_at": "2024-02-15T21:57:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1707"
+    },
+    {
+      "pr_number": 1871,
+      "pr_title": "Adding `try_state` hook for Tips pallet ",
+      "reviewed_at": "2024-01-30T23:49:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1871"
+    },
+    {
+      "pr_number": 1820,
+      "pr_title": "Adding `try_state` hook for `Treasury` pallet",
+      "reviewed_at": "2024-01-30T23:49:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1820"
+    },
+    {
+      "pr_number": 1714,
+      "pr_title": "Improve FRAME storage docs",
+      "reviewed_at": "2024-01-30T23:49:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1714"
+    },
+    {
+      "pr_number": 1689,
+      "pr_title": "tweak pallet macro (genesis_config etc) to cater for RA users as well.",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1689"
+    },
+    {
+      "pr_number": 1256,
+      "pr_title": "`chain-spec`: getting ready for native-runtime-free world",
+      "reviewed_at": "2024-01-30T23:49:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1256"
+    },
+    {
+      "pr_number": 1642,
+      "pr_title": "update `genesis_config` related docs and tests and error messages",
+      "reviewed_at": "2024-01-30T23:49:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1642"
+    },
+    {
+      "pr_number": 1477,
+      "pr_title": "Revive Substrate Crate",
+      "reviewed_at": "2024-01-30T23:49:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1477"
+    },
+    {
+      "pr_number": 1643,
+      "pr_title": "Use correct target dir in polkadot readme",
+      "reviewed_at": "2023-10-17T12:56:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1643"
+    },
+    {
+      "pr_number": 1280,
+      "pr_title": "[improve docs]: Template pallet",
+      "reviewed_at": "2023-09-02T00:34:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1280"
+    },
+    {
+      "pr_number": 1253,
+      "pr_title": "Add README to project root",
+      "reviewed_at": "2023-08-31T17:45:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1253"
+    }
+  ]
+}

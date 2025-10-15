@@ -1,0 +1,284 @@
+{
+  "commits": [
+    {
+      "sha": "b2a62a56c98d57f67bb29a5065047b9a9dc83774",
+      "message": "Use `TEST_WS` in all remote-externalities tests (#3284)",
+      "date": "2024-02-13T09:23:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b2a62a56c98d57f67bb29a5065047b9a9dc83774"
+    },
+    {
+      "sha": "596088a273eff13fbefe6fa20a5fef6507b329cb",
+      "message": "add pallet nomination-pools versioned migration to kitchensink (#2167)",
+      "date": "2023-11-17T06:31:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/596088a273eff13fbefe6fa20a5fef6507b329cb"
+    },
+    {
+      "sha": "eb76e109c8b51b08d02a918e3c8b1bb7a6a90b3e",
+      "message": "add try-runtime to ping pallet (#2767)",
+      "date": "2023-06-23T14:01:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/eb76e109c8b51b08d02a918e3c8b1bb7a6a90b3e"
+    },
+    {
+      "sha": "0353b373313d62c6865ec2faf270fb872bf1dfed",
+      "message": "add swapped event to registrar (#5990)",
+      "date": "2023-05-03T13:13:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0353b373313d62c6865ec2faf270fb872bf1dfed"
+    }
+  ],
+  "prs": [
+    {
+      "number": 3367,
+      "title": "add ability to concurrently fetch child keys for remote externality tests",
+      "state": "OPEN",
+      "created_at": "2024-02-17T07:57:43Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "brunopgalvao",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3367",
+      "ready_for_review_at": "2024-02-17T07:57:43Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-18T08:35:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-20T04:11:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-20T08:09:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-20T11:44:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-22T10:43:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-22T11:35:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-22T12:50:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-22T16:19:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-23T03:44:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-23T03:45:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-23T07:29:52Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "brunopgalvao",
+          "commented_at": "2024-02-17T08:02:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 24.63222222222222,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3284,
+      "title": "Use `TEST_WS` in all remote-externalities tests",
+      "state": "MERGED",
+      "created_at": "2024-02-11T05:19:49Z",
+      "closed_at": "2024-02-13T10:15:09Z",
+      "merged_at": "2024-02-13T10:15:09Z",
+      "merged_by": "bkchr",
+      "author": "brunopgalvao",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3284",
+      "ready_for_review_at": "2024-02-11T05:19:49Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-11T05:30:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-11T05:42:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-11T06:31:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-11T16:44:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-12T08:58:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-12T10:08:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-12T10:16:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-12T10:43:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-12T10:50:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-12T11:17:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-12T12:48:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-02-12T15:35:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2024-02-13T07:04:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-02-13T09:22:26Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "brunopgalvao",
+          "commented_at": "2024-02-11T05:42:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.17833333333333334,
+      "time_to_merge_hours": 52.922222222222224
+    },
+    {
+      "number": 2584,
+      "title": "refactor to concurrently request child keys",
+      "state": "CLOSED",
+      "created_at": "2023-12-02T09:09:53Z",
+      "closed_at": "2024-02-17T07:59:25Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "brunopgalvao",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2584",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "brunopgalvao",
+          "commented_at": "2024-02-17T07:59:25Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2167,
+      "title": "add pallet nomination-pools versioned migration to kitchensink",
+      "state": "MERGED",
+      "created_at": "2023-11-06T05:37:59Z",
+      "closed_at": "2023-11-17T06:31:32Z",
+      "merged_at": "2023-11-17T06:31:32Z",
+      "merged_by": "brunopgalvao",
+      "author": "brunopgalvao",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2167",
+      "ready_for_review_at": "2023-11-06T05:37:59Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-06T10:06:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-16T11:42:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "brunopgalvao",
+          "submitted_at": "2023-11-16T13:03:22Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "brunopgalvao",
+          "commented_at": "2023-11-07T07:10:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.4719444444444445,
+      "time_to_merge_hours": 264.8925
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3367,
+      "pr_title": "add ability to concurrently fetch child keys for remote externality tests",
+      "reviewed_at": "2024-02-23T07:31:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3367"
+    },
+    {
+      "pr_number": 3284,
+      "pr_title": "Use `TEST_WS` in all remote-externalities tests",
+      "reviewed_at": "2024-02-13T10:15:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3284"
+    },
+    {
+      "pr_number": 2167,
+      "pr_title": "add pallet nomination-pools versioned migration to kitchensink",
+      "reviewed_at": "2024-01-30T23:49:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2167"
+    },
+    {
+      "pr_number": 2102,
+      "pr_title": "Introduce Polkadot-Sdk `developer_hub` ",
+      "reviewed_at": "2024-01-30T23:49:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2102"
+    }
+  ]
+}

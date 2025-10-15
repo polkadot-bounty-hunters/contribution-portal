@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "49c0f33baed01c56260beabbbbdb5cf049f7e7c9",
+      "message": "fix substrate-node-template generation (#2050)",
+      "date": "2023-11-01T19:41:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/49c0f33baed01c56260beabbbbdb5cf049f7e7c9"
+    }
+  ],
+  "prs": [
+    {
+      "number": 2050,
+      "title": "fix substrate-node-template generation",
+      "state": "MERGED",
+      "created_at": "2023-10-26T22:46:56Z",
+      "closed_at": "2023-11-01T19:41:28Z",
+      "merged_at": "2023-11-01T19:41:28Z",
+      "merged_by": "bkchr",
+      "author": "d-moos",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2050",
+      "ready_for_review_at": "2023-10-26T22:46:56Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-10-27T07:22:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "coderobe",
+          "submitted_at": "2023-11-01T02:18:35Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-10-26T22:47:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 8.588055555555556,
+      "time_to_merge_hours": 140.9088888888889
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

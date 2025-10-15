@@ -1,0 +1,118 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 9994,
+      "title": "[DRAFT] Publish-only pubsub mechanism (Milestone 1) - Addresses #606 ",
+      "state": "OPEN",
+      "created_at": "2025-10-10T13:54:00Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "metricaez",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9994",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 9993,
+      "title": "[DRAFT] XCM Publish-Subscribe Mechanism",
+      "state": "CLOSED",
+      "created_at": "2025-10-10T13:47:05Z",
+      "closed_at": "2025-10-10T13:48:40Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "metricaez",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9993",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 9992,
+      "title": "[DRAFT] XCM Publish-Subscribe Mechanism",
+      "state": "CLOSED",
+      "created_at": "2025-10-10T13:37:04Z",
+      "closed_at": "2025-10-10T13:38:30Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "metricaez",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9992",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 4343,
+      "title": "Fix: change litep2p dependency from main to working tag",
+      "state": "CLOSED",
+      "created_at": "2024-05-01T14:15:02Z",
+      "closed_at": "2024-05-02T11:23:10Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "metricaez",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4343",
+      "ready_for_review_at": "2024-05-01T14:15:02Z",
+      "reviews": [
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2024-05-01T14:24:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "metricaez",
+          "submitted_at": "2024-05-01T14:32:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "moliholy",
+          "submitted_at": "2024-05-01T14:55:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2024-05-01T15:21:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2024-05-01T15:49:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "metricaez",
+          "submitted_at": "2024-05-01T15:49:17Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "metricaez",
+          "commented_at": "2024-05-01T14:16:12Z"
+        },
+        {
+          "commenter": "lexnv",
+          "commented_at": "2024-05-01T16:21:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.16055555555555556,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 4343,
+      "pr_title": "Fix: change litep2p dependency from main to working tag",
+      "reviewed_at": "2024-05-02T11:23:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4343"
+    }
+  ]
+}

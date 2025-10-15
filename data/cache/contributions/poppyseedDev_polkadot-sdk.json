@@ -1,0 +1,60 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 3693,
+      "title": "Adding listing to Coretime Chain, Broker pallet",
+      "state": "CLOSED",
+      "created_at": "2024-03-14T10:11:51Z",
+      "closed_at": "2024-04-04T22:52:03Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "poppyseedDev",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3693",
+      "ready_for_review_at": "2024-03-14T10:11:51Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-14T10:41:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "poppyseedDev",
+          "submitted_at": "2024-03-14T10:47:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-03-14T18:39:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2024-03-14T21:40:46Z",
+          "state": "CHANGES_REQUESTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-03-14T10:12:00Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-04-04T22:52:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.5011111111111111,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3693,
+      "pr_title": "Adding listing to Coretime Chain, Broker pallet",
+      "reviewed_at": "2024-04-04T22:52:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3693"
+    }
+  ]
+}

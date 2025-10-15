@@ -1,0 +1,36 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 1883,
+      "title": "fix: correct the `network` field of sovereign account id evaluation function",
+      "state": "CLOSED",
+      "created_at": "2023-10-16T12:43:37Z",
+      "closed_at": "2024-02-05T11:31:47Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "realnimish",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1883",
+      "ready_for_review_at": "2023-10-16T12:43:37Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-10-16T12:43:44Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-11-27T09:36:42Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-02-05T11:31:47Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

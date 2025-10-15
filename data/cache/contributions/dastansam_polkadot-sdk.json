@@ -1,0 +1,67 @@
+{
+  "commits": [
+    {
+      "sha": "cfce3b96be3fe7348c88ba1deeaa701834240d38",
+      "message": "`pallet-assets`: extract precompiles to a separate crate (#9796)",
+      "date": "2025-09-30T09:11:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cfce3b96be3fe7348c88ba1deeaa701834240d38"
+    },
+    {
+      "sha": "44ae6a8bebd23a8ffac02d71c6e74ee889c3ab00",
+      "message": "[FRAME] Simplify pallet config definition:  remove `RuntimeEvent` associated type (#7229)",
+      "date": "2025-04-16T20:15:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/44ae6a8bebd23a8ffac02d71c6e74ee889c3ab00"
+    },
+    {
+      "sha": "f7baa84f48aa72b96e8c9a9ec8a1934431de6709",
+      "message": "[FRAME] `pallet_asset_tx_payment`: replace `AssetId` bound from `Copy` to `Clone` (#7194)",
+      "date": "2025-01-16T15:12:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f7baa84f48aa72b96e8c9a9ec8a1934431de6709"
+    },
+    {
+      "sha": "a1aa71ea36d8b7293557d13d614d73af52f57a32",
+      "message": "sp-api: `impl_runtime_apis!` replace the use of `Self` as a type argument (#4012)",
+      "date": "2024-11-06T13:39:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a1aa71ea36d8b7293557d13d614d73af52f57a32"
+    },
+    {
+      "sha": "59d7e0372f08499d9aefadbdda1e523f6b42bb65",
+      "message": "Export all public functions of `sc-service` (#4457)",
+      "date": "2024-05-15T14:11:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/59d7e0372f08499d9aefadbdda1e523f6b42bb65"
+    },
+    {
+      "sha": "efc2132fa2ece419d36af03c935b3c2c60440eb5",
+      "message": "migrations: `take()`should consume read and write operation weight (#4302)",
+      "date": "2024-05-12T22:35:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/efc2132fa2ece419d36af03c935b3c2c60440eb5"
+    },
+    {
+      "sha": "e54279699b646b0be4b48e898f0b7e3d5fe1b033",
+      "message": "migrations: prevent accidentally using unversioned migrations instead of `VersionedMigration` (#3835)",
+      "date": "2024-04-02T13:43:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e54279699b646b0be4b48e898f0b7e3d5fe1b033"
+    },
+    {
+      "sha": "11831df8e709061e9c6b3292facb5d7d9709f151",
+      "message": "`nomination-pools`: add permissionless condition to `chill` (#3453)",
+      "date": "2024-03-07T10:36:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/11831df8e709061e9c6b3292facb5d7d9709f151"
+    },
+    {
+      "sha": "165d075a5f680791c8e0b128ea60edd590a44f1f",
+      "message": "benchmarking-cli: add --list-pallets and --all options (#3395)",
+      "date": "2024-02-21T14:56:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/165d075a5f680791c8e0b128ea60edd590a44f1f"
+    },
+    {
+      "sha": "0bcebac4fc69f6bef5da7d94615916bbde294967",
+      "message": "Expose collection attributes from `Inspect` trait (#1914)",
+      "date": "2023-10-26T09:52:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0bcebac4fc69f6bef5da7d94615916bbde294967"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

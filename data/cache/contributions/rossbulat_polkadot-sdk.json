@@ -1,0 +1,1230 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 5715,
+      "title": "[WIP] RFC-0097 Implementation to Decrease Unbonding Time",
+      "state": "CLOSED",
+      "created_at": "2024-09-14T04:51:17Z",
+      "closed_at": "2025-01-30T11:17:34Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5715",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-10-08T05:11:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-10-08T06:06:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-10-08T06:09:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-10-09T05:11:52Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-09-14T06:06:04Z"
+        },
+        {
+          "commenter": "nirvanameow",
+          "commented_at": "2024-11-02T22:44:01Z"
+        },
+        {
+          "commenter": "runcomet",
+          "commented_at": "2025-01-14T23:35:34Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-01-15T09:48:32Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-01-23T14:35:16Z"
+        },
+        {
+          "commenter": "runcomet",
+          "commented_at": "2025-01-25T04:18:35Z"
+        },
+        {
+          "commenter": "runcomet",
+          "commented_at": "2025-01-30T04:00:05Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2025-01-30T04:30:33Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-01-30T11:17:34Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 5449,
+      "title": "Remove staking controller account logic from pallets & runtimes",
+      "state": "OPEN",
+      "created_at": "2024-08-23T11:30:15Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5449",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-08-31T13:14:07Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 4574,
+      "title": "[MOVED] Remove staking controller account logic from pallets & runtimes",
+      "state": "CLOSED",
+      "created_at": "2024-05-25T03:21:16Z",
+      "closed_at": "2024-08-23T11:32:37Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4574",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-05-25T07:38:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-05-27T08:28:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-05-27T08:33:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-05-27T08:47:43Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-06-23T04:05:05Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-08-15T09:26:25Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2024-08-15T09:38:34Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-08-15T09:39:54Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2024-08-15T10:42:01Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3438,
+      "title": "Pools: Make `PermissionlessWithdraw` the default claim permission",
+      "state": "MERGED",
+      "created_at": "2024-02-22T06:05:25Z",
+      "closed_at": "2024-04-01T09:58:04Z",
+      "merged_at": "2024-04-01T09:58:04Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3438",
+      "ready_for_review_at": "2024-02-22T06:05:25Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-02-23T07:41:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-02-23T18:35:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-02-23T18:38:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-02-28T21:29:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-02-29T05:54:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-08T11:45:13Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-08T11:46:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-18T12:48:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-31T09:37:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "gupnik",
+          "commented_at": "2024-02-26T06:04:23Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2024-02-28T06:03:15Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2024-02-28T08:19:13Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2024-03-08T20:13:41Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2024-03-13T03:55:15Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2024-03-21T04:44:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 25.601111111111113,
+      "time_to_merge_hours": 939.8775
+    },
+    {
+      "number": 2667,
+      "title": "[WIP] Allow nomination pool rebonding",
+      "state": "OPEN",
+      "created_at": "2023-12-09T02:57:42Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2667",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-09T03:41:09Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-09T04:07:48Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-09T05:24:08Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-09T05:24:14Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-09T05:56:20Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-09T05:58:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-09T05:58:51Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-12-09T06:05:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-09T06:29:15Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-08-15T09:53:30Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2589,
+      "title": "Staking: Add `deprecate_controller_batch` AdminOrigin call",
+      "state": "MERGED",
+      "created_at": "2023-12-03T12:13:44Z",
+      "closed_at": "2023-12-12T06:23:02Z",
+      "merged_at": "2023-12-12T06:23:02Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2589",
+      "ready_for_review_at": "2023-12-03T12:13:44Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-12-05T09:33:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-12-05T09:55:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-12-05T09:55:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-05T10:04:07Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-12-06T03:12:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-06T08:19:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-12-06T08:22:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-12-09T19:56:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-12-09T19:58:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-12-10T04:20:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-12-10T10:51:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-12-11T21:30:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-12-12T04:19:19Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-03T13:32:18Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-03T13:32:22Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-03T14:04:16Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-03T14:04:21Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-03T14:19:36Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-03T14:19:43Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-04T02:07:19Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T02:07:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T02:09:16Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-04T03:43:08Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T03:43:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T03:45:51Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-04T03:50:37Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T03:50:41Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T03:53:20Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-04T05:46:42Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T05:46:47Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T05:49:26Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-04T07:01:12Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T07:01:16Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T07:04:11Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-04T12:19:41Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T12:19:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T13:42:46Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-04T13:50:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T13:50:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-04T15:14:40Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-05T10:07:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-06T03:29:05Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-10T04:17:46Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-10T06:55:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-10T06:55:07Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-12-10T06:55:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-10T06:55:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-10T08:02:29Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-10T08:18:27Z"
+        }
+      ],
+      "time_to_first_review_hours": 45.33166666666666,
+      "time_to_merge_hours": 210.155
+    },
+    {
+      "number": 2501,
+      "title": "Staking: `chill_other` takes stash instead of controller",
+      "state": "MERGED",
+      "created_at": "2023-11-27T07:46:28Z",
+      "closed_at": "2023-11-27T14:42:05Z",
+      "merged_at": "2023-11-27T14:42:05Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2501",
+      "ready_for_review_at": "2023-11-27T07:46:28Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-27T11:18:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-27T12:03:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-27T12:03:59Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-27T07:48:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-27T07:48:38Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-27T08:57:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.5408333333333335,
+      "time_to_merge_hours": 6.926944444444445
+    },
+    {
+      "number": 2474,
+      "title": "Pools: Add ability to configure commission claiming permissions",
+      "state": "MERGED",
+      "created_at": "2023-11-23T15:43:18Z",
+      "closed_at": "2023-11-28T07:19:50Z",
+      "merged_at": "2023-11-28T07:19:50Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2474",
+      "ready_for_review_at": "2023-11-23T15:43:18Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-26T19:35:14Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-27T03:48:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-27T11:16:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-27T12:11:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-28T06:10:07Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-23T16:26:16Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-23T17:00:17Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-24T09:37:40Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-24T09:37:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-24T10:14:07Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-24T10:33:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-24T10:34:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-24T11:09:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 75.86555555555556,
+      "time_to_merge_hours": 111.60888888888888
+    },
+    {
+      "number": 2451,
+      "title": "Amend staking docs to account for state of controller deprecation",
+      "state": "MERGED",
+      "created_at": "2023-11-22T17:03:39Z",
+      "closed_at": "2023-11-23T17:14:59Z",
+      "merged_at": "2023-11-23T17:14:59Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2451",
+      "ready_for_review_at": "2023-11-22T17:03:39Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-23T11:03:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2023-11-23T15:21:53Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-22T17:06:21Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-22T17:06:26Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-22T17:06:53Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-23T17:14:30Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.995277777777776,
+      "time_to_merge_hours": 24.18888888888889
+    },
+    {
+      "number": 2397,
+      "title": "Pools: Add `MaxUnbonding` to metadata",
+      "state": "MERGED",
+      "created_at": "2023-11-19T12:33:25Z",
+      "closed_at": "2023-11-20T09:19:34Z",
+      "merged_at": "2023-11-20T09:19:34Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2397",
+      "ready_for_review_at": "2023-11-19T12:33:25Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-19T19:06:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-11-20T09:01:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2023-11-20T09:18:17Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 6.552777777777778,
+      "time_to_merge_hours": 20.769166666666667
+    },
+    {
+      "number": 2380,
+      "title": "Deprecate `RewardDestination::Controller`",
+      "state": "MERGED",
+      "created_at": "2023-11-17T11:45:53Z",
+      "closed_at": "2023-11-22T09:22:29Z",
+      "merged_at": "2023-11-22T09:22:29Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2380",
+      "ready_for_review_at": "2023-11-17T11:45:53Z",
+      "reviews": [
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-11-17T12:07:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-11-17T13:48:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-17T13:51:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-11-17T14:16:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-17T14:23:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-19T00:22:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-19T08:10:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-19T08:28:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-19T12:11:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-19T19:24:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-19T19:44:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-11-20T09:35:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-20T10:32:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-11-20T11:45:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-11-20T21:39:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-21T08:42:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-21T08:46:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-21T10:44:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-21T10:45:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-21T11:06:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-21T11:21:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-11-21T13:58:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-21T14:19:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-21T15:53:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-11-21T17:18:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-11-21T17:57:07Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-17T11:46:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T11:46:49Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-17T11:49:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T11:49:18Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T12:22:57Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-17T12:28:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T13:57:39Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-17T14:30:41Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-17T14:30:56Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T14:31:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T15:35:40Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-17T15:51:30Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-17T15:55:01Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T15:55:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-17T16:29:16Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-19T20:06:33Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-21T18:10:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-21T18:10:18Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-21T19:17:33Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-11-22T08:45:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-22T08:45:51Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-22T09:51:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.3597222222222222,
+      "time_to_merge_hours": 117.61
+    },
+    {
+      "number": 2090,
+      "title": "[Temp] Move payout destination logic to new `StakingLedger`",
+      "state": "CLOSED",
+      "created_at": "2023-10-31T04:57:51Z",
+      "closed_at": "2024-08-15T09:52:39Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2090",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-15T11:52:52Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1602,
+      "title": "Staking: Add `dest` to `Rewarded` to aid in reward calculations",
+      "state": "MERGED",
+      "created_at": "2023-09-17T10:27:55Z",
+      "closed_at": "2023-09-18T17:32:30Z",
+      "merged_at": "2023-09-18T17:32:30Z",
+      "merged_by": "rossbulat",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1602",
+      "ready_for_review_at": "2023-09-17T10:27:55Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-18T07:52:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2023-09-18T10:59:37Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 21.413888888888888,
+      "time_to_merge_hours": 31.07638888888889
+    },
+    {
+      "number": 1196,
+      "title": "`Payees` lazy migration to `PayoutDestination`, `Split` variant for payouts, remove `Controller`",
+      "state": "CLOSED",
+      "created_at": "2023-08-28T02:30:31Z",
+      "closed_at": "2024-08-04T09:26:20Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1196",
+      "ready_for_review_at": "2023-08-28T02:30:31Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-09-25T10:40:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-09-26T09:50:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-09-28T08:08:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-28T09:26:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-28T09:29:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-28T09:32:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-28T09:32:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-28T09:34:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-09-28T09:35:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-09-29T07:24:18Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-09-28T08:17:44Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-28T08:17:47Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-09-28T08:19:15Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-09-28T08:19:29Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-10-14T10:11:36Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-10-25T12:20:16Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-07-17T12:28:18Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2024-08-04T09:22:41Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2024-08-04T09:26:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 680.1744444444445,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 5715,
+      "pr_title": "[WIP] RFC-0097 Implementation to Decrease Unbonding Time",
+      "reviewed_at": "2025-01-30T11:17:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5715"
+    },
+    {
+      "pr_number": 6357,
+      "pr_title": "[Pools] New runtime api that returns the pot accounts associated with the pool",
+      "reviewed_at": "2024-11-06T23:38:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6357"
+    },
+    {
+      "pr_number": 3639,
+      "pr_title": "Staking ledger bonding fixes",
+      "reviewed_at": "2024-08-26T15:51:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3639"
+    },
+    {
+      "pr_number": 4574,
+      "pr_title": "[MOVED] Remove staking controller account logic from pallets & runtimes",
+      "reviewed_at": "2024-08-23T11:32:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4574"
+    },
+    {
+      "pr_number": 1196,
+      "pr_title": "`Payees` lazy migration to `PayoutDestination`, `Split` variant for payouts, remove `Controller`",
+      "reviewed_at": "2024-08-12T20:27:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1196"
+    },
+    {
+      "pr_number": 2680,
+      "pr_title": "[Moved] Enable governance for Nomination Pool members",
+      "reviewed_at": "2024-07-19T07:29:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2680"
+    },
+    {
+      "pr_number": 3438,
+      "pr_title": "Pools: Make `PermissionlessWithdraw` the default claim permission",
+      "reviewed_at": "2024-04-01T09:58:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3438"
+    },
+    {
+      "pr_number": 3052,
+      "pr_title": "Fixes `TotalValueLocked` out of sync in nomination pools",
+      "reviewed_at": "2024-02-08T18:51:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3052"
+    },
+    {
+      "pr_number": 3110,
+      "pr_title": "Nomination pools: Fix payout destination in permissionless unbond",
+      "reviewed_at": "2024-01-30T23:49:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3110"
+    },
+    {
+      "pr_number": 2942,
+      "pr_title": "Fix Pools 6->7 migration",
+      "reviewed_at": "2024-01-30T23:49:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2942"
+    },
+    {
+      "pr_number": 2839,
+      "pr_title": "Refactors the `OnStakingUpdate` trait",
+      "reviewed_at": "2024-01-30T23:49:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2839"
+    },
+    {
+      "pr_number": 2589,
+      "pr_title": "Staking: Add `deprecate_controller_batch` AdminOrigin call",
+      "reviewed_at": "2024-01-30T23:49:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2589"
+    },
+    {
+      "pr_number": 2599,
+      "pr_title": "More tests and checks confirming that `ledger.controller` is always correct.",
+      "reviewed_at": "2024-01-30T23:49:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2599"
+    },
+    {
+      "pr_number": 2474,
+      "pr_title": "Pools: Add ability to configure commission claiming permissions",
+      "reviewed_at": "2024-01-30T23:49:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2474"
+    },
+    {
+      "pr_number": 2459,
+      "pr_title": "[NPoS] Use EraInfo to manipulate exposure in fast-unstake tests",
+      "reviewed_at": "2024-01-30T23:49:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2459"
+    },
+    {
+      "pr_number": 2402,
+      "pr_title": "Removes the `Default` implementation for `RewardDestination`",
+      "reviewed_at": "2024-01-30T23:49:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2402"
+    },
+    {
+      "pr_number": 2380,
+      "pr_title": "Deprecate `RewardDestination::Controller`",
+      "reviewed_at": "2024-01-30T23:49:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2380"
+    },
+    {
+      "pr_number": 2369,
+      "pr_title": "[NPoS] Check if staker is exposed in paged exposure storage entries",
+      "reviewed_at": "2024-01-30T23:49:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2369"
+    },
+    {
+      "pr_number": 1189,
+      "pr_title": "[NPoS] Paging reward payouts in order to  scale rewardable nominators ",
+      "reviewed_at": "2024-01-30T23:49:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1189"
+    }
+  ]
+}

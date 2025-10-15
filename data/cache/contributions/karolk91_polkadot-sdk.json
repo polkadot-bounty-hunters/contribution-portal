@@ -1,0 +1,2034 @@
+{
+  "commits": [
+    {
+      "sha": "d9f451a6b94ab2cf39371ee5192130379eb6e199",
+      "message": "XCMv5 asset exchange test scenarios (#9195)",
+      "date": "2025-07-31T10:42:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d9f451a6b94ab2cf39371ee5192130379eb6e199"
+    },
+    {
+      "sha": "a64eb1fb02d4012948cba024fca2f27d94732e52",
+      "message": "Remove whitespaces added by macros due to token re-parsing (#9354)",
+      "date": "2025-07-30T05:46:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a64eb1fb02d4012948cba024fca2f27d94732e52"
+    },
+    {
+      "sha": "069b7b56118fd65ecdbc6fea6c4dd1ffbf586d67",
+      "message": "Fix subsume_assets incorrectly merging two AssetsInHolding (#9179)",
+      "date": "2025-07-24T05:51:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/069b7b56118fd65ecdbc6fea6c4dd1ffbf586d67"
+    },
+    {
+      "sha": "cc5065dab6ab4c40d2901981481afdad8e34d4c2",
+      "message": "transfer_assets benchmarking and weights for coretime chains (#8752)",
+      "date": "2025-06-25T10:15:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cc5065dab6ab4c40d2901981481afdad8e34d4c2"
+    },
+    {
+      "sha": "bade694abb5d43469395168f06f9c6f1dab26407",
+      "message": "Westend governance authorize_upgrade integration tests (#8787)",
+      "date": "2025-06-20T08:35:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bade694abb5d43469395168f06f9c6f1dab26407"
+    },
+    {
+      "sha": "05649f110fdbdadd024eb38784a2a37aa1aac087",
+      "message": "Sync xcm related test utils impls with runtimes repo (#8369)",
+      "date": "2025-05-29T12:46:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/05649f110fdbdadd024eb38784a2a37aa1aac087"
+    },
+    {
+      "sha": "477595ff951be6218c9a70857572959f02e1eb1c",
+      "message": "transfer_assets benchmarking and weights for people chains (#8700)",
+      "date": "2025-05-29T09:58:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/477595ff951be6218c9a70857572959f02e1eb1c"
+    },
+    {
+      "sha": "a2ebc16b3d2562d74830e0d319b330a904d8c700",
+      "message": "make assert_expected_events fail on missing event (#8400)",
+      "date": "2025-05-02T10:16:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a2ebc16b3d2562d74830e0d319b330a904d8c700"
+    },
+    {
+      "sha": "7755066e348aaea5d8ebb5febe5e38db1c29f141",
+      "message": "[xcm-builder][origin_conversion] LocationAsSuperuser converter introduced (#8210)",
+      "date": "2025-04-10T12:44:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7755066e348aaea5d8ebb5febe5e38db1c29f141"
+    }
+  ],
+  "prs": [
+    {
+      "number": 9962,
+      "title": "[Fungibles] Avoid dusting below-ED amounts when creating/releasing holds",
+      "state": "OPEN",
+      "created_at": "2025-10-07T19:58:15Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9962",
+      "ready_for_review_at": "2025-10-07T19:58:15Z",
+      "reviews": [
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-10-08T15:29:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-10-08T15:31:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-10-08T15:32:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-10-08T15:54:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-08T16:05:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-10-08T19:25:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-10-08T19:25:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-10-08T19:26:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-10-08T19:44:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-10-09T12:54:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-10-09T13:16:24Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-10-07T20:00:22Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2025-10-08T15:54:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 19.52166666666667,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 9720,
+      "title": "[integration-tests] Coretime reserve transfer region to Penpal",
+      "state": "OPEN",
+      "created_at": "2025-09-11T15:13:35Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9720",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 9633,
+      "title": "[unstable2507] Update CI docker to bullseye-1.88.0-2025-06-27-v202507221446",
+      "state": "CLOSED",
+      "created_at": "2025-09-03T10:35:24Z",
+      "closed_at": "2025-09-05T10:43:22Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9633",
+      "ready_for_review_at": "2025-09-03T10:35:24Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-09-03T10:38:58Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-09-03T10:38:37Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-09-03T11:09:14Z"
+        },
+        {
+          "commenter": "EgorPopelyaev",
+          "commented_at": "2025-09-04T09:57:06Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-09-05T10:43:22Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.059444444444444446,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 9595,
+      "title": "[integration-tests] OpenGov on Asset Hub via Relay Chain",
+      "state": "OPEN",
+      "created_at": "2025-08-28T21:11:31Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9595",
+      "ready_for_review_at": "2025-08-28T21:11:31Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-08-29T09:20:30Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-08-28T21:18:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 12.149722222222222,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 9354,
+      "title": "Remove whitespaces added by macros due to token re-parsing",
+      "state": "MERGED",
+      "created_at": "2025-07-28T17:44:59Z",
+      "closed_at": "2025-07-30T06:30:39Z",
+      "merged_at": "2025-07-30T06:30:39Z",
+      "merged_by": "karolk91",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9354",
+      "ready_for_review_at": "2025-07-28T17:44:59Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-07-28T20:32:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-29T07:12:09Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-07-28T17:47:19Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-29T07:16:19Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-07-29T09:28:17Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-29T12:01:15Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-07-29T13:19:22Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-29T22:04:10Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-29T22:11:41Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-07-30T05:32:27Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-30T06:31:22Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-30T06:31:28Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-30T06:31:35Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-30T06:31:40Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-30T06:31:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.790277777777778,
+      "time_to_merge_hours": 36.76111111111111
+    },
+    {
+      "number": 9195,
+      "title": "XCMv5 asset exchange test scenarios",
+      "state": "MERGED",
+      "created_at": "2025-07-14T14:12:31Z",
+      "closed_at": "2025-07-31T11:31:40Z",
+      "merged_at": "2025-07-31T11:31:40Z",
+      "merged_by": "karolk91",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9195",
+      "ready_for_review_at": "2025-07-14T14:12:31Z",
+      "reviews": [
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-22T13:21:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-24T10:32:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-30T08:17:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-07-30T10:38:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-31T08:48:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-31T09:12:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-31T09:12:11Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-07-14T14:14:43Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-07-16T09:51:13Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-31T11:32:21Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-31T11:32:28Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-31T11:32:33Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-31T11:32:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 191.1513888888889,
+      "time_to_merge_hours": 405.31916666666666
+    },
+    {
+      "number": 9179,
+      "title": "Fix subsume_assets incorrectly merging two AssetsInHolding",
+      "state": "MERGED",
+      "created_at": "2025-07-11T15:54:04Z",
+      "closed_at": "2025-07-24T06:29:42Z",
+      "merged_at": "2025-07-24T06:29:42Z",
+      "merged_by": "karolk91",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9179",
+      "ready_for_review_at": "2025-07-11T15:54:04Z",
+      "reviews": [
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-22T12:12:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-07-22T15:18:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-22T15:21:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-07-22T15:31:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-23T08:15:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-23T08:53:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-23T09:55:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-23T11:12:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-23T11:45:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-07-23T13:03:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-07-23T13:05:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-23T13:20:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-23T13:27:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-23T13:27:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-23T13:34:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-23T13:34:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-07-23T21:07:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-07-23T21:07:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-07-23T21:09:40Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-07-14T08:29:51Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-24T06:30:19Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-24T06:30:26Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-24T06:30:32Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-24T06:30:36Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-07-24T06:30:41Z"
+        }
+      ],
+      "time_to_first_review_hours": 260.31388888888887,
+      "time_to_merge_hours": 302.5938888888889
+    },
+    {
+      "number": 8936,
+      "title": "merging donal-ahm with master",
+      "state": "MERGED",
+      "created_at": "2025-06-23T08:35:46Z",
+      "closed_at": "2025-06-26T16:12:30Z",
+      "merged_at": "2025-06-26T16:12:30Z",
+      "merged_by": "ggwpez",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8936",
+      "ready_for_review_at": "2025-06-23T08:35:46Z",
+      "reviews": [
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-23T08:39:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-23T08:59:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-23T11:17:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-23T11:35:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-23T11:36:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-23T11:37:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-06-23T12:22:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-06-23T12:28:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-23T12:36:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-23T20:47:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-23T20:48:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-25T09:37:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-25T09:41:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2025-06-25T09:44:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-06-25T12:24:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-06-25T12:42:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-06-25T13:09:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-25T13:24:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-26T09:49:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-26T11:11:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-06-26T16:12:13Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-06-23T08:36:01Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-23T10:51:57Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-24T11:00:28Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-06-25T13:25:15Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-06-25T13:38:01Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-06-26T09:02:01Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-06-26T09:11:07Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-06-26T09:15:20Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-06-26T09:34:12Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-06-26T16:10:32Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-06-26T16:12:27Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.05444444444444444,
+      "time_to_merge_hours": 79.61222222222223
+    },
+    {
+      "number": 8787,
+      "title": "Westend governance authorize_upgrade integration tests",
+      "state": "MERGED",
+      "created_at": "2025-06-06T08:11:10Z",
+      "closed_at": "2025-06-20T09:10:50Z",
+      "merged_at": "2025-06-20T09:10:50Z",
+      "merged_by": "bkontur",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8787",
+      "ready_for_review_at": "2025-06-06T08:11:10Z",
+      "reviews": [
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-06T13:28:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-09T07:54:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-10T12:21:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-11T10:03:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-11T11:05:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-11T11:44:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-12T12:10:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-12T12:34:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-12T12:38:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-12T12:41:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-12T13:08:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-12T14:34:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-12T14:34:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-12T14:35:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-16T13:22:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-16T13:23:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-16T13:31:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-16T13:38:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-16T17:55:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-19T14:13:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-20T07:15:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-20T07:18:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-20T07:18:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-20T07:19:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-20T07:54:11Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-06T08:12:02Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-06-16T18:10:19Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-06-20T09:11:28Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-06-20T09:11:33Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.296666666666667,
+      "time_to_merge_hours": 336.99444444444447
+    },
+    {
+      "number": 8756,
+      "title": "Introduce dry_execute_with for testing/emulated environment purposes",
+      "state": "OPEN",
+      "created_at": "2025-06-05T11:03:29Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8756",
+      "ready_for_review_at": "2025-06-05T11:03:29Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-05T22:02:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-05T22:05:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-06T10:18:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-09T08:01:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-07-04T23:46:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-07-04T23:46:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-07T09:03:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-07T09:03:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-08-27T02:00:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-05T11:27:43Z"
+        },
+        {
+          "commenter": "raymondkfcheung",
+          "commented_at": "2025-07-30T08:23:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 10.975555555555555,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 8752,
+      "title": "transfer_assets benchmarking and weights for coretime chains",
+      "state": "MERGED",
+      "created_at": "2025-06-05T08:56:44Z",
+      "closed_at": "2025-06-25T11:11:40Z",
+      "merged_at": "2025-06-25T11:11:40Z",
+      "merged_by": "karolk91",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8752",
+      "ready_for_review_at": "2025-06-05T08:56:44Z",
+      "reviews": [
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-24T12:44:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-06-25T09:40:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-25T10:10:27Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-05T08:58:16Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-05T08:59:17Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-05T09:33:24Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-05T10:25:11Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-23T12:19:57Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-23T12:20:50Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-23T12:55:42Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-06-23T14:26:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 459.8,
+      "time_to_merge_hours": 482.24888888888887
+    },
+    {
+      "number": 8722,
+      "title": "Integration tests fixes for AHM",
+      "state": "MERGED",
+      "created_at": "2025-06-02T12:00:17Z",
+      "closed_at": "2025-06-11T12:01:44Z",
+      "merged_at": "2025-06-11T12:01:44Z",
+      "merged_by": "ggwpez",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8722",
+      "ready_for_review_at": "2025-06-02T12:00:17Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-06T12:46:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-06T12:48:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-06T12:53:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-06T12:56:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-06T13:09:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-06T13:10:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-09T09:52:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-09T09:52:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-09T09:52:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-10T10:42:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-10T10:42:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-11T10:30:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-11T10:39:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-11T10:43:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-11T10:44:45Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-05T19:48:16Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-06T12:41:22Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-06-11T07:32:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 96.76361111111112,
+      "time_to_merge_hours": 216.02416666666667
+    },
+    {
+      "number": 8700,
+      "title": "transfer_assets benchmarking and weights for people chains",
+      "state": "MERGED",
+      "created_at": "2025-05-28T21:38:50Z",
+      "closed_at": "2025-05-29T10:33:17Z",
+      "merged_at": "2025-05-29T10:33:17Z",
+      "merged_by": "acatangiu",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8700",
+      "ready_for_review_at": "2025-05-28T21:38:50Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-28T22:15:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-28T23:00:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-29T07:25:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-29T07:25:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-29T07:40:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-29T07:44:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-05-29T09:23:14Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-05-28T21:41:24Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-05-28T21:42:12Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-05-28T22:13:27Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-05-28T22:57:00Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-05-29T07:38:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.6102777777777778,
+      "time_to_merge_hours": 12.9075
+    },
+    {
+      "number": 8400,
+      "title": "make assert_expected_events fail on missing event",
+      "state": "MERGED",
+      "created_at": "2025-05-01T19:51:02Z",
+      "closed_at": "2025-05-02T11:20:38Z",
+      "merged_at": "2025-05-02T11:20:38Z",
+      "merged_by": "acatangiu",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8400",
+      "ready_for_review_at": "2025-05-01T19:51:02Z",
+      "reviews": [
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-05-02T06:43:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-05-02T10:16:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-05-02T10:39:46Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-05-02T11:21:27Z"
+        }
+      ],
+      "time_to_first_review_hours": 10.866111111111111,
+      "time_to_merge_hours": 15.493333333333334
+    },
+    {
+      "number": 8399,
+      "title": "AssetHub as root on Westend relay",
+      "state": "MERGED",
+      "created_at": "2025-05-01T18:56:28Z",
+      "closed_at": "2025-06-06T10:48:55Z",
+      "merged_at": "2025-06-06T10:48:55Z",
+      "merged_by": "ggwpez",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8399",
+      "ready_for_review_at": "2025-05-01T18:56:28Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-05-02T10:35:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-05-02T10:45:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-05-02T10:50:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-05T07:46:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-05T08:02:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-05T08:13:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-05T08:24:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-05T08:30:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-20T20:13:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-21T12:49:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-21T18:44:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-22T07:49:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-05-26T16:01:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-26T16:08:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-26T16:12:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-26T16:16:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-26T18:34:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-06-06T10:32:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-06-06T10:33:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "seadanda",
+          "commented_at": "2025-05-26T15:57:55Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-05-26T18:37:59Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-06T09:48:20Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-06-06T10:48:31Z"
+        }
+      ],
+      "time_to_first_review_hours": 15.654444444444444,
+      "time_to_merge_hours": 855.8741666666666
+    },
+    {
+      "number": 8369,
+      "title": "Sync xcm related test utils impls with runtimes repo",
+      "state": "MERGED",
+      "created_at": "2025-04-29T10:42:39Z",
+      "closed_at": "2025-05-29T13:19:33Z",
+      "merged_at": "2025-05-29T13:19:33Z",
+      "merged_by": "acatangiu",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8369",
+      "ready_for_review_at": "2025-04-29T10:42:39Z",
+      "reviews": [
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-30T11:12:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-30T11:23:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-05-23T16:17:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-26T10:10:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-05-26T10:32:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-28T12:35:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-05-28T12:38:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-28T12:45:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-28T13:13:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-29T06:15:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-05-29T10:45:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-05-29T11:12:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-05-29T11:19:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-05-29T11:25:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-29T11:27:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-29T11:34:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-05-29T11:55:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-05-29T12:42:52Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-30T10:29:57Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-05-28T12:45:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 24.498333333333335,
+      "time_to_merge_hours": 722.615
+    },
+    {
+      "number": 8210,
+      "title": "[xcm-builder][origin_conversion] LocationAsSuperuser converter introduced",
+      "state": "MERGED",
+      "created_at": "2025-04-10T10:01:14Z",
+      "closed_at": "2025-04-10T13:25:23Z",
+      "merged_at": "2025-04-10T13:25:23Z",
+      "merged_by": "bkontur",
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8210",
+      "ready_for_review_at": "2025-04-10T10:01:14Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-10T10:07:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-10T10:14:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-10T10:25:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-10T10:41:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-10T10:46:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-10T10:56:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-10T11:03:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-10T11:10:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-10T11:12:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-10T11:33:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-10T11:35:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-10T11:47:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-10T11:59:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-10T12:15:47Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-10T10:09:43Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-04-10T11:38:05Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-10T11:41:29Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-04-10T13:26:42Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-04-10T13:26:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.11166666666666666,
+      "time_to_merge_hours": 3.4025
+    },
+    {
+      "number": 7560,
+      "title": "[XCMv5 tests] Introduce TS project structure and test scenarios",
+      "state": "OPEN",
+      "created_at": "2025-02-13T10:09:33Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "karolk91",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7560",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 9962,
+      "pr_title": "[Fungibles] Avoid dusting below-ED amounts when creating/releasing holds",
+      "reviewed_at": "2025-10-09T13:16:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9962"
+    },
+    {
+      "pr_number": 9279,
+      "pr_title": "Replace `log` with `tracing` on Snowbridge-related modules",
+      "reviewed_at": "2025-09-30T10:02:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9279"
+    },
+    {
+      "pr_number": 9781,
+      "pr_title": "Limit the number of signals per XCMP page",
+      "reviewed_at": "2025-09-22T12:10:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9781"
+    },
+    {
+      "pr_number": 9643,
+      "pr_title": "[unstable2507] Post crates release changes",
+      "reviewed_at": "2025-09-05T16:02:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9643"
+    },
+    {
+      "pr_number": 9656,
+      "pr_title": "[unstable2507] Fix failing cargo-check-benches job",
+      "reviewed_at": "2025-09-05T12:46:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9656"
+    },
+    {
+      "pr_number": 9600,
+      "pr_title": "[unstable2507] Backport #9544",
+      "reviewed_at": "2025-09-03T11:25:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9600"
+    },
+    {
+      "pr_number": 9596,
+      "pr_title": "[stable2409] Backport #9544",
+      "reviewed_at": "2025-09-02T09:07:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9596"
+    },
+    {
+      "pr_number": 9597,
+      "pr_title": "[stable2412] Backport #9544",
+      "reviewed_at": "2025-09-02T08:51:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9597"
+    },
+    {
+      "pr_number": 9598,
+      "pr_title": "[stable2503] Backport #9544",
+      "reviewed_at": "2025-09-02T08:40:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9598"
+    },
+    {
+      "pr_number": 9599,
+      "pr_title": "[stable2506] Backport #9544",
+      "reviewed_at": "2025-09-01T06:15:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9599"
+    },
+    {
+      "pr_number": 9544,
+      "pr_title": "Disable reserve_asset_transfer for DOT",
+      "reviewed_at": "2025-08-28T22:13:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9544"
+    },
+    {
+      "pr_number": 8756,
+      "pr_title": "Introduce dry_execute_with for testing/emulated environment purposes",
+      "reviewed_at": "2025-08-27T02:00:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8756"
+    },
+    {
+      "pr_number": 9403,
+      "pr_title": "[stable2412] Backport #9195",
+      "reviewed_at": "2025-08-20T08:33:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9403"
+    },
+    {
+      "pr_number": 9445,
+      "pr_title": "pallet-xcm: fix authorized_alias benchmarks",
+      "reviewed_at": "2025-08-07T20:06:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9445"
+    },
+    {
+      "pr_number": 7321,
+      "pr_title": "Update XCM benchmarks delivery to sibling parachains not parent/relay chain",
+      "reviewed_at": "2025-07-31T16:13:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7321"
+    },
+    {
+      "pr_number": 9372,
+      "pr_title": "[stable2409] Backport #9354",
+      "reviewed_at": "2025-07-31T13:57:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9372"
+    },
+    {
+      "pr_number": 9301,
+      "pr_title": "[stable2409] Backport #9179",
+      "reviewed_at": "2025-07-31T13:56:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9301"
+    },
+    {
+      "pr_number": 9406,
+      "pr_title": "[unstable2507] Backport #9195",
+      "reviewed_at": "2025-07-31T13:45:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9406"
+    },
+    {
+      "pr_number": 9405,
+      "pr_title": "[stable2506] Backport #9195",
+      "reviewed_at": "2025-07-31T13:31:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9405"
+    },
+    {
+      "pr_number": 9404,
+      "pr_title": "[stable2503] Backport #9195",
+      "reviewed_at": "2025-07-31T13:31:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9404"
+    },
+    {
+      "pr_number": 9195,
+      "pr_title": "XCMv5 asset exchange test scenarios",
+      "reviewed_at": "2025-07-31T11:32:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9195"
+    },
+    {
+      "pr_number": 9375,
+      "pr_title": "[stable2506] Backport #9354",
+      "reviewed_at": "2025-07-31T08:52:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9375"
+    },
+    {
+      "pr_number": 9373,
+      "pr_title": "[stable2412] Backport #9354",
+      "reviewed_at": "2025-07-31T08:15:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9373"
+    },
+    {
+      "pr_number": 9374,
+      "pr_title": "[stable2503] Backport #9354",
+      "reviewed_at": "2025-07-30T16:53:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9374"
+    },
+    {
+      "pr_number": 8857,
+      "pr_title": "[FRAME] Custom log level for the runtime benchmarks",
+      "reviewed_at": "2025-07-30T15:04:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8857"
+    },
+    {
+      "pr_number": 9303,
+      "pr_title": "[stable2503] Backport #9179",
+      "reviewed_at": "2025-07-30T12:24:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9303"
+    },
+    {
+      "pr_number": 9376,
+      "pr_title": "[unstable2507] Backport #9354",
+      "reviewed_at": "2025-07-30T09:30:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9376"
+    },
+    {
+      "pr_number": 9304,
+      "pr_title": "[stable2506] Backport #9179",
+      "reviewed_at": "2025-07-30T07:12:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9304"
+    },
+    {
+      "pr_number": 9250,
+      "pr_title": "implement InspectMessageQueues for UnpaidRemoteExporter",
+      "reviewed_at": "2025-07-29T12:41:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9250"
+    },
+    {
+      "pr_number": 9288,
+      "pr_title": "Replace `log` with `tracing` on `bridge-runtime-common`",
+      "reviewed_at": "2025-07-28T12:30:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9288"
+    },
+    {
+      "pr_number": 9305,
+      "pr_title": "[unstable2507] Backport #9179",
+      "reviewed_at": "2025-07-28T09:42:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9305"
+    },
+    {
+      "pr_number": 9302,
+      "pr_title": "[stable2412] Backport #9179",
+      "reviewed_at": "2025-07-24T14:51:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9302"
+    },
+    {
+      "pr_number": 9179,
+      "pr_title": "Fix subsume_assets incorrectly merging two AssetsInHolding",
+      "reviewed_at": "2025-07-24T06:30:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9179"
+    },
+    {
+      "pr_number": 9294,
+      "pr_title": "Replace `log` with `tracing` on `pallet-bridge-grandpa`",
+      "reviewed_at": "2025-07-23T17:21:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9294"
+    },
+    {
+      "pr_number": 9185,
+      "pr_title": "Fixed genesis config presets for bridge tests",
+      "reviewed_at": "2025-07-17T17:08:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9185"
+    },
+    {
+      "pr_number": 9191,
+      "pr_title": "Fixed westend asset hub ID",
+      "reviewed_at": "2025-07-15T11:22:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9191"
+    },
+    {
+      "pr_number": 9171,
+      "pr_title": "Improve `pr_8860.prdoc`",
+      "reviewed_at": "2025-07-11T11:29:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9171"
+    },
+    {
+      "pr_number": 8732,
+      "pr_title": "Replace `log` with `tracing` on XCM-related modules",
+      "reviewed_at": "2025-07-10T13:35:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8732"
+    },
+    {
+      "pr_number": 8900,
+      "pr_title": "Fix bridge tests",
+      "reviewed_at": "2025-07-02T14:30:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8900"
+    },
+    {
+      "pr_number": 7997,
+      "pr_title": "[AHM] The Asset Hub Migration on Westend",
+      "reviewed_at": "2025-06-27T15:59:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7997"
+    },
+    {
+      "pr_number": 8936,
+      "pr_title": "merging donal-ahm with master",
+      "reviewed_at": "2025-06-26T16:12:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8936"
+    },
+    {
+      "pr_number": 8980,
+      "pr_title": "Fix revive-fixtures build script",
+      "reviewed_at": "2025-06-26T10:29:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8980"
+    },
+    {
+      "pr_number": 8914,
+      "pr_title": "[stable2506] Backport #8787",
+      "reviewed_at": "2025-06-25T09:12:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8914"
+    },
+    {
+      "pr_number": 8913,
+      "pr_title": "[stable2503] Backport #8787",
+      "reviewed_at": "2025-06-24T11:23:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8913"
+    },
+    {
+      "pr_number": 8955,
+      "pr_title": "Token matching trait typo",
+      "reviewed_at": "2025-06-24T07:41:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8955"
+    },
+    {
+      "pr_number": 8787,
+      "pr_title": "Westend governance authorize_upgrade integration tests",
+      "reviewed_at": "2025-06-20T09:11:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8787"
+    },
+    {
+      "pr_number": 8722,
+      "pr_title": "Integration tests fixes for AHM",
+      "reviewed_at": "2025-06-11T12:01:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8722"
+    },
+    {
+      "pr_number": 8795,
+      "pr_title": "Update `RemoteExporter` docs to reflect removal of `forward_id_for`",
+      "reviewed_at": "2025-06-09T13:07:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8795"
+    },
+    {
+      "pr_number": 8399,
+      "pr_title": "AssetHub as root on Westend relay",
+      "reviewed_at": "2025-06-06T10:48:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8399"
+    },
+    {
+      "pr_number": 7730,
+      "pr_title": "Nest errors in pallet-xcm",
+      "reviewed_at": "2025-05-31T22:35:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7730"
+    },
+    {
+      "pr_number": 8369,
+      "pr_title": "Sync xcm related test utils impls with runtimes repo",
+      "reviewed_at": "2025-05-29T13:19:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8369"
+    },
+    {
+      "pr_number": 8700,
+      "pr_title": "transfer_assets benchmarking and weights for people chains",
+      "reviewed_at": "2025-05-29T10:33:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8700"
+    },
+    {
+      "pr_number": 8427,
+      "pr_title": "BEEFY: adjust equivocation slash fraction",
+      "reviewed_at": "2025-05-06T19:52:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8427"
+    },
+    {
+      "pr_number": 8406,
+      "pr_title": "[stable2503] Backport #8400",
+      "reviewed_at": "2025-05-06T10:16:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8406"
+    },
+    {
+      "pr_number": 8319,
+      "pr_title": "Fix Snowbridge Tests for stable2412",
+      "reviewed_at": "2025-04-25T08:08:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8319"
+    },
+    {
+      "pr_number": 8277,
+      "pr_title": "Fix defensive public repo link",
+      "reviewed_at": "2025-04-17T19:54:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8277"
+    },
+    {
+      "pr_number": 8210,
+      "pr_title": "[xcm-builder][origin_conversion] LocationAsSuperuser converter introduced",
+      "reviewed_at": "2025-04-17T08:23:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8210"
+    },
+    {
+      "pr_number": 8217,
+      "pr_title": "[stable2412] Backport #8210",
+      "reviewed_at": "2025-04-17T07:56:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8217"
+    },
+    {
+      "pr_number": 8218,
+      "pr_title": "[stable2503] Backport #8210",
+      "reviewed_at": "2025-04-16T13:04:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8218"
+    },
+    {
+      "pr_number": 8255,
+      "pr_title": "[stable2503] Backport #8246",
+      "reviewed_at": "2025-04-16T12:24:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8255"
+    },
+    {
+      "pr_number": 8174,
+      "pr_title": "[stable2412] Backport #6459",
+      "reviewed_at": "2025-04-08T12:05:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8174"
+    },
+    {
+      "pr_number": 8083,
+      "pr_title": "`xcm-emulator` improved callback triggering (`on_initialize`, `on_finalize`, `on_idle`, `OnSystemEvent`).",
+      "reviewed_at": "2025-04-07T11:36:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8083"
+    },
+    {
+      "pr_number": 6336,
+      "pr_title": "pallet-xcm: add support to authorize aliases",
+      "reviewed_at": "2025-04-02T12:24:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6336"
+    },
+    {
+      "pr_number": 8091,
+      "pr_title": "Fix missing BoundedVec::truncate_from",
+      "reviewed_at": "2025-03-31T08:25:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8091"
+    },
+    {
+      "pr_number": 7983,
+      "pr_title": "[XCM] allow signed account to be aliased between system chains",
+      "reviewed_at": "2025-03-28T11:31:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7983"
+    },
+    {
+      "pr_number": 8049,
+      "pr_title": "[stable2503] Backport #7856",
+      "reviewed_at": "2025-03-26T16:49:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8049"
+    },
+    {
+      "pr_number": 8050,
+      "pr_title": "[stable2409] Backport #7856",
+      "reviewed_at": "2025-03-26T16:42:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8050"
+    },
+    {
+      "pr_number": 8051,
+      "pr_title": "[stable2412] Backport #7835",
+      "reviewed_at": "2025-03-26T14:56:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8051"
+    },
+    {
+      "pr_number": 8047,
+      "pr_title": "[stable2412] Backport #7856",
+      "reviewed_at": "2025-03-26T14:50:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8047"
+    },
+    {
+      "pr_number": 7975,
+      "pr_title": "Fix `Collectives` location for AHW-next configuration",
+      "reviewed_at": "2025-03-21T14:32:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7975"
+    },
+    {
+      "pr_number": 7787,
+      "pr_title": "Add westend system chains as a trusted teleporters",
+      "reviewed_at": "2025-03-06T15:11:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7787"
+    },
+    {
+      "pr_number": 7826,
+      "pr_title": "Backport 2503: westend asset hub next trusted teleporter",
+      "reviewed_at": "2025-03-06T14:35:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7826"
+    },
+    {
+      "pr_number": 7656,
+      "pr_title": "Authorize upgrade tests for testnet runtimes + `execute_as_governance` refactor",
+      "reviewed_at": "2025-02-26T12:38:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7656"
+    },
+    {
+      "pr_number": 7620,
+      "pr_title": "Derive `DecodeWithMemTracking` for bridge and xcm pallets",
+      "reviewed_at": "2025-02-19T13:17:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7620"
+    },
+    {
+      "pr_number": 7598,
+      "pr_title": "implement `DecodeWithMemTracking` for frame pallets",
+      "reviewed_at": "2025-02-18T15:34:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7598"
+    },
+    {
+      "pr_number": 7307,
+      "pr_title": "Bridges small nits/improvements",
+      "reviewed_at": "2025-01-27T12:39:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7307"
+    },
+    {
+      "pr_number": 7322,
+      "pr_title": "Bridges: emulated tests small nits/improvements",
+      "reviewed_at": "2025-01-24T15:59:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7322"
+    },
+    {
+      "pr_number": 7292,
+      "pr_title": "Fix bridge tests image",
+      "reviewed_at": "2025-01-22T12:34:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7292"
+    }
+  ]
+}

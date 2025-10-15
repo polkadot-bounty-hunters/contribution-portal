@@ -1,0 +1,494 @@
+{
+  "commits": [
+    {
+      "sha": "d3f81056ad1054731e711f2761673ef72686697f",
+      "message": "[Deprecation] Remove the deprecated Store trait (#3532)",
+      "date": "2024-03-11T20:39:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d3f81056ad1054731e711f2761673ef72686697f"
+    },
+    {
+      "sha": "601b77d9986d551ecfb2c09de9e75384f055cda4",
+      "message": "[Documentation] Delete unused outdated `polkadot/testing.md` (#3559)",
+      "date": "2024-03-05T10:46:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/601b77d9986d551ecfb2c09de9e75384f055cda4"
+    },
+    {
+      "sha": "a22319cdd5fcdcec3bbedfe41f6d11a6b5446cf9",
+      "message": "[Deprecation] Remove sp_weights::OldWeight (#3491)",
+      "date": "2024-02-29T05:17:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a22319cdd5fcdcec3bbedfe41f6d11a6b5446cf9"
+    },
+    {
+      "sha": "81d447a8feca14222fef57ffa721302a8b808562",
+      "message": "Cleanup String::from_utf8 (#3446)",
+      "date": "2024-02-26T20:40:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/81d447a8feca14222fef57ffa721302a8b808562"
+    }
+  ],
+  "prs": [
+    {
+      "number": 3559,
+      "title": "[Documentation] Delete unused outdated `polkadot/testing.md`",
+      "state": "MERGED",
+      "created_at": "2024-03-04T11:07:21Z",
+      "closed_at": "2024-03-05T11:24:23Z",
+      "merged_at": "2024-03-05T11:24:23Z",
+      "merged_by": "bkchr",
+      "author": "philoniare",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3559",
+      "ready_for_review_at": "2024-03-04T11:07:21Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-04T11:10:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-03-05T09:09:59Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-03-04T11:38:49Z"
+        },
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-03-04T11:40:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.051944444444444446,
+      "time_to_merge_hours": 24.28388888888889
+    },
+    {
+      "number": 3532,
+      "title": "[Deprecation] Remove the deprecated Store trait",
+      "state": "MERGED",
+      "created_at": "2024-02-29T18:23:08Z",
+      "closed_at": "2024-03-11T21:16:26Z",
+      "merged_at": "2024-03-11T21:16:26Z",
+      "merged_by": "bkchr",
+      "author": "philoniare",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3532",
+      "ready_for_review_at": "2024-02-29T18:23:08Z",
+      "reviews": [
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-03-01T11:35:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-01T12:21:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-03-01T12:29:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-04T10:23:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-03-04T10:36:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-03-04T10:38:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-03-04T11:07:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-03-04T11:08:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-03-05T21:49:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-03-11T20:39:15Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-03-07T14:43:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.20722222222222,
+      "time_to_merge_hours": 266.8883333333333
+    },
+    {
+      "number": 3491,
+      "title": "[Deprecation] Remove sp_weights::OldWeight",
+      "state": "MERGED",
+      "created_at": "2024-02-27T12:46:02Z",
+      "closed_at": "2024-02-29T05:43:31Z",
+      "merged_at": "2024-02-29T05:43:31Z",
+      "merged_by": "liamaharon",
+      "author": "philoniare",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3491",
+      "ready_for_review_at": "2024-02-27T12:46:02Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-27T13:22:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-27T13:23:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-27T14:24:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-28T02:01:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-02-28T03:14:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-02-29T01:52:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-29T02:15:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-29T12:19:49Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.6083333333333333,
+      "time_to_merge_hours": 40.95805555555555
+    },
+    {
+      "number": 3484,
+      "title": "[Deprecation] Deprecate sp_weights::OldWeight",
+      "state": "CLOSED",
+      "created_at": "2024-02-26T15:02:58Z",
+      "closed_at": "2024-02-27T12:41:12Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "philoniare",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3484",
+      "ready_for_review_at": "2024-02-26T15:02:58Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-26T16:01:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-26T16:02:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-26T16:03:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-27T07:25:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-02-27T07:33:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-27T07:38:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-27T12:32:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-27T12:33:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-27T12:38:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-27T12:41:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-02-27T12:41:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-27T12:49:46Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-02-26T15:28:55Z"
+        },
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-02-27T08:23:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-02-27T08:23:29Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.9811111111111112,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3446,
+      "title": "Cleanup String::from_utf8",
+      "state": "MERGED",
+      "created_at": "2024-02-22T15:55:56Z",
+      "closed_at": "2024-02-26T21:02:25Z",
+      "merged_at": "2024-02-26T21:02:25Z",
+      "merged_by": "ggwpez",
+      "author": "philoniare",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3446",
+      "ready_for_review_at": "2024-02-22T15:55:56Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-02-25T22:01:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2024-02-26T06:59:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-26T10:14:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-26T11:50:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-26T11:54:32Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-02-26T10:15:34Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-02-26T14:18:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-02-26T14:18:18Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-02-26T14:20:33Z"
+        }
+      ],
+      "time_to_first_review_hours": 78.09916666666666,
+      "time_to_merge_hours": 101.10805555555555
+    },
+    {
+      "number": 3428,
+      "title": "[Documentation] Update testing.md",
+      "state": "CLOSED",
+      "created_at": "2024-02-21T14:27:57Z",
+      "closed_at": "2024-03-04T11:00:53Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "philoniare",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3428",
+      "ready_for_review_at": "2024-02-21T14:27:57Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3285,
+      "title": "[FRAME] Consistently use u64 as BlockNumber on FRAME tests",
+      "state": "CLOSED",
+      "created_at": "2024-02-11T11:46:53Z",
+      "closed_at": "2024-02-15T04:53:04Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "philoniare",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3285",
+      "ready_for_review_at": "2024-02-11T11:46:53Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-11T16:42:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-11T18:15:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-11T21:14:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "philoniare",
+          "submitted_at": "2024-02-12T01:37:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-12T02:09:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-12T12:52:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gupnik",
+          "submitted_at": "2024-02-14T04:41:21Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-02-11T11:47:00Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2024-02-12T12:33:51Z"
+        },
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-02-12T12:34:48Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2024-02-12T12:39:41Z"
+        },
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-02-12T12:41:59Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-02-13T11:44:52Z"
+        },
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-02-13T15:02:36Z"
+        },
+        {
+          "commenter": "gupnik",
+          "commented_at": "2024-02-14T04:49:15Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-02-14T04:49:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-02-14T04:52:22Z"
+        },
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-02-14T07:51:47Z"
+        },
+        {
+          "commenter": "philoniare",
+          "commented_at": "2024-02-15T04:53:04Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.919722222222222,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3532,
+      "pr_title": "[Deprecation] Remove the deprecated Store trait",
+      "reviewed_at": "2024-03-11T21:16:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3532"
+    },
+    {
+      "pr_number": 3491,
+      "pr_title": "[Deprecation] Remove sp_weights::OldWeight",
+      "reviewed_at": "2024-02-29T12:19:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3491"
+    },
+    {
+      "pr_number": 3484,
+      "pr_title": "[Deprecation] Deprecate sp_weights::OldWeight",
+      "reviewed_at": "2024-02-27T12:49:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3484"
+    },
+    {
+      "pr_number": 3446,
+      "pr_title": "Cleanup String::from_utf8",
+      "reviewed_at": "2024-02-26T21:02:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3446"
+    },
+    {
+      "pr_number": 3285,
+      "pr_title": "[FRAME] Consistently use u64 as BlockNumber on FRAME tests",
+      "reviewed_at": "2024-02-15T04:53:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3285"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "commits": [
+    {
+      "sha": "d4ad997deb6f6bb5ca6e86e3f7077e836248675e",
+      "message": "fixing return types in crypto module documentation (#14554)",
+      "date": "2023-07-14T19:39:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d4ad997deb6f6bb5ca6e86e3f7077e836248675e"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

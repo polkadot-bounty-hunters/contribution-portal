@@ -1,0 +1,182 @@
+{
+  "commits": [
+    {
+      "sha": "df12fd34e36848a535892b1e88281faa59bf34b6",
+      "message": "Clarify firing of `import_notification_stream` in doc comment (#5811)",
+      "date": "2024-09-28T16:43:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/df12fd34e36848a535892b1e88281faa59bf34b6"
+    },
+    {
+      "sha": "4e73c0fcd37e4e8c14aeb83b5c9e680981e16079",
+      "message": "Upgrade `trie-db` from `0.28.0` to `0.29.0` (#3982)",
+      "date": "2024-04-09T10:47:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4e73c0fcd37e4e8c14aeb83b5c9e680981e16079"
+    }
+  ],
+  "prs": [
+    {
+      "number": 6766,
+      "title": "feat: 🔀 Merge upstream into wasmtime-precompile PR",
+      "state": "CLOSED",
+      "created_at": "2024-12-04T22:25:46Z",
+      "closed_at": "2024-12-04T22:26:06Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ffarall",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6766",
+      "ready_for_review_at": "2024-12-04T22:25:46Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 5811,
+      "title": "Clarify firing of `import_notification_stream` in doc comment",
+      "state": "MERGED",
+      "created_at": "2024-09-24T00:37:48Z",
+      "closed_at": "2024-09-28T16:43:38Z",
+      "merged_at": "2024-09-28T16:43:38Z",
+      "merged_by": "bkchr",
+      "author": "ffarall",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5811",
+      "ready_for_review_at": "2024-09-24T00:37:48Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-09-24T06:37:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-09-24T07:19:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-24T08:41:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-24T08:43:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-09-24T20:48:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-09-24T20:50:35Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-09-24T06:39:23Z"
+        },
+        {
+          "commenter": "ffarall",
+          "commented_at": "2024-09-24T15:23:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.99,
+      "time_to_merge_hours": 112.09722222222223
+    },
+    {
+      "number": 3982,
+      "title": "Upgrade `trie-db` from `0.28.0` to `0.29.0`",
+      "state": "MERGED",
+      "created_at": "2024-04-04T16:32:19Z",
+      "closed_at": "2024-04-09T11:22:18Z",
+      "merged_at": "2024-04-09T11:22:18Z",
+      "merged_by": "bkchr",
+      "author": "ffarall",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3982",
+      "ready_for_review_at": "2024-04-04T16:32:19Z",
+      "reviews": [
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-04-04T18:34:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-04-04T19:24:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-04-04T19:35:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2024-04-05T07:31:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2024-04-05T07:39:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2024-04-05T07:41:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ffarall",
+          "submitted_at": "2024-04-05T15:52:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ffarall",
+          "submitted_at": "2024-04-05T15:53:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-04-09T10:47:01Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-04-04T16:32:26Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-04-04T19:44:23Z"
+        },
+        {
+          "commenter": "ffarall",
+          "commented_at": "2024-04-04T19:51:18Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-04-05T07:35:54Z"
+        },
+        {
+          "commenter": "ffarall",
+          "commented_at": "2024-04-09T01:11:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.036388888888889,
+      "time_to_merge_hours": 114.83305555555556
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3982,
+      "pr_title": "Upgrade `trie-db` from `0.28.0` to `0.29.0`",
+      "reviewed_at": "2024-04-09T11:22:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3982"
+    }
+  ]
+}

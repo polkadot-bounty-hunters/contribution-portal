@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 9506,
+      "pr_title": "bump `zombienet-sdk` version",
+      "reviewed_at": "2025-08-28T09:25:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9506"
+    }
+  ]
+}

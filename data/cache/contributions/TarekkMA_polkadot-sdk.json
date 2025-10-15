@@ -1,0 +1,266 @@
+{
+  "commits": [
+    {
+      "sha": "6d5f8141ad42d7a528a09715c492974550709b92",
+      "message": "rpc server: fix subscription id_provider being reset to default one. (#6588)",
+      "date": "2024-11-25T17:33:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6d5f8141ad42d7a528a09715c492974550709b92"
+    },
+    {
+      "sha": "1c4141abeb4c581e503f07af2a3522e6918db591",
+      "message": "Fix benchmark failures when using `insecure_zero_ed` flag (#5354)",
+      "date": "2024-08-28T19:26:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1c4141abeb4c581e503f07af2a3522e6918db591"
+    }
+  ],
+  "prs": [
+    {
+      "number": 9822,
+      "title": "use `Config::XcmExecutor` inside `dry_run_xcm`",
+      "state": "OPEN",
+      "created_at": "2025-09-23T20:31:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "TarekkMA",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9822",
+      "ready_for_review_at": "2025-09-23T20:31:24Z",
+      "reviews": [
+        {
+          "reviewer": "RomarQ",
+          "submitted_at": "2025-09-23T20:53:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "RomarQ",
+          "submitted_at": "2025-09-23T21:05:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "RomarQ",
+          "submitted_at": "2025-09-23T21:06:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-23T21:40:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-23T22:08:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "TarekkMA",
+          "submitted_at": "2025-09-24T07:59:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-24T09:30:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-24T10:16:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "TarekkMA",
+          "submitted_at": "2025-09-24T11:10:53Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.3713888888888889,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6588,
+      "title": "rpc server: fix subscription id_provider being reset to default one.",
+      "state": "MERGED",
+      "created_at": "2024-11-21T14:38:05Z",
+      "closed_at": "2024-11-25T18:24:00Z",
+      "merged_at": "2024-11-25T18:24:00Z",
+      "merged_by": "niklasad1",
+      "author": "TarekkMA",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6588",
+      "ready_for_review_at": "2024-11-21T14:38:05Z",
+      "reviews": [
+        {
+          "reviewer": "niklasad1",
+          "submitted_at": "2024-11-25T13:08:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "niklasad1",
+          "submitted_at": "2024-11-25T13:09:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "niklasad1",
+          "submitted_at": "2024-11-25T13:12:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "niklasad1",
+          "submitted_at": "2024-11-25T13:15:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "RomarQ",
+          "submitted_at": "2024-11-25T13:57:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-11-25T16:16:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "niklasad1",
+          "submitted_at": "2024-11-25T16:27:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-11-25T16:48:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "niklasad1",
+          "submitted_at": "2024-11-25T17:05:10Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "niklasad1",
+          "commented_at": "2024-11-25T13:52:04Z"
+        }
+      ],
+      "time_to_first_review_hours": 94.51388888888889,
+      "time_to_merge_hours": 99.76527777777778
+    },
+    {
+      "number": 6026,
+      "title": "Diff 2407 -> 2409",
+      "state": "CLOSED",
+      "created_at": "2024-10-11T11:55:31Z",
+      "closed_at": "2024-10-11T11:56:44Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "TarekkMA",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6026",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 5354,
+      "title": "Fix benchmark failures when using `insecure_zero_ed` flag",
+      "state": "MERGED",
+      "created_at": "2024-08-14T06:49:05Z",
+      "closed_at": "2024-08-28T20:58:45Z",
+      "merged_at": "2024-08-28T20:58:45Z",
+      "merged_by": "bkchr",
+      "author": "TarekkMA",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5354",
+      "ready_for_review_at": "2024-08-14T06:49:05Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-08-14T20:05:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-08-14T22:15:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-08-15T08:56:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "librelois",
+          "submitted_at": "2024-08-15T09:44:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-08-20T16:08:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-08-28T19:25:44Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-08-14T20:06:09Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-08-15T07:50:55Z"
+        }
+      ],
+      "time_to_first_review_hours": 13.2725,
+      "time_to_merge_hours": 350.1611111111111
+    },
+    {
+      "number": 5216,
+      "title": "Parameters benchmarkings",
+      "state": "CLOSED",
+      "created_at": "2024-08-02T08:46:31Z",
+      "closed_at": "2024-08-02T08:46:35Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "TarekkMA",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5216",
+      "ready_for_review_at": "2024-08-02T08:46:31Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 5215,
+      "title": "Parameters benchmarkings",
+      "state": "CLOSED",
+      "created_at": "2024-08-02T08:45:32Z",
+      "closed_at": "2024-08-02T08:45:42Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "TarekkMA",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5215",
+      "ready_for_review_at": "2024-08-02T08:45:32Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 9822,
+      "pr_title": "use `Config::XcmExecutor` inside `dry_run_xcm`",
+      "reviewed_at": "2025-09-24T13:32:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9822"
+    },
+    {
+      "pr_number": 4792,
+      "pr_title": "rpc server: listen to `ipv6 socket` if available and `--experimental-rpc-endpoint` CLI option",
+      "reviewed_at": "2024-12-12T15:50:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4792"
+    }
+  ]
+}

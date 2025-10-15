@@ -1,0 +1,324 @@
+{
+  "commits": [
+    {
+      "sha": "e64b53c2fff2daceafc453caeeee79756372a9e2",
+      "message": "feat(collator) add export pov on slot base collator (#7585)",
+      "date": "2025-02-27T08:12:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e64b53c2fff2daceafc453caeeee79756372a9e2"
+    },
+    {
+      "sha": "6a20c882bf3552c4c2c4ed1993ae52f8dc33a0c3",
+      "message": "feat(integration test) test omni node dev mod work with dev_json file (#7511)",
+      "date": "2025-02-18T10:00:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6a20c882bf3552c4c2c4ed1993ae52f8dc33a0c3"
+    },
+    {
+      "sha": "634a17b6f67c71e589f921b0ddd4c23bbed883f1",
+      "message": "Unify Import verifier usage across parachain template and omninode (#7195)",
+      "date": "2025-01-22T15:06:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/634a17b6f67c71e589f921b0ddd4c23bbed883f1"
+    },
+    {
+      "sha": "ca779b36da50205f3b2af9f3f619ed031cb2bdfe",
+      "message": "replaced println with log Closes #12338 (#12348)",
+      "date": "2022-10-28T12:16:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ca779b36da50205f3b2af9f3f619ed031cb2bdfe"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7854,
+      "title": "parachain freeze functionality",
+      "state": "OPEN",
+      "created_at": "2025-03-10T01:43:47Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7854",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-03-10T08:43:33Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-03-10T08:47:27Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-03-15T02:07:32Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-08-21T11:29:10Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-08-21T21:53:33Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-09-02T19:35:24Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 7585,
+      "title": "feat(collator) add export pov on slot base collator",
+      "state": "MERGED",
+      "created_at": "2025-02-16T17:10:35Z",
+      "closed_at": "2025-02-27T08:44:11Z",
+      "merged_at": "2025-02-27T08:44:11Z",
+      "merged_by": "skunert",
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7585",
+      "ready_for_review_at": "2025-02-16T17:10:35Z",
+      "reviews": [
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2025-02-18T09:35:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-18T13:22:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2025-02-19T17:26:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-21T17:23:46Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-22T16:22:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2025-02-24T23:16:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-25T21:48:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2025-02-26T10:53:07Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-02-19T14:48:20Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-02-20T23:54:29Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-02-21T17:24:25Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-02-24T23:09:12Z"
+        },
+        {
+          "commenter": "skunert",
+          "commented_at": "2025-02-24T23:18:21Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-02-25T15:58:09Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-02-25T21:49:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 40.41388888888889,
+      "time_to_merge_hours": 255.56
+    },
+    {
+      "number": 7511,
+      "title": "feat(integration test) test omni node dev mod work with dev_json file",
+      "state": "MERGED",
+      "created_at": "2025-02-07T12:40:18Z",
+      "closed_at": "2025-02-18T10:36:33Z",
+      "merged_at": "2025-02-18T10:36:33Z",
+      "merged_by": "skunert",
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7511",
+      "ready_for_review_at": "2025-02-07T12:40:18Z",
+      "reviews": [
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2025-02-14T08:58:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2025-02-14T09:24:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2025-02-14T09:25:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "MrishoLukamba",
+          "submitted_at": "2025-02-14T10:54:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2025-02-14T10:56:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2025-02-14T11:05:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2025-02-14T11:13:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2025-02-14T11:14:22Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-02-14T10:55:05Z"
+        },
+        {
+          "commenter": "skunert",
+          "commented_at": "2025-02-15T08:38:47Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-02-15T12:23:47Z"
+        },
+        {
+          "commenter": "iulianbarbu",
+          "commented_at": "2025-02-17T12:46:01Z"
+        },
+        {
+          "commenter": "skunert",
+          "commented_at": "2025-02-18T09:22:42Z"
+        }
+      ],
+      "time_to_first_review_hours": 164.30277777777778,
+      "time_to_merge_hours": 261.9375
+    },
+    {
+      "number": 7195,
+      "title": "Unify Import verifier usage across parachain template and omninode",
+      "state": "MERGED",
+      "created_at": "2025-01-16T00:51:53Z",
+      "closed_at": "2025-01-22T15:41:01Z",
+      "merged_at": "2025-01-22T15:41:01Z",
+      "merged_by": "bkchr",
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7195",
+      "ready_for_review_at": "2025-01-16T00:51:53Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-01-20T22:56:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-01-20T22:57:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2025-01-21T15:16:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-01-22T14:22:16Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "skunert",
+          "commented_at": "2025-01-16T18:48:44Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-01-16T19:37:39Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-01-19T15:09:31Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-01-20T22:57:50Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-01-20T22:59:46Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-01-20T23:00:10Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2025-01-21T11:53:37Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2025-01-22T14:30:59Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-01-22T14:33:05Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-01-22T14:33:30Z"
+        }
+      ],
+      "time_to_first_review_hours": 118.0825,
+      "time_to_merge_hours": 158.8188888888889
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 7511,
+      "pr_title": "feat(integration test) test omni node dev mod work with dev_json file",
+      "reviewed_at": "2025-02-18T10:36:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7511"
+    }
+  ]
+}

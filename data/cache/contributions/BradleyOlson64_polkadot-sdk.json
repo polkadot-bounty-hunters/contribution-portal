@@ -1,0 +1,918 @@
+{
+  "commits": [
+    {
+      "sha": "0a6dfdf973b8e7b669eda6e2ed202fb3549a20b9",
+      "message": "Updating glutton for async backing (#1619)",
+      "date": "2023-10-04T19:27:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0a6dfdf973b8e7b669eda6e2ed202fb3549a20b9"
+    },
+    {
+      "sha": "6b3aa7d23e75ef110790d013f58caf2b01a18b77",
+      "message": "Handle `CollationSeconded` Logs Conditionally (#1475)",
+      "date": "2023-09-08T22:28:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6b3aa7d23e75ef110790d013f58caf2b01a18b77"
+    },
+    {
+      "sha": "cc5e0ae9ab0aaf65b807261851fca0d90679d977",
+      "message": "Better scoped fallback in read_messaging_state_snapshot()  (#2852)",
+      "date": "2023-07-11T11:30:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cc5e0ae9ab0aaf65b807261851fca0d90679d977"
+    },
+    {
+      "sha": "f7bd3a95a01245e73a504b515a2c2160a0a06f99",
+      "message": "Drop timers for new requests of active participations (#6974)",
+      "date": "2023-03-30T20:33:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f7bd3a95a01245e73a504b515a2c2160a0a06f99"
+    },
+    {
+      "sha": "b26cf3b7d0bf7920f49afec17ff8e1e702f51113",
+      "message": "Handling timers for repeat dispute participation requests (#6901)",
+      "date": "2023-03-21T00:55:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b26cf3b7d0bf7920f49afec17ff8e1e702f51113"
+    },
+    {
+      "sha": "8d92debd446f9ba42781af50e6187845a41154f2",
+      "message": "Testing Reversion Speed on Dispute Concluded Against (#6880)",
+      "date": "2023-03-16T18:56:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8d92debd446f9ba42781af50e6187845a41154f2"
+    },
+    {
+      "sha": "200e9dfa29d03ba4c881b0e9fb620b7ff4910ef8",
+      "message": "Issue 4393: Correcting Unnecessary Use of Arc (#6882)",
+      "date": "2023-03-16T09:00:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/200e9dfa29d03ba4c881b0e9fb620b7ff4910ef8"
+    },
+    {
+      "sha": "c99362e56c9c8bce708a4790062093c9c61ab167",
+      "message": "Adding Dispute Participation Metrics (#6838)",
+      "date": "2023-03-11T00:38:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c99362e56c9c8bce708a4790062093c9c61ab167"
+    },
+    {
+      "sha": "7e7f72ed74f73f4e70df65fa95d1a8c77aaf0d22",
+      "message": "Change handle_import_statements to FatalResult (#6820)",
+      "date": "2023-03-04T18:35:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7e7f72ed74f73f4e70df65fa95d1a8c77aaf0d22"
+    },
+    {
+      "sha": "f2bc0f57b6ef15b856faa5d701989067f1b65bc6",
+      "message": "Removing Outdated References to Misbehavior Arbitration Subsystem (#6814)",
+      "date": "2023-03-03T11:17:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f2bc0f57b6ef15b856faa5d701989067f1b65bc6"
+    },
+    {
+      "sha": "92ee0b7d9f66e04d4f34b9aa3783c8f1edc2db45",
+      "message": "Explicitly Handling ProvisionableData Cases (#6757)",
+      "date": "2023-02-24T20:54:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/92ee0b7d9f66e04d4f34b9aa3783c8f1edc2db45"
+    },
+    {
+      "sha": "90aa798b76954ba2d0f4e394881599cc30dc71f9",
+      "message": "Issue 4804: Notify chain selection of concluded disputes directly (#6512)",
+      "date": "2023-01-19T02:06:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/90aa798b76954ba2d0f4e394881599cc30dc71f9"
+    },
+    {
+      "sha": "166b92191231fdbe40b95546a13327a918025b90",
+      "message": "Guide changes 3 (#6520)",
+      "date": "2023-01-09T15:27:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/166b92191231fdbe40b95546a13327a918025b90"
+    },
+    {
+      "sha": "6ba23078c9d8321668f7008d7ec6a5e234c62f28",
+      "message": "Issue 6274: keeping all backing votes in provisioner vote set (#6494)",
+      "date": "2023-01-04T21:35:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6ba23078c9d8321668f7008d7ec6a5e234c62f28"
+    },
+    {
+      "sha": "539a9a915801c9750d3a454d37f058420c71efc7",
+      "message": "Update dispute participation on active leaves update (#6303)",
+      "date": "2022-12-30T11:55:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/539a9a915801c9750d3a454d37f058420c71efc7"
+    },
+    {
+      "sha": "b95a5c9c403d1e92b7fb5964edaf8df2b1f964c0",
+      "message": "Added comment describing satisfied invariant (#6460)",
+      "date": "2022-12-26T19:50:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b95a5c9c403d1e92b7fb5964edaf8df2b1f964c0"
+    },
+    {
+      "sha": "ff935b806c40e947f185510e996f8654bec79117",
+      "message": "Refactoring to condense disputes tests (#6395)",
+      "date": "2022-12-07T17:55:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ff935b806c40e947f185510e996f8654bec79117"
+    },
+    {
+      "sha": "0cea4eedce869de38235e1ca78e76fce2f14259a",
+      "message": "Brad implementers guide revisions 2 (#6239)",
+      "date": "2022-11-11T19:24:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0cea4eedce869de38235e1ca78e76fce2f14259a"
+    },
+    {
+      "sha": "1d7d87856c8c3d2a2008724404c516f3b51d4659",
+      "message": "First round of implementers guide fixes (#6146)",
+      "date": "2022-10-13T15:43:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1d7d87856c8c3d2a2008724404c516f3b51d4659"
+    }
+  ],
+  "prs": [
+    {
+      "number": 2559,
+      "title": "Adding `bulk_core_count` to `HostConfiguration`",
+      "state": "CLOSED",
+      "created_at": "2023-11-30T05:59:54Z",
+      "closed_at": "2023-12-12T11:57:16Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2559",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-30T09:38:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-11-30T20:43:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-12-01T10:30:47Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-12-01T20:49:07Z"
+        },
+        {
+          "commenter": "eskimor",
+          "commented_at": "2023-12-12T11:57:16Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2433,
+      "title": "Add `assign_core` benchmark to bulk assigner",
+      "state": "MERGED",
+      "created_at": "2023-11-21T18:22:25Z",
+      "closed_at": "2023-12-05T11:31:58Z",
+      "merged_at": "2023-12-05T11:31:58Z",
+      "merged_by": "eskimor",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2433",
+      "ready_for_review_at": "2023-11-21T18:22:25Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-22T12:07:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-11-24T19:15:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-24T21:12:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-11-24T21:40:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-30T09:34:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-11-30T21:48:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-12-01T10:22:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-12-01T19:57:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-12-01T20:27:41Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "eskimor",
+          "commented_at": "2023-11-24T10:18:59Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-11-28T18:48:34Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-28T18:48:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-28T19:23:02Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-11-30T02:58:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-30T02:58:50Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-30T03:33:32Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-11-30T21:54:49Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-30T21:54:55Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-30T22:29:12Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-11-30T23:21:11Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-30T23:21:17Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-11-30T23:55:39Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-12-01T00:13:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-01T00:13:30Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-12-01T00:47:39Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-12-01T20:22:19Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.75722222222222,
+      "time_to_merge_hours": 329.1591666666667
+    },
+    {
+      "number": 2332,
+      "title": "Added new checks to add_assignment",
+      "state": "MERGED",
+      "created_at": "2023-11-15T06:59:28Z",
+      "closed_at": "2023-11-16T09:34:26Z",
+      "merged_at": "2023-11-16T09:34:26Z",
+      "merged_by": "eskimor",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2332",
+      "ready_for_review_at": "2023-11-15T06:59:28Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-15T09:51:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-15T19:29:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-11-15T20:43:31Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-15T20:48:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.8625,
+      "time_to_merge_hours": 26.58277777777778
+    },
+    {
+      "number": 2277,
+      "title": "Bulk assigner tests update",
+      "state": "MERGED",
+      "created_at": "2023-11-11T00:24:51Z",
+      "closed_at": "2023-11-14T09:09:21Z",
+      "merged_at": "2023-11-14T09:09:21Z",
+      "merged_by": "eskimor",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2277",
+      "ready_for_review_at": "2023-11-11T00:24:51Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-14T09:09:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-11T00:30:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 80.73916666666666,
+      "time_to_merge_hours": 80.74166666666666
+    },
+    {
+      "number": 2262,
+      "title": "Bulk Assigner Test Implementations",
+      "state": "MERGED",
+      "created_at": "2023-11-10T01:28:55Z",
+      "closed_at": "2023-11-10T10:02:48Z",
+      "merged_at": "2023-11-10T10:02:48Z",
+      "merged_by": "eskimor",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2262",
+      "ready_for_review_at": "2023-11-10T01:28:55Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-10T10:02:38Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 8.561944444444444,
+      "time_to_merge_hours": 8.564722222222223
+    },
+    {
+      "number": 2213,
+      "title": "Implement Assign Core and Bulk Assigner Tests",
+      "state": "MERGED",
+      "created_at": "2023-11-07T21:31:42Z",
+      "closed_at": "2023-11-08T10:38:09Z",
+      "merged_at": "2023-11-08T10:38:09Z",
+      "merged_by": "eskimor",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2213",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-08T08:32:34Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-07T21:37:48Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2071,
+      "title": "Bulk Assigner Compile Fixes",
+      "state": "MERGED",
+      "created_at": "2023-10-27T19:34:47Z",
+      "closed_at": "2023-11-06T09:42:22Z",
+      "merged_at": "2023-11-06T09:42:22Z",
+      "merged_by": "eskimor",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2071",
+      "ready_for_review_at": "2023-10-27T19:34:47Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-30T06:59:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-06T09:41:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-11-06T19:29:40Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-10-30T19:00:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 59.4175,
+      "time_to_merge_hours": 230.1263888888889
+    },
+    {
+      "number": 1793,
+      "title": "Resolving Compile Errors in Core Time Prep Tests",
+      "state": "MERGED",
+      "created_at": "2023-10-04T21:33:23Z",
+      "closed_at": "2023-10-26T20:16:16Z",
+      "merged_at": "2023-10-26T20:16:16Z",
+      "merged_by": "BradleyOlson64",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1793",
+      "ready_for_review_at": "2023-10-04T21:33:23Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-04T22:33:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-05T11:06:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-07T15:25:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-07T19:26:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-07T19:30:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-07T19:36:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-07T19:43:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-07T19:53:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-08T09:00:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-08T14:25:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-08T18:01:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-09T06:22:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-09T17:14:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-10T10:16:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-10T10:18:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-10T10:25:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-10T10:31:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-10T13:09:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-10T13:20:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-10T14:09:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-10-10T14:22:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-11T10:42:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-11T10:47:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-25T09:39:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-10-25T09:40:27Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-10-18T19:46:50Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-10-25T20:43:31Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-10-25T20:43:31Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.9961111111111111,
+      "time_to_merge_hours": 526.7147222222222
+    },
+    {
+      "number": 1746,
+      "title": "Remove LeafStatus and associated storage",
+      "state": "CLOSED",
+      "created_at": "2023-09-28T19:29:03Z",
+      "closed_at": "2023-10-11T14:21:22Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1746",
+      "ready_for_review_at": "2023-09-28T19:29:03Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-09-29T08:00:27Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-09-29T19:49:10Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2023-10-10T12:10:31Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-10-10T12:18:10Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2023-10-10T14:01:47Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2023-10-10T14:03:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 12.523333333333333,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1619,
+      "title": "Updating glutton for async backing",
+      "state": "MERGED",
+      "created_at": "2023-09-18T21:56:52Z",
+      "closed_at": "2023-10-04T19:27:59Z",
+      "merged_at": "2023-10-04T19:27:59Z",
+      "merged_by": "BradleyOlson64",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1619",
+      "ready_for_review_at": "2023-09-18T21:56:52Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-09-18T22:52:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-09-22T15:58:36Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.9263888888888889,
+      "time_to_merge_hours": 381.5186111111111
+    },
+    {
+      "number": 1528,
+      "title": "Adding can request tests",
+      "state": "MERGED",
+      "created_at": "2023-09-13T00:47:32Z",
+      "closed_at": "2023-09-13T18:34:40Z",
+      "merged_at": "2023-09-13T18:34:40Z",
+      "merged_by": "BradleyOlson64",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1528",
+      "ready_for_review_at": "2023-09-13T00:47:32Z",
+      "reviews": [
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-09-13T01:04:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "slumber",
+          "submitted_at": "2023-09-13T09:49:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-09-13T09:56:26Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-09-13T01:33:20Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-09-13T18:32:41Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-09-13T18:34:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-13T18:34:08Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2847222222222222,
+      "time_to_merge_hours": 17.785555555555554
+    },
+    {
+      "number": 1527,
+      "title": "Brad add can request test",
+      "state": "CLOSED",
+      "created_at": "2023-09-13T00:20:21Z",
+      "closed_at": "2023-09-13T00:21:45Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1527",
+      "ready_for_review_at": "2023-09-13T00:20:21Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-09-13T00:21:45Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1475,
+      "title": "Handle `CollationSeconded` Logs Conditionally",
+      "state": "MERGED",
+      "created_at": "2023-09-08T17:20:00Z",
+      "closed_at": "2023-09-08T22:28:07Z",
+      "merged_at": "2023-09-08T22:28:07Z",
+      "merged_by": "rphmeier",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1475",
+      "ready_for_review_at": "2023-09-08T17:20:00Z",
+      "reviews": [
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-09-08T19:37:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2023-09-08T19:53:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-09-08T21:18:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "slumber",
+          "submitted_at": "2023-09-08T21:19:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "slumber",
+          "commented_at": "2023-09-08T17:27:14Z"
+        },
+        {
+          "commenter": "rphmeier",
+          "commented_at": "2023-09-08T18:20:35Z"
+        },
+        {
+          "commenter": "rphmeier",
+          "commented_at": "2023-09-08T18:42:24Z"
+        },
+        {
+          "commenter": "rphmeier",
+          "commented_at": "2023-09-08T22:27:36Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-09-08T22:27:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.2913888888888887,
+      "time_to_merge_hours": 5.135277777777778
+    },
+    {
+      "number": 1455,
+      "title": "Update Glutton Collator for Async Backing",
+      "state": "CLOSED",
+      "created_at": "2023-09-07T20:12:18Z",
+      "closed_at": "2023-09-08T19:28:57Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1455",
+      "ready_for_review_at": "2023-09-07T20:12:18Z",
+      "reviews": [
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2023-09-08T13:57:15Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-09-08T19:27:37Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-09-07T22:31:56Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-09-08T19:28:49Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.749166666666667,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 1793,
+      "pr_title": "Resolving Compile Errors in Core Time Prep Tests",
+      "reviewed_at": "2024-01-30T23:49:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1793"
+    },
+    {
+      "pr_number": 1176,
+      "pr_title": "fix: GoAhead signal only set when runtime upgrade is enacted from parachain side",
+      "reviewed_at": "2024-01-30T23:49:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1176"
+    },
+    {
+      "pr_number": 2559,
+      "pr_title": "Adding `bulk_core_count` to `HostConfiguration`",
+      "reviewed_at": "2023-12-12T11:57:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2559"
+    },
+    {
+      "pr_number": 2433,
+      "pr_title": "Add `assign_core` benchmark to bulk assigner",
+      "reviewed_at": "2023-12-05T11:31:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2433"
+    },
+    {
+      "pr_number": 2332,
+      "pr_title": "Added new checks to add_assignment",
+      "reviewed_at": "2023-11-16T09:34:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2332"
+    },
+    {
+      "pr_number": 1455,
+      "pr_title": "Update Glutton Collator for Async Backing",
+      "reviewed_at": "2023-11-08T18:27:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1455"
+    },
+    {
+      "pr_number": 2071,
+      "pr_title": "Bulk Assigner Compile Fixes",
+      "reviewed_at": "2023-11-06T19:29:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2071"
+    },
+    {
+      "pr_number": 1565,
+      "pr_title": "polkadot: eradicate `LeafStatus`",
+      "reviewed_at": "2023-10-23T14:22:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1565"
+    },
+    {
+      "pr_number": 1257,
+      "pr_title": "Disabled validators runtime API",
+      "reviewed_at": "2023-10-12T13:01:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1257"
+    },
+    {
+      "pr_number": 1788,
+      "pr_title": "Fix Asset Hub collator crashing when starting from genesis",
+      "reviewed_at": "2023-10-09T20:39:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1788"
+    },
+    {
+      "pr_number": 1432,
+      "pr_title": "Remove redundant book keeping in dispute coordinator.",
+      "reviewed_at": "2023-09-18T18:49:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1432"
+    },
+    {
+      "pr_number": 1251,
+      "pr_title": "Replace free for all collation in `cumulus` runtimes",
+      "reviewed_at": "2023-09-18T15:17:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1251"
+    },
+    {
+      "pr_number": 1518,
+      "pr_title": "Inclusions struct unit tests",
+      "reviewed_at": "2023-09-13T18:58:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1518"
+    },
+    {
+      "pr_number": 1280,
+      "pr_title": "[improve docs]: Template pallet",
+      "reviewed_at": "2023-09-02T00:34:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1280"
+    }
+  ]
+}

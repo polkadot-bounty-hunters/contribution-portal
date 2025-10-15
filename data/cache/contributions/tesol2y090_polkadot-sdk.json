@@ -1,0 +1,108 @@
+{
+  "commits": [
+    {
+      "sha": "55a13abcd2f67e7fdfc8843f5c4a54798e26a9df",
+      "message": "remove pallet::getter usage from pallet-timestamp (#3374)",
+      "date": "2024-06-17T22:30:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/55a13abcd2f67e7fdfc8843f5c4a54798e26a9df"
+    }
+  ],
+  "prs": [
+    {
+      "number": 3374,
+      "title": "remove pallet::getter usage from pallet-timestamp",
+      "state": "MERGED",
+      "created_at": "2024-02-17T19:24:42Z",
+      "closed_at": "2024-06-17T22:57:15Z",
+      "merged_at": "2024-06-17T22:57:15Z",
+      "merged_by": "bkchr",
+      "author": "tesol2y090",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3374",
+      "ready_for_review_at": "2024-02-17T19:24:42Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-02-17T20:07:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gupnik",
+          "submitted_at": "2024-02-18T04:50:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-02-19T10:15:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-02-19T10:20:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2024-02-29T05:15:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-05T11:01:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-06-14T02:52:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tesol2y090",
+          "submitted_at": "2024-06-15T23:59:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-06-17T11:07:19Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-02-17T19:24:48Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2024-02-19T11:25:11Z"
+        },
+        {
+          "commenter": "tesol2y090",
+          "commented_at": "2024-02-19T13:45:24Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2024-02-23T21:44:57Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2024-03-08T10:52:30Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-06-14T02:28:34Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7202777777777778,
+      "time_to_merge_hours": 2907.5425
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3374,
+      "pr_title": "remove pallet::getter usage from pallet-timestamp",
+      "reviewed_at": "2024-06-17T22:57:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3374"
+    }
+  ]
+}

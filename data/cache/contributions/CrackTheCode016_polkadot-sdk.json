@@ -1,0 +1,629 @@
+{
+  "commits": [
+    {
+      "sha": "89b41c57d5e070681b23db9fafcbfcceb92f39d9",
+      "message": "Add parachain related parameters to `chain-spec-builder` (#4889)",
+      "date": "2024-09-04T10:30:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/89b41c57d5e070681b23db9fafcbfcceb92f39d9"
+    },
+    {
+      "sha": "b686bfefba9c9f18261d8cc0ff1afc055645d436",
+      "message": "Defensive Programming in Substrate Reference Document (#2615)",
+      "date": "2024-03-20T13:26:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b686bfefba9c9f18261d8cc0ff1afc055645d436"
+    }
+  ],
+  "prs": [
+    {
+      "number": 4889,
+      "title": "Add parachain related parameters to `chain-spec-builder`",
+      "state": "MERGED",
+      "created_at": "2024-06-26T16:37:11Z",
+      "closed_at": "2024-09-04T11:02:13Z",
+      "merged_at": "2024-09-04T11:02:12Z",
+      "merged_by": "michalkucharczyk",
+      "author": "CrackTheCode016",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4889",
+      "ready_for_review_at": "2024-06-26T16:37:11Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-07-03T20:31:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-07-04T09:20:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-07-04T09:21:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-07-06T16:08:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-07-08T14:44:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-07-09T11:57:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-07-10T10:44:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-07-10T10:50:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-07-10T11:17:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-07-10T11:19:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-07-10T15:15:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-07-23T09:15:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-08-09T11:56:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-15T16:31:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2024-08-21T08:27:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-23T13:11:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-23T13:14:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-23T13:14:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-08-26T10:11:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-08-26T10:22:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-08-26T10:24:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-08-26T10:28:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-08-26T19:28:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-08-26T21:30:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-29T10:44:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-29T10:51:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-29T10:53:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-29T10:53:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-03T13:03:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-03T13:53:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-03T14:19:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-03T14:20:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-03T14:20:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2024-09-03T15:28:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-03T15:35:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2024-09-03T16:02:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2024-09-03T16:02:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-09-03T18:45:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-09-03T19:56:35Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-06-26T21:43:39Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-06-27T12:02:10Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-06-27T13:02:09Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-07-03T20:31:07Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-08-08T18:05:23Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-08-14T18:55:30Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-08-15T16:32:38Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-08-16T11:35:46Z"
+        },
+        {
+          "commenter": "skunert",
+          "commented_at": "2024-08-21T08:27:45Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-08-26T21:27:56Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2024-08-27T10:44:33Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-08-29T12:53:10Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2024-08-30T20:56:32Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-09-03T13:03:43Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2024-09-03T14:16:57Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-09-04T08:20:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 171.90944444444443,
+      "time_to_merge_hours": 1674.4169444444444
+    },
+    {
+      "number": 2615,
+      "title": "Defensive Programming in Substrate Reference Document",
+      "state": "MERGED",
+      "created_at": "2023-12-04T22:11:06Z",
+      "closed_at": "2024-03-20T13:55:44Z",
+      "merged_at": "2024-03-20T13:55:44Z",
+      "merged_by": "kianenigma",
+      "author": "CrackTheCode016",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2615",
+      "ready_for_review_at": "2023-12-04T22:11:06Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-01-02T10:45:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-01-02T11:03:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2024-01-03T22:41:48Z",
+          "state": "DISMISSED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T11:17:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T11:18:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T11:18:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-01-08T11:19:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-01-08T15:08:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-01-12T16:52:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-01-15T18:21:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "DrW3RK",
+          "submitted_at": "2024-01-31T11:00:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-02-04T21:37:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-02-04T21:39:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-02-04T21:41:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-02-04T21:42:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-02-04T21:55:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2024-03-11T18:09:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-18T11:53:35Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2024-01-02T11:00:36Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-02-15T21:59:23Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-03-11T20:56:56Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-03-19T20:50:14Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2024-03-19T21:38:24Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-03-20T13:27:11Z"
+        }
+      ],
+      "time_to_first_review_hours": 684.5677777777778,
+      "time_to_merge_hours": 2559.7438888888887
+    },
+    {
+      "number": 2206,
+      "title": "[`developer_hub`] Defensive Programming in Substrate Reference Document",
+      "state": "CLOSED",
+      "created_at": "2023-11-07T17:30:50Z",
+      "closed_at": "2023-11-30T11:15:54Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "CrackTheCode016",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2206",
+      "ready_for_review_at": "2023-11-07T17:30:50Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-07T19:53:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-07T20:53:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-11-07T20:54:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-08T14:27:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-08T14:28:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-13T16:45:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-15T08:23:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-16T10:49:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-20T18:38:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T10:50:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:18:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:21:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:25:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:27:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:28:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:29:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:30:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:32:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-11-21T11:34:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-22T17:17:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-22T17:30:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-22T17:52:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-22T18:28:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "CrackTheCode016",
+          "submitted_at": "2023-11-22T18:29:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-11-28T06:37:04Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-11-07T20:55:48Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-22T18:37:14Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2023-11-27T21:15:59Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-11-30T11:27:02Z"
+        },
+        {
+          "commenter": "CrackTheCode016",
+          "commented_at": "2023-11-30T14:05:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.3719444444444444,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 4889,
+      "pr_title": "Add parachain related parameters to `chain-spec-builder`",
+      "reviewed_at": "2024-09-04T11:02:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4889"
+    },
+    {
+      "pr_number": 2615,
+      "pr_title": "Defensive Programming in Substrate Reference Document",
+      "reviewed_at": "2024-03-20T13:55:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2615"
+    },
+    {
+      "pr_number": 2273,
+      "pr_title": "Add missing glossary to ref docs",
+      "reviewed_at": "2024-01-30T23:49:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2273"
+    },
+    {
+      "pr_number": 2206,
+      "pr_title": "[`developer_hub`] Defensive Programming in Substrate Reference Document",
+      "reviewed_at": "2024-01-30T23:49:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2206"
+    },
+    {
+      "pr_number": 2102,
+      "pr_title": "Introduce Polkadot-Sdk `developer_hub` ",
+      "reviewed_at": "2024-01-30T23:49:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2102"
+    },
+    {
+      "pr_number": 1714,
+      "pr_title": "Improve FRAME storage docs",
+      "reviewed_at": "2024-01-30T23:49:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1714"
+    }
+  ]
+}

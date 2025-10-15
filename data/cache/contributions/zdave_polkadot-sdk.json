@@ -1,0 +1,13 @@
+{
+  "commits": [
+    {
+      "sha": "7e8bfb7f5552956226d7c0460fc496b7b11cf505",
+      "message": "Get rid of some pointless pin_project stuff (#14212)",
+      "date": "2023-05-25T10:53:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7e8bfb7f5552956226d7c0460fc496b7b11cf505"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

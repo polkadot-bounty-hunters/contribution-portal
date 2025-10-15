@@ -1,0 +1,1623 @@
+{
+  "commits": [
+    {
+      "sha": "d36d48a25c80502c577df3b1a88eadb3b3d3b6be",
+      "message": "[pallet-revive] Allows setting evm balance for non-existing account (#9911)",
+      "date": "2025-10-04T08:29:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d36d48a25c80502c577df3b1a88eadb3b3d3b6be"
+    },
+    {
+      "sha": "f9ef0f34358d1f593776201b2728f2817120b424",
+      "message": "[pallet-revive] EVM backend: Implement tx, block system and call stack instructions (#9414)",
+      "date": "2025-09-01T17:06:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f9ef0f34358d1f593776201b2728f2817120b424"
+    },
+    {
+      "sha": "11fdff18e8cddcdee90b0e2c3e35a2b0124de4de",
+      "message": "[pallet_contracts] Increase the weight of the deposit_event host function to limit the memory used by events. (#4973)",
+      "date": "2024-08-06T15:12:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/11fdff18e8cddcdee90b0e2c3e35a2b0124de4de"
+    },
+    {
+      "sha": "cb9fdb57faf02a7de3c2552f241e4e100ebfdcf8",
+      "message": "[pallet_contracts] Modify the storage host function benchmarks to run on an unbalanced storage trie. (#5036)",
+      "date": "2024-07-29T08:06:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cb9fdb57faf02a7de3c2552f241e4e100ebfdcf8"
+    },
+    {
+      "sha": "eac2a22a4801e1539a97a7fd5bf5fd3916a4339b",
+      "message": "[pallet_contracts] Add support for transient storage in contracts host functions (#4566)",
+      "date": "2024-07-16T11:15:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/eac2a22a4801e1539a97a7fd5bf5fd3916a4339b"
+    },
+    {
+      "sha": "3e8416456a27197bd1bbb7fc8149d941d9167f4d",
+      "message": "Add READ_ONLY flag to contract call function  (#4418)",
+      "date": "2024-06-04T07:58:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/3e8416456a27197bd1bbb7fc8149d941d9167f4d"
+    }
+  ],
+  "prs": [
+    {
+      "number": 9911,
+      "title": "[pallet-revive] Allows setting evm balance for non-existing account",
+      "state": "MERGED",
+      "created_at": "2025-10-02T10:44:05Z",
+      "closed_at": "2025-10-04T09:12:26Z",
+      "merged_at": "2025-10-04T09:12:26Z",
+      "merged_by": "athei",
+      "author": "smiasojed",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9911",
+      "ready_for_review_at": "2025-10-02T10:44:05Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-10-02T15:13:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-04T08:07:20Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 4.491666666666666,
+      "time_to_merge_hours": 46.4725
+    },
+    {
+      "number": 9414,
+      "title": "[pallet-revive] EVM backend: Implement tx, block system and call stack instructions",
+      "state": "MERGED",
+      "created_at": "2025-08-01T10:29:52Z",
+      "closed_at": "2025-09-01T17:43:49Z",
+      "merged_at": "2025-09-01T17:43:49Z",
+      "merged_by": "pgherveou",
+      "author": "smiasojed",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9414",
+      "ready_for_review_at": "2025-08-01T10:29:52Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T12:25:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T12:27:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T12:44:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T12:44:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-14T13:23:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-14T14:55:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T15:01:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-14T15:18:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-14T15:19:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T15:43:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T15:45:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T15:45:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T15:50:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T15:56:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-14T16:26:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-14T20:24:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-14T20:30:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-15T07:30:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-15T07:33:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-15T07:41:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-15T07:41:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-15T07:48:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-15T07:56:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-15T08:07:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-15T08:08:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-15T08:11:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-18T08:32:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-18T13:00:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-18T13:09:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-18T13:10:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-18T13:10:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-18T14:28:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-18T14:28:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-19T10:25:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-08-26T12:16:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-08-26T12:19:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-08-26T20:23:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-29T08:49:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-29T08:58:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-29T09:30:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T10:20:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T10:20:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-29T10:25:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T11:41:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T11:48:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T12:24:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T13:30:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T13:30:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T13:32:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T13:36:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-08-29T13:38:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-29T13:40:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-08-29T13:58:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-09-01T11:26:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-09-01T11:43:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-09-01T11:46:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-09-01T11:48:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-09-01T12:01:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-09-01T12:28:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-09-01T12:31:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-09-01T12:38:43Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-08-26T10:54:55Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2025-08-26T22:23:51Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-09-01T12:37:59Z"
+        },
+        {
+          "commenter": "xermicus",
+          "commented_at": "2025-09-01T12:39:06Z"
+        },
+        {
+          "commenter": "xermicus",
+          "commented_at": "2025-09-01T14:20:10Z"
+        }
+      ],
+      "time_to_first_review_hours": 313.93444444444447,
+      "time_to_merge_hours": 751.2325
+    },
+    {
+      "number": 5036,
+      "title": "[pallet_contracts] Modify the storage host function benchmarks to run on an unbalanced storage trie.",
+      "state": "MERGED",
+      "created_at": "2024-07-16T18:30:56Z",
+      "closed_at": "2024-07-29T08:57:30Z",
+      "merged_at": "2024-07-29T08:57:29Z",
+      "merged_by": "smiasojed",
+      "author": "smiasojed",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5036",
+      "ready_for_review_at": "2024-07-16T18:30:56Z",
+      "reviews": [
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-17T11:50:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-17T12:39:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-17T12:50:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-17T12:52:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-17T18:42:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-18T05:42:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-18T06:57:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-18T11:24:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-18T11:36:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-19T07:53:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-19T08:25:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-07-19T09:56:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-19T13:46:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-19T13:46:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-19T15:26:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-22T07:23:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-22T07:28:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-26T12:46:01Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-07-16T18:32:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-16T18:32:30Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-07-16T18:32:34Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-16T19:21:46Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-07-16T20:12:05Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-16T20:12:10Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-07-16T20:12:17Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-16T21:03:51Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-07-17T08:21:11Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-17T08:21:16Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-07-17T08:21:21Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-17T09:12:26Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-07-17T12:16:33Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-07-17T13:24:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-17T13:24:12Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-07-17T13:24:19Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-17T14:16:28Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-07-17T18:41:29Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-17T18:41:34Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-07-17T18:41:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-17T19:33:50Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.3325,
+      "time_to_merge_hours": 302.4425
+    },
+    {
+      "number": 4973,
+      "title": "[pallet_contracts] Increase the weight of the deposit_event host function to limit the memory used by events.",
+      "state": "MERGED",
+      "created_at": "2024-07-08T12:46:10Z",
+      "closed_at": "2024-08-06T15:46:46Z",
+      "merged_at": "2024-08-06T15:46:46Z",
+      "merged_by": "athei",
+      "author": "smiasojed",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4973",
+      "ready_for_review_at": "2024-07-08T12:46:10Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-22T07:36:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-22T08:13:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-22T11:50:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-26T12:00:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-08-05T08:41:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-08-05T08:48:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2024-08-05T15:19:50Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "athei",
+          "commented_at": "2024-08-05T11:42:01Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-08-05T12:12:51Z"
+        }
+      ],
+      "time_to_first_review_hours": 330.8436111111111,
+      "time_to_merge_hours": 699.01
+    },
+    {
+      "number": 4566,
+      "title": "[pallet_contracts] Add support for transient storage in contracts host functions",
+      "state": "MERGED",
+      "created_at": "2024-05-24T10:26:25Z",
+      "closed_at": "2024-07-16T11:40:21Z",
+      "merged_at": "2024-07-16T11:40:21Z",
+      "merged_by": "smiasojed",
+      "author": "smiasojed",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4566",
+      "ready_for_review_at": "2024-05-24T10:26:25Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-06-04T17:29:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-04T19:21:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-04T19:27:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-04T20:15:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-05T07:52:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-05T07:52:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-19T07:06:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-19T21:49:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-06-26T22:12:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-01T13:24:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-01T13:26:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-02T09:28:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-02T15:47:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-03T13:28:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T07:43:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-04T07:52:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-04T10:39:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-04T12:43:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-04T12:49:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T13:19:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T15:00:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T15:41:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-04T16:10:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T19:11:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T21:30:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T21:36:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-04T21:36:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-05T07:38:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-05T10:10:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-05T13:19:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-05T13:28:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-05T13:35:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-05T14:20:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-05T14:20:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-05T14:29:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-08T12:45:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-08T12:48:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-08T12:57:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-08T13:01:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-08T13:14:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-08T13:16:46Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2024-07-08T13:58:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-07-08T16:23:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-08T21:01:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-09T10:10:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-09T10:20:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-09T12:29:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-09T12:34:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-09T12:44:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-07-10T06:33:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-07-10T13:15:14Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-06-18T13:18:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-18T13:18:32Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-18T14:11:12Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-06-18T18:38:41Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-18T18:38:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-18T19:31:23Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-06-18T20:21:54Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-18T20:21:59Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-18T21:15:08Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-06-25T11:35:08Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-25T11:35:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-25T12:26:55Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-06-27T14:39:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-27T14:39:51Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-27T15:32:44Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-06-27T21:11:31Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-27T21:11:36Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-27T21:29:10Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-06-28T15:40:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-28T15:40:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-06-28T16:33:15Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-07-02T11:22:05Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-02T11:22:10Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-02T12:11:12Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2024-07-08T16:26:23Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-07-09T08:34:06Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-07-09T10:11:12Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-09T10:11:17Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-07-09T11:02:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 271.05083333333334,
+      "time_to_merge_hours": 1273.2322222222222
+    },
+    {
+      "number": 4418,
+      "title": "Add READ_ONLY flag to contract call function ",
+      "state": "MERGED",
+      "created_at": "2024-05-08T20:21:51Z",
+      "closed_at": "2024-06-04T08:23:26Z",
+      "merged_at": "2024-06-04T08:23:26Z",
+      "merged_by": "athei",
+      "author": "smiasojed",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4418",
+      "ready_for_review_at": "2024-05-08T20:21:51Z",
+      "reviews": [
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-09T13:29:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-10T10:53:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-10T12:22:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-13T14:01:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ascjones",
+          "submitted_at": "2024-05-14T21:45:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T06:41:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-15T11:21:00Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-05-15T11:50:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-05-15T11:56:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-15T12:47:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-15T12:49:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T12:51:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T13:01:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-15T13:17:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-15T13:20:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T13:27:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-15T13:38:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T13:39:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T13:42:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-15T13:43:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T13:53:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-05-15T14:18:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T14:28:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T14:28:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-15T15:00:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-16T07:58:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-16T11:25:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-16T11:32:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-16T13:04:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-17T07:10:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-17T07:39:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-17T10:47:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2024-05-23T09:59:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2024-05-28T14:36:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-29T07:17:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-29T08:32:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-29T08:44:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-29T14:19:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-05-30T08:03:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2024-05-31T08:24:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-06-03T10:24:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2024-06-04T07:57:53Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-08T22:00:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-08T22:00:10Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-08T23:37:55Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-09T09:05:21Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-09T09:05:26Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-09T10:05:59Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-09T10:06:19Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-09T11:05:15Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-09T18:47:17Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-09T18:47:22Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-09T20:21:50Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2024-05-10T10:54:11Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-13T14:03:29Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-05-15T13:58:13Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2024-05-24T11:02:49Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2024-05-27T07:30:00Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-28T13:10:53Z"
+        },
+        {
+          "commenter": "smiasojed",
+          "commented_at": "2024-05-28T19:54:34Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-28T19:54:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-05-28T20:48:04Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.122222222222224,
+      "time_to_merge_hours": 636.0263888888888
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 9744,
+      "pr_title": "[pallet-revive] fix CodeInfo owner",
+      "reviewed_at": "2025-10-02T12:58:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9744"
+    },
+    {
+      "pr_number": 9670,
+      "pr_title": "Move revive fixtures into release directory",
+      "reviewed_at": "2025-10-01T21:28:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9670"
+    },
+    {
+      "pr_number": 9801,
+      "pr_title": "pallet-revive: allow changing immutables",
+      "reviewed_at": "2025-09-29T14:32:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9801"
+    },
+    {
+      "pr_number": 9759,
+      "pr_title": "[pallet-revive] Add set_storage/set_storage_var_key methods",
+      "reviewed_at": "2025-09-24T11:09:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9759"
+    },
+    {
+      "pr_number": 9561,
+      "pr_title": "added trace logging in EVM interpreter loop",
+      "reviewed_at": "2025-09-15T09:48:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9561"
+    },
+    {
+      "pr_number": 9385,
+      "pr_title": "[pallet-revive] EVM backend: implement various missing opcodes",
+      "reviewed_at": "2025-09-08T15:42:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9385"
+    },
+    {
+      "pr_number": 9414,
+      "pr_title": "[pallet-revive] EVM backend: Implement tx, block system and call stack instructions",
+      "reviewed_at": "2025-09-01T17:43:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9414"
+    },
+    {
+      "pr_number": 9285,
+      "pr_title": "[revive] revm backend",
+      "reviewed_at": "2025-09-01T10:26:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9285"
+    },
+    {
+      "pr_number": 9501,
+      "pr_title": "[revive] move existing files to prepare evm backend introduction",
+      "reviewed_at": "2025-08-20T06:32:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9501"
+    },
+    {
+      "pr_number": 9357,
+      "pr_title": "Fixes dust balance handling for pallet revive",
+      "reviewed_at": "2025-08-04T20:22:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9357"
+    },
+    {
+      "pr_number": 8883,
+      "pr_title": "[pallet-revive] Make Runtime call dispatchable as eth transaction",
+      "reviewed_at": "2025-06-21T10:06:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8883"
+    },
+    {
+      "pr_number": 8545,
+      "pr_title": "[pallet-revive] eth-rpc improved healthcheck",
+      "reviewed_at": "2025-05-16T14:45:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8545"
+    },
+    {
+      "pr_number": 8197,
+      "pr_title": "[pallet-revive] add fee_history",
+      "reviewed_at": "2025-04-29T22:34:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8197"
+    },
+    {
+      "pr_number": 7879,
+      "pr_title": "[pallet-revive] Support blocktag in eth_getLogs RPC",
+      "reviewed_at": "2025-03-13T09:49:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7879"
+    },
+    {
+      "pr_number": 7827,
+      "pr_title": "[revive-rpc] allow using legacy data field",
+      "reviewed_at": "2025-03-07T14:09:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7827"
+    },
+    {
+      "pr_number": 7580,
+      "pr_title": "implement web3_clientVersion",
+      "reviewed_at": "2025-03-03T19:18:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7580"
+    },
+    {
+      "pr_number": 7655,
+      "pr_title": "Derive `DecodeWithMemTracking` for `Block`",
+      "reviewed_at": "2025-02-28T08:34:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7655"
+    },
+    {
+      "pr_number": 7598,
+      "pr_title": "implement `DecodeWithMemTracking` for frame pallets",
+      "reviewed_at": "2025-02-18T15:34:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7598"
+    },
+    {
+      "pr_number": 7589,
+      "pr_title": "[pallet-revive] rpc add --earliest-receipt-block",
+      "reviewed_at": "2025-02-17T12:19:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7589"
+    },
+    {
+      "pr_number": 7568,
+      "pr_title": "pallet-revive: Fix the contract size related benchmarks",
+      "reviewed_at": "2025-02-14T13:53:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7568"
+    },
+    {
+      "pr_number": 7562,
+      "pr_title": "pallet-revive: Add env var to allow skipping of validation for testing",
+      "reviewed_at": "2025-02-14T10:18:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7562"
+    },
+    {
+      "pr_number": 7570,
+      "pr_title": "[pallet-revive] fix subxt version",
+      "reviewed_at": "2025-02-13T22:27:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7570"
+    },
+    {
+      "pr_number": 7325,
+      "pr_title": "[pallet-revive] eth-rpc minor fixes",
+      "reviewed_at": "2025-01-24T17:32:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7325"
+    },
+    {
+      "pr_number": 7251,
+      "pr_title": "[pallet-revive] eth-rpc error logging",
+      "reviewed_at": "2025-01-20T12:23:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7251"
+    },
+    {
+      "pr_number": 7176,
+      "pr_title": "[pallet-revive] Bump asset-hub westend spec version",
+      "reviewed_at": "2025-01-15T14:26:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7176"
+    },
+    {
+      "pr_number": 6689,
+      "pr_title": "[pallet-revive] Update gas encoding",
+      "reviewed_at": "2025-01-13T15:37:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6689"
+    },
+    {
+      "pr_number": 6735,
+      "pr_title": "pallet-revive-fixtures: Try not to re-create fixture dir",
+      "reviewed_at": "2024-12-03T13:37:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6735"
+    },
+    {
+      "pr_number": 6453,
+      "pr_title": "[pallet-revive] eth-rpc fixes",
+      "reviewed_at": "2024-11-12T19:25:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6453"
+    },
+    {
+      "pr_number": 6360,
+      "pr_title": "[eth-rpc] proxy /health",
+      "reviewed_at": "2024-11-05T15:31:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6360"
+    },
+    {
+      "pr_number": 6309,
+      "pr_title": "[pallet-revive] revive json-rpc small adjustments",
+      "reviewed_at": "2024-11-02T08:23:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6309"
+    },
+    {
+      "pr_number": 6288,
+      "pr_title": "[pallet-revive] Add metrics to eth-rpc",
+      "reviewed_at": "2024-10-30T23:40:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6288"
+    },
+    {
+      "pr_number": 6264,
+      "pr_title": "pallet-revive: Trade code size for call stack depth",
+      "reviewed_at": "2024-10-28T23:32:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6264"
+    },
+    {
+      "pr_number": 6147,
+      "pr_title": "[pallet-revive] Add Ethereum JSON-RPC server",
+      "reviewed_at": "2024-10-28T14:22:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6147"
+    },
+    {
+      "pr_number": 5953,
+      "pr_title": "[pallet-revive] Add Ethereum JSON-RPC server",
+      "reviewed_at": "2024-10-19T08:57:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5953"
+    },
+    {
+      "pr_number": 5549,
+      "pr_title": "Update CODEOWNERS and review-bot for new contracts pallet",
+      "reviewed_at": "2024-09-02T17:46:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5549"
+    },
+    {
+      "pr_number": 4973,
+      "pr_title": "[pallet_contracts] Increase the weight of the deposit_event host function to limit the memory used by events.",
+      "reviewed_at": "2024-08-06T15:46:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4973"
+    },
+    {
+      "pr_number": 5036,
+      "pr_title": "[pallet_contracts] Modify the storage host function benchmarks to run on an unbalanced storage trie.",
+      "reviewed_at": "2024-07-29T08:57:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5036"
+    },
+    {
+      "pr_number": 4566,
+      "pr_title": "[pallet_contracts] Add support for transient storage in contracts host functions",
+      "reviewed_at": "2024-07-16T11:40:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4566"
+    },
+    {
+      "pr_number": 4418,
+      "pr_title": "Add READ_ONLY flag to contract call function ",
+      "reviewed_at": "2024-06-04T08:23:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4418"
+    },
+    {
+      "pr_number": 4233,
+      "pr_title": "Contracts: Rework host fn benchmarks",
+      "reviewed_at": "2024-05-23T11:37:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4233"
+    },
+    {
+      "pr_number": 3606,
+      "pr_title": "Contracts: Remove unstable on lock/unlock_delegate_dependency host fns",
+      "reviewed_at": "2024-03-07T13:12:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3606"
+    },
+    {
+      "pr_number": 3241,
+      "pr_title": "Contracts update doc.rs metadata",
+      "reviewed_at": "2024-02-08T17:09:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3241"
+    },
+    {
+      "pr_number": 2990,
+      "pr_title": "better debugging for accountid32 in debug build",
+      "reviewed_at": "2024-01-19T22:03:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2990"
+    }
+  ]
+}

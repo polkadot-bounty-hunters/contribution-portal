@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "bdd11933dd9399f39d9eb74915117e6c94a905f1",
+      "message": "Remove warning log from frame-omni-bencher CLI (#7020)",
+      "date": "2025-01-02T19:14:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bdd11933dd9399f39d9eb74915117e6c94a905f1"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7020,
+      "title": "Remove warning log from frame-omni-bencher CLI",
+      "state": "MERGED",
+      "created_at": "2024-12-30T12:02:09Z",
+      "closed_at": "2025-01-02T19:47:26Z",
+      "merged_at": "2025-01-02T19:47:26Z",
+      "merged_by": "bkchr",
+      "author": "0xLucca",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7020",
+      "ready_for_review_at": "2024-12-30T12:02:09Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-01-02T13:35:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-01-02T18:37:44Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-01-02T15:47:11Z"
+        }
+      ],
+      "time_to_first_review_hours": 73.55777777777777,
+      "time_to_merge_hours": 79.75472222222223
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

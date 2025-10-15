@@ -1,0 +1,137 @@
+{
+  "commits": [
+    {
+      "sha": "4ced9bb474841f40e53c08b5d9f675c3c4d31192",
+      "message": "Update Scheduler Pallet Documentation (#14740)",
+      "date": "2023-08-15T12:18:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4ced9bb474841f40e53c08b5d9f675c3c4d31192"
+    }
+  ],
+  "prs": [
+    {
+      "number": 6412,
+      "title": "Use frame umbrella crate in `pallet-babe` & `pallet-staking-reward-curve`",
+      "state": "CLOSED",
+      "created_at": "2024-11-08T05:09:41Z",
+      "closed_at": "2025-05-21T16:09:18Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "snowmead",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6412",
+      "ready_for_review_at": "2024-11-08T05:09:41Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-11-12T03:15:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-11-12T03:16:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-11-12T03:16:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-13T16:44:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-11-16T04:20:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-11-16T04:21:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-11-16T04:46:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-11-16T04:46:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-11-16T04:47:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2024-11-16T19:19:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T10:49:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-11-27T14:18:46Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-12-03T09:49:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-12-03T09:50:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2024-12-20T12:08:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "re-gius",
+          "submitted_at": "2025-01-02T10:50:53Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-01-02T11:16:57Z"
+        },
+        {
+          "commenter": "Wolfenheimm",
+          "commented_at": "2025-04-15T19:09:27Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2025-05-21T16:09:18Z"
+        }
+      ],
+      "time_to_first_review_hours": 94.10333333333334,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 6412,
+      "pr_title": "Use frame umbrella crate in `pallet-babe` & `pallet-staking-reward-curve`",
+      "reviewed_at": "2025-05-21T16:09:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6412"
+    },
+    {
+      "pr_number": 3982,
+      "pr_title": "Upgrade `trie-db` from `0.28.0` to `0.29.0`",
+      "reviewed_at": "2024-04-09T11:22:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3982"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "commits": [
+    {
+      "sha": "b8eaf25040052fc7a18865ff68e1827de6038467",
+      "message": "Introduce jemalloc-allocator feature flag (#6675)",
+      "date": "2023-02-09T09:09:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b8eaf25040052fc7a18865ff68e1827de6038467"
+    },
+    {
+      "sha": "c04e68fd013d11f55d0ad9640a06729c37fc42de",
+      "message": "introduce log-target constant to more frame pallets (#13116)",
+      "date": "2023-01-10T19:18:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c04e68fd013d11f55d0ad9640a06729c37fc42de"
+    },
+    {
+      "sha": "96902eae4815cb4a5b10997cf6138a3eeed0bed0",
+      "message": "Revert \"Move LockableCurrency trait to fungibles::Lockable and deprecate LockableCurrency (#12798)\" (#12882)",
+      "date": "2022-12-09T09:40:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/96902eae4815cb4a5b10997cf6138a3eeed0bed0"
+    },
+    {
+      "sha": "9a014d1ecd6397b875cecf03bef5d152f36022dd",
+      "message": "Move LockableCurrency trait to fungibles::Lockable and deprecate LockableCurrency (#12798)",
+      "date": "2022-12-08T12:47:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/9a014d1ecd6397b875cecf03bef5d152f36022dd"
+    },
+    {
+      "sha": "880f6c9d6061556d353308a9b21322cba02b71e7",
+      "message": "Assets Pallet: reintroduce fungibles::Destroy trait  (#12708)",
+      "date": "2022-11-15T13:12:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/880f6c9d6061556d353308a9b21322cba02b71e7"
+    },
+    {
+      "sha": "0710de7af98b5dacc280423c6bedea25f2c03775",
+      "message": "Add migrations from pallet_asset to statemine, statemint and westmint  (#1742)",
+      "date": "2022-11-15T12:07:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0710de7af98b5dacc280423c6bedea25f2c03775"
+    },
+    {
+      "sha": "679d2dcd252a4b097e6a649aec34a44d1e9d3f24",
+      "message": "Asset Pallet: Support repeated destroys to safely destroy large assets (#12310)",
+      "date": "2022-11-15T09:59:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/679d2dcd252a4b097e6a649aec34a44d1e9d3f24"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

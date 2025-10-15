@@ -1,0 +1,108 @@
+{
+  "commits": [
+    {
+      "sha": "d733c77ee2d2e8e2d5205c552a5efb2e5b5242c8",
+      "message": "Adapt `RemoteExternalities` and its related types to be used with generic hash parameters (#3953)",
+      "date": "2024-04-08T21:56:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d733c77ee2d2e8e2d5205c552a5efb2e5b5242c8"
+    }
+  ],
+  "prs": [
+    {
+      "number": 6308,
+      "title": "feat:  add keys retrieving storage for multi `SteppedMigrations`",
+      "state": "CLOSED",
+      "created_at": "2024-10-31T08:00:33Z",
+      "closed_at": "2025-02-14T12:20:07Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "lean-apple",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6308",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-11-01T10:36:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-11-01T10:44:50Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3953,
+      "title": "Adapt `RemoteExternalities` and its related types to be used with generic hash parameters",
+      "state": "MERGED",
+      "created_at": "2024-04-02T20:00:44Z",
+      "closed_at": "2024-04-08T22:19:05Z",
+      "merged_at": "2024-04-08T22:19:05Z",
+      "merged_by": "bkchr",
+      "author": "lean-apple",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3953",
+      "ready_for_review_at": "2024-04-02T20:00:44Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-07T10:51:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lean-apple",
+          "submitted_at": "2024-04-07T16:48:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-08T11:26:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lean-apple",
+          "submitted_at": "2024-04-08T16:04:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-04-08T16:13:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-04-08T20:52:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-04-03T18:57:00Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-04-03T18:57:04Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-04-03T18:59:00Z"
+        }
+      ],
+      "time_to_first_review_hours": 110.8386111111111,
+      "time_to_merge_hours": 146.30583333333334
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3953,
+      "pr_title": "Adapt `RemoteExternalities` and its related types to be used with generic hash parameters",
+      "reviewed_at": "2024-04-13T20:07:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3953"
+    }
+  ]
+}

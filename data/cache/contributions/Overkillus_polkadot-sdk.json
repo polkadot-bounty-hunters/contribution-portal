@@ -1,0 +1,1265 @@
+{
+  "commits": [
+    {
+      "sha": "5902b54c3e599fa9b4519759fe97164dd14e702a",
+      "message": "Introduction of Approval Slashes [Disabling Strategy Stage 4] (#6827)",
+      "date": "2025-06-05T14:36:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5902b54c3e599fa9b4519759fe97164dd14e702a"
+    },
+    {
+      "sha": "b8cf895f04fb8311af473e14bc8f7f6bb1e6efcf",
+      "message": "Validator disabling in session enhancements (#7663)",
+      "date": "2025-03-28T09:35:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b8cf895f04fb8311af473e14bc8f7f6bb1e6efcf"
+    },
+    {
+      "sha": "b63555510b0c9750b24f6bea9c24ef031404e643",
+      "message": "Excluding chainlink domain for link checker CI (#6524)",
+      "date": "2024-12-30T11:07:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b63555510b0c9750b24f6bea9c24ef031404e643"
+    },
+    {
+      "sha": "8d4138f77106a6af49920ad84f3283f696f3f905",
+      "message": "Validator Re-Enabling (#5724)",
+      "date": "2024-11-19T14:40:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8d4138f77106a6af49920ad84f3283f696f3f905"
+    },
+    {
+      "sha": "00440779d42b754292783612fc0f7e99d7cde2d2",
+      "message": "Disabling Strategy Implementers Guide (#2955)",
+      "date": "2024-05-10T12:31:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/00440779d42b754292783612fc0f7e99d7cde2d2"
+    },
+    {
+      "sha": "6d392c7eea496e0874a9ea37f4a8ea447ebc330e",
+      "message": "Statement Distribution Per Peer Rate Limit (#3444)",
+      "date": "2024-05-01T17:17:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6d392c7eea496e0874a9ea37f4a8ea447ebc330e"
+    },
+    {
+      "sha": "dc69dbba728bf447bb447746e41a86367d939030",
+      "message": "Zombienet tests - disputes on finalized blocks (#2184)",
+      "date": "2023-11-27T09:30:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/dc69dbba728bf447bb447746e41a86367d939030"
+    },
+    {
+      "sha": "756347ab24bc19bd93960a7247394fab01332c38",
+      "message": "Inclusion pruning tweaks (#1550)",
+      "date": "2023-09-14T19:40:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/756347ab24bc19bd93960a7247394fab01332c38"
+    },
+    {
+      "sha": "f7c95c5fc12d3abde866bc1ee106909f950e5427",
+      "message": "Inclusions struct unit tests (#1518)",
+      "date": "2023-09-13T10:46:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f7c95c5fc12d3abde866bc1ee106909f950e5427"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7663,
+      "title": "Validator disabling in session enhancements",
+      "state": "MERGED",
+      "created_at": "2025-02-21T14:29:26Z",
+      "closed_at": "2025-03-28T10:39:21Z",
+      "merged_at": "2025-03-28T10:39:21Z",
+      "merged_by": "Ank4n",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7663",
+      "ready_for_review_at": "2025-02-21T14:29:26Z",
+      "reviews": [
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-02-27T14:27:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-02-27T17:35:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2025-02-28T09:32:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-02-28T12:25:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-03-02T22:02:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Gasila5",
+          "submitted_at": "2025-03-03T11:27:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-03-03T12:21:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-03-03T13:11:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-03-03T13:12:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-03-04T05:54:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-03-04T09:52:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-03-04T10:10:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-03-04T10:12:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-03-14T12:10:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-03-19T11:07:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-03-20T02:50:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-03-22T07:38:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "AKJUS",
+          "submitted_at": "2025-03-22T12:27:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2025-03-27T12:28:54Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "tdimitrov",
+          "commented_at": "2025-02-25T08:35:17Z"
+        },
+        {
+          "commenter": "Gasila5",
+          "commented_at": "2025-03-03T11:33:39Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-03-25T23:49:37Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-03-27T09:42:26Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-03-28T10:40:08Z"
+        }
+      ],
+      "time_to_first_review_hours": 143.9736111111111,
+      "time_to_merge_hours": 836.1652777777778
+    },
+    {
+      "number": 6827,
+      "title": "Introduction of Approval Slashes [Disabling Strategy Stage 4]",
+      "state": "MERGED",
+      "created_at": "2024-12-10T12:54:36Z",
+      "closed_at": "2025-06-05T15:23:05Z",
+      "merged_at": "2025-06-05T15:23:05Z",
+      "merged_by": "ordian",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6827",
+      "ready_for_review_at": "2024-12-10T12:54:36Z",
+      "reviews": [
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-05-15T07:12:45Z",
+          "state": "DISMISSED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-05-26T08:24:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2025-05-26T15:00:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sw10pa",
+          "submitted_at": "2025-05-26T22:33:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-05-27T01:03:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-05-27T01:08:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sw10pa",
+          "submitted_at": "2025-05-27T09:48:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2025-05-28T09:29:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-05-28T10:23:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2025-05-30T13:09:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2025-06-03T19:56:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2025-06-04T16:35:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-06-04T18:13:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-06-04T18:18:50Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-06-05T08:20:40Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2025-06-05T12:46:39Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-06-05T15:23:46Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2025-07-11T11:31:24Z"
+        }
+      ],
+      "time_to_first_review_hours": 3738.3025,
+      "time_to_merge_hours": 4250.474722222222
+    },
+    {
+      "number": 6524,
+      "title": "Excluding chainlink domain for link checker CI",
+      "state": "MERGED",
+      "created_at": "2024-11-18T12:59:06Z",
+      "closed_at": "2024-12-30T11:41:19Z",
+      "merged_at": "2024-12-30T11:41:19Z",
+      "merged_by": "Overkillus",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6524",
+      "ready_for_review_at": "2024-11-18T12:59:06Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-11-18T22:18:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-11-19T08:18:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-11-19T14:03:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-12-30T10:34:11Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-12-30T10:34:16Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-12-30T10:34:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 9.326666666666666,
+      "time_to_merge_hours": 1006.7036111111111
+    },
+    {
+      "number": 5724,
+      "title": "Validator Re-Enabling",
+      "state": "MERGED",
+      "created_at": "2024-09-16T13:11:54Z",
+      "closed_at": "2024-11-19T15:32:04Z",
+      "merged_at": "2024-11-19T15:32:04Z",
+      "merged_by": "Overkillus",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5724",
+      "ready_for_review_at": "2024-09-16T13:11:54Z",
+      "reviews": [
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2024-09-19T07:40:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-10-02T12:08:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-10-02T12:12:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-10-15T08:05:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-10-15T08:17:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-10-15T08:19:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2024-10-29T05:45:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2024-10-29T06:32:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-10-31T12:58:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-10-31T13:06:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-10-31T13:08:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-10-31T13:23:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2024-10-31T13:24:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-10-31T13:28:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-11-04T09:23:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-11-04T09:45:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-11-04T10:16:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2024-11-04T11:10:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-11-04T22:54:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-11-05T11:11:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-11-16T07:15:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-11-18T13:58:00Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-10-01T13:01:59Z"
+        },
+        {
+          "commenter": "Overkillus",
+          "commented_at": "2024-11-04T19:52:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-04T19:52:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-04T19:55:45Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2024-11-04T22:49:30Z"
+        },
+        {
+          "commenter": "Overkillus",
+          "commented_at": "2024-11-05T12:55:16Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2024-11-05T14:23:17Z"
+        },
+        {
+          "commenter": "Overkillus",
+          "commented_at": "2024-11-11T13:16:58Z"
+        },
+        {
+          "commenter": "tdimitrov",
+          "commented_at": "2024-11-12T12:51:28Z"
+        },
+        {
+          "commenter": "sandreim",
+          "commented_at": "2024-11-12T17:27:07Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2024-11-12T18:35:06Z"
+        },
+        {
+          "commenter": "Overkillus",
+          "commented_at": "2024-11-13T14:35:16Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2024-11-18T12:20:29Z"
+        },
+        {
+          "commenter": "Overkillus",
+          "commented_at": "2024-11-19T12:47:55Z"
+        }
+      ],
+      "time_to_first_review_hours": 66.47527777777778,
+      "time_to_merge_hours": 1538.3361111111112
+    },
+    {
+      "number": 3486,
+      "title": "Skip awaiting for metric verification when booting up local zombienet networks",
+      "state": "CLOSED",
+      "created_at": "2024-02-26T16:57:47Z",
+      "closed_at": "2025-10-10T13:23:20Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3486",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "pepoviola",
+          "submitted_at": "2024-02-26T23:09:10Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "sandreim",
+          "commented_at": "2024-02-27T09:00:51Z"
+        },
+        {
+          "commenter": "pepoviola",
+          "commented_at": "2024-02-27T11:30:27Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3444,
+      "title": "Statement Distribution Per Peer Rate Limit",
+      "state": "MERGED",
+      "created_at": "2024-02-22T12:54:23Z",
+      "closed_at": "2024-05-01T17:41:23Z",
+      "merged_at": "2024-05-01T17:41:23Z",
+      "merged_by": "Overkillus",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3444",
+      "ready_for_review_at": "2024-02-22T12:54:23Z",
+      "reviews": [
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-02-22T12:59:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2024-02-26T12:15:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-02-26T20:18:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2024-02-27T08:26:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-02-27T12:23:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2024-02-28T08:54:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-02-28T16:37:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-02-28T16:46:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "burdges",
+          "submitted_at": "2024-03-21T14:24:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2024-04-17T11:48:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-04-19T16:10:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-04-19T16:12:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-04-19T16:15:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-04-19T16:19:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2024-04-24T09:34:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-04-30T16:25:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2024-05-01T07:07:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "AndWeHaveAPlan",
+          "submitted_at": "2024-05-01T15:21:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Overkillus",
+          "commented_at": "2024-02-28T16:38:40Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08527777777777777,
+      "time_to_merge_hours": 1660.7833333333333
+    },
+    {
+      "number": 2955,
+      "title": "Disabling Strategy Implementers Guide",
+      "state": "MERGED",
+      "created_at": "2024-01-17T03:26:24Z",
+      "closed_at": "2024-05-10T12:55:48Z",
+      "merged_at": "2024-05-10T12:55:48Z",
+      "merged_by": "eskimor",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2955",
+      "ready_for_review_at": "2024-01-17T03:26:24Z",
+      "reviews": [
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-01-18T11:09:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-01-18T11:11:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-01-19T06:41:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2024-01-21T21:43:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-01-23T16:26:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-01-23T16:29:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-01-23T16:34:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2024-02-16T09:07:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-03-11T12:20:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-03-11T12:25:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2024-03-11T14:32:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-12T08:59:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-12T09:04:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-12T09:06:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-12T09:09:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-12T09:12:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-03-12T09:26:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-05-07T11:19:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-05-07T11:59:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2024-05-07T12:02:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2024-05-10T12:32:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2024-05-10T12:36:00Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2024-02-22T18:00:40Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-05-10T10:53:47Z"
+        }
+      ],
+      "time_to_first_review_hours": 31.718888888888888,
+      "time_to_merge_hours": 2745.49
+    },
+    {
+      "number": 2184,
+      "title": "Zombienet tests - disputes on finalized blocks",
+      "state": "MERGED",
+      "created_at": "2023-11-06T17:48:28Z",
+      "closed_at": "2023-11-27T09:30:13Z",
+      "merged_at": "2023-11-27T09:30:13Z",
+      "merged_by": "eskimor",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2184",
+      "ready_for_review_at": "2023-11-06T17:48:28Z",
+      "reviews": [
+        {
+          "reviewer": "pepoviola",
+          "submitted_at": "2023-11-06T19:00:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-07T12:55:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-11-21T11:19:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-21T15:46:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-21T15:59:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-21T16:11:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-21T17:10:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-11-21T17:58:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-11-22T07:34:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-11-23T08:47:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-23T15:39:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-23T15:44:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alvicsam",
+          "submitted_at": "2023-11-23T15:54:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sergejparity",
+          "submitted_at": "2023-11-23T15:56:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2023-11-23T16:39:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-23T16:43:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-23T16:48:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2023-11-23T18:32:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-24T02:27:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-24T02:27:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-11-24T08:39:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mrcnski",
+          "submitted_at": "2023-11-24T08:39:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2023-11-24T09:12:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-24T11:05:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-24T12:57:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2023-11-24T13:51:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-11-24T13:51:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-11-27T09:28:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "mrcnski",
+          "commented_at": "2023-11-22T07:47:21Z"
+        },
+        {
+          "commenter": "tdimitrov",
+          "commented_at": "2023-11-23T08:49:24Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-11-23T16:18:19Z"
+        },
+        {
+          "commenter": "mrcnski",
+          "commented_at": "2023-11-24T08:43:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.2072222222222222,
+      "time_to_merge_hours": 495.6958333333333
+    },
+    {
+      "number": 1550,
+      "title": "Inclusion pruning tweaks",
+      "state": "MERGED",
+      "created_at": "2023-09-14T00:36:17Z",
+      "closed_at": "2023-09-14T19:40:20Z",
+      "merged_at": "2023-09-14T19:40:20Z",
+      "merged_by": "Overkillus",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1550",
+      "ready_for_review_at": "2023-09-14T00:36:17Z",
+      "reviews": [
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-09-14T05:59:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-14T09:07:02Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "tdimitrov",
+          "commented_at": "2023-09-14T09:06:54Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.383611111111111,
+      "time_to_merge_hours": 19.0675
+    },
+    {
+      "number": 1518,
+      "title": "Inclusions struct unit tests",
+      "state": "MERGED",
+      "created_at": "2023-09-12T13:51:34Z",
+      "closed_at": "2023-09-13T10:46:33Z",
+      "merged_at": "2023-09-13T10:46:33Z",
+      "merged_by": "Overkillus",
+      "author": "Overkillus",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1518",
+      "ready_for_review_at": "2023-09-12T13:51:34Z",
+      "reviews": [
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-09-12T17:55:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-12T18:12:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-12T18:19:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-12T18:20:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-12T18:22:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-09-12T18:23:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-12T18:28:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-09-12T18:31:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-12T18:35:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-09-12T18:44:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Overkillus",
+          "submitted_at": "2023-09-12T19:07:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2023-09-13T18:58:28Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 4.063611111111111,
+      "time_to_merge_hours": 20.91638888888889
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 6827,
+      "pr_title": "Introduction of Approval Slashes [Disabling Strategy Stage 4]",
+      "reviewed_at": "2025-07-11T11:31:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6827"
+    },
+    {
+      "pr_number": 8967,
+      "pr_title": "[stable2503] Post crates release adjustments",
+      "reviewed_at": "2025-06-24T15:07:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8967"
+    },
+    {
+      "pr_number": 8630,
+      "pr_title": "Broker: Introduce min price + adjust renewals to lower market.",
+      "reviewed_at": "2025-05-30T16:56:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8630"
+    },
+    {
+      "pr_number": 5724,
+      "pr_title": "Validator Re-Enabling",
+      "reviewed_at": "2025-05-23T14:52:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5724"
+    },
+    {
+      "pr_number": 8483,
+      "pr_title": "No disputes and no CandidateReceiptV2 on Kusama",
+      "reviewed_at": "2025-05-15T10:36:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8483"
+    },
+    {
+      "pr_number": 7581,
+      "pr_title": "[AHM] Moves disabling logic into pallet-session",
+      "reviewed_at": "2025-04-21T08:01:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7581"
+    },
+    {
+      "pr_number": 7936,
+      "pr_title": "[AHM] Replace Validator FullIdentification from `Exposure` to `Existence`",
+      "reviewed_at": "2025-04-09T13:30:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7936"
+    },
+    {
+      "pr_number": 7663,
+      "pr_title": "Validator disabling in session enhancements",
+      "reviewed_at": "2025-03-31T10:17:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7663"
+    },
+    {
+      "pr_number": 7939,
+      "pr_title": "[AHM] Revert multi-block election, slashing and staking client pallets",
+      "reviewed_at": "2025-03-24T14:59:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7939"
+    },
+    {
+      "pr_number": 3444,
+      "pr_title": "Statement Distribution Per Peer Rate Limit",
+      "reviewed_at": "2025-03-18T15:42:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3444"
+    },
+    {
+      "pr_number": 4880,
+      "pr_title": "Collation fetching fairness",
+      "reviewed_at": "2024-12-13T09:36:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4880"
+    },
+    {
+      "pr_number": 5847,
+      "pr_title": "`candidate-validation`: RFC103 implementation",
+      "reviewed_at": "2024-10-31T17:13:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5847"
+    },
+    {
+      "pr_number": 3940,
+      "pr_title": "Coretime: Add request revenue info",
+      "reviewed_at": "2024-08-12T14:54:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3940"
+    },
+    {
+      "pr_number": 2226,
+      "pr_title": "Implementation of the new validator disabling strategy",
+      "reviewed_at": "2024-08-05T17:55:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2226"
+    },
+    {
+      "pr_number": 4431,
+      "pr_title": "statement-distribution: prep for re-enabling",
+      "reviewed_at": "2024-06-05T14:28:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4431"
+    },
+    {
+      "pr_number": 4521,
+      "pr_title": "Broker new price adapter",
+      "reviewed_at": "2024-05-29T21:50:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4521"
+    },
+    {
+      "pr_number": 4339,
+      "pr_title": "Improve On_demand_assigner events",
+      "reviewed_at": "2024-05-28T17:36:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4339"
+    },
+    {
+      "pr_number": 2955,
+      "pr_title": "Disabling Strategy Implementers Guide",
+      "reviewed_at": "2024-05-10T12:55:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2955"
+    },
+    {
+      "pr_number": 4401,
+      "pr_title": "Update prdoc for 2226",
+      "reviewed_at": "2024-05-07T19:41:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4401"
+    },
+    {
+      "pr_number": 4172,
+      "pr_title": "Use higher priority for PVF preparation in dispute/approval context",
+      "reviewed_at": "2024-04-19T08:43:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4172"
+    },
+    {
+      "pr_number": 4083,
+      "pr_title": "Fix storage migration of `OffendingValidators`",
+      "reviewed_at": "2024-04-12T16:51:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4083"
+    },
+    {
+      "pr_number": 3358,
+      "pr_title": "do not block finality for \"disabled\" disputes",
+      "reviewed_at": "2024-02-22T11:12:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3358"
+    },
+    {
+      "pr_number": 2889,
+      "pr_title": "Filter votes from disabled validators in `BackedCandidates` in process_inherent_data",
+      "reviewed_at": "2024-01-30T23:49:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2889"
+    },
+    {
+      "pr_number": 1841,
+      "pr_title": "statement-distribution: validator disabling",
+      "reviewed_at": "2024-01-30T23:49:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1841"
+    },
+    {
+      "pr_number": 2637,
+      "pr_title": "dispute-coordinator: disabling in participation",
+      "reviewed_at": "2024-01-30T23:49:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2637"
+    },
+    {
+      "pr_number": 1863,
+      "pr_title": "Filter votes from disabled validators in `BackedCandidates` in process_inherent_data",
+      "reviewed_at": "2024-01-30T23:49:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1863"
+    },
+    {
+      "pr_number": 2764,
+      "pr_title": "backport to master: Handling of disabled validators in backing subsystem (#1259)",
+      "reviewed_at": "2024-01-08T19:58:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2764"
+    },
+    {
+      "pr_number": 2184,
+      "pr_title": "Zombienet tests - disputes on finalized blocks",
+      "reviewed_at": "2023-11-27T09:30:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/2184"
+    },
+    {
+      "pr_number": 1518,
+      "pr_title": "Inclusions struct unit tests",
+      "reviewed_at": "2023-09-13T18:58:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1518"
+    }
+  ]
+}

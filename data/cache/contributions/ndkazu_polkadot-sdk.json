@@ -1,0 +1,1715 @@
+{
+  "commits": [
+    {
+      "sha": "342f46a4e37749a749a405e6cacece9687f2a9f2",
+      "message": "Voting hook (#7703)",
+      "date": "2025-03-28T22:42:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/342f46a4e37749a749a405e6cacece9687f2a9f2"
+    },
+    {
+      "sha": "50e5dd27dc905fbe71778b00f62aad3490e47de5",
+      "message": "Remove collation-generation subsystem from validator nodes (#6832)",
+      "date": "2024-12-12T14:04:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/50e5dd27dc905fbe71778b00f62aad3490e47de5"
+    },
+    {
+      "sha": "19bc578e60d13a17f42e1ee7a960b1671985b9e4",
+      "message": "polkadot-sdk-docs: Use command_macro! (#6624)",
+      "date": "2024-12-10T11:26:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/19bc578e60d13a17f42e1ee7a960b1671985b9e4"
+    },
+    {
+      "sha": "09757a4164d44f224b44291f1e01b1e813a52220",
+      "message": " Migrate pallet-democracy benchmarks to benchmark v2 syntax (#6509)",
+      "date": "2024-11-19T19:08:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/09757a4164d44f224b44291f1e01b1e813a52220"
+    },
+    {
+      "sha": "a84f2598e1b1d0d0746e3032bd20e0a95a72d9cf",
+      "message": "Get rid of `libp2p` dependency in `sc-authority-discovery` (#5842)",
+      "date": "2024-11-13T13:08:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a84f2598e1b1d0d0746e3032bd20e0a95a72d9cf"
+    },
+    {
+      "sha": "70633959eb5ba0c61b6da57b575e0af758e3da1f",
+      "message": "Remove libp2p dependency from sc-network-sync (#4974)",
+      "date": "2024-09-18T11:38:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/70633959eb5ba0c61b6da57b575e0af758e3da1f"
+    },
+    {
+      "sha": "18ed309a37036db8429665f1e91fb24ab312e646",
+      "message": "Pallet Name Customisation (#4806)",
+      "date": "2024-07-01T20:18:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/18ed309a37036db8429665f1e91fb24ab312e646"
+    }
+  ],
+  "prs": [
+    {
+      "number": 7703,
+      "title": "Voting hook",
+      "state": "MERGED",
+      "created_at": "2025-02-25T04:08:25Z",
+      "closed_at": "2025-03-28T23:19:48Z",
+      "merged_at": "2025-03-28T23:19:48Z",
+      "merged_by": "bkchr",
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7703",
+      "ready_for_review_at": "2025-02-25T04:08:25Z",
+      "reviews": [
+        {
+          "reviewer": "AKJUS",
+          "submitted_at": "2025-03-01T05:32:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-03-14T12:03:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-03-25T21:36:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-03-25T22:02:51Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-03-26T10:04:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-03-27T16:15:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 97.39694444444444,
+      "time_to_merge_hours": 763.1897222222223
+    },
+    {
+      "number": 6994,
+      "title": "Optimistic Project Funding",
+      "state": "OPEN",
+      "created_at": "2024-12-24T12:34:05Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6994",
+      "ready_for_review_at": "2024-12-24T12:34:05Z",
+      "reviews": [
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2024-12-29T10:12:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-01-03T21:47:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-05T23:06:24Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-07T12:01:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-07T12:17:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-14T13:23:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-15T11:10:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-17T01:58:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-17T03:01:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-17T03:03:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-17T03:07:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lolmcshizz",
+          "submitted_at": "2025-02-17T18:10:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-17T21:05:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-17T21:06:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-02-17T23:53:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-07T09:06:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-07T11:29:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-07T12:18:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-07T12:27:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-07T12:37:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-09T02:04:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-09T23:20:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-20T03:39:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-21T18:24:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-21T18:24:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-22T08:54:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-26T04:39:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-26T04:43:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-26T04:50:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-26T05:41:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-26T14:46:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-26T15:16:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2025-05-26T15:25:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-29T01:37:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-29T01:44:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-05-29T01:53:55Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2025-01-20T14:45:49Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2025-02-06T02:48:31Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2025-02-20T08:42:44Z"
+        },
+        {
+          "commenter": "gui1117",
+          "commented_at": "2025-06-03T11:45:08Z"
+        },
+        {
+          "commenter": "gui1117",
+          "commented_at": "2025-06-05T09:25:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 117.64611111111111,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 6832,
+      "title": "Remove collation-generation subsystem from validator nodes",
+      "state": "MERGED",
+      "created_at": "2024-12-10T15:16:00Z",
+      "closed_at": "2024-12-12T14:46:45Z",
+      "merged_at": "2024-12-12T14:46:45Z",
+      "merged_by": "alindima",
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6832",
+      "ready_for_review_at": "2024-12-10T15:16:00Z",
+      "reviews": [
+        {
+          "reviewer": "alindima",
+          "submitted_at": "2024-12-11T11:33:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alindima",
+          "submitted_at": "2024-12-11T14:33:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "s0me0ne-unkn0wn",
+          "submitted_at": "2024-12-12T13:39:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2024-12-12T14:26:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-12-10T15:21:53Z"
+        },
+        {
+          "commenter": "alindima",
+          "commented_at": "2024-12-11T11:31:48Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-12-11T11:35:26Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-12-11T12:41:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 20.299444444444443,
+      "time_to_merge_hours": 47.5125
+    },
+    {
+      "number": 6624,
+      "title": "polkadot-sdk-docs: Use command_macro!",
+      "state": "MERGED",
+      "created_at": "2024-11-23T11:00:53Z",
+      "closed_at": "2024-12-10T12:11:18Z",
+      "merged_at": "2024-12-10T12:11:18Z",
+      "merged_by": "iulianbarbu",
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6624",
+      "ready_for_review_at": "2024-11-23T11:00:53Z",
+      "reviews": [
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2024-11-26T12:27:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2024-11-26T12:30:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-26T12:52:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-26T13:24:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2024-11-26T15:50:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-27T11:39:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-27T12:11:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2024-11-27T12:21:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2024-11-28T13:14:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-29T12:52:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2024-11-29T14:08:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "iulianbarbu",
+          "submitted_at": "2024-12-04T10:06:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2024-12-09T11:30:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "iulianbarbu",
+          "commented_at": "2024-11-25T09:58:42Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-26T05:58:17Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-28T06:16:46Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-29T16:04:06Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-12-02T15:10:05Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2024-12-09T11:07:46Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2024-12-09T11:09:19Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-12-10T04:40:45Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-12-10T21:55:43Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-12-10T21:56:11Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-12-10T21:57:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 73.43888888888888,
+      "time_to_merge_hours": 409.1736111111111
+    },
+    {
+      "number": 6509,
+      "title": " Migrate pallet-democracy benchmarks to benchmark v2 syntax",
+      "state": "MERGED",
+      "created_at": "2024-11-16T14:37:23Z",
+      "closed_at": "2024-11-19T20:00:00Z",
+      "merged_at": "2024-11-19T20:00:00Z",
+      "merged_by": "muharem",
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6509",
+      "ready_for_review_at": "2024-11-16T14:37:23Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-11-17T07:05:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2024-11-18T17:23:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2024-11-19T18:56:35Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-18T23:53:06Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-11-19T11:01:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T11:01:08Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-11-19T11:02:47Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-11-19T11:02:50Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T11:02:55Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-11-19T11:03:08Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T11:03:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T11:05:20Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-19T13:59:41Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2024-11-19T14:48:37Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T14:48:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T14:51:05Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-19T15:21:32Z"
+        },
+        {
+          "commenter": "seadanda",
+          "commented_at": "2024-11-19T16:42:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T16:42:34Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-19T17:25:23Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2024-11-29T14:19:21Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-29T14:19:27Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2024-11-29T14:29:57Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-29T15:34:36Z"
+        },
+        {
+          "commenter": "re-gius",
+          "commented_at": "2024-11-29T16:02:00Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-29T16:02:38Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2024-11-29T16:03:14Z"
+        }
+      ],
+      "time_to_first_review_hours": 16.476388888888888,
+      "time_to_merge_hours": 77.37694444444445
+    },
+    {
+      "number": 5962,
+      "title": "Remove periodic tick from `SyncingEngine`",
+      "state": "OPEN",
+      "created_at": "2024-10-08T06:24:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5962",
+      "ready_for_review_at": "2024-10-08T06:24:50Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-10-13T14:50:24Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-10-16T13:28:06Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-10-17T12:28:25Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 5842,
+      "title": "Get rid of `libp2p` dependency in `sc-authority-discovery`",
+      "state": "MERGED",
+      "created_at": "2024-09-26T01:26:08Z",
+      "closed_at": "2024-11-13T13:59:09Z",
+      "merged_at": "2024-11-13T13:59:09Z",
+      "merged_by": "dmitry-markin",
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5842",
+      "ready_for_review_at": "2024-09-26T01:26:08Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-09-26T20:20:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-10-07T21:14:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-10-07T22:51:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-10-28T14:04:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-10-28T14:14:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-02T07:37:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-02T07:52:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-11-03T18:59:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-04T12:38:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-11-08T12:50:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-09T12:56:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-11-11T07:58:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-11-11T09:26:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-11-11T09:31:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-11-11T14:44:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-11-12T08:23:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-11-12T11:07:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-28T08:46:06Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-10-01T05:20:49Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-10-01T10:29:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-10-01T10:29:07Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-10-01T10:33:00Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-10-03T06:34:21Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-10-05T09:17:37Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-10-28T14:09:06Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-05T21:21:17Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-11-08T12:19:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-08T12:19:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-11-08T12:22:38Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-11-08T12:24:40Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-12T08:28:35Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-11-12T11:08:59Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-11-13T10:28:44Z"
+        },
+        {
+          "commenter": "alvicsam",
+          "commented_at": "2024-11-13T10:57:08Z"
+        },
+        {
+          "commenter": "alvicsam",
+          "commented_at": "2024-11-13T11:01:18Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-11-13T11:01:47Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-11-13T14:25:30Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-13T14:28:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 18.91138888888889,
+      "time_to_merge_hours": 1164.5502777777779
+    },
+    {
+      "number": 5162,
+      "title": "Optimistic Project Funding",
+      "state": "CLOSED",
+      "created_at": "2024-07-27T03:25:53Z",
+      "closed_at": "2024-12-24T12:23:14Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5162",
+      "ready_for_review_at": "2024-07-27T03:25:53Z",
+      "reviews": [
+        {
+          "reviewer": "marcuspang",
+          "submitted_at": "2024-07-30T02:21:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-30T02:36:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-30T02:39:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-30T03:22:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-30T03:27:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-08T05:53:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2024-08-08T05:57:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2024-08-08T05:58:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-08T08:02:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-08T08:05:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-08T08:11:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-08T08:17:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-08T08:21:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-08T08:34:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-08T21:17:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-08T21:18:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-08T21:19:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-09T00:17:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-09T01:42:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-09T13:19:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-08-09T14:52:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-10T05:31:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mittal-parth",
+          "submitted_at": "2024-08-15T16:15:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mittal-parth",
+          "submitted_at": "2024-08-15T16:42:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-15T23:01:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "mittal-parth",
+          "submitted_at": "2024-08-16T00:21:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-16T02:29:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-16T03:38:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-23T04:04:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-08-23T04:06:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:47:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:48:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:49:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:49:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:49:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:50:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:51:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:51:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T15:56:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T16:00:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-08-26T16:16:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-27T06:22:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-29T14:51:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-08-29T14:57:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-09-20T04:28:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-09-20T04:33:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-21T13:59:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-09-21T21:01:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-22T05:46:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-09-22T08:07:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-09-25T05:31:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:17:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:17:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:21:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:27:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:29:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:30:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:30:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:31:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:31:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2024-10-25T13:31:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-10-31T14:25:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-12-13T08:06:15Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-30T03:49:17Z"
+        },
+        {
+          "commenter": "lolmcshizz",
+          "commented_at": "2024-07-30T09:29:20Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-30T11:22:10Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-08-01T01:49:40Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-08-08T05:13:17Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-09-03T08:40:22Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-10-13T15:04:30Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-10-29T08:19:38Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-11-19T01:39:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 70.92055555555555,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 4974,
+      "title": "Remove libp2p dependency from sc-network-sync",
+      "state": "MERGED",
+      "created_at": "2024-07-08T13:37:03Z",
+      "closed_at": "2024-09-18T12:27:46Z",
+      "merged_at": "2024-09-18T12:27:46Z",
+      "merged_by": "bkchr",
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4974",
+      "ready_for_review_at": "2024-07-08T13:37:03Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-07-15T22:26:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-16T10:42:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-16T11:04:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-07-16T14:35:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-07-16T14:44:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-18T08:09:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-07-24T11:55:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-07-24T13:23:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-05T09:46:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-05T09:50:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-05T15:56:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-05T23:08:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-05T23:12:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-06T17:40:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-06T17:46:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-06T17:48:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-06T17:51:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-07T05:23:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-12T14:53:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-13T04:36:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-13T04:40:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-13T04:40:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-13T04:46:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-17T14:22:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-17T14:30:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-17T14:31:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-17T14:32:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-17T14:36:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-09-17T15:57:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-09-17T15:58:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-09-17T15:59:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-09-17T16:00:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ndkazu",
+          "submitted_at": "2024-09-17T16:05:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2024-09-18T05:34:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2024-09-18T09:30:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-09-18T11:38:20Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-07-08T13:40:55Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-08T13:55:09Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-10T23:44:26Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-13T02:46:24Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-07-15T10:05:12Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-07-15T10:09:44Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-15T14:08:41Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-18T08:20:02Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-20T03:52:25Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-08-27T08:15:29Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-08-27T08:27:10Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-08-27T15:25:17Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-03T05:54:32Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2024-09-05T16:32:11Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-07T05:21:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-07T05:21:10Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-09T07:16:38Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-09T07:16:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-09T07:18:38Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-09T14:02:36Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-12T08:22:29Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-12T14:09:13Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-12T14:54:10Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-17T09:26:58Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-17T14:00:52Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-17T14:19:32Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-17T14:23:22Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-17T14:23:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-17T14:25:01Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-17T15:57:38Z"
+        },
+        {
+          "commenter": "lexnv",
+          "commented_at": "2024-09-17T16:00:58Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-17T16:01:04Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-17T16:02:37Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-17T16:55:32Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-18T00:19:21Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-18T05:14:32Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-18T05:14:37Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2024-09-18T05:16:10Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-18T05:32:49Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2024-09-18T05:36:36Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-09-18T11:33:08Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-09-18T11:38:33Z"
+        }
+      ],
+      "time_to_first_review_hours": 176.82444444444445,
+      "time_to_merge_hours": 1726.8452777777777
+    },
+    {
+      "number": 4806,
+      "title": "Pallet Name Customisation",
+      "state": "MERGED",
+      "created_at": "2024-06-17T09:21:12Z",
+      "closed_at": "2024-07-01T20:18:27Z",
+      "merged_at": "2024-07-01T20:18:27Z",
+      "merged_by": "bkchr",
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4806",
+      "ready_for_review_at": "2024-06-17T09:21:12Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-06-17T09:57:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-06-17T18:46:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-06-24T22:17:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-06-27T10:41:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-06-28T16:13:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2024-06-28T20:05:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-06-29T12:36:47Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-06-17T22:22:48Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-06-28T07:57:51Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-06-28T08:41:55Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-06-28T10:17:31Z"
+        },
+        {
+          "commenter": "ndkazu",
+          "commented_at": "2024-07-01T10:56:47Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2024-07-02T14:28:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.6063888888888889,
+      "time_to_merge_hours": 346.95416666666665
+    },
+    {
+      "number": 4719,
+      "title": "Update README.md",
+      "state": "CLOSED",
+      "created_at": "2024-06-06T09:34:53Z",
+      "closed_at": "2024-06-06T18:43:09Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ndkazu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4719",
+      "ready_for_review_at": "2024-06-06T09:34:53Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-06-06T09:34:59Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-06-06T18:43:09Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 6994,
+      "pr_title": "Optimistic Project Funding",
+      "reviewed_at": "2025-08-02T12:15:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6994"
+    },
+    {
+      "pr_number": 5735,
+      "pr_title": "pallet-conviction-voting: add voting hooks",
+      "reviewed_at": "2025-02-24T09:44:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5735"
+    },
+    {
+      "pr_number": 5162,
+      "pr_title": "Optimistic Project Funding",
+      "reviewed_at": "2024-12-24T12:23:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5162"
+    },
+    {
+      "pr_number": 6624,
+      "pr_title": "polkadot-sdk-docs: Use command_macro!",
+      "reviewed_at": "2024-12-10T21:57:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6624"
+    },
+    {
+      "pr_number": 5842,
+      "pr_title": "Get rid of `libp2p` dependency in `sc-authority-discovery`",
+      "reviewed_at": "2024-11-13T14:28:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5842"
+    },
+    {
+      "pr_number": 4974,
+      "pr_title": "Remove libp2p dependency from sc-network-sync",
+      "reviewed_at": "2024-09-18T12:27:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/4974"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "commits": [
+    {
+      "sha": "cb3ede64eeefa64a5f0e79df28272eb9814c2604",
+      "message": "chore: idiomatic rust cleanup (#8163)",
+      "date": "2025-04-08T16:13:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cb3ede64eeefa64a5f0e79df28272eb9814c2604"
+    }
+  ],
+  "prs": [
+    {
+      "number": 8163,
+      "title": "chore: idiomatic rust cleanup",
+      "state": "MERGED",
+      "created_at": "2025-04-04T17:43:54Z",
+      "closed_at": "2025-04-08T16:45:27Z",
+      "merged_at": "2025-04-08T16:45:27Z",
+      "merged_by": "ggwpez",
+      "author": "todortodorovic",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8163",
+      "ready_for_review_at": "2025-04-04T17:43:54Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-07T07:10:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2025-04-07T07:16:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-04-07T15:37:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-04-07T18:25:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-04-07T18:28:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-04-08T15:30:28Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-04-04T17:44:02Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-04-06T13:43:04Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-04-06T13:44:01Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-04-06T13:53:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 61.446666666666665,
+      "time_to_merge_hours": 95.02583333333334
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

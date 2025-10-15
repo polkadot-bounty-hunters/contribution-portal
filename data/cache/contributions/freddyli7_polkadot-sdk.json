@@ -1,0 +1,36 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 3628,
+      "title": "Simulating the sygma pallets integration process",
+      "state": "CLOSED",
+      "created_at": "2024-03-08T16:42:34Z",
+      "closed_at": "2024-03-08T16:52:10Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "freddyli7",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/3628",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2024-03-08T16:42:41Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-03-08T16:48:47Z"
+        },
+        {
+          "commenter": "freddyli7",
+          "commented_at": "2024-03-08T16:52:10Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

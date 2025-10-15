@@ -1,0 +1,13 @@
+{
+  "commits": [
+    {
+      "sha": "175072d572a4ba68716eab3ebe1ea7de1060e1f6",
+      "message": "docs: Fix broken documentation links for pallets (#13241)",
+      "date": "2023-01-28T00:16:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/175072d572a4ba68716eab3ebe1ea7de1060e1f6"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

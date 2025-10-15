@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "sha": "970354cecc0fb9c5c1e2564d61bb49e5f1bcddbc",
+      "message": "Add event testing example to pallet template (#12722)",
+      "date": "2022-11-17T15:55:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/970354cecc0fb9c5c1e2564d61bb49e5f1bcddbc"
+    },
+    {
+      "sha": "7817db4c7a6411877afbd95bbbf31555f19d9506",
+      "message": "Fix typos in release.md (#1491)",
+      "date": "2022-08-02T11:01:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7817db4c7a6411877afbd95bbbf31555f19d9506"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

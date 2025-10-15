@@ -1,0 +1,130 @@
+{
+  "commits": [
+    {
+      "sha": "386b3abb72283c2c0efacd0fd2975163b333bce6",
+      "message": "Added `subkey` to CI release process (#9466)",
+      "date": "2025-08-20T16:20:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/386b3abb72283c2c0efacd0fd2975163b333bce6"
+    },
+    {
+      "sha": "bcee8dc5ba1205628b22e1ec499988d393b7e293",
+      "message": "Added `substrate-node` and `eth-rpc` binaries into release workflow (#9393)",
+      "date": "2025-08-04T18:21:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bcee8dc5ba1205628b22e1ec499988d393b7e293"
+    },
+    {
+      "sha": "1b76f99e12e9751703417fdb58097a1860aa20b7",
+      "message": "Added `checked_sqrt` to the `FixedPointNumber` trait (#8238)",
+      "date": "2025-04-18T22:18:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1b76f99e12e9751703417fdb58097a1860aa20b7"
+    }
+  ],
+  "prs": [
+    {
+      "number": 9466,
+      "title": "Added `subkey` to CI release process",
+      "state": "MERGED",
+      "created_at": "2025-08-11T14:13:36Z",
+      "closed_at": "2025-08-20T17:01:41Z",
+      "merged_at": "2025-08-20T17:01:41Z",
+      "merged_by": "EgorPopelyaev",
+      "author": "charlesHetterich",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9466",
+      "ready_for_review_at": "2025-08-11T14:13:36Z",
+      "reviews": [
+        {
+          "reviewer": "AndWeHaveAPlan",
+          "submitted_at": "2025-08-18T16:20:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "EgorPopelyaev",
+          "submitted_at": "2025-08-20T15:05:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 170.11833333333334,
+      "time_to_merge_hours": 218.80138888888888
+    },
+    {
+      "number": 9393,
+      "title": "Added `substrate-node` and `eth-rpc` binaries into release workflow",
+      "state": "MERGED",
+      "created_at": "2025-07-30T18:10:40Z",
+      "closed_at": "2025-08-04T18:59:25Z",
+      "merged_at": "2025-08-04T18:59:25Z",
+      "merged_by": "charlesHetterich",
+      "author": "charlesHetterich",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9393",
+      "ready_for_review_at": "2025-07-30T18:10:40Z",
+      "reviews": [
+        {
+          "reviewer": "EgorPopelyaev",
+          "submitted_at": "2025-07-31T18:02:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "AndWeHaveAPlan",
+          "submitted_at": "2025-08-04T15:16:21Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 23.859444444444446,
+      "time_to_merge_hours": 120.8125
+    },
+    {
+      "number": 8238,
+      "title": "Added `checked_sqrt` to the `FixedPointNumber` trait",
+      "state": "MERGED",
+      "created_at": "2025-04-13T18:05:49Z",
+      "closed_at": "2025-04-18T22:52:29Z",
+      "merged_at": "2025-04-18T22:52:29Z",
+      "merged_by": "bkchr",
+      "author": "charlesHetterich",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8238",
+      "ready_for_review_at": "2025-04-13T18:05:49Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-14T08:39:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2025-04-16T18:54:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-17T21:39:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-04-18T20:06:10Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-04-13T18:05:57Z"
+        },
+        {
+          "commenter": "charlesHetterich",
+          "commented_at": "2025-04-13T18:13:33Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-16T19:59:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 14.56861111111111,
+      "time_to_merge_hours": 124.77777777777777
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

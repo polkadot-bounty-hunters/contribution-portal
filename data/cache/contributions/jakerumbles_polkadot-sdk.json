@@ -1,0 +1,13 @@
+{
+  "commits": [
+    {
+      "sha": "f36c3eefc01b07ef192ceb7385355dae0055b774",
+      "message": "Fix broken link to web3 foundation research (#12066)",
+      "date": "2022-08-19T08:03:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f36c3eefc01b07ef192ceb7385355dae0055b774"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

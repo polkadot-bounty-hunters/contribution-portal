@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 1631,
+      "pr_title": "Upgrade libp2p to 0.52.4",
+      "reviewed_at": "2024-06-25T18:02:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1631"
+    }
+  ]
+}
