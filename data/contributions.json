@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-14T03:05:37.410Z",
+  "generated_at": "2025-10-15T03:10:28.802Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 179,
@@ -28896,7 +28896,7 @@
                   {
                     "pr_number": 8106,
                     "pr_title": "Snowbridge V2: Add generic AggregateMessageOrigin",
-                    "reviewed_at": "2025-10-13T13:46:42Z",
+                    "reviewed_at": "2025-10-14T14:56:42Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/8106"
                   },
                   {
