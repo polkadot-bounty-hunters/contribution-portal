@@ -1,0 +1,30 @@
+{
+  "commits": [
+    {
+      "sha": "2c684e4ddfe2c901e6639f8969c6ae83ea0fa6ac",
+      "message": "remove deprecated remove_prefix to clear era_info (#13460)",
+      "date": "2023-05-16T16:39:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/2c684e4ddfe2c901e6639f8969c6ae83ea0fa6ac"
+    }
+  ],
+  "prs": [
+    {
+      "number": 6852,
+      "title": "refactor(contracts): Keep only `ContractEmitted` event for Ethereum logs",
+      "state": "CLOSED",
+      "created_at": "2024-12-12T01:25:48Z",
+      "closed_at": "2025-02-08T20:41:36Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "surajk-m",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6852",
+      "ready_for_review_at": "2024-12-12T01:25:48Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}
