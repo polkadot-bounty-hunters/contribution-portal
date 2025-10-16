@@ -1,0 +1,44 @@
+{
+  "commits": [
+    {
+      "sha": "17538a854dff0dc7b9dbe95f6227de2a8f02119b",
+      "message": "Contracts-rococo: Update migration (#2763)",
+      "date": "2023-06-22T17:50:32Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/17538a854dff0dc7b9dbe95f6227de2a8f02119b"
+    },
+    {
+      "sha": "35a2194c9e2f5d476e662712003f487613837c3e",
+      "message": "Contracts: Use RuntimeUpgrade hooks instead of Hooks::on_runtime_upgrade (#2570)",
+      "date": "2023-06-05T11:56:55Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/35a2194c9e2f5d476e662712003f487613837c3e"
+    },
+    {
+      "sha": "e80a43494607dccda1d11de255a5460803130e19",
+      "message": "Companion PR for contract deletion updates (#2409)",
+      "date": "2023-03-31T11:29:44Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e80a43494607dccda1d11de255a5460803130e19"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 857,
+      "pr_title": "Bump unstable2507 + revive MBM migration",
+      "reviewed_at": "2025-08-20T13:18:12Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/857"
+    },
+    {
+      "pr_number": 817,
+      "pr_title": "Upgrade to Polkadot-SDK `stable2506`",
+      "reviewed_at": "2025-08-07T11:09:02Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/817"
+    },
+    {
+      "pr_number": 755,
+      "pr_title": "Add `pallet_revive` to Kusama AssetHub",
+      "reviewed_at": "2025-06-12T23:52:28Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/755"
+    }
+  ]
+}

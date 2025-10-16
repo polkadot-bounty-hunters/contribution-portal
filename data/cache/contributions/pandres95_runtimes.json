@@ -1,0 +1,1686 @@
+{
+  "commits": [
+    {
+      "sha": "aec53763f3d7ab42a0bbfef9aef5308b148cbc2e",
+      "message": "Upgrade polkadot sdk to `stable2412-4` (#606)",
+      "date": "2025-04-16T18:42:32Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/aec53763f3d7ab42a0bbfef9aef5308b148cbc2e"
+    },
+    {
+      "sha": "aac8c021fe5314f7af8905f25d992ed514d093ec",
+      "message": "chore: update to `stable2409-4` (#568)",
+      "date": "2025-01-30T19:03:45Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/aac8c021fe5314f7af8905f25d992ed514d093ec"
+    },
+    {
+      "sha": "700417ad788f77644956a818a4271feecae7f024",
+      "message": "Add dynamic `BurnParameters` for Kusama Treasury (#511)",
+      "date": "2025-01-14T21:55:36Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/700417ad788f77644956a818a4271feecae7f024"
+    },
+    {
+      "sha": "7b096c14c2b16cc81ca4e2188eea9103f120b7a4",
+      "message": "Update to SDK `stable2409-1` (#490)",
+      "date": "2024-12-12T04:29:40Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/7b096c14c2b16cc81ca4e2188eea9103f120b7a4"
+    },
+    {
+      "sha": "c08d8caf4f89c47a80779c903e54176bbe339d30",
+      "message": "Allow Sending XCM messages using a Signed origin on Kusama (#290)",
+      "date": "2024-05-17T14:23:15Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/c08d8caf4f89c47a80779c903e54176bbe339d30"
+    }
+  ],
+  "prs": [
+    {
+      "number": 951,
+      "title": "Upgrade to `stable2509`",
+      "state": "OPEN",
+      "created_at": "2025-10-09T15:25:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pandres95",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/951",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "clangenb",
+          "commented_at": "2025-10-13T13:07:02Z"
+        },
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2025-10-13T13:16:52Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 606,
+      "title": "Upgrade polkadot sdk to `stable2412-4` (rel. `1.5.0`)",
+      "state": "MERGED",
+      "created_at": "2025-02-25T07:00:11Z",
+      "closed_at": "2025-04-16T18:42:32Z",
+      "merged_at": "2025-04-16T18:42:32Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "pandres95",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/606",
+      "ready_for_review_at": "2025-02-25T07:00:11Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-02-26T12:22:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-02-26T12:23:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-02-26T12:23:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-02-26T12:28:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-02-26T12:30:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-02-26T12:34:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-26T14:52:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-26T14:53:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-02-26T15:06:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-26T16:20:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-26T16:22:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-26T16:22:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-26T16:23:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-02-26T16:24:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2025-02-26T17:52:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "clangenb",
+          "submitted_at": "2025-03-01T11:42:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-03-01T17:17:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2025-03-04T11:04:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alindima",
+          "submitted_at": "2025-03-06T08:26:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alindima",
+          "submitted_at": "2025-03-06T08:27:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-03-06T21:22:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-03-06T21:26:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-03-11T03:20:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-03-11T05:04:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-03-18T07:43:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-03-19T07:46:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-03-19T13:28:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-03-19T13:29:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-03-19T13:34:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-03-31T11:24:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2025-04-03T10:38:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-04T12:16:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-04T13:27:28Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T15:36:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T15:46:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T15:47:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T15:48:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T15:58:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T15:58:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T15:58:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:05:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:07:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:07:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:08:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:08:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:08:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:08:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:09:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:09:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:09:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:09:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:17:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:18:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:18:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T16:23:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-04T16:41:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-04T16:45:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T20:50:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-04T20:56:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2025-04-07T02:38:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-07T16:23:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-04-07T16:40:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-07T17:16:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-08T08:35:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-08T14:06:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-08T21:14:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-04-11T08:38:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-11T09:46:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2025-04-11T10:06:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-16T11:30:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-04-16T11:35:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-16T11:43:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-04-16T11:55:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-04-16T16:46:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-04-16T18:00:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-04-16T18:32:13Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "clangenb",
+          "commented_at": "2025-02-25T07:49:09Z"
+        },
+        {
+          "commenter": "clangenb",
+          "commented_at": "2025-02-25T14:30:09Z"
+        },
+        {
+          "commenter": "seadanda",
+          "commented_at": "2025-02-25T17:22:34Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-02-26T17:20:11Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-02-26T19:48:18Z"
+        },
+        {
+          "commenter": "sandreim",
+          "commented_at": "2025-02-27T09:08:25Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-03-12T10:13:05Z"
+        },
+        {
+          "commenter": "sandreim",
+          "commented_at": "2025-03-24T10:35:15Z"
+        },
+        {
+          "commenter": "sandreim",
+          "commented_at": "2025-03-31T09:42:30Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-04-04T07:57:14Z"
+        },
+        {
+          "commenter": "eskimor",
+          "commented_at": "2025-04-04T11:16:19Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-04-04T14:06:17Z"
+        },
+        {
+          "commenter": "sandreim",
+          "commented_at": "2025-04-04T14:19:40Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-04-04T20:23:11Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-04-04T21:05:20Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2025-04-05T07:12:32Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-04-05T18:16:38Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2025-04-07T21:09:34Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-04-08T08:29:01Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2025-04-08T09:47:39Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2025-04-08T10:05:53Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-08T11:52:55Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-08T13:27:34Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-08T13:59:23Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-08T13:59:36Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-08T15:00:07Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-08T15:56:37Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-08T16:11:01Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-09T07:43:12Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2025-04-09T07:57:11Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-04-11T09:47:05Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-16T11:15:06Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-16T14:27:06Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-16T16:56:45Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-04-16T18:35:25Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-04-16T18:41:40Z"
+        },
+        {
+          "commenter": "pepoviola",
+          "commented_at": "2025-04-16T21:32:34Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-17T08:41:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 29.364166666666666,
+      "time_to_merge_hours": 1211.7058333333334
+    },
+    {
+      "number": 568,
+      "title": "chore: update to `stable2409-4`",
+      "state": "MERGED",
+      "created_at": "2025-01-30T03:03:18Z",
+      "closed_at": "2025-01-30T19:03:46Z",
+      "merged_at": "2025-01-30T19:03:46Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "pandres95",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/568",
+      "ready_for_review_at": "2025-01-30T03:03:18Z",
+      "reviews": [
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-01-30T05:14:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-01-30T08:29:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-01-30T08:44:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2025-01-30T14:49:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-01-30T15:34:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-01-30T15:37:18Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "carlosala",
+          "commented_at": "2025-01-30T09:52:50Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-01-30T12:51:05Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-01-30T14:59:49Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-01-30T15:30:11Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.1816666666666666,
+      "time_to_merge_hours": 16.00777777777778
+    },
+    {
+      "number": 511,
+      "title": "Add dynamic `BurnParameters` for Kusama Treasury",
+      "state": "MERGED",
+      "created_at": "2024-12-17T02:14:32Z",
+      "closed_at": "2025-01-14T21:55:36Z",
+      "merged_at": "2025-01-14T21:55:36Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "pandres95",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/511",
+      "ready_for_review_at": "2024-12-17T02:14:32Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-01-13T14:56:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-01-14T09:06:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2025-01-14T20:31:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-01-14T21:53:35Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-01-14T05:14:19Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-01-14T13:55:17Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2025-01-14T21:53:47Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-01-14T21:55:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 660.695,
+      "time_to_merge_hours": 691.6844444444445
+    },
+    {
+      "number": 490,
+      "title": "Update to SDK `stable2409-1`",
+      "state": "MERGED",
+      "created_at": "2024-10-19T17:06:02Z",
+      "closed_at": "2024-12-12T04:29:41Z",
+      "merged_at": "2024-12-12T04:29:40Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "pandres95",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/490",
+      "ready_for_review_at": "2024-10-19T17:06:02Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-10-21T07:40:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2024-10-21T08:33:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-10-21T08:49:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-10-23T04:04:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-10-23T08:49:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-10-25T20:15:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-10-25T20:22:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-10-25T20:30:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-10-25T20:45:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-10-28T08:26:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-10-28T08:39:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-10-28T08:48:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-10-28T08:49:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-10-28T08:51:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-10-28T13:05:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-10-28T18:08:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-10-28T19:15:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-10-28T20:05:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-10-29T15:03:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "claravanstaden",
+          "submitted_at": "2024-11-01T07:38:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2024-11-04T07:57:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-11-06T20:11:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-11-07T02:04:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-11-18T12:41:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2024-11-18T19:47:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2024-11-19T09:33:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-11-19T11:24:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2024-11-19T18:44:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T09:20:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T09:41:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T09:52:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T10:22:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T15:21:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T15:21:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T15:22:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T15:24:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2024-11-20T15:25:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-11-22T03:24:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-11-22T03:26:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2024-11-22T03:26:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2024-12-04T11:00:34Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "clangenb",
+          "commented_at": "2024-10-21T07:38:52Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-10-21T07:38:53Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-10-21T07:45:01Z"
+        },
+        {
+          "commenter": "clangenb",
+          "commented_at": "2024-10-21T10:49:58Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-10-21T12:12:57Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-10-23T03:00:36Z"
+        },
+        {
+          "commenter": "clangenb",
+          "commented_at": "2024-10-23T07:04:15Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-10-23T18:00:05Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-10-24T20:44:17Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-10-25T15:13:10Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-10-26T19:07:57Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-10-26T19:35:11Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-10-26T19:35:25Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-10-28T08:12:29Z"
+        },
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2024-10-28T10:26:28Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-10-28T12:18:33Z"
+        },
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2024-10-28T18:15:13Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-10-29T08:58:36Z"
+        },
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2024-10-29T10:30:05Z"
+        },
+        {
+          "commenter": "claravanstaden",
+          "commented_at": "2024-10-29T12:41:42Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-10-29T14:45:35Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-10-29T15:29:22Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-11-03T22:59:12Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2024-11-05T15:06:13Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-11-05T21:30:36Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-11-06T16:33:15Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-11-06T16:35:43Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-11-06T16:35:59Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-11-06T18:52:28Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-11-06T18:54:35Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-11-07T02:06:29Z"
+        },
+        {
+          "commenter": "anaelleltd",
+          "commented_at": "2024-11-20T00:07:29Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-12-08T20:54:44Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-12-09T04:11:21Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-12-09T05:14:12Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2024-12-12T04:27:54Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-12-12T04:29:42Z"
+        }
+      ],
+      "time_to_first_review_hours": 38.58027777777778,
+      "time_to_merge_hours": 1283.3938888888888
+    },
+    {
+      "number": 290,
+      "title": "Allow Sending XCM messages using a Signed origin on Kusama",
+      "state": "MERGED",
+      "created_at": "2024-04-26T05:38:05Z",
+      "closed_at": "2024-05-17T14:23:15Z",
+      "merged_at": "2024-05-17T14:23:15Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "pandres95",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/290",
+      "ready_for_review_at": "2024-04-26T05:38:05Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-05-09T14:40:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-05-17T12:25:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2024-05-17T12:32:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2024-05-09T14:41:20Z"
+        },
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2024-05-17T12:43:38Z"
+        },
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2024-05-17T12:51:54Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:54:37Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:54:58Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:54:59Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:55:16Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:55:17Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:55:35Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:55:39Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:55:53Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:55:58Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:56:12Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:56:21Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:56:31Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:56:41Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:56:49Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:57:00Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:57:08Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:57:19Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:57:27Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:57:39Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:57:47Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:57:58Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:58:06Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:58:16Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:58:24Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:58:35Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:58:43Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:58:54Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:59:03Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:59:12Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:59:23Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:59:31Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:59:42Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T12:59:50Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:00:04Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:00:12Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:00:25Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:00:31Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:00:47Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:00:50Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2024-05-17T13:00:56Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:01:06Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:01:08Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:01:24Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:01:27Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:01:44Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:01:45Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:04Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:05Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:14Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:23Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:27Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:35Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:37Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:44Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:47Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:55Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:02:57Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:04Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:08Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:13Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:15Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:24Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:28Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:32Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:38Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:44Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:46Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:52Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:03:59Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:02Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:05Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:14Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:22Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:23Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:25Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:35Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:43Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:43Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:46Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:04:55Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:01Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:03Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:05Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:16Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:20Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:21Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:24Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:39Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:39Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:41Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:41Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:05:58Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:06:01Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:06:01Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:06:02Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:06:17Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-17T13:06:19Z"
+        }
+      ],
+      "time_to_first_review_hours": 321.0441666666667,
+      "time_to_merge_hours": 512.7527777777777
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 736,
+      "pr_title": "Ambassador Configurations",
+      "reviewed_at": "2025-10-14T13:41:11Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/736"
+    },
+    {
+      "pr_number": 877,
+      "pr_title": "[AHM] OpenGov for Kusama AH",
+      "reviewed_at": "2025-09-04T21:24:55Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/877"
+    },
+    {
+      "pr_number": 871,
+      "pr_title": "Release 1.6.2 (Polkadot only)",
+      "reviewed_at": "2025-08-29T05:44:20Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/871"
+    },
+    {
+      "pr_number": 870,
+      "pr_title": "Release 1.7.1",
+      "reviewed_at": "2025-08-28T15:06:09Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/870"
+    },
+    {
+      "pr_number": 679,
+      "pr_title": "[Encointer] use XCM V5 to remotely spend funds from encointer treasury accounts on AHK",
+      "reviewed_at": "2025-08-27T07:27:05Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/679"
+    },
+    {
+      "pr_number": 806,
+      "pr_title": "Add pallet BlackHole to Kusama AssetHub following WFC #539",
+      "reviewed_at": "2025-08-25T11:53:30Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/806"
+    },
+    {
+      "pr_number": 799,
+      "pr_title": "Integrate \"Empowered XCM Origins\" features to System Chains",
+      "reviewed_at": "2025-07-30T16:49:43Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/799"
+    },
+    {
+      "pr_number": 574,
+      "pr_title": "Update rust and use stable for benches",
+      "reviewed_at": "2025-07-23T08:18:52Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/574"
+    },
+    {
+      "pr_number": 586,
+      "pr_title": "Update `get-fellows-action` everywhere",
+      "reviewed_at": "2025-07-23T08:18:49Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/586"
+    },
+    {
+      "pr_number": 783,
+      "pr_title": "System chains governace authorizes upgrade tests",
+      "reviewed_at": "2025-07-11T06:56:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/783"
+    },
+    {
+      "pr_number": 753,
+      "pr_title": "Upgrade Polkadot and Kusama to XCM v5",
+      "reviewed_at": "2025-07-10T23:51:38Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/753"
+    },
+    {
+      "pr_number": 794,
+      "pr_title": "XCMv5 trusted aliasers for bridging with origin preservation",
+      "reviewed_at": "2025-07-07T15:26:22Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/794"
+    },
+    {
+      "pr_number": 730,
+      "pr_title": "Snowbridge: Remove `snowbridge-pallet-system::NativeToForeignId` ",
+      "reviewed_at": "2025-07-03T10:53:40Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/730"
+    },
+    {
+      "pr_number": 606,
+      "pr_title": "Upgrade polkadot sdk to `stable2412-4` (rel. `1.5.0`)",
+      "reviewed_at": "2025-05-06T17:52:10Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/606"
+    },
+    {
+      "pr_number": 703,
+      "pr_title": "Let \"/cmd bench\" accept \":\" for \"pallet_xcm_benchmarks::generic\"",
+      "reviewed_at": "2025-05-01T08:36:57Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/703"
+    },
+    {
+      "pr_number": 683,
+      "pr_title": "Release 1.5.0",
+      "reviewed_at": "2025-04-29T10:42:16Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/683"
+    },
+    {
+      "pr_number": 535,
+      "pr_title": "Add remote proxy support to AH Kusama",
+      "reviewed_at": "2025-03-17T14:30:30Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/535"
+    },
+    {
+      "pr_number": 576,
+      "pr_title": "Add xcm recorder to all runtimes",
+      "reviewed_at": "2025-03-11T14:46:32Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/576"
+    },
+    {
+      "pr_number": 522,
+      "pr_title": "Fresh weights for stable2409 + fixes",
+      "reviewed_at": "2025-03-03T12:10:59Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/522"
+    },
+    {
+      "pr_number": 490,
+      "pr_title": "Update to SDK `stable2409-1`",
+      "reviewed_at": "2025-03-01T07:07:05Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/490"
+    },
+    {
+      "pr_number": 511,
+      "pr_title": "Add dynamic `BurnParameters` for Kusama Treasury",
+      "reviewed_at": "2025-01-14T22:31:21Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/511"
+    },
+    {
+      "pr_number": 508,
+      "pr_title": "[encointer] fix missing hook for enactment of proposals",
+      "reviewed_at": "2024-12-18T14:50:19Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/508"
+    },
+    {
+      "pr_number": 472,
+      "pr_title": "Update foreign asset ids from v3 to v4",
+      "reviewed_at": "2024-10-24T19:38:30Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/472"
+    },
+    {
+      "pr_number": 421,
+      "pr_title": "Asset Hubs: allow Polkadot, Kusama and Ethereum assets across P<>K bridge",
+      "reviewed_at": "2024-10-02T12:50:41Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/421"
+    },
+    {
+      "pr_number": 435,
+      "pr_title": "Bridges inegration testing script nit - externalize `polakdot-sdk` path",
+      "reviewed_at": "2024-08-16T07:05:15Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/435"
+    }
+  ]
+}

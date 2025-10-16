@@ -1,0 +1,128 @@
+{
+  "commits": [
+    {
+      "sha": "faeed2895ad8f275c7f06075ea17269459605087",
+      "message": "Change license of node-template and FRAME examples to MIT-0 (#13465)",
+      "date": "2023-03-27T20:36:20Z",
+      "url": "https://github.com/paritytech/substrate/commit/faeed2895ad8f275c7f06075ea17269459605087"
+    },
+    {
+      "sha": "8f0414c761486eb6cea2a091ebdb3d3efbdebb9b",
+      "message": "Update pallet licenses to Apache-2.0 (#13467)",
+      "date": "2023-03-27T14:03:04Z",
+      "url": "https://github.com/paritytech/substrate/commit/8f0414c761486eb6cea2a091ebdb3d3efbdebb9b"
+    }
+  ],
+  "prs": [
+    {
+      "number": 13467,
+      "title": "Update pallet licenses to Apache-2.0 from Unlicense",
+      "state": "MERGED",
+      "created_at": "2023-02-24T15:55:32Z",
+      "closed_at": "2023-03-27T14:03:05Z",
+      "merged_at": "2023-03-27T14:03:05Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "aaronbassett",
+      "url": "https://github.com/paritytech/substrate/pull/13467",
+      "ready_for_review_at": "2023-02-24T15:55:32Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-24T15:59:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-27T14:01:05Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-03-26T17:42:50Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-03-27T14:02:09Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-27T14:02:24Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-27T14:03:18Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.07305555555555555,
+      "time_to_merge_hours": 742.1258333333334
+    },
+    {
+      "number": 13465,
+      "title": "Change license of node-template and FRAME examples to MIT-0",
+      "state": "MERGED",
+      "created_at": "2023-02-24T15:29:34Z",
+      "closed_at": "2023-03-27T20:36:21Z",
+      "merged_at": "2023-03-27T20:36:21Z",
+      "merged_by": "bkchr",
+      "author": "aaronbassett",
+      "url": "https://github.com/paritytech/substrate/pull/13465",
+      "ready_for_review_at": "2023-02-24T15:29:34Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-28T22:47:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-01T10:25:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-27T14:04:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-24T16:12:17Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-03-27T14:09:01Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-27T14:09:26Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-27T14:18:23Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-03-27T14:20:17Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-27T14:21:22Z"
+        }
+      ],
+      "time_to_first_review_hours": 103.29333333333334,
+      "time_to_merge_hours": 749.1130555555555
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14588,
+      "pr_title": "[fix lint warnings: Uniques pallet] fix clippy::missing_errors_doc lint warnings",
+      "reviewed_at": "2024-01-30T23:48:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/14588"
+    }
+  ]
+}

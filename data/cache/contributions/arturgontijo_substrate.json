@@ -1,0 +1,119 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 12411,
+      "title": "[pallet-proxy] Making (height, ext_index) optional in kill_pure()",
+      "state": "CLOSED",
+      "created_at": "2022-10-04T00:10:14Z",
+      "closed_at": "2022-10-07T20:03:45Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "arturgontijo",
+      "url": "https://github.com/paritytech/substrate/pull/12411",
+      "ready_for_review_at": "2022-10-04T00:10:14Z",
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2022-10-04T01:02:51Z",
+          "state": "CHANGES_REQUESTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "arturgontijo",
+          "commented_at": "2022-10-04T11:18:40Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-05T11:48:38Z"
+        },
+        {
+          "commenter": "arturgontijo",
+          "commented_at": "2022-10-07T20:03:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.8769444444444444,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11776,
+      "title": "[WIP][Society] Adding benchmarking to the v2.",
+      "state": "MERGED",
+      "created_at": "2022-07-05T00:43:48Z",
+      "closed_at": "2022-12-03T16:46:31Z",
+      "merged_at": "2022-12-03T16:46:31Z",
+      "merged_by": "gavofyork",
+      "author": "arturgontijo",
+      "url": "https://github.com/paritytech/substrate/pull/11776",
+      "ready_for_review_at": "2022-07-05T00:43:48Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-10T13:33:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-10T13:34:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-10T13:35:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-10T13:38:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-10T13:40:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "arturgontijo",
+          "submitted_at": "2022-07-11T18:51:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "arturgontijo",
+          "submitted_at": "2022-07-11T18:52:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2022-12-03T16:46:22Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-08-31T01:35:58Z"
+        },
+        {
+          "commenter": "arturgontijo",
+          "commented_at": "2022-09-13T16:30:24Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-10-13T23:44:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 132.83583333333334,
+      "time_to_merge_hours": 3640.0452777777778
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 11776,
+      "pr_title": "[WIP][Society] Adding benchmarking to the v2.",
+      "reviewed_at": "2022-12-03T16:49:08Z",
+      "url": "https://github.com/paritytech/substrate/pull/11776"
+    }
+  ]
+}

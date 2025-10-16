@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 12569,
+      "pr_title": "Fix fungible unbalanced trait",
+      "reviewed_at": "2022-11-02T09:56:48Z",
+      "url": "https://github.com/paritytech/substrate/pull/12569"
+    }
+  ]
+}

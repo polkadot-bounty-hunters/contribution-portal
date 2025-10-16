@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 1842,
+      "pr_title": "Backports release v0.9.32",
+      "reviewed_at": "2022-11-14T10:54:22Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1842"
+    }
+  ]
+}

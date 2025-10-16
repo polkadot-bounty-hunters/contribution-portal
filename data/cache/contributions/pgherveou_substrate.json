@@ -1,0 +1,3533 @@
+{
+  "commits": [
+    {
+      "sha": "bdee5190ff86cdf251278f0e5cf5205cbf8f79fb",
+      "message": "Contracts: Update Config::Debug (#14789)",
+      "date": "2023-08-24T07:56:28Z",
+      "url": "https://github.com/paritytech/substrate/commit/bdee5190ff86cdf251278f0e5cf5205cbf8f79fb"
+    },
+    {
+      "sha": "0cdf7029017b70b7c83c21a4dc0aa1020e7914f6",
+      "message": "Contracts: expose charge_storage to chain_extension (#14712)",
+      "date": "2023-08-17T13:37:53Z",
+      "url": "https://github.com/paritytech/substrate/commit/0cdf7029017b70b7c83c21a4dc0aa1020e7914f6"
+    },
+    {
+      "sha": "eb80c4e3b81db9c0a2312dadcc20e007f9aa9c00",
+      "message": "Contracts: Ensure latest migration match pallet_version (#14676)",
+      "date": "2023-07-31T14:48:53Z",
+      "url": "https://github.com/paritytech/substrate/commit/eb80c4e3b81db9c0a2312dadcc20e007f9aa9c00"
+    },
+    {
+      "sha": "868c41635612eea75195bf706fc1580ae8ced0c8",
+      "message": "Contracts Rollback StorageMap hashing migration (#14661)",
+      "date": "2023-07-28T10:08:26Z",
+      "url": "https://github.com/paritytech/substrate/commit/868c41635612eea75195bf706fc1580ae8ced0c8"
+    },
+    {
+      "sha": "9780579c234f8de633294679bce4821f3783db6e",
+      "message": "Contracts Add deposit for dependencies (#14079)",
+      "date": "2023-07-26T12:09:02Z",
+      "url": "https://github.com/paritytech/substrate/commit/9780579c234f8de633294679bce4821f3783db6e"
+    },
+    {
+      "sha": "aacf4160c5b637e2b9a5cdea50feed782c369ab2",
+      "message": "Contracts: Enabled signed extension (#14565)",
+      "date": "2023-07-21T11:39:40Z",
+      "url": "https://github.com/paritytech/substrate/commit/aacf4160c5b637e2b9a5cdea50feed782c369ab2"
+    },
+    {
+      "sha": "713e34ae960d122519093c9015f64c4afd74aa53",
+      "message": "Contracts: Tweak test (#14579)",
+      "date": "2023-07-20T16:43:35Z",
+      "url": "https://github.com/paritytech/substrate/commit/713e34ae960d122519093c9015f64c4afd74aa53"
+    },
+    {
+      "sha": "74ae05142849bdf2a816df38e80f419741b10dc6",
+      "message": "Contracts add code_len to ContractsInfo (#14523)",
+      "date": "2023-07-14T12:49:47Z",
+      "url": "https://github.com/paritytech/substrate/commit/74ae05142849bdf2a816df38e80f419741b10dc6"
+    },
+    {
+      "sha": "ebe8dcd3be6583faea1ca0b38441a39e2e02ce23",
+      "message": "quick updates (#14557)",
+      "date": "2023-07-12T08:59:01Z",
+      "url": "https://github.com/paritytech/substrate/commit/ebe8dcd3be6583faea1ca0b38441a39e2e02ce23"
+    },
+    {
+      "sha": "b9cbb0f4281ba20bd50eab5256230c1586f50c5f",
+      "message": "Contracts rename v9 to v09 (#14533)",
+      "date": "2023-07-12T08:33:22Z",
+      "url": "https://github.com/paritytech/substrate/commit/b9cbb0f4281ba20bd50eab5256230c1586f50c5f"
+    },
+    {
+      "sha": "7aacdf1755e63ba2b1aa3ace65aea063db421230",
+      "message": "contracts: Refactor instantiate with code (#14503)",
+      "date": "2023-07-07T13:46:16Z",
+      "url": "https://github.com/paritytech/substrate/commit/7aacdf1755e63ba2b1aa3ace65aea063db421230"
+    },
+    {
+      "sha": "8bf628dd250b085380c7c618383b6f72c10e4f79",
+      "message": "Update contract multi-block migration (#14313)",
+      "date": "2023-06-20T13:16:28Z",
+      "url": "https://github.com/paritytech/substrate/commit/8bf628dd250b085380c7c618383b6f72c10e4f79"
+    },
+    {
+      "sha": "28f56b6938f8a5be7bc7d6b94cba5a919b59545d",
+      "message": "frame-support Add translate_next (#14043)",
+      "date": "2023-06-02T14:11:11Z",
+      "url": "https://github.com/paritytech/substrate/commit/28f56b6938f8a5be7bc7d6b94cba5a919b59545d"
+    },
+    {
+      "sha": "7f1861e390766e76f4bf1ef76b8c0bf25c78a386",
+      "message": "contracts: Multi block migrations (#14045)",
+      "date": "2023-05-31T14:19:31Z",
+      "url": "https://github.com/paritytech/substrate/commit/7f1861e390766e76f4bf1ef76b8c0bf25c78a386"
+    },
+    {
+      "sha": "0dff96ee91462956ea0020bc62e74ee85c90813e",
+      "message": "Add non_camel_case_types for storage_alias (#14104)",
+      "date": "2023-05-09T15:24:41Z",
+      "url": "https://github.com/paritytech/substrate/commit/0dff96ee91462956ea0020bc62e74ee85c90813e"
+    },
+    {
+      "sha": "bc8f2db2cca2bac2d780569050c9ba4d751be45c",
+      "message": "Contracts: runtime_call and storage_deposit (#13990)",
+      "date": "2023-04-29T16:07:55Z",
+      "url": "https://github.com/paritytech/substrate/commit/bc8f2db2cca2bac2d780569050c9ba4d751be45c"
+    },
+    {
+      "sha": "d5d63e9b7f624de321032a033675387a73a66646",
+      "message": "contracts Fix store-call test path (#14028)",
+      "date": "2023-04-27T10:01:12Z",
+      "url": "https://github.com/paritytech/substrate/commit/d5d63e9b7f624de321032a033675387a73a66646"
+    },
+    {
+      "sha": "2e7e628ecdf96d279c4c3d5d1aea0dd55a02012e",
+      "message": "contracts Add storage_deposit test (#14003)",
+      "date": "2023-04-27T06:23:01Z",
+      "url": "https://github.com/paritytech/substrate/commit/2e7e628ecdf96d279c4c3d5d1aea0dd55a02012e"
+    },
+    {
+      "sha": "8cb72571798a0d2d9ad089ba977c310ddb2b5c11",
+      "message": "contracts Add LOG_TARGET constant (#14002)",
+      "date": "2023-04-25T11:46:20Z",
+      "url": "https://github.com/paritytech/substrate/commit/8cb72571798a0d2d9ad089ba977c310ddb2b5c11"
+    },
+    {
+      "sha": "35d04fb506b00128739b5bead363f0ca651a4ff3",
+      "message": "Update macro use and optimize storage collection (#13970)",
+      "date": "2023-04-21T15:24:12Z",
+      "url": "https://github.com/paritytech/substrate/commit/35d04fb506b00128739b5bead363f0ca651a4ff3"
+    },
+    {
+      "sha": "b4f857e14768ebdffe0993886e397c54387b90ee",
+      "message": "contracts: add sr25519_verify (#13724)",
+      "date": "2023-04-12T14:49:10Z",
+      "url": "https://github.com/paritytech/substrate/commit/b4f857e14768ebdffe0993886e397c54387b90ee"
+    },
+    {
+      "sha": "75dee3c6fc72f6399a43f498e0e42f94fb82a7bd",
+      "message": "contracts: make test work with debugger (#13776)",
+      "date": "2023-03-31T17:44:29Z",
+      "url": "https://github.com/paritytech/substrate/commit/75dee3c6fc72f6399a43f498e0e42f94fb82a7bd"
+    },
+    {
+      "sha": "de4cca40b5da41e76c111c66229521f1052ea298",
+      "message": "[Contracts] Overflowing bounded `DeletionQueue` allows DoS against contract termination (#13702)",
+      "date": "2023-03-31T11:03:56Z",
+      "url": "https://github.com/paritytech/substrate/commit/de4cca40b5da41e76c111c66229521f1052ea298"
+    },
+    {
+      "sha": "f2c12fd68a0d225864baec488136a2334070d712",
+      "message": "contracts: Add host function tracing (#13648)",
+      "date": "2023-03-27T17:33:59Z",
+      "url": "https://github.com/paritytech/substrate/commit/f2c12fd68a0d225864baec488136a2334070d712"
+    },
+    {
+      "sha": "29466db4b711730f5fa95f3fe1f289871b2c7c5c",
+      "message": "Add linguist-generated to gitattributes (#13628)",
+      "date": "2023-03-18T07:44:46Z",
+      "url": "https://github.com/paritytech/substrate/commit/29466db4b711730f5fa95f3fe1f289871b2c7c5c"
+    },
+    {
+      "sha": "d574cb75ce70148f5e082201beaef24b5a00741e",
+      "message": "contracts: Refactor `trait Ext::*_storage_transparent` functions (#13600)",
+      "date": "2023-03-17T22:17:21Z",
+      "url": "https://github.com/paritytech/substrate/commit/d574cb75ce70148f5e082201beaef24b5a00741e"
+    },
+    {
+      "sha": "acdbf010f5c81497edfe65377a46ba0d6e50baa5",
+      "message": "Fix typos in pallet-contracts (#13629)",
+      "date": "2023-03-17T15:31:51Z",
+      "url": "https://github.com/paritytech/substrate/commit/acdbf010f5c81497edfe65377a46ba0d6e50baa5"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14789,
+      "title": "Contracts: Update Config::Debug",
+      "state": "MERGED",
+      "created_at": "2023-08-18T16:19:46Z",
+      "closed_at": "2023-08-24T07:56:29Z",
+      "merged_at": "2023-08-24T07:56:29Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14789",
+      "ready_for_review_at": "2023-08-18T16:19:46Z",
+      "reviews": [
+        {
+          "reviewer": "pmikolajczyk41",
+          "submitted_at": "2023-08-21T07:41:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-21T10:14:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-22T15:29:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-22T15:38:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-23T10:16:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-23T11:53:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alvicsam",
+          "submitted_at": "2023-08-23T13:52:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-23T14:57:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sergejparity",
+          "submitted_at": "2023-08-24T07:48:55Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "athei",
+          "commented_at": "2023-08-21T07:42:21Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-08-21T08:09:34Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-08-21T08:41:26Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-08-21T10:16:31Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-08-23T12:35:39Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-08-23T12:56:24Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-08-23T13:56:09Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-23T13:56:18Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-08-24T07:56:19Z"
+        }
+      ],
+      "time_to_first_review_hours": 63.364444444444445,
+      "time_to_merge_hours": 135.61194444444445
+    },
+    {
+      "number": 14712,
+      "title": "Contracts: expose charge_storage to chain_extension",
+      "state": "MERGED",
+      "created_at": "2023-08-04T13:52:07Z",
+      "closed_at": "2023-08-17T13:37:53Z",
+      "merged_at": "2023-08-17T13:37:53Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14712",
+      "ready_for_review_at": "2023-08-04T13:52:07Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-05T14:02:51Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-06T19:13:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-08-17T13:36:16Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-08-17T13:37:44Z"
+        }
+      ],
+      "time_to_first_review_hours": 24.17888888888889,
+      "time_to_merge_hours": 311.7627777777778
+    },
+    {
+      "number": 14711,
+      "title": " Test Fix Cross-contract calling: simple debugger",
+      "state": "CLOSED",
+      "created_at": "2023-08-04T13:19:40Z",
+      "closed_at": "2023-08-04T20:22:58Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14711",
+      "ready_for_review_at": "2023-08-04T13:19:40Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14676,
+      "title": "Contracts: Ensure latest migration match pallet_version",
+      "state": "MERGED",
+      "created_at": "2023-07-28T12:51:05Z",
+      "closed_at": "2023-07-31T14:48:54Z",
+      "merged_at": "2023-07-31T14:48:54Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14676",
+      "ready_for_review_at": "2023-07-28T12:51:05Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-28T21:22:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-28T21:47:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-07-30T07:26:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-30T09:07:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-30T09:08:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-31T13:37:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-28T21:46:00Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-28T21:46:06Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-07-30T09:05:11Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-31T14:48:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 8.529444444444444,
+      "time_to_merge_hours": 73.9636111111111
+    },
+    {
+      "number": 14661,
+      "title": "Contracts Rollback StorageMap hashing migration",
+      "state": "MERGED",
+      "created_at": "2023-07-27T15:58:25Z",
+      "closed_at": "2023-07-28T10:08:26Z",
+      "merged_at": "2023-07-28T10:08:26Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14661",
+      "ready_for_review_at": "2023-07-27T15:58:25Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-28T07:50:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-28T10:03:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-28T10:08:18Z"
+        }
+      ],
+      "time_to_first_review_hours": 15.867222222222223,
+      "time_to_merge_hours": 18.166944444444443
+    },
+    {
+      "number": 14643,
+      "title": "backport #14642 to 1.0.0",
+      "state": "MERGED",
+      "created_at": "2023-07-26T10:30:01Z",
+      "closed_at": "2023-07-27T13:48:32Z",
+      "merged_at": "2023-07-27T13:48:32Z",
+      "merged_by": "coderobe",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14643",
+      "ready_for_review_at": "2023-07-26T10:30:01Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-26T12:28:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "coderobe",
+          "submitted_at": "2023-07-27T12:59:55Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 1.9780555555555555,
+      "time_to_merge_hours": 27.308611111111112
+    },
+    {
+      "number": 14579,
+      "title": "Contracts: Tweak call_runtime test",
+      "state": "MERGED",
+      "created_at": "2023-07-14T13:04:49Z",
+      "closed_at": "2023-07-20T16:43:35Z",
+      "merged_at": "2023-07-20T16:43:35Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14579",
+      "ready_for_review_at": "2023-07-14T13:04:49Z",
+      "reviews": [
+        {
+          "reviewer": "ascjones",
+          "submitted_at": "2023-07-14T13:20:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-20T16:40:32Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-20T16:43:27Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2588888888888889,
+      "time_to_merge_hours": 147.6461111111111
+    },
+    {
+      "number": 14565,
+      "title": "Contracts: Enabled signed extension",
+      "state": "MERGED",
+      "created_at": "2023-07-12T14:11:16Z",
+      "closed_at": "2023-07-21T11:39:41Z",
+      "merged_at": "2023-07-21T11:39:41Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14565",
+      "ready_for_review_at": "2023-07-12T14:11:16Z",
+      "reviews": [
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-07-14T10:11:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-16T21:48:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-07-17T07:42:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-20T16:50:11Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-21T06:57:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-21T09:09:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-21T11:08:16Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "athei",
+          "commented_at": "2023-07-14T05:57:31Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-14T08:12:43Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-14T13:54:52Z"
+        },
+        {
+          "commenter": "xermicus",
+          "commented_at": "2023-07-14T14:51:45Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-21T11:39:33Z"
+        }
+      ],
+      "time_to_first_review_hours": 44.00888888888889,
+      "time_to_merge_hours": 213.4736111111111
+    },
+    {
+      "number": 14563,
+      "title": "Contracts add wasm ink contract in test",
+      "state": "CLOSED",
+      "created_at": "2023-07-12T13:11:15Z",
+      "closed_at": "2023-07-14T10:10:52Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14563",
+      "ready_for_review_at": "2023-07-12T13:11:15Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-14T05:58:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T06:28:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-14T08:03:14Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-07-12T14:12:30Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-14T10:10:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 40.78611111111111,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14557,
+      "title": "Pallet balances quick updates",
+      "state": "MERGED",
+      "created_at": "2023-07-12T07:39:00Z",
+      "closed_at": "2023-07-12T08:59:02Z",
+      "merged_at": "2023-07-12T08:59:02Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14557",
+      "ready_for_review_at": "2023-07-12T07:39:00Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-12T07:42:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-07-12T07:45:29Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-12T08:58:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.050555555555555555,
+      "time_to_merge_hours": 1.333888888888889
+    },
+    {
+      "number": 14533,
+      "title": "Contracts rename v9 to v09",
+      "state": "MERGED",
+      "created_at": "2023-07-07T11:59:59Z",
+      "closed_at": "2023-07-12T08:33:22Z",
+      "merged_at": "2023-07-12T08:33:22Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14533",
+      "ready_for_review_at": "2023-07-07T11:59:59Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-07T13:05:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-12T08:31:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-12T08:33:14Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.091388888888889,
+      "time_to_merge_hours": 116.55638888888889
+    },
+    {
+      "number": 14526,
+      "title": "Contracts: Test bench",
+      "state": "CLOSED",
+      "created_at": "2023-07-06T15:39:38Z",
+      "closed_at": "2023-07-07T10:03:29Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14526",
+      "ready_for_review_at": "2023-07-06T15:39:38Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-06T15:40:31Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-06T15:40:36Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-06T17:14:40Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14523,
+      "title": "Contracts add code_len to ContractsInfo",
+      "state": "MERGED",
+      "created_at": "2023-07-06T13:03:59Z",
+      "closed_at": "2023-07-14T12:49:47Z",
+      "merged_at": "2023-07-14T12:49:47Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14523",
+      "ready_for_review_at": "2023-07-06T13:03:59Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T13:08:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T13:10:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-07T11:27:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-10T14:33:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-12T08:39:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-14T04:21:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T07:29:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T07:31:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-14T07:45:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T11:29:13Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-07T12:15:37Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-10T10:19:49Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-10T15:50:27Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-14T12:41:27Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-14T12:41:35Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.07694444444444444,
+      "time_to_merge_hours": 191.76333333333332
+    },
+    {
+      "number": 14519,
+      "title": "Contracts rename v9 to v09",
+      "state": "CLOSED",
+      "created_at": "2023-07-05T12:48:30Z",
+      "closed_at": "2023-07-07T11:59:29Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14519",
+      "ready_for_review_at": "2023-07-05T12:48:30Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-07T12:00:58Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14503,
+      "title": "contracts: Refactor instantiate with code",
+      "state": "MERGED",
+      "created_at": "2023-07-03T18:31:18Z",
+      "closed_at": "2023-07-07T13:46:16Z",
+      "merged_at": "2023-07-07T13:46:16Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14503",
+      "ready_for_review_at": "2023-07-03T18:31:18Z",
+      "reviews": [
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-05T21:48:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T07:44:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T08:16:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T08:21:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T08:47:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T08:48:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T08:49:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T09:13:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-06T12:03:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-06T19:14:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-07T13:40:00Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-03T21:42:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-03T21:42:07Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-03T23:18:55Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-04T05:53:57Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-04T05:54:03Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-07-04T08:46:42Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-04T09:23:57Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-05T09:46:29Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-05T09:46:34Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-05T10:14:58Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-05T10:15:15Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-05T11:27:35Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-05T11:27:40Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-05T13:04:59Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-05T13:07:01Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-06T12:01:55Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-06T12:10:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-06T12:10:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-06T13:49:25Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-07T10:07:48Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-07T13:46:08Z"
+        }
+      ],
+      "time_to_first_review_hours": 51.278888888888886,
+      "time_to_merge_hours": 91.24944444444445
+    },
+    {
+      "number": 14418,
+      "title": "Contracts: Better migration types",
+      "state": "MERGED",
+      "created_at": "2023-06-19T19:09:47Z",
+      "closed_at": "2023-06-20T09:45:39Z",
+      "merged_at": "2023-06-20T09:45:39Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14418",
+      "ready_for_review_at": "2023-06-19T19:09:47Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-06-20T09:18:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-20T09:36:14Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 14.143055555555556,
+      "time_to_merge_hours": 14.597777777777777
+    },
+    {
+      "number": 14316,
+      "title": "Contracts: fix benchmark comment",
+      "state": "MERGED",
+      "created_at": "2023-06-07T10:21:53Z",
+      "closed_at": "2023-06-07T13:18:13Z",
+      "merged_at": "2023-06-07T13:18:13Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14316",
+      "ready_for_review_at": "2023-06-07T10:21:53Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-07T10:25:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T10:33:00Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-07T10:37:02Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T12:56:58Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-07T11:02:09Z"
+        },
+        {
+          "commenter": "agryaznov",
+          "commented_at": "2023-06-07T11:23:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.05527777777777778,
+      "time_to_merge_hours": 2.938888888888889
+    },
+    {
+      "number": 14313,
+      "title": "Update contract multi-block migration",
+      "state": "MERGED",
+      "created_at": "2023-06-06T21:58:30Z",
+      "closed_at": "2023-06-20T13:16:29Z",
+      "merged_at": "2023-06-20T13:16:29Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14313",
+      "ready_for_review_at": "2023-06-06T21:58:30Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T13:50:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T13:55:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T14:01:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-08T12:41:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-08T13:10:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-08T13:25:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-09T09:31:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T09:35:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-09T09:57:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T10:03:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T10:09:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-09T11:03:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-09T11:23:27Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T11:51:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T13:12:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-12T06:25:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-13T13:48:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-15T15:38:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-15T18:33:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-15T18:38:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-15T18:59:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-16T07:17:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-16T11:00:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-16T13:10:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-16T16:30:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-16T16:32:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-19T19:14:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-20T09:09:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-06-20T09:14:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-20T09:25:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-20T09:28:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-20T09:29:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-06-20T09:29:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-20T09:31:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-20T09:44:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-20T09:49:29Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-12T10:59:23Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-20T13:16:20Z"
+        }
+      ],
+      "time_to_first_review_hours": 15.863333333333333,
+      "time_to_merge_hours": 327.2997222222222
+    },
+    {
+      "number": 14104,
+      "title": "macros: Add non_camel_case_types for storage_alias",
+      "state": "MERGED",
+      "created_at": "2023-05-09T14:22:50Z",
+      "closed_at": "2023-05-09T15:24:41Z",
+      "merged_at": "2023-05-09T15:24:41Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14104",
+      "ready_for_review_at": "2023-05-09T14:22:50Z",
+      "reviews": [
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-05-09T14:27:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-09T14:30:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-09T15:10:11Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-05-09T14:30:47Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-09T14:30:55Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-09T14:31:02Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-05-09T14:31:13Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-09T14:32:10Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08194444444444444,
+      "time_to_merge_hours": 1.0308333333333333
+    },
+    {
+      "number": 14079,
+      "title": "Contracts Add deposit for dependencies",
+      "state": "MERGED",
+      "created_at": "2023-05-04T14:46:41Z",
+      "closed_at": "2023-07-26T12:09:02Z",
+      "merged_at": "2023-07-26T12:09:02Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14079",
+      "ready_for_review_at": "2023-05-04T14:46:41Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-08T06:36:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-08T07:09:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-10T13:21:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-07T13:57:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-14T05:46:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T14:32:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T15:16:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T15:45:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-14T15:46:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-21T07:05:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-22T05:51:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-22T05:52:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-22T06:07:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-24T07:03:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-24T11:05:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-24T11:55:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-24T14:15:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-25T15:42:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-25T20:28:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-25T20:50:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T08:57:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T09:32:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T09:34:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-26T09:41:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-26T10:06:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-26T10:26:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-26T10:27:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T10:28:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-26T10:36:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-26T11:29:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-26T12:09:54Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-05T19:54:58Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-05T19:55:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-06T17:09:39Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-09T07:03:47Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-09T09:19:37Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-05-10T13:22:07Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-03T15:58:23Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-05T11:28:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-05T11:28:28Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-05T12:51:44Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-05T13:06:37Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-07T15:21:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-07T15:21:50Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-07T15:35:24Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-07T17:35:55Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-11T07:00:48Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-11T07:00:54Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-11T13:36:20Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-11T13:36:26Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-14T15:46:53Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-25T21:39:42Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-25T21:39:45Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-25T21:41:01Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-25T21:41:05Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-25T23:18:46Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-26T10:34:03Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-26T10:34:11Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-26T12:08:54Z"
+        }
+      ],
+      "time_to_first_review_hours": 87.83583333333333,
+      "time_to_merge_hours": 1989.3725
+    },
+    {
+      "number": 14045,
+      "title": "contracts: Multi block migrations",
+      "state": "MERGED",
+      "created_at": "2023-04-28T19:11:52Z",
+      "closed_at": "2023-05-31T14:19:32Z",
+      "merged_at": "2023-05-31T14:19:32Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14045",
+      "ready_for_review_at": "2023-04-28T19:11:52Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-02T12:18:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-02T12:20:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-02T12:41:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-02T12:45:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-02T13:15:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-02T13:16:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-04T17:31:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-05T06:37:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-05T06:43:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-08T11:09:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-08T11:24:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-08T11:41:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-08T12:39:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-10T20:07:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-11T07:31:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-11T08:07:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-11T08:11:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-11T08:17:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-11T08:19:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-12T11:04:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-12T11:20:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-12T11:27:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-12T11:41:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T11:54:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T11:57:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T12:01:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T15:12:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T15:47:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-12T16:41:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-12T16:41:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-12T16:44:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-15T09:48:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-15T12:57:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-15T13:35:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-15T15:32:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-15T15:50:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-15T16:32:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-05-16T19:17:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T19:23:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:09:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:11:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:19:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:26:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:33:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:35:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:39:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-16T20:42:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-17T15:16:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-05-17T20:05:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-05-31T19:26:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T12:09:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T12:10:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T12:37:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-09T13:16:51Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-02T18:20:58Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-02T18:21:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-02T19:46:00Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-03T06:45:40Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-05-04T18:34:47Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-08T08:19:40Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-11T11:14:45Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-16T09:51:16Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-16T09:51:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-16T11:17:04Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-16T11:27:28Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-17T22:08:33Z"
+        },
+        {
+          "commenter": "agryaznov",
+          "commented_at": "2023-05-26T11:43:33Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-31T14:19:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 89.10305555555556,
+      "time_to_merge_hours": 787.1277777777777
+    },
+    {
+      "number": 14043,
+      "title": "frame-support Add translate_next",
+      "state": "MERGED",
+      "created_at": "2023-04-28T16:12:17Z",
+      "closed_at": "2023-06-02T14:11:12Z",
+      "merged_at": "2023-06-02T14:11:12Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14043",
+      "ready_for_review_at": "2023-04-28T16:12:17Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-28T16:52:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-04-29T00:04:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-29T08:53:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-29T10:32:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-07T20:11:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-02T12:18:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-02T13:14:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-02T14:01:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-28T16:54:30Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-02T16:31:24Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-05-02T18:32:47Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-03T07:21:36Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-31T16:46:47Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-01T06:50:03Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-01T08:14:14Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-02T14:11:02Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.6711111111111111,
+      "time_to_merge_hours": 837.9819444444445
+    },
+    {
+      "number": 14028,
+      "title": "contracts fix store-call test path",
+      "state": "MERGED",
+      "created_at": "2023-04-27T09:26:49Z",
+      "closed_at": "2023-04-27T10:01:13Z",
+      "merged_at": "2023-04-27T10:01:13Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14028",
+      "ready_for_review_at": "2023-04-27T09:26:49Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-27T09:28:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-04-27T09:34:25Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-27T09:34:37Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-04-27T09:34:45Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-27T09:34:59Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-04-27T09:35:07Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-27T10:01:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.03305555555555555,
+      "time_to_merge_hours": 0.5733333333333334
+    },
+    {
+      "number": 14003,
+      "title": "contracts Add storage_deposit test",
+      "state": "MERGED",
+      "created_at": "2023-04-25T07:58:15Z",
+      "closed_at": "2023-04-27T06:23:01Z",
+      "merged_at": "2023-04-27T06:23:01Z",
+      "merged_by": "athei",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14003",
+      "ready_for_review_at": "2023-04-25T07:58:15Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-25T08:42:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-25T09:08:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-26T09:19:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-27T06:06:36Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.7419444444444444,
+      "time_to_merge_hours": 46.41277777777778
+    },
+    {
+      "number": 14002,
+      "title": "contracts Add LOG_TARGET constant",
+      "state": "MERGED",
+      "created_at": "2023-04-25T07:51:04Z",
+      "closed_at": "2023-04-25T11:46:21Z",
+      "merged_at": "2023-04-25T11:46:20Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/14002",
+      "ready_for_review_at": "2023-04-25T07:51:04Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-25T08:35:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-25T10:36:51Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-25T07:52:32Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-25T11:46:12Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7411111111111112,
+      "time_to_merge_hours": 3.921111111111111
+    },
+    {
+      "number": 13990,
+      "title": "Contracts: runtime_call and storage_deposit",
+      "state": "MERGED",
+      "created_at": "2023-04-24T14:12:05Z",
+      "closed_at": "2023-04-29T16:07:55Z",
+      "merged_at": "2023-04-29T16:07:55Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13990",
+      "ready_for_review_at": "2023-04-24T14:12:05Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-24T15:40:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-24T16:15:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-25T08:06:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-25T08:06:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-25T13:19:19Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-26T08:15:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-26T08:24:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-26T08:25:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-27T09:38:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-28T13:37:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-28T13:48:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-28T16:56:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-28T18:23:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-28T20:21:32Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "agryaznov",
+          "commented_at": "2023-04-25T13:30:04Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-27T09:37:10Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-27T09:37:13Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-27T09:37:52Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-04-27T09:37:58Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-29T16:07:47Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.4733333333333334,
+      "time_to_merge_hours": 121.93055555555556
+    },
+    {
+      "number": 13970,
+      "title": "Update macro use and optimize storage collection",
+      "state": "MERGED",
+      "created_at": "2023-04-21T13:34:04Z",
+      "closed_at": "2023-04-21T15:24:13Z",
+      "merged_at": "2023-04-21T15:24:12Z",
+      "merged_by": "athei",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13970",
+      "ready_for_review_at": "2023-04-21T13:34:04Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-21T15:10:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-21T15:18:20Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 1.6094444444444445,
+      "time_to_merge_hours": 1.8355555555555556
+    },
+    {
+      "number": 13968,
+      "title": "Contracts Storage deposit fix",
+      "state": "CLOSED",
+      "created_at": "2023-04-20T19:23:59Z",
+      "closed_at": "2023-04-21T13:31:07Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13968",
+      "ready_for_review_at": "2023-04-20T19:23:59Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13776,
+      "title": "contracts: make test work with debugger",
+      "state": "MERGED",
+      "created_at": "2023-03-31T07:51:22Z",
+      "closed_at": "2023-03-31T17:44:30Z",
+      "merged_at": "2023-03-31T17:44:30Z",
+      "merged_by": "athei",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13776",
+      "ready_for_review_at": "2023-03-31T07:51:22Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-31T08:06:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-31T08:10:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-31T08:11:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-31T09:42:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-31T09:50:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-31T09:51:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-31T12:55:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-31T13:08:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-31T13:10:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-31T13:22:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-03-31T14:11:31Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-03-31T07:58:20Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-31T15:14:20Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-31T15:14:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-31T17:28:54Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-31T17:44:25Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2569444444444444,
+      "time_to_merge_hours": 9.885555555555555
+    },
+    {
+      "number": 13724,
+      "title": "contracts: add sr25519_verify",
+      "state": "MERGED",
+      "created_at": "2023-03-27T15:35:56Z",
+      "closed_at": "2023-04-12T14:49:11Z",
+      "merged_at": "2023-04-12T14:49:11Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13724",
+      "ready_for_review_at": "2023-03-27T15:35:56Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T23:27:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-31T13:20:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-03T12:40:14Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-04T22:53:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-05T05:18:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-05T05:26:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-05T05:30:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-05T05:33:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-05T19:05:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-05T21:04:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-06T10:10:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-07T05:49:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-07T05:50:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-07T05:57:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-07T06:00:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-07T14:11:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-07T14:12:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-12T13:43:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-12T13:44:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-12T13:47:05Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-29T23:11:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-29T23:11:53Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T08:39:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-30T18:34:00Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-04T20:33:29Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-04T23:03:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-04T23:04:04Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-04T23:35:30Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-05T05:22:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T05:22:08Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-05T05:22:21Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T05:22:32Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-05T05:23:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T05:23:29Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T06:40:45Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-05T06:43:59Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-05T07:35:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T07:35:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T07:35:57Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-05T09:44:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T09:44:54Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-05T11:01:55Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-05T11:08:43Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-06T12:25:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-06T12:25:31Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-06T12:28:23Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-06T13:05:47Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-06T13:05:52Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-06T13:08:44Z"
+        },
+        {
+          "commenter": "mateo-moon",
+          "commented_at": "2023-04-06T13:11:40Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-04-12T14:40:10Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-04-12T14:40:18Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-05-02T08:44:02Z"
+        }
+      ],
+      "time_to_first_review_hours": 55.85638888888889,
+      "time_to_merge_hours": 383.22083333333336
+    },
+    {
+      "number": 13702,
+      "title": "[Contracts] Overflowing bounded `DeletionQueue`",
+      "state": "MERGED",
+      "created_at": "2023-03-24T08:37:20Z",
+      "closed_at": "2023-03-31T11:03:57Z",
+      "merged_at": "2023-03-31T11:03:57Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13702",
+      "ready_for_review_at": "2023-03-24T08:37:20Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T08:43:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T08:44:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T08:51:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T08:51:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T08:52:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T09:07:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T10:24:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T10:47:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T14:19:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-27T15:40:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T16:06:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-28T09:12:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-28T14:37:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-28T19:11:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T08:13:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T08:15:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T08:17:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T08:19:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T08:41:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T09:02:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-30T10:18:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T10:22:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-30T11:40:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-30T11:41:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-30T11:42:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T12:56:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-30T13:54:01Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-28T19:18:14Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-28T19:18:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-28T19:18:47Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-28T21:24:00Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-28T21:24:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-28T22:40:37Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-29T08:01:37Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-29T23:05:29Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-30T10:19:47Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T11:28:29Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T11:56:00Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T12:57:38Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-30T12:57:45Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T12:58:14Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-30T12:58:19Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-30T13:54:38Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T14:55:35Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T15:32:56Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-30T15:33:01Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T15:41:22Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-30T15:41:28Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T19:19:53Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-30T19:20:01Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T19:51:19Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-30T19:51:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-30T20:16:32Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-31T09:59:08Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-31T09:59:18Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-31T11:03:48Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-05-11T12:14:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 72.105,
+      "time_to_merge_hours": 170.44361111111112
+    },
+    {
+      "number": 13648,
+      "title": "contracts: Add host function tracing",
+      "state": "MERGED",
+      "created_at": "2023-03-20T09:13:58Z",
+      "closed_at": "2023-03-27T17:34:00Z",
+      "merged_at": "2023-03-27T17:34:00Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13648",
+      "ready_for_review_at": "2023-03-20T09:13:58Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-20T15:33:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-20T15:39:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-20T16:51:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-20T16:53:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-21T16:39:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-21T19:06:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-23T08:14:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-23T08:18:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-23T14:02:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-23T14:05:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-24T11:03:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-24T18:34:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-03-27T13:19:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-03-27T13:29:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-27T13:54:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-03-27T14:42:06Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-20T15:28:26Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-20T16:32:09Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-20T21:22:10Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-23T14:11:54Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-23T14:11:59Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-23T14:12:24Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-23T14:32:31Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-23T15:15:52Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-23T15:49:55Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-23T15:50:00Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-23T17:07:21Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-24T11:02:56Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-24T11:06:38Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-24T11:08:01Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-24T11:13:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 6.323055555555555,
+      "time_to_merge_hours": 176.33388888888888
+    },
+    {
+      "number": 13629,
+      "title": "Fix typos in pallet-contracts",
+      "state": "MERGED",
+      "created_at": "2023-03-17T13:46:11Z",
+      "closed_at": "2023-03-17T15:31:52Z",
+      "merged_at": "2023-03-17T15:31:52Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13629",
+      "ready_for_review_at": "2023-03-17T13:46:11Z",
+      "reviews": [
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-03-17T13:57:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-17T15:14:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.1827777777777778,
+      "time_to_merge_hours": 1.761388888888889
+    },
+    {
+      "number": 13628,
+      "title": "Add linguist-generated to gitattributes",
+      "state": "MERGED",
+      "created_at": "2023-03-17T12:49:20Z",
+      "closed_at": "2023-03-18T07:44:46Z",
+      "merged_at": "2023-03-18T07:44:46Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13628",
+      "ready_for_review_at": "2023-03-17T12:49:20Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-17T19:21:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-03-18T07:40:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-03-17T13:09:46Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-17T13:16:14Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-03-17T13:17:04Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-03-17T13:17:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-17T13:17:30Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-17T13:18:52Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-03-17T14:30:15Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-17T18:55:07Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-19T11:11:42Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-20T08:29:38Z"
+        }
+      ],
+      "time_to_first_review_hours": 6.531666666666666,
+      "time_to_merge_hours": 18.92388888888889
+    },
+    {
+      "number": 13600,
+      "title": "contracts: Refactor `trait Ext::*_storage_transparent` functions",
+      "state": "MERGED",
+      "created_at": "2023-03-14T15:19:14Z",
+      "closed_at": "2023-03-17T22:17:22Z",
+      "merged_at": "2023-03-17T22:17:22Z",
+      "merged_by": "athei",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/substrate/pull/13600",
+      "ready_for_review_at": "2023-03-14T15:19:14Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-15T14:25:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-15T23:07:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-15T23:10:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-15T23:30:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-16T08:49:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-16T10:46:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-16T10:54:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-16T13:11:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-16T17:41:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-16T17:44:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-16T22:06:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-17T10:49:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-17T11:01:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-17T11:05:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-03-17T12:01:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-17T22:15:03Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-14T19:53:09Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-14T19:58:57Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-16T10:54:11Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-16T10:54:17Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-16T13:17:19Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-16T15:47:31Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-03-16T16:41:21Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-16T18:00:38Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-17T16:00:57Z"
+        }
+      ],
+      "time_to_first_review_hours": 23.1025,
+      "time_to_merge_hours": 78.96888888888888
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14789,
+      "pr_title": "Contracts: Update Config::Debug",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/14789"
+    },
+    {
+      "pr_number": 14589,
+      "pr_title": "Contracts remove deposit accounts",
+      "reviewed_at": "2024-01-30T23:48:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/14589"
+    },
+    {
+      "pr_number": 14678,
+      "pr_title": "Cross-contract calling: simple debugger",
+      "reviewed_at": "2024-01-30T23:48:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/14678"
+    },
+    {
+      "pr_number": 14676,
+      "pr_title": "Contracts: Ensure latest migration match pallet_version",
+      "reviewed_at": "2024-01-30T23:48:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/14676"
+    },
+    {
+      "pr_number": 14642,
+      "pr_title": "Contracts: Bugfix Wasm prepare check for chain extension",
+      "reviewed_at": "2024-01-30T23:48:56Z",
+      "url": "https://github.com/paritytech/substrate/pull/14642"
+    },
+    {
+      "pr_number": 14634,
+      "pr_title": "Add `FixedPointOperand` blanket implementation",
+      "reviewed_at": "2024-01-30T23:48:55Z",
+      "url": "https://github.com/paritytech/substrate/pull/14634"
+    },
+    {
+      "pr_number": 14020,
+      "pr_title": "Contracts: migrate to fungible traits",
+      "reviewed_at": "2024-01-30T23:48:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/14020"
+    },
+    {
+      "pr_number": 14580,
+      "pr_title": "Contracts add code_len to ContractsInfo (#14523)",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14580"
+    },
+    {
+      "pr_number": 14563,
+      "pr_title": "Contracts add wasm ink contract in test",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14563"
+    },
+    {
+      "pr_number": 14565,
+      "pr_title": "Contracts: Enabled signed extension",
+      "reviewed_at": "2024-01-30T23:48:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/14565"
+    },
+    {
+      "pr_number": 14535,
+      "pr_title": "Fix spellcheck for benchmarking comments",
+      "reviewed_at": "2024-01-30T23:48:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/14535"
+    },
+    {
+      "pr_number": 14523,
+      "pr_title": "Contracts add code_len to ContractsInfo",
+      "reviewed_at": "2024-01-30T23:48:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/14523"
+    },
+    {
+      "pr_number": 14503,
+      "pr_title": "contracts: Refactor instantiate with code",
+      "reviewed_at": "2024-01-30T23:48:50Z",
+      "url": "https://github.com/paritytech/substrate/pull/14503"
+    },
+    {
+      "pr_number": 14493,
+      "pr_title": "contracts: stabilize `[seal0] instantiation_nonce()`",
+      "reviewed_at": "2024-01-30T23:48:49Z",
+      "url": "https://github.com/paritytech/substrate/pull/14493"
+    },
+    {
+      "pr_number": 14449,
+      "pr_title": "contracts: switch from `parity-wasm`-based to `wasmi`-based module validation",
+      "reviewed_at": "2024-01-30T23:48:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/14449"
+    },
+    {
+      "pr_number": 14396,
+      "pr_title": "Run all tests with `try-runtime` feature enabled",
+      "reviewed_at": "2024-01-30T23:48:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/14396"
+    },
+    {
+      "pr_number": 14084,
+      "pr_title": "contracts: switch to wasmi gas metering",
+      "reviewed_at": "2024-01-30T23:48:44Z",
+      "url": "https://github.com/paritytech/substrate/pull/14084"
+    },
+    {
+      "pr_number": 14358,
+      "pr_title": "Reimport `WeightInfo` in `pallet-contracts`",
+      "reviewed_at": "2024-01-30T23:48:43Z",
+      "url": "https://github.com/paritytech/substrate/pull/14358"
+    },
+    {
+      "pr_number": 14313,
+      "pr_title": "Update contract multi-block migration",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14313"
+    },
+    {
+      "pr_number": 14309,
+      "pr_title": "Move `type Migrations` to `Config`",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14309"
+    },
+    {
+      "pr_number": 14288,
+      "pr_title": "Bump version of `pallet-contracts-primitives` for release",
+      "reviewed_at": "2024-01-30T23:48:40Z",
+      "url": "https://github.com/paritytech/substrate/pull/14288"
+    },
+    {
+      "pr_number": 14043,
+      "pr_title": "frame-support Add translate_next",
+      "reviewed_at": "2024-01-30T23:48:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/14043"
+    },
+    {
+      "pr_number": 14079,
+      "pr_title": "Contracts Add deposit for dependencies",
+      "reviewed_at": "2024-01-30T23:48:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/14079"
+    },
+    {
+      "pr_number": 14045,
+      "pr_title": "contracts: Multi block migrations",
+      "reviewed_at": "2024-01-30T23:48:36Z",
+      "url": "https://github.com/paritytech/substrate/pull/14045"
+    },
+    {
+      "pr_number": 13724,
+      "pr_title": "contracts: add sr25519_verify",
+      "reviewed_at": "2024-01-30T23:48:35Z",
+      "url": "https://github.com/paritytech/substrate/pull/13724"
+    },
+    {
+      "pr_number": 13702,
+      "pr_title": "[Contracts] Overflowing bounded `DeletionQueue`",
+      "reviewed_at": "2023-05-11T12:14:03Z",
+      "url": "https://github.com/paritytech/substrate/pull/13702"
+    },
+    {
+      "pr_number": 14082,
+      "pr_title": "contracts: add error logging to `call_runtime`",
+      "reviewed_at": "2023-05-05T14:34:22Z",
+      "url": "https://github.com/paritytech/substrate/pull/14082"
+    },
+    {
+      "pr_number": 13807,
+      "pr_title": "contracts: add events to ContractResult",
+      "reviewed_at": "2023-05-03T13:45:06Z",
+      "url": "https://github.com/paritytech/substrate/pull/13807"
+    },
+    {
+      "pr_number": 13708,
+      "pr_title": "contracts: Make Origin information available",
+      "reviewed_at": "2023-05-02T16:45:16Z",
+      "url": "https://github.com/paritytech/substrate/pull/13708"
+    },
+    {
+      "pr_number": 13990,
+      "pr_title": "Contracts: runtime_call and storage_deposit",
+      "reviewed_at": "2023-05-02T10:02:32Z",
+      "url": "https://github.com/paritytech/substrate/pull/13990"
+    },
+    {
+      "pr_number": 14003,
+      "pr_title": "contracts Add storage_deposit test",
+      "reviewed_at": "2023-04-27T06:23:02Z",
+      "url": "https://github.com/paritytech/substrate/pull/14003"
+    },
+    {
+      "pr_number": 14021,
+      "pr_title": "contracts: fix failing test",
+      "reviewed_at": "2023-04-26T13:46:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/14021"
+    },
+    {
+      "pr_number": 13565,
+      "pr_title": "[contracts] Port host functions to Weight V2 and storage deposit limit",
+      "reviewed_at": "2023-04-26T12:01:19Z",
+      "url": "https://github.com/paritytech/substrate/pull/13565"
+    },
+    {
+      "pr_number": 13901,
+      "pr_title": "contracts: stabilize `[seal0] call_runtime()`",
+      "reviewed_at": "2023-04-13T13:57:30Z",
+      "url": "https://github.com/paritytech/substrate/pull/13901"
+    },
+    {
+      "pr_number": 13819,
+      "pr_title": "update links to ink! docs from pallet_contracts",
+      "reviewed_at": "2023-04-05T04:34:44Z",
+      "url": "https://github.com/paritytech/substrate/pull/13819"
+    },
+    {
+      "pr_number": 13776,
+      "pr_title": "contracts: make test work with debugger",
+      "reviewed_at": "2023-03-31T17:44:31Z",
+      "url": "https://github.com/paritytech/substrate/pull/13776"
+    },
+    {
+      "pr_number": 13729,
+      "pr_title": "contracts: proper event link in docs",
+      "reviewed_at": "2023-03-28T14:38:15Z",
+      "url": "https://github.com/paritytech/substrate/pull/13729"
+    },
+    {
+      "pr_number": 13648,
+      "pr_title": "contracts: Add host function tracing",
+      "reviewed_at": "2023-03-27T17:34:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/13648"
+    },
+    {
+      "pr_number": 13665,
+      "pr_title": "core-fellowship: promote dev-dependencies to regular dependencies",
+      "reviewed_at": "2023-03-22T11:25:05Z",
+      "url": "https://github.com/paritytech/substrate/pull/13665"
+    },
+    {
+      "pr_number": 13312,
+      "pr_title": "contracts: Upgrade to wasmi 0.28",
+      "reviewed_at": "2023-03-20T23:09:24Z",
+      "url": "https://github.com/paritytech/substrate/pull/13312"
+    },
+    {
+      "pr_number": 13595,
+      "pr_title": "contracts: Simplify benchmarks",
+      "reviewed_at": "2023-03-19T11:15:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/13595"
+    },
+    {
+      "pr_number": 13600,
+      "pr_title": "contracts: Refactor `trait Ext::*_storage_transparent` functions",
+      "reviewed_at": "2023-03-17T22:17:23Z",
+      "url": "https://github.com/paritytech/substrate/pull/13600"
+    }
+  ]
+}

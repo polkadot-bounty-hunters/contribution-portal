@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 2726,
+      "pr_title": "Companion for https://github.com/paritytech/polkadot/pull/7341",
+      "reviewed_at": "2023-06-12T11:58:53Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2726"
+    }
+  ]
+}

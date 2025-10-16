@@ -1,0 +1,2720 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 14496,
+      "title": "Nomination pools: disallow setting above global max commission ",
+      "state": "MERGED",
+      "created_at": "2023-07-03T12:09:51Z",
+      "closed_at": "2023-07-03T21:22:13Z",
+      "merged_at": "2023-07-03T21:22:13Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/14496",
+      "ready_for_review_at": "2023-07-03T12:09:51Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-07-03T14:53:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-03T21:10:26Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-03T21:22:04Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.72,
+      "time_to_merge_hours": 9.206111111111111
+    },
+    {
+      "number": 14491,
+      "title": "Name Service Pallet as Collectives Service",
+      "state": "OPEN",
+      "created_at": "2023-07-02T14:30:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/14491",
+      "ready_for_review_at": "2023-07-02T14:30:53Z",
+      "reviews": [
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-02T15:08:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-02T15:09:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-07-21T18:33:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-22T02:02:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-22T02:02:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-22T02:20:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-22T02:23:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-22T02:23:43Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-04T11:02:47Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-06T10:12:44Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-06T10:12:59Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-07T16:10:54Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-07T16:11:01Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-08T12:38:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-08T12:38:33Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-10T17:21:13Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-10T17:21:19Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-14T07:46:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-14T07:46:41Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-14T12:27:54Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-14T12:28:00Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-14T12:35:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-14T12:35:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-14T12:35:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-14T12:35:49Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-14T12:49:39Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-14T12:55:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-14T12:55:53Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-14T13:00:22Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-14T13:00:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-14T13:28:59Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-17T05:18:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-17T05:18:44Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-07-21T06:21:51Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-21T16:14:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-21T16:14:30Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-22T02:24:33Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-03T05:13:23Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-03T05:13:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.635,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14451,
+      "title": "Introduce `Payees` and `PayoutDestination` with `Split` variant",
+      "state": "OPEN",
+      "created_at": "2023-06-23T15:30:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/14451",
+      "ready_for_review_at": "2023-06-23T15:30:24Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-17T08:51:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-17T09:00:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-17T09:03:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-17T09:04:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-17T09:09:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-20T02:58:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-20T02:59:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-20T03:00:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-20T03:03:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-07-20T12:50:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-07-20T12:52:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-07-21T21:06:37Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-22T02:28:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-22T02:51:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-27T16:06:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-27T16:12:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-27T17:26:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-27T17:35:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-27T17:50:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-28T03:34:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-28T03:35:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-07-28T03:37:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-07-31T11:51:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-08-01T05:22:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-08-02T10:57:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-08-02T11:23:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-08-02T11:28:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-08-13T15:48:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-08-13T16:15:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-15T04:58:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-15T05:02:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-15T05:34:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-08-16T05:46:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-08-16T05:51:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-08-16T07:17:50Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-23T20:20:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-23T20:21:06Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-23T21:00:05Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-24T17:28:54Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-24T17:34:01Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-24T17:34:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-24T17:44:10Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-24T20:50:16Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-24T20:50:22Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-25T13:48:02Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-25T13:48:07Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-26T11:41:06Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-26T11:41:11Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-27T10:39:05Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-27T10:39:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-27T10:49:03Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-27T10:50:01Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-27T10:50:07Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-27T10:50:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-27T10:50:51Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-27T11:00:31Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-07T19:00:02Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-07T19:00:09Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-07-08T14:23:25Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-17T07:00:31Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-17T07:00:37Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-17T07:40:22Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-17T07:40:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-17T08:56:39Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-20T13:54:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-20T13:54:44Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-21T05:29:21Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-21T05:29:26Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-21T06:26:05Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-21T06:26:10Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-21T06:43:21Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-25T13:24:49Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-25T13:24:56Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-25T14:11:02Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-25T14:11:07Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-26T04:14:09Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-26T04:14:16Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-27T05:15:11Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-27T05:15:16Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-07-31T05:08:46Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-31T05:08:51Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-01T14:57:52Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-01T14:57:58Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-02T02:38:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-02T02:38:19Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-02T10:23:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-02T10:23:43Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-02T10:24:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-02T10:24:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-02T11:41:13Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-02T11:44:17Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-02T11:44:23Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-02T11:44:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-02T11:44:44Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-02T12:59:38Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-03T05:03:32Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-03T05:03:38Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-04T04:21:08Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-04T04:21:13Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-06T05:45:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-06T05:45:40Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-06T05:46:38Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-06T05:46:42Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-07T12:44:53Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-07T12:44:58Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-10T04:24:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-10T04:24:33Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-11T10:43:34Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-11T10:43:38Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-15T10:34:03Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-15T10:34:09Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-16T09:26:08Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-16T09:26:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-16T09:28:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-16T09:43:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-16T09:43:34Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-17T04:12:59Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-17T04:13:04Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-17T04:17:02Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-17T07:41:54Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-17T07:42:05Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-17T12:48:32Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-17T12:48:39Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-20T05:54:02Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-20T05:54:09Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-23T04:26:34Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-23T04:26:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 569.3447222222222,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14409,
+      "title": "Deprecate RewardDestination::Controller from staking",
+      "state": "CLOSED",
+      "created_at": "2023-06-16T16:22:28Z",
+      "closed_at": "2023-08-07T03:30:10Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/14409",
+      "ready_for_review_at": "2023-06-16T16:22:28Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-08-06T21:29:36Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-07T03:29:05Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-07T03:29:11Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-08-07T03:30:10Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14077,
+      "title": "Add fast-unstake pallet to Staking proxy",
+      "state": "MERGED",
+      "created_at": "2023-05-04T08:31:33Z",
+      "closed_at": "2023-05-04T17:27:03Z",
+      "merged_at": "2023-05-04T17:27:03Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/14077",
+      "ready_for_review_at": "2023-05-04T08:31:33Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-05-04T08:54:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-04T10:54:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-04T17:15:23Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-04T10:55:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-04T10:55:18Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-04T14:03:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-04T14:03:46Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-05-04T17:16:14Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-04T17:16:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.37472222222222223,
+      "time_to_merge_hours": 8.925
+    },
+    {
+      "number": 14039,
+      "title": "Staking::{bond, set_controller} to set controllers to stash only.",
+      "state": "MERGED",
+      "created_at": "2023-04-28T09:01:03Z",
+      "closed_at": "2023-05-11T18:22:16Z",
+      "merged_at": "2023-05-11T18:22:16Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/14039",
+      "ready_for_review_at": "2023-04-28T09:01:03Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-04-30T19:57:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-05-09T12:27:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-05-09T12:28:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-05-09T12:29:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-05-09T13:40:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-05-10T14:25:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-05-10T14:25:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "altaua",
+          "submitted_at": "2023-05-11T13:02:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sergejparity",
+          "submitted_at": "2023-05-11T13:06:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-04-28T09:22:00Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-28T09:22:05Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-28T09:47:28Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-04-28T12:32:08Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2023-04-29T11:01:11Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-04-29T11:33:04Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-04-29T12:57:00Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-04-29T20:43:46Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-04-30T02:41:29Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-04-30T15:18:16Z"
+        },
+        {
+          "commenter": "valentunn",
+          "commented_at": "2023-05-02T11:13:16Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-03T03:40:25Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-08T05:40:36Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-08T05:40:49Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-09T03:33:19Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-09T03:33:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-09T14:21:56Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-09T14:33:01Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-09T15:34:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-09T17:37:06Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-09T17:37:20Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-10T01:22:59Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-10T01:23:07Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-10T07:17:56Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-10T07:18:01Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-10T12:25:24Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-10T12:25:30Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-10T14:29:08Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-10T14:29:15Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-10T14:30:25Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T02:15:42Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-11T02:15:48Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T03:45:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-11T03:45:31Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T04:49:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-11T04:49:49Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T10:51:05Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-11T10:51:11Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T11:49:33Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-11T11:49:37Z"
+        },
+        {
+          "commenter": "pepoviola",
+          "commented_at": "2023-05-11T12:01:27Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T12:08:19Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T13:08:56Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-11T13:09:01Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-11T18:22:08Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-05-12T05:01:09Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-08T08:24:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 58.93944444444445,
+      "time_to_merge_hours": 321.3536111111111
+    },
+    {
+      "number": 13775,
+      "title": "[WIP] Nomination Pool Rebonding",
+      "state": "CLOSED",
+      "created_at": "2023-03-31T04:23:34Z",
+      "closed_at": "2023-07-15T12:07:59Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/13775",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-03-31T04:27:16Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-04-30T04:56:20Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-01T05:49:16Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-05-31T21:16:59Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-06-01T01:11:01Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-07-01T06:55:59Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13774,
+      "title": "Insert claim_commission weight",
+      "state": "MERGED",
+      "created_at": "2023-03-31T03:00:53Z",
+      "closed_at": "2023-04-01T17:19:12Z",
+      "merged_at": "2023-04-01T17:19:12Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/13774",
+      "ready_for_review_at": "2023-03-31T03:00:53Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-04-01T08:27:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-01T17:14:15Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-04-01T17:19:03Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-04-01T17:20:09Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-05-02T08:44:00Z"
+        }
+      ],
+      "time_to_first_review_hours": 29.43777777777778,
+      "time_to_merge_hours": 38.305277777777775
+    },
+    {
+      "number": 13715,
+      "title": "Reward pool migration fix",
+      "state": "MERGED",
+      "created_at": "2023-03-26T16:10:32Z",
+      "closed_at": "2023-03-27T15:02:04Z",
+      "merged_at": "2023-03-27T15:02:04Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/13715",
+      "ready_for_review_at": "2023-03-26T16:10:32Z",
+      "reviews": [
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-03-27T05:33:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-03-27T06:20:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-27T07:30:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-27T07:30:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-27T10:56:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-27T07:21:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-27T07:21:08Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-27T07:22:39Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-03-27T07:26:44Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-27T15:01:51Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-04-03T10:23:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 13.375,
+      "time_to_merge_hours": 22.858888888888888
+    },
+    {
+      "number": 13421,
+      "title": "Nomination Pools: Rename state-toggler to bouncer",
+      "state": "MERGED",
+      "created_at": "2023-02-20T13:16:26Z",
+      "closed_at": "2023-02-21T11:39:52Z",
+      "merged_at": "2023-02-21T11:39:52Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/13421",
+      "ready_for_review_at": "2023-02-20T13:16:26Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-20T14:31:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-20T14:31:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-20T16:47:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-20T16:48:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-20T16:48:54Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-20T16:50:06Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-21T03:28:27Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-21T10:13:14Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-21T10:13:19Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-21T11:39:43Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.2527777777777778,
+      "time_to_merge_hours": 22.390555555555554
+    },
+    {
+      "number": 13416,
+      "title": "Staking Reward Rate Runtime API",
+      "state": "CLOSED",
+      "created_at": "2023-02-19T14:28:07Z",
+      "closed_at": "2023-07-25T20:01:17Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/13416",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-19T14:32:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-19T20:08:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-02-20T05:47:27Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-20T05:51:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-20T05:52:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-20T13:00:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-20T13:01:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-02-27T06:19:17Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2023-06-09T05:28:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-06-11T09:48:45Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-19T14:43:00Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-27T06:21:58Z"
+        },
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2023-02-27T06:26:49Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-27T06:30:39Z"
+        },
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2023-02-27T06:44:06Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-27T07:17:13Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-27T07:22:28Z"
+        },
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2023-02-27T07:29:37Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-03-29T11:22:04Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-29T13:46:10Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-04-28T23:20:16Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-14T06:08:29Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-14T06:08:40Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-05-14T16:24:51Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-14T16:24:57Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-05-15T04:59:14Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-07-11T12:11:33Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13128,
+      "title": "Nomination Pool Commission",
+      "state": "MERGED",
+      "created_at": "2023-01-12T07:22:10Z",
+      "closed_at": "2023-03-15T04:07:56Z",
+      "merged_at": "2023-03-15T04:07:56Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/13128",
+      "ready_for_review_at": "2023-01-12T07:22:10Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-01-12T21:04:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-01-12T22:25:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T08:53:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T08:54:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T08:56:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T08:57:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T08:59:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T09:00:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T09:05:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T12:25:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-01-13T15:02:35Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T17:06:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T17:10:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T17:15:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T17:18:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-13T17:21:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-01-13T22:06:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-14T06:04:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-01-14T18:38:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-01-14T19:02:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T01:46:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T01:47:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T01:48:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-15T04:19:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:02:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:16:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:16:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:29:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:30:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:32:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:43:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:44:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:44:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:46:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:48:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:50:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:54:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:56:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:57:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:57:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T13:58:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T14:00:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T14:02:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T14:03:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-01-15T14:06:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T14:19:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T14:20:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-15T14:25:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-03T06:40:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-03T06:41:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-03T06:46:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-03T06:48:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-13T08:20:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-23T10:26:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-02-23T12:22:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-02-28T21:42:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-03-01T06:26:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-03-01T07:52:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-08T16:55:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-03-09T03:09:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-03-13T07:10:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-03-13T07:12:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-03-14T04:21:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2023-03-14T05:23:11Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-01-27T13:36:35Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-20T10:30:56Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-02-20T12:41:49Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-23T09:39:45Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-23T10:26:30Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-24T15:27:04Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-24T15:27:38Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-24T16:44:44Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-24T17:13:14Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-25T16:14:49Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-26T04:22:22Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-27T03:54:53Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-02-28T08:11:36Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-01T06:43:06Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-01T08:50:23Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-01T08:50:43Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-04T11:13:46Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-04T11:15:02Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-04T14:04:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-04T16:02:40Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-08T16:59:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-14T02:56:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-14T02:56:18Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-14T13:59:53Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-14T14:00:00Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-03-15T04:07:46Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-15T04:20:27Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-30T10:12:51Z"
+        }
+      ],
+      "time_to_first_review_hours": 13.698611111111111,
+      "time_to_merge_hours": 1484.7627777777777
+    },
+    {
+      "number": 12511,
+      "title": "[DO NOT MERGE] Nomination Pool Commission",
+      "state": "CLOSED",
+      "created_at": "2022-10-17T12:33:58Z",
+      "closed_at": "2023-01-12T14:03:01Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/12511",
+      "ready_for_review_at": "2022-10-17T12:33:58Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-19T20:54:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-23T10:31:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-23T10:32:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:57:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:57:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:59:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:00:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:00:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:02:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:03:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:03:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:05:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:10:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:10:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:11:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:14:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:15:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:16:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-24T15:15:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-24T15:23:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:28:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:28:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:32:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:32:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:32:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:34:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:37:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:38:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:38:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-10-29T10:48:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T13:52:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T13:56:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T13:58:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:04:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:04:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:04:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:05:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:13:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:13:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:14:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:18:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:20:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:21:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:22:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:23:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:24:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:24:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:25:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:25:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:27:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:27:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:28:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T14:29:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:19:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:25:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:28:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:29:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:29:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:30:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:31:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:31:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:32:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-11T15:33:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T11:39:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T12:14:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T12:20:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T12:59:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T13:12:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T13:14:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T13:22:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T13:24:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-11-14T13:35:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2022-11-14T22:53:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T14:28:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T14:34:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T14:56:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:00:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:06:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:09:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:18:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:21:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:25:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:31:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T15:35:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T20:41:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-07T20:41:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-09T22:06:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2022-12-23T05:33:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-12-24T21:57:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T09:52:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T09:54:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T09:56:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T09:57:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T09:58:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T09:59:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T10:00:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T10:00:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T10:02:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T10:06:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-12-25T10:07:23Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-10-24T09:21:07Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-10-28T08:24:35Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2022-11-20T17:09:20Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-12-08T20:11:25Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-12-11T17:00:39Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-12-23T16:38:54Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-23T16:39:01Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-12-24T06:14:16Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-12-26T11:05:24Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-12-28T13:26:57Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-28T13:27:04Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-12-28T15:43:20Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-28T15:43:24Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2022-12-28T15:43:32Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-28T15:43:39Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-01-02T12:03:33Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-02T12:03:39Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-01-03T15:58:19Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-03T17:56:10Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-01-07T16:25:32Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-01-09T04:58:20Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-09T04:58:26Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-10T12:10:38Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2023-01-10T12:20:52Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-01-12T13:10:14Z"
+        }
+      ],
+      "time_to_first_review_hours": 56.34888888888889,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12359,
+      "title": "Immediate unstake for idle new stakers",
+      "state": "CLOSED",
+      "created_at": "2022-09-27T07:33:18Z",
+      "closed_at": "2022-12-12T21:04:52Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/substrate/pull/12359",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-12-12T21:04:52Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14582,
+      "pr_title": "Refactor staking ledger",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14582"
+    },
+    {
+      "pr_number": 14491,
+      "pr_title": "Name Service Pallet as Collectives Service",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14491"
+    },
+    {
+      "pr_number": 14451,
+      "pr_title": "Introduce `Payees` and `PayoutDestination` with `Split` variant",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14451"
+    },
+    {
+      "pr_number": 14186,
+      "pr_title": "Removes incorrect `try-state` check in staking",
+      "reviewed_at": "2024-01-30T23:48:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/14186"
+    },
+    {
+      "pr_number": 14527,
+      "pr_title": "remove `OnStakerSlash` replace with `OnStakingEvents`",
+      "reviewed_at": "2024-01-30T23:48:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/14527"
+    },
+    {
+      "pr_number": 12970,
+      "pr_title": "[NPoS] Implements dynamic number of nominators",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/12970"
+    },
+    {
+      "pr_number": 13498,
+      "pr_title": "[NPoS] Unlimited number of nominators eligible for Rewards payout",
+      "reviewed_at": "2024-01-30T23:48:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/13498"
+    },
+    {
+      "pr_number": 14140,
+      "pr_title": "Fix staking genesis build",
+      "reviewed_at": "2024-01-30T23:48:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/14140"
+    },
+    {
+      "pr_number": 14039,
+      "pr_title": "Staking::{bond, set_controller} to set controllers to stash only.",
+      "reviewed_at": "2024-01-30T23:48:37Z",
+      "url": "https://github.com/paritytech/substrate/pull/14039"
+    },
+    {
+      "pr_number": 13748,
+      "pr_title": "Fix nomiantion pools doc render",
+      "reviewed_at": "2024-01-30T23:48:34Z",
+      "url": "https://github.com/paritytech/substrate/pull/13748"
+    },
+    {
+      "pr_number": 13128,
+      "pr_title": "Nomination Pool Commission",
+      "reviewed_at": "2024-01-30T23:48:31Z",
+      "url": "https://github.com/paritytech/substrate/pull/13128"
+    },
+    {
+      "pr_number": 13416,
+      "pr_title": "Staking Reward Rate Runtime API",
+      "reviewed_at": "2023-08-24T13:50:28Z",
+      "url": "https://github.com/paritytech/substrate/pull/13416"
+    },
+    {
+      "pr_number": 12237,
+      "pr_title": "EPM: allow duplicate submissions",
+      "reviewed_at": "2023-08-24T13:39:10Z",
+      "url": "https://github.com/paritytech/substrate/pull/12237"
+    },
+    {
+      "pr_number": 12588,
+      "pr_title": "Abstracts elections-phragmen pallet to use NposSolver",
+      "reviewed_at": "2023-04-03T18:21:16Z",
+      "url": "https://github.com/paritytech/substrate/pull/12588"
+    },
+    {
+      "pr_number": 12608,
+      "pr_title": "permissionless `bond_extra` in nomination pools",
+      "reviewed_at": "2023-03-15T04:20:28Z",
+      "url": "https://github.com/paritytech/substrate/pull/12608"
+    },
+    {
+      "pr_number": 13119,
+      "pr_title": "Staking and nomination pools runtime API improvements",
+      "reviewed_at": "2023-03-09T19:30:35Z",
+      "url": "https://github.com/paritytech/substrate/pull/13119"
+    },
+    {
+      "pr_number": 13451,
+      "pr_title": "Revert \"Abstracts elections-phragmen pallet to use NposSolver (#12588)\"",
+      "reviewed_at": "2023-02-23T18:15:10Z",
+      "url": "https://github.com/paritytech/substrate/pull/13451"
+    },
+    {
+      "pr_number": 12511,
+      "pr_title": "[DO NOT MERGE] Nomination Pool Commission",
+      "reviewed_at": "2023-02-03T07:08:56Z",
+      "url": "https://github.com/paritytech/substrate/pull/12511"
+    },
+    {
+      "pr_number": 13018,
+      "pr_title": "Allow StakingAdmin to set `min_commission`",
+      "reviewed_at": "2023-01-20T07:22:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/13018"
+    },
+    {
+      "pr_number": 12963,
+      "pr_title": "Fix fast-unstake for accounts with slashing",
+      "reviewed_at": "2023-01-14T18:48:24Z",
+      "url": "https://github.com/paritytech/substrate/pull/12963"
+    },
+    {
+      "pr_number": 13089,
+      "pr_title": "[trivial] add note on usage of twox hash",
+      "reviewed_at": "2023-01-09T07:33:30Z",
+      "url": "https://github.com/paritytech/substrate/pull/13089"
+    },
+    {
+      "pr_number": 12624,
+      "pr_title": "More testing and fuzzing and docs for pools",
+      "reviewed_at": "2022-11-10T02:34:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/12624"
+    },
+    {
+      "pr_number": 12394,
+      "pr_title": "Add batching to fast-unstake pallet",
+      "reviewed_at": "2022-11-08T16:15:56Z",
+      "url": "https://github.com/paritytech/substrate/pull/12394"
+    },
+    {
+      "pr_number": 12343,
+      "pr_title": "[fix] Bound staking ledger correctly with MaxUnlockingChunks from configuration",
+      "reviewed_at": "2022-09-27T15:44:18Z",
+      "url": "https://github.com/paritytech/substrate/pull/12343"
+    },
+    {
+      "pr_number": 12352,
+      "pr_title": "re-export weight file for fast-unstsake pallet",
+      "reviewed_at": "2022-09-26T11:08:35Z",
+      "url": "https://github.com/paritytech/substrate/pull/12352"
+    },
+    {
+      "pr_number": 12344,
+      "pr_title": "[Enhancement] Remove optional Pool subscription from fast-unstake",
+      "reviewed_at": "2022-09-26T06:05:42Z",
+      "url": "https://github.com/paritytech/substrate/pull/12344"
+    },
+    {
+      "pr_number": 12095,
+      "pr_title": "Fix nomination pools pending rewards RPC",
+      "reviewed_at": "2022-08-28T12:55:55Z",
+      "url": "https://github.com/paritytech/substrate/pull/12095"
+    }
+  ]
+}

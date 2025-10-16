@@ -1,0 +1,127 @@
+{
+  "commits": [
+    {
+      "sha": "c0ac6a960bdd8c4ec77b2c89acd29c4e422278c6",
+      "message": "Rename .feature extension to .zndsl (#2215)",
+      "date": "2023-02-20T22:20:44Z",
+      "url": "https://github.com/paritytech/cumulus/commit/c0ac6a960bdd8c4ec77b2c89acd29c4e422278c6"
+    },
+    {
+      "sha": "919b56124f63b1f2ad57f9c9e3344e935dc85e6b",
+      "message": "Renaming CLI prunning and keep-blocks flags (#1514)",
+      "date": "2022-08-08T14:22:57Z",
+      "url": "https://github.com/paritytech/cumulus/commit/919b56124f63b1f2ad57f9c9e3344e935dc85e6b"
+    }
+  ],
+  "prs": [
+    {
+      "number": 2215,
+      "title": "Rename .feature extension to .zndsl",
+      "state": "MERGED",
+      "created_at": "2023-02-20T19:17:55Z",
+      "closed_at": "2023-02-20T22:20:45Z",
+      "merged_at": "2023-02-20T22:20:44Z",
+      "merged_by": "bkchr",
+      "author": "wirednkod",
+      "url": "https://github.com/paritytech/cumulus/pull/2215",
+      "ready_for_review_at": "2023-02-20T19:17:55Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-20T19:23:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2023-02-20T19:25:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2023-02-20T19:26:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sergejparity",
+          "submitted_at": "2023-02-20T20:56:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-20T22:20:38Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "tdimitrov",
+          "commented_at": "2023-02-20T19:25:01Z"
+        },
+        {
+          "commenter": "wirednkod",
+          "commented_at": "2023-02-20T19:47:52Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-20T19:50:10Z"
+        },
+        {
+          "commenter": "pepoviola",
+          "commented_at": "2023-02-20T19:59:42Z"
+        },
+        {
+          "commenter": "wirednkod",
+          "commented_at": "2023-02-20T20:00:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.09416666666666666,
+      "time_to_merge_hours": 3.0469444444444442
+    },
+    {
+      "number": 1514,
+      "title": "Renaming CLI prunning and keep-blocks flags",
+      "state": "MERGED",
+      "created_at": "2022-08-08T07:37:59Z",
+      "closed_at": "2022-08-08T14:22:57Z",
+      "merged_at": "2022-08-08T14:22:57Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "wirednkod",
+      "url": "https://github.com/paritytech/cumulus/pull/1514",
+      "ready_for_review_at": "2022-08-08T07:37:59Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-08-08T08:46:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-08T08:59:38Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-08-08T09:31:50Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-08-08T10:15:24Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-08-08T10:38:07Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2022-08-08T14:22:50Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.1458333333333333,
+      "time_to_merge_hours": 6.749444444444444
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

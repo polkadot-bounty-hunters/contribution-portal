@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "0dc5358e43187a1f54afb2455d42eddb0965c16a",
+      "message": "Add event testing example to pallet template (#12722)",
+      "date": "2022-11-17T15:55:56Z",
+      "url": "https://github.com/paritytech/substrate/commit/0dc5358e43187a1f54afb2455d42eddb0965c16a"
+    }
+  ],
+  "prs": [
+    {
+      "number": 12722,
+      "title": "Add event testing example to pallet template",
+      "state": "MERGED",
+      "created_at": "2022-11-16T20:59:21Z",
+      "closed_at": "2022-11-17T15:55:57Z",
+      "merged_at": "2022-11-17T15:55:57Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "elv-nate",
+      "url": "https://github.com/paritytech/substrate/pull/12722",
+      "ready_for_review_at": "2022-11-16T20:59:21Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-17T11:19:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-11-17T15:54:41Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-11-17T15:55:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 14.337222222222222,
+      "time_to_merge_hours": 18.94333333333333
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

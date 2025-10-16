@@ -1,0 +1,1227 @@
+{
+  "commits": [
+    {
+      "sha": "fe847b9b4c9ec2411ac4db5b876937b0581ead3c",
+      "message": "Update pallet-xcm to 22.0.1 (latest unstable2507) (#880)",
+      "date": "2025-09-05T10:36:26Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/fe847b9b4c9ec2411ac4db5b876937b0581ead3c"
+    },
+    {
+      "sha": "1666789919f98d285fe389c0c4f9faf4ce84a128",
+      "message": "[Bench] Benchmarks for all runtimes to use AssetHub location instead of Parent (#709)",
+      "date": "2025-07-29T13:15:36Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/1666789919f98d285fe389c0c4f9faf4ce84a128"
+    },
+    {
+      "sha": "089c589abc45a7e6dd3d14aa6e4abc4c4ffd388f",
+      "message": "System chains governace authorizes upgrade tests (#783)",
+      "date": "2025-07-11T06:55:20Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/089c589abc45a7e6dd3d14aa6e4abc4c4ffd388f"
+    },
+    {
+      "sha": "2fb47566718a974c261b68fffaae500be5581820",
+      "message": "Set clippy to verify all features (#734)",
+      "date": "2025-06-20T12:30:34Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/2fb47566718a974c261b68fffaae500be5581820"
+    },
+    {
+      "sha": "75284630b81727d72a009505b6033155289a33cb",
+      "message": "Bench workflow template support (#731)",
+      "date": "2025-06-05T14:20:48Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/75284630b81727d72a009505b6033155289a33cb"
+    },
+    {
+      "sha": "ba0bfd6caf7d0df80166f1151e9f86b68ec4dbed",
+      "message": "[Benchmark] Proper weights for transfer_assets extrinsic (#673)",
+      "date": "2025-05-05T12:02:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/ba0bfd6caf7d0df80166f1151e9f86b68ec4dbed"
+    }
+  ],
+  "prs": [
+    {
+      "number": 900,
+      "title": "[integration-tests][ahm] Governance origins propagation",
+      "state": "OPEN",
+      "created_at": "2025-09-09T06:29:12Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/900",
+      "ready_for_review_at": "2025-09-09T06:29:12Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-09T08:24:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-09T08:27:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-09-09T10:46:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-09-09T10:47:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-09T14:44:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-09-09T15:19:52Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-09-11T13:32:27Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-09-24T09:38:34Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.916111111111111,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 880,
+      "title": "Update pallet-xcm to 22.0.1 (latest unstable2507)",
+      "state": "MERGED",
+      "created_at": "2025-09-04T14:38:32Z",
+      "closed_at": "2025-09-05T10:36:27Z",
+      "merged_at": "2025-09-05T10:36:27Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/880",
+      "ready_for_review_at": "2025-09-04T14:38:32Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-09-05T09:16:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-05T09:25:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-05T09:27:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-09-05T09:29:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-05T09:29:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-09-05T10:09:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-09-05T10:15:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-09-05T10:23:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-09-05T10:23:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-09-05T10:23:27Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-09-05T10:23:58Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-09-05T10:36:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 18.628055555555555,
+      "time_to_merge_hours": 19.96527777777778
+    },
+    {
+      "number": 877,
+      "title": "[AHM] OpenGov for Kusama AH",
+      "state": "MERGED",
+      "created_at": "2025-09-03T13:49:21Z",
+      "closed_at": "2025-09-04T21:24:50Z",
+      "merged_at": "2025-09-04T21:24:50Z",
+      "merged_by": "bkontur",
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/877",
+      "ready_for_review_at": "2025-09-03T13:49:21Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T07:25:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T08:13:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:29:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:30:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:33:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:36:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:38:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-09-04T10:43:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:45:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:46:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T10:49:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T10:52:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T10:52:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T10:58:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T11:00:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T11:04:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T11:09:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T11:10:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T11:13:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T11:19:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-09-04T15:37:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-09-04T15:41:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-09-04T15:47:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T15:52:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-04T15:53:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T15:54:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-09-04T16:09:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-09-04T16:10:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-09-04T16:10:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-09-04T16:11:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T16:15:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-09-04T16:17:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-09-04T16:18:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-09-04T16:18:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T16:19:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T16:20:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T16:35:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T16:43:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-04T21:09:00Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-09-04T07:40:55Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.609444444444446,
+      "time_to_merge_hours": 31.59138888888889
+    },
+    {
+      "number": 783,
+      "title": "System chains governace authorizes upgrade tests",
+      "state": "MERGED",
+      "created_at": "2025-06-24T19:30:11Z",
+      "closed_at": "2025-07-11T06:55:20Z",
+      "merged_at": "2025-07-11T06:55:20Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/783",
+      "ready_for_review_at": "2025-06-24T19:30:11Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-25T10:15:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-25T10:17:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-25T13:59:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-25T14:27:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-25T19:19:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-26T12:26:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-26T15:12:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-26T20:11:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-27T13:32:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-03T08:08:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-03T08:12:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-07-03T10:03:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-09T16:17:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2025-07-10T10:30:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pandres95",
+          "submitted_at": "2025-07-11T02:17:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-11T06:56:44Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-25T19:14:39Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-11T06:53:35Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-07-11T06:55:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 14.749166666666667,
+      "time_to_merge_hours": 395.4191666666667
+    },
+    {
+      "number": 734,
+      "title": "Set clippy to verify all features",
+      "state": "MERGED",
+      "created_at": "2025-05-20T21:23:56Z",
+      "closed_at": "2025-06-20T12:30:35Z",
+      "merged_at": "2025-06-20T12:30:35Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/734",
+      "ready_for_review_at": "2025-05-20T21:23:56Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-21T10:04:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-05-21T10:22:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-05-22T12:03:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "AndreiEres",
+          "submitted_at": "2025-05-28T07:50:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-05-28T09:42:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-28T20:20:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-06-01T09:05:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "AndreiEres",
+          "submitted_at": "2025-06-02T10:56:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-05T05:42:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-20T12:28:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-05-30T14:25:25Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-04T22:55:47Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-06-20T07:54:18Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-06-20T12:28:45Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-06-20T12:30:36Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-06-23T07:20:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 12.675,
+      "time_to_merge_hours": 735.1108333333333
+    },
+    {
+      "number": 731,
+      "title": "Bench workflow template support",
+      "state": "MERGED",
+      "created_at": "2025-05-19T14:02:52Z",
+      "closed_at": "2025-06-05T14:20:49Z",
+      "merged_at": "2025-06-05T14:20:49Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/731",
+      "ready_for_review_at": "2025-05-19T14:02:52Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-19T14:29:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-19T20:09:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-19T20:09:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-20T09:26:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-20T09:33:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-05-20T10:57:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-05T05:41:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-06-05T12:12:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-06-05T14:18:05Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-05-19T20:09:24Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-05-20T11:31:23Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-05-21T10:02:28Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-04T22:57:29Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-06-05T14:18:28Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-06-05T14:20:20Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-06-16T22:35:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.43944444444444447,
+      "time_to_merge_hours": 408.2991666666667
+    },
+    {
+      "number": 709,
+      "title": "[Bench] Benchmarks for all runtimes to use AssetHub location instead of Parent",
+      "state": "MERGED",
+      "created_at": "2025-05-05T12:54:31Z",
+      "closed_at": "2025-07-29T13:15:36Z",
+      "merged_at": "2025-07-29T13:15:36Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/709",
+      "ready_for_review_at": "2025-05-05T12:54:31Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-06T08:00:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-09T22:39:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-09T23:45:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-05T19:01:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-05T20:19:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-05T20:24:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-05T20:27:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-05T21:07:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-18T09:07:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-06-19T07:26:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-19T07:56:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-03T10:41:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-08T11:01:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-09T16:21:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-15T06:48:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-15T09:05:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-07-15T09:09:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-07-29T10:59:08Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-05-05T13:50:56Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-05-05T19:38:07Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-05-05T20:22:56Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-05-06T06:52:32Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-05-06T07:40:12Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-05-06T10:06:41Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-05-06T10:12:38Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-05-15T15:06:45Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-03T09:29:01Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-07-03T10:34:21Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-07-03T11:26:50Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-03T11:46:39Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-07-15T09:12:58Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-15T09:18:13Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-07-15T09:20:14Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-07-15T10:12:25Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-07-15T10:15:00Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-15T10:55:29Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-07-24T07:51:27Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-07-24T07:58:03Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-07-24T08:50:11Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-07-29T10:59:21Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-07-29T11:22:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 19.10361111111111,
+      "time_to_merge_hours": 2040.3513888888888
+    },
+    {
+      "number": 673,
+      "title": "[Benchmark] Proper weights for transfer_assets extrinsic",
+      "state": "MERGED",
+      "created_at": "2025-04-14T06:19:35Z",
+      "closed_at": "2025-05-05T12:02:50Z",
+      "merged_at": "2025-05-05T12:02:50Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "karolk91",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/673",
+      "ready_for_review_at": "2025-04-14T06:19:35Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-16T14:40:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-16T14:40:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-16T14:40:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-16T14:41:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-16T14:41:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-16T14:50:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-17T08:49:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-17T09:04:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-17T09:10:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-17T09:22:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-17T09:25:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-18T12:39:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-29T11:14:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-29T15:05:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-29T19:30:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-30T08:53:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-30T08:55:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-30T09:08:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-04-30T09:15:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-04-30T09:22:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-04-30T09:42:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-30T09:53:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-04-30T14:57:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-04-30T15:17:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-05-02T08:43:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "karolk91",
+          "submitted_at": "2025-05-05T09:03:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-05-05T09:19:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-05-05T11:24:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-05-05T11:27:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-16T13:16:21Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-16T13:22:42Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-16T13:34:30Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-16T14:28:22Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-16T14:45:21Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-16T14:56:44Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-16T14:57:11Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-16T15:06:22Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-16T15:27:37Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-16T15:34:59Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-16T16:08:06Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-16T22:57:29Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-04-17T09:13:37Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-04-18T12:28:23Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-18T13:29:06Z"
+        },
+        {
+          "commenter": "karolk91",
+          "commented_at": "2025-04-28T21:45:31Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-05-05T09:35:01Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2025-05-05T11:24:49Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-05-05T11:33:10Z"
+        }
+      ],
+      "time_to_first_review_hours": 56.342777777777776,
+      "time_to_merge_hours": 509.72083333333336
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 900,
+      "pr_title": "[integration-tests][ahm] Governance origins propagation",
+      "reviewed_at": "2025-10-08T06:35:35Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/900"
+    },
+    {
+      "pr_number": 856,
+      "pr_title": "THE ASSET HUB MIGRATION (Please Review)",
+      "reviewed_at": "2025-09-25T00:45:22Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/856"
+    },
+    {
+      "pr_number": 626,
+      "pr_title": "[AHM] OpenGov for Polkadot AH tweaks",
+      "reviewed_at": "2025-09-05T12:37:36Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/626"
+    },
+    {
+      "pr_number": 880,
+      "pr_title": "Update pallet-xcm to 22.0.1 (latest unstable2507)",
+      "reviewed_at": "2025-09-05T10:36:28Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/880"
+    },
+    {
+      "pr_number": 853,
+      "pr_title": "Fresh weights for upcoming runtimes 1.7.0 release",
+      "reviewed_at": "2025-08-20T21:20:48Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/853"
+    },
+    {
+      "pr_number": 709,
+      "pr_title": "[Bench] Benchmarks for all runtimes to use AssetHub location instead of Parent",
+      "reviewed_at": "2025-07-29T13:15:36Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/709"
+    },
+    {
+      "pr_number": 783,
+      "pr_title": "System chains governace authorizes upgrade tests",
+      "reviewed_at": "2025-07-11T06:56:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/783"
+    },
+    {
+      "pr_number": 734,
+      "pr_title": "Set clippy to verify all features",
+      "reviewed_at": "2025-06-23T07:20:58Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/734"
+    },
+    {
+      "pr_number": 729,
+      "pr_title": "Add balance to StakingPot accounts for benchmarks for all system parachains",
+      "reviewed_at": "2025-06-19T09:54:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/729"
+    },
+    {
+      "pr_number": 731,
+      "pr_title": "Bench workflow template support",
+      "reviewed_at": "2025-06-17T11:45:59Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/731"
+    },
+    {
+      "pr_number": 699,
+      "pr_title": "[AHM] Docs and simpler events",
+      "reviewed_at": "2025-05-05T12:06:37Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/699"
+    },
+    {
+      "pr_number": 673,
+      "pr_title": "[Benchmark] Proper weights for transfer_assets extrinsic",
+      "reviewed_at": "2025-05-05T12:02:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/673"
+    },
+    {
+      "pr_number": 700,
+      "pr_title": "Enable ExchangeAsset in asset hubs",
+      "reviewed_at": "2025-05-05T09:42:53Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/700"
+    },
+    {
+      "pr_number": 704,
+      "pr_title": "[AHM] Fix westend builds",
+      "reviewed_at": "2025-05-01T13:19:57Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/704"
+    },
+    {
+      "pr_number": 703,
+      "pr_title": "Let \"/cmd bench\" accept \":\" for \"pallet_xcm_benchmarks::generic\"",
+      "reviewed_at": "2025-05-01T08:36:57Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/703"
+    },
+    {
+      "pr_number": 588,
+      "pr_title": "use rpc_port in bridge tests",
+      "reviewed_at": "2025-02-12T10:05:34Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/588"
+    },
+    {
+      "pr_number": 523,
+      "pr_title": "Asset hubs - Add all assets in pool with native to XcmPaymentApi",
+      "reviewed_at": "2025-01-24T17:24:38Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/523"
+    }
+  ]
+}

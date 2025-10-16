@@ -1,0 +1,4184 @@
+{
+  "commits": [
+    {
+      "sha": "e526f80a91f75a3811059d4ee19b0f190005c5a2",
+      "message": "Make owned_item in MintWitness optional (#14800)",
+      "date": "2023-08-21T21:03:38Z",
+      "url": "https://github.com/paritytech/substrate/commit/e526f80a91f75a3811059d4ee19b0f190005c5a2"
+    },
+    {
+      "sha": "aedfdc977b28a4029ec658dff960a86220f7622b",
+      "message": "Sync NFT metadata limits with AssetHub values (#14748)",
+      "date": "2023-08-11T06:35:40Z",
+      "url": "https://github.com/paritytech/substrate/commit/aedfdc977b28a4029ec658dff960a86220f7622b"
+    },
+    {
+      "sha": "89b352a6aa0f5bc3980011c96f6befcd3859564d",
+      "message": "Handle the AllowMultiAssetPools=false case in benchmarks (#14590)",
+      "date": "2023-07-18T09:38:03Z",
+      "url": "https://github.com/paritytech/substrate/commit/89b352a6aa0f5bc3980011c96f6befcd3859564d"
+    },
+    {
+      "sha": "5591c9b8cb346e356d2e9a63064af2f61bd54bd1",
+      "message": "Refactor the asset-conversion-tx-payment pallet (#14558)",
+      "date": "2023-07-13T13:44:05Z",
+      "url": "https://github.com/paritytech/substrate/commit/5591c9b8cb346e356d2e9a63064af2f61bd54bd1"
+    },
+    {
+      "sha": "8c823ecd80ecacff5a967607a68815fecfa12938",
+      "message": "Use set_balance() instead of write_balance() in benchmark (#14497)",
+      "date": "2023-07-05T10:04:31Z",
+      "url": "https://github.com/paritytech/substrate/commit/8c823ecd80ecacff5a967607a68815fecfa12938"
+    },
+    {
+      "sha": "67b14ad91edada22765b305514f14228f05fa2d2",
+      "message": "Improve NFT locking (#14510)",
+      "date": "2023-07-05T09:17:08Z",
+      "url": "https://github.com/paritytech/substrate/commit/67b14ad91edada22765b305514f14228f05fa2d2"
+    },
+    {
+      "sha": "81d125fe2a938ba336716c8b1d5e0faff0487d50",
+      "message": "Pay tx fee with assets by using the asset conversion pallet (#14340)",
+      "date": "2023-06-23T19:17:52Z",
+      "url": "https://github.com/paritytech/substrate/commit/81d125fe2a938ba336716c8b1d5e0faff0487d50"
+    },
+    {
+      "sha": "50bb1c7bf6a2b5db1e38213350feb0ad16728620",
+      "message": "Use Incrementable from frame_support::traits (#14367)",
+      "date": "2023-06-13T13:46:19Z",
+      "url": "https://github.com/paritytech/substrate/commit/50bb1c7bf6a2b5db1e38213350feb0ad16728620"
+    },
+    {
+      "sha": "5b11f65c3a8ba318c5b1784cc1586a0d65f3e77a",
+      "message": "[NFTs] Add mint price to the witness object on mint and confirm it (#14257)",
+      "date": "2023-05-29T16:59:43Z",
+      "url": "https://github.com/paritytech/substrate/commit/5b11f65c3a8ba318c5b1784cc1586a0d65f3e77a"
+    },
+    {
+      "sha": "f47a84a36ee479c0561041407b0a7f4456dfa8f4",
+      "message": "[NFTs] Add minting price to the pre-signed mint object (#14242)",
+      "date": "2023-05-29T11:00:00Z",
+      "url": "https://github.com/paritytech/substrate/commit/f47a84a36ee479c0561041407b0a7f4456dfa8f4"
+    },
+    {
+      "sha": "d8c320941ad83bc8aa9b7136776553cd345e5c17",
+      "message": "[NFTs] Improve offchain signature validation (#13960)",
+      "date": "2023-04-20T12:38:45Z",
+      "url": "https://github.com/paritytech/substrate/commit/d8c320941ad83bc8aa9b7136776553cd345e5c17"
+    },
+    {
+      "sha": "4f28d2923a825dafc8431825270e78c5ab218ce0",
+      "message": "[NFTs] Allow to set the role to None (#13591)",
+      "date": "2023-03-14T07:55:18Z",
+      "url": "https://github.com/paritytech/substrate/commit/4f28d2923a825dafc8431825270e78c5ab218ce0"
+    },
+    {
+      "sha": "f5c2cecd7efe6dcbc828906794f3c4c41f23c791",
+      "message": "[NFTs] Rework permissions model (#13482)",
+      "date": "2023-03-13T08:25:46Z",
+      "url": "https://github.com/paritytech/substrate/commit/f5c2cecd7efe6dcbc828906794f3c4c41f23c791"
+    },
+    {
+      "sha": "8f9b07445057ab83a057cb61aac56a4a0a671395",
+      "message": "Nfts: minor fixes (#13576)",
+      "date": "2023-03-10T09:52:10Z",
+      "url": "https://github.com/paritytech/substrate/commit/8f9b07445057ab83a057cb61aac56a4a0a671395"
+    },
+    {
+      "sha": "e8f5bc176ca33bc5a2fd375e64c67b91ce16bbc9",
+      "message": "[NFTs] Emit new PalletAttributeSet event (#13525)",
+      "date": "2023-03-03T12:17:55Z",
+      "url": "https://github.com/paritytech/substrate/commit/e8f5bc176ca33bc5a2fd375e64c67b91ce16bbc9"
+    },
+    {
+      "sha": "d1d67cddf577ef275a2ca339312805c6d25ef9e5",
+      "message": "Return account's asset balances (#13352)",
+      "date": "2023-03-02T13:58:41Z",
+      "url": "https://github.com/paritytech/substrate/commit/d1d67cddf577ef275a2ca339312805c6d25ef9e5"
+    },
+    {
+      "sha": "b0ed48e2295861b79ca7399323d6d64157fa2303",
+      "message": "[NFTs] Update attributes with offchain signature (#13390)",
+      "date": "2023-02-22T13:50:40Z",
+      "url": "https://github.com/paritytech/substrate/commit/b0ed48e2295861b79ca7399323d6d64157fa2303"
+    },
+    {
+      "sha": "0ce39208841e519920b57d3ba5a3962188c4c66c",
+      "message": "[NFTs] Offchain mint (#13158)",
+      "date": "2023-02-14T08:19:50Z",
+      "url": "https://github.com/paritytech/substrate/commit/0ce39208841e519920b57d3ba5a3962188c4c66c"
+    },
+    {
+      "sha": "293c1f24e968a8d956250324fb7e91b7df4507df",
+      "message": "[NFTs] Track item's metadata depositor (#13124)",
+      "date": "2023-01-11T13:27:59Z",
+      "url": "https://github.com/paritytech/substrate/commit/293c1f24e968a8d956250324fb7e91b7df4507df"
+    },
+    {
+      "sha": "d1fe09c801b3d7312f01b04f3204b1d0ec76db87",
+      "message": "Allow to clear attributes via traits (#13055)",
+      "date": "2023-01-04T08:31:24Z",
+      "url": "https://github.com/paritytech/substrate/commit/d1fe09c801b3d7312f01b04f3204b1d0ec76db87"
+    },
+    {
+      "sha": "296772699280a07cc3512ebaf9e199cebbea651c",
+      "message": "Disallow burning externally locked nfts (#13054)",
+      "date": "2023-01-04T08:30:43Z",
+      "url": "https://github.com/paritytech/substrate/commit/296772699280a07cc3512ebaf9e199cebbea651c"
+    },
+    {
+      "sha": "18ead61a6265e6fdfccd17e5c60250432071fb53",
+      "message": "Fix pallet's integration (#13056)",
+      "date": "2023-01-04T08:30:12Z",
+      "url": "https://github.com/paritytech/substrate/commit/18ead61a6265e6fdfccd17e5c60250432071fb53"
+    },
+    {
+      "sha": "c7f5df2c160e8d836285127a60bbf7793b7067ba",
+      "message": "NFTs 2.0 (#12765)",
+      "date": "2022-12-23T16:07:27Z",
+      "url": "https://github.com/paritytech/substrate/commit/c7f5df2c160e8d836285127a60bbf7793b7067ba"
+    },
+    {
+      "sha": "9dad17f77b8a56ccf0d289ae410ee1e61d9b12a1",
+      "message": "Buy&Sell methods for Uniques (#11398)",
+      "date": "2022-07-13T12:41:20Z",
+      "url": "https://github.com/paritytech/substrate/commit/9dad17f77b8a56ccf0d289ae410ee1e61d9b12a1"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14801,
+      "title": "Change the identifier of the AssetConversionTxPayment pallet",
+      "state": "OPEN",
+      "created_at": "2023-08-21T16:10:28Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14801",
+      "ready_for_review_at": "2023-08-21T16:10:28Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-21T16:16:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-08-21T16:51:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "gilescope",
+          "commented_at": "2023-08-21T17:00:59Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-21T17:01:07Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-21T17:01:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.09861111111111111,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14800,
+      "title": "[NFTs] Make owned_item in MintWitness optional",
+      "state": "MERGED",
+      "created_at": "2023-08-21T12:23:51Z",
+      "closed_at": "2023-08-21T21:03:38Z",
+      "merged_at": "2023-08-21T21:03:38Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14800",
+      "ready_for_review_at": "2023-08-21T12:23:51Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-21T12:32:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-21T13:10:38Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-08-21T16:05:20Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-21T16:05:27Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-08-21T21:03:30Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.1386111111111111,
+      "time_to_merge_hours": 8.663055555555555
+    },
+    {
+      "number": 14748,
+      "title": "Sync NFT metadata limits with AssetHub values",
+      "state": "MERGED",
+      "created_at": "2023-08-10T15:35:11Z",
+      "closed_at": "2023-08-11T06:35:40Z",
+      "merged_at": "2023-08-11T06:35:40Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14748",
+      "ready_for_review_at": "2023-08-10T15:35:11Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-10T16:21:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-11T06:34:17Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-08-11T06:35:31Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7641666666666667,
+      "time_to_merge_hours": 15.008055555555556
+    },
+    {
+      "number": 14590,
+      "title": "Handle the AllowMultiAssetPools=false case in benchmarks",
+      "state": "MERGED",
+      "created_at": "2023-07-17T15:18:52Z",
+      "closed_at": "2023-07-18T09:38:04Z",
+      "merged_at": "2023-07-18T09:38:04Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14590",
+      "ready_for_review_at": "2023-07-17T15:18:52Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-07-17T15:25:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-07-17T19:05:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkontur",
+          "commented_at": "2023-07-17T15:25:00Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-17T15:25:05Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-17T15:59:01Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2023-07-18T08:38:39Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-18T08:38:45Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-07-18T09:37:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.10527777777777778,
+      "time_to_merge_hours": 18.32
+    },
+    {
+      "number": 14558,
+      "title": "Refactor the asset-conversion-tx-payment pallet",
+      "state": "MERGED",
+      "created_at": "2023-07-12T09:28:39Z",
+      "closed_at": "2023-07-13T13:44:05Z",
+      "merged_at": "2023-07-13T13:44:05Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14558",
+      "ready_for_review_at": "2023-07-12T09:28:39Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-07-12T14:16:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "PatricioNapoli",
+          "submitted_at": "2023-07-12T20:27:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-13T13:42:24Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-07-12T10:40:48Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-12T10:40:55Z"
+        },
+        {
+          "commenter": "PatricioNapoli",
+          "commented_at": "2023-07-12T15:29:45Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-07-13T13:43:57Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.794444444444444,
+      "time_to_merge_hours": 28.25722222222222
+    },
+    {
+      "number": 14512,
+      "title": "[NFTs] Allow to set the default new item's metadata",
+      "state": "CLOSED",
+      "created_at": "2023-07-04T14:59:46Z",
+      "closed_at": "2023-07-05T09:23:32Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14512",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-07-04T15:08:00Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-07-05T09:23:32Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14510,
+      "title": "Improve NFT locking",
+      "state": "MERGED",
+      "created_at": "2023-07-04T12:34:06Z",
+      "closed_at": "2023-07-05T09:17:09Z",
+      "merged_at": "2023-07-05T09:17:09Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14510",
+      "ready_for_review_at": "2023-07-04T12:34:06Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-07-04T12:48:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-07-04T14:21:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-07-04T15:17:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-07-04T16:52:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-07-04T16:53:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-07-05T09:17:00Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.24194444444444443,
+      "time_to_merge_hours": 20.7175
+    },
+    {
+      "number": 14497,
+      "title": "Use set_balance() instead of write_balance() in benchmark",
+      "state": "MERGED",
+      "created_at": "2023-07-03T12:27:45Z",
+      "closed_at": "2023-07-05T10:04:32Z",
+      "merged_at": "2023-07-05T10:04:32Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14497",
+      "ready_for_review_at": "2023-07-03T12:27:45Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-07-03T12:29:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-07-03T13:18:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-07-03T13:42:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-07-03T13:45:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-07-03T16:41:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-07-03T17:00:55Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-07-05T10:04:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.025555555555555557,
+      "time_to_merge_hours": 45.613055555555555
+    },
+    {
+      "number": 14367,
+      "title": "Use Incrementable from frame_support::traits",
+      "state": "MERGED",
+      "created_at": "2023-06-13T12:15:08Z",
+      "closed_at": "2023-06-13T13:46:19Z",
+      "merged_at": "2023-06-13T13:46:19Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14367",
+      "ready_for_review_at": "2023-06-13T12:15:08Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-13T12:20:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-06-13T12:21:02Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-06-13T13:46:11Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08972222222222222,
+      "time_to_merge_hours": 1.5197222222222222
+    },
+    {
+      "number": 14340,
+      "title": "Pay tx fee with assets by using the asset conversion pallet",
+      "state": "MERGED",
+      "created_at": "2023-06-09T21:15:07Z",
+      "closed_at": "2023-06-23T19:17:53Z",
+      "merged_at": "2023-06-23T19:17:53Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14340",
+      "ready_for_review_at": "2023-06-09T21:15:07Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-10T07:49:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-10T07:50:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-16T14:58:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-20T13:12:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-20T13:32:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-21T18:34:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-06-22T10:43:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:25:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:31:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:33:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:41:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:44:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:44:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:45:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:46:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T14:41:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T14:56:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T15:16:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T15:23:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-22T15:37:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T15:40:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T15:43:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T15:44:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T15:48:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T15:51:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-22T16:00:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T16:01:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T16:15:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T16:16:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T16:35:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-22T16:38:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-22T18:14:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-23T06:29:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-23T13:14:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-23T13:16:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-23T13:20:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-23T13:21:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-23T14:32:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-23T14:43:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-23T15:45:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-23T15:47:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-23T15:52:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-23T15:52:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-23T15:55:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-23T15:57:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-24T08:52:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-06-25T12:35:03Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-06-23T06:48:42Z"
+        },
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2023-06-23T13:24:30Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-06-23T19:17:44Z"
+        }
+      ],
+      "time_to_first_review_hours": 10.568888888888889,
+      "time_to_merge_hours": 334.0461111111111
+    },
+    {
+      "number": 14257,
+      "title": "[NFTs] Add mint price to the witness object on mint and confirm it",
+      "state": "MERGED",
+      "created_at": "2023-05-29T12:27:20Z",
+      "closed_at": "2023-05-29T16:59:44Z",
+      "merged_at": "2023-05-29T16:59:44Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14257",
+      "ready_for_review_at": "2023-05-29T12:27:20Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-05-29T13:58:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-05-29T13:58:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-05-29T15:24:08Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-05-29T16:59:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.5244444444444445,
+      "time_to_merge_hours": 4.54
+    },
+    {
+      "number": 14242,
+      "title": "[NFTs] Add minting price to the pre-signed mint object",
+      "state": "MERGED",
+      "created_at": "2023-05-26T20:15:42Z",
+      "closed_at": "2023-05-29T11:00:01Z",
+      "merged_at": "2023-05-29T11:00:01Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/14242",
+      "ready_for_review_at": "2023-05-26T20:15:42Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-05-26T20:32:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-29T10:53:09Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-05-29T10:59:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2783333333333333,
+      "time_to_merge_hours": 62.73861111111111
+    },
+    {
+      "number": 13960,
+      "title": "[NFTs] Improve offchain signature validation",
+      "state": "MERGED",
+      "created_at": "2023-04-20T10:51:46Z",
+      "closed_at": "2023-04-20T12:38:46Z",
+      "merged_at": "2023-04-20T12:38:46Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13960",
+      "ready_for_review_at": "2023-04-20T10:51:46Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-20T10:56:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-04-20T11:08:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-04-20T11:09:20Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-04-20T11:04:20Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-04-20T12:38:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.07861111111111112,
+      "time_to_merge_hours": 1.7833333333333334
+    },
+    {
+      "number": 13591,
+      "title": "[NFTs] Allow to set the role to None",
+      "state": "MERGED",
+      "created_at": "2023-03-13T11:11:43Z",
+      "closed_at": "2023-03-14T07:55:19Z",
+      "merged_at": "2023-03-14T07:55:19Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13591",
+      "ready_for_review_at": "2023-03-13T11:11:43Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-13T11:30:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-03-13T11:35:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-13T11:37:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-13T11:38:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-03-13T11:38:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-03-13T19:20:28Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-13T15:37:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-13T15:38:15Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2023-03-13T16:48:21Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-14T07:53:47Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-14T07:55:04Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-14T07:55:10Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.3211111111111111,
+      "time_to_merge_hours": 20.726666666666667
+    },
+    {
+      "number": 13576,
+      "title": "Nfts: minor fixes",
+      "state": "MERGED",
+      "created_at": "2023-03-10T08:10:29Z",
+      "closed_at": "2023-03-10T09:52:11Z",
+      "merged_at": "2023-03-10T09:52:11Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13576",
+      "ready_for_review_at": "2023-03-10T08:10:29Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-10T08:40:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-03-10T09:28:36Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-10T09:52:01Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.4975,
+      "time_to_merge_hours": 1.695
+    },
+    {
+      "number": 13572,
+      "title": "WIP: [NFTs] Simplify collection creation and item mint",
+      "state": "CLOSED",
+      "created_at": "2023-03-09T13:32:48Z",
+      "closed_at": "2023-04-28T10:15:26Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13572",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "jasl",
+          "commented_at": "2023-03-09T16:58:54Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-09T17:46:34Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-09T17:48:20Z"
+        },
+        {
+          "commenter": "jasl",
+          "commented_at": "2023-03-09T17:48:37Z"
+        },
+        {
+          "commenter": "jasl",
+          "commented_at": "2023-03-09T17:49:07Z"
+        },
+        {
+          "commenter": "jasl",
+          "commented_at": "2023-03-10T11:27:16Z"
+        },
+        {
+          "commenter": "jasl",
+          "commented_at": "2023-03-10T11:45:29Z"
+        },
+        {
+          "commenter": "jasl",
+          "commented_at": "2023-03-10T11:52:26Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-04-14T05:17:15Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13525,
+      "title": "[NFTs] Emit new PalletAttributeSet event",
+      "state": "MERGED",
+      "created_at": "2023-03-03T10:26:42Z",
+      "closed_at": "2023-03-03T12:17:56Z",
+      "merged_at": "2023-03-03T12:17:55Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13525",
+      "ready_for_review_at": "2023-03-03T10:26:42Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-03T11:23:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-03T11:30:09Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-03T12:17:47Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.9525,
+      "time_to_merge_hours": 1.853611111111111
+    },
+    {
+      "number": 13482,
+      "title": "[NFTs] Rework permissions model",
+      "state": "MERGED",
+      "created_at": "2023-02-27T17:00:26Z",
+      "closed_at": "2023-03-13T08:25:46Z",
+      "merged_at": "2023-03-13T08:25:46Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13482",
+      "ready_for_review_at": "2023-02-27T17:00:26Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-03-06T18:51:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-10T09:01:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-10T09:10:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-10T09:29:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-10T11:53:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-03-10T12:09:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-10T12:53:21Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "mustermeiszer",
+          "commented_at": "2023-03-02T09:38:26Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-02T10:19:48Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-02T10:21:25Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-02T10:21:33Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-10T10:31:01Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-10T10:31:10Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-10T12:23:52Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-10T12:23:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-10T13:12:39Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-10T13:53:23Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-10T13:53:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-10T21:55:38Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-13T08:25:36Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-30T10:12:44Z"
+        }
+      ],
+      "time_to_first_review_hours": 169.8527777777778,
+      "time_to_merge_hours": 327.4222222222222
+    },
+    {
+      "number": 13390,
+      "title": "[NFTs] Update attributes with offchain signature",
+      "state": "MERGED",
+      "created_at": "2023-02-15T09:18:23Z",
+      "closed_at": "2023-02-22T13:50:41Z",
+      "merged_at": "2023-02-22T13:50:41Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13390",
+      "ready_for_review_at": "2023-02-15T09:18:23Z",
+      "reviews": [
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-02-15T09:32:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-15T09:35:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-02-15T09:59:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-02-15T10:01:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-15T10:02:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-02-15T10:03:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-02-15T10:10:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-15T10:40:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-02-15T11:19:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-02-22T13:07:05Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-15T09:48:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-15T09:48:25Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2023-02-15T10:11:16Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-15T10:40:46Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-15T10:42:50Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-15T10:42:56Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2023-02-15T11:12:40Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2023-02-15T11:15:04Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2023-02-15T11:18:12Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-15T11:27:29Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-15T11:32:16Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-22T13:50:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2311111111111111,
+      "time_to_merge_hours": 172.53833333333333
+    },
+    {
+      "number": 13352,
+      "title": "Return account's asset balances",
+      "state": "MERGED",
+      "created_at": "2023-02-09T16:45:41Z",
+      "closed_at": "2023-03-02T13:58:42Z",
+      "merged_at": "2023-03-02T13:58:42Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13352",
+      "ready_for_review_at": "2023-02-09T16:45:41Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-02-09T16:54:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-09T17:00:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-02-09T17:27:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-02-09T17:30:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-10T09:01:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-02-10T10:05:20Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2023-02-15T13:38:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-21T12:22:30Z",
+          "state": "DISMISSED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-21T12:59:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-21T13:00:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-21T13:00:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-21T13:01:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-02-21T13:30:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-21T14:09:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-02-21T19:45:27Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-09T22:21:49Z"
+        },
+        {
+          "commenter": "gilescope",
+          "commented_at": "2023-02-10T08:15:10Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-10T09:00:26Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-10T15:19:56Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-10T15:26:11Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-02-11T22:17:52Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-02-11T22:20:50Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-13T09:18:59Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-13T13:19:23Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-02-13T22:49:09Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-02-13T22:50:00Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2023-02-21T12:25:45Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-02-21T12:27:01Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-02-21T12:33:42Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-02-21T12:34:56Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-02-21T12:59:09Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-02-21T15:21:03Z"
+        },
+        {
+          "commenter": "mustermeiszer",
+          "commented_at": "2023-02-22T16:59:15Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2023-02-22T17:21:02Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2023-02-23T08:22:24Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-23T08:22:32Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2023-02-27T11:54:19Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-27T11:54:26Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-02T11:31:31Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-02T11:31:39Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-02T13:58:32Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-30T10:12:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.15194444444444444,
+      "time_to_merge_hours": 501.21694444444444
+    },
+    {
+      "number": 13158,
+      "title": "[NFTs] Offchain mint",
+      "state": "MERGED",
+      "created_at": "2023-01-17T10:51:38Z",
+      "closed_at": "2023-02-14T08:19:51Z",
+      "merged_at": "2023-02-14T08:19:51Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13158",
+      "ready_for_review_at": "2023-01-17T10:51:38Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-18T16:52:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-18T17:01:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-01T15:33:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-01T16:30:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-02-07T04:05:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-07T09:56:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-13T14:37:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-02-14T09:02:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-14T09:29:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-02-14T09:29:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-14T09:36:32Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-17T10:53:51Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-17T10:53:53Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-17T10:55:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-17T10:55:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-17T10:57:34Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-21T14:34:38Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-21T14:34:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-21T15:08:20Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-31T14:42:51Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-31T14:42:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-31T14:43:07Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-31T14:51:14Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-31T14:51:19Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-01-31T15:43:41Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-07T09:54:53Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-02-14T08:19:41Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-09T19:30:20Z"
+        }
+      ],
+      "time_to_first_review_hours": 30.011666666666667,
+      "time_to_merge_hours": 669.4702777777778
+    },
+    {
+      "number": 13124,
+      "title": "[NFTs] Track item's metadata depositor",
+      "state": "MERGED",
+      "created_at": "2023-01-11T09:39:32Z",
+      "closed_at": "2023-01-11T13:28:00Z",
+      "merged_at": "2023-01-11T13:28:00Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13124",
+      "ready_for_review_at": "2023-01-11T09:39:32Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-01-11T10:02:46Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-11T10:28:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-11T10:29:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-11T10:30:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-11T11:05:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-11T13:24:57Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-11T12:31:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-11T12:31:31Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-11T13:16:50Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-11T13:27:51Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-02-22T16:09:27Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.38722222222222225,
+      "time_to_merge_hours": 3.807777777777778
+    },
+    {
+      "number": 13056,
+      "title": "Fix NFTs pallet's integration issues",
+      "state": "MERGED",
+      "created_at": "2023-01-03T16:05:28Z",
+      "closed_at": "2023-01-04T08:30:12Z",
+      "merged_at": "2023-01-04T08:30:12Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13056",
+      "ready_for_review_at": "2023-01-03T16:05:28Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-01-03T16:07:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-03T17:10:44Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-04T08:30:02Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.03166666666666667,
+      "time_to_merge_hours": 16.412222222222223
+    },
+    {
+      "number": 13055,
+      "title": "Allow to clear nft attributes via traits",
+      "state": "MERGED",
+      "created_at": "2023-01-03T15:59:25Z",
+      "closed_at": "2023-01-04T08:31:24Z",
+      "merged_at": "2023-01-04T08:31:24Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13055",
+      "ready_for_review_at": "2023-01-03T15:59:25Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-01-03T16:03:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-03T17:11:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-04T08:31:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.07194444444444445,
+      "time_to_merge_hours": 16.533055555555556
+    },
+    {
+      "number": 13054,
+      "title": "Disallow burning externally locked nfts",
+      "state": "MERGED",
+      "created_at": "2023-01-03T15:44:03Z",
+      "closed_at": "2023-01-04T08:30:44Z",
+      "merged_at": "2023-01-04T08:30:43Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13054",
+      "ready_for_review_at": "2023-01-03T15:44:03Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-01-03T16:02:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-03T17:01:13Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-04T08:30:35Z"
+        },
+        {
+          "commenter": "mustermeiszer",
+          "commented_at": "2023-01-18T09:37:20Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-01-22T17:16:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.30444444444444446,
+      "time_to_merge_hours": 16.77777777777778
+    },
+    {
+      "number": 13008,
+      "title": "Refactor nft fractionalisation pallet",
+      "state": "MERGED",
+      "created_at": "2022-12-22T15:30:05Z",
+      "closed_at": "2023-01-27T10:52:32Z",
+      "merged_at": "2023-01-27T10:52:32Z",
+      "merged_by": "jsidorenko",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/13008",
+      "ready_for_review_at": "2022-12-22T15:30:05Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-03T15:05:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-03T15:08:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-01-03T15:24:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-03T15:47:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lana-shanghai",
+          "submitted_at": "2023-01-05T14:55:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-05T16:17:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lana-shanghai",
+          "submitted_at": "2023-01-05T16:17:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-05T16:19:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2023-01-12T14:01:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-12T15:24:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-22T16:30:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-22T16:38:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-22T16:38:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-22T16:40:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-22T16:42:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-01-22T16:43:14Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-01-26T10:32:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 287.59833333333336,
+      "time_to_merge_hours": 859.3741666666666
+    },
+    {
+      "number": 12997,
+      "title": "[NFTs] Add the new `owner` param to mint() method",
+      "state": "MERGED",
+      "created_at": "2022-12-21T16:20:26Z",
+      "closed_at": "2022-12-22T12:22:16Z",
+      "merged_at": "2022-12-22T12:22:16Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12997",
+      "ready_for_review_at": "2022-12-21T16:20:26Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-12-21T18:26:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-21T20:22:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "melekes",
+          "submitted_at": "2022-12-22T06:53:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-22T07:19:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "melekes",
+          "submitted_at": "2022-12-22T07:31:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-22T10:07:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-22T11:06:14Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-12-22T12:22:09Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.1077777777777778,
+      "time_to_merge_hours": 20.030555555555555
+    },
+    {
+      "number": 12919,
+      "title": "[NFTs] Implement missed methods to set the attributes from other pallets",
+      "state": "MERGED",
+      "created_at": "2022-12-13T14:22:25Z",
+      "closed_at": "2022-12-13T18:44:41Z",
+      "merged_at": "2022-12-13T18:44:41Z",
+      "merged_by": "jsidorenko",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12919",
+      "ready_for_review_at": "2022-12-13T14:22:25Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-12-13T14:52:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-12-13T16:44:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-12-13T17:26:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-13T17:28:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-12-13T17:32:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-12-13T17:45:27Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.49666666666666665,
+      "time_to_merge_hours": 4.371111111111111
+    },
+    {
+      "number": 12904,
+      "title": "Add benchmarks + weights",
+      "state": "CLOSED",
+      "created_at": "2022-12-12T13:04:03Z",
+      "closed_at": "2022-12-12T13:04:49Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12904",
+      "ready_for_review_at": "2022-12-12T13:04:03Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-12-12T13:11:03Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12765,
+      "title": "NFTs 2.0",
+      "state": "MERGED",
+      "created_at": "2022-11-23T10:37:49Z",
+      "closed_at": "2022-12-23T16:07:27Z",
+      "merged_at": "2022-12-23T16:07:27Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12765",
+      "ready_for_review_at": "2022-11-23T10:37:49Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-23T14:16:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "DidacSF",
+          "submitted_at": "2022-12-12T09:02:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-13T15:15:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "DidacSF",
+          "submitted_at": "2022-12-14T08:25:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-12-14T10:09:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-19T15:43:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-20T07:55:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:20:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:28:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-20T15:29:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-20T15:30:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:35:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:39:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:44:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:44:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-20T15:48:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:55:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-20T15:57:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-20T20:12:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-21T16:23:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-21T16:26:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-23T07:55:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-23T10:16:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-23T11:16:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-12-23T11:18:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-23T12:05:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-11-25T14:56:11Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-11-25T14:56:15Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-11-25T15:19:06Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2022-12-05T18:32:42Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-12-22T12:23:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-12-22T12:23:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-12-22T12:57:01Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-12-23T16:07:20Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-01-20T07:22:40Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.6394444444444445,
+      "time_to_merge_hours": 725.4938888888889
+    },
+    {
+      "number": 12736,
+      "title": "[Uniques V2] Final improvements",
+      "state": "MERGED",
+      "created_at": "2022-11-18T16:09:53Z",
+      "closed_at": "2022-11-23T09:32:40Z",
+      "merged_at": "2022-11-23T09:32:40Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12736",
+      "ready_for_review_at": "2022-11-18T16:09:53Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-18T17:14:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-21T15:53:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-11-23T09:11:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-23T09:23:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-11-23T09:32:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.0775,
+      "time_to_merge_hours": 113.37972222222223
+    },
+    {
+      "number": 12702,
+      "title": "[Uniques V2] Smart attributes",
+      "state": "MERGED",
+      "created_at": "2022-11-14T15:37:53Z",
+      "closed_at": "2022-11-21T07:19:36Z",
+      "merged_at": "2022-11-21T07:19:36Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12702",
+      "ready_for_review_at": "2022-11-14T15:37:53Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T11:28:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-16T11:37:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T11:52:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T11:54:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-16T12:06:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T12:28:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T12:28:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-16T12:30:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T12:32:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T12:34:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T12:39:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T14:36:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-16T15:04:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-16T15:26:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "tonyalaribe",
+          "submitted_at": "2022-11-17T13:36:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tonyalaribe",
+          "submitted_at": "2022-11-17T13:36:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-17T13:41:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tonyalaribe",
+          "submitted_at": "2022-11-18T06:23:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tonyalaribe",
+          "submitted_at": "2022-11-18T06:25:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-18T07:36:10Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-11-21T07:19:29Z"
+        }
+      ],
+      "time_to_first_review_hours": 43.836666666666666,
+      "time_to_merge_hours": 159.6952777777778
+    },
+    {
+      "number": 12570,
+      "title": "[Uniques v2] Refactoring",
+      "state": "MERGED",
+      "created_at": "2022-10-27T08:29:49Z",
+      "closed_at": "2022-11-14T07:36:19Z",
+      "merged_at": "2022-11-14T07:36:19Z",
+      "merged_by": "jsidorenko",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12570",
+      "ready_for_review_at": "2022-10-27T08:29:49Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T16:14:51Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 271.75055555555554,
+      "time_to_merge_hours": 431.10833333333335
+    },
+    {
+      "number": 12483,
+      "title": "[Uniques V2] Minting options",
+      "state": "MERGED",
+      "created_at": "2022-10-12T12:52:12Z",
+      "closed_at": "2022-11-16T09:12:50Z",
+      "merged_at": "2022-11-16T09:12:50Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12483",
+      "ready_for_review_at": "2022-10-12T12:52:12Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-31T13:40:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-31T13:53:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-01T15:19:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-01T15:24:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-01T15:31:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-01T15:42:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-01T15:46:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-01T16:07:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T12:36:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T12:46:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T12:49:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T13:28:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T15:06:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T15:07:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-07T16:00:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-08T10:29:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-11-08T10:30:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-11-13T20:13:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-14T16:16:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-11-15T15:10:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-11-16T09:12:41Z"
+        }
+      ],
+      "time_to_first_review_hours": 456.8102777777778,
+      "time_to_merge_hours": 836.3438888888888
+    },
+    {
+      "number": 12437,
+      "title": "[Uniques V2] Refactor roles",
+      "state": "MERGED",
+      "created_at": "2022-10-06T14:33:19Z",
+      "closed_at": "2022-10-20T08:32:52Z",
+      "merged_at": "2022-10-20T08:32:52Z",
+      "merged_by": "jsidorenko",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12437",
+      "ready_for_review_at": "2022-10-06T14:33:19Z",
+      "reviews": [
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-10-10T16:50:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-10-11T09:43:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-10-11T12:40:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-17T08:26:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-17T08:26:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-17T08:27:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-17T08:27:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-17T08:48:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-17T08:49:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-17T08:51:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-18T07:36:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-10-18T09:16:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-10-18T09:19:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-18T10:46:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-10-18T17:01:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-19T06:51:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-10-19T14:53:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-10-19T14:53:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-10-20T07:54:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-20T08:09:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-20T08:09:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-20T08:10:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-20T08:10:48Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-17T09:10:27Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-20T08:20:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T08:20:20Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T08:20:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 98.28861111111111,
+      "time_to_merge_hours": 329.9925
+    },
+    {
+      "number": 12367,
+      "title": "[Uniques V2] Feature flags",
+      "state": "MERGED",
+      "created_at": "2022-09-27T12:11:55Z",
+      "closed_at": "2022-10-18T13:59:54Z",
+      "merged_at": "2022-10-18T13:59:54Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12367",
+      "ready_for_review_at": "2022-09-27T12:11:55Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-06T09:36:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-06T09:45:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-06T09:45:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-06T09:50:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-06T10:05:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-06T10:14:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-06T14:27:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-06T17:55:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T07:41:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T07:44:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T07:46:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T08:18:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T08:33:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T08:33:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-07T08:50:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-07T08:53:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-07T09:14:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T12:27:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T12:35:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-07T12:38:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-10T18:35:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-11T08:44:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-11T08:47:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-11T08:49:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-11T08:51:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-11T08:54:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T09:46:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T09:48:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T09:50:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T09:53:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T09:54:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T10:05:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T10:07:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T10:10:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T11:39:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T13:38:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T14:09:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T16:35:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T16:40:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T17:35:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-11T17:35:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T12:01:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T12:02:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T12:06:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T10:56:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T10:56:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T10:56:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T10:57:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:04:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:10:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:10:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:11:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:18:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:19:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:19:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T11:24:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-14T11:46:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-14T14:08:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-17T13:20:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-17T14:20:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-17T18:25:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-18T06:58:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-18T07:03:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-18T07:08:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-18T07:34:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-18T07:45:37Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-03T18:18:11Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-10-03T18:18:15Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-10-03T18:42:52Z"
+        },
+        {
+          "commenter": "gilescope",
+          "commented_at": "2022-10-04T08:28:22Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-05T11:18:24Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-14T16:20:13Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-18T13:59:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 213.41027777777776,
+      "time_to_merge_hours": 505.7997222222222
+    },
+    {
+      "number": 12285,
+      "title": "[Uniques V2] Atomic NFTs swap",
+      "state": "MERGED",
+      "created_at": "2022-09-16T14:57:45Z",
+      "closed_at": "2022-10-05T10:58:04Z",
+      "merged_at": "2022-10-05T10:58:04Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12285",
+      "ready_for_review_at": "2022-09-16T14:57:45Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T15:20:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T15:39:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-21T15:50:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-21T15:50:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T15:55:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T15:57:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-21T16:04:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:19:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:21:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:25:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:27:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:30:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:41:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:46:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:54:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-21T16:59:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T18:53:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T18:57:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T18:58:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T19:00:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T19:01:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-21T19:03:16Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-22T12:24:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-22T12:25:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-22T12:29:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-22T12:29:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-22T12:32:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-22T12:35:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-22T12:46:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2022-09-26T13:35:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-28T09:44:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:07:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:14:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:22:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:23:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:24:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:30:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:34:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:35:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:38:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:41:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:45:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:57:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T10:58:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T11:10:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T11:11:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T11:14:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T11:20:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-30T11:20:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-10-03T13:09:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-10-03T13:12:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-03T13:16:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-10-03T13:21:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T14:47:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T14:58:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T15:00:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T15:10:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T15:14:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-03T15:48:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-03T15:50:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-03T15:53:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T16:25:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-03T16:59:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T17:46:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-10-03T17:48:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-04T10:25:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-04T10:26:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-04T10:27:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-04T10:27:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-04T10:28:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-04T10:54:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-04T15:29:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-04T15:32:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-10-04T15:33:12Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2022-09-19T17:47:08Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-20T14:52:15Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-20T14:52:19Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-20T15:21:31Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2022-09-22T12:37:11Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2022-09-28T09:36:42Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-30T10:54:42Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-30T14:02:30Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-30T14:03:59Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-30T14:04:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-30T14:54:04Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-04T10:56:28Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-10-05T10:57:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 120.3775,
+      "time_to_merge_hours": 452.0052777777778
+    },
+    {
+      "number": 12189,
+      "title": "[Uniques V2] Basic marketplace functions",
+      "state": "CLOSED",
+      "created_at": "2022-09-05T15:37:56Z",
+      "closed_at": "2022-11-23T14:42:12Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12189",
+      "ready_for_review_at": "2022-09-05T15:37:56Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-11-23T14:42:12Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12168,
+      "title": "[Uniques V2] Tips",
+      "state": "MERGED",
+      "created_at": "2022-09-02T10:39:55Z",
+      "closed_at": "2022-09-24T09:15:31Z",
+      "merged_at": "2022-09-24T09:15:31Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12168",
+      "ready_for_review_at": "2022-09-02T10:39:55Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-23T10:22:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-09-23T12:31:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-24T07:51:10Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "gilescope",
+          "commented_at": "2022-09-09T10:43:44Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-09T12:07:59Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-09T12:11:29Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-20T10:48:26Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-20T14:52:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-20T14:52:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-20T14:52:29Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-20T15:22:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-20T15:23:02Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-20T15:50:33Z"
+        },
+        {
+          "commenter": "ruseinov",
+          "commented_at": "2022-09-22T12:21:44Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-24T08:18:40Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-24T08:18:44Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-24T08:48:27Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-24T09:15:24Z"
+        }
+      ],
+      "time_to_first_review_hours": 503.7136111111111,
+      "time_to_merge_hours": 526.5933333333334
+    },
+    {
+      "number": 12166,
+      "title": "[Uniques V2] Auto-incremental CollectionId",
+      "state": "CLOSED",
+      "created_at": "2022-09-02T09:56:39Z",
+      "closed_at": "2022-09-06T13:35:20Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jsidorenko",
+      "url": "https://github.com/paritytech/substrate/pull/12166",
+      "ready_for_review_at": "2022-09-02T09:56:39Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-06T13:35:19Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14811,
+      "pr_title": "asset-conversion pallet: pool's `AccountId` derivation warn docs",
+      "reviewed_at": "2024-01-30T23:49:02Z",
+      "url": "https://github.com/paritytech/substrate/pull/14811"
+    },
+    {
+      "pr_number": 14466,
+      "pr_title": "fixed a comment in the system pallet",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/substrate/pull/14466"
+    },
+    {
+      "pr_number": 14680,
+      "pr_title": "allow slippage to be set when pay by swap",
+      "reviewed_at": "2024-01-30T23:48:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/14680"
+    },
+    {
+      "pr_number": 14648,
+      "pr_title": "[fix lint warnings: NFTs pallet] fix clippy::missing_errors_doc lint warnings",
+      "reviewed_at": "2024-01-30T23:48:56Z",
+      "url": "https://github.com/paritytech/substrate/pull/14648"
+    },
+    {
+      "pr_number": 14610,
+      "pr_title": "[fix lint warnings: NFTs pallet] fix clippy::missing_docs_in_private_items warnings",
+      "reviewed_at": "2024-01-30T23:48:55Z",
+      "url": "https://github.com/paritytech/substrate/pull/14610"
+    },
+    {
+      "pr_number": 14592,
+      "pr_title": "[fix lint warnings: Uniques pallet] fix clippy::doc_markdown warnings",
+      "reviewed_at": "2024-01-30T23:48:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/14592"
+    },
+    {
+      "pr_number": 14591,
+      "pr_title": "[fix lint warnings: Uniques pallet] fix clippy::missing_docs_in_private_items warnings",
+      "reviewed_at": "2024-01-30T23:48:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/14591"
+    },
+    {
+      "pr_number": 14588,
+      "pr_title": "[fix lint warnings: Uniques pallet] fix clippy::missing_errors_doc lint warnings",
+      "reviewed_at": "2024-01-30T23:48:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/14588"
+    },
+    {
+      "pr_number": 14572,
+      "pr_title": "Asset conversion `get_pool_id` fix (`Ord` does not count with `is_native` flag)",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14572"
+    },
+    {
+      "pr_number": 14499,
+      "pr_title": "Revert k256 removal",
+      "reviewed_at": "2024-01-30T23:48:49Z",
+      "url": "https://github.com/paritytech/substrate/pull/14499"
+    },
+    {
+      "pr_number": 14497,
+      "pr_title": "Use set_balance() instead of write_balance() in benchmark",
+      "reviewed_at": "2024-01-30T23:48:49Z",
+      "url": "https://github.com/paritytech/substrate/pull/14497"
+    },
+    {
+      "pr_number": 14445,
+      "pr_title": "Docs for Pay by Swap",
+      "reviewed_at": "2024-01-30T23:48:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/14445"
+    },
+    {
+      "pr_number": 14441,
+      "pr_title": "child PR: Tidy swap event",
+      "reviewed_at": "2024-01-30T23:48:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/14441"
+    },
+    {
+      "pr_number": 14424,
+      "pr_title": "Remove clippy workaround",
+      "reviewed_at": "2024-01-30T23:48:46Z",
+      "url": "https://github.com/paritytech/substrate/pull/14424"
+    },
+    {
+      "pr_number": 14395,
+      "pr_title": "changes to nfts pallet for xcm integration",
+      "reviewed_at": "2024-01-30T23:48:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/14395"
+    },
+    {
+      "pr_number": 14340,
+      "pr_title": "Pay tx fee with assets by using the asset conversion pallet",
+      "reviewed_at": "2024-01-30T23:48:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/14340"
+    },
+    {
+      "pr_number": 14341,
+      "pr_title": "inspect role for nonfungibles_v2",
+      "reviewed_at": "2024-01-30T23:48:42Z",
+      "url": "https://github.com/paritytech/substrate/pull/14341"
+    },
+    {
+      "pr_number": 14325,
+      "pr_title": "asset-conversion pallet: No need for AssetBalanceOf",
+      "reviewed_at": "2024-01-30T23:48:42Z",
+      "url": "https://github.com/paritytech/substrate/pull/14325"
+    },
+    {
+      "pr_number": 14298,
+      "pr_title": "Remove unrequired check",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14298"
+    },
+    {
+      "pr_number": 14289,
+      "pr_title": "asset-conversion pallet: Generalise integrity test",
+      "reviewed_at": "2024-01-30T23:48:40Z",
+      "url": "https://github.com/paritytech/substrate/pull/14289"
+    },
+    {
+      "pr_number": 14277,
+      "pr_title": "pallet-uniques: remove #[transactional] macro for buy_item",
+      "reviewed_at": "2024-01-30T23:48:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/14277"
+    },
+    {
+      "pr_number": 13869,
+      "pr_title": "HoldReason: Improve usage",
+      "reviewed_at": "2024-01-30T23:48:36Z",
+      "url": "https://github.com/paritytech/substrate/pull/13869"
+    },
+    {
+      "pr_number": 13203,
+      "pr_title": "dex as you pay",
+      "reviewed_at": "2024-01-30T23:48:32Z",
+      "url": "https://github.com/paritytech/substrate/pull/13203"
+    },
+    {
+      "pr_number": 12951,
+      "pr_title": "Deprecate `Currency`; introduce holds and freezing into `fungible` traits",
+      "reviewed_at": "2024-01-30T23:48:31Z",
+      "url": "https://github.com/paritytech/substrate/pull/12951"
+    },
+    {
+      "pr_number": 12984,
+      "pr_title": "Asset Conversion pallet",
+      "reviewed_at": "2024-01-30T23:48:30Z",
+      "url": "https://github.com/paritytech/substrate/pull/12984"
+    },
+    {
+      "pr_number": 12565,
+      "pr_title": "NFTs fractionalization",
+      "reviewed_at": "2024-01-30T23:48:29Z",
+      "url": "https://github.com/paritytech/substrate/pull/12565"
+    },
+    {
+      "pr_number": 14147,
+      "pr_title": "AccountTouch trait: deposit_required accepts asset id",
+      "reviewed_at": "2024-01-30T23:48:28Z",
+      "url": "https://github.com/paritytech/substrate/pull/14147"
+    },
+    {
+      "pr_number": 14119,
+      "pr_title": "Assets: impl ContainsPair for asset and account IDs",
+      "reviewed_at": "2024-01-30T23:48:27Z",
+      "url": "https://github.com/paritytech/substrate/pull/14119"
+    },
+    {
+      "pr_number": 13843,
+      "pr_title": "Allow Creation of Asset Accounts That Don't Exist Yet and Add `Blocked` Status",
+      "reviewed_at": "2024-01-30T23:48:26Z",
+      "url": "https://github.com/paritytech/substrate/pull/13843"
+    },
+    {
+      "pr_number": 12579,
+      "pr_title": "Make Assets Pallet's Privileged Roles Option",
+      "reviewed_at": "2024-01-30T23:48:25Z",
+      "url": "https://github.com/paritytech/substrate/pull/12579"
+    },
+    {
+      "pr_number": 12887,
+      "pr_title": "Move LockableCurrency trait to fungible::Lockable and deprecate LockableCurrency",
+      "reviewed_at": "2023-08-24T13:40:34Z",
+      "url": "https://github.com/paritytech/substrate/pull/12887"
+    },
+    {
+      "pr_number": 13608,
+      "pr_title": "feat: pallet asset-rate",
+      "reviewed_at": "2023-08-24T13:33:16Z",
+      "url": "https://github.com/paritytech/substrate/pull/13608"
+    },
+    {
+      "pr_number": 13330,
+      "pr_title": "It's always false...",
+      "reviewed_at": "2023-06-09T12:11:27Z",
+      "url": "https://github.com/paritytech/substrate/pull/13330"
+    },
+    {
+      "pr_number": 13158,
+      "pr_title": "[NFTs] Offchain mint",
+      "reviewed_at": "2023-05-25T23:03:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/13158"
+    },
+    {
+      "pr_number": 14063,
+      "pr_title": "Account touch trait",
+      "reviewed_at": "2023-05-04T14:28:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/14063"
+    },
+    {
+      "pr_number": 13779,
+      "pr_title": "Add Freeze/Thaw events and tests",
+      "reviewed_at": "2023-05-04T13:32:21Z",
+      "url": "https://github.com/paritytech/substrate/pull/13779"
+    },
+    {
+      "pr_number": 12437,
+      "pr_title": "[Uniques V2] Refactor roles",
+      "reviewed_at": "2023-05-04T08:17:55Z",
+      "url": "https://github.com/paritytech/substrate/pull/12437"
+    },
+    {
+      "pr_number": 14011,
+      "pr_title": "Easy PR: Allow missing docs for autogen weights",
+      "reviewed_at": "2023-04-25T20:48:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/14011"
+    },
+    {
+      "pr_number": 13960,
+      "pr_title": "[NFTs] Improve offchain signature validation",
+      "reviewed_at": "2023-04-20T12:38:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/13960"
+    },
+    {
+      "pr_number": 13885,
+      "pr_title": "Balances: repatriate_reserved should respect freezes",
+      "reviewed_at": "2023-04-17T18:13:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/13885"
+    },
+    {
+      "pr_number": 13591,
+      "pr_title": "[NFTs] Allow to set the role to None",
+      "reviewed_at": "2023-04-14T14:20:37Z",
+      "url": "https://github.com/paritytech/substrate/pull/13591"
+    },
+    {
+      "pr_number": 13349,
+      "pr_title": "Nfts attribute read interface",
+      "reviewed_at": "2023-04-14T14:19:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/13349"
+    },
+    {
+      "pr_number": 13322,
+      "pr_title": "Update documentation for uniques (This PR renames classes and instances to collections and items in the Uniques pallet in order to follow the commonly accepted NFTs terminology.)",
+      "reviewed_at": "2023-04-04T11:42:46Z",
+      "url": "https://github.com/paritytech/substrate/pull/13322"
+    },
+    {
+      "pr_number": 13352,
+      "pr_title": "Return account's asset balances",
+      "reviewed_at": "2023-03-30T10:12:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/13352"
+    },
+    {
+      "pr_number": 13378,
+      "pr_title": "Salary pallet",
+      "reviewed_at": "2023-03-30T10:12:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/13378"
+    },
+    {
+      "pr_number": 13486,
+      "pr_title": "Assets pallet: Giving the asset owner the ability to set minimum balance",
+      "reviewed_at": "2023-03-30T10:12:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/13486"
+    },
+    {
+      "pr_number": 13510,
+      "pr_title": "Assets pallet: Don't allow `set_min_balance` when sufficient",
+      "reviewed_at": "2023-03-30T10:12:40Z",
+      "url": "https://github.com/paritytech/substrate/pull/13510"
+    },
+    {
+      "pr_number": 13543,
+      "pr_title": "pallet-assets callback improvement",
+      "reviewed_at": "2023-03-13T21:41:33Z",
+      "url": "https://github.com/paritytech/substrate/pull/13543"
+    },
+    {
+      "pr_number": 13575,
+      "pr_title": "Nfts: Make ItemConfig members public",
+      "reviewed_at": "2023-03-10T09:24:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/13575"
+    },
+    {
+      "pr_number": 12568,
+      "pr_title": "Referendum proposal's metadata",
+      "reviewed_at": "2023-03-09T19:30:19Z",
+      "url": "https://github.com/paritytech/substrate/pull/12568"
+    },
+    {
+      "pr_number": 13517,
+      "pr_title": "Make pallet_nfts storages public",
+      "reviewed_at": "2023-03-09T18:08:25Z",
+      "url": "https://github.com/paritytech/substrate/pull/13517"
+    },
+    {
+      "pr_number": 13514,
+      "pr_title": "Add amalgamation traits for NFT CollectionId and ItemId",
+      "reviewed_at": "2023-03-09T17:46:25Z",
+      "url": "https://github.com/paritytech/substrate/pull/13514"
+    },
+    {
+      "pr_number": 13390,
+      "pr_title": "[NFTs] Update attributes with offchain signature",
+      "reviewed_at": "2023-03-06T13:50:24Z",
+      "url": "https://github.com/paritytech/substrate/pull/13390"
+    },
+    {
+      "pr_number": 13124,
+      "pr_title": "[NFTs] Track item's metadata depositor",
+      "reviewed_at": "2023-02-22T16:09:27Z",
+      "url": "https://github.com/paritytech/substrate/pull/13124"
+    },
+    {
+      "pr_number": 12310,
+      "pr_title": "Asset Pallet: Support repeated destroys to safely destroy large assets",
+      "reviewed_at": "2023-02-14T10:44:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/12310"
+    },
+    {
+      "pr_number": 13348,
+      "pr_title": "Cherry-pick / benchmarks: EnsureRankedMember must add ranked members (#13297)",
+      "reviewed_at": "2023-02-13T13:28:05Z",
+      "url": "https://github.com/paritytech/substrate/pull/13348"
+    },
+    {
+      "pr_number": 13008,
+      "pr_title": "Refactor nft fractionalisation pallet",
+      "reviewed_at": "2023-01-27T10:52:34Z",
+      "url": "https://github.com/paritytech/substrate/pull/13008"
+    },
+    {
+      "pr_number": 13191,
+      "pr_title": "dex quote bugfix",
+      "reviewed_at": "2023-01-21T17:52:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/13191"
+    },
+    {
+      "pr_number": 12307,
+      "pr_title": "Add CallbackHandle to pallet-assets",
+      "reviewed_at": "2023-01-20T07:22:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/12307"
+    },
+    {
+      "pr_number": 12765,
+      "pr_title": "NFTs 2.0",
+      "reviewed_at": "2023-01-20T07:22:40Z",
+      "url": "https://github.com/paritytech/substrate/pull/12765"
+    },
+    {
+      "pr_number": 13053,
+      "pr_title": "dex child PR: no longer a need to upgrade rpc version",
+      "reviewed_at": "2023-01-03T15:27:44Z",
+      "url": "https://github.com/paritytech/substrate/pull/13053"
+    },
+    {
+      "pr_number": 13050,
+      "pr_title": "remove dex PR's custom RPC",
+      "reviewed_at": "2023-01-03T14:06:33Z",
+      "url": "https://github.com/paritytech/substrate/pull/13050"
+    },
+    {
+      "pr_number": 13012,
+      "pr_title": "less indirection",
+      "reviewed_at": "2022-12-23T10:32:24Z",
+      "url": "https://github.com/paritytech/substrate/pull/13012"
+    },
+    {
+      "pr_number": 12997,
+      "pr_title": "[NFTs] Add the new `owner` param to mint() method",
+      "reviewed_at": "2022-12-22T12:22:17Z",
+      "url": "https://github.com/paritytech/substrate/pull/12997"
+    },
+    {
+      "pr_number": 12998,
+      "pr_title": "add BenchmarkHelper for second instance",
+      "reviewed_at": "2022-12-22T09:13:24Z",
+      "url": "https://github.com/paritytech/substrate/pull/12998"
+    },
+    {
+      "pr_number": 12991,
+      "pr_title": "fix kitchen sink",
+      "reviewed_at": "2022-12-21T16:06:36Z",
+      "url": "https://github.com/paritytech/substrate/pull/12991"
+    },
+    {
+      "pr_number": 12990,
+      "pr_title": "no need for deadline",
+      "reviewed_at": "2022-12-21T11:50:56Z",
+      "url": "https://github.com/paritytech/substrate/pull/12990"
+    },
+    {
+      "pr_number": 12919,
+      "pr_title": "[NFTs] Implement missed methods to set the attributes from other pallets",
+      "reviewed_at": "2022-12-13T18:44:42Z",
+      "url": "https://github.com/paritytech/substrate/pull/12919"
+    },
+    {
+      "pr_number": 12882,
+      "pr_title": "Revert \"Move LockableCurrency trait to fungibles::Lockable and deprecate LockableCurrency\"",
+      "reviewed_at": "2022-12-09T09:41:00Z",
+      "url": "https://github.com/paritytech/substrate/pull/12882"
+    },
+    {
+      "pr_number": 12702,
+      "pr_title": "[Uniques V2] Smart attributes",
+      "reviewed_at": "2022-12-08T16:23:19Z",
+      "url": "https://github.com/paritytech/substrate/pull/12702"
+    },
+    {
+      "pr_number": 12367,
+      "pr_title": "[Uniques V2] Feature flags",
+      "reviewed_at": "2022-12-07T14:55:04Z",
+      "url": "https://github.com/paritytech/substrate/pull/12367"
+    },
+    {
+      "pr_number": 12740,
+      "pr_title": "Remove Default, HasCompact, and TypeInfo trait bounds on AssetId",
+      "reviewed_at": "2022-11-29T01:57:10Z",
+      "url": "https://github.com/paritytech/substrate/pull/12740"
+    },
+    {
+      "pr_number": 12736,
+      "pr_title": "[Uniques V2] Final improvements",
+      "reviewed_at": "2022-11-23T09:32:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/12736"
+    },
+    {
+      "pr_number": 12223,
+      "pr_title": "Nfts: Fix Auto-Increment",
+      "reviewed_at": "2022-11-18T15:24:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/12223"
+    },
+    {
+      "pr_number": 12483,
+      "pr_title": "[Uniques V2] Minting options",
+      "reviewed_at": "2022-11-16T09:12:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/12483"
+    },
+    {
+      "pr_number": 12690,
+      "pr_title": "Assets Pallet: reintroduce fungibles::Destroy trait ",
+      "reviewed_at": "2022-11-15T13:14:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/12690"
+    },
+    {
+      "pr_number": 12586,
+      "pr_title": "Add `CreateOrigin` to Assets Pallet",
+      "reviewed_at": "2022-11-15T10:05:09Z",
+      "url": "https://github.com/paritytech/substrate/pull/12586"
+    },
+    {
+      "pr_number": 12666,
+      "pr_title": "Allow other pallets to check asset ids.",
+      "reviewed_at": "2022-11-11T14:22:20Z",
+      "url": "https://github.com/paritytech/substrate/pull/12666"
+    },
+    {
+      "pr_number": 12496,
+      "pr_title": "pallet-sudo: add `CheckOnlySudoAccount` signed extension",
+      "reviewed_at": "2022-11-04T01:35:22Z",
+      "url": "https://github.com/paritytech/substrate/pull/12496"
+    },
+    {
+      "pr_number": 12554,
+      "pr_title": "Introduce DefensiveMin and DefensiveMax",
+      "reviewed_at": "2022-11-03T22:15:10Z",
+      "url": "https://github.com/paritytech/substrate/pull/12554"
+    },
+    {
+      "pr_number": 12389,
+      "pr_title": "use associated iterator types for InspectEnumerable",
+      "reviewed_at": "2022-11-03T01:16:04Z",
+      "url": "https://github.com/paritytech/substrate/pull/12389"
+    },
+    {
+      "pr_number": 12285,
+      "pr_title": "[Uniques V2] Atomic NFTs swap",
+      "reviewed_at": "2022-10-13T12:55:27Z",
+      "url": "https://github.com/paritytech/substrate/pull/12285"
+    },
+    {
+      "pr_number": 12178,
+      "pr_title": "Nfts: Multiple approvals",
+      "reviewed_at": "2022-09-27T15:01:33Z",
+      "url": "https://github.com/paritytech/substrate/pull/12178"
+    },
+    {
+      "pr_number": 12168,
+      "pr_title": "[Uniques V2] Tips",
+      "reviewed_at": "2022-09-27T10:41:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/12168"
+    },
+    {
+      "pr_number": 12319,
+      "pr_title": "[Feature] Sequential migration execution for try-runtime",
+      "reviewed_at": "2022-09-23T14:30:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/12319"
+    },
+    {
+      "pr_number": 12332,
+      "pr_title": "bench: Use `_` instead  of `::` in auto-generated file names",
+      "reviewed_at": "2022-09-23T10:42:37Z",
+      "url": "https://github.com/paritytech/substrate/pull/12332"
+    },
+    {
+      "pr_number": 12297,
+      "pr_title": "Fix CI",
+      "reviewed_at": "2022-09-19T13:12:30Z",
+      "url": "https://github.com/paritytech/substrate/pull/12297"
+    },
+    {
+      "pr_number": 11796,
+      "pr_title": "Auto-incremental CollectionId",
+      "reviewed_at": "2022-09-07T08:22:03Z",
+      "url": "https://github.com/paritytech/substrate/pull/11796"
+    },
+    {
+      "pr_number": 12164,
+      "pr_title": "Uniques: Allowing multiple approvals",
+      "reviewed_at": "2022-09-05T05:53:50Z",
+      "url": "https://github.com/paritytech/substrate/pull/12164"
+    },
+    {
+      "pr_number": 12157,
+      "pr_title": "Remove RefTimeWeight",
+      "reviewed_at": "2022-09-02T18:19:50Z",
+      "url": "https://github.com/paritytech/substrate/pull/12157"
+    }
+  ]
+}

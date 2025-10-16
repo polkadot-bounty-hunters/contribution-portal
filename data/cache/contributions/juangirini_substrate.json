@@ -1,0 +1,2711 @@
+{
+  "commits": [
+    {
+      "sha": "2fe6bc9c4fb39a50c9b09779e7bb1948a0d792e9",
+      "message": "Restructure `frame_benchmarking` macro related exports (#14787)",
+      "date": "2023-08-24T15:32:22Z",
+      "url": "https://github.com/paritytech/substrate/commit/2fe6bc9c4fb39a50c9b09779e7bb1948a0d792e9"
+    },
+    {
+      "sha": "df383f224b4de179c68c64f533ff4957b881938c",
+      "message": "Restructure `frame_support` macro related exports (#14745)",
+      "date": "2023-08-23T12:30:12Z",
+      "url": "https://github.com/paritytech/substrate/commit/df383f224b4de179c68c64f533ff4957b881938c"
+    },
+    {
+      "sha": "94be94be6d26becd2395b58ae09ca31f596afe7d",
+      "message": "Contracts remove deposit accounts (#14589)",
+      "date": "2023-08-18T14:24:55Z",
+      "url": "https://github.com/paritytech/substrate/commit/94be94be6d26becd2395b58ae09ca31f596afe7d"
+    },
+    {
+      "sha": "f7e81b9be4fb3f2906a3768fe74d70c8228ab553",
+      "message": "Jg/13643 contracts migrate to fungible traits (#14020)",
+      "date": "2023-08-02T13:51:31Z",
+      "url": "https://github.com/paritytech/substrate/commit/f7e81b9be4fb3f2906a3768fe74d70c8228ab553"
+    },
+    {
+      "sha": "4d9d9116b5f65f4a7f3e70c1f4ab74d9fed60c0c",
+      "message": "Add `FixedPointOperand` blanket implementation (#14634)",
+      "date": "2023-08-02T07:54:11Z",
+      "url": "https://github.com/paritytech/substrate/commit/4d9d9116b5f65f4a7f3e70c1f4ab74d9fed60c0c"
+    },
+    {
+      "sha": "c446786a498dee7b413de101efc3c339d3eddf44",
+      "message": "Replace system config `Index` for `Nonce` (#14290)",
+      "date": "2023-07-14T06:56:48Z",
+      "url": "https://github.com/paritytech/substrate/commit/c446786a498dee7b413de101efc3c339d3eddf44"
+    },
+    {
+      "sha": "6e1a5c438c54c0f2607966c6c43f8e5f0d616593",
+      "message": "Add a deprecation warning to the old runtime GenesisConfig (#14224)",
+      "date": "2023-06-16T10:54:21Z",
+      "url": "https://github.com/paritytech/substrate/commit/6e1a5c438c54c0f2607966c6c43f8e5f0d616593"
+    },
+    {
+      "sha": "ff3be276727632e6b9c5d779ae9bc3c638486530",
+      "message": "Move `type Migrations` to `Config` (#14309)",
+      "date": "2023-06-09T11:04:31Z",
+      "url": "https://github.com/paritytech/substrate/commit/ff3be276727632e6b9c5d779ae9bc3c638486530"
+    },
+    {
+      "sha": "5b255b2e8ca19d541a944767639265b4d48dcf9a",
+      "message": "Soft deprecate GenesisConfig (#14210)",
+      "date": "2023-05-26T09:42:47Z",
+      "url": "https://github.com/paritytech/substrate/commit/5b255b2e8ca19d541a944767639265b4d48dcf9a"
+    },
+    {
+      "sha": "3c10b1228ff1590399234e56261ab2a0836ca0e9",
+      "message": "Add review rules regarding the owned files (#14122)",
+      "date": "2023-05-16T10:24:28Z",
+      "url": "https://github.com/paritytech/substrate/commit/3c10b1228ff1590399234e56261ab2a0836ca0e9"
+    },
+    {
+      "sha": "1a6fc1e1050901cd6fd3b4e76a282cfc06bed3a2",
+      "message": "Update codeowners file (#14078)",
+      "date": "2023-05-05T12:39:43Z",
+      "url": "https://github.com/paritytech/substrate/commit/1a6fc1e1050901cd6fd3b4e76a282cfc06bed3a2"
+    },
+    {
+      "sha": "44130d53f222a0efdd976e76e32460680637c5fe",
+      "message": "contracts: add events to ContractResult (#13807)",
+      "date": "2023-05-03T13:45:04Z",
+      "url": "https://github.com/paritytech/substrate/commit/44130d53f222a0efdd976e76e32460680637c5fe"
+    },
+    {
+      "sha": "f49b178839925639ec92fbd8fbd81337d6fb6e3e",
+      "message": "contracts: Make Origin information available (#13708)",
+      "date": "2023-05-02T16:45:14Z",
+      "url": "https://github.com/paritytech/substrate/commit/f49b178839925639ec92fbd8fbd81337d6fb6e3e"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14817,
+      "title": "Restructure `frame_support::dispatch` macro related exports",
+      "state": "OPEN",
+      "created_at": "2023-08-23T12:53:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14817",
+      "ready_for_review_at": "2023-08-23T12:53:18Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-24T22:09:57Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-24T15:32:55Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-24T15:33:01Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-24T15:41:49Z"
+        }
+      ],
+      "time_to_first_review_hours": 33.2775,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14787,
+      "title": "Restructure `frame_benchmarking` macro related exports",
+      "state": "MERGED",
+      "created_at": "2023-08-18T11:12:14Z",
+      "closed_at": "2023-08-24T15:32:23Z",
+      "merged_at": "2023-08-24T15:32:22Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14787",
+      "ready_for_review_at": "2023-08-18T11:12:14Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-23T14:36:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-23T16:10:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-24T07:59:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-24T08:26:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-24T11:11:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-24T12:11:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-24T13:23:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-24T15:03:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-24T15:06:24Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-22T09:04:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-22T09:05:01Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-22T09:05:08Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-24T15:32:14Z"
+        }
+      ],
+      "time_to_first_review_hours": 123.40666666666667,
+      "time_to_merge_hours": 148.33555555555554
+    },
+    {
+      "number": 14767,
+      "title": "Transfer to beneficiary after `transfer_on_hold`",
+      "state": "MERGED",
+      "created_at": "2023-08-14T16:08:14Z",
+      "closed_at": "2023-08-17T13:44:33Z",
+      "merged_at": "2023-08-17T13:44:33Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14767",
+      "ready_for_review_at": "2023-08-14T16:08:14Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-14T21:18:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-15T08:03:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-15T15:00:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-15T15:05:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-15T16:15:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-08-15T18:11:38Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-16T07:29:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-08-16T13:02:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-08-16T13:06:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-16T13:55:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-08-16T14:20:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-16T14:32:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-08-17T13:27:23Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-17T13:44:25Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.176666666666667,
+      "time_to_merge_hours": 69.60527777777777
+    },
+    {
+      "number": 14745,
+      "title": "Restructure `frame_support` macro related exports",
+      "state": "MERGED",
+      "created_at": "2023-08-10T10:30:33Z",
+      "closed_at": "2023-08-23T12:30:12Z",
+      "merged_at": "2023-08-23T12:30:12Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14745",
+      "ready_for_review_at": "2023-08-10T10:30:33Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-15T17:38:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-15T20:28:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-17T04:57:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-17T07:41:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-17T07:47:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-17T08:01:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-17T08:03:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-17T09:48:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-18T23:30:11Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-14T14:36:34Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-14T14:36:38Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-14T14:38:08Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-08-15T17:26:07Z"
+        },
+        {
+          "commenter": "gilescope",
+          "commented_at": "2023-08-16T06:54:17Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-16T07:45:12Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-16T08:04:04Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-08-16T08:53:57Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-16T14:06:41Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-16T14:06:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-16T14:09:05Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-08-16T15:55:12Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-17T10:15:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-17T10:15:41Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-21T10:28:42Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-21T10:28:48Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-22T07:44:46Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-22T07:44:51Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-23T11:43:19Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-23T11:43:26Z"
+        }
+      ],
+      "time_to_first_review_hours": 127.13333333333334,
+      "time_to_merge_hours": 313.9941666666667
+    },
+    {
+      "number": 14634,
+      "title": "Add `FixedPointOperand` blanket implementation",
+      "state": "MERGED",
+      "created_at": "2023-07-25T14:22:10Z",
+      "closed_at": "2023-08-02T07:54:12Z",
+      "merged_at": "2023-08-02T07:54:12Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14634",
+      "ready_for_review_at": "2023-07-25T14:22:10Z",
+      "reviews": [
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-25T16:59:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-25T16:59:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-25T17:03:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-25T17:05:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-25T17:06:55Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-26T12:40:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T14:27:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-27T07:43:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-27T07:43:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-27T09:00:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-31T14:14:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-07-31T14:15:31Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-08-01T16:00:08Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-25T14:25:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-25T14:25:07Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-25T14:27:47Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-26T11:19:34Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-02T07:54:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.6225,
+      "time_to_merge_hours": 185.5338888888889
+    },
+    {
+      "number": 14589,
+      "title": "Contracts remove deposit accounts",
+      "state": "MERGED",
+      "created_at": "2023-07-17T15:16:41Z",
+      "closed_at": "2023-08-18T14:24:56Z",
+      "merged_at": "2023-08-18T14:24:56Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14589",
+      "ready_for_review_at": "2023-07-17T15:16:41Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-04T12:02:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-04T18:14:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-06T20:19:10Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-07T14:31:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-07T16:22:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-08T13:36:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-08T13:36:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-08T15:16:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-08T15:21:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-14T07:48:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-14T07:56:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-14T11:48:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-14T12:14:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-14T13:14:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-14T14:09:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-14T14:14:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-17T06:59:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-17T09:06:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-17T09:17:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-17T10:25:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-17T10:26:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-17T13:59:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-17T14:02:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-18T09:11:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-18T09:44:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-08-18T12:42:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-18T12:54:55Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-24T16:04:45Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-04T10:57:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-04T10:57:27Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-04T10:58:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-04T10:58:52Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-04T12:45:05Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-04T16:30:29Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-04T16:30:31Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-04T16:31:30Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-04T16:31:35Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-04T18:16:26Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-07T16:31:19Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-07T16:31:24Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-07T18:09:38Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-14T12:14:42Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-14T12:14:49Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-17T14:03:18Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-17T14:03:23Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-08-17T14:05:44Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-17T14:13:54Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-18T13:33:09Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-18T13:33:17Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-18T14:13:52Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-18T14:24:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 428.7663888888889,
+      "time_to_merge_hours": 767.1375
+    },
+    {
+      "number": 14327,
+      "title": "Request labels on issue templates",
+      "state": "CLOSED",
+      "created_at": "2023-06-08T17:40:59Z",
+      "closed_at": "2023-06-12T14:00:31Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14327",
+      "ready_for_review_at": "2023-06-08T17:40:59Z",
+      "reviews": [
+        {
+          "reviewer": "sergejparity",
+          "submitted_at": "2023-06-09T08:50:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gui1117",
+          "submitted_at": "2023-06-11T03:08:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-11T13:27:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-12T07:22:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-12T09:13:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-12T13:59:34Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-12T14:00:31Z"
+        }
+      ],
+      "time_to_first_review_hours": 15.160277777777777,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14309,
+      "title": "Move `type Migrations` to `Config`",
+      "state": "MERGED",
+      "created_at": "2023-06-06T11:31:31Z",
+      "closed_at": "2023-06-09T11:04:32Z",
+      "merged_at": "2023-06-09T11:04:32Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14309",
+      "ready_for_review_at": "2023-06-06T11:31:31Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-06T11:38:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-06T11:41:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-06T12:17:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-06T13:00:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-06T15:36:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-07T09:24:22Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T09:31:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T09:34:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-07T09:59:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T10:11:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-07T10:13:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-07T10:16:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-07T10:19:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T10:20:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T10:26:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T10:42:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-07T11:06:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-07T11:11:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-07T11:13:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T11:19:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T11:34:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T11:34:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T12:18:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T12:20:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-07T12:21:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-08T12:40:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-06T11:39:50Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-06T13:04:50Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-06-06T15:39:21Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-06T16:39:24Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-06-06T16:42:30Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-06T17:57:40Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-07T08:21:29Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-07T12:53:38Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-09T09:58:06Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-09T09:58:15Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-09T11:04:22Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.11833333333333333,
+      "time_to_merge_hours": 71.55027777777778
+    },
+    {
+      "number": 14290,
+      "title": "Replace system config `Index` for `Nonce`",
+      "state": "MERGED",
+      "created_at": "2023-06-02T10:44:12Z",
+      "closed_at": "2023-07-14T06:56:49Z",
+      "merged_at": "2023-07-14T06:56:49Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14290",
+      "ready_for_review_at": "2023-06-02T10:44:12Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-02T10:44:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-02T10:52:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-02T11:25:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "aurexav",
+          "submitted_at": "2023-06-07T04:49:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "aurexav",
+          "submitted_at": "2023-06-07T04:49:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-06-07T07:02:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-06-08T01:58:07Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-02T10:55:26Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-06-02T15:07:13Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-07T09:02:50Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-14T06:56:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.01138888888888889,
+      "time_to_merge_hours": 1004.2102777777778
+    },
+    {
+      "number": 14224,
+      "title": "Add a deprecation warning to the old runtime GenesisConfig",
+      "state": "MERGED",
+      "created_at": "2023-05-25T10:31:20Z",
+      "closed_at": "2023-06-16T10:54:21Z",
+      "merged_at": "2023-06-16T10:54:21Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14224",
+      "ready_for_review_at": "2023-05-25T10:31:20Z",
+      "reviews": [
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-26T13:47:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-05-26T14:50:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sacha-l",
+          "submitted_at": "2023-05-26T15:49:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-05-26T17:34:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-05-26T18:34:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-29T09:28:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "hummusonrails",
+          "submitted_at": "2023-05-29T09:37:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-14T08:02:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-06-14T11:26:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-06-14T14:17:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-06-14T14:36:17Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-26T15:45:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-16T10:54:11Z"
+        }
+      ],
+      "time_to_first_review_hours": 27.272777777777776,
+      "time_to_merge_hours": 528.3836111111111
+    },
+    {
+      "number": 14210,
+      "title": "Soft deprecate GenesisConfig",
+      "state": "MERGED",
+      "created_at": "2023-05-24T09:15:50Z",
+      "closed_at": "2023-05-26T09:42:47Z",
+      "merged_at": "2023-05-26T09:42:47Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14210",
+      "ready_for_review_at": "2023-05-24T09:15:50Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-24T09:35:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-24T10:27:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-24T12:15:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-24T14:45:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-24T19:24:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-24T21:27:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-24T21:27:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-24T21:27:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-05-25T16:01:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-26T07:56:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-25T08:34:47Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-25T08:34:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-25T10:23:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-25T10:23:31Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-25T10:36:48Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-26T08:56:33Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-26T08:56:40Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.32972222222222225,
+      "time_to_merge_hours": 48.44916666666666
+    },
+    {
+      "number": 14202,
+      "title": "WIP: soft deprecate genesisconfig",
+      "state": "CLOSED",
+      "created_at": "2023-05-23T14:43:05Z",
+      "closed_at": "2023-05-24T09:18:47Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14202",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-23T15:00:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-24T07:15:05Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-05-23T14:45:49Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-24T09:18:47Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14163,
+      "title": "fix pr custom review",
+      "state": "CLOSED",
+      "created_at": "2023-05-16T14:54:25Z",
+      "closed_at": "2023-05-16T15:02:47Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14163",
+      "ready_for_review_at": "2023-05-16T14:54:25Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14122,
+      "title": "Add review rules regarding the owned files",
+      "state": "MERGED",
+      "created_at": "2023-05-11T10:36:29Z",
+      "closed_at": "2023-05-16T10:24:28Z",
+      "merged_at": "2023-05-16T10:24:28Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14122",
+      "ready_for_review_at": "2023-05-11T10:36:29Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-11T10:46:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-11T12:27:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-12T08:25:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alvicsam",
+          "submitted_at": "2023-05-16T07:12:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rcny",
+          "submitted_at": "2023-05-16T07:48:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-16T08:03:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sergejparity",
+          "submitted_at": "2023-05-16T08:44:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-12T08:25:42Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-12T08:25:48Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-16T07:50:55Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-16T07:51:00Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-16T10:24:19Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.16555555555555557,
+      "time_to_merge_hours": 119.79972222222223
+    },
+    {
+      "number": 14078,
+      "title": "Update codeowners file",
+      "state": "MERGED",
+      "created_at": "2023-05-04T09:30:54Z",
+      "closed_at": "2023-05-05T12:39:43Z",
+      "merged_at": "2023-05-05T12:39:43Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14078",
+      "ready_for_review_at": "2023-05-04T09:30:54Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-04T10:16:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-04T16:54:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-04T17:00:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-04T17:36:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-05-05T06:44:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-05-05T06:45:03Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-05-04T17:00:34Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-05-05T06:46:01Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-05-05T06:46:57Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-05T11:56:47Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-05T11:56:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7569444444444444,
+      "time_to_merge_hours": 27.146944444444443
+    },
+    {
+      "number": 14020,
+      "title": "Contracts: migrate to fungible traits",
+      "state": "MERGED",
+      "created_at": "2023-04-26T12:24:24Z",
+      "closed_at": "2023-08-02T13:51:31Z",
+      "merged_at": "2023-08-02T13:51:31Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/14020",
+      "ready_for_review_at": "2023-04-26T12:24:24Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-08T13:57:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-09T12:56:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-11T16:36:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-11T16:49:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-12T16:28:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-12T16:37:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-07T09:47:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-07T10:21:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-19T13:08:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-24T16:45:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-25T07:44:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-25T08:14:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-25T09:27:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-25T09:46:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-25T16:20:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-26T08:21:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T11:27:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T13:42:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-27T12:55:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-27T14:00:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-28T12:01:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-28T12:36:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-07-28T16:24:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-07-31T16:27:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-01T09:01:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-01T09:08:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-01T11:49:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-01T12:17:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-01T15:25:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-02T12:46:52Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "athei",
+          "commented_at": "2023-05-10T13:23:44Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-06T14:22:35Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-06T14:22:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-06T14:24:31Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-12T15:49:27Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-12T15:49:32Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-12T16:03:57Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-13T10:30:58Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-13T10:31:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-13T10:45:27Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-13T11:01:59Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-13T11:02:04Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-13T11:47:15Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-24T15:25:01Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-24T15:25:06Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-24T16:04:06Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-24T16:04:10Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-24T16:05:21Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-24T16:05:26Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-24T17:46:54Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-07-26T17:48:13Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-07-27T04:58:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-27T08:58:04Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-07-28T12:03:15Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-02T13:37:19Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-02T13:51:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 289.54805555555555,
+      "time_to_merge_hours": 2353.4519444444445
+    },
+    {
+      "number": 13807,
+      "title": "contracts: add events to ContractResult",
+      "state": "MERGED",
+      "created_at": "2023-04-03T09:22:17Z",
+      "closed_at": "2023-05-03T13:45:05Z",
+      "merged_at": "2023-05-03T13:45:05Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/13807",
+      "ready_for_review_at": "2023-04-03T09:22:17Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-06T08:49:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-06T09:48:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-06T09:51:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-06T15:12:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-04-12T13:11:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-04-12T14:50:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-12T16:47:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-18T09:06:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-01T15:18:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-02T08:06:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-02T08:45:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-02T08:47:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-02T09:29:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-02T09:40:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-02T13:17:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-05-03T07:22:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-03T07:59:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-03T08:30:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-03T08:46:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-03T08:59:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-03T09:01:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-03T09:22:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-03T11:21:28Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-06T08:37:55Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-20T13:47:01Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-02T09:20:54Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-02T09:20:57Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-05-03T09:02:32Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-03T12:59:45Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-03T12:59:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 71.4475,
+      "time_to_merge_hours": 724.38
+    },
+    {
+      "number": 13708,
+      "title": "contracts: Make Origin information available",
+      "state": "MERGED",
+      "created_at": "2023-03-24T17:41:37Z",
+      "closed_at": "2023-05-02T16:45:15Z",
+      "merged_at": "2023-05-02T16:45:15Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/substrate/pull/13708",
+      "ready_for_review_at": "2023-03-24T17:41:37Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-28T12:18:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-29T07:34:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-29T07:37:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-29T07:42:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-29T13:38:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T19:38:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T19:40:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T19:44:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T19:57:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-29T20:07:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T07:32:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T07:37:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T07:37:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-30T07:39:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T07:43:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-03-30T13:41:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-31T12:12:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-31T16:45:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-31T16:45:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-31T16:46:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-31T16:46:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-03T16:28:49Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-04T10:29:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-04T10:35:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-04T10:36:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-04T19:07:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-04T19:44:20Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-05T07:35:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-05T07:57:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2023-04-12T13:58:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-12T15:31:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-14T14:33:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-17T07:18:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-17T07:18:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-18T09:15:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-19T11:59:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-04-19T12:01:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-19T14:10:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-19T14:41:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-19T15:37:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-25T15:51:29Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-26T13:32:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-26T13:44:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-26T15:47:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-26T16:05:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-26T16:28:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-04-27T07:59:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-27T09:52:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-27T09:55:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-28T09:19:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-28T09:21:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-04-28T09:50:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-04-28T13:17:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-01T09:22:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-01T15:15:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-02T08:19:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-02T08:26:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-05-02T09:38:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-02T09:46:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-02T09:47:04Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "altaua",
+          "commented_at": "2023-03-29T17:35:54Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-29T17:36:01Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-03-31T14:26:31Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-31T14:26:37Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-03T07:40:26Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-04-03T07:40:36Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-17T08:42:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-17T08:42:44Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-17T10:12:39Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-17T16:21:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-17T16:21:18Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-17T17:50:38Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-18T08:57:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-18T08:57:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-18T10:21:26Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-19T14:39:58Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-24T08:42:28Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-24T08:42:33Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-24T10:07:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-04-26T15:28:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-26T15:28:16Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-04-26T18:10:55Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-26T18:10:59Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-04-27T03:44:44Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-05-01T11:04:30Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-02T12:49:15Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-02T12:49:24Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-02T12:52:36Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-02T12:52:44Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-02T12:54:09Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-02T12:54:17Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-02T12:55:03Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-02T12:55:11Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-02T13:43:56Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-02T16:45:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 90.62277777777778,
+      "time_to_merge_hours": 935.0605555555555
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14585,
+      "pr_title": "removed `without_storage_info` from `pallet-collective`",
+      "reviewed_at": "2025-08-26T19:44:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/14585"
+    },
+    {
+      "pr_number": 14803,
+      "pr_title": "Format and Sort features in `Cargo.toml` files",
+      "reviewed_at": "2024-01-30T23:49:02Z",
+      "url": "https://github.com/paritytech/substrate/pull/14803"
+    },
+    {
+      "pr_number": 14789,
+      "pr_title": "Contracts: Update Config::Debug",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/14789"
+    },
+    {
+      "pr_number": 14787,
+      "pr_title": "Restructure `frame_benchmarking` macro related exports",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/14787"
+    },
+    {
+      "pr_number": 14745,
+      "pr_title": "Restructure `frame_support` macro related exports",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/14745"
+    },
+    {
+      "pr_number": 14767,
+      "pr_title": "Transfer to beneficiary after `transfer_on_hold`",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/substrate/pull/14767"
+    },
+    {
+      "pr_number": 14682,
+      "pr_title": "Adds ability to provide defaults for types provided by `construct_runtime`",
+      "reviewed_at": "2024-01-30T23:48:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/14682"
+    },
+    {
+      "pr_number": 14589,
+      "pr_title": "Contracts remove deposit accounts",
+      "reviewed_at": "2024-01-30T23:48:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/14589"
+    },
+    {
+      "pr_number": 14706,
+      "pr_title": "Remove deprecated old weight items",
+      "reviewed_at": "2024-01-30T23:48:58Z",
+      "url": "https://github.com/paritytech/substrate/pull/14706"
+    },
+    {
+      "pr_number": 14676,
+      "pr_title": "Contracts: Ensure latest migration match pallet_version",
+      "reviewed_at": "2024-01-30T23:48:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/14676"
+    },
+    {
+      "pr_number": 14661,
+      "pr_title": "Contracts Rollback StorageMap hashing migration",
+      "reviewed_at": "2024-01-30T23:48:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/14661"
+    },
+    {
+      "pr_number": 14634,
+      "pr_title": "Add `FixedPointOperand` blanket implementation",
+      "reviewed_at": "2024-01-30T23:48:55Z",
+      "url": "https://github.com/paritytech/substrate/pull/14634"
+    },
+    {
+      "pr_number": 14586,
+      "pr_title": "`WeightMeter`: more consistent naming",
+      "reviewed_at": "2024-01-30T23:48:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/14586"
+    },
+    {
+      "pr_number": 14020,
+      "pr_title": "Contracts: migrate to fungible traits",
+      "reviewed_at": "2024-01-30T23:48:54Z",
+      "url": "https://github.com/paritytech/substrate/pull/14020"
+    },
+    {
+      "pr_number": 14578,
+      "pr_title": "improve pallet hooks docs",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14578"
+    },
+    {
+      "pr_number": 14563,
+      "pr_title": "Contracts add wasm ink contract in test",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14563"
+    },
+    {
+      "pr_number": 14565,
+      "pr_title": "Contracts: Enabled signed extension",
+      "reviewed_at": "2024-01-30T23:48:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/14565"
+    },
+    {
+      "pr_number": 14557,
+      "pr_title": "Pallet balances quick updates",
+      "reviewed_at": "2024-01-30T23:48:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/14557"
+    },
+    {
+      "pr_number": 13502,
+      "pr_title": "Add `try_state` check to Pallet `MessageQueue`",
+      "reviewed_at": "2024-01-30T23:48:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/13502"
+    },
+    {
+      "pr_number": 14533,
+      "pr_title": "Contracts rename v9 to v09",
+      "reviewed_at": "2024-01-30T23:48:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/14533"
+    },
+    {
+      "pr_number": 14523,
+      "pr_title": "Contracts add code_len to ContractsInfo",
+      "reviewed_at": "2024-01-30T23:48:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/14523"
+    },
+    {
+      "pr_number": 14437,
+      "pr_title": "Moves `Block` to `frame_system` instead of `construct_runtime` and removes `Header` and `BlockNumber`",
+      "reviewed_at": "2024-01-30T23:48:48Z",
+      "url": "https://github.com/paritytech/substrate/pull/14437"
+    },
+    {
+      "pr_number": 14443,
+      "pr_title": "Pallets: Assets `destroy_accounts` releases the deposit",
+      "reviewed_at": "2024-01-30T23:48:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/14443"
+    },
+    {
+      "pr_number": 14396,
+      "pr_title": "Run all tests with `try-runtime` feature enabled",
+      "reviewed_at": "2024-01-30T23:48:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/14396"
+    },
+    {
+      "pr_number": 14389,
+      "pr_title": "update UI tests to support rust 1.70",
+      "reviewed_at": "2024-01-30T23:48:44Z",
+      "url": "https://github.com/paritytech/substrate/pull/14389"
+    },
+    {
+      "pr_number": 14388,
+      "pr_title": "expose the fields of Dust type to public",
+      "reviewed_at": "2024-01-30T23:48:44Z",
+      "url": "https://github.com/paritytech/substrate/pull/14388"
+    },
+    {
+      "pr_number": 14354,
+      "pr_title": "[pallet_collective] Enforce prime is a valid member of collective in set_members extrinsic",
+      "reviewed_at": "2024-01-30T23:48:43Z",
+      "url": "https://github.com/paritytech/substrate/pull/14354"
+    },
+    {
+      "pr_number": 13894,
+      "pr_title": "Update reservable docs to reflect actual ed",
+      "reviewed_at": "2024-01-30T23:48:43Z",
+      "url": "https://github.com/paritytech/substrate/pull/13894"
+    },
+    {
+      "pr_number": 14316,
+      "pr_title": "Contracts: fix benchmark comment",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14316"
+    },
+    {
+      "pr_number": 14313,
+      "pr_title": "Update contract multi-block migration",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14313"
+    },
+    {
+      "pr_number": 14309,
+      "pr_title": "Move `type Migrations` to `Config`",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14309"
+    },
+    {
+      "pr_number": 14307,
+      "pr_title": "build(deps): bump array-bytes from 4.2.0 to 6.1.0",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14307"
+    },
+    {
+      "pr_number": 14193,
+      "pr_title": "Moves `Block`, `NodeBlock` and `UncheckedExtrinsic` to `frame_system`, instead of `construct_runtime`",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/substrate/pull/14193"
+    },
+    {
+      "pr_number": 14288,
+      "pr_title": "Bump version of `pallet-contracts-primitives` for release",
+      "reviewed_at": "2024-01-30T23:48:40Z",
+      "url": "https://github.com/paritytech/substrate/pull/14288"
+    },
+    {
+      "pr_number": 14210,
+      "pr_title": "Soft deprecate GenesisConfig",
+      "reviewed_at": "2024-01-30T23:48:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/14210"
+    },
+    {
+      "pr_number": 14187,
+      "pr_title": "Deprecates the `chill_other` extrinsic in staking",
+      "reviewed_at": "2024-01-30T23:48:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/14187"
+    },
+    {
+      "pr_number": 14043,
+      "pr_title": "frame-support Add translate_next",
+      "reviewed_at": "2024-01-30T23:48:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/14043"
+    },
+    {
+      "pr_number": 14259,
+      "pr_title": "FRAME: Pay trait benchmark helper should use asset kind",
+      "reviewed_at": "2024-01-30T23:48:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/14259"
+    },
+    {
+      "pr_number": 14258,
+      "pr_title": "`Pay` trait gets `Error` item",
+      "reviewed_at": "2024-01-30T23:48:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/14258"
+    },
+    {
+      "pr_number": 14079,
+      "pr_title": "Contracts Add deposit for dependencies",
+      "reviewed_at": "2024-01-30T23:48:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/14079"
+    },
+    {
+      "pr_number": 14224,
+      "pr_title": "Add a deprecation warning to the old runtime GenesisConfig",
+      "reviewed_at": "2024-01-30T23:48:36Z",
+      "url": "https://github.com/paritytech/substrate/pull/14224"
+    },
+    {
+      "pr_number": 14101,
+      "pr_title": "Improve documentation for `fast-unstake` pallet",
+      "reviewed_at": "2024-01-30T23:48:36Z",
+      "url": "https://github.com/paritytech/substrate/pull/14101"
+    },
+    {
+      "pr_number": 14045,
+      "pr_title": "contracts: Multi block migrations",
+      "reviewed_at": "2024-01-30T23:48:36Z",
+      "url": "https://github.com/paritytech/substrate/pull/14045"
+    },
+    {
+      "pr_number": 12714,
+      "pr_title": "Add remove_proxies API for pallet-proxies #7557",
+      "reviewed_at": "2024-01-30T23:48:32Z",
+      "url": "https://github.com/paritytech/substrate/pull/12714"
+    },
+    {
+      "pr_number": 14122,
+      "pr_title": "Add review rules regarding the owned files",
+      "reviewed_at": "2024-01-30T23:48:29Z",
+      "url": "https://github.com/paritytech/substrate/pull/14122"
+    },
+    {
+      "pr_number": 14149,
+      "pr_title": "Introduce `entropy` function into frame System",
+      "reviewed_at": "2024-01-30T23:48:28Z",
+      "url": "https://github.com/paritytech/substrate/pull/14149"
+    },
+    {
+      "pr_number": 14327,
+      "pr_title": "Request labels on issue templates",
+      "reviewed_at": "2023-06-13T09:01:42Z",
+      "url": "https://github.com/paritytech/substrate/pull/14327"
+    },
+    {
+      "pr_number": 14115,
+      "pr_title": "add new documentation guidelines",
+      "reviewed_at": "2023-05-30T11:02:37Z",
+      "url": "https://github.com/paritytech/substrate/pull/14115"
+    },
+    {
+      "pr_number": 14202,
+      "pr_title": "WIP: soft deprecate genesisconfig",
+      "reviewed_at": "2023-05-24T09:18:48Z",
+      "url": "https://github.com/paritytech/substrate/pull/14202"
+    },
+    {
+      "pr_number": 13702,
+      "pr_title": "[Contracts] Overflowing bounded `DeletionQueue`",
+      "reviewed_at": "2023-05-11T12:14:03Z",
+      "url": "https://github.com/paritytech/substrate/pull/13702"
+    },
+    {
+      "pr_number": 13807,
+      "pr_title": "contracts: add events to ContractResult",
+      "reviewed_at": "2023-05-03T13:45:06Z",
+      "url": "https://github.com/paritytech/substrate/pull/13807"
+    },
+    {
+      "pr_number": 13708,
+      "pr_title": "contracts: Make Origin information available",
+      "reviewed_at": "2023-05-02T16:45:16Z",
+      "url": "https://github.com/paritytech/substrate/pull/13708"
+    },
+    {
+      "pr_number": 13990,
+      "pr_title": "Contracts: runtime_call and storage_deposit",
+      "reviewed_at": "2023-05-02T10:02:32Z",
+      "url": "https://github.com/paritytech/substrate/pull/13990"
+    },
+    {
+      "pr_number": 14028,
+      "pr_title": "contracts fix store-call test path",
+      "reviewed_at": "2023-04-27T10:01:14Z",
+      "url": "https://github.com/paritytech/substrate/pull/14028"
+    },
+    {
+      "pr_number": 14003,
+      "pr_title": "contracts Add storage_deposit test",
+      "reviewed_at": "2023-04-27T06:23:02Z",
+      "url": "https://github.com/paritytech/substrate/pull/14003"
+    },
+    {
+      "pr_number": 13565,
+      "pr_title": "[contracts] Port host functions to Weight V2 and storage deposit limit",
+      "reviewed_at": "2023-04-26T12:01:19Z",
+      "url": "https://github.com/paritytech/substrate/pull/13565"
+    },
+    {
+      "pr_number": 14002,
+      "pr_title": "contracts Add LOG_TARGET constant",
+      "reviewed_at": "2023-04-25T11:46:22Z",
+      "url": "https://github.com/paritytech/substrate/pull/14002"
+    },
+    {
+      "pr_number": 13970,
+      "pr_title": "Update macro use and optimize storage collection",
+      "reviewed_at": "2023-04-21T15:24:14Z",
+      "url": "https://github.com/paritytech/substrate/pull/13970"
+    },
+    {
+      "pr_number": 13776,
+      "pr_title": "contracts: make test work with debugger",
+      "reviewed_at": "2023-03-31T17:44:31Z",
+      "url": "https://github.com/paritytech/substrate/pull/13776"
+    }
+  ]
+}

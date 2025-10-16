@@ -1,0 +1,55 @@
+{
+  "commits": [
+    {
+      "sha": "a70222c9e0395873e2a45efaaa863f89438fc105",
+      "message": "Minor update to Readme - Statemint section (#2078)",
+      "date": "2023-01-11T15:25:23Z",
+      "url": "https://github.com/paritytech/cumulus/commit/a70222c9e0395873e2a45efaaa863f89438fc105"
+    }
+  ],
+  "prs": [
+    {
+      "number": 2078,
+      "title": "Minor update to Readme - Statemint section",
+      "state": "MERGED",
+      "created_at": "2023-01-11T12:45:12Z",
+      "closed_at": "2023-01-11T15:25:24Z",
+      "merged_at": "2023-01-11T15:25:24Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "DrW3RK",
+      "url": "https://github.com/paritytech/cumulus/pull/2078",
+      "ready_for_review_at": "2023-01-11T12:45:12Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-01-11T13:32:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-11T13:43:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-01-11T14:50:05Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-01-11T14:56:26Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-11T14:56:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7847222222222222,
+      "time_to_merge_hours": 2.67
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

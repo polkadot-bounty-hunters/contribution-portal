@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "sha": "0a54c22ae5689ae4dfaea19e85703bb2b86e28af",
+      "message": "Introduce jemalloc-allocator feature flag (#6675)",
+      "date": "2023-02-09T09:09:10Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/0a54c22ae5689ae4dfaea19e85703bb2b86e28af"
+    },
+    {
+      "sha": "f66b58cefb661013984ef2a5130a65c81f97d117",
+      "message": "Add migrations from pallet_asset to statemine, statemint and westmint  (#1742)",
+      "date": "2022-11-15T12:07:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/f66b58cefb661013984ef2a5130a65c81f97d117"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

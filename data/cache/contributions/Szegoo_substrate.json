@@ -1,0 +1,6015 @@
+{
+  "commits": [
+    {
+      "sha": "31491fa24164b1cc9fffd5f07f06f41c8fef437d",
+      "message": "Try-state for Referenda pallet (#13949)",
+      "date": "2023-07-30T06:17:44Z",
+      "url": "https://github.com/paritytech/substrate/commit/31491fa24164b1cc9fffd5f07f06f41c8fef437d"
+    },
+    {
+      "sha": "0d09a2607cce124bd3f057a99ccfe4c53d2a98ad",
+      "message": "try-runtime-cli: `execute-block` & `create-snapshot` tests (#14343)",
+      "date": "2023-06-24T09:36:15Z",
+      "url": "https://github.com/paritytech/substrate/commit/0d09a2607cce124bd3f057a99ccfe4c53d2a98ad"
+    },
+    {
+      "sha": "5032b8dbb322ac426f0a0b3a5618bdf01b1d7ff0",
+      "message": "BREAKING - Try-runtime: Use proper error types (#13993)",
+      "date": "2023-05-23T06:56:10Z",
+      "url": "https://github.com/paritytech/substrate/commit/5032b8dbb322ac426f0a0b3a5618bdf01b1d7ff0"
+    },
+    {
+      "sha": "e85188b800c63ca3be545c1a43a0927fe0b6fd11",
+      "message": "Improve try-state docs (#13967)",
+      "date": "2023-05-21T21:30:49Z",
+      "url": "https://github.com/paritytech/substrate/commit/e85188b800c63ca3be545c1a43a0927fe0b6fd11"
+    },
+    {
+      "sha": "4e93782c16f741cde18a8b98bd791838e03788fb",
+      "message": "Try-state for Collective pallet (#13645)",
+      "date": "2023-04-17T05:43:13Z",
+      "url": "https://github.com/paritytech/substrate/commit/4e93782c16f741cde18a8b98bd791838e03788fb"
+    },
+    {
+      "sha": "82e824bc0d21c63943b06d753e53a1e17e5a23c3",
+      "message": "Warn if pallet provided to try-state does not exist (#13858)",
+      "date": "2023-04-08T17:20:13Z",
+      "url": "https://github.com/paritytech/substrate/commit/82e824bc0d21c63943b06d753e53a1e17e5a23c3"
+    },
+    {
+      "sha": "e923511e15ec5000acb2a44d3764020ea71b109d",
+      "message": "Assets pallet: Don't allow `set_min_balance` when sufficient (#13510)",
+      "date": "2023-03-03T20:39:45Z",
+      "url": "https://github.com/paritytech/substrate/commit/e923511e15ec5000acb2a44d3764020ea71b109d"
+    },
+    {
+      "sha": "4aa213ce1aef94f97836e7ceec753e2a131c849a",
+      "message": "Assets pallet: Giving the asset owner the ability to set minimum balance (#13486)",
+      "date": "2023-03-02T10:16:47Z",
+      "url": "https://github.com/paritytech/substrate/commit/4aa213ce1aef94f97836e7ceec753e2a131c849a"
+    },
+    {
+      "sha": "ea182669e111d819b2f4539749b86edee4944168",
+      "message": "Glutton pallet (#12833)",
+      "date": "2023-02-21T22:39:27Z",
+      "url": "https://github.com/paritytech/substrate/commit/ea182669e111d819b2f4539749b86edee4944168"
+    },
+    {
+      "sha": "68d00e2d5132ef32e564e0320e89dfac57e1c46e",
+      "message": "Fee and tip represented as asset ID inside `AssetTxFeePaid` (#13083)",
+      "date": "2023-02-02T06:47:49Z",
+      "url": "https://github.com/paritytech/substrate/commit/68d00e2d5132ef32e564e0320e89dfac57e1c46e"
+    },
+    {
+      "sha": "3bc3742d5c0c5269353d7809d9f8f91104a93273",
+      "message": "Calling proxy doesn't remove announcement (#13267)",
+      "date": "2023-02-01T17:17:05Z",
+      "url": "https://github.com/paritytech/substrate/commit/3bc3742d5c0c5269353d7809d9f8f91104a93273"
+    },
+    {
+      "sha": "38ec2d8957d843fa424397f79a484d773eea1454",
+      "message": "Warn validators with slow hardware (#12620)",
+      "date": "2023-01-20T19:26:12Z",
+      "url": "https://github.com/paritytech/substrate/commit/38ec2d8957d843fa424397f79a484d773eea1454"
+    },
+    {
+      "sha": "cbd8f1b56fd8ab9af0d9317432cc735264c89d70",
+      "message": "Forbid stray tokens in call index (#13036)",
+      "date": "2023-01-02T10:23:33Z",
+      "url": "https://github.com/paritytech/substrate/commit/cbd8f1b56fd8ab9af0d9317432cc735264c89d70"
+    },
+    {
+      "sha": "940a458a8eaf05fdeda441dad82b2df186bf260e",
+      "message": "Collective: Benchmark with greater `MaxProposals` (#12454)",
+      "date": "2022-11-14T22:34:30Z",
+      "url": "https://github.com/paritytech/substrate/commit/940a458a8eaf05fdeda441dad82b2df186bf260e"
+    },
+    {
+      "sha": "3e71d606b7d1e91d9c1701c0a443530eefca1a39",
+      "message": "New `root_testing` pallet (#12451)",
+      "date": "2022-11-13T18:48:11Z",
+      "url": "https://github.com/paritytech/substrate/commit/3e71d606b7d1e91d9c1701c0a443530eefca1a39"
+    },
+    {
+      "sha": "6bd2eac1c230bfed1e58a8e2bad03d5bacf54b60",
+      "message": "Move Throughput into `sc-sysinfo` (#12368)",
+      "date": "2022-11-04T17:13:57Z",
+      "url": "https://github.com/paritytech/substrate/commit/6bd2eac1c230bfed1e58a8e2bad03d5bacf54b60"
+    },
+    {
+      "sha": "547e856831650525bbd4372fb659fcefd6ddf1d8",
+      "message": "Utility: add more tests for batch/batchAll/forceBatch (#12506)",
+      "date": "2022-10-28T15:18:09Z",
+      "url": "https://github.com/paritytech/substrate/commit/547e856831650525bbd4372fb659fcefd6ddf1d8"
+    },
+    {
+      "sha": "1f39c9029eb83e9432d86877f0694f643b7dd968",
+      "message": "pallet-mmr: RPC API and Runtime API work with block numbers (#12345)",
+      "date": "2022-10-13T10:13:56Z",
+      "url": "https://github.com/paritytech/substrate/commit/1f39c9029eb83e9432d86877f0694f643b7dd968"
+    },
+    {
+      "sha": "a84def97102166643bc3c807ae69892551c47536",
+      "message": "Maximum value for `MultiplierUpdate` (#12282)",
+      "date": "2022-10-06T12:12:51Z",
+      "url": "https://github.com/paritytech/substrate/commit/a84def97102166643bc3c807ae69892551c47536"
+    },
+    {
+      "sha": "241b0d0455453499763d0db0b4ea4188012b372f",
+      "message": "Improved election pallet testing (#12327)",
+      "date": "2022-10-04T22:16:07Z",
+      "url": "https://github.com/paritytech/substrate/commit/241b0d0455453499763d0db0b4ea4188012b372f"
+    },
+    {
+      "sha": "96de768061b182934b2d824b2fe76effb5b4db85",
+      "message": "New Pallet: Root offences (#11943)",
+      "date": "2022-09-28T20:04:14Z",
+      "url": "https://github.com/paritytech/substrate/commit/96de768061b182934b2d824b2fe76effb5b4db85"
+    },
+    {
+      "sha": "2a6c314cdce2b7813fbe2af2d21388ff5ededcbe",
+      "message": "Pallet staking events to named enum (#12342)",
+      "date": "2022-09-27T11:44:20Z",
+      "url": "https://github.com/paritytech/substrate/commit/2a6c314cdce2b7813fbe2af2d21388ff5ededcbe"
+    },
+    {
+      "sha": "badc92ac20dbf006595a6af9418da9942527cbd7",
+      "message": "Removed OuterCall alias & doc fixes (#12349)",
+      "date": "2022-09-25T21:22:54Z",
+      "url": "https://github.com/paritytech/substrate/commit/badc92ac20dbf006595a6af9418da9942527cbd7"
+    },
+    {
+      "sha": "a47f200eebeb88a5bde6f1ed2be9728b82536dde",
+      "message": "BREAKING: Rename Origin (#12258)",
+      "date": "2022-09-20T22:13:09Z",
+      "url": "https://github.com/paritytech/substrate/commit/a47f200eebeb88a5bde6f1ed2be9728b82536dde"
+    },
+    {
+      "sha": "5527263978a763bafc78d60955c662c20f465d18",
+      "message": "BREAKING: Rename Call & Event (#11981)",
+      "date": "2022-09-12T22:03:31Z",
+      "url": "https://github.com/paritytech/substrate/commit/5527263978a763bafc78d60955c662c20f465d18"
+    },
+    {
+      "sha": "12b0d8e9957c6159d433cd4601d5f297b9bf4313",
+      "message": "Uniques: Small fix in docs (#12143)",
+      "date": "2022-09-06T12:16:29Z",
+      "url": "https://github.com/paritytech/substrate/commit/12b0d8e9957c6159d433cd4601d5f297b9bf4313"
+    },
+    {
+      "sha": "6fbcc571ddf42fc62306e5ac7f5bc8e22a7757e7",
+      "message": "Uniques: Reset approved account after transfer  (#12145)",
+      "date": "2022-09-01T08:45:20Z",
+      "url": "https://github.com/paritytech/substrate/commit/6fbcc571ddf42fc62306e5ac7f5bc8e22a7757e7"
+    },
+    {
+      "sha": "7d8e5a1e3979cb0fc61123d5cfeec974dfa25334",
+      "message": "Auto-incremental CollectionId (#11796)",
+      "date": "2022-07-30T14:09:25Z",
+      "url": "https://github.com/paritytech/substrate/commit/7d8e5a1e3979cb0fc61123d5cfeec974dfa25334"
+    },
+    {
+      "sha": "5709dfa7095659d398323fb2c9515f66b2617b17",
+      "message": "Rpc for pending rewards (#11831)",
+      "date": "2022-07-26T09:06:48Z",
+      "url": "https://github.com/paritytech/substrate/commit/5709dfa7095659d398323fb2c9515f66b2617b17"
+    },
+    {
+      "sha": "6f652840cc78629ac149bf36d23ab34345c65331",
+      "message": "removed evaluation.rs (#11766)",
+      "date": "2022-07-16T21:38:38Z",
+      "url": "https://github.com/paritytech/substrate/commit/6f652840cc78629ac149bf36d23ab34345c65331"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14444,
+      "title": "Expiry time for MultiSig calls",
+      "state": "OPEN",
+      "created_at": "2023-06-22T16:49:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/14444",
+      "ready_for_review_at": "2023-06-22T16:49:18Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-07-24T18:36:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-07-24T18:37:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-07-24T18:40:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-07-25T01:19:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-07-25T01:30:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-07-25T05:22:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-21T05:56:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-08-21T06:14:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-08-21T06:55:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-08-21T06:59:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-08-21T07:03:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-21T07:13:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-21T07:15:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-21T07:17:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-08-21T08:28:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-21T09:16:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-08-21T09:20:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-21T09:29:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-08-21T12:07:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-21T14:07:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-22T04:01:10Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-23T13:24:49Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-08-18T10:50:59Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-08-18T12:25:07Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-22T07:12:30Z"
+        }
+      ],
+      "time_to_first_review_hours": 769.7805555555556,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14343,
+      "title": "try-runtime-cli: `execute-block` & `create-snapshot` tests",
+      "state": "MERGED",
+      "created_at": "2023-06-11T15:55:49Z",
+      "closed_at": "2023-06-24T09:36:15Z",
+      "merged_at": "2023-06-24T09:36:15Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/14343",
+      "ready_for_review_at": "2023-06-11T15:55:49Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-06-14T19:52:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-15T07:53:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-06-15T09:56:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-06-16T10:38:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-16T10:55:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-16T10:56:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-16T10:57:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-06-16T10:57:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-06-16T10:58:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-16T17:33:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-17T14:26:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-06-20T07:48:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-21T09:56:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-21T10:49:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-21T11:57:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-21T12:31:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-22T07:20:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-22T10:02:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-22T10:03:11Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-12T06:48:41Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-06-16T10:57:48Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-16T11:10:07Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-16T11:10:13Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-16T11:12:20Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-16T11:17:29Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-06-16T11:18:19Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-06-17T11:17:26Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-17T11:17:39Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-17T11:26:15Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-06-20T12:42:55Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-21T09:55:29Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-06-21T10:27:59Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-06-21T13:22:32Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-06-24T09:35:37Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-06-24T09:36:03Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-24T09:36:10Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-08-14T05:57:58Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-08-14T05:58:35Z"
+        }
+      ],
+      "time_to_first_review_hours": 75.94972222222222,
+      "time_to_merge_hours": 305.6738888888889
+    },
+    {
+      "number": 13993,
+      "title": "BREAKING - Try-runtime: Use proper error types",
+      "state": "MERGED",
+      "created_at": "2023-04-24T15:15:51Z",
+      "closed_at": "2023-05-23T06:56:10Z",
+      "merged_at": "2023-05-23T06:56:10Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13993",
+      "ready_for_review_at": "2023-04-24T15:15:51Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-04-28T06:11:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-28T13:17:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-28T13:32:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-29T09:01:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-29T09:04:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-30T18:10:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-04-30T18:22:03Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-30T18:56:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-30T18:58:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-13T17:33:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-05-13T18:17:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-05-15T12:26:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-16T16:40:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-16T16:41:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-05-16T18:48:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-05-16T18:51:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-05-16T18:52:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-17T05:47:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-17T13:48:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-05-22T08:21:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-27T13:49:11Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-04-28T13:23:06Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-28T13:53:38Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-29T09:59:22Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-30T18:58:02Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-30T19:17:52Z"
+        },
+        {
+          "commenter": "KiChjang",
+          "commented_at": "2023-05-13T09:29:59Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-13T09:41:07Z"
+        },
+        {
+          "commenter": "KiChjang",
+          "commented_at": "2023-05-13T09:44:26Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-13T09:47:31Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-05-23T06:56:00Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-05-23T17:31:40Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-23T17:31:43Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-05-23T17:32:38Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-23T17:40:18Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-23T17:43:01Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-23T17:48:24Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-23T17:48:27Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-23T18:36:54Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-23T18:43:07Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-23T19:08:23Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-23T19:14:38Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-24T14:37:40Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-24T14:38:21Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-24T14:41:26Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-05-24T15:03:43Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-26T09:59:32Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-26T12:39:19Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-26T12:42:11Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-26T12:42:52Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-26T12:43:25Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-28T07:25:28Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-29T15:44:11Z"
+        },
+        {
+          "commenter": "rzadp",
+          "commented_at": "2023-06-09T08:58:40Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-06-09T08:59:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 86.92222222222222,
+      "time_to_merge_hours": 687.6719444444444
+    },
+    {
+      "number": 13967,
+      "title": "Improve try-state docs",
+      "state": "MERGED",
+      "created_at": "2023-04-20T18:55:28Z",
+      "closed_at": "2023-05-21T21:30:50Z",
+      "merged_at": "2023-05-21T21:30:50Z",
+      "merged_by": "bkchr",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13967",
+      "ready_for_review_at": "2023-04-20T18:55:28Z",
+      "reviews": [
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-04-21T07:36:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-21T21:30:25Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-20T20:18:31Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-21T09:16:19Z"
+        }
+      ],
+      "time_to_first_review_hours": 12.691944444444445,
+      "time_to_merge_hours": 746.5894444444444
+    },
+    {
+      "number": 13949,
+      "title": "Try-state for Referenda pallet",
+      "state": "MERGED",
+      "created_at": "2023-04-18T18:42:58Z",
+      "closed_at": "2023-07-30T06:17:45Z",
+      "merged_at": "2023-07-30T06:17:45Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13949",
+      "ready_for_review_at": "2023-04-18T18:42:58Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-22T18:27:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-22T18:27:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-04-25T13:54:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-25T13:59:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-04-25T14:05:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-27T09:33:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-27T09:34:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-27T09:35:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-06-27T15:53:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-06-30T13:36:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-07-28T05:44:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-07-28T16:21:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-07-28T21:29:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-07-29T05:08:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-07-30T03:03:33Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-23T13:54:32Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-25T14:07:44Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-06-21T10:47:08Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-27T13:25:01Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-27T17:43:06Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-30T15:32:50Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-07-02T14:23:23Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-07-02T14:29:29Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-07-28T16:09:17Z"
+        },
+        {
+          "commenter": "gpestana",
+          "commented_at": "2023-07-28T21:26:51Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-28T21:26:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-28T21:29:32Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-07-30T06:17:37Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-07-31T09:41:04Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-07-31T09:41:07Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-07-31T09:41:34Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-02T09:44:21Z"
+        },
+        {
+          "commenter": "rzadp",
+          "commented_at": "2023-08-02T10:00:46Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-02T10:54:52Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-02T11:10:58Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-08-02T11:11:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 95.73777777777778,
+      "time_to_merge_hours": 2459.5797222222222
+    },
+    {
+      "number": 13858,
+      "title": "Warn if pallet provided to try-state does not exist",
+      "state": "MERGED",
+      "created_at": "2023-04-08T10:32:06Z",
+      "closed_at": "2023-04-08T17:20:14Z",
+      "merged_at": "2023-04-08T17:20:14Z",
+      "merged_by": "liamaharon",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13858",
+      "ready_for_review_at": "2023-04-08T10:32:06Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-04-08T15:54:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-04-08T16:42:54Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-04-08T16:55:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.371111111111111,
+      "time_to_merge_hours": 6.802222222222222
+    },
+    {
+      "number": 13645,
+      "title": "Try-state for Collective pallet",
+      "state": "MERGED",
+      "created_at": "2023-03-19T18:34:54Z",
+      "closed_at": "2023-04-17T05:43:14Z",
+      "merged_at": "2023-04-17T05:43:14Z",
+      "merged_by": "liamaharon",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13645",
+      "ready_for_review_at": "2023-03-19T18:34:54Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-22T19:22:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-03-22T19:33:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-23T12:36:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-23T14:20:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-03-27T06:53:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-27T16:25:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-03-27T17:11:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-28T12:48:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-29T12:34:23Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-22T18:55:57Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-23T10:27:19Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-27T16:19:40Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-27T16:27:34Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-29T15:32:56Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-14T11:39:51Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-14T11:41:12Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-04-21T14:16:36Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-04-21T15:43:47Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-21T17:19:52Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-04-25T10:32:40Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-04-25T10:32:51Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-04-25T10:32:55Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-02T10:46:24Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-02T15:14:11Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-05-04T10:18:47Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-05-04T11:25:06Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-04T11:25:10Z"
+        },
+        {
+          "commenter": "rzadp",
+          "commented_at": "2023-05-11T08:43:44Z"
+        }
+      ],
+      "time_to_first_review_hours": 72.79305555555555,
+      "time_to_merge_hours": 683.1388888888889
+    },
+    {
+      "number": 13510,
+      "title": "Assets pallet: Don't allow `set_min_balance` when sufficient",
+      "state": "MERGED",
+      "created_at": "2023-03-02T13:58:20Z",
+      "closed_at": "2023-03-03T20:39:46Z",
+      "merged_at": "2023-03-03T20:39:46Z",
+      "merged_by": "bkchr",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13510",
+      "ready_for_review_at": "2023-03-02T13:58:20Z",
+      "reviews": [
+        {
+          "reviewer": "IkerAlus",
+          "submitted_at": "2023-03-02T14:22:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-03-02T14:27:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "IkerAlus",
+          "submitted_at": "2023-03-02T14:50:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-03-02T14:52:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-03-02T22:00:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-02T14:01:22Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-02T14:53:20Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-02T14:53:26Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-02T21:53:42Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-03-02T22:01:25Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-02T22:34:00Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-03T09:56:21Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-03T09:56:26Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-03-03T10:23:11Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-30T10:12:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.4083333333333333,
+      "time_to_merge_hours": 30.690555555555555
+    },
+    {
+      "number": 13486,
+      "title": "Assets pallet: Giving the asset owner the ability to set minimum balance",
+      "state": "MERGED",
+      "created_at": "2023-02-27T21:15:13Z",
+      "closed_at": "2023-03-02T10:16:47Z",
+      "merged_at": "2023-03-02T10:16:47Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13486",
+      "ready_for_review_at": "2023-02-27T21:15:13Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-28T13:56:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-28T14:17:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-28T14:35:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-02-28T14:50:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-28T19:47:07Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-02-28T14:10:59Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-28T19:50:25Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-28T20:00:22Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-28T20:00:27Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-28T20:00:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-28T20:00:48Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-28T20:27:29Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-02T10:16:39Z"
+        },
+        {
+          "commenter": "IkerAlus",
+          "commented_at": "2023-03-02T10:46:32Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2023-03-02T10:51:33Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-30T10:12:47Z"
+        }
+      ],
+      "time_to_first_review_hours": 16.684166666666666,
+      "time_to_merge_hours": 61.02611111111111
+    },
+    {
+      "number": 13267,
+      "title": "Calling proxy doesn't remove announcement",
+      "state": "MERGED",
+      "created_at": "2023-01-29T17:09:02Z",
+      "closed_at": "2023-02-01T17:17:06Z",
+      "merged_at": "2023-02-01T17:17:06Z",
+      "merged_by": "ggwpez",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13267",
+      "ready_for_review_at": "2023-01-29T17:09:02Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-30T18:14:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-30T18:14:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-01T17:12:25Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 25.089444444444446,
+      "time_to_merge_hours": 72.13444444444444
+    },
+    {
+      "number": 13083,
+      "title": "Fee and tip represented as asset ID inside `AssetTxFeePaid`",
+      "state": "MERGED",
+      "created_at": "2023-01-05T20:27:59Z",
+      "closed_at": "2023-02-02T06:47:50Z",
+      "merged_at": "2023-02-02T06:47:50Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13083",
+      "ready_for_review_at": "2023-01-05T20:27:59Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-05T20:28:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-01-06T07:28:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-06T08:41:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-06T08:54:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-06T09:16:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-06T09:40:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "melekes",
+          "submitted_at": "2023-01-09T05:21:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-02-01T13:43:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-02-01T15:02:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-01T15:04:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-02-01T15:09:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-02-01T15:12:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-02-01T16:36:38Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "joepetrowski",
+          "commented_at": "2023-02-02T06:47:41Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-02-24T16:32:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.009444444444444445,
+      "time_to_merge_hours": 658.3308333333333
+    },
+    {
+      "number": 13070,
+      "title": "Allow root origin to force transition phases",
+      "state": "OPEN",
+      "created_at": "2023-01-04T21:40:37Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13070",
+      "ready_for_review_at": "2023-01-04T21:40:37Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-02-13T18:05:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-13T18:33:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-13T18:34:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-14T01:22:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-15T15:13:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-17T12:38:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-03-01T18:00:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-03-01T18:02:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-03-01T18:03:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-03-01T18:07:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-03-01T21:25:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-03-01T21:28:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-18T23:31:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-18T23:32:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-18T23:34:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-18T23:37:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-18T23:38:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-03-28T21:04:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-03-28T21:06:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2023-03-28T21:09:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-03-29T09:00:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-03-29T12:57:42Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-02-04T15:03:11Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-02-12T13:50:09Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-19T08:44:05Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-03-28T12:11:08Z"
+        },
+        {
+          "commenter": "gpestana",
+          "commented_at": "2023-04-25T07:00:30Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-25T14:45:14Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-26T13:40:24Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-04-30T13:24:37Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-18T10:52:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 956.4130555555555,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13036,
+      "title": "Forbid stray tokens in call index",
+      "state": "MERGED",
+      "created_at": "2022-12-30T16:17:36Z",
+      "closed_at": "2023-01-02T10:23:34Z",
+      "merged_at": "2023-01-02T10:23:34Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/13036",
+      "ready_for_review_at": "2022-12-30T16:17:36Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-12-31T17:46:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-01T21:30:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-01T21:34:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-02T10:20:01Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-12-31T08:32:13Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-02T10:22:40Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-02T10:22:49Z"
+        }
+      ],
+      "time_to_first_review_hours": 25.48361111111111,
+      "time_to_merge_hours": 66.09944444444444
+    },
+    {
+      "number": 12833,
+      "title": "Glutton pallet",
+      "state": "MERGED",
+      "created_at": "2022-12-03T15:07:11Z",
+      "closed_at": "2023-02-21T22:39:27Z",
+      "merged_at": "2023-02-21T22:39:27Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12833",
+      "ready_for_review_at": "2022-12-03T15:07:11Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2022-12-03T15:43:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-04T17:10:29Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-06T21:16:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-06T21:17:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-12-06T21:30:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-06T21:34:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-06T21:35:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-12-06T21:55:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-08T16:44:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-12T12:22:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-12T12:22:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-12T12:24:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-12T12:25:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-18T17:47:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-18T17:49:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-18T17:52:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-20T00:16:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-20T00:17:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-21T14:35:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-21T15:52:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-12-21T15:54:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-12-31T18:01:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-01T10:09:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-02T10:46:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-03T12:47:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-03T12:48:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-03T13:18:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-03T13:25:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-03T14:09:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-03T14:10:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-03T14:12:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-03T14:29:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-03T14:31:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-03T16:22:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-03T16:31:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-03T20:35:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-04T14:58:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-04T15:01:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-13T11:31:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-13T12:03:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-13T12:05:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-13T13:49:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-13T16:00:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-13T16:11:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-01-13T16:21:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-01-27T10:57:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-11T06:52:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-11T09:50:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-11T13:18:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-14T18:17:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-14T21:09:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-14T23:48:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-14T23:49:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-14T23:49:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-15T08:44:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-16T09:10:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-16T21:54:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-16T21:55:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-16T22:07:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-17T17:49:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-17T18:12:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-17T19:58:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-17T19:59:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-17T20:00:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-17T20:01:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-17T20:02:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-17T20:04:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-17T20:23:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-17T20:59:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-18T10:30:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-19T13:20:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-02-20T12:37:46Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2023-02-20T13:00:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-20T14:48:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-20T14:50:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-02-20T17:39:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-02-20T19:26:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-22T08:56:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2023-02-22T14:06:29Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-12-21T13:24:00Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-12-21T15:58:10Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-12-21T17:06:23Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-12-22T16:13:59Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-12-22T16:33:34Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-02-10T16:56:26Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-13T11:04:48Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-14T23:50:02Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-15T08:06:17Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-17T17:49:30Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-17T17:50:12Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-17T20:47:33Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-02-17T20:51:28Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-17T21:01:21Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-17T21:01:28Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-02-17T21:03:58Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-02-17T21:26:10Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-02-17T22:21:51Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-18T10:31:09Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-19T13:09:33Z"
+        },
+        {
+          "commenter": "koute",
+          "commented_at": "2023-02-20T11:26:10Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-20T11:48:52Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-20T19:26:15Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-20T19:43:28Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-20T19:43:45Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-20T20:15:46Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-21T17:04:05Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-21T22:39:18Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-09T19:30:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.5997222222222223,
+      "time_to_merge_hours": 1927.5377777777778
+    },
+    {
+      "number": 12620,
+      "title": "Warn validators with slow hardware",
+      "state": "MERGED",
+      "created_at": "2022-11-05T09:42:34Z",
+      "closed_at": "2023-01-20T19:26:13Z",
+      "merged_at": "2023-01-20T19:26:13Z",
+      "merged_by": "ggwpez",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12620",
+      "ready_for_review_at": "2022-11-05T09:42:34Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-11-13T19:30:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-16T22:29:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-19T17:31:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-01-20T18:38:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-20T21:14:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-20T21:25:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-20T21:34:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-20T21:36:25Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-07T07:25:54Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2022-11-11T09:54:41Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-12T13:34:28Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-13T09:57:43Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2022-11-13T10:50:39Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-12-15T02:21:58Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-12-15T17:41:31Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-12-15T17:43:12Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-01-16T19:21:37Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-01-17T17:04:04Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-17T22:30:27Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-01-19T07:42:44Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-19T17:27:02Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-01-19T18:42:17Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-20T14:44:46Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-01-20T18:40:43Z"
+        },
+        {
+          "commenter": "sam0x17",
+          "commented_at": "2023-01-20T18:42:48Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-01-20T18:59:29Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-20T19:09:11Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-01-20T21:15:04Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-01-20T21:15:07Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-01-23T11:59:55Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-01-23T11:59:57Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-01-23T12:00:28Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-01-23T12:00:30Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2023-01-23T12:15:41Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-01-23T12:15:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 201.79777777777778,
+      "time_to_merge_hours": 1833.7275
+    },
+    {
+      "number": 12549,
+      "title": "Bound elections-phragmen pallet",
+      "state": "OPEN",
+      "created_at": "2022-10-23T14:32:23Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12549",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:50:58Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-29T09:17:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-29T09:17:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-29T09:18:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-29T09:18:56Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-29T11:45:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2022-11-02T10:22:19Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-02T10:43:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-02T10:45:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2022-11-02T10:48:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-02T22:15:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-03T09:19:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-05T15:05:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-05T15:18:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-11-05T22:25:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-11-06T11:01:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-06T11:45:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2022-11-08T07:00:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2022-11-08T07:01:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-12T08:08:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2022-11-22T23:01:41Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-27T09:46:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2022-12-02T12:39:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-12-05T22:16:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-02-27T10:42:49Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "gpestana",
+          "submitted_at": "2023-02-27T13:29:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2023-03-05T16:57:43Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-24T12:03:35Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-29T09:19:28Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-01T20:09:24Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-27T09:47:32Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-12-02T16:56:42Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-01-16T19:21:36Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-01-16T19:25:14Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-02-24T14:27:47Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-02-24T14:27:52Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-02-24T14:28:11Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-02-27T12:26:55Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-04-04T20:10:45Z"
+        },
+        {
+          "commenter": "gpestana",
+          "commented_at": "2023-04-25T06:57:20Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-05-25T07:08:15Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-06-24T08:42:29Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2023-06-24T10:12:23Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-07-24T20:35:21Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-07-24T21:24:02Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-08-23T21:38:06Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12506,
+      "title": "Utility: add more tests for batch/batchAll/forceBatch",
+      "state": "MERGED",
+      "created_at": "2022-10-17T09:08:54Z",
+      "closed_at": "2022-10-28T15:18:09Z",
+      "merged_at": "2022-10-28T15:18:09Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12506",
+      "ready_for_review_at": "2022-10-17T09:08:54Z",
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2022-10-17T09:30:04Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-17T18:34:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2022-10-17T20:15:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-18T07:33:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2022-10-18T07:45:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-19T20:00:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-20T19:18:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-20T19:20:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-27T17:03:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-27T19:55:23Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-22T08:40:47Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-10-28T15:17:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.3527777777777778,
+      "time_to_merge_hours": 270.15416666666664
+    },
+    {
+      "number": 12454,
+      "title": "Collective: Benchmark with greater `MaxProposals`",
+      "state": "MERGED",
+      "created_at": "2022-10-09T12:53:15Z",
+      "closed_at": "2022-11-14T22:34:30Z",
+      "merged_at": "2022-11-14T22:34:30Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12454",
+      "ready_for_review_at": "2022-10-09T12:53:15Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-09T13:08:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-09T13:15:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-09T15:04:08Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-09T15:48:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-09T17:04:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-09T17:30:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-10T09:50:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-10T11:46:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-10T18:48:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-10T20:00:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-10T20:43:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-11T08:35:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-11T17:17:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-11T18:41:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T09:59:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-12T16:20:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T18:57:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-13T14:06:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-13T14:36:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-14T20:49:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-14T21:02:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-14T21:26:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-14T21:30:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-14T22:31:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-14T22:32:11Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-11-12T23:50:44Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-13T07:33:12Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-14T20:41:37Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-11-14T22:32:25Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-11-14T22:32:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.25527777777777777,
+      "time_to_merge_hours": 873.6875
+    },
+    {
+      "number": 12451,
+      "title": "New `root_testing` pallet",
+      "state": "MERGED",
+      "created_at": "2022-10-08T15:42:59Z",
+      "closed_at": "2022-11-13T18:48:11Z",
+      "merged_at": "2022-11-13T18:48:11Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12451",
+      "ready_for_review_at": "2022-10-08T15:42:59Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T09:29:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-25T13:49:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-25T13:50:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-25T22:25:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2022-11-05T22:45:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-07T14:08:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2022-11-07T21:40:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-08T11:18:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-11-12T10:49:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-12T13:44:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-12T14:08:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-08T15:55:07Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-09T21:25:13Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-10T06:57:15Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-10T07:49:28Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-10T08:39:14Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-10T18:21:33Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-11T07:33:55Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-11T17:02:52Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-14T16:40:50Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-14T17:57:09Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-24T17:28:23Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-25T19:14:21Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-25T19:35:52Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-26T12:25:51Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-10-26T12:25:54Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-26T12:47:35Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-26T13:14:05Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-26T13:31:37Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-26T13:32:52Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-27T12:04:12Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-11-12T15:46:22Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-11-13T18:48:03Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-11-13T18:48:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 377.77166666666665,
+      "time_to_merge_hours": 867.0866666666667
+    },
+    {
+      "number": 12450,
+      "title": "Root-Offences: Slight inaccuracy in docs",
+      "state": "CLOSED",
+      "created_at": "2022-10-07T19:51:46Z",
+      "closed_at": "2022-10-08T15:44:01Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12450",
+      "ready_for_review_at": "2022-10-07T19:51:46Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-08T15:44:01Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12368,
+      "title": "Move Throughput into `sc-sysinfo`",
+      "state": "MERGED",
+      "created_at": "2022-09-27T15:59:21Z",
+      "closed_at": "2022-11-04T17:13:58Z",
+      "merged_at": "2022-11-04T17:13:58Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12368",
+      "ready_for_review_at": "2022-09-27T15:59:21Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-09-28T21:10:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-09-29T05:51:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-09-29T09:18:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-29T13:10:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-09-29T13:11:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-29T14:28:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-09-29T14:30:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-09-29T14:35:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-29T15:23:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-09-29T15:36:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-09-30T08:36:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-30T12:56:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-30T13:00:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-01T11:16:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-01T11:19:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-01T11:21:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-01T11:22:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-01T11:28:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-01T11:29:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-01T11:31:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-01T11:34:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-01T12:34:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-02T13:52:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-03T06:49:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-03T11:37:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-03T11:38:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-03T11:40:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-04T13:00:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-06T12:36:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-06T16:27:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-07T13:20:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-07T15:41:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-11T06:10:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T10:34:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T10:47:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-12T16:33:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-12T18:45:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-20T10:00:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2022-10-20T10:06:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-20T10:14:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-20T11:30:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-20T11:33:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-20T12:05:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-20T12:11:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-20T12:26:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-11-04T16:43:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-11-04T16:44:20Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-28T20:11:04Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-28T20:14:28Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-28T20:18:58Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-28T20:22:09Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-09-28T21:11:55Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-29T14:32:44Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-02T13:55:16Z"
+        },
+        {
+          "commenter": "koute",
+          "commented_at": "2022-10-03T06:50:13Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-20T15:48:03Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-10-20T17:52:55Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-20T17:58:24Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-10-29T08:28:12Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-29T12:46:10Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-11-03T22:48:34Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-11-04T16:45:26Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-11-04T16:45:34Z"
+        }
+      ],
+      "time_to_first_review_hours": 29.190277777777776,
+      "time_to_merge_hours": 913.2436111111111
+    },
+    {
+      "number": 12349,
+      "title": "Removed OuterCall alias & doc fixes",
+      "state": "MERGED",
+      "created_at": "2022-09-25T15:48:23Z",
+      "closed_at": "2022-09-25T21:22:54Z",
+      "merged_at": "2022-09-25T21:22:54Z",
+      "merged_by": "bkchr",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12349",
+      "ready_for_review_at": "2022-09-25T15:48:23Z",
+      "reviews": [
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-25T16:30:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-09-25T21:21:54Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.6972222222222222,
+      "time_to_merge_hours": 5.575277777777778
+    },
+    {
+      "number": 12345,
+      "title": "pallet-mmr: RPC API and Runtime API work with block numbers",
+      "state": "MERGED",
+      "created_at": "2022-09-24T17:28:44Z",
+      "closed_at": "2022-10-13T10:13:57Z",
+      "merged_at": "2022-10-13T10:13:57Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12345",
+      "ready_for_review_at": "2022-09-24T17:28:44Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-25T08:33:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-25T08:34:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-09-26T08:19:10Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-26T11:16:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-26T11:51:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-09-26T12:07:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-26T15:31:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2022-09-30T00:45:56Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-10-03T14:30:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2022-10-03T16:14:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-10-04T07:32:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-10-04T07:36:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-04T07:52:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-04T07:55:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-04T08:05:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-10-04T08:52:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2022-10-04T10:54:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-05T09:41:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-05T18:11:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2022-10-05T22:53:56Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2022-10-05T23:33:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-06T06:07:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-06T07:52:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2022-10-06T08:46:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2022-10-06T10:47:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2022-10-06T10:58:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2022-10-06T11:05:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2022-10-06T11:53:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-06T16:44:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2022-10-11T08:17:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2022-10-11T08:31:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-10-11T13:34:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-11T13:46:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2022-10-11T14:13:23Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2022-10-12T14:29:20Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-24T17:28:58Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-28T15:35:59Z"
+        },
+        {
+          "commenter": "Lederstrumpf",
+          "commented_at": "2022-10-12T14:29:48Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-12T14:29:56Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2022-10-13T10:13:47Z"
+        }
+      ],
+      "time_to_first_review_hours": 15.081666666666667,
+      "time_to_merge_hours": 448.7536111111111
+    },
+    {
+      "number": 12342,
+      "title": "Pallet staking events to named enum",
+      "state": "MERGED",
+      "created_at": "2022-09-23T17:15:11Z",
+      "closed_at": "2022-09-27T11:44:20Z",
+      "merged_at": "2022-09-27T11:44:20Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12342",
+      "ready_for_review_at": "2022-09-23T17:15:11Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-09-24T06:56:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:13:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:14:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-09-27T11:10:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-09-27T11:12:17Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-24T08:17:01Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-24T08:18:00Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-24T08:18:08Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-24T08:19:30Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-26T20:07:52Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-09-26T20:07:59Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-09-27T11:44:12Z"
+        }
+      ],
+      "time_to_first_review_hours": 13.683333333333334,
+      "time_to_merge_hours": 90.48583333333333
+    },
+    {
+      "number": 12327,
+      "title": "Improved election pallet testing",
+      "state": "MERGED",
+      "created_at": "2022-09-22T11:19:43Z",
+      "closed_at": "2022-10-04T22:16:07Z",
+      "merged_at": "2022-10-04T22:16:07Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12327",
+      "ready_for_review_at": "2022-09-22T11:19:43Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:23:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:24:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:25:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-03T07:42:41Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-10-03T11:46:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-10-03T11:47:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-10-03T11:48:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-04T07:12:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-04T08:00:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-04T10:56:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-04T10:57:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-10-04T11:53:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-10-04T12:15:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-10-04T12:20:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2022-10-04T18:33:08Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-23T13:29:43Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-10-03T10:58:38Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-04T10:58:20Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-10-04T10:58:23Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-04T10:58:37Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-10-04T18:34:02Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-04T18:34:09Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-10-04T22:15:59Z"
+        }
+      ],
+      "time_to_first_review_hours": 45.0625,
+      "time_to_merge_hours": 298.94
+    },
+    {
+      "number": 12303,
+      "title": "Nfts: Feature Flags",
+      "state": "CLOSED",
+      "created_at": "2022-09-20T06:02:06Z",
+      "closed_at": "2022-09-21T12:44:13Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12303",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12282,
+      "title": "Maximum value for `MultiplierUpdate`",
+      "state": "MERGED",
+      "created_at": "2022-09-15T15:58:53Z",
+      "closed_at": "2022-10-06T12:12:52Z",
+      "merged_at": "2022-10-06T12:12:52Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12282",
+      "ready_for_review_at": "2022-09-15T15:58:53Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-15T16:00:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "notlesh",
+          "submitted_at": "2022-09-15T17:17:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "notlesh",
+          "submitted_at": "2022-09-15T17:18:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-16T04:56:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-21T11:12:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-21T11:14:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-21T11:15:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-21T11:15:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-10-06T07:52:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-06T07:53:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-10-06T08:45:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-10-06T08:46:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-10-06T08:53:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-06T09:20:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-10-06T09:36:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-06T10:59:36Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-20T13:09:00Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-20T13:12:19Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-21T18:05:09Z"
+        },
+        {
+          "commenter": "notlesh",
+          "commented_at": "2022-09-30T15:52:50Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-03T07:39:51Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-10-03T07:39:54Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-10-06T12:12:42Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.02722222222222222,
+      "time_to_merge_hours": 500.23305555555555
+    },
+    {
+      "number": 12258,
+      "title": "BREAKING: Rename Origin",
+      "state": "MERGED",
+      "created_at": "2022-09-13T16:58:50Z",
+      "closed_at": "2022-09-20T22:13:09Z",
+      "merged_at": "2022-09-20T22:13:09Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12258",
+      "ready_for_review_at": "2022-09-13T16:58:50Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-16T08:43:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-16T08:44:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-09-20T22:11:59Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-16T09:13:55Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-17T08:38:30Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-20T22:13:00Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-20T22:14:19Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-21T05:42:08Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-21T07:00:48Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-21T07:01:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 63.739444444444445,
+      "time_to_merge_hours": 173.2386111111111
+    },
+    {
+      "number": 12223,
+      "title": "Nfts: Fix Auto-Increment",
+      "state": "MERGED",
+      "created_at": "2022-09-08T17:51:51Z",
+      "closed_at": "2022-09-23T08:37:15Z",
+      "merged_at": "2022-09-23T08:37:15Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12223",
+      "ready_for_review_at": "2022-09-08T17:51:51Z",
+      "reviews": [
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-13T09:17:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-13T12:39:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-14T09:54:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-14T09:57:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-14T15:57:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-14T16:45:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-14T16:47:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-15T08:28:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-15T12:31:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-19T03:19:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-22T11:08:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-23T08:36:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-08T17:59:02Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-10T14:37:00Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-13T13:15:23Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-15T05:23:48Z"
+        },
+        {
+          "commenter": "KiChjang",
+          "commented_at": "2022-09-15T05:24:35Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-15T05:58:12Z"
+        },
+        {
+          "commenter": "KiChjang",
+          "commented_at": "2022-09-23T08:37:08Z"
+        }
+      ],
+      "time_to_first_review_hours": 111.42805555555556,
+      "time_to_merge_hours": 350.75666666666666
+    },
+    {
+      "number": 12178,
+      "title": "Nfts: Multiple approvals",
+      "state": "MERGED",
+      "created_at": "2022-09-03T06:34:53Z",
+      "closed_at": "2022-09-13T13:34:28Z",
+      "merged_at": "2022-09-13T13:34:28Z",
+      "merged_by": "jsidorenko",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12178",
+      "ready_for_review_at": "2022-09-03T06:34:53Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-03T07:21:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-03T17:19:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-06T09:12:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-06T09:20:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-06T15:31:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-07T11:30:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-07T11:41:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-07T11:48:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-07T12:03:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-08T06:46:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-08T08:39:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-08T11:06:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-08T14:02:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-09T09:14:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-09T09:16:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-09T09:17:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-09T09:36:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-09T09:42:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-09T09:49:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-09T09:51:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2022-09-09T09:57:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-09T09:59:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-09T10:01:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-09T10:03:13Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-05T07:46:02Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-05T15:41:00Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-07T07:08:49Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-07T07:08:56Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-07T07:08:58Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-07T07:10:53Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-07T07:12:59Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-07T07:14:21Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-08T09:06:53Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-08T09:06:57Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-08T12:39:11Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-08T14:10:38Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-08T16:22:09Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-09T06:24:37Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-09T15:35:12Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-09T15:35:16Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-09-09T16:04:48Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-12T17:11:47Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-13T13:33:59Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-13T13:34:16Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-13T13:36:55Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-13T13:41:09Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-13T13:41:11Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-13T13:50:07Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-13T13:50:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7686111111111111,
+      "time_to_merge_hours": 246.99305555555554
+    },
+    {
+      "number": 12171,
+      "title": "Multiple approvals",
+      "state": "CLOSED",
+      "created_at": "2022-09-02T12:29:58Z",
+      "closed_at": "2022-09-02T12:30:19Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12171",
+      "ready_for_review_at": "2022-09-02T12:29:58Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12164,
+      "title": "Uniques: Allowing multiple approvals",
+      "state": "CLOSED",
+      "created_at": "2022-09-01T16:09:14Z",
+      "closed_at": "2022-09-05T05:53:50Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12164",
+      "ready_for_review_at": "2022-09-01T16:09:14Z",
+      "reviews": [
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-02T15:29:16Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-02T09:41:15Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-02T09:46:04Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-02T11:41:39Z"
+        },
+        {
+          "commenter": "jsidorenko",
+          "commented_at": "2022-09-02T11:47:48Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-03T07:15:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 23.33388888888889,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12145,
+      "title": "Uniques: Reset approved account after transfer ",
+      "state": "MERGED",
+      "created_at": "2022-08-30T12:46:27Z",
+      "closed_at": "2022-09-01T08:45:21Z",
+      "merged_at": "2022-09-01T08:45:21Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12145",
+      "ready_for_review_at": "2022-08-30T12:46:27Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-30T13:34:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-30T13:34:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-30T13:34:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-08-30T13:37:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-30T13:54:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-30T13:58:22Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-01T08:45:13Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-01T08:45:47Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-01T09:03:35Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-13T08:04:24Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-13T08:04:30Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7930555555555555,
+      "time_to_merge_hours": 43.98166666666667
+    },
+    {
+      "number": 12143,
+      "title": "Uniques: Small fix in docs",
+      "state": "MERGED",
+      "created_at": "2022-08-30T06:27:49Z",
+      "closed_at": "2022-09-06T12:16:29Z",
+      "merged_at": "2022-09-06T12:16:29Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12143",
+      "ready_for_review_at": "2022-08-30T06:27:49Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-08-30T07:13:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-30T07:23:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-08-30T09:00:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-06T12:15:53Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-06T12:16:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7575,
+      "time_to_merge_hours": 173.8111111111111
+    },
+    {
+      "number": 12057,
+      "title": "Uniques: Auto-increment fix",
+      "state": "CLOSED",
+      "created_at": "2022-08-17T10:08:22Z",
+      "closed_at": "2022-09-07T06:24:30Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/12057",
+      "ready_for_review_at": "2022-08-17T10:08:22Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-17T10:09:01Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-17T10:09:31Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-17T11:12:54Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-17T11:12:56Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-17T11:12:59Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-17T11:34:51Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-17T11:34:53Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-17T11:34:56Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-08T17:53:09Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11981,
+      "title": "BREAKING: Rename Call & Event",
+      "state": "MERGED",
+      "created_at": "2022-08-05T06:59:01Z",
+      "closed_at": "2022-09-12T22:03:32Z",
+      "merged_at": "2022-09-12T22:03:32Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/11981",
+      "ready_for_review_at": "2022-08-05T06:59:01Z",
+      "reviews": [
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-06T10:49:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-06T15:48:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-06T15:50:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-13T12:14:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-13T12:25:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-13T12:26:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-15T07:43:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:53:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-19T12:30:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-23T07:56:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-23T07:57:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-23T08:45:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-23T09:45:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-24T05:41:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-24T06:01:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-24T06:14:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-24T06:17:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-27T05:34:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-09-03T22:01:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-04T06:16:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-04T06:16:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-09-04T11:55:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-06T07:28:22Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-06T08:58:05Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-08-08T08:56:39Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-09T14:26:37Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T07:10:35Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T07:10:38Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T07:10:47Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T07:24:26Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T07:48:39Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T08:12:24Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T08:24:22Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T08:37:16Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T08:51:17Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-13T09:13:19Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-14T13:58:43Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-14T14:12:37Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-16T11:05:54Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-19T10:33:44Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-22T16:05:02Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-24T06:40:13Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-24T18:31:38Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-08-27T12:10:42Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-27T12:20:04Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-29T07:03:54Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-06T07:25:24Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-06T07:31:02Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-11T06:57:28Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-12T12:50:47Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-12T15:29:25Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-09-12T21:05:19Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-12T22:00:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-09-12T22:00:38Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-12T22:05:09Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-12T22:05:13Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-13T05:05:31Z"
+        }
+      ],
+      "time_to_first_review_hours": 27.838333333333335,
+      "time_to_merge_hours": 927.0752777777777
+    },
+    {
+      "number": 11943,
+      "title": "New Pallet: Root offences",
+      "state": "MERGED",
+      "created_at": "2022-07-31T06:42:55Z",
+      "closed_at": "2022-09-28T20:04:15Z",
+      "merged_at": "2022-09-28T20:04:15Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/11943",
+      "ready_for_review_at": "2022-07-31T06:42:55Z",
+      "reviews": [
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-13T12:29:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-13T12:45:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:40:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:41:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:41:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:42:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:42:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:43:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:43:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:44:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:45:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-19T14:45:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-20T18:21:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-26T13:38:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-26T13:39:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-26T13:39:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-26T13:40:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-26T13:41:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2022-09-27T13:13:41Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-01T10:10:41Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-15T10:50:02Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-18T15:21:48Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-18T15:21:50Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-18T15:26:51Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-18T15:43:57Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-15T13:26:21Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-26T13:41:39Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-26T14:26:07Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-26T16:43:50Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-26T18:53:07Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-28T15:49:22Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2022-09-28T20:04:07Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-29T10:10:12Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-29T10:10:28Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-29T10:23:11Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-29T10:53:15Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-29T13:27:30Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2022-09-29T14:42:04Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-29T14:42:06Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-29T15:02:19Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-29T15:03:25Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-09-29T15:05:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 317.7763888888889,
+      "time_to_merge_hours": 1429.3555555555556
+    },
+    {
+      "number": 11831,
+      "title": "Rpc for pending rewards",
+      "state": "MERGED",
+      "created_at": "2022-07-13T19:24:56Z",
+      "closed_at": "2022-07-26T09:06:49Z",
+      "merged_at": "2022-07-26T09:06:48Z",
+      "merged_by": "bkchr",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/11831",
+      "ready_for_review_at": "2022-07-13T19:24:56Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-14T08:02:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-14T08:02:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-14T08:02:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-14T08:03:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-14T08:03:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-14T08:04:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-14T08:07:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-15T12:09:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-15T12:09:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-15T12:10:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-15T12:12:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-15T12:14:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-15T12:16:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-15T12:17:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-15T12:18:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-17T15:33:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-17T15:35:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-18T16:40:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-18T16:40:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-19T11:03:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-22T20:43:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-22T20:44:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-23T06:37:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-24T10:39:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-24T10:43:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-24T10:43:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ruseinov",
+          "submitted_at": "2022-07-24T10:50:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-07-25T16:23:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-07-25T22:09:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-25T22:15:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-26T08:17:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-26T08:17:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-26T08:19:53Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-13T19:56:56Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-14T07:19:20Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-07-14T08:04:56Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-14T08:17:16Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-15T09:37:59Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-15T13:33:33Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-07-17T15:36:03Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-07-17T15:36:26Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-17T15:39:41Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-07-25T15:13:36Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-07-25T15:14:44Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-07-25T15:14:49Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-26T07:38:42Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-07-26T08:16:47Z"
+        }
+      ],
+      "time_to_first_review_hours": 12.628333333333334,
+      "time_to_merge_hours": 301.6977777777778
+    },
+    {
+      "number": 11796,
+      "title": "Auto-incremental CollectionId",
+      "state": "MERGED",
+      "created_at": "2022-07-07T06:23:56Z",
+      "closed_at": "2022-07-30T14:09:25Z",
+      "merged_at": "2022-07-30T14:09:25Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/11796",
+      "ready_for_review_at": "2022-07-07T06:23:56Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-11T10:58:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-11T10:59:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-11T11:01:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-11T11:02:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-12T08:27:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-12T08:28:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-12T08:31:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-12T08:34:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-12T10:47:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-12T10:58:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-24T10:29:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-07-25T09:13:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-07-25T13:53:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-30T12:07:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-14T02:00:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-15T07:37:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-15T10:01:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-15T10:12:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-15T10:21:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-17T06:21:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-17T06:52:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-17T08:50:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-17T08:56:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-17T11:31:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-17T11:42:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-17T14:46:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-18T06:39:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-18T07:58:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-18T09:50:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-18T11:25:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-18T13:29:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-18T13:47:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-08-18T14:25:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-18T14:33:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-29T06:59:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-08-29T20:55:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-02T10:27:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-05T13:08:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-06T09:31:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-06T12:07:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-06T13:16:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-06T13:32:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-06T13:34:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-09-07T07:04:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2022-09-07T07:18:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-09-07T08:22:03Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-08T08:03:21Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-11T07:54:48Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-11T08:13:23Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-11T09:08:55Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-11T10:37:56Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-11T11:03:59Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-11T11:10:52Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-11T12:56:48Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-12T08:34:28Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-12T11:05:29Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-13T08:53:22Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-13T08:55:02Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-13T09:00:58Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-13T11:34:36Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-14T19:08:26Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-07-15T08:39:42Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-07-15T08:39:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-07-15T09:08:22Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-17T09:29:51Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-22T19:26:18Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-24T10:27:27Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-24T10:35:20Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-30T10:38:36Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-30T12:10:34Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-07-30T12:10:37Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-30T12:11:11Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-07-30T12:11:18Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-30T12:49:58Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-30T13:25:39Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-07-30T13:25:46Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-30T13:31:31Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-30T13:51:26Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-30T13:51:33Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-07-30T13:51:36Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-07-30T14:09:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 100.5813888888889,
+      "time_to_merge_hours": 559.7580555555555
+    },
+    {
+      "number": 11769,
+      "title": "removed seal_ prefixes",
+      "state": "CLOSED",
+      "created_at": "2022-07-03T13:46:12Z",
+      "closed_at": "2022-07-30T16:00:53Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/11769",
+      "ready_for_review_at": "2022-07-03T13:46:12Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-03T14:41:28Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11767,
+      "title": "nomination-pools: re-bonding unclaimed rewards.",
+      "state": "CLOSED",
+      "created_at": "2022-07-02T12:57:13Z",
+      "closed_at": "2022-08-19T09:48:24Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/11767",
+      "ready_for_review_at": "2022-07-02T12:57:13Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-06T11:08:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-06T11:20:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-23T09:37:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-23T09:39:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-23T09:39:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-23T11:12:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-23T11:25:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-07-26T13:14:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-27T12:03:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-07-27T12:03:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2022-08-11T09:44:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-16T07:50:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-16T07:55:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-16T07:58:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-16T07:59:05Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-05T08:46:28Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-07-06T11:10:58Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-06T11:28:25Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-16T10:43:04Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-23T11:35:57Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-02T11:19:01Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-07T15:06:49Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-08-16T08:20:37Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-08-16T08:47:20Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-08-19T09:48:24Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-08-19T09:48:29Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-08-19T09:48:34Z"
+        }
+      ],
+      "time_to_first_review_hours": 94.195,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11766,
+      "title": "removed evaluation.rs",
+      "state": "MERGED",
+      "created_at": "2022-07-02T08:53:05Z",
+      "closed_at": "2022-07-16T21:38:39Z",
+      "merged_at": "2022-07-16T21:38:39Z",
+      "merged_by": "bkchr",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/substrate/pull/11766",
+      "ready_for_review_at": "2022-07-02T08:53:05Z",
+      "reviews": [
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2022-07-02T10:45:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2022-07-04T11:01:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-07-06T05:07:20Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "davxy",
+          "commented_at": "2022-07-04T11:01:09Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2022-07-08T08:01:25Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.8766666666666667,
+      "time_to_merge_hours": 348.75944444444445
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 13070,
+      "pr_title": "Allow root origin to force transition phases",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/13070"
+    },
+    {
+      "pr_number": 14444,
+      "pr_title": "Expiry time for MultiSig calls",
+      "reviewed_at": "2024-01-30T23:48:58Z",
+      "url": "https://github.com/paritytech/substrate/pull/14444"
+    },
+    {
+      "pr_number": 13949,
+      "pr_title": "Try-state for Referenda pallet",
+      "reviewed_at": "2024-01-30T23:48:46Z",
+      "url": "https://github.com/paritytech/substrate/pull/13949"
+    },
+    {
+      "pr_number": 14343,
+      "pr_title": "try-runtime-cli: `execute-block` & `create-snapshot` tests",
+      "reviewed_at": "2024-01-30T23:48:44Z",
+      "url": "https://github.com/paritytech/substrate/pull/14343"
+    },
+    {
+      "pr_number": 13993,
+      "pr_title": "BREAKING - Try-runtime: Use proper error types",
+      "reviewed_at": "2024-01-30T23:48:37Z",
+      "url": "https://github.com/paritytech/substrate/pull/13993"
+    },
+    {
+      "pr_number": 12549,
+      "pr_title": "Bound elections-phragmen pallet",
+      "reviewed_at": "2023-08-24T13:40:58Z",
+      "url": "https://github.com/paritytech/substrate/pull/12549"
+    },
+    {
+      "pr_number": 13645,
+      "pr_title": "Try-state for Collective pallet",
+      "reviewed_at": "2023-08-24T13:37:03Z",
+      "url": "https://github.com/paritytech/substrate/pull/13645"
+    },
+    {
+      "pr_number": 13486,
+      "pr_title": "Assets pallet: Giving the asset owner the ability to set minimum balance",
+      "reviewed_at": "2023-03-30T10:12:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/13486"
+    },
+    {
+      "pr_number": 13510,
+      "pr_title": "Assets pallet: Don't allow `set_min_balance` when sufficient",
+      "reviewed_at": "2023-03-30T10:12:40Z",
+      "url": "https://github.com/paritytech/substrate/pull/13510"
+    },
+    {
+      "pr_number": 12833,
+      "pr_title": "Glutton pallet",
+      "reviewed_at": "2023-03-09T19:30:22Z",
+      "url": "https://github.com/paritytech/substrate/pull/12833"
+    },
+    {
+      "pr_number": 13083,
+      "pr_title": "Fee and tip represented as asset ID inside `AssetTxFeePaid`",
+      "reviewed_at": "2023-02-24T16:32:16Z",
+      "url": "https://github.com/paritytech/substrate/pull/13083"
+    },
+    {
+      "pr_number": 13036,
+      "pr_title": "Forbid stray tokens in call index",
+      "reviewed_at": "2023-01-02T10:23:34Z",
+      "url": "https://github.com/paritytech/substrate/pull/13036"
+    },
+    {
+      "pr_number": 12451,
+      "pr_title": "New `root_testing` pallet",
+      "reviewed_at": "2022-12-09T12:55:48Z",
+      "url": "https://github.com/paritytech/substrate/pull/12451"
+    },
+    {
+      "pr_number": 12223,
+      "pr_title": "Nfts: Fix Auto-Increment",
+      "reviewed_at": "2022-11-18T15:24:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/12223"
+    },
+    {
+      "pr_number": 12454,
+      "pr_title": "Collective: Benchmark with greater `MaxProposals`",
+      "reviewed_at": "2022-11-14T22:34:30Z",
+      "url": "https://github.com/paritytech/substrate/pull/12454"
+    },
+    {
+      "pr_number": 12368,
+      "pr_title": "Move Throughput into `sc-sysinfo`",
+      "reviewed_at": "2022-11-04T17:13:58Z",
+      "url": "https://github.com/paritytech/substrate/pull/12368"
+    },
+    {
+      "pr_number": 12506,
+      "pr_title": "Utility: add more tests for batch/batchAll/forceBatch",
+      "reviewed_at": "2022-10-28T15:18:09Z",
+      "url": "https://github.com/paritytech/substrate/pull/12506"
+    },
+    {
+      "pr_number": 11767,
+      "pr_title": "nomination-pools: re-bonding unclaimed rewards.",
+      "reviewed_at": "2022-10-13T12:37:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/11767"
+    },
+    {
+      "pr_number": 12345,
+      "pr_title": "pallet-mmr: RPC API and Runtime API work with block numbers",
+      "reviewed_at": "2022-10-13T10:13:57Z",
+      "url": "https://github.com/paritytech/substrate/pull/12345"
+    },
+    {
+      "pr_number": 12282,
+      "pr_title": "Maximum value for `MultiplierUpdate`",
+      "reviewed_at": "2022-10-06T12:12:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/12282"
+    },
+    {
+      "pr_number": 12327,
+      "pr_title": "Improved election pallet testing",
+      "reviewed_at": "2022-10-04T22:16:08Z",
+      "url": "https://github.com/paritytech/substrate/pull/12327"
+    },
+    {
+      "pr_number": 11943,
+      "pr_title": "New Pallet: Root offences",
+      "reviewed_at": "2022-09-29T15:05:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/11943"
+    },
+    {
+      "pr_number": 12178,
+      "pr_title": "Nfts: Multiple approvals",
+      "reviewed_at": "2022-09-27T15:01:33Z",
+      "url": "https://github.com/paritytech/substrate/pull/12178"
+    },
+    {
+      "pr_number": 12145,
+      "pr_title": "Uniques: Reset approved account after transfer ",
+      "reviewed_at": "2022-09-13T08:04:30Z",
+      "url": "https://github.com/paritytech/substrate/pull/12145"
+    },
+    {
+      "pr_number": 11981,
+      "pr_title": "BREAKING: Rename Call & Event",
+      "reviewed_at": "2022-09-13T05:05:31Z",
+      "url": "https://github.com/paritytech/substrate/pull/11981"
+    },
+    {
+      "pr_number": 11796,
+      "pr_title": "Auto-incremental CollectionId",
+      "reviewed_at": "2022-09-07T08:22:03Z",
+      "url": "https://github.com/paritytech/substrate/pull/11796"
+    },
+    {
+      "pr_number": 12143,
+      "pr_title": "Uniques: Small fix in docs",
+      "reviewed_at": "2022-09-06T12:16:29Z",
+      "url": "https://github.com/paritytech/substrate/pull/12143"
+    },
+    {
+      "pr_number": 11908,
+      "pr_title": "make MAX_VOTERS and MAX_CANDIDATES in elections-phragmen configurable. Fix: #11092",
+      "reviewed_at": "2022-08-18T06:57:25Z",
+      "url": "https://github.com/paritytech/substrate/pull/11908"
+    },
+    {
+      "pr_number": 11831,
+      "pr_title": "Rpc for pending rewards",
+      "reviewed_at": "2022-07-26T11:11:50Z",
+      "url": "https://github.com/paritytech/substrate/pull/11831"
+    }
+  ]
+}

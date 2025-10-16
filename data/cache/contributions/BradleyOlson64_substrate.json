@@ -1,0 +1,19 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14649,
+      "pr_title": "pallet-aura: add feature-flagged explicit slot duration type",
+      "reviewed_at": "2024-01-30T23:48:56Z",
+      "url": "https://github.com/paritytech/substrate/pull/14649"
+    },
+    {
+      "pr_number": 14024,
+      "pr_title": "pallet-aura: Allow multiple blocks per slot",
+      "reviewed_at": "2024-01-30T23:48:42Z",
+      "url": "https://github.com/paritytech/substrate/pull/14024"
+    }
+  ]
+}

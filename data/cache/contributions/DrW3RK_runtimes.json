@@ -1,0 +1,29 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 599,
+      "title": "Rename OnDemandAssignmentProvider to OnDemand on Kusama",
+      "state": "OPEN",
+      "created_at": "2025-02-21T11:28:38Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "DrW3RK",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/599",
+      "ready_for_review_at": "2025-02-21T11:28:38Z",
+      "reviews": [
+        {
+          "reviewer": "tdimitrov",
+          "submitted_at": "2025-02-21T16:40:17Z",
+          "state": "CHANGES_REQUESTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 5.194166666666667,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

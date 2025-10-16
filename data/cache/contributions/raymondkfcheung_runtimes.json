@@ -1,0 +1,528 @@
+{
+  "commits": [
+    {
+      "sha": "f67c49b45d71a25f25496ef74921cdbd1a98a55d",
+      "message": "Publish log-enabled runtimes for debugging and `try-runtime` testing (#767)",
+      "date": "2025-08-12T06:26:54Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/f67c49b45d71a25f25496ef74921cdbd1a98a55d"
+    },
+    {
+      "sha": "1668c8651700cfc61fbbdfea8516d0a92728f2d5",
+      "message": "Enable Coretime Integration Tests & Update Changelog for `SetTopic` Changes (#759)",
+      "date": "2025-06-11T08:04:12Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/1668c8651700cfc61fbbdfea8516d0a92728f2d5"
+    }
+  ],
+  "prs": [
+    {
+      "number": 869,
+      "title": "Improve logging runtime packaging and naming",
+      "state": "OPEN",
+      "created_at": "2025-08-27T07:57:09Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "raymondkfcheung",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/869",
+      "ready_for_review_at": "2025-08-27T07:57:09Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-08-27T08:02:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-08-27T08:03:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-08-27T08:03:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-08-27T08:07:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-08-27T20:33:52Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-08-28T11:57:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-09-02T08:13:51Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-05T00:32:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-26T11:30:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:44:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:45:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:45:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:45:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:49:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-26T14:12:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T15:48:58Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-08-30T00:34:39Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-09-26T11:59:51Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08944444444444444,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 767,
+      "title": "Publish log-enabled runtimes for debugging and `try-runtime` testing",
+      "state": "MERGED",
+      "created_at": "2025-06-11T11:59:20Z",
+      "closed_at": "2025-08-12T06:26:55Z",
+      "merged_at": "2025-08-12T06:26:55Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "raymondkfcheung",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/767",
+      "ready_for_review_at": "2025-06-11T11:59:20Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-06-22T21:41:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-27T14:03:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-27T15:23:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-08T09:11:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-08T09:12:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-09T09:05:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-07-09T10:03:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-07-09T14:04:30Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-15T12:31:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-15T13:16:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-15T13:17:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-07-15T13:21:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2025-08-11T21:42:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-26T11:47:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-09-26T11:48:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-26T11:49:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-26T12:20:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-09-26T12:21:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:36:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:51:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-09-26T13:57:08Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-27T15:12:11Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2025-08-11T21:52:17Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-08-12T06:21:23Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-08-12T06:24:27Z"
+        }
+      ],
+      "time_to_first_review_hours": 273.7088888888889,
+      "time_to_merge_hours": 1482.4597222222221
+    },
+    {
+      "number": 759,
+      "title": "Enable Coretime Integration Tests & Update Changelog for `SetTopic` Changes",
+      "state": "MERGED",
+      "created_at": "2025-06-06T14:00:01Z",
+      "closed_at": "2025-06-11T08:04:12Z",
+      "merged_at": "2025-06-11T08:04:12Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "raymondkfcheung",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/759",
+      "ready_for_review_at": "2025-06-06T14:00:01Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-06T14:03:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-09T07:28:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-06-09T08:43:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-09T09:23:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-09T09:43:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-09T10:19:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-09T12:05:12Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-09T12:49:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-09T13:06:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-09T14:17:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-09T14:19:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-09T15:57:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-06-10T10:13:19Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-06-10T10:22:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-10T11:48:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-10T11:48:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-06-10T12:20:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-10T12:38:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-11T05:04:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2025-06-11T07:30:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-11T08:01:59Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-06-06T15:25:22Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-06-10T07:01:51Z"
+        },
+        {
+          "commenter": "raymondkfcheung",
+          "commented_at": "2025-06-10T09:00:12Z"
+        },
+        {
+          "commenter": "acatangiu",
+          "commented_at": "2025-06-11T08:02:14Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-06-11T08:04:13Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.055,
+      "time_to_merge_hours": 114.06972222222223
+    },
+    {
+      "number": 739,
+      "title": "Ensure Consistent Topic IDs for Traceable Cross-Chain XCM",
+      "state": "CLOSED",
+      "created_at": "2025-05-22T13:52:48Z",
+      "closed_at": "2025-06-06T14:01:23Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "raymondkfcheung",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/739",
+      "ready_for_review_at": "2025-05-22T13:52:48Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-06-06T13:36:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-06-06T13:54:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-06-10T08:41:17Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "raymondkfcheung",
+          "commented_at": "2025-05-23T09:19:23Z"
+        },
+        {
+          "commenter": "raymondkfcheung",
+          "commented_at": "2025-06-06T14:01:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 359.7269444444444,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 944,
+      "pr_title": "[Encointer] fix treasury asset payment",
+      "reviewed_at": "2025-10-06T14:31:04Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/944"
+    },
+    {
+      "pr_number": 869,
+      "pr_title": "Improve logging runtime packaging and naming",
+      "reviewed_at": "2025-09-26T15:48:58Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/869"
+    },
+    {
+      "pr_number": 767,
+      "pr_title": "Publish log-enabled runtimes for debugging and `try-runtime` testing",
+      "reviewed_at": "2025-09-26T13:57:08Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/767"
+    },
+    {
+      "pr_number": 796,
+      "pr_title": "Snowbridge V2 Pallets",
+      "reviewed_at": "2025-08-18T09:40:06Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/796"
+    },
+    {
+      "pr_number": 799,
+      "pr_title": "Integrate \"Empowered XCM Origins\" features to System Chains",
+      "reviewed_at": "2025-07-30T16:49:43Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/799"
+    },
+    {
+      "pr_number": 729,
+      "pr_title": "Add balance to StakingPot accounts for benchmarks for all system parachains",
+      "reviewed_at": "2025-06-19T09:54:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/729"
+    },
+    {
+      "pr_number": 759,
+      "pr_title": "Enable Coretime Integration Tests & Update Changelog for `SetTopic` Changes",
+      "reviewed_at": "2025-06-11T08:41:06Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/759"
+    },
+    {
+      "pr_number": 739,
+      "pr_title": "Ensure Consistent Topic IDs for Traceable Cross-Chain XCM",
+      "reviewed_at": "2025-06-10T08:41:17Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/739"
+    },
+    {
+      "pr_number": 711,
+      "pr_title": "Bump to `stable2503`",
+      "reviewed_at": "2025-06-05T14:53:11Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/711"
+    },
+    {
+      "pr_number": 700,
+      "pr_title": "Enable ExchangeAsset in asset hubs",
+      "reviewed_at": "2025-05-05T09:42:53Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/700"
+    },
+    {
+      "pr_number": 625,
+      "pr_title": "Snowbridge - Integration test for 2-hop transfer from Ethereum to AHP to AHK",
+      "reviewed_at": "2025-05-02T11:11:35Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/625"
+    },
+    {
+      "pr_number": 623,
+      "pr_title": "Bump to stable2409-6",
+      "reviewed_at": "2025-04-07T13:38:20Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/623"
+    },
+    {
+      "pr_number": 607,
+      "pr_title": "[AHM] Migrating DOT total issuance tracking from RC to AH",
+      "reviewed_at": "2025-04-03T13:56:02Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/607"
+    }
+  ]
+}

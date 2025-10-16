@@ -1,0 +1,240 @@
+{
+  "commits": [
+    {
+      "sha": "f9fdee10ef4b37dd820406491bb526d3c470e823",
+      "message": "Removing without_storage_info from scored-pool pallet. (#11996)",
+      "date": "2022-09-08T15:57:42Z",
+      "url": "https://github.com/paritytech/substrate/commit/f9fdee10ef4b37dd820406491bb526d3c470e823"
+    }
+  ],
+  "prs": [
+    {
+      "number": 11996,
+      "title": "Removing without_storage_info from scored-pool pallet.",
+      "state": "MERGED",
+      "created_at": "2022-08-09T07:38:37Z",
+      "closed_at": "2022-09-08T15:57:43Z",
+      "merged_at": "2022-09-08T15:57:43Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "hbulgarini",
+      "url": "https://github.com/paritytech/substrate/pull/11996",
+      "ready_for_review_at": "2022-08-09T07:38:37Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-09T11:57:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-09T12:49:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-09T14:05:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-09T15:13:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-09T16:52:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-12T14:22:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-12T14:23:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-12T14:24:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-12T15:37:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-12T18:14:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-12T18:15:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-12T18:16:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-15T16:52:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-15T16:53:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-08-15T17:42:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-15T19:22:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-15T19:23:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-08-19T09:50:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-19T11:55:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-09-08T09:39:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "hbulgarini",
+          "submitted_at": "2022-09-08T09:39:33Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-08-09T10:01:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-08-09T10:01:41Z"
+        },
+        {
+          "commenter": "hbulgarini",
+          "commented_at": "2022-08-09T12:52:16Z"
+        },
+        {
+          "commenter": "hbulgarini",
+          "commented_at": "2022-08-12T14:37:01Z"
+        },
+        {
+          "commenter": "hbulgarini",
+          "commented_at": "2022-08-15T18:05:49Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-08-15T19:24:44Z"
+        },
+        {
+          "commenter": "hbulgarini",
+          "commented_at": "2022-09-08T10:22:28Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-08T11:54:34Z"
+        },
+        {
+          "commenter": "hbulgarini",
+          "commented_at": "2022-09-08T15:48:44Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-08T15:57:34Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.320833333333334,
+      "time_to_merge_hours": 728.3183333333334
+    },
+    {
+      "number": 11899,
+      "title": "Fixing conflict for PR 11596",
+      "state": "MERGED",
+      "created_at": "2022-07-24T17:29:00Z",
+      "closed_at": "2022-07-24T17:29:38Z",
+      "merged_at": "2022-07-24T17:29:38Z",
+      "merged_by": "shawntabrizi",
+      "author": "hbulgarini",
+      "url": "https://github.com/paritytech/substrate/pull/11899",
+      "ready_for_review_at": "2022-07-24T17:29:00Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-07-24T17:29:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.009166666666666667,
+      "time_to_merge_hours": 0.010555555555555556
+    },
+    {
+      "number": 11898,
+      "title": "Fixing conflicts for branch related to PR 11596",
+      "state": "MERGED",
+      "created_at": "2022-07-24T16:32:36Z",
+      "closed_at": "2022-07-24T16:33:32Z",
+      "merged_at": "2022-07-24T16:33:32Z",
+      "merged_by": "shawntabrizi",
+      "author": "hbulgarini",
+      "url": "https://github.com/paritytech/substrate/pull/11898",
+      "ready_for_review_at": "2022-07-24T16:32:36Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": 0.015555555555555555
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 12565,
+      "pr_title": "NFTs fractionalization",
+      "reviewed_at": "2024-01-30T23:48:29Z",
+      "url": "https://github.com/paritytech/substrate/pull/12565"
+    },
+    {
+      "pr_number": 13008,
+      "pr_title": "Refactor nft fractionalisation pallet",
+      "reviewed_at": "2023-01-27T10:52:34Z",
+      "url": "https://github.com/paritytech/substrate/pull/13008"
+    },
+    {
+      "pr_number": 11996,
+      "pr_title": "Removing without_storage_info from scored-pool pallet.",
+      "reviewed_at": "2022-09-08T15:57:44Z",
+      "url": "https://github.com/paritytech/substrate/pull/11996"
+    },
+    {
+      "pr_number": 11998,
+      "pr_title": "Add `BoundedVec::sort_by_key`",
+      "reviewed_at": "2022-08-10T08:39:25Z",
+      "url": "https://github.com/paritytech/substrate/pull/11998"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "commits": [
+    {
+      "sha": "46127a9aacdc719c53f1129a92b9e7737a0f55ad",
+      "message": "Add remove_proxies API for pallet-proxies #7557 (#12714)",
+      "date": "2023-05-26T07:48:32Z",
+      "url": "https://github.com/paritytech/substrate/commit/46127a9aacdc719c53f1129a92b9e7737a0f55ad"
+    }
+  ],
+  "prs": [
+    {
+      "number": 12714,
+      "title": "Add remove_proxies API for pallet-proxies #7557",
+      "state": "MERGED",
+      "created_at": "2022-11-16T06:48:15Z",
+      "closed_at": "2023-05-26T07:48:32Z",
+      "merged_at": "2023-05-26T07:48:32Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "vjgaur",
+      "url": "https://github.com/paritytech/substrate/pull/12714",
+      "ready_for_review_at": "2022-11-16T06:48:15Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-11-29T21:10:59Z",
+          "state": "DISMISSED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2022-12-05T19:45:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2022-12-05T19:49:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-12-07T07:00:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-12-07T07:01:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2022-12-07T11:01:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-12-07T15:14:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2022-12-08T11:02:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2022-12-14T07:10:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-12-14T08:30:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2022-12-14T08:31:38Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-02-15T18:17:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-02-15T18:18:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-02-18T15:05:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-02-18T17:37:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-02-21T01:34:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-02-21T01:37:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-02-21T01:52:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-02-21T01:53:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-02-28T07:47:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-02-28T07:49:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-02-28T07:49:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-03-01T00:14:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-03-01T01:15:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-03-02T06:40:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-03-02T10:02:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-03-02T12:16:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-03-03T07:16:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-03-03T07:30:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-03-03T09:03:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-03-03T09:24:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-03-03T09:25:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-03-03T15:52:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-03-03T21:42:48Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-03-21T06:00:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-04-15T15:28:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-23T09:14:54Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-05-23T11:50:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-23T12:36:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "vjgaur",
+          "submitted_at": "2023-05-23T13:02:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-23T13:18:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-23T13:19:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-26T07:40:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2022-11-16T06:48:21Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-01-13T10:18:59Z"
+        },
+        {
+          "commenter": "vjgaur",
+          "commented_at": "2023-01-15T17:47:29Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-02-14T18:33:31Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-05-15T16:14:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-23T13:20:34Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-23T13:20:42Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-23T13:22:32Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-23T13:23:08Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-23T13:26:15Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-23T13:26:30Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-05-26T07:41:51Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-26T07:48:22Z"
+        }
+      ],
+      "time_to_first_review_hours": 326.37888888888887,
+      "time_to_merge_hours": 4585.004722222222
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 12714,
+      "pr_title": "Add remove_proxies API for pallet-proxies #7557",
+      "reviewed_at": "2024-01-30T23:48:32Z",
+      "url": "https://github.com/paritytech/substrate/pull/12714"
+    }
+  ]
+}

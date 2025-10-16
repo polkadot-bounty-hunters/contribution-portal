@@ -1,0 +1,184 @@
+{
+  "commits": [
+    {
+      "sha": "b9b1bbb7cc0fc184ea8881ddaa7e92b91baa1925",
+      "message": "changes to nfts pallet for xcm integration (#14395)",
+      "date": "2023-07-25T08:02:39Z",
+      "url": "https://github.com/paritytech/substrate/commit/b9b1bbb7cc0fc184ea8881ddaa7e92b91baa1925"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14395,
+      "title": "changes to nfts pallet for xcm integration",
+      "state": "MERGED",
+      "created_at": "2023-06-15T14:17:20Z",
+      "closed_at": "2023-07-25T08:02:40Z",
+      "merged_at": "2023-07-25T08:02:40Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "vstam1",
+      "url": "https://github.com/paritytech/substrate/pull/14395",
+      "ready_for_review_at": "2023-06-15T14:17:20Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2023-06-16T15:46:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-19T12:23:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-20T08:46:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-06-21T08:17:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-06-21T12:36:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "jsidorenko",
+          "submitted_at": "2023-06-21T12:39:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-06-21T12:40:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:49:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-22T12:50:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-06-23T16:09:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-06-23T16:12:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sacha-l",
+          "submitted_at": "2023-07-03T17:33:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sacha-l",
+          "submitted_at": "2023-07-03T17:39:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-07-04T17:01:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-07-04T17:02:12Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-07-04T17:06:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-07-04T17:10:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "vstam1",
+          "submitted_at": "2023-07-11T08:29:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-07-21T09:01:26Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "vstam1",
+          "commented_at": "2023-06-21T10:45:15Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-21T10:45:25Z"
+        },
+        {
+          "commenter": "vstam1",
+          "commented_at": "2023-07-24T13:14:01Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-24T13:14:09Z"
+        },
+        {
+          "commenter": "vstam1",
+          "commented_at": "2023-07-25T08:02:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 25.480555555555554,
+      "time_to_merge_hours": 953.7555555555556
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14726,
+      "pr_title": "[asset-conversion] nits: removed unnecessary pool_id.clone()",
+      "reviewed_at": "2024-01-30T23:48:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/14726"
+    },
+    {
+      "pr_number": 14395,
+      "pr_title": "changes to nfts pallet for xcm integration",
+      "reviewed_at": "2024-01-30T23:48:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/14395"
+    },
+    {
+      "pr_number": 14367,
+      "pr_title": "Use Incrementable from frame_support::traits",
+      "reviewed_at": "2024-01-30T23:48:43Z",
+      "url": "https://github.com/paritytech/substrate/pull/14367"
+    },
+    {
+      "pr_number": 13933,
+      "pr_title": "Baseline weights VM runners",
+      "reviewed_at": "2024-01-30T23:48:42Z",
+      "url": "https://github.com/paritytech/substrate/pull/13933"
+    },
+    {
+      "pr_number": 13454,
+      "pr_title": "[FRAME Core] Default Pallet Config Trait / derive_impl",
+      "reviewed_at": "2024-01-30T23:48:37Z",
+      "url": "https://github.com/paritytech/substrate/pull/13454"
+    },
+    {
+      "pr_number": 14144,
+      "pr_title": "Actually respect locks of zero",
+      "reviewed_at": "2024-01-30T23:48:28Z",
+      "url": "https://github.com/paritytech/substrate/pull/14144"
+    }
+  ]
+}

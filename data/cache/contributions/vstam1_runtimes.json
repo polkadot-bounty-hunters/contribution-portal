@@ -1,0 +1,25 @@
+{
+  "commits": [
+    {
+      "sha": "d84b2fb871c709ff9e4144156452972eff6c9ccf",
+      "message": "companion for xcm alias origin (#2680)",
+      "date": "2023-06-05T16:07:02Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/d84b2fb871c709ff9e4144156452972eff6c9ccf"
+    },
+    {
+      "sha": "12f633d3025e81e64633dad41f5c5f19e7837914",
+      "message": "Companion for polkadot#6928 (#2356)",
+      "date": "2023-03-23T10:36:03Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/12f633d3025e81e64633dad41f5c5f19e7837914"
+    },
+    {
+      "sha": "3ae1f8cfe13de8b37aa3e99eaceed21e485b7802",
+      "message": "Vstam1/xcm admin origin (#6928)",
+      "date": "2023-03-23T09:58:12Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/3ae1f8cfe13de8b37aa3e99eaceed21e485b7802"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

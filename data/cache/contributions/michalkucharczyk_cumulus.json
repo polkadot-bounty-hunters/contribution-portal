@@ -1,0 +1,1262 @@
+{
+  "commits": [
+    {
+      "sha": "26d725762c08b2b31fe40ae0ca0c16969f91ee2b",
+      "message": "`GenesisBuild<T,I>` deprecated. `BuildGenesisConfig` added (#2757)",
+      "date": "2023-07-12T12:00:17Z",
+      "url": "https://github.com/paritytech/cumulus/commit/26d725762c08b2b31fe40ae0ca0c16969f91ee2b"
+    },
+    {
+      "sha": "3d7604e1a1ad52c74dfbfce0962a49e7dccbd131",
+      "message": "doc fix (#2676)",
+      "date": "2023-06-01T23:23:50Z",
+      "url": "https://github.com/paritytech/cumulus/commit/3d7604e1a1ad52c74dfbfce0962a49e7dccbd131"
+    },
+    {
+      "sha": "d6e426927fb1a32bb4e26e49f8194432c72d45e9",
+      "message": "Serialize/Deserialize trait implemented in no-std for numerous types (#2660)",
+      "date": "2023-06-01T16:50:24Z",
+      "url": "https://github.com/paritytech/cumulus/commit/d6e426927fb1a32bb4e26e49f8194432c72d45e9"
+    },
+    {
+      "sha": "41cc2a752c9cc81b2852002225d2043cdb1a2fa5",
+      "message": "pallets: implement `Default` for `GenesisConfig` in `no_std` (#2624)",
+      "date": "2023-05-25T23:03:13Z",
+      "url": "https://github.com/paritytech/cumulus/commit/41cc2a752c9cc81b2852002225d2043cdb1a2fa5"
+    },
+    {
+      "sha": "e23a0f2dfbeda62b96c1bd88d83126e0d5770f9c",
+      "message": "`BlockId` removal: `BlockBuilderProvider::new_block_at` (#2219)",
+      "date": "2023-02-21T20:28:52Z",
+      "url": "https://github.com/paritytech/cumulus/commit/e23a0f2dfbeda62b96c1bd88d83126e0d5770f9c"
+    },
+    {
+      "sha": "5b42b5fdfaeb3743b2e736dd500fc3ce403b745c",
+      "message": "`BlockId` removal: refactor of runtime API (#2190)",
+      "date": "2023-02-21T00:23:46Z",
+      "url": "https://github.com/paritytech/cumulus/commit/5b42b5fdfaeb3743b2e736dd500fc3ce403b745c"
+    },
+    {
+      "sha": "c1af8fc100b482c8812a93b49d0bb417fe04822c",
+      "message": "nix upgrade to 0.26.1 (#2135)",
+      "date": "2023-01-26T12:47:17Z",
+      "url": "https://github.com/paritytech/cumulus/commit/c1af8fc100b482c8812a93b49d0bb417fe04822c"
+    },
+    {
+      "sha": "37aa2a8c5d84ce4bc8d7f4d47451cb3fcf2b8ae4",
+      "message": "BlockId removal: refactor: BlockBackend::block|block_status (#2041)",
+      "date": "2023-01-02T12:32:51Z",
+      "url": "https://github.com/paritytech/cumulus/commit/37aa2a8c5d84ce4bc8d7f4d47451cb3fcf2b8ae4"
+    },
+    {
+      "sha": "2de0d08e23c10682eac99136b95e0b6ab4124708",
+      "message": "BlockId removal: refactor: HeaderBackend::status (#2007)",
+      "date": "2022-12-21T11:52:40Z",
+      "url": "https://github.com/paritytech/cumulus/commit/2de0d08e23c10682eac99136b95e0b6ab4124708"
+    },
+    {
+      "sha": "b7dff85939ee4bc56f97757424f34b692ab141c6",
+      "message": "BlockId removal: refactor: HeaderBackend::header (#1977)",
+      "date": "2022-12-20T12:46:44Z",
+      "url": "https://github.com/paritytech/cumulus/commit/b7dff85939ee4bc56f97757424f34b692ab141c6"
+    },
+    {
+      "sha": "244ad855065e107bfaf2bb19d8ec550d02c8875e",
+      "message": "BlockId removal: &Hash to Hash (#1818)",
+      "date": "2022-11-07T22:48:44Z",
+      "url": "https://github.com/paritytech/cumulus/commit/244ad855065e107bfaf2bb19d8ec550d02c8875e"
+    },
+    {
+      "sha": "3bacf9c464a5afa818d1094f2895e34022e3e570",
+      "message": "Cargo.lock updated (#1824)",
+      "date": "2022-11-07T19:07:55Z",
+      "url": "https://github.com/paritytech/cumulus/commit/3bacf9c464a5afa818d1094f2895e34022e3e570"
+    },
+    {
+      "sha": "304ce594a5f76f1257596989d3f6c80af9923f9c",
+      "message": "BlockId removal: refactor: Finalizer (#1779)",
+      "date": "2022-10-20T15:21:40Z",
+      "url": "https://github.com/paritytech/cumulus/commit/304ce594a5f76f1257596989d3f6c80af9923f9c"
+    },
+    {
+      "sha": "5e63a1dce7d7016fb78e1e53e3388a386ba64922",
+      "message": "BlockId removal: refactor: StorageProvider (#1770)",
+      "date": "2022-10-18T14:34:14Z",
+      "url": "https://github.com/paritytech/cumulus/commit/5e63a1dce7d7016fb78e1e53e3388a386ba64922"
+    },
+    {
+      "sha": "25811e427d51190178e7c1535ff64aa8a734445b",
+      "message": "BlockId removal refactor: Backend::state_at (#1760)",
+      "date": "2022-10-14T11:01:29Z",
+      "url": "https://github.com/paritytech/cumulus/commit/25811e427d51190178e7c1535ff64aa8a734445b"
+    }
+  ],
+  "prs": [
+    {
+      "number": 2936,
+      "title": "`chain-spec`: support for `json` config/patch (and `GenesisBuilder` API)",
+      "state": "OPEN",
+      "created_at": "2023-07-25T13:14:29Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2936",
+      "ready_for_review_at": "2023-07-25T13:14:29Z",
+      "reviews": [
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-07-27T20:36:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-08-01T10:46:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-08-01T13:40:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-08-02T18:31:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-08-02T18:33:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-08-03T05:46:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2023-08-03T09:32:19Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-07-25T14:08:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-25T14:08:33Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-08-01T06:54:05Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-01T06:54:11Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-08-02T18:37:10Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-02T18:37:17Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-03T09:34:02Z"
+        }
+      ],
+      "time_to_first_review_hours": 55.37083333333333,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2757,
+      "title": "`GenesisBuild<T,I>` deprecated. `BuildGenesisConfig` added",
+      "state": "MERGED",
+      "created_at": "2023-06-19T13:50:13Z",
+      "closed_at": "2023-07-12T12:00:18Z",
+      "merged_at": "2023-07-12T12:00:18Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2757",
+      "ready_for_review_at": "2023-06-19T13:50:13Z",
+      "reviews": [
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2023-06-19T14:06:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-19T16:28:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-19T16:30:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-19T19:27:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2023-06-20T09:57:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-20T13:55:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2023-06-26T16:00:18Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "andresilva",
+          "submitted_at": "2023-07-12T09:28:20Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "gilescope",
+          "commented_at": "2023-06-19T16:32:04Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-06-20T13:45:42Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-20T13:45:47Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-20T13:47:06Z"
+        },
+        {
+          "commenter": "andresilva",
+          "commented_at": "2023-07-12T09:48:29Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-12T10:22:40Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-12T11:04:38Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-12T11:10:17Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-07-12T11:56:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-12T11:56:42Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2738888888888889,
+      "time_to_merge_hours": 550.1680555555556
+    },
+    {
+      "number": 2720,
+      "title": "GenesisBuild split to GenesisBuildStorage",
+      "state": "CLOSED",
+      "created_at": "2023-06-09T07:29:07Z",
+      "closed_at": "2023-06-16T20:37:14Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2720",
+      "ready_for_review_at": "2023-06-09T07:29:07Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-06-09T07:36:33Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2676,
+      "title": "doc fix",
+      "state": "MERGED",
+      "created_at": "2023-06-01T19:55:23Z",
+      "closed_at": "2023-06-01T23:23:51Z",
+      "merged_at": "2023-06-01T23:23:51Z",
+      "merged_by": "bkchr",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2676",
+      "ready_for_review_at": "2023-06-01T19:55:23Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-01T20:00:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "altonen",
+          "submitted_at": "2023-06-01T20:12:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-01T23:22:43Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-06-01T19:58:54Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08305555555555555,
+      "time_to_merge_hours": 3.4744444444444444
+    },
+    {
+      "number": 2660,
+      "title": "Serialize/Deserialize trait implemented in no-std for numerous types",
+      "state": "MERGED",
+      "created_at": "2023-05-31T12:26:42Z",
+      "closed_at": "2023-06-01T16:50:25Z",
+      "merged_at": "2023-06-01T16:50:24Z",
+      "merged_by": "niklasad1",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2660",
+      "ready_for_review_at": "2023-05-31T12:26:42Z",
+      "reviews": [
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2023-05-31T16:51:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2023-05-31T16:59:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2023-05-31T16:59:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "melekes",
+          "submitted_at": "2023-06-01T12:24:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "serban300",
+          "submitted_at": "2023-06-01T12:30:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-05-31T15:12:39Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-01T15:38:43Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-06-01T15:46:38Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-01T15:46:42Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-01T15:47:07Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-01T16:18:31Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-01T16:25:29Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.4191666666666665,
+      "time_to_merge_hours": 28.395
+    },
+    {
+      "number": 2639,
+      "title": "update Cargo.lock + fix build",
+      "state": "CLOSED",
+      "created_at": "2023-05-25T11:54:37Z",
+      "closed_at": "2023-05-25T11:59:58Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2639",
+      "ready_for_review_at": "2023-05-25T11:54:37Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-05-25T12:02:34Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2624,
+      "title": "pallets: implement `Default` for `GenesisConfig` in `no_std`",
+      "state": "MERGED",
+      "created_at": "2023-05-23T14:17:44Z",
+      "closed_at": "2023-05-25T23:03:14Z",
+      "merged_at": "2023-05-25T23:03:14Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2624",
+      "ready_for_review_at": "2023-05-23T14:17:44Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-23T16:27:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-05-23T17:35:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-23T18:22:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-23T18:24:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-24T05:35:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2023-05-25T09:20:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-05-23T15:02:52Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-05-23T15:04:42Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-05-25T09:21:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-25T09:21:19Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-05-25T20:59:05Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-25T20:59:10Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-25T22:26:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.1544444444444446,
+      "time_to_merge_hours": 56.75833333333333
+    },
+    {
+      "number": 2219,
+      "title": "`BlockId` removal: `BlockBuilderProvider::new_block_at`",
+      "state": "MERGED",
+      "created_at": "2023-02-21T13:49:30Z",
+      "closed_at": "2023-02-21T20:28:53Z",
+      "merged_at": "2023-02-21T20:28:53Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2219",
+      "ready_for_review_at": "2023-02-21T13:49:30Z",
+      "reviews": [
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2023-02-21T16:58:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-21T18:33:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2023-02-21T20:16:46Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-21T18:36:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-21T19:27:10Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-21T19:35:06Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-02-21T19:51:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-21T19:51:30Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.1527777777777777,
+      "time_to_merge_hours": 6.6563888888888885
+    },
+    {
+      "number": 2190,
+      "title": "`BlockId` removal: refactor of runtime API",
+      "state": "MERGED",
+      "created_at": "2023-02-15T15:35:41Z",
+      "closed_at": "2023-02-21T00:23:47Z",
+      "merged_at": "2023-02-21T00:23:47Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2190",
+      "ready_for_review_at": "2023-02-15T15:35:41Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-02-15T22:32:28Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "melekes",
+          "submitted_at": "2023-02-16T07:58:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2023-02-20T12:33:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-02-20T11:40:53Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-20T11:40:59Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-20T22:47:47Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-20T23:44:43Z"
+        }
+      ],
+      "time_to_first_review_hours": 6.9463888888888885,
+      "time_to_merge_hours": 128.80166666666668
+    },
+    {
+      "number": 2135,
+      "title": "nix upgrade to 0.26.1",
+      "state": "MERGED",
+      "created_at": "2023-01-24T13:45:08Z",
+      "closed_at": "2023-01-26T12:47:18Z",
+      "merged_at": "2023-01-26T12:47:18Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2135",
+      "ready_for_review_at": "2023-01-24T13:45:08Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-24T15:42:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kpp",
+          "submitted_at": "2023-01-25T10:13:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-01-26T12:47:10Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.9508333333333334,
+      "time_to_merge_hours": 47.03611111111111
+    },
+    {
+      "number": 2041,
+      "title": "BlockId removal: refactor: BlockBackend::block|block_status",
+      "state": "MERGED",
+      "created_at": "2022-12-23T15:57:28Z",
+      "closed_at": "2023-01-02T12:32:52Z",
+      "merged_at": "2023-01-02T12:32:52Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2041",
+      "ready_for_review_at": "2022-12-23T15:57:28Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-12-23T20:47:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2023-01-02T09:25:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "melekes",
+          "submitted_at": "2023-01-02T10:11:36Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2023-01-02T08:26:59Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-02T08:27:09Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-02T09:42:32Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-02T11:56:43Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.837777777777778,
+      "time_to_merge_hours": 236.59
+    },
+    {
+      "number": 2007,
+      "title": "BlockId removal: refactor: HeaderBackend::status",
+      "state": "MERGED",
+      "created_at": "2022-12-20T15:31:24Z",
+      "closed_at": "2022-12-21T11:52:40Z",
+      "merged_at": "2022-12-21T11:52:40Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/2007",
+      "ready_for_review_at": "2022-12-20T15:31:24Z",
+      "reviews": [
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2022-12-20T16:33:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-12-20T19:05:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-12-21T09:27:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2022-12-21T10:27:03Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-21T09:34:29Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-21T09:34:35Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-21T10:25:41Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-21T11:16:15Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.0338888888888889,
+      "time_to_merge_hours": 20.354444444444443
+    },
+    {
+      "number": 1977,
+      "title": "BlockId removal: refactor: HeaderBackend::header",
+      "state": "MERGED",
+      "created_at": "2022-12-09T16:57:55Z",
+      "closed_at": "2022-12-20T12:46:44Z",
+      "merged_at": "2022-12-20T12:46:44Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/1977",
+      "ready_for_review_at": "2022-12-09T16:57:55Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-12-09T19:52:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2022-12-11T07:45:09Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-13T09:53:42Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-13T09:53:48Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-15T11:46:03Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-15T11:46:09Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-19T09:58:44Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-19T09:58:47Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-20T08:43:55Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-20T08:43:59Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-20T09:24:53Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-20T09:24:59Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-20T09:44:06Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-20T11:00:29Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-20T11:06:07Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-20T11:28:45Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-20T12:09:45Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-20T12:09:50Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-12-20T12:10:00Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-12-20T12:10:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.9025,
+      "time_to_merge_hours": 259.81361111111113
+    },
+    {
+      "number": 1824,
+      "title": "Cargo.lock updated",
+      "state": "MERGED",
+      "created_at": "2022-11-07T18:14:09Z",
+      "closed_at": "2022-11-07T19:07:56Z",
+      "merged_at": "2022-11-07T19:07:56Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/1824",
+      "ready_for_review_at": "2022-11-07T18:14:09Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-07T18:19:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2022-11-07T18:32:14Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-11-07T19:07:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08166666666666667,
+      "time_to_merge_hours": 0.8963888888888889
+    },
+    {
+      "number": 1818,
+      "title": "BlockId removal: &Hash to Hash",
+      "state": "MERGED",
+      "created_at": "2022-11-07T11:11:34Z",
+      "closed_at": "2022-11-07T22:48:45Z",
+      "merged_at": "2022-11-07T22:48:45Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/1818",
+      "ready_for_review_at": "2022-11-07T11:11:34Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-11-07T11:16:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-07T11:53:18Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-11-07T21:42:51Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-11-07T22:21:35Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.07972222222222222,
+      "time_to_merge_hours": 11.619722222222222
+    },
+    {
+      "number": 1779,
+      "title": "BlockId removal: refactor: Finalizer",
+      "state": "MERGED",
+      "created_at": "2022-10-19T10:30:07Z",
+      "closed_at": "2022-10-20T15:21:40Z",
+      "merged_at": "2022-10-20T15:21:40Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/1779",
+      "ready_for_review_at": "2022-10-19T10:30:07Z",
+      "reviews": [
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2022-10-19T15:26:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2022-10-19T16:21:17Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-19T19:45:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T06:44:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T10:07:47Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-10-20T13:22:01Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-10-20T13:27:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T13:27:19Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T13:36:11Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-10-20T14:57:22Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T14:57:28Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2022-10-20T14:58:29Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-20T14:58:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.943611111111111,
+      "time_to_merge_hours": 28.859166666666667
+    },
+    {
+      "number": 1770,
+      "title": "BlockId removal: refactor: StorageProvider",
+      "state": "MERGED",
+      "created_at": "2022-10-17T11:14:08Z",
+      "closed_at": "2022-10-18T14:34:14Z",
+      "merged_at": "2022-10-18T14:34:14Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/1770",
+      "ready_for_review_at": "2022-10-17T11:14:08Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-18T08:19:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "altonen",
+          "submitted_at": "2022-10-18T09:08:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2022-10-18T09:10:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2022-10-18T09:29:21Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-18T12:52:52Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-18T14:02:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 21.095833333333335,
+      "time_to_merge_hours": 27.335
+    },
+    {
+      "number": 1760,
+      "title": "BlockId removal refactor: Backend::state_at",
+      "state": "MERGED",
+      "created_at": "2022-10-13T14:27:30Z",
+      "closed_at": "2022-10-14T11:01:30Z",
+      "merged_at": "2022-10-14T11:01:30Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/1760",
+      "ready_for_review_at": "2022-10-13T14:27:30Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-13T15:13:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2022-10-13T16:36:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-14T09:28:04Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-10-14T10:37:37Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7686111111111111,
+      "time_to_merge_hours": 20.566666666666666
+    },
+    {
+      "number": 1609,
+      "title": "Remove CanAuthorWith trait",
+      "state": "CLOSED",
+      "created_at": "2022-09-09T07:40:11Z",
+      "closed_at": "2022-09-14T07:59:05Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/cumulus/pull/1609",
+      "ready_for_review_at": "2022-09-09T07:40:11Z",
+      "reviews": [
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2022-09-12T16:30:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2022-09-13T07:31:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "davxy",
+          "submitted_at": "2022-09-13T08:40:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-09-13T12:13:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-09-13T12:19:47Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-09-13T13:38:45Z"
+        },
+        {
+          "commenter": "KiChjang",
+          "commented_at": "2022-09-13T16:09:47Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-09-13T16:09:54Z"
+        }
+      ],
+      "time_to_first_review_hours": 80.84333333333333,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 2936,
+      "pr_title": "`chain-spec`: support for `json` config/patch (and `GenesisBuilder` API)",
+      "reviewed_at": "2023-08-24T11:44:10Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2936"
+    },
+    {
+      "pr_number": 2270,
+      "pr_title": "Allow integrated relay chain light client",
+      "reviewed_at": "2023-08-22T13:53:33Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2270"
+    },
+    {
+      "pr_number": 2962,
+      "pr_title": "Companion for substrate 14373",
+      "reviewed_at": "2023-08-02T16:01:42Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2962"
+    },
+    {
+      "pr_number": 2836,
+      "pr_title": "Companion for removal of execution strategies",
+      "reviewed_at": "2023-07-11T22:49:09Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2836"
+    },
+    {
+      "pr_number": 2821,
+      "pr_title": "Companion for Substrate#14511",
+      "reviewed_at": "2023-07-05T08:40:02Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2821"
+    },
+    {
+      "pr_number": 2695,
+      "pr_title": "Remove unused deps and upgrade fs_extra",
+      "reviewed_at": "2023-06-06T14:41:02Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2695"
+    },
+    {
+      "pr_number": 2690,
+      "pr_title": "Fix feature",
+      "reviewed_at": "2023-06-06T09:21:31Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2690"
+    },
+    {
+      "pr_number": 2336,
+      "pr_title": "[Companion  #13615] Keystore overhaul",
+      "reviewed_at": "2023-05-24T07:31:31Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2336"
+    },
+    {
+      "pr_number": 2599,
+      "pr_title": "companion for substrate#13800",
+      "reviewed_at": "2023-05-22T02:54:29Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2599"
+    },
+    {
+      "pr_number": 2574,
+      "pr_title": "remove sp-serializer",
+      "reviewed_at": "2023-05-16T03:01:30Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2574"
+    },
+    {
+      "pr_number": 2497,
+      "pr_title": "Skip av-store in collator overseer",
+      "reviewed_at": "2023-05-01T08:22:56Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2497"
+    },
+    {
+      "pr_number": 2422,
+      "pr_title": "Update Substrate & Polkadot",
+      "reviewed_at": "2023-04-03T10:55:30Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2422"
+    },
+    {
+      "pr_number": 2418,
+      "pr_title": "help text examples + clean up",
+      "reviewed_at": "2023-04-01T14:44:32Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2418"
+    },
+    {
+      "pr_number": 2317,
+      "pr_title": "ReadMe followup for  #2313",
+      "reviewed_at": "2023-03-15T08:33:43Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2317"
+    },
+    {
+      "pr_number": 2313,
+      "pr_title": "README: Document usage of RPC node",
+      "reviewed_at": "2023-03-14T15:03:29Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2313"
+    },
+    {
+      "pr_number": 1909,
+      "pr_title": "add warp_sync_params",
+      "reviewed_at": "2023-03-09T19:30:26Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1909"
+    },
+    {
+      "pr_number": 2143,
+      "pr_title": "Increase recovery delay for pov-recovery",
+      "reviewed_at": "2023-02-06T11:30:08Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2143"
+    },
+    {
+      "pr_number": 2069,
+      "pr_title": "Refactor `validate_block`",
+      "reviewed_at": "2023-01-12T09:34:09Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2069"
+    },
+    {
+      "pr_number": 1861,
+      "pr_title": "Remove the `wasmtime` feature flag (companion for substrate#12684)",
+      "reviewed_at": "2022-11-18T15:28:56Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1861"
+    },
+    {
+      "pr_number": 1839,
+      "pr_title": "Add example zombienet network file and instructions",
+      "reviewed_at": "2022-11-08T18:26:21Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1839"
+    },
+    {
+      "pr_number": 1817,
+      "pr_title": "Use resolver 2 in the workspace.",
+      "reviewed_at": "2022-11-07T20:15:19Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1817"
+    },
+    {
+      "pr_number": 1803,
+      "pr_title": "Companion for aura CompatibilityMode",
+      "reviewed_at": "2022-10-28T13:51:56Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1803"
+    },
+    {
+      "pr_number": 1782,
+      "pr_title": "Single ParachainBlockImport instance",
+      "reviewed_at": "2022-10-21T08:41:47Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1782"
+    },
+    {
+      "pr_number": 1609,
+      "pr_title": "Remove CanAuthorWith trait",
+      "reviewed_at": "2022-09-14T07:59:05Z",
+      "url": "https://github.com/paritytech/cumulus/pull/1609"
+    }
+  ]
+}

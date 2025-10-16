@@ -1,0 +1,19 @@
+{
+  "commits": [
+    {
+      "sha": "8a694ab804892d933f5d9dff93c4ddb09213de77",
+      "message": "Add Migrations to contracts config (#2701)",
+      "date": "2023-06-09T11:46:10Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/8a694ab804892d933f5d9dff93c4ddb09213de77"
+    },
+    {
+      "sha": "1ba430b25311e35ebbd74ce7ba4d5015285eed6e",
+      "message": "Companion PR for add events to ContractResult (#2510)",
+      "date": "2023-05-03T14:13:54Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/1ba430b25311e35ebbd74ce7ba4d5015285eed6e"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": []
+}

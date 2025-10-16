@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14740,
+      "pr_title": "Update Scheduler Pallet Documentation",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/14740"
+    }
+  ]
+}

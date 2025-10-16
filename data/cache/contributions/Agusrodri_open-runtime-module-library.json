@@ -1,0 +1,169 @@
+{
+  "commits": [
+    {
+      "sha": "23c8363d53fe8580f636a7f820c54b994d1b96f7",
+      "message": "add missing SetFeesMode instruction in xtokens (#1006)",
+      "date": "2024-06-29T00:37:17Z",
+      "url": "https://github.com/open-web3-stack/open-runtime-module-library/commit/23c8363d53fe8580f636a7f820c54b994d1b96f7"
+    },
+    {
+      "sha": "669d188dabc0da9a95890542a54de672bcbd1659",
+      "message": "fix pallet-message-queue order in relay mocks (#934)",
+      "date": "2023-07-12T23:10:47Z",
+      "url": "https://github.com/open-web3-stack/open-runtime-module-library/commit/669d188dabc0da9a95890542a54de672bcbd1659"
+    },
+    {
+      "sha": "28a2e6f0df9540d91db4018c7ecebb8bfc217a2a",
+      "message": "Update to polkadot-v0.9.43 (#928)",
+      "date": "2023-06-25T04:05:25Z",
+      "url": "https://github.com/open-web3-stack/open-runtime-module-library/commit/28a2e6f0df9540d91db4018c7ecebb8bfc217a2a"
+    }
+  ],
+  "prs": [
+    {
+      "number": 1006,
+      "title": "[XCM delivery fees] Add missing SetFeesMode instruction in xtokens",
+      "state": "MERGED",
+      "created_at": "2024-06-26T16:24:36Z",
+      "closed_at": "2024-06-29T00:37:17Z",
+      "merged_at": "2024-06-29T00:37:17Z",
+      "merged_by": "xlc",
+      "author": "Agusrodri",
+      "url": "https://github.com/open-web3-stack/open-runtime-module-library/pull/1006",
+      "ready_for_review_at": "2024-06-26T16:24:36Z",
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2024-06-29T00:37:03Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "xlc",
+          "commented_at": "2024-06-27T02:20:15Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2024-06-27T13:26:37Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2024-06-29T00:36:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 56.2075,
+      "time_to_merge_hours": 56.21138888888889
+    },
+    {
+      "number": 934,
+      "title": "Fix MessageQueue pallet order in mocks",
+      "state": "MERGED",
+      "created_at": "2023-07-12T13:49:28Z",
+      "closed_at": "2023-07-12T23:10:47Z",
+      "merged_at": "2023-07-12T23:10:47Z",
+      "merged_by": "xlc",
+      "author": "Agusrodri",
+      "url": "https://github.com/open-web3-stack/open-runtime-module-library/pull/934",
+      "ready_for_review_at": "2023-07-12T13:49:28Z",
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-07-12T23:10:43Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "codecov[bot]",
+          "commented_at": "2023-07-12T14:06:54Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-07-12T22:07:42Z"
+        },
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2023-07-12T22:55:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 9.354166666666666,
+      "time_to_merge_hours": 9.355277777777777
+    },
+    {
+      "number": 928,
+      "title": "Update to polkadot-v0.9.43",
+      "state": "MERGED",
+      "created_at": "2023-06-21T18:07:46Z",
+      "closed_at": "2023-06-25T04:05:26Z",
+      "merged_at": "2023-06-25T04:05:26Z",
+      "merged_by": "xlc",
+      "author": "Agusrodri",
+      "url": "https://github.com/open-web3-stack/open-runtime-module-library/pull/928",
+      "ready_for_review_at": "2023-06-21T18:07:46Z",
+      "reviews": [
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-06-22T23:50:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-06-23T06:09:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-06-23T06:10:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2023-06-23T13:39:17Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Agusrodri",
+          "commented_at": "2023-06-21T18:11:27Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-06-22T23:51:28Z"
+        },
+        {
+          "commenter": "codecov[bot]",
+          "commented_at": "2023-06-23T00:02:57Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-06-30T17:40:26Z"
+        },
+        {
+          "commenter": "Billiej88",
+          "commented_at": "2023-07-11T16:49:43Z"
+        },
+        {
+          "commenter": "Billiej88",
+          "commented_at": "2023-07-11T16:53:05Z"
+        },
+        {
+          "commenter": "Billiej88",
+          "commented_at": "2023-07-11T16:53:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 29.7175,
+      "time_to_merge_hours": 81.96111111111111
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 928,
+      "pr_title": "Update to polkadot-v0.9.43",
+      "reviewed_at": "2023-07-11T16:53:53Z",
+      "url": "https://github.com/open-web3-stack/open-runtime-module-library/pull/928"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 2934,
+      "pr_title": "[xcm ] Compatibility fix for xcm benchmarks",
+      "reviewed_at": "2023-08-25T07:14:33Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2934"
+    },
+    {
+      "pr_number": 2762,
+      "pr_title": "Transfer asset via bridge with pallet xcm",
+      "reviewed_at": "2023-08-17T08:05:37Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2762"
+    },
+    {
+      "pr_number": 2433,
+      "pr_title": "Companion for #7005",
+      "reviewed_at": "2023-08-14T13:24:53Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2433"
+    },
+    {
+      "pr_number": 2956,
+      "pr_title": "Companion for Polkadot#7563",
+      "reviewed_at": "2023-08-01T12:15:48Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2956"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "commits": [
+    {
+      "sha": "5a7003b5bafb1343adaa47fc1d25ab1097b92836",
+      "message": "fixing return types in crypto module documentation (#14554)",
+      "date": "2023-07-14T19:39:07Z",
+      "url": "https://github.com/paritytech/substrate/commit/5a7003b5bafb1343adaa47fc1d25ab1097b92836"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14615,
+      "title": "Jtfirek removing nightly",
+      "state": "OPEN",
+      "created_at": "2023-07-23T22:10:57Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "jtfirek",
+      "url": "https://github.com/paritytech/substrate/pull/14615",
+      "ready_for_review_at": "2023-07-23T22:10:57Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-17T22:33:49Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 600.3811111111111,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14554,
+      "title": "fixing return types in crypto module documentation",
+      "state": "MERGED",
+      "created_at": "2023-07-11T18:23:38Z",
+      "closed_at": "2023-07-14T19:39:08Z",
+      "merged_at": "2023-07-14T19:39:08Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "jtfirek",
+      "url": "https://github.com/paritytech/substrate/pull/14554",
+      "ready_for_review_at": "2023-07-11T18:23:38Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-07-11T19:02:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-07-12T09:13:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "jtfirek",
+          "submitted_at": "2023-07-14T22:59:19Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-07-11T18:23:45Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-07-14T11:01:48Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-07-14T18:43:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-14T18:43:20Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.645,
+      "time_to_merge_hours": 73.25833333333334
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14554,
+      "pr_title": "fixing return types in crypto module documentation",
+      "reviewed_at": "2023-07-14T22:59:19Z",
+      "url": "https://github.com/paritytech/substrate/pull/14554"
+    }
+  ]
+}

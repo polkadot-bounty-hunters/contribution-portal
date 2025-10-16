@@ -1,0 +1,203 @@
+{
+  "commits": [
+    {
+      "sha": "75be6e2a6cc86cfa11390a05f113a00c270cdb24",
+      "message": "Remove k256 crate from frame-support dependencies (#14452)",
+      "date": "2023-06-25T19:40:03Z",
+      "url": "https://github.com/paritytech/substrate/commit/75be6e2a6cc86cfa11390a05f113a00c270cdb24"
+    },
+    {
+      "sha": "a9c4334d96cbb63aff8e3141a5b3dcad8c636bb7",
+      "message": "Implement RIType traits for u8 array with an arbitrary size (#13256)",
+      "date": "2023-01-30T05:32:09Z",
+      "url": "https://github.com/paritytech/substrate/commit/a9c4334d96cbb63aff8e3141a5b3dcad8c636bb7"
+    },
+    {
+      "sha": "1e6b8921b771debd18de54aae55787c467baeddd",
+      "message": "Fix derive PassByInner with generics (#13247)",
+      "date": "2023-01-28T00:09:06Z",
+      "url": "https://github.com/paritytech/substrate/commit/1e6b8921b771debd18de54aae55787c467baeddd"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14452,
+      "title": "Remove k256 crate from frame-support dependencies",
+      "state": "MERGED",
+      "created_at": "2023-06-23T18:49:17Z",
+      "closed_at": "2023-06-25T19:40:03Z",
+      "merged_at": "2023-06-25T19:40:03Z",
+      "merged_by": "bkchr",
+      "author": "conr2d",
+      "url": "https://github.com/paritytech/substrate/pull/14452",
+      "ready_for_review_at": "2023-06-23T18:49:17Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-23T20:11:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "conr2d",
+          "submitted_at": "2023-06-24T00:20:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-24T08:13:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-24T08:22:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-24T09:33:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-06-25T13:42:56Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-06-24T09:34:16Z"
+        },
+        {
+          "commenter": "gilescope",
+          "commented_at": "2023-06-26T15:50:46Z"
+        },
+        {
+          "commenter": "conr2d",
+          "commented_at": "2023-06-26T18:10:55Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-06-26T21:41:19Z"
+        },
+        {
+          "commenter": "conr2d",
+          "commented_at": "2023-06-27T00:55:43Z"
+        },
+        {
+          "commenter": "gilescope",
+          "commented_at": "2023-06-27T09:04:04Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-06-27T09:33:15Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-06-27T12:05:02Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-07-03T13:07:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.3666666666666667,
+      "time_to_merge_hours": 48.846111111111114
+    },
+    {
+      "number": 13256,
+      "title": "Implement RIType traits for u8 array with an arbitrary size",
+      "state": "MERGED",
+      "created_at": "2023-01-28T03:36:07Z",
+      "closed_at": "2023-01-30T05:32:10Z",
+      "merged_at": "2023-01-30T05:32:09Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "conr2d",
+      "url": "https://github.com/paritytech/substrate/pull/13256",
+      "ready_for_review_at": "2023-01-28T03:36:07Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-28T19:32:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "koute",
+          "submitted_at": "2023-01-30T05:31:27Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "koute",
+          "commented_at": "2023-01-30T05:31:54Z"
+        },
+        {
+          "commenter": "koute",
+          "commented_at": "2023-01-30T05:32:00Z"
+        }
+      ],
+      "time_to_first_review_hours": 15.934444444444445,
+      "time_to_merge_hours": 49.93388888888889
+    },
+    {
+      "number": 13247,
+      "title": "Fix derive PassByInner with generics",
+      "state": "MERGED",
+      "created_at": "2023-01-27T05:10:06Z",
+      "closed_at": "2023-01-28T00:09:06Z",
+      "merged_at": "2023-01-28T00:09:06Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "conr2d",
+      "url": "https://github.com/paritytech/substrate/pull/13247",
+      "ready_for_review_at": "2023-01-27T05:10:06Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-27T11:38:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-27T11:39:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "melekes",
+          "submitted_at": "2023-01-27T11:41:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T23:54:51Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-01-27T05:10:12Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-27T23:55:00Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-27T23:55:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 6.478055555555556,
+      "time_to_merge_hours": 18.983333333333334
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14452,
+      "pr_title": "Remove k256 crate from frame-support dependencies",
+      "reviewed_at": "2024-01-30T23:48:47Z",
+      "url": "https://github.com/paritytech/substrate/pull/14452"
+    }
+  ]
+}

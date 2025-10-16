@@ -1,0 +1,259 @@
+{
+  "commits": [
+    {
+      "sha": "e2aa32afe8d75eddbfd885f4a5749efea74735c3",
+      "message": "Coretime chain: allow region transfers (#483)",
+      "date": "2025-02-03T14:43:18Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e2aa32afe8d75eddbfd885f4a5749efea74735c3"
+    },
+    {
+      "sha": "3df7b75fd1798727c7884979aa76a1a4178b63c8",
+      "message": "Try-runtime proper return types (#2615)",
+      "date": "2023-05-23T09:59:52Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/3df7b75fd1798727c7884979aa76a1a4178b63c8"
+    },
+    {
+      "sha": "0fd904bd7082ff4b6b52cfa2356d63cae7c5b8f0",
+      "message": "Glutton Parachain (#2294)",
+      "date": "2023-05-17T09:49:18Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/0fd904bd7082ff4b6b52cfa2356d63cae7c5b8f0"
+    },
+    {
+      "sha": "68a122370e5678a31bb2b801fe6db6df122a5c54",
+      "message": "Companion for #13486 (#2253)",
+      "date": "2023-03-02T11:28:27Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/68a122370e5678a31bb2b801fe6db6df122a5c54"
+    },
+    {
+      "sha": "b04ff720cdd77b5833d5ed05e00f99562dba255f",
+      "message": "Warn validators with slow hardware (#1863)",
+      "date": "2023-01-21T18:14:53Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/b04ff720cdd77b5833d5ed05e00f99562dba255f"
+    },
+    {
+      "sha": "db6b7fa201bbf9d3718696983d868e295ed210d8",
+      "message": "remove fill_block (#6200)",
+      "date": "2022-11-12T14:14:35Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/db6b7fa201bbf9d3718696983d868e295ed210d8"
+    },
+    {
+      "sha": "037cb0995237fb70f09aa19259ea54d893ce57c6",
+      "message": "pallet-mmr: RPC and Runtime APIs work with block numbers (#6072)",
+      "date": "2022-10-13T11:04:00Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/037cb0995237fb70f09aa19259ea54d893ce57c6"
+    },
+    {
+      "sha": "5bccd8bb98cc7d12a6ca1f42ed4b46c04c81246e",
+      "message": "Rename Origin (#1628)",
+      "date": "2022-09-20T23:17:31Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/5bccd8bb98cc7d12a6ca1f42ed4b46c04c81246e"
+    },
+    {
+      "sha": "223d2fa78b3ef394e1a95cf8cefb14af9bfc63d4",
+      "message": "Rename Origin (#6020)",
+      "date": "2022-09-20T22:53:12Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/223d2fa78b3ef394e1a95cf8cefb14af9bfc63d4"
+    },
+    {
+      "sha": "2a12253fdc270dbeb5fe03cb759f5141a4d56c2b",
+      "message": "Companion for #11981 (#1563)",
+      "date": "2022-09-12T23:55:33Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/2a12253fdc270dbeb5fe03cb759f5141a4d56c2b"
+    },
+    {
+      "sha": "e9116dfb9eb988ec26dce4fde2b407c5abe93591",
+      "message": "Companion for #11981 (#5915)",
+      "date": "2022-09-12T23:03:47Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e9116dfb9eb988ec26dce4fde2b407c5abe93591"
+    },
+    {
+      "sha": "91b8ecfe211288dc30453e38ce460f122693749e",
+      "message": "companion for #11796 (#1460)",
+      "date": "2022-07-31T11:23:53Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/91b8ecfe211288dc30453e38ce460f122693749e"
+    },
+    {
+      "sha": "905ec1585deb4d7403cb67bd4638f02bc118c73a",
+      "message": "Companion for #11831 (#5784)",
+      "date": "2022-07-27T09:32:31Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/905ec1585deb4d7403cb67bd4638f02bc118c73a"
+    }
+  ],
+  "prs": [
+    {
+      "number": 483,
+      "title": "Coretime chain: allow region transfers",
+      "state": "MERGED",
+      "created_at": "2024-10-14T17:35:00Z",
+      "closed_at": "2025-02-03T14:43:18Z",
+      "merged_at": "2025-02-03T14:43:18Z",
+      "merged_by": "bkchr",
+      "author": "Szegoo",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/483",
+      "ready_for_review_at": "2024-10-14T17:35:00Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2024-10-14T18:20:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "eskimor",
+          "submitted_at": "2024-11-21T09:51:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2024-11-24T22:28:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-01-10T09:35:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-01-10T09:36:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-01-10T15:01:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-01-13T10:53:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-01-13T10:53:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2025-01-13T10:54:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-02-03T12:47:00Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-10-15T09:57:32Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-10-15T09:58:38Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2024-10-15T10:04:50Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2024-10-15T10:05:24Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-10-15T10:15:10Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2024-10-15T10:16:30Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2024-10-21T12:11:33Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-10-21T12:14:05Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2024-10-21T12:49:27Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2024-10-23T12:29:16Z"
+        },
+        {
+          "commenter": "mordamax",
+          "commented_at": "2024-10-23T13:26:29Z"
+        },
+        {
+          "commenter": "seadanda",
+          "commented_at": "2024-12-23T12:59:19Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2024-12-23T13:04:32Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-01-08T13:52:23Z"
+        },
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-01-08T13:53:35Z"
+        },
+        {
+          "commenter": "seadanda",
+          "commented_at": "2025-01-10T09:13:42Z"
+        },
+        {
+          "commenter": "seadanda",
+          "commented_at": "2025-01-23T09:56:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7613888888888889,
+      "time_to_merge_hours": 2685.1383333333333
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 490,
+      "pr_title": "Update to SDK `stable2409-1`",
+      "reviewed_at": "2025-03-01T07:07:05Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/490"
+    },
+    {
+      "pr_number": 483,
+      "pr_title": "Coretime chain: allow region transfers",
+      "reviewed_at": "2025-02-03T14:43:18Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/483"
+    },
+    {
+      "pr_number": 289,
+      "pr_title": "Add Patch and Migration to Release Collator Bonds",
+      "reviewed_at": "2024-05-06T11:49:24Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/289"
+    },
+    {
+      "pr_number": 212,
+      "pr_title": "Add the Kusama Coretime Chain runtime",
+      "reviewed_at": "2024-03-25T13:48:48Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/212"
+    },
+    {
+      "pr_number": 218,
+      "pr_title": "Asset Hub: Asset Conversion and Swap Weight Trader",
+      "reviewed_at": "2024-03-18T20:08:00Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/218"
+    },
+    {
+      "pr_number": 191,
+      "pr_title": "Treasury Pallet Account as destination for XCM fees on System Parachains",
+      "reviewed_at": "2024-03-06T13:26:29Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/191"
+    }
+  ]
+}

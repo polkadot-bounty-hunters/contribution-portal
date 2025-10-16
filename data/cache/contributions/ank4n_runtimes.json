@@ -1,0 +1,448 @@
+{
+  "commits": [
+    {
+      "sha": "59802a1954fb9b9435536a56ed81075dc4fc70e9",
+      "message": "Enable Nomination Pool Participation in Governance in Kusama (#540)",
+      "date": "2025-01-13T18:57:00Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/59802a1954fb9b9435536a56ed81075dc4fc70e9"
+    },
+    {
+      "sha": "e8599339b6cea3f69307c9b81d378735c5f5eb08",
+      "message": "Bump staking and nomination pools (#318)",
+      "date": "2024-05-21T10:12:24Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e8599339b6cea3f69307c9b81d378735c5f5eb08"
+    },
+    {
+      "sha": "e09de5304af1c4ca7ef57b3411057bec4764de92",
+      "message": "Proxy for Nomination Pools (#6846)",
+      "date": "2023-03-27T20:47:28Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e09de5304af1c4ca7ef57b3411057bec4764de92"
+    },
+    {
+      "sha": "6c0d6c1850324a4126cd5b1e5be37b0228382149",
+      "message": "Migrate Staking pallet to v13 (#6365)",
+      "date": "2023-01-03T22:17:10Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/6c0d6c1850324a4126cd5b1e5be37b0228382149"
+    },
+    {
+      "sha": "d5d2344794b6bcd45f46e68d2b5b7bbf08a71d03",
+      "message": "[Companion] Allow StakingAdmin to set min_commission (#6444)",
+      "date": "2022-12-26T16:53:22Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/d5d2344794b6bcd45f46e68d2b5b7bbf08a71d03"
+    },
+    {
+      "sha": "7a333d28544979a143955602141e6ca5d04ef540",
+      "message": "[Companion] Bound Election and Staking by MaxActiveValidators (#6157)",
+      "date": "2022-11-09T11:00:03Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/7a333d28544979a143955602141e6ca5d04ef540"
+    },
+    {
+      "sha": "7ee0b093b5ecc1b32adc0234508497afc1b60ada",
+      "message": "[Companion] Get rid of HistoryDepth storage (#5996)",
+      "date": "2022-09-21T15:24:14Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/7ee0b093b5ecc1b32adc0234508497afc1b60ada"
+    }
+  ],
+  "prs": [
+    {
+      "number": 852,
+      "title": "Improve Era Scheduling",
+      "state": "MERGED",
+      "created_at": "2025-08-13T18:10:51Z",
+      "closed_at": "2025-08-18T21:54:34Z",
+      "merged_at": "2025-08-18T21:54:34Z",
+      "merged_by": "ggwpez",
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/852",
+      "ready_for_review_at": "2025-08-13T18:10:51Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-08-13T18:15:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-08-13T18:20:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-08-13T18:25:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-08-14T09:15:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-08-14T12:37:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-08-14T15:38:55Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-08-14T22:30:13Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-08-14T22:31:06Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-08-19T07:44:51Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08083333333333333,
+      "time_to_merge_hours": 123.7286111111111
+    },
+    {
+      "number": 825,
+      "title": "Fix historical session configuration",
+      "state": "CLOSED",
+      "created_at": "2025-07-23T19:21:33Z",
+      "closed_at": "2025-07-23T20:21:04Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/825",
+      "ready_for_review_at": "2025-07-23T19:21:33Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-07-23T20:21:39Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 728,
+      "title": "Ensure no era planned when migration starts",
+      "state": "MERGED",
+      "created_at": "2025-05-13T19:52:02Z",
+      "closed_at": "2025-07-23T10:17:57Z",
+      "merged_at": "2025-07-23T10:17:57Z",
+      "merged_by": "ggwpez",
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/728",
+      "ready_for_review_at": "2025-05-13T19:52:02Z",
+      "reviews": [
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2025-05-15T10:23:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-07-22T20:55:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-07-22T20:55:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-07-23T09:58:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-07-23T10:00:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-07-23T10:04:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2025-07-23T10:04:53Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 38.51638888888889,
+      "time_to_merge_hours": 1694.4319444444445
+    },
+    {
+      "number": 540,
+      "title": "Enable Nomination Pool Participation in Governance in Kusama",
+      "state": "MERGED",
+      "created_at": "2025-01-12T16:52:57Z",
+      "closed_at": "2025-01-13T18:57:00Z",
+      "merged_at": "2025-01-13T18:57:00Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/540",
+      "ready_for_review_at": "2025-01-12T16:52:57Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-01-13T10:43:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2025-01-13T10:45:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2025-01-13T11:02:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-01-13T14:59:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2025-01-13T16:16:44Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2025-01-13T10:45:08Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2025-01-13T18:55:05Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2025-01-13T18:57:01Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.848333333333333,
+      "time_to_merge_hours": 26.0675
+    },
+    {
+      "number": 495,
+      "title": "[WIP] Enable opengov for pool members",
+      "state": "CLOSED",
+      "created_at": "2024-10-26T08:44:56Z",
+      "closed_at": "2024-11-19T16:05:29Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/495",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 357,
+      "title": "remove delegated staking from prod runtimes",
+      "state": "MERGED",
+      "created_at": "2024-06-24T19:12:02Z",
+      "closed_at": "2024-06-25T12:05:44Z",
+      "merged_at": "2024-06-25T12:05:44Z",
+      "merged_by": "ggwpez",
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/357",
+      "ready_for_review_at": "2024-06-24T19:12:02Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2024-06-25T12:05:41Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": 16.895
+    },
+    {
+      "number": 318,
+      "title": "Bump staking and nomination pools",
+      "state": "MERGED",
+      "created_at": "2024-05-20T17:36:22Z",
+      "closed_at": "2024-05-21T10:12:24Z",
+      "merged_at": "2024-05-21T10:12:24Z",
+      "merged_by": "fellowship-merge-bot[bot]",
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/318",
+      "ready_for_review_at": "2024-05-20T17:36:22Z",
+      "reviews": [
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-05-20T17:51:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2024-05-20T18:00:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2024-05-20T20:39:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2024-05-21T04:49:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2024-05-21T05:53:32Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2024-05-20T19:33:59Z"
+        },
+        {
+          "commenter": "ordian",
+          "commented_at": "2024-05-21T10:11:00Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2024-05-21T10:12:25Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2577777777777778,
+      "time_to_merge_hours": 16.600555555555555
+    },
+    {
+      "number": 53,
+      "title": "[Nomination Pools] Upgrade storage from v5 to v7",
+      "state": "CLOSED",
+      "created_at": "2023-10-01T00:56:39Z",
+      "closed_at": "2024-04-12T10:01:41Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/53",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2024-04-11T15:25:52Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 852,
+      "pr_title": "Improve Era Scheduling",
+      "reviewed_at": "2025-08-19T07:44:51Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/852"
+    },
+    {
+      "pr_number": 845,
+      "pr_title": "[AHM] Call filter configuration",
+      "reviewed_at": "2025-08-18T15:46:59Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/845"
+    },
+    {
+      "pr_number": 817,
+      "pr_title": "Upgrade to Polkadot-SDK `stable2506`",
+      "reviewed_at": "2025-08-07T11:09:02Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/817"
+    },
+    {
+      "pr_number": 812,
+      "pr_title": "[AHM] Async staking config",
+      "reviewed_at": "2025-07-24T13:57:24Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/812"
+    },
+    {
+      "pr_number": 821,
+      "pr_title": "[AHM] Staking migration",
+      "reviewed_at": "2025-07-23T20:21:03Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/821"
+    },
+    {
+      "pr_number": 711,
+      "pr_title": "Bump to `stable2503`",
+      "reviewed_at": "2025-06-05T14:53:11Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/711"
+    },
+    {
+      "pr_number": 623,
+      "pr_title": "Bump to stable2409-6",
+      "reviewed_at": "2025-04-07T13:38:20Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/623"
+    },
+    {
+      "pr_number": 608,
+      "pr_title": "Release 1.4.1",
+      "reviewed_at": "2025-03-12T08:45:08Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/608"
+    },
+    {
+      "pr_number": 490,
+      "pr_title": "Update to SDK `stable2409-1`",
+      "reviewed_at": "2025-03-01T07:07:05Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/490"
+    },
+    {
+      "pr_number": 540,
+      "pr_title": "Enable Nomination Pool Participation in Governance in Kusama",
+      "reviewed_at": "2025-01-13T18:57:03Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/540"
+    },
+    {
+      "pr_number": 447,
+      "pr_title": "Adds migrations to restore currupted staking ledgers in Polkadot and Kusama",
+      "reviewed_at": "2024-10-02T16:52:55Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/447"
+    },
+    {
+      "pr_number": 443,
+      "pr_title": "Polkadot: Make the current inflation formula adjustable",
+      "reviewed_at": "2024-10-01T13:11:41Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/443"
+    },
+    {
+      "pr_number": 241,
+      "pr_title": "Polkadot: Remove applied migrations",
+      "reviewed_at": "2024-03-15T18:32:02Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/241"
+    },
+    {
+      "pr_number": 239,
+      "pr_title": "[v1.1.3] Release Staking Fixes",
+      "reviewed_at": "2024-03-15T13:11:22Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/239"
+    },
+    {
+      "pr_number": 159,
+      "pr_title": "Upgrade to latest polkadot-sdk@1.6 release",
+      "reviewed_at": "2024-02-27T21:09:30Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/159"
+    },
+    {
+      "pr_number": 137,
+      "pr_title": "Upgrade to latest `polkadot-sdk@1.5` release",
+      "reviewed_at": "2024-02-15T05:33:27Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/137"
+    }
+  ]
+}

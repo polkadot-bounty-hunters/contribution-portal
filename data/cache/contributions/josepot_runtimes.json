@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 755,
+      "pr_title": "Add `pallet_revive` to Kusama AssetHub",
+      "reviewed_at": "2025-06-12T23:52:28Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/755"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "commits": [
+    {
+      "sha": "3c674e14519faaeacf0cd30c4e11614c393e16a5",
+      "message": "companion for xcm alias origin (#2680)",
+      "date": "2023-06-05T16:07:02Z",
+      "url": "https://github.com/paritytech/cumulus/commit/3c674e14519faaeacf0cd30c4e11614c393e16a5"
+    },
+    {
+      "sha": "adcca5e162a637c4d642315c82e3d77b074a08a3",
+      "message": "Companion for polkadot#6928 (#2356)",
+      "date": "2023-03-23T10:36:03Z",
+      "url": "https://github.com/paritytech/cumulus/commit/adcca5e162a637c4d642315c82e3d77b074a08a3"
+    }
+  ],
+  "prs": [
+    {
+      "number": 2969,
+      "title": "[xcm] transactional processing companion #6951",
+      "state": "OPEN",
+      "created_at": "2023-08-03T12:21:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "vstam1",
+      "url": "https://github.com/paritytech/cumulus/pull/2969",
+      "ready_for_review_at": "2023-08-03T12:21:18Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-03T12:35:12Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2680,
+      "title": "companion for xcm alias origin",
+      "state": "MERGED",
+      "created_at": "2023-06-02T14:01:05Z",
+      "closed_at": "2023-06-05T16:07:02Z",
+      "merged_at": "2023-06-05T16:07:02Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "vstam1",
+      "url": "https://github.com/paritytech/cumulus/pull/2680",
+      "ready_for_review_at": "2023-06-02T14:01:05Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-05T08:58:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-05T10:03:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-06-05T10:04:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-06-05T10:26:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-05T12:12:18Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-05T14:49:21Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-05T14:56:47Z"
+        },
+        {
+          "commenter": "vstam1",
+          "commented_at": "2023-06-05T16:06:54Z"
+        }
+      ],
+      "time_to_first_review_hours": 66.94916666666667,
+      "time_to_merge_hours": 74.09916666666666
+    },
+    {
+      "number": 2356,
+      "title": "Companion for polkadot#6928",
+      "state": "MERGED",
+      "created_at": "2023-03-21T16:53:37Z",
+      "closed_at": "2023-03-23T10:36:04Z",
+      "merged_at": "2023-03-23T10:36:04Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "vstam1",
+      "url": "https://github.com/paritytech/cumulus/pull/2356",
+      "ready_for_review_at": "2023-03-21T16:53:37Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-03-22T09:57:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-03-23T10:11:29Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "gavofyork",
+          "commented_at": "2023-03-23T09:58:42Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-23T09:58:49Z"
+        },
+        {
+          "commenter": "gavofyork",
+          "commented_at": "2023-03-23T09:59:14Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-03-23T10:02:21Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-03-23T10:12:45Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-23T10:12:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 17.064444444444444,
+      "time_to_merge_hours": 41.7075
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 2762,
+      "pr_title": "Transfer asset via bridge with pallet xcm",
+      "reviewed_at": "2023-08-17T08:05:37Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2762"
+    },
+    {
+      "pr_number": 2630,
+      "pr_title": "add statemine emulator tests",
+      "reviewed_at": "2023-05-24T11:54:41Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2630"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "commits": [
+    {
+      "sha": "a357c29ebabb075235977edd5e3901c66575f995",
+      "message": "Fix broken link to web3 foundation research (#12066)",
+      "date": "2022-08-19T08:03:48Z",
+      "url": "https://github.com/paritytech/substrate/commit/a357c29ebabb075235977edd5e3901c66575f995"
+    }
+  ],
+  "prs": [
+    {
+      "number": 12066,
+      "title": "Fix broken link to web3 foundation research",
+      "state": "MERGED",
+      "created_at": "2022-08-18T21:09:06Z",
+      "closed_at": "2022-08-19T08:03:49Z",
+      "merged_at": "2022-08-19T08:03:49Z",
+      "merged_by": "bkchr",
+      "author": "jakerumbles",
+      "url": "https://github.com/paritytech/substrate/pull/12066",
+      "ready_for_review_at": "2022-08-18T21:09:06Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-08-18T21:24:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-19T00:35:22Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2022-08-18T21:09:12Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-08-19T00:35:46Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-08-19T00:35:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.26305555555555554,
+      "time_to_merge_hours": 10.911944444444444
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

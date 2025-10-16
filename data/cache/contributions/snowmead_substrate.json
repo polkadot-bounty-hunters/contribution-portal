@@ -1,0 +1,151 @@
+{
+  "commits": [
+    {
+      "sha": "c5c502cb5a0a088ee6a5c0601615b4a2079fbe56",
+      "message": "Update Scheduler Pallet Documentation (#14740)",
+      "date": "2023-08-15T12:18:00Z",
+      "url": "https://github.com/paritytech/substrate/commit/c5c502cb5a0a088ee6a5c0601615b4a2079fbe56"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14740,
+      "title": "Update Scheduler Pallet Documentation",
+      "state": "MERGED",
+      "created_at": "2023-08-09T20:05:08Z",
+      "closed_at": "2023-08-15T12:18:00Z",
+      "merged_at": "2023-08-15T12:18:00Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "snowmead",
+      "url": "https://github.com/paritytech/substrate/pull/14740",
+      "ready_for_review_at": "2023-08-09T20:05:08Z",
+      "reviews": [
+        {
+          "reviewer": "kilogold",
+          "submitted_at": "2023-08-12T05:35:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-12T19:17:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-12T19:18:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-12T19:18:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2023-08-12T20:04:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-08-14T03:14:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-08-14T03:18:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-08-14T03:18:38Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-08-14T03:20:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-08-14T03:20:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-08-14T03:20:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "snowmead",
+          "submitted_at": "2023-08-14T14:28:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-08-14T15:32:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2023-08-14T15:44:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "naterarmstrong",
+          "submitted_at": "2023-08-14T23:22:03Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-08-15T02:01:44Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "wentelteefje",
+          "submitted_at": "2023-08-15T10:48:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-15T12:15:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-08-09T20:05:15Z"
+        },
+        {
+          "commenter": "muharem",
+          "commented_at": "2023-08-10T13:39:07Z"
+        },
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-08-12T16:29:02Z"
+        },
+        {
+          "commenter": "gilescope",
+          "commented_at": "2023-08-15T12:17:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 57.505,
+      "time_to_merge_hours": 136.21444444444444
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14740,
+      "pr_title": "Update Scheduler Pallet Documentation",
+      "reviewed_at": "2024-01-30T23:49:01Z",
+      "url": "https://github.com/paritytech/substrate/pull/14740"
+    },
+    {
+      "pr_number": 14714,
+      "pr_title": "make `BagsList::put_in_front_of` be permissionless",
+      "reviewed_at": "2024-01-30T23:48:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/14714"
+    }
+  ]
+}

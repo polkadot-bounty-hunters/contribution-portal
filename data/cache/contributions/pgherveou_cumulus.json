@@ -1,0 +1,415 @@
+{
+  "commits": [
+    {
+      "sha": "c705db7cdd3aaab19c284403ac8efb52f34b4272",
+      "message": "Contracts: Update Config::Debug (#3035)",
+      "date": "2023-08-24T08:35:52Z",
+      "url": "https://github.com/paritytech/cumulus/commit/c705db7cdd3aaab19c284403ac8efb52f34b4272"
+    },
+    {
+      "sha": "fa27253ea1e000b5de7385d1f276a52b2ea0d15a",
+      "message": "Companion PR for contracts delegate deposit PR (#2913)",
+      "date": "2023-07-26T12:41:48Z",
+      "url": "https://github.com/paritytech/cumulus/commit/fa27253ea1e000b5de7385d1f276a52b2ea0d15a"
+    },
+    {
+      "sha": "486d6e04eaf08e466e239f072539b6a801c032f7",
+      "message": "Contracts-rococo: Update migration (#2763)",
+      "date": "2023-06-22T17:50:32Z",
+      "url": "https://github.com/paritytech/cumulus/commit/486d6e04eaf08e466e239f072539b6a801c032f7"
+    },
+    {
+      "sha": "1208a9d43f371db704ff985252bf4b113ea2bff0",
+      "message": "Contracts: Use RuntimeUpgrade hooks instead of Hooks::on_runtime_upgrade (#2570)",
+      "date": "2023-06-05T11:56:55Z",
+      "url": "https://github.com/paritytech/cumulus/commit/1208a9d43f371db704ff985252bf4b113ea2bff0"
+    },
+    {
+      "sha": "9106fa8621db4b67a690efc998a692602bc35fdc",
+      "message": "Companion PR for contract deletion updates (#2409)",
+      "date": "2023-03-31T11:29:44Z",
+      "url": "https://github.com/paritytech/cumulus/commit/9106fa8621db4b67a690efc998a692602bc35fdc"
+    }
+  ],
+  "prs": [
+    {
+      "number": 3035,
+      "title": "Contracts: Update Config::Debug",
+      "state": "MERGED",
+      "created_at": "2023-08-18T21:11:41Z",
+      "closed_at": "2023-08-24T08:35:53Z",
+      "merged_at": "2023-08-24T08:35:52Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/cumulus/pull/3035",
+      "ready_for_review_at": "2023-08-18T21:11:41Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-08-20T13:25:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-22T15:15:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-08-22T15:33:51Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "athei",
+          "commented_at": "2023-08-23T19:23:48Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-23T19:23:55Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-24T07:56:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 40.22805555555556,
+      "time_to_merge_hours": 131.40305555555557
+    },
+    {
+      "number": 2913,
+      "title": "Companion PR for contracts delegate deposit PR",
+      "state": "MERGED",
+      "created_at": "2023-07-21T07:30:02Z",
+      "closed_at": "2023-07-26T12:41:48Z",
+      "merged_at": "2023-07-26T12:41:48Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/cumulus/pull/2913",
+      "ready_for_review_at": "2023-07-21T07:30:02Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-26T10:37:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-07-26T11:28:25Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-07-26T10:36:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-26T10:36:47Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-26T10:37:11Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-26T12:09:24Z"
+        }
+      ],
+      "time_to_first_review_hours": 123.13138888888889,
+      "time_to_merge_hours": 125.19611111111111
+    },
+    {
+      "number": 2763,
+      "title": "Contracts-rococo: Update migration",
+      "state": "MERGED",
+      "created_at": "2023-06-20T12:52:07Z",
+      "closed_at": "2023-06-22T17:50:32Z",
+      "merged_at": "2023-06-22T17:50:32Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/cumulus/pull/2763",
+      "ready_for_review_at": "2023-06-20T12:52:07Z",
+      "reviews": [
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-21T12:52:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-06-21T13:06:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-06-22T16:28:18Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-22T15:17:14Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-22T17:50:24Z"
+        }
+      ],
+      "time_to_first_review_hours": 23.998333333333335,
+      "time_to_merge_hours": 52.97361111111111
+    },
+    {
+      "number": 2570,
+      "title": "Contracts: Use RuntimeUpgrade hooks instead of Hooks::on_runtime_upgrade",
+      "state": "MERGED",
+      "created_at": "2023-05-12T08:54:13Z",
+      "closed_at": "2023-06-05T11:56:55Z",
+      "merged_at": "2023-06-05T11:56:55Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/cumulus/pull/2570",
+      "ready_for_review_at": "2023-05-12T08:54:13Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-12T12:26:49Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T12:45:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T12:52:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T12:56:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T12:56:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T16:26:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-12T20:19:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-12T20:27:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-12T21:19:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "KiChjang",
+          "submitted_at": "2023-05-15T12:40:12Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-17T11:58:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-17T12:01:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-17T12:04:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-30T07:34:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-30T07:36:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-06-05T11:55:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "athei",
+          "commented_at": "2023-05-12T09:45:09Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-12T11:32:29Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-05-12T11:46:58Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-05-12T12:25:05Z"
+        },
+        {
+          "commenter": "KiChjang",
+          "commented_at": "2023-05-13T09:42:54Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-15T12:05:52Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-16T11:31:12Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-05-17T19:46:48Z"
+        },
+        {
+          "commenter": "KiChjang",
+          "commented_at": "2023-05-18T08:44:58Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-18T09:57:14Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-18T11:13:12Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-05-20T22:07:02Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-05-30T19:35:17Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-06-05T11:56:47Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.5433333333333334,
+      "time_to_merge_hours": 579.045
+    },
+    {
+      "number": 2409,
+      "title": "Companion PR for contract deletion updates",
+      "state": "MERGED",
+      "created_at": "2023-03-30T15:02:48Z",
+      "closed_at": "2023-03-31T11:29:44Z",
+      "merged_at": "2023-03-31T11:29:44Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/cumulus/pull/2409",
+      "ready_for_review_at": "2023-03-30T15:02:48Z",
+      "reviews": [
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-03-30T15:54:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-03-31T09:55:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T15:10:29Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2023-03-30T19:48:33Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-30T19:48:48Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-31T11:04:30Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.8691666666666666,
+      "time_to_merge_hours": 20.448888888888888
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3035,
+      "pr_title": "Contracts: Update Config::Debug",
+      "reviewed_at": "2023-08-24T08:36:09Z",
+      "url": "https://github.com/paritytech/cumulus/pull/3035"
+    },
+    {
+      "pr_number": 2973,
+      "pr_title": "Companion for Contracts remove deposit account",
+      "reviewed_at": "2023-08-18T15:00:57Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2973"
+    },
+    {
+      "pr_number": 2751,
+      "pr_title": "Add migration for substrate#14084",
+      "reviewed_at": "2023-07-03T13:18:24Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2751"
+    },
+    {
+      "pr_number": 2701,
+      "pr_title": "Add Migrations to contracts config",
+      "reviewed_at": "2023-06-09T11:46:24Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2701"
+    },
+    {
+      "pr_number": 2570,
+      "pr_title": "Contracts: Use RuntimeUpgrade hooks instead of Hooks::on_runtime_upgrade",
+      "reviewed_at": "2023-06-05T11:56:56Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2570"
+    },
+    {
+      "pr_number": 2585,
+      "pr_title": "Bump polkadot",
+      "reviewed_at": "2023-05-16T13:31:24Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2585"
+    },
+    {
+      "pr_number": 2510,
+      "pr_title": "Companion PR for add events to ContractResult",
+      "reviewed_at": "2023-05-03T14:36:23Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2510"
+    },
+    {
+      "pr_number": 2306,
+      "pr_title": "Companion for substrate#13565",
+      "reviewed_at": "2023-04-26T13:25:19Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2306"
+    }
+  ]
+}

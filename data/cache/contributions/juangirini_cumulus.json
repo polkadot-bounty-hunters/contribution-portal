@@ -1,0 +1,549 @@
+{
+  "commits": [
+    {
+      "sha": "59cc02da86bf2c7b8c278160854bff737223ba97",
+      "message": "Companion: restructure macro related exports (#3015)",
+      "date": "2023-08-23T11:35:12Z",
+      "url": "https://github.com/paritytech/cumulus/commit/59cc02da86bf2c7b8c278160854bff737223ba97"
+    },
+    {
+      "sha": "99623e620e28acee6ec5cf0695d109f307d6b75c",
+      "message": "Companion for Contracts remove deposit account (#2973)",
+      "date": "2023-08-18T15:00:41Z",
+      "url": "https://github.com/paritytech/cumulus/commit/99623e620e28acee6ec5cf0695d109f307d6b75c"
+    },
+    {
+      "sha": "24855eeaacbe813d093784230de2d33f07ec1e79",
+      "message": "Replace Index for Nonce (#2740)",
+      "date": "2023-07-14T08:46:49Z",
+      "url": "https://github.com/paritytech/cumulus/commit/24855eeaacbe813d093784230de2d33f07ec1e79"
+    },
+    {
+      "sha": "645326a8268f732f63bce21153db506a1fac81a0",
+      "message": "Companion for Soft deprecate GenesisConfig (#2636)",
+      "date": "2023-06-16T11:05:45Z",
+      "url": "https://github.com/paritytech/cumulus/commit/645326a8268f732f63bce21153db506a1fac81a0"
+    },
+    {
+      "sha": "dfea54fc82fc83118c9bfbae56e31f13584b4b55",
+      "message": "Add Migrations to contracts config (#2701)",
+      "date": "2023-06-09T11:46:10Z",
+      "url": "https://github.com/paritytech/cumulus/commit/dfea54fc82fc83118c9bfbae56e31f13584b4b55"
+    },
+    {
+      "sha": "22c06e1868dc7a9e228fe8b03b7c293cf908f270",
+      "message": "Companion PR for add events to ContractResult (#2510)",
+      "date": "2023-05-03T14:13:54Z",
+      "url": "https://github.com/paritytech/cumulus/commit/22c06e1868dc7a9e228fe8b03b7c293cf908f270"
+    }
+  ],
+  "prs": [
+    {
+      "number": 3058,
+      "title": "Companion: Restructure dispatch macro related exports",
+      "state": "OPEN",
+      "created_at": "2023-08-24T14:28:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/3058",
+      "ready_for_review_at": "2023-08-24T14:28:18Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-24T14:40:38Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 3039,
+      "title": "Companion: restructure `benchmarking` macro related exports",
+      "state": "MERGED",
+      "created_at": "2023-08-21T15:43:51Z",
+      "closed_at": "2023-08-22T07:39:33Z",
+      "merged_at": "2023-08-22T07:39:33Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/3039",
+      "ready_for_review_at": "2023-08-21T15:43:51Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-22T07:39:25Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": 15.928333333333333
+    },
+    {
+      "number": 3015,
+      "title": "Companion: restructure macro related exports",
+      "state": "MERGED",
+      "created_at": "2023-08-15T15:52:43Z",
+      "closed_at": "2023-08-23T11:35:12Z",
+      "merged_at": "2023-08-23T11:35:12Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/3015",
+      "ready_for_review_at": "2023-08-15T15:52:43Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-08-15T17:28:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kpp",
+          "submitted_at": "2023-08-16T17:21:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-08-17T05:22:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "svyatonik",
+          "submitted_at": "2023-08-17T09:25:56Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-08-17T09:39:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ordian",
+          "submitted_at": "2023-08-22T11:07:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-08-23T11:31:30Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-16T10:48:14Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-16T10:48:19Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-22T10:24:38Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-22T10:24:44Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-23T11:35:04Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.596111111111111,
+      "time_to_merge_hours": 187.70805555555555
+    },
+    {
+      "number": 2973,
+      "title": "Companion for Contracts remove deposit account",
+      "state": "MERGED",
+      "created_at": "2023-08-04T16:05:48Z",
+      "closed_at": "2023-08-18T15:00:41Z",
+      "merged_at": "2023-08-18T15:00:41Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/2973",
+      "ready_for_review_at": "2023-08-04T16:05:48Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-08-04T16:06:56Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-05T14:45:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-14T15:00:48Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-14T15:00:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-17T15:46:45Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-17T15:46:51Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-18T14:25:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.01888888888888889,
+      "time_to_merge_hours": 334.9147222222222
+    },
+    {
+      "number": 2841,
+      "title": "Companion for contracts-migrate-to-fungible-traits",
+      "state": "CLOSED",
+      "created_at": "2023-07-07T13:51:32Z",
+      "closed_at": "2023-08-02T15:36:20Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/2841",
+      "ready_for_review_at": "2023-07-07T13:51:32Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-08-01T11:51:58Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-24T15:30:04Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-02T13:52:27Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-02T13:57:34Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-02T14:07:16Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-08-02T14:14:20Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-08-02T14:14:24Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-08-02T14:23:37Z"
+        },
+        {
+          "commenter": "dmitry-markin",
+          "commented_at": "2023-08-02T15:16:14Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2023-08-02T15:36:20Z"
+        }
+      ],
+      "time_to_first_review_hours": 598.0072222222223,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 2740,
+      "title": "Replace Index for Nonce",
+      "state": "MERGED",
+      "created_at": "2023-06-15T08:00:59Z",
+      "closed_at": "2023-07-14T08:46:50Z",
+      "merged_at": "2023-07-14T08:46:50Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/2740",
+      "ready_for_review_at": "2023-06-15T08:00:59Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-06-27T09:10:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-07-13T15:49:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "svyatonik",
+          "submitted_at": "2023-07-13T16:00:16Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-07-13T16:51:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2023-07-13T17:41:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-07-13T19:26:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-07-13T19:51:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Lederstrumpf",
+          "submitted_at": "2023-07-13T20:13:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-14T06:55:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2023-07-14T08:41:40Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-14T06:57:13Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-07-14T08:14:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 289.165,
+      "time_to_merge_hours": 696.7641666666667
+    },
+    {
+      "number": 2701,
+      "title": "Add Migrations to contracts config",
+      "state": "MERGED",
+      "created_at": "2023-06-07T08:52:50Z",
+      "closed_at": "2023-06-09T11:46:10Z",
+      "merged_at": "2023-06-09T11:46:10Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/2701",
+      "ready_for_review_at": "2023-06-07T08:52:50Z",
+      "reviews": [
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-06-07T08:55:25Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-06-07T09:07:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "agryaznov",
+          "submitted_at": "2023-06-07T09:27:22Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-09T10:12:23Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-09T10:12:37Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-09T11:10:48Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-09T11:11:58Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-06-09T11:12:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.043055555555555555,
+      "time_to_merge_hours": 50.888888888888886
+    },
+    {
+      "number": 2636,
+      "title": "Companion for Soft deprecate GenesisConfig",
+      "state": "MERGED",
+      "created_at": "2023-05-25T07:40:01Z",
+      "closed_at": "2023-06-16T11:05:45Z",
+      "merged_at": "2023-06-16T11:05:45Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/2636",
+      "ready_for_review_at": "2023-05-25T07:40:01Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-05-25T11:18:07Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-27T17:27:29Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sam0x17",
+          "submitted_at": "2023-05-28T17:58:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gilescope",
+          "submitted_at": "2023-05-29T05:25:53Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "muharem",
+          "commented_at": "2023-05-26T14:51:33Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-26T14:51:38Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-06-16T11:05:38Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.635,
+      "time_to_merge_hours": 531.4288888888889
+    },
+    {
+      "number": 2510,
+      "title": "Companion PR for add events to ContractResult",
+      "state": "MERGED",
+      "created_at": "2023-05-03T10:04:13Z",
+      "closed_at": "2023-05-03T14:13:54Z",
+      "merged_at": "2023-05-03T14:13:54Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "juangirini",
+      "url": "https://github.com/paritytech/cumulus/pull/2510",
+      "ready_for_review_at": "2023-05-03T10:04:13Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2023-05-03T10:25:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-05-03T11:11:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2023-05-03T11:25:29Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-03T13:46:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.3625,
+      "time_to_merge_hours": 4.161388888888889
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 2761,
+      "pr_title": "remove `without_storage_info` from `pallet-collective`",
+      "reviewed_at": "2024-01-30T23:48:57Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2761"
+    },
+    {
+      "pr_number": 2661,
+      "pr_title": "bump serde to 1.0.163",
+      "reviewed_at": "2024-01-30T23:48:41Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2661"
+    },
+    {
+      "pr_number": 3051,
+      "pr_title": "Update to latest Substrate and Polkadot",
+      "reviewed_at": "2023-08-25T08:52:20Z",
+      "url": "https://github.com/paritytech/cumulus/pull/3051"
+    },
+    {
+      "pr_number": 3035,
+      "pr_title": "Contracts: Update Config::Debug",
+      "reviewed_at": "2023-08-24T08:36:09Z",
+      "url": "https://github.com/paritytech/cumulus/pull/3035"
+    },
+    {
+      "pr_number": 3021,
+      "pr_title": "Companion for polkadot#7591: Add BEEFY capabilities to Westend and Kusama",
+      "reviewed_at": "2023-08-22T09:49:29Z",
+      "url": "https://github.com/paritytech/cumulus/pull/3021"
+    },
+    {
+      "pr_number": 2913,
+      "pr_title": "Companion PR for contracts delegate deposit PR",
+      "reviewed_at": "2023-07-26T12:42:04Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2913"
+    },
+    {
+      "pr_number": 2740,
+      "pr_title": "Replace Index for Nonce",
+      "reviewed_at": "2023-07-14T08:47:04Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2740"
+    },
+    {
+      "pr_number": 2707,
+      "pr_title": "Update all uses of pallet-aura to disallow multiple blocks per slot",
+      "reviewed_at": "2023-06-09T21:47:55Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2707"
+    },
+    {
+      "pr_number": 2510,
+      "pr_title": "Companion PR for add events to ContractResult",
+      "reviewed_at": "2023-05-03T14:36:23Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2510"
+    },
+    {
+      "pr_number": 2306,
+      "pr_title": "Companion for substrate#13565",
+      "reviewed_at": "2023-04-26T13:25:19Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2306"
+    },
+    {
+      "pr_number": 2409,
+      "pr_title": "Companion PR for contract deletion updates",
+      "reviewed_at": "2023-03-31T11:46:23Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2409"
+    }
+  ]
+}

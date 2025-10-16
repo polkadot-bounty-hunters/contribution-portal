@@ -1,0 +1,184 @@
+{
+  "commits": [
+    {
+      "sha": "8423d2f59e53bf178d3462b28ddd7152d83de17e",
+      "message": "remove deprecated remove_prefix to clear era_info (#13460)",
+      "date": "2023-05-16T16:39:21Z",
+      "url": "https://github.com/paritytech/substrate/commit/8423d2f59e53bf178d3462b28ddd7152d83de17e"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14090,
+      "title": "try-runtime-cli: parallel key scraping",
+      "state": "OPEN",
+      "created_at": "2023-05-07T22:28:22Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "surajk-m",
+      "url": "https://github.com/paritytech/substrate/pull/14090",
+      "ready_for_review_at": "2023-05-07T22:28:22Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-05-08T17:33:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "surajk-m",
+          "submitted_at": "2023-05-08T18:00:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-09T05:57:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "surajk-m",
+          "submitted_at": "2023-05-09T22:21:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "surajk-m",
+          "submitted_at": "2023-05-09T22:22:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "surajk-m",
+          "submitted_at": "2023-05-09T22:23:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-10T06:50:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "surajk-m",
+          "submitted_at": "2023-05-10T07:40:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-05-31T06:50:50Z",
+          "state": "CHANGES_REQUESTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-06-30T09:05:30Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-08-01T11:26:20Z"
+        },
+        {
+          "commenter": "surajk-m",
+          "commented_at": "2023-08-03T01:13:01Z"
+        }
+      ],
+      "time_to_first_review_hours": 19.086388888888887,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13460,
+      "title": "remove deprecated remove_prefix to clear era_info",
+      "state": "MERGED",
+      "created_at": "2023-02-24T12:38:34Z",
+      "closed_at": "2023-05-16T16:39:22Z",
+      "merged_at": "2023-05-16T16:39:22Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "surajk-m",
+      "url": "https://github.com/paritytech/substrate/pull/13460",
+      "ready_for_review_at": "2023-02-24T12:38:34Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-11T14:18:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-04-12T17:54:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "surajk-m",
+          "submitted_at": "2023-04-12T17:55:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-05-16T08:58:59Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-02-24T12:38:40Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-04-06T15:23:11Z"
+        },
+        {
+          "commenter": "surajk-m",
+          "commented_at": "2023-04-06T21:02:33Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-05-12T20:53:58Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-05-13T17:31:38Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-13T17:31:42Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-05-13T17:34:03Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-05-16T08:58:28Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-16T08:58:36Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-05-16T16:23:45Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-05-16T16:23:52Z"
+        }
+      ],
+      "time_to_first_review_hours": 1105.6680555555556,
+      "time_to_merge_hours": 1948.0133333333333
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 13460,
+      "pr_title": "remove deprecated remove_prefix to clear era_info",
+      "reviewed_at": "2024-01-30T23:48:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/13460"
+    },
+    {
+      "pr_number": 14090,
+      "pr_title": "try-runtime-cli: parallel key scraping",
+      "reviewed_at": "2023-08-03T01:13:04Z",
+      "url": "https://github.com/paritytech/substrate/pull/14090"
+    }
+  ]
+}

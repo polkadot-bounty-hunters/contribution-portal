@@ -1,0 +1,26 @@
+{
+  "commits": [
+    {
+      "sha": "e930932e31cf64de9def739bda629d3a23138ee2",
+      "message": "Renaming CLI prunning and keep-blocks flags (#1514)",
+      "date": "2022-08-08T14:22:57Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e930932e31cf64de9def739bda629d3a23138ee2"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 435,
+      "pr_title": "Bridges inegration testing script nit - externalize `polakdot-sdk` path",
+      "reviewed_at": "2024-08-16T07:05:15Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/435"
+    },
+    {
+      "pr_number": 387,
+      "pr_title": "Fix the CHANGELOG",
+      "reviewed_at": "2024-07-16T21:05:54Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/387"
+    }
+  ]
+}

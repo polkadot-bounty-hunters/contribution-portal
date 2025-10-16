@@ -1,0 +1,154 @@
+{
+  "commits": [
+    {
+      "sha": "19e6611dfea616d3108683df9d9c9827a6ef366b",
+      "message": "`GenesisBuild<T,I>` deprecated. `BuildGenesisConfig` added (#2757)",
+      "date": "2023-07-12T12:00:17Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/19e6611dfea616d3108683df9d9c9827a6ef366b"
+    },
+    {
+      "sha": "7c36c6d08d9a3e31b99e024cea927b8916e60ecc",
+      "message": "`GenesisBuild<T,I>` deprecated. `BuildGenesisConfig` added (#7397)",
+      "date": "2023-07-12T11:04:15Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/7c36c6d08d9a3e31b99e024cea927b8916e60ecc"
+    },
+    {
+      "sha": "417377b9390965ccf1d0a94c539fc7992d0ec977",
+      "message": "Serialize/Deserialize trait implemented in no-std for numerous types (#2660)",
+      "date": "2023-06-01T16:50:24Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/417377b9390965ccf1d0a94c539fc7992d0ec977"
+    },
+    {
+      "sha": "18e5686675840ae4ac23857fbc762434f9621333",
+      "message": "pallets: implement `Default` for `GenesisConfig` in `no_std` (#2624)",
+      "date": "2023-05-25T23:03:13Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/18e5686675840ae4ac23857fbc762434f9621333"
+    },
+    {
+      "sha": "0c830d2fcbf0a5dc52a392e9cfb6d4752a2d0d54",
+      "message": "`BlockId` removal: `BlockBuilderProvider::new_block_at` (#2219)",
+      "date": "2023-02-21T20:28:52Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/0c830d2fcbf0a5dc52a392e9cfb6d4752a2d0d54"
+    },
+    {
+      "sha": "7a814eab5ad1f18a4ba7287dc77ea19d9438895a",
+      "message": "`BlockId` removal: refactor of runtime API (#2190)",
+      "date": "2023-02-21T00:23:46Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/7a814eab5ad1f18a4ba7287dc77ea19d9438895a"
+    },
+    {
+      "sha": "8a85af5c7fc5885a9878b8146e03797cad9491e6",
+      "message": "nix upgrade to 0.26.1 (#2135)",
+      "date": "2023-01-26T12:47:17Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/8a85af5c7fc5885a9878b8146e03797cad9491e6"
+    },
+    {
+      "sha": "3c5bec341cfebf14bb5eb722d725ad44c35b921d",
+      "message": "BlockId removal: refactor: BlockBackend::block|block_status (#2041)",
+      "date": "2023-01-02T12:32:51Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/3c5bec341cfebf14bb5eb722d725ad44c35b921d"
+    },
+    {
+      "sha": "95eaf17229d7d62dea3c75c5c51cbb94b44c550b",
+      "message": "BlockId removal: refactor: HeaderBackend::status (#2007)",
+      "date": "2022-12-21T11:52:40Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/95eaf17229d7d62dea3c75c5c51cbb94b44c550b"
+    },
+    {
+      "sha": "9edfbc22ceb816fe4c0be8e669c9beb1c815866f",
+      "message": "BlockId removal: refactor: HeaderBackend::header (#1977)",
+      "date": "2022-12-20T12:46:44Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/9edfbc22ceb816fe4c0be8e669c9beb1c815866f"
+    },
+    {
+      "sha": "ebcf4af30d60cac6daea69e210c24f2799a9a8c3",
+      "message": "BlockId removal: &Hash to Hash (#1818)",
+      "date": "2022-11-07T22:48:44Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/ebcf4af30d60cac6daea69e210c24f2799a9a8c3"
+    },
+    {
+      "sha": "c6ba439818c2935568e25d4ec88f1480e9d8bd36",
+      "message": "Cargo.lock updated (#1824)",
+      "date": "2022-11-07T19:07:55Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/c6ba439818c2935568e25d4ec88f1480e9d8bd36"
+    },
+    {
+      "sha": "f40c5990e3cf31124bf5507d375202fa50b2a60c",
+      "message": "BlockId removal: refactor: Finalizer (#1779)",
+      "date": "2022-10-20T15:21:40Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/f40c5990e3cf31124bf5507d375202fa50b2a60c"
+    },
+    {
+      "sha": "f1597b61296aa84fdf8bab2bf9c6e64917235f47",
+      "message": "BlockId removal: refactor: StorageProvider (#1770)",
+      "date": "2022-10-18T14:34:14Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/f1597b61296aa84fdf8bab2bf9c6e64917235f47"
+    },
+    {
+      "sha": "fce7752ebffaaf2c5a52512daf9ee9d4e7690964",
+      "message": "BlockId removal refactor: Backend::state_at (#1760)",
+      "date": "2022-10-14T11:01:29Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/fce7752ebffaaf2c5a52512daf9ee9d4e7690964"
+    }
+  ],
+  "prs": [
+    {
+      "number": 51,
+      "title": "genesis-builder: implemented for kusama and polkadot",
+      "state": "CLOSED",
+      "created_at": "2023-09-29T14:23:59Z",
+      "closed_at": "2023-11-22T09:31:23Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/51",
+      "ready_for_review_at": "2023-09-29T14:23:59Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-11-22T09:14:02Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-11-22T09:31:23Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 451,
+      "pr_title": "use RuntimeGenesisConfig in genesis config presets",
+      "reviewed_at": "2025-02-07T20:07:33Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/451"
+    },
+    {
+      "pr_number": 410,
+      "pr_title": "Add the Polkadot Coretime runtime",
+      "reviewed_at": "2024-08-30T14:05:03Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/410"
+    },
+    {
+      "pr_number": 379,
+      "pr_title": "Short benchmarking in CI with `frame-omni-bencher` + extract `chain-spec-builder` stuff to `get_preset`",
+      "reviewed_at": "2024-08-07T08:14:13Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/379"
+    },
+    {
+      "pr_number": 322,
+      "pr_title": "Update to SDK 1.13",
+      "reviewed_at": "2024-07-11T15:58:00Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/322"
+    },
+    {
+      "pr_number": 217,
+      "pr_title": "Kusama People Chain",
+      "reviewed_at": "2024-03-18T15:42:50Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/217"
+    }
+  ]
+}

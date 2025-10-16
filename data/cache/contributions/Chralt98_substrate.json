@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 12310,
+      "pr_title": "Asset Pallet: Support repeated destroys to safely destroy large assets",
+      "reviewed_at": "2023-02-14T10:44:39Z",
+      "url": "https://github.com/paritytech/substrate/pull/12310"
+    }
+  ]
+}

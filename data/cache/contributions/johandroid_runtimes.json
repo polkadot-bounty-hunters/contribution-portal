@@ -1,0 +1,23 @@
+{
+  "commits": [],
+  "prs": [
+    {
+      "number": 967,
+      "title": "Enhancement/migration stable2509",
+      "state": "OPEN",
+      "created_at": "2025-10-13T14:02:26Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "johandroid",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/967",
+      "ready_for_review_at": "2025-10-13T14:02:26Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

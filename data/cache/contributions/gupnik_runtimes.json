@@ -1,0 +1,32 @@
+{
+  "commits": [
+    {
+      "sha": "dc8aacb5960c164e6ded3589dc03835cf44f15fe",
+      "message": "Clears Old Storage for Session pallet (#7132)",
+      "date": "2023-04-27T04:32:15Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/dc8aacb5960c164e6ded3589dc03835cf44f15fe"
+    },
+    {
+      "sha": "ce8adebb2a886f9c1a4f33b31fdda3622d51f7b3",
+      "message": "Offences Migration v1: Removes `ReportsByKindIndex` (#7114)",
+      "date": "2023-04-26T04:08:08Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/ce8adebb2a886f9c1a4f33b31fdda3622d51f7b3"
+    }
+  ],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 339,
+      "pr_title": "Kusama People: Clear judgements",
+      "reviewed_at": "2024-06-13T07:57:08Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/339"
+    },
+    {
+      "pr_number": 137,
+      "pr_title": "Upgrade to latest `polkadot-sdk@1.5` release",
+      "reviewed_at": "2024-02-15T05:33:27Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/137"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 3036,
+      "pr_title": "Companion for: contracts: Expose environment types for offchain tooling",
+      "reviewed_at": "2023-08-23T11:45:52Z",
+      "url": "https://github.com/paritytech/cumulus/pull/3036"
+    }
+  ]
+}

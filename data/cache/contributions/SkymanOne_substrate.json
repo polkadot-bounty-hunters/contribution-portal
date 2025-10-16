@@ -1,0 +1,37 @@
+{
+  "commits": [],
+  "prs": [],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14750,
+      "pr_title": "contracts: Expose environment types for offchain tooling",
+      "reviewed_at": "2024-01-30T23:49:00Z",
+      "url": "https://github.com/paritytech/substrate/pull/14750"
+    },
+    {
+      "pr_number": 14626,
+      "pr_title": "Contracts: Enabled signed extension (#14565)",
+      "reviewed_at": "2024-01-30T23:48:55Z",
+      "url": "https://github.com/paritytech/substrate/pull/14626"
+    },
+    {
+      "pr_number": 13901,
+      "pr_title": "contracts: stabilize `[seal0] call_runtime()`",
+      "reviewed_at": "2023-04-13T13:57:30Z",
+      "url": "https://github.com/paritytech/substrate/pull/13901"
+    },
+    {
+      "pr_number": 13488,
+      "pr_title": "Expose `ChargedAmount`",
+      "reviewed_at": "2023-03-01T13:35:33Z",
+      "url": "https://github.com/paritytech/substrate/pull/13488"
+    },
+    {
+      "pr_number": 12937,
+      "pr_title": "Node template isn't licensed, remove left-over GPL header",
+      "reviewed_at": "2022-12-15T13:06:59Z",
+      "url": "https://github.com/paritytech/substrate/pull/12937"
+    }
+  ]
+}

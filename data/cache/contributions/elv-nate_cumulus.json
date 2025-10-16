@@ -1,0 +1,46 @@
+{
+  "commits": [
+    {
+      "sha": "777e72804cdeb6a1ea4c40f1fd6d61089ea21568",
+      "message": "Fix typos in release.md (#1491)",
+      "date": "2022-08-02T11:01:50Z",
+      "url": "https://github.com/paritytech/cumulus/commit/777e72804cdeb6a1ea4c40f1fd6d61089ea21568"
+    }
+  ],
+  "prs": [
+    {
+      "number": 1491,
+      "title": "Fix typos in release.md",
+      "state": "MERGED",
+      "created_at": "2022-08-01T22:22:30Z",
+      "closed_at": "2022-08-02T11:01:51Z",
+      "merged_at": "2022-08-02T11:01:51Z",
+      "merged_by": "bkchr",
+      "author": "elv-nate",
+      "url": "https://github.com/paritytech/cumulus/pull/1491",
+      "ready_for_review_at": "2022-08-01T22:22:30Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-02T08:51:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-08-02T11:00:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2022-08-01T22:22:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 10.4775,
+      "time_to_merge_hours": 12.655833333333334
+    }
+  ],
+  "issues": [],
+  "reviews": []
+}

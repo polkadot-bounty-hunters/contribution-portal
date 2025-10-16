@@ -1,0 +1,150 @@
+{
+  "commits": [
+    {
+      "sha": "86731af2629fdedc39a31bd9666fdd1b5df5ed2d",
+      "message": "Make Pay trait from salaries pallet more generic (#13609)",
+      "date": "2023-03-15T21:04:28Z",
+      "url": "https://github.com/paritytech/substrate/commit/86731af2629fdedc39a31bd9666fdd1b5df5ed2d"
+    }
+  ],
+  "prs": [
+    {
+      "number": 13609,
+      "title": "Make Pay trait from salaries pallet more generic",
+      "state": "MERGED",
+      "created_at": "2023-03-15T15:14:43Z",
+      "closed_at": "2023-03-15T21:04:29Z",
+      "merged_at": "2023-03-15T21:04:29Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "franciscoaguirre",
+      "url": "https://github.com/paritytech/substrate/pull/13609",
+      "ready_for_review_at": "2023-03-15T15:14:43Z",
+      "reviews": [
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-03-15T15:46:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "gavofyork",
+          "submitted_at": "2023-03-15T16:21:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "tonyalaribe",
+          "submitted_at": "2023-03-15T17:41:56Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2023-03-15T17:56:53Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-03-15T19:23:19Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-03-15T18:09:50Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-03-15T18:11:31Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-03-15T18:22:55Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-03-15T18:50:29Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-03-15T19:52:07Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-15T19:52:13Z"
+        },
+        {
+          "commenter": "franciscoaguirre",
+          "commented_at": "2023-03-15T19:52:50Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-03-15T19:52:57Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.5305555555555556,
+      "time_to_merge_hours": 5.829444444444444
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14627,
+      "pr_title": "upgrade to macro_magic 0.4.2",
+      "reviewed_at": "2024-01-30T23:48:55Z",
+      "url": "https://github.com/paritytech/substrate/pull/14627"
+    },
+    {
+      "pr_number": 14491,
+      "pr_title": "Name Service Pallet as Collectives Service",
+      "reviewed_at": "2024-01-30T23:48:53Z",
+      "url": "https://github.com/paritytech/substrate/pull/14491"
+    },
+    {
+      "pr_number": 14489,
+      "pr_title": "Whitelist key `:intrablock_entropy`",
+      "reviewed_at": "2024-01-30T23:48:49Z",
+      "url": "https://github.com/paritytech/substrate/pull/14489"
+    },
+    {
+      "pr_number": 14395,
+      "pr_title": "changes to nfts pallet for xcm integration",
+      "reviewed_at": "2024-01-30T23:48:45Z",
+      "url": "https://github.com/paritytech/substrate/pull/14395"
+    },
+    {
+      "pr_number": 13607,
+      "pr_title": "Pallets: Treasury `spend()` should use `Pay` trait",
+      "reviewed_at": "2024-01-30T23:48:38Z",
+      "url": "https://github.com/paritytech/substrate/pull/13607"
+    },
+    {
+      "pr_number": 14101,
+      "pr_title": "Improve documentation for `fast-unstake` pallet",
+      "reviewed_at": "2024-01-30T23:48:36Z",
+      "url": "https://github.com/paritytech/substrate/pull/14101"
+    },
+    {
+      "pr_number": 14158,
+      "pr_title": "Remove the `Copy` bound on `AssetId`",
+      "reviewed_at": "2024-01-30T23:48:29Z",
+      "url": "https://github.com/paritytech/substrate/pull/14158"
+    },
+    {
+      "pr_number": 14106,
+      "pr_title": "Timeout only if the referendum is not queued",
+      "reviewed_at": "2024-01-30T23:48:27Z",
+      "url": "https://github.com/paritytech/substrate/pull/14106"
+    },
+    {
+      "pr_number": 14674,
+      "pr_title": "Add discord invite to contributing doc",
+      "reviewed_at": "2023-08-16T13:45:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/14674"
+    },
+    {
+      "pr_number": 14365,
+      "pr_title": "fix(remote-externalities): child trie not loaded",
+      "reviewed_at": "2023-06-21T14:16:35Z",
+      "url": "https://github.com/paritytech/substrate/pull/14365"
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "commits": [
+    {
+      "sha": "83ed732cf34820724240f86e5ac7597552411c53",
+      "message": "replaced println with log Closes #12338 (#12348)",
+      "date": "2022-10-28T12:16:18Z",
+      "url": "https://github.com/paritytech/substrate/commit/83ed732cf34820724240f86e5ac7597552411c53"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14717,
+      "title": " ext fees inclusion on tip",
+      "state": "CLOSED",
+      "created_at": "2023-08-04T23:24:52Z",
+      "closed_at": "2025-07-17T00:26:31Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/14717",
+      "ready_for_review_at": "2023-08-04T23:24:52Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-08-04T23:44:04Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13446,
+      "title": "Try State hook in pallet treasury",
+      "state": "CLOSED",
+      "created_at": "2023-02-23T11:18:11Z",
+      "closed_at": "2023-03-08T11:57:59Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/13446",
+      "ready_for_review_at": "2023-02-23T11:18:11Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-02-23T11:21:35Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-02-23T11:21:35Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12637,
+      "title": "First iteration of Storage append",
+      "state": "CLOSED",
+      "created_at": "2022-11-07T22:35:24Z",
+      "closed_at": "2022-12-30T04:33:59Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12637",
+      "ready_for_review_at": "2022-11-07T22:35:24Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-10T21:21:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "MrishoLukamba",
+          "submitted_at": "2022-11-10T21:57:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "MrishoLukamba",
+          "submitted_at": "2022-11-10T21:57:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-11-13T19:10:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "MrishoLukamba",
+          "submitted_at": "2022-11-16T00:12:58Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-12-16T01:51:35Z"
+        }
+      ],
+      "time_to_first_review_hours": 70.76472222222222,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12509,
+      "title": "Dont Re-export sp-arithmetic from sp-runtime",
+      "state": "CLOSED",
+      "created_at": "2022-10-17T10:08:38Z",
+      "closed_at": "2023-01-08T01:56:12Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12509",
+      "ready_for_review_at": "2022-10-17T10:08:38Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-18T08:04:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-18T08:05:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2022-10-24T07:36:57Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:43:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:43:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:45:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:46:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:46:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:47:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-10-24T08:48:03Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "MrishoLukamba",
+          "submitted_at": "2022-10-24T09:21:26Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-17T18:05:24Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-18T08:36:08Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-19T13:29:22Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-19T13:46:24Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-10-19T13:57:35Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-10-20T03:50:37Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-20T11:29:56Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-20T11:51:30Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-10-20T20:24:09Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-22T00:00:52Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-10-22T03:47:49Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-22T09:15:38Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-11-24T00:48:32Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-11-24T23:14:48Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-12-25T01:35:23Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-09T10:07:58Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-09T10:08:00Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-09T10:38:43Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-05-09T10:38:46Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-05-09T10:40:23Z"
+        }
+      ],
+      "time_to_first_review_hours": 21.926666666666666,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12348,
+      "title": "replaced println with log Closes #12338",
+      "state": "MERGED",
+      "created_at": "2022-09-25T12:51:49Z",
+      "closed_at": "2022-10-28T12:16:18Z",
+      "merged_at": "2022-10-28T12:16:18Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12348",
+      "ready_for_review_at": "2022-09-25T12:51:49Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-09-25T23:48:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-09-25T23:49:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-09-25T23:50:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-27T16:41:39Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-27T16:47:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2022-10-27T16:51:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-27T19:24:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-10-27T22:43:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-10-27T22:44:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-10-27T22:44:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-10-27T22:44:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-10-28T08:43:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-25T23:50:24Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-26T10:11:24Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-26T11:03:05Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-10-26T21:49:20Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-10-27T12:10:11Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-27T13:56:35Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-10-28T08:51:39Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-10-28T08:51:43Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2022-10-28T08:52:53Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-10-28T12:16:10Z"
+        }
+      ],
+      "time_to_first_review_hours": 10.952777777777778,
+      "time_to_merge_hours": 791.4080555555555
+    },
+    {
+      "number": 12289,
+      "title": "used MaxUnlockingChunks from config",
+      "state": "CLOSED",
+      "created_at": "2022-09-18T10:18:45Z",
+      "closed_at": "2022-09-24T10:13:04Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12289",
+      "ready_for_review_at": "2022-09-18T10:18:45Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-19T09:10:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:19:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:20:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:20:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:20:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:20:50Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2022-09-24T08:21:17Z",
+          "state": "CHANGES_REQUESTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-18T10:20:50Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-19T09:04:33Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-19T13:04:07Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-09-20T08:47:14Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-20T08:56:00Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-22T20:26:52Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-09-22T21:04:13Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-23T08:55:15Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-09-23T11:17:54Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-24T09:39:58Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-09-24T10:13:04Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-24T10:52:02Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2022-09-24T10:54:09Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-24T10:54:11Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2022-09-25T08:09:10Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2022-09-25T08:09:13Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-25T09:54:54Z"
+        }
+      ],
+      "time_to_first_review_hours": 22.863888888888887,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12288,
+      "title": "updated MultiplierUpdate trait",
+      "state": "CLOSED",
+      "created_at": "2022-09-16T23:54:21Z",
+      "closed_at": "2022-09-20T13:07:16Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12288",
+      "ready_for_review_at": "2022-09-16T23:54:21Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-18T09:46:54Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12084,
+      "title": "added add_member_to_rank with sudo origin",
+      "state": "CLOSED",
+      "created_at": "2022-08-22T14:57:40Z",
+      "closed_at": "2023-01-07T08:40:15Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12084",
+      "ready_for_review_at": "2022-08-22T14:57:40Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-25T12:11:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-25T12:11:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-25T12:11:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-25T12:11:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-09-21T22:20:23Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-08-22T14:59:27Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-08-22T15:02:20Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-08-22T15:51:26Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-09-21T22:22:25Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-09-21T22:22:33Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-09-30T16:57:24Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-09-30T17:08:07Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-09-30T17:08:13Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-10-31T02:37:54Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-10-31T07:59:04Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2022-11-30T13:32:53Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-11-30T15:43:10Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2022-11-30T15:43:26Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2022-11-30T15:43:32Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-11-30T15:46:44Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-11-30T15:46:44Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2022-12-07T16:28:04Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-01-06T23:34:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 69.22222222222223,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12078,
+      "title": "Mhl fellowship kitchensink",
+      "state": "CLOSED",
+      "created_at": "2022-08-20T21:23:19Z",
+      "closed_at": "2022-08-22T15:49:26Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12078",
+      "ready_for_review_at": "2022-08-20T21:23:19Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2022-08-22T09:48:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "MrishoLukamba",
+          "submitted_at": "2022-08-22T10:59:03Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2022-08-20T21:23:26Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-08-22T15:49:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 36.41583333333333,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12050,
+      "title": "Exposed add_member_to_rank ",
+      "state": "CLOSED",
+      "created_at": "2022-08-16T16:36:58Z",
+      "closed_at": "2022-08-22T15:50:31Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "MrishoLukamba",
+      "url": "https://github.com/paritytech/substrate/pull/12050",
+      "ready_for_review_at": "2022-08-16T16:36:58Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-16T17:24:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-16T17:24:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-16T17:24:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2022-08-16T17:25:12Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2022-08-16T16:37:04Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-08-16T16:38:39Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-08-16T17:26:26Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-08-16T19:07:40Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-18T21:54:26Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-18T21:54:37Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2022-08-18T21:59:55Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2022-08-19T00:17:21Z"
+        },
+        {
+          "commenter": "MrishoLukamba",
+          "commented_at": "2022-08-22T15:50:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.785,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 12637,
+      "pr_title": "First iteration of Storage append",
+      "reviewed_at": "2023-08-24T11:44:07Z",
+      "url": "https://github.com/paritytech/substrate/pull/12637"
+    },
+    {
+      "pr_number": 12509,
+      "pr_title": "Dont Re-export sp-arithmetic from sp-runtime",
+      "reviewed_at": "2023-05-09T10:40:23Z",
+      "url": "https://github.com/paritytech/substrate/pull/12509"
+    },
+    {
+      "pr_number": 12078,
+      "pr_title": "Mhl fellowship kitchensink",
+      "reviewed_at": "2022-08-22T15:49:46Z",
+      "url": "https://github.com/paritytech/substrate/pull/12078"
+    }
+  ]
+}

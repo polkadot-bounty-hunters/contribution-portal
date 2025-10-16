@@ -1,0 +1,666 @@
+{
+  "commits": [
+    {
+      "sha": "b2b2e650f204d9ee2a7b67f5b9cc6ab146ded877",
+      "message": "implemented `contains_prefix` for StorageDoubleMap and StorageNMap (#13232)",
+      "date": "2023-02-01T17:11:34Z",
+      "url": "https://github.com/paritytech/substrate/commit/b2b2e650f204d9ee2a7b67f5b9cc6ab146ded877"
+    },
+    {
+      "sha": "9762613a130235317467f66d6e6f46bfa30a5674",
+      "message": "mutate_exists for StorageValue with ValueQuery (#13245)",
+      "date": "2023-01-27T23:47:17Z",
+      "url": "https://github.com/paritytech/substrate/commit/9762613a130235317467f66d6e6f46bfa30a5674"
+    }
+  ],
+  "prs": [
+    {
+      "number": 14585,
+      "title": "removed `without_storage_info` from `pallet-collective`",
+      "state": "CLOSED",
+      "created_at": "2023-07-16T15:49:35Z",
+      "closed_at": "2025-08-26T19:44:52Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "muraca",
+      "url": "https://github.com/paritytech/substrate/pull/14585",
+      "ready_for_review_at": "2023-07-16T15:49:35Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-07-17T22:43:58Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "juangirini",
+          "submitted_at": "2023-07-18T05:26:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-07-18T08:29:22Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-07-16T15:51:53Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-17T07:04:46Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-17T07:04:51Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-07-17T07:44:32Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-07-17T15:24:11Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-18T08:11:46Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-07-18T08:12:11Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-08-18T15:14:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 30.906388888888888,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14355,
+      "title": "remove `without_storage_info` from `pallet-collective`",
+      "state": "CLOSED",
+      "created_at": "2023-06-12T18:44:54Z",
+      "closed_at": "2023-07-16T15:50:22Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "muraca",
+      "url": "https://github.com/paritytech/substrate/pull/14355",
+      "ready_for_review_at": "2023-06-12T18:44:54Z",
+      "reviews": [
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-06-13T20:33:40Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-06-15T15:39:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-06-15T20:21:34Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-07-03T22:24:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-07-04T08:52:01Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-07-04T09:33:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-07-04T12:03:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-07-04T12:05:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-07-14T12:30:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-07-14T12:32:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-07-15T09:01:12Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-06-20T08:20:00Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-06-20T17:14:03Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-20T17:14:07Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-06-20T18:29:25Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-20T18:29:29Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-06-20T18:33:19Z"
+        },
+        {
+          "commenter": "command-bot[bot]",
+          "commented_at": "2023-06-20T19:03:48Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-07-16T12:50:15Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-07-16T15:50:21Z"
+        }
+      ],
+      "time_to_first_review_hours": 25.81277777777778,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13365,
+      "title": "remove storage getters in FRAME",
+      "state": "CLOSED",
+      "created_at": "2023-02-11T17:50:39Z",
+      "closed_at": "2025-08-26T19:44:51Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "muraca",
+      "url": "https://github.com/paritytech/substrate/pull/13365",
+      "ready_for_review_at": "2023-02-11T17:50:39Z",
+      "reviews": [
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-02-20T21:35:51Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-02-20T21:39:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "atenjin",
+          "submitted_at": "2023-04-12T09:46:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-04-12T15:14:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xlc",
+          "submitted_at": "2023-04-12T23:37:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-04-13T06:52:54Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-04-13T07:37:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-04-13T08:41:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-04-13T08:43:26Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-04-13T08:46:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "liamaharon",
+          "submitted_at": "2023-04-13T11:28:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "atenjin",
+          "submitted_at": "2023-04-14T04:01:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "atenjin",
+          "submitted_at": "2023-04-14T04:06:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-04-14T07:54:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "atenjin",
+          "submitted_at": "2023-04-17T09:53:49Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-02-11T17:55:17Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-02-11T22:08:24Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-02-11T22:24:05Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-02-12T10:05:06Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-02-13T21:18:20Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-02-20T21:37:32Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-03-10T15:25:12Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-03-10T15:40:36Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-03-19T02:15:31Z"
+        },
+        {
+          "commenter": "altaua",
+          "commented_at": "2023-03-29T18:16:27Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2023-04-11T09:07:29Z"
+        },
+        {
+          "commenter": "liamaharon",
+          "commented_at": "2023-04-11T09:39:49Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-04-12T15:39:27Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-04-12T15:47:49Z"
+        },
+        {
+          "commenter": "xlc",
+          "commented_at": "2023-04-12T15:53:12Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-04-12T15:58:38Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-04-12T20:12:48Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-04-12T21:24:19Z"
+        },
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-04-19T11:11:23Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-07-12T11:15:12Z"
+        },
+        {
+          "commenter": "juangirini",
+          "commented_at": "2023-07-12T12:36:21Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-07-12T12:43:03Z"
+        },
+        {
+          "commenter": "stale[bot]",
+          "commented_at": "2023-08-11T13:50:09Z"
+        }
+      ],
+      "time_to_first_review_hours": 219.75333333333333,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13245,
+      "title": "mutate_exists for StorageValue with ValueQuery",
+      "state": "MERGED",
+      "created_at": "2023-01-26T20:36:03Z",
+      "closed_at": "2023-01-27T23:47:18Z",
+      "merged_at": "2023-01-27T23:47:17Z",
+      "merged_by": "paritytech-processbot[bot]",
+      "author": "muraca",
+      "url": "https://github.com/paritytech/substrate/pull/13245",
+      "ready_for_review_at": "2023-01-26T20:36:03Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-01-26T20:40:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2023-01-26T23:38:58Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-01-27T14:25:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T21:24:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T21:41:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T21:41:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-27T22:04:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T23:13:57Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-01-27T11:36:43Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-27T11:36:56Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-27T11:47:23Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-01-27T14:24:11Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-01-27T22:24:11Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2023-01-27T22:45:46Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-27T22:45:54Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-01-27T22:49:35Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-27T23:47:09Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-01-28T00:14:39Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-01-28T00:14:43Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.0725,
+      "time_to_merge_hours": 27.18722222222222
+    },
+    {
+      "number": 13232,
+      "title": "implemented `contains_prefix` for StorageDoubleMap and StorageNMap",
+      "state": "MERGED",
+      "created_at": "2023-01-24T16:00:24Z",
+      "closed_at": "2023-02-01T17:11:35Z",
+      "merged_at": "2023-02-01T17:11:35Z",
+      "merged_by": "ggwpez",
+      "author": "muraca",
+      "url": "https://github.com/paritytech/substrate/pull/13232",
+      "ready_for_review_at": "2023-01-24T16:00:24Z",
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-24T16:15:22Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2023-01-24T16:34:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-24T16:40:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-24T17:03:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2023-01-25T16:45:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-25T16:51:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2023-01-26T08:13:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-26T10:55:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-26T20:32:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2023-01-26T21:51:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cheme",
+          "submitted_at": "2023-01-26T21:51:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-26T22:01:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2023-01-27T09:04:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2023-01-27T09:04:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-27T17:13:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T21:16:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T21:17:19Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "muraca",
+          "submitted_at": "2023-01-27T21:20:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2023-01-27T23:18:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "shawntabrizi",
+          "submitted_at": "2023-01-28T00:15:59Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2023-01-24T16:00:31Z"
+        },
+        {
+          "commenter": "shawntabrizi",
+          "commented_at": "2023-01-28T00:20:29Z"
+        },
+        {
+          "commenter": "substrate-tip-bot[bot]",
+          "commented_at": "2023-01-28T00:20:33Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-01-30T13:45:38Z"
+        },
+        {
+          "commenter": "muraca",
+          "commented_at": "2023-02-01T12:21:15Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2023-02-01T16:38:04Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-01T16:38:12Z"
+        },
+        {
+          "commenter": "paritytech-processbot[bot]",
+          "commented_at": "2023-02-01T16:46:03Z"
+        },
+        {
+          "commenter": "Polkadot-Forum",
+          "commented_at": "2023-02-24T16:32:24Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.24944444444444444,
+      "time_to_merge_hours": 193.1863888888889
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 14585,
+      "pr_title": "removed `without_storage_info` from `pallet-collective`",
+      "reviewed_at": "2025-08-26T19:44:52Z",
+      "url": "https://github.com/paritytech/substrate/pull/14585"
+    },
+    {
+      "pr_number": 13365,
+      "pr_title": "remove storage getters in FRAME",
+      "reviewed_at": "2025-08-26T19:44:51Z",
+      "url": "https://github.com/paritytech/substrate/pull/13365"
+    },
+    {
+      "pr_number": 14355,
+      "pr_title": "remove `without_storage_info` from `pallet-collective`",
+      "reviewed_at": "2024-01-30T23:48:50Z",
+      "url": "https://github.com/paritytech/substrate/pull/14355"
+    },
+    {
+      "pr_number": 13232,
+      "pr_title": "implemented `contains_prefix` for StorageDoubleMap and StorageNMap",
+      "reviewed_at": "2023-02-24T16:32:24Z",
+      "url": "https://github.com/paritytech/substrate/pull/13232"
+    },
+    {
+      "pr_number": 13245,
+      "pr_title": "mutate_exists for StorageValue with ValueQuery",
+      "reviewed_at": "2023-01-28T00:14:43Z",
+      "url": "https://github.com/paritytech/substrate/pull/13245"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "commits": [
+    {
+      "sha": "bc78ce54c7337ffc69310d8d2b8479f247d65b45",
+      "message": "Better scoped fallback in read_messaging_state_snapshot()  (#2852)",
+      "date": "2023-07-11T11:30:47Z",
+      "url": "https://github.com/paritytech/cumulus/commit/bc78ce54c7337ffc69310d8d2b8479f247d65b45"
+    }
+  ],
+  "prs": [
+    {
+      "number": 2911,
+      "title": "Feature Flagging Consensus Hook Type Parameter",
+      "state": "MERGED",
+      "created_at": "2023-07-19T22:25:14Z",
+      "closed_at": "2023-07-20T22:57:50Z",
+      "merged_at": "2023-07-20T22:57:50Z",
+      "merged_by": "rphmeier",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/cumulus/pull/2911",
+      "ready_for_review_at": "2023-07-19T22:25:14Z",
+      "reviews": [
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-07-19T22:47:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-07-19T22:47:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-07-19T22:48:48Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-07-20T00:04:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-07-20T01:13:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "BradleyOlson64",
+          "submitted_at": "2023-07-20T01:25:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "slumber",
+          "submitted_at": "2023-07-20T08:23:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-07-20T20:37:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-07-20T20:38:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "slumber",
+          "submitted_at": "2023-07-21T08:16:16Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.36527777777777776,
+      "time_to_merge_hours": 24.543333333333333
+    },
+    {
+      "number": 2852,
+      "title": "Better scoped fallback in read_messaging_state_snapshot() ",
+      "state": "MERGED",
+      "created_at": "2023-07-11T00:15:31Z",
+      "closed_at": "2023-07-11T11:30:48Z",
+      "merged_at": "2023-07-11T11:30:48Z",
+      "merged_by": "bkchr",
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/cumulus/pull/2852",
+      "ready_for_review_at": "2023-07-11T00:15:31Z",
+      "reviews": [
+        {
+          "reviewer": "rphmeier",
+          "submitted_at": "2023-07-11T10:07:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "slumber",
+          "submitted_at": "2023-07-11T10:10:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2023-07-11T11:30:07Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 9.860277777777778,
+      "time_to_merge_hours": 11.254722222222222
+    },
+    {
+      "number": 2850,
+      "title": "Better scoped fallback in `read_messaging_state_snapshot()`",
+      "state": "CLOSED",
+      "created_at": "2023-07-10T22:17:13Z",
+      "closed_at": "2023-07-11T00:24:43Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "BradleyOlson64",
+      "url": "https://github.com/paritytech/cumulus/pull/2850",
+      "ready_for_review_at": "2023-07-10T22:17:13Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-cicd-pr",
+          "commented_at": "2023-07-10T22:28:31Z"
+        },
+        {
+          "commenter": "BradleyOlson64",
+          "commented_at": "2023-07-11T00:24:42Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
+  "issues": [],
+  "reviews": [
+    {
+      "pr_number": 2864,
+      "pr_title": "Integrate new Aura / Parachain Consensus Logic in Parachain-Template / Polkadot-Parachain",
+      "reviewed_at": "2023-08-03T16:04:54Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2864"
+    },
+    {
+      "pr_number": 2948,
+      "pr_title": "parachain-system: update RelevantMessagingState according to the unincluded segment",
+      "reviewed_at": "2023-08-02T11:17:25Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2948"
+    },
+    {
+      "pr_number": 2911,
+      "pr_title": "Feature Flagging Consensus Hook Type Parameter",
+      "reviewed_at": "2023-07-21T08:16:16Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2911"
+    },
+    {
+      "pr_number": 2573,
+      "pr_title": "Asynchronous-backing compatible Aura, not plugged in",
+      "reviewed_at": "2023-07-11T11:56:11Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2573"
+    },
+    {
+      "pr_number": 2772,
+      "pr_title": "CollationGenerationConfig closure is now optional",
+      "reviewed_at": "2023-07-11T10:28:21Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2772"
+    },
+    {
+      "pr_number": 2830,
+      "pr_title": "don't wrap errors in `RelayChainInterface`",
+      "reviewed_at": "2023-07-06T15:25:35Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2830"
+    },
+    {
+      "pr_number": 2794,
+      "pr_title": "introduce a method for fetching relay chain header to `RelayChainInterface`",
+      "reviewed_at": "2023-07-05T13:02:12Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2794"
+    },
+    {
+      "pr_number": 2658,
+      "pr_title": "aura-ext: check slot in consensus hook and remove all `CheckInherents` logic",
+      "reviewed_at": "2023-07-03T13:47:08Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2658"
+    },
+    {
+      "pr_number": 2501,
+      "pr_title": "refactor unincluded segment length into a ConsensusHook",
+      "reviewed_at": "2023-06-22T01:35:08Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2501"
+    },
+    {
+      "pr_number": 2382,
+      "pr_title": "Consensus utilities and rearchitecture for more dynamic collators",
+      "reviewed_at": "2023-05-18T19:57:03Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2382"
+    },
+    {
+      "pr_number": 2236,
+      "pr_title": "The Polkadot Fellowship import",
+      "reviewed_at": "2023-04-09T10:26:13Z",
+      "url": "https://github.com/paritytech/cumulus/pull/2236"
+    }
+  ]
+}
