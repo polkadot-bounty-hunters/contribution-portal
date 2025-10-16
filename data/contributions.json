@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-10-15T03:10:28.802Z",
+  "generated_at": "2025-10-16T03:07:56.269Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 179,
     "total_commits": 186,
-    "total_prs": 270,
+    "total_prs": 271,
     "total_merged_prs": 189,
     "total_reviews": 333
   },
@@ -115,10 +115,10 @@
         "github": "marian-radu",
         "cohort": "PBA Bali 2025",
         "commits": 2,
-        "prs": 2,
+        "prs": 3,
         "merged_prs": 2,
         "reviews": 1,
-        "score": 35
+        "score": 40
       },
       {
         "name": "ryanleecode",
@@ -1804,10 +1804,10 @@
           "github": "marian-radu",
           "cohort": "PBA Bali 2025",
           "commits": 2,
-          "prs": 2,
+          "prs": 3,
           "merged_prs": 2,
           "reviews": 1,
-          "score": 35
+          "score": 40
         },
         {
           "name": "vrom911",
@@ -23749,7 +23749,7 @@
                   {
                     "pr_number": 9687,
                     "pr_title": "chore: initial statistics subsystem",
-                    "reviewed_at": "2025-10-08T19:56:41Z",
+                    "reviewed_at": "2025-10-15T21:02:57Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/9687"
                   }
                 ]
@@ -25208,6 +25208,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10032,
+                    "title": "pallet_revive: when a dry run simulates contract deployment, return the execution result data.",
+                    "state": "OPEN",
+                    "created_at": "2025-10-15T14:51:51Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10032",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 9914,
                     "title": " Wait for transaction receipt if instant seal is enabled",
