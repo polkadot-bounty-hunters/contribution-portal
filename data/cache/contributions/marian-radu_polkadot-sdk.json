@@ -15,6 +15,27 @@
   ],
   "prs": [
     {
+      "number": 10032,
+      "title": "pallet_revive: when a dry run simulates contract deployment, return the execution result data.",
+      "state": "OPEN",
+      "created_at": "2025-10-15T14:51:51Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10032",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2025-10-16T14:36:10Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9914,
       "title": " Wait for transaction receipt if instant seal is enabled",
       "state": "MERGED",
@@ -259,6 +280,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10041,
+      "pr_title": "added baltathar, charleth, dorothy, and ethan to eth-rpc and revive-d…",
+      "reviewed_at": "2025-10-16T15:32:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10041"
+    },
     {
       "pr_number": 9914,
       "pr_title": " Wait for transaction receipt if instant seal is enabled",

@@ -1122,6 +1122,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 971,
+      "pr_title": "Fix weights for BHP",
+      "reviewed_at": "2025-10-16T15:12:25Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/971"
+    },
+    {
       "pr_number": 900,
       "pr_title": "[integration-tests][ahm] Governance origins propagation",
       "reviewed_at": "2025-10-08T06:35:35Z",

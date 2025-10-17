@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "ced629a7f33430d1b425e6a3e92ca5c44a04158f",
+      "message": "Bump AH westend spec version (#10024)",
+      "date": "2025-10-16T10:31:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ced629a7f33430d1b425e6a3e92ca5c44a04158f"
+    },
+    {
       "sha": "0e3195df28c6b39d098d4149f9dbc78009e88493",
       "message": "[pallet-revive] fix subxt submit & add debug statments (#10016)",
       "date": "2025-10-14T21:35:06Z",
@@ -1121,11 +1127,11 @@
     {
       "number": 10024,
       "title": "Bump AH westend spec version",
-      "state": "OPEN",
+      "state": "MERGED",
       "created_at": "2025-10-15T08:08:01Z",
-      "closed_at": null,
-      "merged_at": null,
-      "merged_by": null,
+      "closed_at": "2025-10-16T11:05:04Z",
+      "merged_at": "2025-10-16T11:05:04Z",
+      "merged_by": "EgorPopelyaev",
       "author": "pgherveou",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10024",
       "ready_for_review_at": "2025-10-15T08:08:01Z",
@@ -1152,7 +1158,7 @@
         }
       ],
       "time_to_first_review_hours": 0.023055555555555555,
-      "time_to_merge_hours": null
+      "time_to_merge_hours": 26.950833333333332
     },
     {
       "number": 10016,
@@ -6833,6 +6839,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10041,
+      "pr_title": "added baltathar, charleth, dorothy, and ethan to eth-rpc and revive-d…",
+      "reviewed_at": "2025-10-16T15:32:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10041"
+    },
+    {
+      "pr_number": 10026,
+      "pr_title": "pallet_revive: Fix incorrect `block.gaslimit`",
+      "reviewed_at": "2025-10-15T13:09:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10026"
+    },
+    {
       "pr_number": 10018,
       "pr_title": "pallet_revive: Change EVM call opcodes to respect the gas limit passed",
       "reviewed_at": "2025-10-15T12:52:52Z",
@@ -6855,12 +6873,6 @@
       "pr_title": "Add instant seal to omni-node",
       "reviewed_at": "2025-10-15T12:04:35Z",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10008"
-    },
-    {
-      "pr_number": 10026,
-      "pr_title": "pallet_revive: Fix incorrect `block.gaslimit`",
-      "reviewed_at": "2025-10-15T12:03:30Z",
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10026"
     },
     {
       "pr_number": 9418,

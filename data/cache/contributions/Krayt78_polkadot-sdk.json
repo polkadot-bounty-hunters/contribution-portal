@@ -135,6 +135,22 @@
   ],
   "prs": [
     {
+      "number": 10045,
+      "title": "Refactor lottery pallet to use fungible traits",
+      "state": "OPEN",
+      "created_at": "2025-10-16T21:19:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10045",
+      "ready_for_review_at": "2025-10-16T21:19:18Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9610,
       "title": "Refactor indices pallet to use fungible traits",
       "state": "OPEN",
