@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "6173140aa84e3f537e8fdcbb7132d06c8fddb049",
+      "message": "pallet-multi-asset-bounties: create first version of the pallet (#8381)",
+      "date": "2025-10-17T13:43:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6173140aa84e3f537e8fdcbb7132d06c8fddb049"
+    },
+    {
       "sha": "e4f7814cbcd67321f31ea09aa0d967335095465e",
       "message": "pallet-bounties: allow bounties to never expire (#7723)",
       "date": "2025-03-18T10:25:09Z",
