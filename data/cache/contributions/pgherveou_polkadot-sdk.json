@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "1fe5ee6ec35e44e773a2d81722a235bbaadba561",
+      "message": "[pallet-revive] improve revive genesis config (#9988)",
+      "date": "2025-10-18T10:38:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1fe5ee6ec35e44e773a2d81722a235bbaadba561"
+    },
+    {
       "sha": "ced629a7f33430d1b425e6a3e92ca5c44a04158f",
       "message": "Bump AH westend spec version (#10024)",
       "date": "2025-10-16T10:31:14Z",
