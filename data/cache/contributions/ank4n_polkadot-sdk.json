@@ -6772,6 +6772,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10051,
+      "pr_title": "[AHM/Staking] Allow own stake to be collected in all pages",
+      "reviewed_at": "2025-10-19T21:18:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10051"
+    },
+    {
       "pr_number": 8313,
       "pr_title": "Add boilerplate and overview for staking-async guide book",
       "reviewed_at": "2025-10-08T10:59:32Z",
