@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "b6ef912d74af2c43b90f542e09b74abe061ff859",
+      "message": "pallet_revive: when a dry run simulates contract deployment, return the execution result data. (#10032)",
+      "date": "2025-10-20T15:34:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b6ef912d74af2c43b90f542e09b74abe061ff859"
+    },
+    {
       "sha": "1cbdb4d2e384e35e27760f24ca895b2f3d601698",
       "message": " Wait for transaction receipt if instant seal is enabled (#9914)",
       "date": "2025-10-10T16:01:50Z",

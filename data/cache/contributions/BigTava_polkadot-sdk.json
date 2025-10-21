@@ -15,6 +15,22 @@
   ],
   "prs": [
     {
+      "number": 10064,
+      "title": "multi-asset-bounties: address final comments from first draft PR",
+      "state": "OPEN",
+      "created_at": "2025-10-20T19:59:12Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "BigTava",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10064",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9658,
       "title": "feat: increase dev accounts balance",
       "state": "MERGED",
