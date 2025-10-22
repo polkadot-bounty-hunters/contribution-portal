@@ -287,6 +287,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10065,
+      "pr_title": "eth-rpc add trace logs",
+      "reviewed_at": "2025-10-21T11:35:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10065"
+    },
+    {
       "pr_number": 10041,
       "pr_title": "added baltathar, charleth, dorothy, and ethan to eth-rpc and revive-d…",
       "reviewed_at": "2025-10-16T15:32:58Z",

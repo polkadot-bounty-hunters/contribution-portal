@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "8bdc024d73d8522ba894af30954f19cca8fbff5c",
+      "message": "eth-rpc add trace logs (#10065)",
+      "date": "2025-10-21T10:57:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8bdc024d73d8522ba894af30954f19cca8fbff5c"
+    },
+    {
       "sha": "1fe5ee6ec35e44e773a2d81722a235bbaadba561",
       "message": "[pallet-revive] improve revive genesis config (#9988)",
       "date": "2025-10-18T10:38:44Z",
@@ -1130,6 +1136,52 @@
     }
   ],
   "prs": [
+    {
+      "number": 10065,
+      "title": "eth-rpc add trace logs",
+      "state": "MERGED",
+      "created_at": "2025-10-21T07:39:07Z",
+      "closed_at": "2025-10-21T11:35:41Z",
+      "merged_at": "2025-10-21T11:35:41Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10065",
+      "ready_for_review_at": "2025-10-21T07:39:07Z",
+      "reviews": [
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2025-10-21T07:55:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-10-21T07:58:33Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-10-21T08:04:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2025-10-21T08:36:19Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-21T07:39:13Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-10-21T08:23:14Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.28,
+      "time_to_merge_hours": 3.9427777777777777
+    },
     {
       "number": 10024,
       "title": "Bump AH westend spec version",

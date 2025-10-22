@@ -1362,6 +1362,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10065,
+      "pr_title": "eth-rpc add trace logs",
+      "reviewed_at": "2025-10-21T11:35:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10065"
+    },
+    {
       "pr_number": 9744,
       "pr_title": "[pallet-revive] fix CodeInfo owner",
       "reviewed_at": "2025-10-02T12:58:53Z",

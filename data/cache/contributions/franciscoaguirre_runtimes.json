@@ -69,6 +69,63 @@
   ],
   "prs": [
     {
+      "number": 983,
+      "title": "Add an XCM mapper for calls during AHM",
+      "state": "OPEN",
+      "created_at": "2025-10-21T14:21:37Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "franciscoaguirre",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/983",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:38:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:46:20Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:47:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:49:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:51:17Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:52:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:53:28Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2025-10-21T20:55:28Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 962,
       "title": "Allow HOLLAR to be reserved transferred to People Chain from Hydration",
       "state": "OPEN",
