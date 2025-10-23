@@ -1137,6 +1137,38 @@
   ],
   "prs": [
     {
+      "number": 10083,
+      "title": "bump jsonrpsee to 0.24.10",
+      "state": "OPEN",
+      "created_at": "2025-10-22T10:27:34Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10083",
+      "ready_for_review_at": "2025-10-22T10:27:34Z",
+      "reviews": [
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2025-10-22T11:18:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lrubasze",
+          "submitted_at": "2025-10-22T14:41:41Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-22T10:34:13Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.8472222222222222,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10065,
       "title": "eth-rpc add trace logs",
       "state": "MERGED",
@@ -6896,6 +6928,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10080,
+      "pr_title": "precompiles: Enforce state mutability",
+      "reviewed_at": "2025-10-22T13:58:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10080"
+    },
+    {
+      "pr_number": 10089,
+      "pr_title": "pallet_revive: Raise the MaxEthExtrinsicWeight",
+      "reviewed_at": "2025-10-22T13:35:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10089"
+    },
     {
       "pr_number": 10047,
       "pr_title": "pallet_revive: Increase event sizes",

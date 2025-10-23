@@ -21,6 +21,22 @@
   ],
   "prs": [
     {
+      "number": 10095,
+      "title": "pallet_revive: support uploading EVM bytecode via upload_code",
+      "state": "OPEN",
+      "created_at": "2025-10-22T15:59:09Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10095",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10032,
       "title": "pallet_revive: when a dry run simulates contract deployment, return the execution result data.",
       "state": "OPEN",
