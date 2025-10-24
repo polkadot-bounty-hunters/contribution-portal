@@ -1533,6 +1533,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 987,
+      "pr_title": "[stable2509] Bump to 2509-1",
+      "reviewed_at": "2025-10-23T19:32:46Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/987"
+    },
+    {
       "pr_number": 736,
       "pr_title": "Ambassador Configurations",
       "reviewed_at": "2025-10-14T13:41:11Z",

@@ -303,6 +303,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10106,
+      "pr_title": "Enforce single-state txpool for revive-dev-node",
+      "reviewed_at": "2025-10-23T21:33:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10106"
+    },
+    {
       "pr_number": 10065,
       "pr_title": "eth-rpc add trace logs",
       "reviewed_at": "2025-10-21T11:35:42Z",

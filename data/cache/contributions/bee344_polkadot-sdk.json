@@ -2,6 +2,22 @@
   "commits": [],
   "prs": [
     {
+      "number": 10108,
+      "title": "[DO NOT MERGE] hardhat dirty node v2",
+      "state": "OPEN",
+      "created_at": "2025-10-23T21:06:03Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "bee344",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10108",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9491,
       "title": "[DO NOT MERGE] hardhat dirty node",
       "state": "OPEN",

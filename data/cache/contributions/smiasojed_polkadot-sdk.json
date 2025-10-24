@@ -1362,6 +1362,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10100,
+      "pr_title": "pallet_revive: Only enforce EIP-3607 for dispatchables",
+      "reviewed_at": "2025-10-23T13:36:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10100"
+    },
+    {
       "pr_number": 10065,
       "pr_title": "eth-rpc add trace logs",
       "reviewed_at": "2025-10-21T11:35:42Z",
