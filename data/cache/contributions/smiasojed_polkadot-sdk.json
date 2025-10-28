@@ -39,6 +39,22 @@
   ],
   "prs": [
     {
+      "number": 10129,
+      "title": "Add upload evm code function",
+      "state": "OPEN",
+      "created_at": "2025-10-27T20:15:41Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "smiasojed",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10129",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9911,
       "title": "[pallet-revive] Allows setting evm balance for non-existing account",
       "state": "MERGED",
