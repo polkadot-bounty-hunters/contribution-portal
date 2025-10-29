@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "1c29484b6878c915dff83f7e27ab7ff0110bfd12",
+      "message": "[revive] Receipts should include failed tx (#10120)",
+      "date": "2025-10-28T13:48:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1c29484b6878c915dff83f7e27ab7ff0110bfd12"
+    },
+    {
       "sha": "7c9611a695cfbe4a7b410e8b445fb785a14fd030",
       "message": "bump jsonrpsee to 0.24.10 (#10083)",
       "date": "2025-10-24T12:50:44Z",
@@ -1160,6 +1166,112 @@
     }
   ],
   "prs": [
+    {
+      "number": 10148,
+      "title": "revive fix reported gas used",
+      "state": "OPEN",
+      "created_at": "2025-10-28T16:03:21Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10148",
+      "ready_for_review_at": "2025-10-28T16:03:21Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-28T22:28:12Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-28T22:09:37Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-10-28T23:51:12Z"
+        }
+      ],
+      "time_to_first_review_hours": 6.414166666666667,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10146,
+      "title": "eth-rpc - fix subscription race",
+      "state": "OPEN",
+      "created_at": "2025-10-28T12:57:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10146",
+      "ready_for_review_at": "2025-10-28T12:57:27Z",
+      "reviews": [
+        {
+          "reviewer": "lrubasze",
+          "submitted_at": "2025-10-28T13:19:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-28T13:23:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-28T13:25:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-28T13:30:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lrubasze",
+          "submitted_at": "2025-10-28T13:33:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-10-28T14:09:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alindima",
+          "submitted_at": "2025-10-28T14:39:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lrubasze",
+          "submitted_at": "2025-10-28T15:35:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2025-10-28T15:47:30Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-28T12:58:53Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-10-28T15:37:32Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-10-28T16:01:57Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.37277777777777776,
+      "time_to_merge_hours": null
+    },
     {
       "number": 10120,
       "title": "[revive] Receipts should include failed tx",
@@ -7203,6 +7315,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10146,
+      "pr_title": "eth-rpc - fix subscription race",
+      "reviewed_at": "2025-10-28T23:52:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10146"
+    },
+    {
+      "pr_number": 10148,
+      "pr_title": "revive fix reported gas used",
+      "reviewed_at": "2025-10-28T23:51:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10148"
+    },
     {
       "pr_number": 10120,
       "pr_title": "[revive] Receipts should include failed tx",
