@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "0a85c328bfd04309433036a19da1b589cbb24185",
+      "message": "anvil / eth-rpc - fix subscription race (#10146)",
+      "date": "2025-10-29T10:13:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0a85c328bfd04309433036a19da1b589cbb24185"
+    },
+    {
       "sha": "1c29484b6878c915dff83f7e27ab7ff0110bfd12",
       "message": "[revive] Receipts should include failed tx (#10120)",
       "date": "2025-10-28T13:48:56Z",

@@ -21,6 +21,22 @@
   ],
   "prs": [
     {
+      "number": 10159,
+      "title": "WIP: Support upload_code via eth_sendRawTransaction",
+      "state": "OPEN",
+      "created_at": "2025-10-29T18:32:36Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10159",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10095,
       "title": "pallet_revive: support uploading EVM bytecode via upload_code",
       "state": "OPEN",
@@ -302,6 +318,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10157,
+      "pr_title": "pallet_revive: Improve logging",
+      "reviewed_at": "2025-10-29T23:02:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10157"
+    },
     {
       "pr_number": 10109,
       "pr_title": "revive-dev-node enforce --dev",
