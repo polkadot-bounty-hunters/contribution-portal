@@ -1378,6 +1378,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10169,
+      "pr_title": "pallet-revive-eth-rpc: derive Encode/Decode for subxt-generated types",
+      "reviewed_at": "2025-10-30T15:22:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10169"
+    },
+    {
+      "pr_number": 10168,
+      "pr_title": "pallet-revive: make contract reverted error message more verbose",
+      "reviewed_at": "2025-10-30T15:09:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10168"
+    },
+    {
       "pr_number": 10100,
       "pr_title": "pallet_revive: Only enforce EIP-3607 for dispatchables",
       "reviewed_at": "2025-10-23T13:36:30Z",
