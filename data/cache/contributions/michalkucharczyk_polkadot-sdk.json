@@ -9085,6 +9085,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10179,
+      "pr_title": "TxPool: Downgrade log from `info` to `debug`",
+      "reviewed_at": "2025-10-31T19:49:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10179"
+    },
+    {
       "pr_number": 9907,
       "pr_title": "CheckWeight: Take transaction length into account during validation",
       "reviewed_at": "2025-10-03T19:16:53Z",
