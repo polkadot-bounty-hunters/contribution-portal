@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-11-01T04:29:23.489Z",
+  "generated_at": "2025-11-02T04:33:26.263Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1404,
-    "total_prs": 1423,
+    "total_prs": 1424,
     "total_merged_prs": 1008,
     "total_reviews": 2153
   },
@@ -5166,6 +5166,16 @@
           "score": 5
         },
         {
+          "name": "WonderJL",
+          "github": "WonderJL",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "0xdipak",
           "github": "0xdipak",
           "cohort": "PBA 7 Bali 2025",
@@ -5548,16 +5558,6 @@
         {
           "name": "wadkhlemshem",
           "github": "wadkhlemshem",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "WonderJL",
-          "github": "WonderJL",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -170398,7 +170398,29 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10182,
+                    "title": "wip",
+                    "state": "OPEN",
+                    "created_at": "2025-11-01T10:10:30Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "WonderJL",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10182",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2025-11-01T10:10:38Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
