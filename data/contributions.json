@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-03T04:35:07.369Z",
+  "generated_at": "2025-11-04T04:28:21.782Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1404,
-    "total_prs": 1424,
+    "total_commits": 1405,
+    "total_prs": 1427,
     "total_merged_prs": 1008,
-    "total_reviews": 2153
+    "total_reviews": 2156
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 230,
-        "prs": 150,
+        "prs": 151,
         "merged_prs": 125,
-        "reviews": 164,
-        "score": 2722
+        "reviews": 167,
+        "score": 2736
       },
       {
         "name": "liamaharon",
@@ -204,11 +204,11 @@
         "name": "smiasojed",
         "github": "smiasojed",
         "cohort": "PBA 2 BA 2023",
-        "commits": 6,
+        "commits": 7,
         "prs": 7,
         "merged_prs": 6,
         "reviews": 47,
-        "score": 242
+        "score": 243
       },
       {
         "name": "DrW3RK",
@@ -395,10 +395,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 3,
-        "prs": 5,
+        "prs": 6,
         "merged_prs": 2,
         "reviews": 6,
-        "score": 66
+        "score": 71
       },
       {
         "name": "JuaniRios",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 230,
-          "prs": 150,
+          "prs": 151,
           "merged_prs": 125,
-          "reviews": 164,
-          "score": 2722
+          "reviews": 167,
+          "score": 2736
         },
         {
           "name": "liamaharon",
@@ -989,11 +989,11 @@
           "name": "smiasojed",
           "github": "smiasojed",
           "cohort": "PBA 2 BA 2023",
-          "commits": 6,
+          "commits": 7,
           "prs": 7,
           "merged_prs": 6,
           "reviews": 47,
-          "score": 242
+          "score": 243
         },
         {
           "name": "wirednkod",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 3,
-          "prs": 5,
+          "prs": 6,
           "merged_prs": 2,
           "reviews": 6,
-          "score": 66
+          "score": 71
         },
         {
           "name": "surajk-m",
@@ -5148,6 +5148,16 @@
         {
           "name": "freddyli7",
           "github": "freddyli7",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
+          "name": "kdonthi",
+          "github": "kdonthi",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 1,
@@ -5338,16 +5348,6 @@
         {
           "name": "jbtwist",
           "github": "jbtwist",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "kdonthi",
-          "github": "kdonthi",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 81.46864269868824,
+    "average_review_time_hours": 81.33164452147116,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5673,10 +5673,10 @@
       },
       {
         "reviewer": "pgherveou",
-        "review_count": 156,
-        "approved_count": 38,
-        "avg_time_to_review_hours": 38.773604336043356,
-        "approval_rate": 24.358974358974358
+        "review_count": 157,
+        "approved_count": 39,
+        "avg_time_to_review_hours": 37.957175925925924,
+        "approval_rate": 24.840764331210192
       },
       {
         "reviewer": "gilescope",
@@ -5691,6 +5691,13 @@
         "approved_count": 51,
         "avg_time_to_review_hours": 73.83747777777779,
         "approval_rate": 34.69387755102041
+      },
+      {
+        "reviewer": "xermicus",
+        "review_count": 127,
+        "approved_count": 87,
+        "avg_time_to_review_hours": 46.09491769547326,
+        "approval_rate": 68.50393700787401
       },
       {
         "reviewer": "skunert",
@@ -5712,13 +5719,6 @@
         "approved_count": 48,
         "avg_time_to_review_hours": 43.092222222222226,
         "approval_rate": 39.02439024390244
-      },
-      {
-        "reviewer": "xermicus",
-        "review_count": 120,
-        "approved_count": 85,
-        "avg_time_to_review_hours": 46.09491769547326,
-        "approval_rate": 70.83333333333334
       },
       {
         "reviewer": "franciscoaguirre",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 94.41976592187261,
-        "pr_count": 731,
+        "avg_review_time_hours": 94.16874526299833,
+        "pr_count": 733,
         "merged_count": 640
       },
       {
@@ -89403,6 +89403,106 @@
                 ],
                 "prs": [
                   {
+                    "number": 10192,
+                    "title": "revive: Fix dust & child contract calls",
+                    "state": "OPEN",
+                    "created_at": "2025-11-03T14:21:43Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10192",
+                    "ready_for_review_at": "2025-11-03T14:21:43Z",
+                    "reviews": [
+                      {
+                        "reviewer": "0xRVE",
+                        "submitted_at": "2025-11-03T14:43:11Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2025-11-03T15:08:05Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2025-11-03T15:10:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-03T15:33:27Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-03T15:54:16Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-03T16:00:14Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-03T16:29:45Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-03T16:43:35Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-03T16:48:43Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-03T16:54:45Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-03T16:55:31Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-03T16:59:35Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-03T17:16:53Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-03T21:09:01Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-03T14:41:10Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-03T18:02:18Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-03T20:11:45Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.35777777777777775,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10148,
                     "title": "revive fix reported gas used",
                     "state": "OPEN",
@@ -95551,6 +95651,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10193,
+                    "pr_title": "[v2] pallet-revive: support uploading EVM bytecode via upload_code",
+                    "reviewed_at": "2025-11-03T21:33:00Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10193"
+                  },
+                  {
+                    "pr_number": 10192,
+                    "pr_title": "revive: Fix dust & child contract calls",
+                    "reviewed_at": "2025-11-03T21:13:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10192"
+                  },
+                  {
+                    "pr_number": 10191,
+                    "pr_title": "pallet_revive: Add dry-run timestamp override support",
+                    "reviewed_at": "2025-11-03T20:43:56Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10191"
+                  },
                   {
                     "pr_number": 10160,
                     "pr_title": "pallet_revive_dev_node: Always increment the timestamp by at least one second",
@@ -101874,6 +101992,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "9eff394bebadac947132d0cd2731be0d58d4f7a5",
+                    "message": "Add upload evm code function (#10129)",
+                    "date": "2025-11-03T14:06:12Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/9eff394bebadac947132d0cd2731be0d58d4f7a5"
+                  },
                   {
                     "sha": "d36d48a25c80502c577df3b1a88eadb3b3d3b6be",
                     "message": "[pallet-revive] Allows setting evm balance for non-existing account (#9911)",
@@ -163834,7 +163958,29 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10197,
+                    "title": "Add Max Validators To ValidatorSetReport",
+                    "state": "OPEN",
+                    "created_at": "2025-11-04T01:49:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "kdonthi",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10197",
+                    "ready_for_review_at": "2025-11-04T01:49:49Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2025-11-04T01:49:56Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -164198,6 +164344,37 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10193,
+                    "title": "[v2] pallet-revive: support uploading EVM bytecode via upload_code",
+                    "state": "OPEN",
+                    "created_at": "2025-11-03T17:03:59Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10193",
+                    "ready_for_review_at": "2025-11-03T17:03:59Z",
+                    "reviews": [
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-03T21:33:00Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2025-11-03T17:06:13Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-03T17:26:47Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 4.483611111111111,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10159,
                     "title": "WIP: Support upload_code via eth_sendRawTransaction",

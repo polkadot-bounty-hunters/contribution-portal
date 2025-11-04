@@ -1173,6 +1173,106 @@
   ],
   "prs": [
     {
+      "number": 10192,
+      "title": "revive: Fix dust & child contract calls",
+      "state": "OPEN",
+      "created_at": "2025-11-03T14:21:43Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10192",
+      "ready_for_review_at": "2025-11-03T14:21:43Z",
+      "reviews": [
+        {
+          "reviewer": "0xRVE",
+          "submitted_at": "2025-11-03T14:43:11Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2025-11-03T15:08:05Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2025-11-03T15:10:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-03T15:33:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-11-03T15:54:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-11-03T16:00:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-11-03T16:29:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-03T16:43:35Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-03T16:48:43Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-03T16:54:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-03T16:55:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-11-03T16:59:35Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-03T17:16:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-03T21:09:01Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-03T14:41:10Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-03T18:02:18Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-03T20:11:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.35777777777777775,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10148,
       "title": "revive fix reported gas used",
       "state": "OPEN",
@@ -7321,6 +7421,24 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10193,
+      "pr_title": "[v2] pallet-revive: support uploading EVM bytecode via upload_code",
+      "reviewed_at": "2025-11-03T21:33:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10193"
+    },
+    {
+      "pr_number": 10192,
+      "pr_title": "revive: Fix dust & child contract calls",
+      "reviewed_at": "2025-11-03T21:13:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10192"
+    },
+    {
+      "pr_number": 10191,
+      "pr_title": "pallet_revive: Add dry-run timestamp override support",
+      "reviewed_at": "2025-11-03T20:43:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10191"
+    },
     {
       "pr_number": 10160,
       "pr_title": "pallet_revive_dev_node: Always increment the timestamp by at least one second",

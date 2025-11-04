@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "9eff394bebadac947132d0cd2731be0d58d4f7a5",
+      "message": "Add upload evm code function (#10129)",
+      "date": "2025-11-03T14:06:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/9eff394bebadac947132d0cd2731be0d58d4f7a5"
+    },
+    {
       "sha": "d36d48a25c80502c577df3b1a88eadb3b3d3b6be",
       "message": "[pallet-revive] Allows setting evm balance for non-existing account (#9911)",
       "date": "2025-10-04T08:29:58Z",
