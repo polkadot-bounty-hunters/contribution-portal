@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "23d90a0426b76ce9ff94e7cef38a51f4024ebec3",
+      "message": "revive fix reported gas used (#10148)",
+      "date": "2025-11-04T19:38:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/23d90a0426b76ce9ff94e7cef38a51f4024ebec3"
+    },
+    {
+      "sha": "52bdb96d4bd5d81f1c9a902d92ccf6ff062eedf7",
+      "message": "revive: Fix dust & child contract calls (#10192)",
+      "date": "2025-11-04T06:38:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/52bdb96d4bd5d81f1c9a902d92ccf6ff062eedf7"
+    },
+    {
       "sha": "0a85c328bfd04309433036a19da1b589cbb24185",
       "message": "anvil / eth-rpc - fix subscription race (#10146)",
       "date": "2025-10-29T10:13:05Z",

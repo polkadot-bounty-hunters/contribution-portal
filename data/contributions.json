@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-04T04:28:21.782Z",
+  "generated_at": "2025-11-05T04:29:29.564Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1405,
+    "total_commits": 1407,
     "total_prs": 1427,
     "total_merged_prs": 1008,
-    "total_reviews": 2156
+    "total_reviews": 2157
   },
   "leaderboard": {
     "overall": [
@@ -17,18 +17,18 @@
         "commits": 254,
         "prs": 183,
         "merged_prs": 145,
-        "reviews": 230,
-        "score": 3309
+        "reviews": 231,
+        "score": 3312
       },
       {
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 230,
+        "commits": 232,
         "prs": 151,
         "merged_prs": 125,
         "reviews": 167,
-        "score": 2736
+        "score": 2738
       },
       {
         "name": "liamaharon",
@@ -520,8 +520,8 @@
           "commits": 254,
           "prs": 183,
           "merged_prs": 145,
-          "reviews": 230,
-          "score": 3309
+          "reviews": 231,
+          "score": 3312
         },
         {
           "name": "ank4n",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 230,
+          "commits": 232,
           "prs": 151,
           "merged_prs": 125,
           "reviews": 167,
-          "score": 2736
+          "score": 2738
         },
         {
           "name": "liamaharon",
@@ -45311,6 +45311,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10202,
+                    "pr_title": "omni-node: Enable storage monitor",
+                    "reviewed_at": "2025-11-04T13:10:41Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10202"
+                  },
+                  {
                     "pr_number": 10179,
                     "pr_title": "TxPool: Downgrade log from `info` to `debug`",
                     "reviewed_at": "2025-10-31T19:49:34Z",
@@ -88230,6 +88236,18 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "23d90a0426b76ce9ff94e7cef38a51f4024ebec3",
+                    "message": "revive fix reported gas used (#10148)",
+                    "date": "2025-11-04T19:38:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/23d90a0426b76ce9ff94e7cef38a51f4024ebec3"
+                  },
+                  {
+                    "sha": "52bdb96d4bd5d81f1c9a902d92ccf6ff062eedf7",
+                    "message": "revive: Fix dust & child contract calls (#10192)",
+                    "date": "2025-11-04T06:38:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/52bdb96d4bd5d81f1c9a902d92ccf6ff062eedf7"
+                  },
                   {
                     "sha": "0a85c328bfd04309433036a19da1b589cbb24185",
                     "message": "anvil / eth-rpc - fix subscription race (#10146)",
@@ -163975,6 +163993,14 @@
                       {
                         "commenter": "cla-bot-2021[bot]",
                         "commented_at": "2025-11-04T01:49:56Z"
+                      },
+                      {
+                        "commenter": "kdonthi",
+                        "commented_at": "2025-11-04T19:22:39Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-04T19:25:49Z"
                       }
                     ],
                     "time_to_first_review_hours": null,
