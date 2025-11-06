@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-05T04:29:29.564Z",
+  "generated_at": "2025-11-06T04:32:01.455Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1407,
+    "total_commits": 1408,
     "total_prs": 1427,
     "total_merged_prs": 1008,
-    "total_reviews": 2157
+    "total_reviews": 2159
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 254,
         "prs": 183,
         "merged_prs": 145,
-        "reviews": 231,
-        "score": 3312
+        "reviews": 232,
+        "score": 3315
       },
       {
         "name": "pgherveou",
@@ -47,8 +47,8 @@
         "commits": 84,
         "prs": 109,
         "merged_prs": 73,
-        "reviews": 189,
-        "score": 1926
+        "reviews": 190,
+        "score": 1929
       },
       {
         "name": "franciscoaguirre",
@@ -104,11 +104,11 @@
         "name": "raymondkfcheung",
         "github": "raymondkfcheung",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 26,
+        "commits": 27,
         "prs": 43,
         "merged_prs": 33,
         "reviews": 113,
-        "score": 910
+        "score": 911
       },
       {
         "name": "karolk91",
@@ -520,8 +520,8 @@
           "commits": 254,
           "prs": 183,
           "merged_prs": 145,
-          "reviews": 231,
-          "score": 3312
+          "reviews": 232,
+          "score": 3315
         },
         {
           "name": "ank4n",
@@ -530,8 +530,8 @@
           "commits": 84,
           "prs": 109,
           "merged_prs": 73,
-          "reviews": 189,
-          "score": 1926
+          "reviews": 190,
+          "score": 1929
         },
         {
           "name": "franciscoaguirre",
@@ -5099,11 +5099,11 @@
           "name": "raymondkfcheung",
           "github": "raymondkfcheung",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 26,
+          "commits": 27,
           "prs": 43,
           "merged_prs": 33,
           "reviews": 113,
-          "score": 910
+          "score": 911
         },
         {
           "name": "marian-radu",
@@ -30043,6 +30043,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 998,
+                    "pr_title": "Fix AH Inflation back to what RC was",
+                    "reviewed_at": "2025-11-06T00:17:49Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/998"
+                  },
+                  {
                     "pr_number": 852,
                     "pr_title": "Improve Era Scheduling",
                     "reviewed_at": "2025-08-19T07:44:51Z",
@@ -45310,6 +45316,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10211,
+                    "pr_title": "sc-rpc-v2: Fix flaky tests",
+                    "reviewed_at": "2025-11-05T22:46:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10211"
+                  },
                   {
                     "pr_number": 10202,
                     "pr_title": "omni-node: Enable storage monitor",
@@ -169082,6 +169094,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "c49b4bf0d0abba3bc98d00c0c98bc3d1af075da5",
+                    "message": "Improve logging runtime packaging and naming (#869)",
+                    "date": "2025-11-05T13:09:07Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/c49b4bf0d0abba3bc98d00c0c98bc3d1af075da5"
+                  },
                   {
                     "sha": "f67c49b45d71a25f25496ef74921cdbd1a98a55d",
                     "message": "Publish log-enabled runtimes for debugging and `try-runtime` testing (#767)",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "c49b4bf0d0abba3bc98d00c0c98bc3d1af075da5",
+      "message": "Improve logging runtime packaging and naming (#869)",
+      "date": "2025-11-05T13:09:07Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/c49b4bf0d0abba3bc98d00c0c98bc3d1af075da5"
+    },
+    {
       "sha": "f67c49b45d71a25f25496ef74921cdbd1a98a55d",
       "message": "Publish log-enabled runtimes for debugging and `try-runtime` testing (#767)",
       "date": "2025-08-12T06:26:54Z",

@@ -349,6 +349,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 998,
+      "pr_title": "Fix AH Inflation back to what RC was",
+      "reviewed_at": "2025-11-06T00:17:49Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/998"
+    },
+    {
       "pr_number": 852,
       "pr_title": "Improve Era Scheduling",
       "reviewed_at": "2025-08-19T07:44:51Z",

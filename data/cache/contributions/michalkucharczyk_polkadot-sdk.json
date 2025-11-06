@@ -9085,6 +9085,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10211,
+      "pr_title": "sc-rpc-v2: Fix flaky tests",
+      "reviewed_at": "2025-11-05T22:46:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10211"
+    },
+    {
       "pr_number": 10202,
       "pr_title": "omni-node: Enable storage monitor",
       "reviewed_at": "2025-11-04T13:10:41Z",
