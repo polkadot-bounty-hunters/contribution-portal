@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-06T04:32:01.455Z",
+  "generated_at": "2025-11-07T04:28:51.740Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1408,
-    "total_prs": 1427,
+    "total_commits": 1409,
+    "total_prs": 1428,
     "total_merged_prs": 1008,
-    "total_reviews": 2159
+    "total_reviews": 2167
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 254,
-        "prs": 183,
+        "prs": 184,
         "merged_prs": 145,
         "reviews": 232,
-        "score": 3315
+        "score": 3320
       },
       {
         "name": "pgherveou",
@@ -27,8 +27,8 @@
         "commits": 232,
         "prs": 151,
         "merged_prs": 125,
-        "reviews": 167,
-        "score": 2738
+        "reviews": 170,
+        "score": 2747
       },
       {
         "name": "liamaharon",
@@ -57,8 +57,8 @@
         "commits": 73,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 155,
-        "score": 1918
+        "reviews": 156,
+        "score": 1921
       },
       {
         "name": "jsidorenko",
@@ -361,6 +361,16 @@
         "score": 84
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 4,
+        "prs": 6,
+        "merged_prs": 2,
+        "reviews": 10,
+        "score": 84
+      },
+      {
         "name": "BigTava",
         "github": "BigTava",
         "cohort": "PBA 5 Singapore 2024",
@@ -389,16 +399,6 @@
         "merged_prs": 3,
         "reviews": 6,
         "score": 73
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 3,
-        "prs": 6,
-        "merged_prs": 2,
-        "reviews": 6,
-        "score": 71
       },
       {
         "name": "JuaniRios",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 254,
-          "prs": 183,
+          "prs": 184,
           "merged_prs": 145,
           "reviews": 232,
-          "score": 3315
+          "score": 3320
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 73,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 155,
-          "score": 1918
+          "reviews": 156,
+          "score": 1921
         },
         {
           "name": "jsidorenko",
@@ -932,8 +932,8 @@
           "commits": 232,
           "prs": 151,
           "merged_prs": 125,
-          "reviews": 167,
-          "score": 2738
+          "reviews": 170,
+          "score": 2747
         },
         {
           "name": "liamaharon",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 3,
+          "commits": 4,
           "prs": 6,
           "merged_prs": 2,
-          "reviews": 6,
-          "score": 71
+          "reviews": 10,
+          "score": 84
         },
         {
           "name": "surajk-m",
@@ -14686,6 +14686,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10235,
+                    "pr_title": "offchain-worker: Do not intialize the entire `System` again",
+                    "reviewed_at": "2025-11-06T23:01:52Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10235"
+                  },
                   {
                     "pr_number": 10178,
                     "pr_title": "Xpan auto retry limit",
@@ -37230,6 +37236,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10215,
+                    "title": "PoV size reclaim fix",
+                    "state": "OPEN",
+                    "created_at": "2025-11-06T08:11:43Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10215",
+                    "ready_for_review_at": "2025-11-06T08:11:43Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2025-11-06T09:22:16Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10014,
                     "title": "[wip] asset-hub base benches for pov",
@@ -95681,6 +95708,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10214,
+                    "pr_title": "pallet_revive: Fix EVM constructors with arguments",
+                    "reviewed_at": "2025-11-06T21:24:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10214"
+                  },
+                  {
+                    "pr_number": 10233,
+                    "pr_title": "[pallet-revive] Only fund new accounts with ED",
+                    "reviewed_at": "2025-11-06T20:49:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10233"
+                  },
+                  {
+                    "pr_number": 10213,
+                    "pr_title": "Increase the concurrency of retester in CI",
+                    "reviewed_at": "2025-11-06T14:26:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10213"
+                  },
                   {
                     "pr_number": 10193,
                     "pr_title": "[v2] pallet-revive: support uploading EVM bytecode via upload_code",
@@ -164363,6 +164408,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "a4f007cd7c3643519de40ba33b6db08b38e1ac19",
+                    "message": "[v2] pallet-revive: support uploading EVM bytecode via upload_code extrinsic. (#10193)",
+                    "date": "2025-11-06T09:20:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/a4f007cd7c3643519de40ba33b6db08b38e1ac19"
+                  },
+                  {
                     "sha": "b6ef912d74af2c43b90f542e09b74abe061ff859",
                     "message": "pallet_revive: when a dry run simulates contract deployment, return the execution result data. (#10032)",
                     "date": "2025-10-20T15:34:23Z",
@@ -164711,6 +164762,30 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10233,
+                    "pr_title": "[pallet-revive] Only fund new accounts with ED",
+                    "reviewed_at": "2025-11-06T20:49:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10233"
+                  },
+                  {
+                    "pr_number": 10220,
+                    "pr_title": "Notify when there is a new best block",
+                    "reviewed_at": "2025-11-06T15:44:13Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10220"
+                  },
+                  {
+                    "pr_number": 10225,
+                    "pr_title": "pallet_revive: use real storage when building the eth genesis block",
+                    "reviewed_at": "2025-11-06T15:30:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10225"
+                  },
+                  {
+                    "pr_number": 10213,
+                    "pr_title": "Increase the concurrency of retester in CI",
+                    "reviewed_at": "2025-11-06T14:26:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10213"
+                  },
                   {
                     "pr_number": 10157,
                     "pr_title": "pallet_revive: Improve logging",

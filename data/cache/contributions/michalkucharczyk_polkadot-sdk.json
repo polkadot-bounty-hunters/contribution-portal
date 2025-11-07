@@ -999,6 +999,27 @@
   ],
   "prs": [
     {
+      "number": 10215,
+      "title": "PoV size reclaim fix",
+      "state": "OPEN",
+      "created_at": "2025-11-06T08:11:43Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10215",
+      "ready_for_review_at": "2025-11-06T08:11:43Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2025-11-06T09:22:16Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10014,
       "title": "[wip] asset-hub base benches for pov",
       "state": "OPEN",

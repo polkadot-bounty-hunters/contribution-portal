@@ -7434,6 +7434,24 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10214,
+      "pr_title": "pallet_revive: Fix EVM constructors with arguments",
+      "reviewed_at": "2025-11-06T21:24:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10214"
+    },
+    {
+      "pr_number": 10233,
+      "pr_title": "[pallet-revive] Only fund new accounts with ED",
+      "reviewed_at": "2025-11-06T20:49:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10233"
+    },
+    {
+      "pr_number": 10213,
+      "pr_title": "Increase the concurrency of retester in CI",
+      "reviewed_at": "2025-11-06T14:26:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10213"
+    },
+    {
       "pr_number": 10193,
       "pr_title": "[v2] pallet-revive: support uploading EVM bytecode via upload_code",
       "reviewed_at": "2025-11-03T21:33:00Z",

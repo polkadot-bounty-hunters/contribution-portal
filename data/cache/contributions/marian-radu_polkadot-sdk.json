@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "a4f007cd7c3643519de40ba33b6db08b38e1ac19",
+      "message": "[v2] pallet-revive: support uploading EVM bytecode via upload_code extrinsic. (#10193)",
+      "date": "2025-11-06T09:20:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a4f007cd7c3643519de40ba33b6db08b38e1ac19"
+    },
+    {
       "sha": "b6ef912d74af2c43b90f542e09b74abe061ff859",
       "message": "pallet_revive: when a dry run simulates contract deployment, return the execution result data. (#10032)",
       "date": "2025-10-20T15:34:23Z",
@@ -349,6 +355,30 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10233,
+      "pr_title": "[pallet-revive] Only fund new accounts with ED",
+      "reviewed_at": "2025-11-06T20:49:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10233"
+    },
+    {
+      "pr_number": 10220,
+      "pr_title": "Notify when there is a new best block",
+      "reviewed_at": "2025-11-06T15:44:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10220"
+    },
+    {
+      "pr_number": 10225,
+      "pr_title": "pallet_revive: use real storage when building the eth genesis block",
+      "reviewed_at": "2025-11-06T15:30:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10225"
+    },
+    {
+      "pr_number": 10213,
+      "pr_title": "Increase the concurrency of retester in CI",
+      "reviewed_at": "2025-11-06T14:26:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10213"
+    },
     {
       "pr_number": 10157,
       "pr_title": "pallet_revive: Improve logging",

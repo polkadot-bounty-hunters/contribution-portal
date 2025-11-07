@@ -8766,6 +8766,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10235,
+      "pr_title": "offchain-worker: Do not intialize the entire `System` again",
+      "reviewed_at": "2025-11-06T23:01:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10235"
+    },
+    {
       "pr_number": 10178,
       "pr_title": "Xpan auto retry limit",
       "reviewed_at": "2025-11-01T00:33:07Z",
