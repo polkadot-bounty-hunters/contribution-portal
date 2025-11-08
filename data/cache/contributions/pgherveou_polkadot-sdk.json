@@ -1185,6 +1185,80 @@
   ],
   "prs": [
     {
+      "number": 10252,
+      "title": "[pallet-revive] set finalize = best when automine is on",
+      "state": "OPEN",
+      "created_at": "2025-11-07T22:03:04Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10252",
+      "ready_for_review_at": "2025-11-07T22:03:04Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-07T22:17:34Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10239,
+      "title": "[pallet-revive] fix prestate tracer current address",
+      "state": "OPEN",
+      "created_at": "2025-11-07T10:29:10Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10239",
+      "ready_for_review_at": "2025-11-07T10:29:10Z",
+      "reviews": [
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2025-11-07T10:34:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2025-11-07T11:57:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-11-07T17:09:28Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-07T11:51:56Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-07T14:08:16Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-07T14:08:56Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-07T17:21:16Z"
+        },
+        {
+          "commenter": "Pray4Love1",
+          "commented_at": "2025-11-07T21:45:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.08222222222222222,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10192,
       "title": "revive: Fix dust & child contract calls",
       "state": "OPEN",
@@ -7433,6 +7507,24 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10239,
+      "pr_title": "[pallet-revive] fix prestate tracer current address",
+      "reviewed_at": "2025-11-07T22:30:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10239"
+    },
+    {
+      "pr_number": 10246,
+      "pr_title": "Remove outdated comment on Tracer Type",
+      "reviewed_at": "2025-11-07T22:27:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10246"
+    },
+    {
+      "pr_number": 10244,
+      "pr_title": "[pallet-revive] add tracing for selfdestruct",
+      "reviewed_at": "2025-11-07T21:28:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10244"
+    },
     {
       "pr_number": 10214,
       "pr_title": "pallet_revive: Fix EVM constructors with arguments",

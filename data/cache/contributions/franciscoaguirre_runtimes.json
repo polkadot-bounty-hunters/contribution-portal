@@ -1249,6 +1249,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1006,
+      "pr_title": "[AHM] Make staking on AH work via XCM",
+      "reviewed_at": "2025-11-08T00:43:45Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1006"
+    },
+    {
       "pr_number": 943,
       "pr_title": "[AHM] Small Fixes",
       "reviewed_at": "2025-10-03T16:58:03Z",

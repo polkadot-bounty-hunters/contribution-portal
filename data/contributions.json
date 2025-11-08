@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-07T04:28:51.740Z",
+  "generated_at": "2025-11-08T04:21:12.025Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1409,
-    "total_prs": 1428,
+    "total_prs": 1432,
     "total_merged_prs": 1008,
-    "total_reviews": 2167
+    "total_reviews": 2172
   },
   "leaderboard": {
     "overall": [
@@ -17,18 +17,18 @@
         "commits": 254,
         "prs": 184,
         "merged_prs": 145,
-        "reviews": 232,
-        "score": 3320
+        "reviews": 233,
+        "score": 3323
       },
       {
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 232,
-        "prs": 151,
+        "prs": 153,
         "merged_prs": 125,
-        "reviews": 170,
-        "score": 2747
+        "reviews": 173,
+        "score": 2766
       },
       {
         "name": "liamaharon",
@@ -57,8 +57,8 @@
         "commits": 73,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 156,
-        "score": 1921
+        "reviews": 157,
+        "score": 1924
       },
       {
         "name": "jsidorenko",
@@ -115,10 +115,10 @@
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 15,
-        "prs": 26,
+        "prs": 27,
         "merged_prs": 19,
         "reviews": 96,
-        "score": 623
+        "score": 628
       },
       {
         "name": "Krayt78",
@@ -520,8 +520,8 @@
           "commits": 254,
           "prs": 184,
           "merged_prs": 145,
-          "reviews": 232,
-          "score": 3320
+          "reviews": 233,
+          "score": 3323
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 73,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 156,
-          "score": 1921
+          "reviews": 157,
+          "score": 1924
         },
         {
           "name": "jsidorenko",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 232,
-          "prs": 151,
+          "prs": 153,
           "merged_prs": 125,
-          "reviews": 170,
-          "score": 2747
+          "reviews": 173,
+          "score": 2766
         },
         {
           "name": "liamaharon",
@@ -3106,10 +3106,10 @@
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 15,
-          "prs": 26,
+          "prs": 27,
           "merged_prs": 19,
           "reviews": 96,
-          "score": 623
+          "score": 628
         },
         {
           "name": "Krayt78",
@@ -5176,6 +5176,16 @@
           "score": 5
         },
         {
+          "name": "Lynette7",
+          "github": "Lynette7",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "WonderJL",
           "github": "WonderJL",
           "cohort": "PBA 7 Bali 2025",
@@ -5378,16 +5388,6 @@
         {
           "name": "locksley1337",
           "github": "locksley1337",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "Lynette7",
-          "github": "Lynette7",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 81.33164452147116,
+    "average_review_time_hours": 81.26129870129866,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 94.16874526299833,
-        "pr_count": 733,
+        "avg_review_time_hours": 94.04056198910081,
+        "pr_count": 734,
         "merged_count": 640
       },
       {
@@ -16746,6 +16746,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1006,
+                    "pr_title": "[AHM] Make staking on AH work via XCM",
+                    "reviewed_at": "2025-11-08T00:43:45Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1006"
+                  },
                   {
                     "pr_number": 943,
                     "pr_title": "[AHM] Small Fixes",
@@ -45343,6 +45349,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10242,
+                    "pr_title": "Upgrade kvdb-rocksdb",
+                    "reviewed_at": "2025-11-07T14:32:43Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10242"
+                  },
                   {
                     "pr_number": 10211,
                     "pr_title": "sc-rpc-v2: Fix flaky tests",
@@ -89460,6 +89472,80 @@
                 ],
                 "prs": [
                   {
+                    "number": 10252,
+                    "title": "[pallet-revive] set finalize = best when automine is on",
+                    "state": "OPEN",
+                    "created_at": "2025-11-07T22:03:04Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10252",
+                    "ready_for_review_at": "2025-11-07T22:03:04Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-07T22:17:34Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10239,
+                    "title": "[pallet-revive] fix prestate tracer current address",
+                    "state": "OPEN",
+                    "created_at": "2025-11-07T10:29:10Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10239",
+                    "ready_for_review_at": "2025-11-07T10:29:10Z",
+                    "reviews": [
+                      {
+                        "reviewer": "alexggh",
+                        "submitted_at": "2025-11-07T10:34:06Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "alexggh",
+                        "submitted_at": "2025-11-07T11:57:39Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-07T17:09:28Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-07T11:51:56Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-07T14:08:16Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-07T14:08:56Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-07T17:21:16Z"
+                      },
+                      {
+                        "commenter": "Pray4Love1",
+                        "commented_at": "2025-11-07T21:45:17Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.08222222222222222,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10192,
                     "title": "revive: Fix dust & child contract calls",
                     "state": "OPEN",
@@ -95708,6 +95794,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10239,
+                    "pr_title": "[pallet-revive] fix prestate tracer current address",
+                    "reviewed_at": "2025-11-07T22:30:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10239"
+                  },
+                  {
+                    "pr_number": 10246,
+                    "pr_title": "Remove outdated comment on Tracer Type",
+                    "reviewed_at": "2025-11-07T22:27:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10246"
+                  },
+                  {
+                    "pr_number": 10244,
+                    "pr_title": "[pallet-revive] add tracing for selfdestruct",
+                    "reviewed_at": "2025-11-07T21:28:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10244"
+                  },
                   {
                     "pr_number": 10214,
                     "pr_title": "pallet_revive: Fix EVM constructors with arguments",
@@ -144833,6 +144937,31 @@
                 ],
                 "prs": [
                   {
+                    "number": 10243,
+                    "title": "[WIP] pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees",
+                    "state": "OPEN",
+                    "created_at": "2025-11-07T13:08:22Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "karolk91",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10243",
+                    "ready_for_review_at": "2025-11-07T13:08:22Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "karolk91",
+                        "commented_at": "2025-11-07T13:58:38Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-07T14:54:26Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 9962,
                     "title": "[Fungibles] Avoid dusting below-ED amounts when creating/releasing holds",
                     "state": "OPEN",
@@ -164356,7 +164485,29 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10251,
+                    "title": "more events for paras pallet",
+                    "state": "OPEN",
+                    "created_at": "2025-11-07T21:10:28Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Lynette7",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10251",
+                    "ready_for_review_at": "2025-11-07T21:10:28Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2025-11-07T21:10:36Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }

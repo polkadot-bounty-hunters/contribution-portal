@@ -9106,6 +9106,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10242,
+      "pr_title": "Upgrade kvdb-rocksdb",
+      "reviewed_at": "2025-11-07T14:32:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10242"
+    },
+    {
       "pr_number": 10211,
       "pr_title": "sc-rpc-v2: Fix flaky tests",
       "reviewed_at": "2025-11-05T22:46:26Z",
