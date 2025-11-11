@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-10T04:36:59.617Z",
+  "generated_at": "2025-11-11T04:31:40.241Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1409,
-    "total_prs": 1432,
+    "total_commits": 1413,
+    "total_prs": 1435,
     "total_merged_prs": 1008,
-    "total_reviews": 2172
+    "total_reviews": 2174
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 232,
-        "prs": 153,
+        "commits": 233,
+        "prs": 155,
         "merged_prs": 125,
-        "reviews": 173,
-        "score": 2766
+        "reviews": 175,
+        "score": 2783
       },
       {
         "name": "liamaharon",
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 73,
+        "commits": 74,
         "prs": 110,
         "merged_prs": 83,
         "reviews": 157,
-        "score": 1924
+        "score": 1925
       },
       {
         "name": "jsidorenko",
@@ -104,11 +104,11 @@
         "name": "raymondkfcheung",
         "github": "raymondkfcheung",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 27,
+        "commits": 28,
         "prs": 43,
         "merged_prs": 33,
         "reviews": 113,
-        "score": 911
+        "score": 912
       },
       {
         "name": "karolk91",
@@ -341,6 +341,16 @@
         "score": 90
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 5,
+        "prs": 7,
+        "merged_prs": 2,
+        "reviews": 10,
+        "score": 90
+      },
+      {
         "name": "wentelteefje",
         "github": "wentelteefje",
         "cohort": "PBA 3 Berkeley 2023",
@@ -358,16 +368,6 @@
         "prs": 5,
         "merged_prs": 5,
         "reviews": 2,
-        "score": 84
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 4,
-        "prs": 6,
-        "merged_prs": 2,
-        "reviews": 10,
         "score": 84
       },
       {
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 73,
+          "commits": 74,
           "prs": 110,
           "merged_prs": 83,
           "reviews": 157,
-          "score": 1924
+          "score": 1925
         },
         {
           "name": "jsidorenko",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 232,
-          "prs": 153,
+          "commits": 233,
+          "prs": 155,
           "merged_prs": 125,
-          "reviews": 173,
-          "score": 2766
+          "reviews": 175,
+          "score": 2783
         },
         {
           "name": "liamaharon",
@@ -5099,21 +5099,21 @@
           "name": "raymondkfcheung",
           "github": "raymondkfcheung",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 27,
+          "commits": 28,
           "prs": 43,
           "merged_prs": 33,
           "reviews": 113,
-          "score": 911
+          "score": 912
         },
         {
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 4,
-          "prs": 6,
+          "commits": 5,
+          "prs": 7,
           "merged_prs": 2,
           "reviews": 10,
-          "score": 84
+          "score": 90
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 81.26129870129866,
+    "average_review_time_hours": 81.19188941753167,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5631,10 +5631,10 @@
       },
       {
         "reviewer": "athei",
-        "review_count": 323,
-        "approved_count": 130,
-        "avg_time_to_review_hours": 60.786527777777785,
-        "approval_rate": 40.24767801857585
+        "review_count": 324,
+        "approved_count": 131,
+        "avg_time_to_review_hours": 59.45847530864198,
+        "approval_rate": 40.4320987654321
       },
       {
         "reviewer": "acatangiu",
@@ -5694,10 +5694,10 @@
       },
       {
         "reviewer": "xermicus",
-        "review_count": 127,
-        "approved_count": 87,
+        "review_count": 129,
+        "approved_count": 88,
         "avg_time_to_review_hours": 46.09491769547326,
-        "approval_rate": 68.50393700787401
+        "approval_rate": 68.21705426356588
       },
       {
         "reviewer": "skunert",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 94.04056198910081,
-        "pr_count": 734,
+        "avg_review_time_hours": 93.91400907029478,
+        "pr_count": 735,
         "merged_count": 640
       },
       {
@@ -5921,6 +5921,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "9b69a55cca9a21f032bdc00e8fef8f5f21c4d039",
+                    "message": "Query delivery fees v2 (#9963)",
+                    "date": "2025-11-10T11:32:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/9b69a55cca9a21f032bdc00e8fef8f5f21c4d039"
+                  },
                   {
                     "sha": "c1a31e3505c0c4e01b9d2daad5f4d19b220345ec",
                     "message": "Disable reserve_asset_transfer for DOT (#9544)",
@@ -88288,6 +88294,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "d59fde5800f93b130cc535d73e6b3ce201d7a795",
+                    "message": "[pallet-revive] fix prestate tracer current address (#10239)",
+                    "date": "2025-11-10T12:15:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/d59fde5800f93b130cc535d73e6b3ce201d7a795"
+                  },
+                  {
                     "sha": "23d90a0426b76ce9ff94e7cef38a51f4024ebec3",
                     "message": "revive fix reported gas used (#10148)",
                     "date": "2025-11-04T19:38:28Z",
@@ -89471,6 +89483,113 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10271,
+                    "title": "fix NextFeeMultiplier update before Revive::on_finalize",
+                    "state": "OPEN",
+                    "created_at": "2025-11-10T14:52:05Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10271",
+                    "ready_for_review_at": "2025-11-10T14:52:05Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-10T16:18:23Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-10T16:31:28Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-10T16:32:41Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-10T16:32:53Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-10T16:35:58Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-10T19:46:03Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10267,
+                    "title": "pallet-revive: add secp256r1 (0x100) precompile",
+                    "state": "OPEN",
+                    "created_at": "2025-11-10T13:36:41Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10267",
+                    "ready_for_review_at": "2025-11-10T13:36:41Z",
+                    "reviews": [
+                      {
+                        "reviewer": "athei",
+                        "submitted_at": "2025-11-10T14:38:08Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-10T15:58:14Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-10T16:01:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2025-11-10T17:19:57Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-10T13:36:50Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-10T13:36:59Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-10T13:37:47Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-10T13:52:37Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-10T13:52:49Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-10T19:55:15Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-10T19:55:16Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.0241666666666667,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10252,
                     "title": "[pallet-revive] set finalize = best when automine is on",
@@ -95794,6 +95913,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10267,
+                    "pr_title": "pallet-revive: add secp256r1 (0x100) precompile",
+                    "reviewed_at": "2025-11-10T19:55:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10267"
+                  },
+                  {
+                    "pr_number": 10262,
+                    "pr_title": "Fix the issue with the blockhash tests",
+                    "reviewed_at": "2025-11-10T16:32:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10262"
+                  },
                   {
                     "pr_number": 10239,
                     "pr_title": "[pallet-revive] fix prestate tracer current address",
@@ -164559,6 +164690,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "4410844cb847e6a9b278a34d0ad1a479b530d7a3",
+                    "message": "[pallet-revive] Add eth_substrate_call extrinsic (#10159)",
+                    "date": "2025-11-10T15:38:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/4410844cb847e6a9b278a34d0ad1a479b530d7a3"
+                  },
+                  {
                     "sha": "a4f007cd7c3643519de40ba33b6db08b38e1ac19",
                     "message": "[v2] pallet-revive: support uploading EVM bytecode via upload_code extrinsic. (#10193)",
                     "date": "2025-11-06T09:20:31Z",
@@ -164584,6 +164721,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10281,
+                    "title": "WIP: [pallet-revive] improve eth-rpc tests reliability",
+                    "state": "OPEN",
+                    "created_at": "2025-11-10T20:17:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10281",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10193,
                     "title": "[v2] pallet-revive: support uploading EVM bytecode via upload_code",
@@ -165379,6 +165532,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "30a570b06d0f602050ba54ca871de0ad6433489a",
+                    "message": "Replace `log` with `tracing` on Bridge Relay related modules (#9430)",
+                    "date": "2025-11-10T08:21:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/30a570b06d0f602050ba54ca871de0ad6433489a"
+                  },
                   {
                     "sha": "978b35ebdcb5b02acce935a55a0dd5ef5798220e",
                     "message": "Improve README files (#9760)",

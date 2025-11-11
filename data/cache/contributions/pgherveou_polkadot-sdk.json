@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d59fde5800f93b130cc535d73e6b3ce201d7a795",
+      "message": "[pallet-revive] fix prestate tracer current address (#10239)",
+      "date": "2025-11-10T12:15:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d59fde5800f93b130cc535d73e6b3ce201d7a795"
+    },
+    {
       "sha": "23d90a0426b76ce9ff94e7cef38a51f4024ebec3",
       "message": "revive fix reported gas used (#10148)",
       "date": "2025-11-04T19:38:28Z",
@@ -1184,6 +1190,113 @@
     }
   ],
   "prs": [
+    {
+      "number": 10271,
+      "title": "fix NextFeeMultiplier update before Revive::on_finalize",
+      "state": "OPEN",
+      "created_at": "2025-11-10T14:52:05Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10271",
+      "ready_for_review_at": "2025-11-10T14:52:05Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-10T16:18:23Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-10T16:31:28Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-10T16:32:41Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-10T16:32:53Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-10T16:35:58Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-10T19:46:03Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10267,
+      "title": "pallet-revive: add secp256r1 (0x100) precompile",
+      "state": "OPEN",
+      "created_at": "2025-11-10T13:36:41Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10267",
+      "ready_for_review_at": "2025-11-10T13:36:41Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-11-10T14:38:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-10T15:58:14Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-11-10T16:01:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2025-11-10T17:19:57Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-10T13:36:50Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-10T13:36:59Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-10T13:37:47Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-10T13:52:37Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-10T13:52:49Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-10T19:55:15Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-10T19:55:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.0241666666666667,
+      "time_to_merge_hours": null
+    },
     {
       "number": 10252,
       "title": "[pallet-revive] set finalize = best when automine is on",
@@ -7507,6 +7620,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10267,
+      "pr_title": "pallet-revive: add secp256r1 (0x100) precompile",
+      "reviewed_at": "2025-11-10T19:55:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10267"
+    },
+    {
+      "pr_number": 10262,
+      "pr_title": "Fix the issue with the blockhash tests",
+      "reviewed_at": "2025-11-10T16:32:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10262"
+    },
     {
       "pr_number": 10239,
       "pr_title": "[pallet-revive] fix prestate tracer current address",

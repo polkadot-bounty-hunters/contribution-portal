@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "4410844cb847e6a9b278a34d0ad1a479b530d7a3",
+      "message": "[pallet-revive] Add eth_substrate_call extrinsic (#10159)",
+      "date": "2025-11-10T15:38:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4410844cb847e6a9b278a34d0ad1a479b530d7a3"
+    },
+    {
       "sha": "a4f007cd7c3643519de40ba33b6db08b38e1ac19",
       "message": "[v2] pallet-revive: support uploading EVM bytecode via upload_code extrinsic. (#10193)",
       "date": "2025-11-06T09:20:31Z",
@@ -26,6 +32,22 @@
     }
   ],
   "prs": [
+    {
+      "number": 10281,
+      "title": "WIP: [pallet-revive] improve eth-rpc tests reliability",
+      "state": "OPEN",
+      "created_at": "2025-11-10T20:17:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10281",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 10193,
       "title": "[v2] pallet-revive: support uploading EVM bytecode via upload_code",

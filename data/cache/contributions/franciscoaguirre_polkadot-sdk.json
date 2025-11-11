@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "9b69a55cca9a21f032bdc00e8fef8f5f21c4d039",
+      "message": "Query delivery fees v2 (#9963)",
+      "date": "2025-11-10T11:32:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/9b69a55cca9a21f032bdc00e8fef8f5f21c4d039"
+    },
+    {
       "sha": "c1a31e3505c0c4e01b9d2daad5f4d19b220345ec",
       "message": "Disable reserve_asset_transfer for DOT (#9544)",
       "date": "2025-08-28T21:31:06Z",

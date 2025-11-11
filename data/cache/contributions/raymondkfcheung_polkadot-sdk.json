@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "30a570b06d0f602050ba54ca871de0ad6433489a",
+      "message": "Replace `log` with `tracing` on Bridge Relay related modules (#9430)",
+      "date": "2025-11-10T08:21:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/30a570b06d0f602050ba54ca871de0ad6433489a"
+    },
+    {
       "sha": "978b35ebdcb5b02acce935a55a0dd5ef5798220e",
       "message": "Improve README files (#9760)",
       "date": "2025-09-17T20:01:25Z",
