@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-11T04:31:40.241Z",
+  "generated_at": "2025-11-12T04:30:18.595Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1413,
-    "total_prs": 1435,
+    "total_commits": 1417,
+    "total_prs": 1436,
     "total_merged_prs": 1008,
-    "total_reviews": 2174
+    "total_reviews": 2176
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 233,
-        "prs": 155,
+        "commits": 236,
+        "prs": 156,
         "merged_prs": 125,
-        "reviews": 175,
-        "score": 2783
+        "reviews": 176,
+        "score": 2794
       },
       {
         "name": "liamaharon",
@@ -104,11 +104,11 @@
         "name": "raymondkfcheung",
         "github": "raymondkfcheung",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 28,
+        "commits": 29,
         "prs": 43,
         "merged_prs": 33,
         "reviews": 113,
-        "score": 912
+        "score": 913
       },
       {
         "name": "karolk91",
@@ -321,6 +321,16 @@
         "score": 94
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 5,
+        "prs": 7,
+        "merged_prs": 2,
+        "reviews": 11,
+        "score": 93
+      },
+      {
         "name": "Agusrodri",
         "github": "Agusrodri",
         "cohort": "PBA 2 BA 2023",
@@ -338,16 +348,6 @@
         "prs": 6,
         "merged_prs": 3,
         "reviews": 9,
-        "score": 90
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 5,
-        "prs": 7,
-        "merged_prs": 2,
-        "reviews": 10,
         "score": 90
       },
       {
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 233,
-          "prs": 155,
+          "commits": 236,
+          "prs": 156,
           "merged_prs": 125,
-          "reviews": 175,
-          "score": 2783
+          "reviews": 176,
+          "score": 2794
         },
         {
           "name": "liamaharon",
@@ -5099,11 +5099,11 @@
           "name": "raymondkfcheung",
           "github": "raymondkfcheung",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 28,
+          "commits": 29,
           "prs": 43,
           "merged_prs": 33,
           "reviews": 113,
-          "score": 912
+          "score": 913
         },
         {
           "name": "marian-radu",
@@ -5112,8 +5112,8 @@
           "commits": 5,
           "prs": 7,
           "merged_prs": 2,
-          "reviews": 10,
-          "score": 90
+          "reviews": 11,
+          "score": 93
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 81.19188941753167,
+    "average_review_time_hours": 81.1218580140209,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5675,7 +5675,7 @@
         "reviewer": "pgherveou",
         "review_count": 157,
         "approved_count": 39,
-        "avg_time_to_review_hours": 37.957175925925924,
+        "avg_time_to_review_hours": 37.07830103359173,
         "approval_rate": 24.840764331210192
       },
       {
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 93.91400907029478,
-        "pr_count": 735,
+        "avg_review_time_hours": 93.78663345410628,
+        "pr_count": 736,
         "merged_count": 640
       },
       {
@@ -88294,6 +88294,24 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "8f33a05fd1058881b5a77b073525090328998c6c",
+                    "message": "fix NextFeeMultiplier update before Revive::on_finalize (#10271)",
+                    "date": "2025-11-11T14:33:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/8f33a05fd1058881b5a77b073525090328998c6c"
+                  },
+                  {
+                    "sha": "d15be1b2e3bcca98212d0cb7504535cdb72b8c98",
+                    "message": "pallet-revive: add secp256r1 (0x100) precompile (#10267)",
+                    "date": "2025-11-11T12:44:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/d15be1b2e3bcca98212d0cb7504535cdb72b8c98"
+                  },
+                  {
+                    "sha": "74a58bce4bff7b31c505f8e79ef6d156371f6933",
+                    "message": "[pallet-revive] use run_instant_seal_and_finalize in dev-node (#10252)",
+                    "date": "2025-11-11T12:23:00Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/74a58bce4bff7b31c505f8e79ef6d156371f6933"
+                  },
+                  {
                     "sha": "d59fde5800f93b130cc535d73e6b3ce201d7a795",
                     "message": "[pallet-revive] fix prestate tracer current address (#10239)",
                     "date": "2025-11-10T12:15:44Z",
@@ -89483,6 +89501,51 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10290,
+                    "title": "pallet-revive: fix eth tx decoding",
+                    "state": "OPEN",
+                    "created_at": "2025-11-11T15:41:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10290",
+                    "ready_for_review_at": "2025-11-11T15:41:29Z",
+                    "reviews": [
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-11T15:51:25Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2025-11-11T16:09:01Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2025-11-11T16:12:01Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-11T15:41:40Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-11T16:05:02Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-11T16:05:34Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.16555555555555557,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10271,
                     "title": "fix NextFeeMultiplier update before Revive::on_finalize",
@@ -95913,6 +95976,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10290,
+                    "pr_title": "pallet-revive: fix eth tx decoding",
+                    "reviewed_at": "2025-11-11T16:12:01Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10290"
+                  },
                   {
                     "pr_number": 10267,
                     "pr_title": "pallet-revive: add secp256r1 (0x100) precompile",
@@ -165067,6 +165136,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10290,
+                    "pr_title": "pallet-revive: fix eth tx decoding",
+                    "reviewed_at": "2025-11-11T16:12:01Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10290"
+                  },
+                  {
                     "pr_number": 10233,
                     "pr_title": "[pallet-revive] Only fund new accounts with ED",
                     "reviewed_at": "2025-11-06T20:49:18Z",
@@ -165532,6 +165607,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "c1c52454982c9b4ebef51a65b8ce2cd0c38029ed",
+                    "message": "Replace `log` with `tracing` on Snowbridge-related modules (#9279)",
+                    "date": "2025-11-11T09:24:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/c1c52454982c9b4ebef51a65b8ce2cd0c38029ed"
+                  },
                   {
                     "sha": "30a570b06d0f602050ba54ca871de0ad6433489a",
                     "message": "Replace `log` with `tracing` on Bridge Relay related modules (#9430)",

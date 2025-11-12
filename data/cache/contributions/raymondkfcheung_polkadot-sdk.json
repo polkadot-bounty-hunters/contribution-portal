@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "c1c52454982c9b4ebef51a65b8ce2cd0c38029ed",
+      "message": "Replace `log` with `tracing` on Snowbridge-related modules (#9279)",
+      "date": "2025-11-11T09:24:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c1c52454982c9b4ebef51a65b8ce2cd0c38029ed"
+    },
+    {
       "sha": "30a570b06d0f602050ba54ca871de0ad6433489a",
       "message": "Replace `log` with `tracing` on Bridge Relay related modules (#9430)",
       "date": "2025-11-10T08:21:07Z",

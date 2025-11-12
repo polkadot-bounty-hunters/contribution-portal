@@ -378,6 +378,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10290,
+      "pr_title": "pallet-revive: fix eth tx decoding",
+      "reviewed_at": "2025-11-11T16:12:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10290"
+    },
+    {
       "pr_number": 10233,
       "pr_title": "[pallet-revive] Only fund new accounts with ED",
       "reviewed_at": "2025-11-06T20:49:18Z",
