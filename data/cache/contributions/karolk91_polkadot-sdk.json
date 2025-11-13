@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "14f0e2e3af9dbfe366151e2445f320585a3fba87",
+      "message": "pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees (#10243)",
+      "date": "2025-11-12T20:17:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/14f0e2e3af9dbfe366151e2445f320585a3fba87"
+    },
+    {
       "sha": "d9f451a6b94ab2cf39371ee5192130379eb6e199",
       "message": "XCMv5 asset exchange test scenarios (#9195)",
       "date": "2025-07-31T10:42:16Z",

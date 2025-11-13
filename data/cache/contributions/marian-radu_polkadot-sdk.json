@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "eb7f82266ce8a9201352cd0164573701bdcb5b2b",
+      "message": "[pallet-revive] improve eth-rpc tests reliability (#10281)",
+      "date": "2025-11-12T15:43:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/eb7f82266ce8a9201352cd0164573701bdcb5b2b"
+    },
+    {
       "sha": "4410844cb847e6a9b278a34d0ad1a479b530d7a3",
       "message": "[pallet-revive] Add eth_substrate_call extrinsic (#10159)",
       "date": "2025-11-10T15:38:58Z",
@@ -377,6 +383,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10303,
+      "pr_title": "pallet-revive fix prestate diff tracing",
+      "reviewed_at": "2025-11-12T17:14:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10303"
+    },
+    {
+      "pr_number": 10298,
+      "pr_title": "Fix the `CodeNotFound` issue in PolkaVM tests",
+      "reviewed_at": "2025-11-12T11:58:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10298"
+    },
     {
       "pr_number": 10290,
       "pr_title": "pallet-revive: fix eth tx decoding",

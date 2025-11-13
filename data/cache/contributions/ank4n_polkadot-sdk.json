@@ -393,6 +393,31 @@
   ],
   "prs": [
     {
+      "number": 10299,
+      "title": "Post AHM Cleanup: Remove Staking (and friends) from Westend Runtime.",
+      "state": "OPEN",
+      "created_at": "2025-11-12T10:37:05Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10299",
+      "ready_for_review_at": "2025-11-12T10:37:05Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2025-11-12T12:38:46Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-12T16:21:54Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9433,
       "title": "[Staking] Configurable window for offence reporting",
       "state": "OPEN",
