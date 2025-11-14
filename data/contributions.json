@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-13T04:33:08.280Z",
+  "generated_at": "2025-11-14T04:31:29.034Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1420,
-    "total_prs": 1438,
+    "total_commits": 1421,
+    "total_prs": 1441,
     "total_merged_prs": 1008,
-    "total_reviews": 2179
+    "total_reviews": 2181
   },
   "leaderboard": {
     "overall": [
@@ -15,20 +15,20 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 254,
-        "prs": 184,
+        "prs": 185,
         "merged_prs": 145,
         "reviews": 233,
-        "score": 3323
+        "score": 3328
       },
       {
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 237,
+        "commits": 238,
         "prs": 157,
         "merged_prs": 125,
-        "reviews": 177,
-        "score": 2803
+        "reviews": 178,
+        "score": 2807
       },
       {
         "name": "liamaharon",
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 84,
-        "prs": 110,
+        "prs": 111,
         "merged_prs": 73,
         "reviews": 190,
-        "score": 1934
+        "score": 1939
       },
       {
         "name": "franciscoaguirre",
@@ -311,6 +311,16 @@
         "score": 100
       },
       {
+        "name": "Agusrodri",
+        "github": "Agusrodri",
+        "cohort": "PBA 2 BA 2023",
+        "commits": 4,
+        "prs": 8,
+        "merged_prs": 4,
+        "reviews": 5,
+        "score": 99
+      },
+      {
         "name": "Aideepakchaudhary",
         "github": "Aideepakchaudhary",
         "cohort": "PBA 5 Singapore 2024",
@@ -329,16 +339,6 @@
         "merged_prs": 4,
         "reviews": 5,
         "score": 94
-      },
-      {
-        "name": "Agusrodri",
-        "github": "Agusrodri",
-        "cohort": "PBA 2 BA 2023",
-        "commits": 4,
-        "prs": 7,
-        "merged_prs": 4,
-        "reviews": 4,
-        "score": 91
       },
       {
         "name": "castillax",
@@ -518,20 +518,20 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 254,
-          "prs": 184,
+          "prs": 185,
           "merged_prs": 145,
           "reviews": 233,
-          "score": 3323
+          "score": 3328
         },
         {
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 84,
-          "prs": 110,
+          "prs": 111,
           "merged_prs": 73,
           "reviews": 190,
-          "score": 1934
+          "score": 1939
         },
         {
           "name": "franciscoaguirre",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 237,
+          "commits": 238,
           "prs": 157,
           "merged_prs": 125,
-          "reviews": 177,
-          "score": 2803
+          "reviews": 178,
+          "score": 2807
         },
         {
           "name": "liamaharon",
@@ -1030,10 +1030,10 @@
           "github": "Agusrodri",
           "cohort": "PBA 2 BA 2023",
           "commits": 4,
-          "prs": 7,
+          "prs": 8,
           "merged_prs": 4,
-          "reviews": 4,
-          "score": 91
+          "reviews": 5,
+          "score": 99
         },
         {
           "name": "JuaniRios",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 81.05302245250428,
+    "average_review_time_hours": 80.98323938260948,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,17 +5617,17 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 685,
-        "approved_count": 389,
+        "review_count": 686,
+        "approved_count": 390,
         "avg_time_to_review_hours": 50.34350759144238,
-        "approval_rate": 56.78832116788322
+        "approval_rate": 56.85131195335277
       },
       {
         "reviewer": "bkontur",
-        "review_count": 477,
+        "review_count": 483,
         "approved_count": 139,
-        "avg_time_to_review_hours": 20.29613984674329,
-        "approval_rate": 29.140461215932913
+        "avg_time_to_review_hours": 19.955094161958563,
+        "approval_rate": 28.778467908902694
       },
       {
         "reviewer": "athei",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 93.66129240162822,
-        "pr_count": 737,
+        "avg_review_time_hours": 93.53461645588678,
+        "pr_count": 738,
         "merged_count": 640
       },
       {
@@ -19501,6 +19501,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10311,
+                    "title": "[Staking] Deterministic Era Rotation Post AHM",
+                    "state": "OPEN",
+                    "created_at": "2025-11-13T12:41:33Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10311",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10299,
                     "title": "Post AHM Cleanup: Remove Staking (and friends) from Westend Runtime.",
@@ -37273,6 +37289,31 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10312,
+                    "title": "fatxpool: metrics for unfiltered timings of inblock events",
+                    "state": "OPEN",
+                    "created_at": "2025-11-13T12:48:55Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10312",
+                    "ready_for_review_at": "2025-11-13T12:48:55Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2025-11-13T12:59:26Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-13T13:35:00Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10215,
                     "title": "PoV size reclaim fix",
@@ -88319,6 +88360,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "cc820273ae9325c9e2f7279e758415e8c6a1c78a",
+                    "message": "pallet-revive fix prestate diff tracing (#10303)",
+                    "date": "2025-11-13T11:28:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/cc820273ae9325c9e2f7279e758415e8c6a1c78a"
+                  },
+                  {
                     "sha": "a2dc8962479a626280da95571b335ae3b4492e0a",
                     "message": "pallet-revive: fix eth tx decoding (#10290)",
                     "date": "2025-11-12T13:06:19Z",
@@ -96051,6 +96098,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10309,
+                    "pr_title": "[pallet-revive] evm remove contract storage slot when writing all zero bytes",
+                    "reviewed_at": "2025-11-13T11:53:13Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10309"
+                  },
                   {
                     "pr_number": 10297,
                     "pr_title": "fix genesis eth block builder number again",
@@ -107935,6 +107988,98 @@
                 ],
                 "prs": [
                   {
+                    "number": 10313,
+                    "title": "Increase `max_upward_message_size` in `RelayStateSproofBuilder`",
+                    "state": "OPEN",
+                    "created_at": "2025-11-13T14:50:48Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Agusrodri",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10313",
+                    "ready_for_review_at": "2025-11-13T14:50:48Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2025-11-13T15:01:16Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2025-11-13T15:09:13Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2025-11-13T15:11:42Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Agusrodri",
+                        "submitted_at": "2025-11-13T15:12:00Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Agusrodri",
+                        "submitted_at": "2025-11-13T15:19:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "girazoki",
+                        "submitted_at": "2025-11-13T15:23:55Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2025-11-13T15:25:14Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Agusrodri",
+                        "submitted_at": "2025-11-13T15:28:29Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2025-11-13T15:40:06Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Agusrodri",
+                        "submitted_at": "2025-11-13T15:43:47Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2025-11-13T15:48:52Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Agusrodri",
+                        "submitted_at": "2025-11-13T15:53:56Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Agusrodri",
+                        "submitted_at": "2025-11-13T15:56:36Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2025-11-13T20:19:28Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "bkontur",
+                        "commented_at": "2025-11-13T16:05:53Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.17444444444444446,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 8175,
                     "title": "Snowbridge V2: Generic inbound message processing",
                     "state": "OPEN",
@@ -108237,6 +108382,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10313,
+                    "pr_title": "Increase `max_upward_message_size` in `RelayStateSproofBuilder`",
+                    "reviewed_at": "2025-11-13T20:19:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10313"
+                  },
                   {
                     "pr_number": 8175,
                     "pr_title": "Snowbridge V2: Generic inbound message processing",

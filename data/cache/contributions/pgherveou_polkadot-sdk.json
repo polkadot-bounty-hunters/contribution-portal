@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "cc820273ae9325c9e2f7279e758415e8c6a1c78a",
+      "message": "pallet-revive fix prestate diff tracing (#10303)",
+      "date": "2025-11-13T11:28:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cc820273ae9325c9e2f7279e758415e8c6a1c78a"
+    },
+    {
       "sha": "a2dc8962479a626280da95571b335ae3b4492e0a",
       "message": "pallet-revive: fix eth tx decoding (#10290)",
       "date": "2025-11-12T13:06:19Z",
@@ -7733,6 +7739,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10309,
+      "pr_title": "[pallet-revive] evm remove contract storage slot when writing all zero bytes",
+      "reviewed_at": "2025-11-13T11:53:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10309"
+    },
     {
       "pr_number": 10297,
       "pr_title": "fix genesis eth block builder number again",

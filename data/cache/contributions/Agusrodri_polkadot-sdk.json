@@ -9,6 +9,98 @@
   ],
   "prs": [
     {
+      "number": 10313,
+      "title": "Increase `max_upward_message_size` in `RelayStateSproofBuilder`",
+      "state": "OPEN",
+      "created_at": "2025-11-13T14:50:48Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Agusrodri",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10313",
+      "ready_for_review_at": "2025-11-13T14:50:48Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-11-13T15:01:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-11-13T15:09:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-11-13T15:11:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-11-13T15:12:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-11-13T15:19:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "girazoki",
+          "submitted_at": "2025-11-13T15:23:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-11-13T15:25:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-11-13T15:28:29Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-11-13T15:40:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-11-13T15:43:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-11-13T15:48:52Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-11-13T15:53:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Agusrodri",
+          "submitted_at": "2025-11-13T15:56:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-11-13T20:19:28Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "bkontur",
+          "commented_at": "2025-11-13T16:05:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.17444444444444446,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 8175,
       "title": "Snowbridge V2: Generic inbound message processing",
       "state": "OPEN",
@@ -311,6 +403,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10313,
+      "pr_title": "Increase `max_upward_message_size` in `RelayStateSproofBuilder`",
+      "reviewed_at": "2025-11-13T20:19:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10313"
+    },
     {
       "pr_number": 8175,
       "pr_title": "Snowbridge V2: Generic inbound message processing",
