@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "75dcd030700b2b45059fbd0fe4245e0d30429485",
+      "message": "Increase `max_upward_message_size` in `RelayStateSproofBuilder` (#10313)",
+      "date": "2025-11-14T09:50:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/75dcd030700b2b45059fbd0fe4245e0d30429485"
+    },
+    {
       "sha": "a0a3b84738fdaef7f72be79d388f5b87565b2cb4",
       "message": "Snowbridge V2: Add `OnNewCommitment` hook to outbound-queue pallet (#8053)",
       "date": "2025-09-23T09:15:18Z",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-14T04:31:29.034Z",
+  "generated_at": "2025-11-15T04:24:58.024Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1421,
-    "total_prs": 1441,
+    "total_commits": 1422,
+    "total_prs": 1442,
     "total_merged_prs": 1008,
-    "total_reviews": 2181
+    "total_reviews": 2182
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 238,
-        "prs": 157,
+        "prs": 158,
         "merged_prs": 125,
-        "reviews": 178,
-        "score": 2807
+        "reviews": 179,
+        "score": 2815
       },
       {
         "name": "liamaharon",
@@ -301,6 +301,16 @@
         "score": 104
       },
       {
+        "name": "Agusrodri",
+        "github": "Agusrodri",
+        "cohort": "PBA 2 BA 2023",
+        "commits": 5,
+        "prs": 8,
+        "merged_prs": 4,
+        "reviews": 5,
+        "score": 100
+      },
+      {
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
@@ -309,16 +319,6 @@
         "merged_prs": 2,
         "reviews": 13,
         "score": 100
-      },
-      {
-        "name": "Agusrodri",
-        "github": "Agusrodri",
-        "cohort": "PBA 2 BA 2023",
-        "commits": 4,
-        "prs": 8,
-        "merged_prs": 4,
-        "reviews": 5,
-        "score": 99
       },
       {
         "name": "Aideepakchaudhary",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 238,
-          "prs": 157,
+          "prs": 158,
           "merged_prs": 125,
-          "reviews": 178,
-          "score": 2807
+          "reviews": 179,
+          "score": 2815
         },
         {
           "name": "liamaharon",
@@ -1029,11 +1029,11 @@
           "name": "Agusrodri",
           "github": "Agusrodri",
           "cohort": "PBA 2 BA 2023",
-          "commits": 4,
+          "commits": 5,
           "prs": 8,
           "merged_prs": 4,
           "reviews": 5,
-          "score": 99
+          "score": 100
         },
         {
           "name": "JuaniRios",
@@ -89580,6 +89580,39 @@
                 ],
                 "prs": [
                   {
+                    "number": 10328,
+                    "title": "pallet-revive: eth-rpc improve submit",
+                    "state": "OPEN",
+                    "created_at": "2025-11-14T20:24:39Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10328",
+                    "ready_for_review_at": "2025-11-14T20:24:39Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-14T20:24:51Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-14T21:00:22Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-14T21:00:27Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-14T21:37:07Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10303,
                     "title": "pallet-revive fix prestate diff tracing",
                     "state": "OPEN",
@@ -96098,6 +96131,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10321,
+                    "pr_title": "frame-system: Only enable special benchmarking code when running in `no_std`",
+                    "reviewed_at": "2025-11-14T17:07:11Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10321"
+                  },
                   {
                     "pr_number": 10309,
                     "pr_title": "[pallet-revive] evm remove contract storage slot when writing all zero bytes",
@@ -107979,6 +108018,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "75dcd030700b2b45059fbd0fe4245e0d30429485",
+                    "message": "Increase `max_upward_message_size` in `RelayStateSproofBuilder` (#10313)",
+                    "date": "2025-11-14T09:50:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/75dcd030700b2b45059fbd0fe4245e0d30429485"
+                  },
                   {
                     "sha": "a0a3b84738fdaef7f72be79d388f5b87565b2cb4",
                     "message": "Snowbridge V2: Add `OnNewCommitment` hook to outbound-queue pallet (#8053)",
