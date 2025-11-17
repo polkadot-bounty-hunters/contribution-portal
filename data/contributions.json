@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-11-16T04:35:38.089Z",
+  "generated_at": "2025-11-17T04:33:32.691Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1422,
-    "total_prs": 1442,
+    "total_prs": 1443,
     "total_merged_prs": 1008,
     "total_reviews": 2182
   },
@@ -3302,6 +3302,16 @@
           "score": 5
         },
         {
+          "name": "sinzii",
+          "github": "sinzii",
+          "cohort": "PBA 5 Singapore 2024",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "mennatabuelnaga",
           "github": "mennatabuelnaga",
           "cohort": "PBA 5 Singapore 2024",
@@ -4264,16 +4274,6 @@
         {
           "name": "soloking1412",
           "github": "soloking1412",
-          "cohort": "PBA 5 Singapore 2024",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "sinzii",
-          "github": "sinzii",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 0,
           "prs": 0,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 80.98323938260948,
+    "average_review_time_hours": 80.91395019157085,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 686,
-        "approved_count": 390,
-        "avg_time_to_review_hours": 50.34350759144238,
-        "approval_rate": 56.85131195335277
+        "review_count": 688,
+        "approved_count": 391,
+        "avg_time_to_review_hours": 50.03649691358026,
+        "approval_rate": 56.83139534883721
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 93.53461645588678,
-        "pr_count": 738,
+        "avg_review_time_hours": 93.40886971883926,
+        "pr_count": 739,
         "merged_count": 640
       },
       {
@@ -157538,7 +157538,66 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10329,
+                    "title": "fix: support `paginationStartKey` parameter for `archive_v1_storage`",
+                    "state": "OPEN",
+                    "created_at": "2025-11-16T17:03:39Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "sinzii",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10329",
+                    "ready_for_review_at": "2025-11-16T17:03:39Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2025-11-16T17:40:07Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "lexnv",
+                        "submitted_at": "2025-11-16T21:13:23Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "lexnv",
+                        "submitted_at": "2025-11-16T21:18:02Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2025-11-16T22:00:26Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2025-11-16T17:03:47Z"
+                      },
+                      {
+                        "commenter": "sinzii",
+                        "commented_at": "2025-11-16T17:06:08Z"
+                      },
+                      {
+                        "commenter": "sinzii",
+                        "commented_at": "2025-11-16T17:06:17Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-17T03:40:05Z"
+                      },
+                      {
+                        "commenter": "sinzii",
+                        "commented_at": "2025-11-17T03:46:42Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.6077777777777778,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
