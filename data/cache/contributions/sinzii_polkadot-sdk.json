@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "4e2f8a8f56325c461d8cd0e20545a34cebe9d1cd",
+      "message": "fix: support `paginationStartKey` parameter for `archive_v1_storage` (#10329)",
+      "date": "2025-11-17T08:50:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4e2f8a8f56325c461d8cd0e20545a34cebe9d1cd"
+    }
+  ],
   "prs": [
     {
       "number": 10329,
