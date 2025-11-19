@@ -2,6 +2,35 @@
   "commits": [],
   "prs": [
     {
+      "number": 10350,
+      "title": "Add Preimage precompile",
+      "state": "OPEN",
+      "created_at": "2025-11-18T15:01:10Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "LucasGrasso",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10350",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "LucasGrasso",
+          "commented_at": "2025-11-18T19:07:25Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-18T19:10:22Z"
+        },
+        {
+          "commenter": "LucasGrasso",
+          "commented_at": "2025-11-18T23:19:59Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10107,
       "title": "Governance pre compile - Referenda & Conviction Voting",
       "state": "OPEN",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-18T04:30:35.074Z",
+  "generated_at": "2025-11-19T04:30:00.864Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1424,
-    "total_prs": 1444,
+    "total_prs": 1446,
     "total_merged_prs": 1009,
-    "total_reviews": 2184
+    "total_reviews": 2185
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 239,
         "prs": 159,
         "merged_prs": 126,
-        "reviews": 180,
-        "score": 2834
+        "reviews": 181,
+        "score": 2837
       },
       {
         "name": "liamaharon",
@@ -932,8 +932,8 @@
           "commits": 239,
           "prs": 159,
           "merged_prs": 126,
-          "reviews": 180,
-          "score": 2834
+          "reviews": 181,
+          "score": 2837
         },
         {
           "name": "liamaharon",
@@ -5146,6 +5146,26 @@
           "score": 16
         },
         {
+          "name": "LucasGrasso",
+          "github": "LucasGrasso",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 2,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 10
+        },
+        {
+          "name": "CECILIA-MULANDI",
+          "github": "CECILIA-MULANDI",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "freddyli7",
           "github": "freddyli7",
           "cohort": "PBA 7 Bali 2025",
@@ -5158,16 +5178,6 @@
         {
           "name": "kdonthi",
           "github": "kdonthi",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 5
-        },
-        {
-          "name": "LucasGrasso",
-          "github": "LucasGrasso",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 1,
@@ -5238,16 +5248,6 @@
         {
           "name": "bogos",
           "github": "bogos",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "CECILIA-MULANDI",
-          "github": "CECILIA-MULANDI",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -96187,6 +96187,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10347,
+                    "pr_title": "Don't require PR for uploading comment for DT CI",
+                    "reviewed_at": "2025-11-18T14:05:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10347"
+                  },
+                  {
                     "pr_number": 10337,
                     "pr_title": "Allow DT CI to be manually triggered",
                     "reviewed_at": "2025-11-17T22:43:26Z",
@@ -164079,7 +164085,29 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10352,
+                    "title": "docs(balances): fix broken links and correct trait name in README",
+                    "state": "OPEN",
+                    "created_at": "2025-11-18T15:24:45Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "CECILIA-MULANDI",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10352",
+                    "ready_for_review_at": "2025-11-18T15:24:45Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2025-11-18T15:24:53Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -165007,6 +165035,35 @@
               "contributions": {
                 "commits": [],
                 "prs": [
+                  {
+                    "number": 10350,
+                    "title": "Add Preimage precompile",
+                    "state": "OPEN",
+                    "created_at": "2025-11-18T15:01:10Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "LucasGrasso",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10350",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "LucasGrasso",
+                        "commented_at": "2025-11-18T19:07:25Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-18T19:10:22Z"
+                      },
+                      {
+                        "commenter": "LucasGrasso",
+                        "commented_at": "2025-11-18T23:19:59Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10107,
                     "title": "Governance pre compile - Referenda & Conviction Voting",

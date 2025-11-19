@@ -1,6 +1,28 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 10352,
+      "title": "docs(balances): fix broken links and correct trait name in README",
+      "state": "OPEN",
+      "created_at": "2025-11-18T15:24:45Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "CECILIA-MULANDI",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10352",
+      "ready_for_review_at": "2025-11-18T15:24:45Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-11-18T15:24:53Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }

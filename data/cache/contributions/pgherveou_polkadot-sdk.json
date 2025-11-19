@@ -7828,6 +7828,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10347,
+      "pr_title": "Don't require PR for uploading comment for DT CI",
+      "reviewed_at": "2025-11-18T14:05:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10347"
+    },
+    {
       "pr_number": 10337,
       "pr_title": "Allow DT CI to be manually triggered",
       "reviewed_at": "2025-11-17T22:43:26Z",
