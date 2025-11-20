@@ -1227,6 +1227,45 @@
   ],
   "prs": [
     {
+      "number": 10366,
+      "title": "[pallet-revive] update evm create benchmark",
+      "state": "OPEN",
+      "created_at": "2025-11-19T23:44:29Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10366",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2025-11-20T00:07:27Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-19T23:46:28Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-19T23:46:36Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-19T23:47:19Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-11-20T00:36:44Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10336,
       "title": "fix P256Verify precompile address",
       "state": "MERGED",
@@ -7827,6 +7866,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10366,
+      "pr_title": "[pallet-revive] update evm create benchmark",
+      "reviewed_at": "2025-11-20T00:36:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10366"
+    },
     {
       "pr_number": 10347,
       "pr_title": "Don't require PR for uploading comment for DT CI",

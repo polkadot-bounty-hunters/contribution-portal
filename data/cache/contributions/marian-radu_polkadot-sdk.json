@@ -39,6 +39,42 @@
   ],
   "prs": [
     {
+      "number": 10360,
+      "title": "Adjust personal_sign to match ethereumjs implementation.",
+      "state": "OPEN",
+      "created_at": "2025-11-19T11:17:25Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10360",
+      "ready_for_review_at": "2025-11-19T11:17:25Z",
+      "reviews": [
+        {
+          "reviewer": "mokita-j",
+          "submitted_at": "2025-11-19T13:41:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bee344",
+          "submitted_at": "2025-11-19T19:08:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-19T11:24:15Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-19T11:24:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.395277777777778,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10281,
       "title": "WIP: [pallet-revive] improve eth-rpc tests reliability",
       "state": "OPEN",

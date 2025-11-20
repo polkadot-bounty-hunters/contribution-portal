@@ -1533,6 +1533,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1012,
+      "pr_title": "add review bot workflow",
+      "reviewed_at": "2025-11-19T22:24:05Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1012"
+    },
+    {
       "pr_number": 987,
       "pr_title": "[stable2509] Bump to 2509-1",
       "reviewed_at": "2025-10-23T19:32:46Z",

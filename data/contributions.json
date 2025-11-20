@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-19T04:30:00.864Z",
+  "generated_at": "2025-11-20T04:27:53.678Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1424,
-    "total_prs": 1446,
+    "total_prs": 1448,
     "total_merged_prs": 1009,
-    "total_reviews": 2185
+    "total_reviews": 2188
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 239,
-        "prs": 159,
+        "prs": 160,
         "merged_prs": 126,
-        "reviews": 181,
-        "score": 2837
+        "reviews": 182,
+        "score": 2845
       },
       {
         "name": "liamaharon",
@@ -147,8 +147,8 @@
         "commits": 12,
         "prs": 22,
         "merged_prs": 12,
-        "reviews": 44,
-        "score": 374
+        "reviews": 45,
+        "score": 377
       },
       {
         "name": "muraca",
@@ -281,6 +281,16 @@
         "score": 113
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 8,
+        "merged_prs": 2,
+        "reviews": 14,
+        "score": 108
+      },
+      {
         "name": "brunopgalvao",
         "github": "brunopgalvao",
         "cohort": "PBA 2 BA 2023",
@@ -299,16 +309,6 @@
         "merged_prs": 3,
         "reviews": 2,
         "score": 104
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 7,
-        "merged_prs": 2,
-        "reviews": 14,
-        "score": 103
       },
       {
         "name": "Agusrodri",
@@ -461,6 +461,16 @@
         "score": 48
       },
       {
+        "name": "bee344",
+        "github": "bee344",
+        "cohort": "PBA 2 BA 2023",
+        "commits": 0,
+        "prs": 4,
+        "merged_prs": 0,
+        "reviews": 9,
+        "score": 47
+      },
+      {
         "name": "Wolfenheimm",
         "github": "Wolfenheimm",
         "cohort": "PBA 6 Lucerne 2025",
@@ -469,16 +479,6 @@
         "merged_prs": 1,
         "reviews": 2,
         "score": 47
-      },
-      {
-        "name": "bee344",
-        "github": "bee344",
-        "cohort": "PBA 2 BA 2023",
-        "commits": 0,
-        "prs": 4,
-        "merged_prs": 0,
-        "reviews": 8,
-        "score": 44
       },
       {
         "name": "adelarja",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 239,
-          "prs": 159,
+          "prs": 160,
           "merged_prs": 126,
-          "reviews": 181,
-          "score": 2837
+          "reviews": 182,
+          "score": 2845
         },
         {
           "name": "liamaharon",
@@ -1062,8 +1062,8 @@
           "commits": 0,
           "prs": 4,
           "merged_prs": 0,
-          "reviews": 8,
-          "score": 44
+          "reviews": 9,
+          "score": 47
         },
         {
           "name": "adelarja",
@@ -1684,8 +1684,8 @@
           "commits": 12,
           "prs": 22,
           "merged_prs": 12,
-          "reviews": 44,
-          "score": 374
+          "reviews": 45,
+          "score": 377
         },
         {
           "name": "DrW3RK",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 7,
+          "prs": 8,
           "merged_prs": 2,
           "reviews": 14,
-          "score": 103
+          "score": 108
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 80.84428222796436,
+    "average_review_time_hours": 80.77677017594182,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 93.2826813063063,
-        "pr_count": 740,
+        "avg_review_time_hours": 93.16002624081572,
+        "pr_count": 741,
         "merged_count": 641
       },
       {
@@ -89586,6 +89586,45 @@
                 ],
                 "prs": [
                   {
+                    "number": 10366,
+                    "title": "[pallet-revive] update evm create benchmark",
+                    "state": "OPEN",
+                    "created_at": "2025-11-19T23:44:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10366",
+                    "ready_for_review_at": null,
+                    "reviews": [
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2025-11-20T00:07:27Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-19T23:46:28Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-19T23:46:36Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-19T23:47:19Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-20T00:36:44Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10336,
                     "title": "fix P256Verify precompile address",
                     "state": "MERGED",
@@ -96186,6 +96225,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10366,
+                    "pr_title": "[pallet-revive] update evm create benchmark",
+                    "reviewed_at": "2025-11-20T00:36:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10366"
+                  },
                   {
                     "pr_number": 10347,
                     "pr_title": "Don't require PR for uploading comment for DT CI",
@@ -107194,6 +107239,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10360,
+                    "pr_title": "Adjust personal_sign to match ethereumjs implementation.",
+                    "reviewed_at": "2025-11-19T19:08:42Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10360"
+                  },
+                  {
                     "pr_number": 9874,
                     "pr_title": "Update client.rs",
                     "reviewed_at": "2025-09-30T14:33:12Z",
@@ -117870,6 +117921,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1012,
+                    "pr_title": "add review bot workflow",
+                    "reviewed_at": "2025-11-19T22:24:05Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1012"
+                  },
                   {
                     "pr_number": 987,
                     "pr_title": "[stable2509] Bump to 2509-1",
@@ -165263,6 +165320,42 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10360,
+                    "title": "Adjust personal_sign to match ethereumjs implementation.",
+                    "state": "OPEN",
+                    "created_at": "2025-11-19T11:17:25Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10360",
+                    "ready_for_review_at": "2025-11-19T11:17:25Z",
+                    "reviews": [
+                      {
+                        "reviewer": "mokita-j",
+                        "submitted_at": "2025-11-19T13:41:08Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bee344",
+                        "submitted_at": "2025-11-19T19:08:42Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-19T11:24:15Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-19T11:24:17Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 2.395277777777778,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10281,
                     "title": "WIP: [pallet-revive] improve eth-rpc tests reliability",

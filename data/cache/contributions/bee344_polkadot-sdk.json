@@ -141,6 +141,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10360,
+      "pr_title": "Adjust personal_sign to match ethereumjs implementation.",
+      "reviewed_at": "2025-11-19T19:08:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10360"
+    },
+    {
       "pr_number": 9874,
       "pr_title": "Update client.rs",
       "reviewed_at": "2025-09-30T14:33:12Z",
