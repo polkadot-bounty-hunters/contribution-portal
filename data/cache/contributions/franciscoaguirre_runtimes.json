@@ -1249,6 +1249,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1014,
+      "pr_title": "Remove XCM Transact filters and Pool assets transactors",
+      "reviewed_at": "2025-11-20T18:35:44Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1014"
+    },
+    {
       "pr_number": 1006,
       "pr_title": "[AHM] Make staking on AH work via XCM",
       "reviewed_at": "2025-11-08T00:43:45Z",

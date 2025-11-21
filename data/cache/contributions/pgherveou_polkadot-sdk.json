@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "04f79fb22ac3b5f4ee6efda2f223dea797ba6299",
+      "message": "[pallet-revive] update evm create benchmark (#10366)",
+      "date": "2025-11-20T17:56:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/04f79fb22ac3b5f4ee6efda2f223dea797ba6299"
+    },
+    {
       "sha": "e9bbdf08e180f687a2f10bed77d5b52391446df2",
       "message": "fix P256Verify precompile address (#10336)",
       "date": "2025-11-17T22:01:37Z",
@@ -1226,6 +1232,31 @@
     }
   ],
   "prs": [
+    {
+      "number": 10380,
+      "title": "pallet-revive benchmark opcode fix",
+      "state": "OPEN",
+      "created_at": "2025-11-20T21:31:55Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10380",
+      "ready_for_review_at": "2025-11-20T21:31:55Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-11-20T21:37:03Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-20T21:49:49Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 10366,
       "title": "[pallet-revive] update evm create benchmark",
