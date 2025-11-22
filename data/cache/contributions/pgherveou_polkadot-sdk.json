@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "abe05daf56d3af1611de7d6478e0cd1a23a789d9",
+      "message": "pallet-revive benchmark opcode fix (#10380)",
+      "date": "2025-11-21T12:04:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/abe05daf56d3af1611de7d6478e0cd1a23a789d9"
+    },
+    {
       "sha": "04f79fb22ac3b5f4ee6efda2f223dea797ba6299",
       "message": "[pallet-revive] update evm create benchmark (#10366)",
       "date": "2025-11-20T17:56:56Z",
@@ -7897,6 +7903,24 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10383,
+      "pr_title": "Enable force debug in revive dev node",
+      "reviewed_at": "2025-11-21T16:35:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10383"
+    },
+    {
+      "pr_number": 10385,
+      "pr_title": "Disable polkavm logging in `pallet-revive`",
+      "reviewed_at": "2025-11-21T15:30:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10385"
+    },
+    {
+      "pr_number": 10387,
+      "pr_title": "pallet-revive: add DebugSetting for bypassing eip-3607",
+      "reviewed_at": "2025-11-21T15:07:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10387"
+    },
     {
       "pr_number": 10366,
       "pr_title": "[pallet-revive] update evm create benchmark",

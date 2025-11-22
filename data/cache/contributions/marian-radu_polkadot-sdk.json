@@ -420,6 +420,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10387,
+      "pr_title": "pallet-revive: add DebugSetting for bypassing eip-3607",
+      "reviewed_at": "2025-11-21T15:07:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10387"
+    },
+    {
       "pr_number": 10336,
       "pr_title": "fix P256Verify precompile address",
       "reviewed_at": "2025-11-17T22:37:56Z",

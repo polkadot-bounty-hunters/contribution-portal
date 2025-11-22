@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-21T04:28:56.075Z",
+  "generated_at": "2025-11-22T04:22:47.993Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1425,
+    "total_commits": 1426,
     "total_prs": 1449,
     "total_merged_prs": 1009,
-    "total_reviews": 2189
+    "total_reviews": 2193
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 240,
+        "commits": 241,
         "prs": 161,
         "merged_prs": 126,
-        "reviews": 182,
-        "score": 2851
+        "reviews": 185,
+        "score": 2861
       },
       {
         "name": "liamaharon",
@@ -287,8 +287,8 @@
         "commits": 6,
         "prs": 8,
         "merged_prs": 2,
-        "reviews": 14,
-        "score": 108
+        "reviews": 15,
+        "score": 111
       },
       {
         "name": "brunopgalvao",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 240,
+          "commits": 241,
           "prs": 161,
           "merged_prs": 126,
-          "reviews": 182,
-          "score": 2851
+          "reviews": 185,
+          "score": 2861
         },
         {
           "name": "liamaharon",
@@ -5112,8 +5112,8 @@
           "commits": 6,
           "prs": 8,
           "merged_prs": 2,
-          "reviews": 14,
-          "score": 108
+          "reviews": 15,
+          "score": 111
         },
         {
           "name": "surajk-m",
@@ -88366,6 +88366,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "abe05daf56d3af1611de7d6478e0cd1a23a789d9",
+                    "message": "pallet-revive benchmark opcode fix (#10380)",
+                    "date": "2025-11-21T12:04:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/abe05daf56d3af1611de7d6478e0cd1a23a789d9"
+                  },
+                  {
                     "sha": "04f79fb22ac3b5f4ee6efda2f223dea797ba6299",
                     "message": "[pallet-revive] update evm create benchmark (#10366)",
                     "date": "2025-11-20T17:56:56Z",
@@ -96262,6 +96268,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10383,
+                    "pr_title": "Enable force debug in revive dev node",
+                    "reviewed_at": "2025-11-21T16:35:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10383"
+                  },
+                  {
+                    "pr_number": 10385,
+                    "pr_title": "Disable polkavm logging in `pallet-revive`",
+                    "reviewed_at": "2025-11-21T15:30:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10385"
+                  },
+                  {
+                    "pr_number": 10387,
+                    "pr_title": "pallet-revive: add DebugSetting for bypassing eip-3607",
+                    "reviewed_at": "2025-11-21T15:07:51Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10387"
+                  },
                   {
                     "pr_number": 10366,
                     "pr_title": "[pallet-revive] update evm create benchmark",
@@ -165738,6 +165762,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10387,
+                    "pr_title": "pallet-revive: add DebugSetting for bypassing eip-3607",
+                    "reviewed_at": "2025-11-21T15:07:51Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10387"
+                  },
                   {
                     "pr_number": 10336,
                     "pr_title": "fix P256Verify precompile address",
