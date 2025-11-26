@@ -7904,6 +7904,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10422,
+      "pr_title": "[pallet-revive] add EVM gas call syscalls",
+      "reviewed_at": "2025-11-25T21:18:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10422"
+    },
+    {
       "pr_number": 10383,
       "pr_title": "Enable force debug in revive dev node",
       "reviewed_at": "2025-11-21T16:35:58Z",

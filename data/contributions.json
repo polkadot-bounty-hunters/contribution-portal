@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-25T04:32:45.229Z",
+  "generated_at": "2025-11-26T04:32:52.528Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1426,
     "total_prs": 1449,
     "total_merged_prs": 1009,
-    "total_reviews": 2193
+    "total_reviews": 2194
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 241,
         "prs": 161,
         "merged_prs": 126,
-        "reviews": 185,
-        "score": 2861
+        "reviews": 186,
+        "score": 2864
       },
       {
         "name": "liamaharon",
@@ -932,8 +932,8 @@
           "commits": 241,
           "prs": 161,
           "merged_prs": 126,
-          "reviews": 185,
-          "score": 2861
+          "reviews": 186,
+          "score": 2864
         },
         {
           "name": "liamaharon",
@@ -96268,6 +96268,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10422,
+                    "pr_title": "[pallet-revive] add EVM gas call syscalls",
+                    "reviewed_at": "2025-11-25T21:18:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10422"
+                  },
                   {
                     "pr_number": 10383,
                     "pr_title": "Enable force debug in revive dev node",
