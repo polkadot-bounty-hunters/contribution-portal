@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-26T04:32:52.528Z",
+  "generated_at": "2025-11-27T04:29:17.649Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1426,
-    "total_prs": 1449,
-    "total_merged_prs": 1009,
-    "total_reviews": 2194
+    "total_prs": 1452,
+    "total_merged_prs": 1010,
+    "total_reviews": 2197
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 241,
-        "prs": 161,
+        "prs": 162,
         "merged_prs": 126,
-        "reviews": 186,
-        "score": 2864
+        "reviews": 187,
+        "score": 2872
       },
       {
         "name": "liamaharon",
@@ -271,6 +271,16 @@
         "score": 127
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 9,
+        "merged_prs": 3,
+        "reviews": 15,
+        "score": 126
+      },
+      {
         "name": "chungquantin",
         "github": "chungquantin",
         "cohort": "PBA 5 Singapore 2024",
@@ -279,16 +289,6 @@
         "merged_prs": 5,
         "reviews": 6,
         "score": 113
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 8,
-        "merged_prs": 2,
-        "reviews": 15,
-        "score": 111
       },
       {
         "name": "brunopgalvao",
@@ -441,6 +441,16 @@
         "score": 55
       },
       {
+        "name": "bee344",
+        "github": "bee344",
+        "cohort": "PBA 2 BA 2023",
+        "commits": 0,
+        "prs": 4,
+        "merged_prs": 0,
+        "reviews": 10,
+        "score": 50
+      },
+      {
         "name": "joshuacheong",
         "github": "joshuacheong",
         "cohort": "PBA 3 Berkeley 2023",
@@ -459,16 +469,6 @@
         "merged_prs": 3,
         "reviews": 0,
         "score": 48
-      },
-      {
-        "name": "bee344",
-        "github": "bee344",
-        "cohort": "PBA 2 BA 2023",
-        "commits": 0,
-        "prs": 4,
-        "merged_prs": 0,
-        "reviews": 9,
-        "score": 47
       },
       {
         "name": "Wolfenheimm",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 241,
-          "prs": 161,
+          "prs": 162,
           "merged_prs": 126,
-          "reviews": 186,
-          "score": 2864
+          "reviews": 187,
+          "score": 2872
         },
         {
           "name": "liamaharon",
@@ -1062,8 +1062,8 @@
           "commits": 0,
           "prs": 4,
           "merged_prs": 0,
-          "reviews": 9,
-          "score": 47
+          "reviews": 10,
+          "score": 50
         },
         {
           "name": "adelarja",
@@ -4368,10 +4368,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 1,
-          "prs": 1,
+          "prs": 2,
           "merged_prs": 1,
-          "reviews": 1,
-          "score": 19
+          "reviews": 2,
+          "score": 27
         },
         {
           "name": "andrzejSulkowski",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 8,
-          "merged_prs": 2,
+          "prs": 9,
+          "merged_prs": 3,
           "reviews": 15,
-          "score": 111
+          "score": 126
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 80.77677017594182,
+    "average_review_time_hours": 80.70756496608385,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 93.16002624081572,
-        "pr_count": 741,
-        "merged_count": 641
+        "avg_review_time_hours": 93.03486597783767,
+        "pr_count": 742,
+        "merged_count": 642
       },
       {
         "repository": "paritytech/substrate",
@@ -89604,6 +89604,35 @@
                 ],
                 "prs": [
                   {
+                    "number": 10435,
+                    "title": "Run evm-test-suite with westend-runtime & revive-dev-node",
+                    "state": "OPEN",
+                    "created_at": "2025-11-26T08:55:05Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10435",
+                    "ready_for_review_at": "2025-11-26T08:55:05Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-11-26T09:59:44Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-26T11:21:14Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-26T11:21:29Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10380,
                     "title": "pallet-revive benchmark opcode fix",
                     "state": "OPEN",
@@ -96268,6 +96297,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10427,
+                    "pr_title": "Fix assertion",
+                    "reviewed_at": "2025-11-26T15:02:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10427"
+                  },
                   {
                     "pr_number": 10422,
                     "pr_title": "[pallet-revive] add EVM gas call syscalls",
@@ -107305,6 +107340,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10440,
+                    "pr_title": "Quick fix: Wait for the transaction to be imported in a block.",
+                    "reviewed_at": "2025-11-26T16:16:52Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10440"
+                  },
                   {
                     "pr_number": 10360,
                     "pr_title": "Adjust personal_sign to match ethereumjs implementation.",
@@ -160315,9 +160356,48 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 1019,
+                    "title": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion ",
+                    "state": "OPEN",
+                    "created_at": "2025-11-26T18:21:25Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1019",
+                    "ready_for_review_at": null,
+                    "reviews": [
+                      {
+                        "reviewer": "dhirajs0",
+                        "submitted_at": "2025-11-26T18:23:31Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2025-11-26T18:26:54Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-11-26T18:44:47Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
-                "reviews": []
+                "reviews": [
+                  {
+                    "pr_number": 1019,
+                    "pr_title": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion ",
+                    "reviewed_at": "2025-11-26T18:44:47Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1019"
+                  }
+                ]
               }
             },
             "open-web3-stack/open-runtime-module-library": {
@@ -165387,6 +165467,33 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10440,
+                    "title": "Quick fix: Wait for the transaction to be imported in a block.",
+                    "state": "MERGED",
+                    "created_at": "2025-11-26T15:58:52Z",
+                    "closed_at": "2025-11-26T16:16:50Z",
+                    "merged_at": "2025-11-26T16:16:50Z",
+                    "merged_by": "marian-radu",
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10440",
+                    "ready_for_review_at": "2025-11-26T15:58:52Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bee344",
+                        "submitted_at": "2025-11-26T16:16:20Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-26T16:04:53Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.2911111111111111,
+                    "time_to_merge_hours": 0.29944444444444446
+                  },
                   {
                     "number": 10360,
                     "title": "Adjust personal_sign to match ethereumjs implementation.",

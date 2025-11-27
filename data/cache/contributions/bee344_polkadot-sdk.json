@@ -141,6 +141,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10440,
+      "pr_title": "Quick fix: Wait for the transaction to be imported in a block.",
+      "reviewed_at": "2025-11-26T16:16:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10440"
+    },
+    {
       "pr_number": 10360,
       "pr_title": "Adjust personal_sign to match ethereumjs implementation.",
       "reviewed_at": "2025-11-19T19:08:42Z",

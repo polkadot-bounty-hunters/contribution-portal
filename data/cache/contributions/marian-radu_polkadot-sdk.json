@@ -39,6 +39,33 @@
   ],
   "prs": [
     {
+      "number": 10440,
+      "title": "Quick fix: Wait for the transaction to be imported in a block.",
+      "state": "MERGED",
+      "created_at": "2025-11-26T15:58:52Z",
+      "closed_at": "2025-11-26T16:16:50Z",
+      "merged_at": "2025-11-26T16:16:50Z",
+      "merged_by": "marian-radu",
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10440",
+      "ready_for_review_at": "2025-11-26T15:58:52Z",
+      "reviews": [
+        {
+          "reviewer": "bee344",
+          "submitted_at": "2025-11-26T16:16:20Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-26T16:04:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2911111111111111,
+      "time_to_merge_hours": 0.29944444444444446
+    },
+    {
       "number": 10360,
       "title": "Adjust personal_sign to match ethereumjs implementation.",
       "state": "OPEN",
