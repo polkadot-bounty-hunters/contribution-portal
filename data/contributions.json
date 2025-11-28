@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-27T04:29:17.649Z",
+  "generated_at": "2025-11-28T04:29:18.741Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1426,
-    "total_prs": 1452,
+    "total_prs": 1453,
     "total_merged_prs": 1010,
-    "total_reviews": 2197
+    "total_reviews": 2198
   },
   "leaderboard": {
     "overall": [
@@ -105,10 +105,10 @@
         "github": "raymondkfcheung",
         "cohort": "PBA 7 Bali 2025",
         "commits": 29,
-        "prs": 43,
+        "prs": 44,
         "merged_prs": 33,
-        "reviews": 113,
-        "score": 913
+        "reviews": 114,
+        "score": 921
       },
       {
         "name": "karolk91",
@@ -5100,10 +5100,10 @@
           "github": "raymondkfcheung",
           "cohort": "PBA 7 Bali 2025",
           "commits": 29,
-          "prs": 43,
+          "prs": 44,
           "merged_prs": 33,
-          "reviews": 113,
-          "score": 913
+          "reviews": 114,
+          "score": 921
         },
         {
           "name": "marian-radu",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 80.70756496608385,
+    "average_review_time_hours": 80.63983796296293,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 93.03486597783767,
-        "pr_count": 742,
+        "avg_review_time_hours": 92.91217212501869,
+        "pr_count": 743,
         "merged_count": 642
       },
       {
@@ -166530,6 +166530,42 @@
                 ],
                 "prs": [
                   {
+                    "number": 10445,
+                    "title": "Add `hash` field to `Event::Stored` and `Event::Renewed`",
+                    "state": "OPEN",
+                    "created_at": "2025-11-27T12:14:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "raymondkfcheung",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10445",
+                    "ready_for_review_at": "2025-11-27T12:14:27Z",
+                    "reviews": [
+                      {
+                        "reviewer": "x3c41a",
+                        "submitted_at": "2025-11-27T14:06:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "raymondkfcheung",
+                        "submitted_at": "2025-11-27T15:03:08Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "raymondkfcheung",
+                        "commented_at": "2025-11-27T12:16:17Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-11-27T13:28:44Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.8733333333333333,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 9808,
                     "title": "Benchmark Barrier for Accurate Weighting on Early Rejection",
                     "state": "OPEN",
@@ -169699,6 +169735,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10445,
+                    "pr_title": "Add `hash` field to `Event::Stored` and `Event::Renewed`",
+                    "reviewed_at": "2025-11-27T15:03:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10445"
+                  },
                   {
                     "pr_number": 8106,
                     "pr_title": "Snowbridge V2: Add generic AggregateMessageOrigin",

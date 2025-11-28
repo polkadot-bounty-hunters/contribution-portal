@@ -159,6 +159,42 @@
   ],
   "prs": [
     {
+      "number": 10445,
+      "title": "Add `hash` field to `Event::Stored` and `Event::Renewed`",
+      "state": "OPEN",
+      "created_at": "2025-11-27T12:14:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "raymondkfcheung",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10445",
+      "ready_for_review_at": "2025-11-27T12:14:27Z",
+      "reviews": [
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-11-27T14:06:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "raymondkfcheung",
+          "submitted_at": "2025-11-27T15:03:08Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "raymondkfcheung",
+          "commented_at": "2025-11-27T12:16:17Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-11-27T13:28:44Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.8733333333333333,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9808,
       "title": "Benchmark Barrier for Accurate Weighting on Early Rejection",
       "state": "OPEN",
@@ -3328,6 +3364,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10445,
+      "pr_title": "Add `hash` field to `Event::Stored` and `Event::Renewed`",
+      "reviewed_at": "2025-11-27T15:03:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10445"
+    },
     {
       "pr_number": 8106,
       "pr_title": "Snowbridge V2: Add generic AggregateMessageOrigin",
