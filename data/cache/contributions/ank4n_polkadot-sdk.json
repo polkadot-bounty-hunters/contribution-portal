@@ -6813,6 +6813,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10454,
+      "pr_title": "staking: do not remove an invulnerable in case of bad solution",
+      "reviewed_at": "2025-11-28T16:00:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10454"
+    },
+    {
       "pr_number": 10051,
       "pr_title": "[AHM/Staking] Allow own stake to be collected in all pages",
       "reviewed_at": "2025-10-19T21:18:38Z",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-11-28T04:29:18.741Z",
+  "generated_at": "2025-11-29T04:29:04.946Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1426,
-    "total_prs": 1453,
+    "total_prs": 1455,
     "total_merged_prs": 1010,
-    "total_reviews": 2198
+    "total_reviews": 2201
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 254,
         "prs": 185,
         "merged_prs": 145,
-        "reviews": 233,
-        "score": 3328
+        "reviews": 234,
+        "score": 3331
       },
       {
         "name": "pgherveou",
@@ -27,8 +27,8 @@
         "commits": 241,
         "prs": 162,
         "merged_prs": 126,
-        "reviews": 187,
-        "score": 2872
+        "reviews": 188,
+        "score": 2875
       },
       {
         "name": "liamaharon",
@@ -47,8 +47,8 @@
         "commits": 84,
         "prs": 111,
         "merged_prs": 73,
-        "reviews": 190,
-        "score": 1939
+        "reviews": 191,
+        "score": 1942
       },
       {
         "name": "franciscoaguirre",
@@ -115,10 +115,10 @@
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 16,
-        "prs": 27,
+        "prs": 29,
         "merged_prs": 19,
         "reviews": 96,
-        "score": 629
+        "score": 639
       },
       {
         "name": "Krayt78",
@@ -520,8 +520,8 @@
           "commits": 254,
           "prs": 185,
           "merged_prs": 145,
-          "reviews": 233,
-          "score": 3328
+          "reviews": 234,
+          "score": 3331
         },
         {
           "name": "ank4n",
@@ -530,8 +530,8 @@
           "commits": 84,
           "prs": 111,
           "merged_prs": 73,
-          "reviews": 190,
-          "score": 1939
+          "reviews": 191,
+          "score": 1942
         },
         {
           "name": "franciscoaguirre",
@@ -932,8 +932,8 @@
           "commits": 241,
           "prs": 162,
           "merged_prs": 126,
-          "reviews": 187,
-          "score": 2872
+          "reviews": 188,
+          "score": 2875
         },
         {
           "name": "liamaharon",
@@ -3106,10 +3106,10 @@
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 16,
-          "prs": 27,
+          "prs": 29,
           "merged_prs": 19,
           "reviews": 96,
-          "score": 629
+          "score": 639
         },
         {
           "name": "Krayt78",
@@ -25928,6 +25928,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10454,
+                    "pr_title": "staking: do not remove an invulnerable in case of bad solution",
+                    "reviewed_at": "2025-11-28T16:00:32Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10454"
+                  },
+                  {
                     "pr_number": 10051,
                     "pr_title": "[AHM/Staking] Allow own stake to be collected in all pages",
                     "reviewed_at": "2025-10-19T21:18:38Z",
@@ -45427,6 +45433,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10453,
+                    "pr_title": "fatp: Implement blockchain revert handling",
+                    "reviewed_at": "2025-11-28T17:18:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10453"
+                  },
                   {
                     "pr_number": 10242,
                     "pr_title": "Upgrade kvdb-rocksdb",
@@ -96298,6 +96310,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10451,
+                    "pr_title": "Accept custom capacity for block notifier buffer",
+                    "reviewed_at": "2025-11-28T11:51:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10451"
+                  },
+                  {
                     "pr_number": 10427,
                     "pr_title": "Fix assertion",
                     "reviewed_at": "2025-11-26T15:02:17Z",
@@ -145651,6 +145669,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10459,
+                    "title": "Revert \"xcm: Do not require `Asset` to be sorted on `decode`\"",
+                    "state": "OPEN",
+                    "created_at": "2025-11-28T13:21:37Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "karolk91",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10459",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10458,
+                    "title": "Revert \"pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees\"",
+                    "state": "OPEN",
+                    "created_at": "2025-11-28T13:15:33Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "karolk91",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10458",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10243,
                     "title": "[WIP] pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees",

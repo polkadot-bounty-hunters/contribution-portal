@@ -9131,6 +9131,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10453,
+      "pr_title": "fatp: Implement blockchain revert handling",
+      "reviewed_at": "2025-11-28T17:18:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10453"
+    },
+    {
       "pr_number": 10242,
       "pr_title": "Upgrade kvdb-rocksdb",
       "reviewed_at": "2025-11-07T14:32:43Z",

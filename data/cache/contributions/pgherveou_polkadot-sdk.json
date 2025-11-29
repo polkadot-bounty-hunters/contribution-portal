@@ -7933,6 +7933,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10451,
+      "pr_title": "Accept custom capacity for block notifier buffer",
+      "reviewed_at": "2025-11-28T11:51:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10451"
+    },
+    {
       "pr_number": 10427,
       "pr_title": "Fix assertion",
       "reviewed_at": "2025-11-26T15:02:17Z",
