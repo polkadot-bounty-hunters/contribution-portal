@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "ad9107e6463d7069f7f21af1dfbab2dd8ee1a31b",
+      "message": "Align Errors between Bulletin and SDK (#10503)",
+      "date": "2025-12-02T14:05:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ad9107e6463d7069f7f21af1dfbab2dd8ee1a31b"
+    },
+    {
       "sha": "c1c52454982c9b4ebef51a65b8ce2cd0c38029ed",
       "message": "Replace `log` with `tracing` on Snowbridge-related modules (#9279)",
       "date": "2025-11-11T09:24:18Z",
@@ -158,6 +164,38 @@
     }
   ],
   "prs": [
+    {
+      "number": 10503,
+      "title": "Align Errors between Bulletin and SDK",
+      "state": "MERGED",
+      "created_at": "2025-12-02T12:45:49Z",
+      "closed_at": "2025-12-02T15:12:09Z",
+      "merged_at": "2025-12-02T15:12:09Z",
+      "merged_by": "bkontur",
+      "author": "raymondkfcheung",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10503",
+      "ready_for_review_at": "2025-12-02T12:45:49Z",
+      "reviews": [
+        {
+          "reviewer": "x3c41a",
+          "submitted_at": "2025-12-02T13:17:37Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2025-12-02T13:21:07Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "raymondkfcheung",
+          "commented_at": "2025-12-02T12:48:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.53,
+      "time_to_merge_hours": 2.438888888888889
+    },
     {
       "number": 10445,
       "title": "Add `hash` field to `Event::Stored` and `Event::Renewed`",

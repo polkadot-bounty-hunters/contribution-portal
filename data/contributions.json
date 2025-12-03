@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-02T04:35:59.299Z",
+  "generated_at": "2025-12-03T04:34:50.134Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1426,
-    "total_prs": 1455,
-    "total_merged_prs": 1010,
-    "total_reviews": 2201
+    "total_commits": 1427,
+    "total_prs": 1457,
+    "total_merged_prs": 1011,
+    "total_reviews": 2204
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 241,
         "prs": 162,
         "merged_prs": 126,
-        "reviews": 188,
-        "score": 2875
+        "reviews": 189,
+        "score": 2878
       },
       {
         "name": "liamaharon",
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 84,
-        "prs": 111,
+        "prs": 112,
         "merged_prs": 73,
-        "reviews": 191,
-        "score": 1942
+        "reviews": 192,
+        "score": 1950
       },
       {
         "name": "franciscoaguirre",
@@ -57,8 +57,8 @@
         "commits": 74,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 158,
-        "score": 1928
+        "reviews": 159,
+        "score": 1931
       },
       {
         "name": "jsidorenko",
@@ -104,11 +104,11 @@
         "name": "raymondkfcheung",
         "github": "raymondkfcheung",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 29,
-        "prs": 44,
-        "merged_prs": 33,
+        "commits": 30,
+        "prs": 45,
+        "merged_prs": 34,
         "reviews": 114,
-        "score": 921
+        "score": 937
       },
       {
         "name": "karolk91",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 84,
-          "prs": 111,
+          "prs": 112,
           "merged_prs": 73,
-          "reviews": 191,
-          "score": 1942
+          "reviews": 192,
+          "score": 1950
         },
         {
           "name": "franciscoaguirre",
@@ -540,8 +540,8 @@
           "commits": 74,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 158,
-          "score": 1928
+          "reviews": 159,
+          "score": 1931
         },
         {
           "name": "jsidorenko",
@@ -932,8 +932,8 @@
           "commits": 241,
           "prs": 162,
           "merged_prs": 126,
-          "reviews": 188,
-          "score": 2875
+          "reviews": 189,
+          "score": 2878
         },
         {
           "name": "liamaharon",
@@ -5099,11 +5099,11 @@
           "name": "raymondkfcheung",
           "github": "raymondkfcheung",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 29,
-          "prs": 44,
-          "merged_prs": 33,
+          "commits": 30,
+          "prs": 45,
+          "merged_prs": 34,
           "reviews": 114,
-          "score": 921
+          "score": 937
         },
         {
           "name": "marian-radu",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 80.63983796296293,
+    "average_review_time_hours": 80.57107415355266,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5624,10 +5624,10 @@
       },
       {
         "reviewer": "bkontur",
-        "review_count": 483,
-        "approved_count": 139,
+        "review_count": 484,
+        "approved_count": 140,
         "avg_time_to_review_hours": 19.955094161958563,
-        "approval_rate": 28.778467908902694
+        "approval_rate": 28.92561983471074
       },
       {
         "reviewer": "athei",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 92.91217212501869,
-        "pr_count": 743,
-        "merged_count": 642
+        "avg_review_time_hours": 92.78800253882915,
+        "pr_count": 744,
+        "merged_count": 643
       },
       {
         "repository": "paritytech/substrate",
@@ -5796,12 +5796,12 @@
         "merge_count": 28
       },
       {
-        "merger": "athei",
+        "merger": "bkontur",
         "merge_count": 21
       },
       {
-        "merger": "bkontur",
-        "merge_count": 20
+        "merger": "athei",
+        "merge_count": 21
       },
       {
         "merger": "EgorPopelyaev",
@@ -14693,6 +14693,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10505,
+                    "pr_title": "pallet-aura: Extend `try_state` to also check `CurrentSlot`",
+                    "reviewed_at": "2025-12-02T15:52:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10505"
+                  },
+                  {
                     "pr_number": 10235,
                     "pr_title": "offchain-worker: Do not intialize the entire `System` again",
                     "reviewed_at": "2025-11-06T23:01:52Z",
@@ -19507,6 +19513,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10502,
+                    "title": "[WIP] No slashing nominators",
+                    "state": "OPEN",
+                    "created_at": "2025-12-02T12:17:14Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10502",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10311,
                     "title": "[Staking] Deterministic Era Rotation Post AHM",
@@ -30113,6 +30135,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1022,
+                    "pr_title": "asset-hub-polkadot: increase the base deposit for a signed NPoS solution from 4 to 100 DOT",
+                    "reviewed_at": "2025-12-02T12:40:23Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1022"
+                  },
                   {
                     "pr_number": 998,
                     "pr_title": "Fix AH Inflation back to what RC was",
@@ -96309,6 +96337,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10510,
+                    "pr_title": "[pallet-revive] fix delegate_call_contract in evm-test-suites",
+                    "reviewed_at": "2025-12-02T21:32:03Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10510"
+                  },
                   {
                     "pr_number": 10451,
                     "pr_title": "Accept custom capacity for block notifier buffer",
@@ -166422,6 +166456,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "ad9107e6463d7069f7f21af1dfbab2dd8ee1a31b",
+                    "message": "Align Errors between Bulletin and SDK (#10503)",
+                    "date": "2025-12-02T14:05:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/ad9107e6463d7069f7f21af1dfbab2dd8ee1a31b"
+                  },
+                  {
                     "sha": "c1c52454982c9b4ebef51a65b8ce2cd0c38029ed",
                     "message": "Replace `log` with `tracing` on Snowbridge-related modules (#9279)",
                     "date": "2025-11-11T09:24:18Z",
@@ -166579,6 +166619,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10503,
+                    "title": "Align Errors between Bulletin and SDK",
+                    "state": "MERGED",
+                    "created_at": "2025-12-02T12:45:49Z",
+                    "closed_at": "2025-12-02T15:12:09Z",
+                    "merged_at": "2025-12-02T15:12:09Z",
+                    "merged_by": "bkontur",
+                    "author": "raymondkfcheung",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10503",
+                    "ready_for_review_at": "2025-12-02T12:45:49Z",
+                    "reviews": [
+                      {
+                        "reviewer": "x3c41a",
+                        "submitted_at": "2025-12-02T13:17:37Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2025-12-02T13:21:07Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "raymondkfcheung",
+                        "commented_at": "2025-12-02T12:48:48Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.53,
+                    "time_to_merge_hours": 2.438888888888889
+                  },
                   {
                     "number": 10445,
                     "title": "Add `hash` field to `Event::Stored` and `Event::Renewed`",

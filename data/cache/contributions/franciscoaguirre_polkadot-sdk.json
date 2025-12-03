@@ -8772,6 +8772,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10505,
+      "pr_title": "pallet-aura: Extend `try_state` to also check `CurrentSlot`",
+      "reviewed_at": "2025-12-02T15:52:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10505"
+    },
+    {
       "pr_number": 10235,
       "pr_title": "offchain-worker: Do not intialize the entire `System` again",
       "reviewed_at": "2025-11-06T23:01:52Z",
