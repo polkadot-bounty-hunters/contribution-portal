@@ -15,6 +15,51 @@
   ],
   "prs": [
     {
+      "number": 10525,
+      "title": "fix(rpc-spec-v2): best block not announced immediately after initialised",
+      "state": "OPEN",
+      "created_at": "2025-12-03T17:02:04Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "voliva",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10525",
+      "ready_for_review_at": "2025-12-03T17:02:04Z",
+      "reviews": [
+        {
+          "reviewer": "jsdw",
+          "submitted_at": "2025-12-03T18:50:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2025-12-03T19:11:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2025-12-03T19:12:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "voliva",
+          "commented_at": "2025-12-03T17:03:47Z"
+        },
+        {
+          "commenter": "voliva",
+          "commented_at": "2025-12-03T17:03:56Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-03T17:06:25Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.8044444444444445,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 8789,
       "title": "feat(revive): add contract instantiated event",
       "state": "MERGED",

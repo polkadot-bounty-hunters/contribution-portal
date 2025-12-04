@@ -447,6 +447,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10524,
+      "pr_title": "Fix Differential Testing CI Flakiness",
+      "reviewed_at": "2025-12-03T17:52:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10524"
+    },
+    {
       "pr_number": 10387,
       "pr_title": "pallet-revive: add DebugSetting for bypassing eip-3607",
       "reviewed_at": "2025-11-21T15:07:51Z",

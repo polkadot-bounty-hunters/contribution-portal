@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "90b7cafd8cfba509cc0f6ea476acc1a8c9ad0c11",
+      "message": "[Staking] Async Election and Export (#10311)",
+      "date": "2025-12-03T16:24:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/90b7cafd8cfba509cc0f6ea476acc1a8c9ad0c11"
+    },
+    {
       "sha": "8c8b53babdfa73ad6752e516d62d7af655472e1f",
       "message": "[Staking Async] Cancel slashes by validator and max slash fraction (#9187)",
       "date": "2025-07-30T14:12:32Z",

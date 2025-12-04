@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "f75716203c2579336bed659199680329cb9fb120",
+      "message": "Align Events between Bulletin and SDK (#10445)",
+      "date": "2025-12-03T13:23:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f75716203c2579336bed659199680329cb9fb120"
+    },
+    {
       "sha": "ad9107e6463d7069f7f21af1dfbab2dd8ee1a31b",
       "message": "Align Errors between Bulletin and SDK (#10503)",
       "date": "2025-12-02T14:05:26Z",
@@ -3402,6 +3408,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10522,
+      "pr_title": "[stable2512] Backport #10445",
+      "reviewed_at": "2025-12-03T16:50:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10522"
+    },
+    {
+      "pr_number": 10518,
+      "pr_title": "[stable2512] Backport #10503",
+      "reviewed_at": "2025-12-03T13:38:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10518"
+    },
     {
       "pr_number": 10445,
       "pr_title": "Add `hash` field to `Event::Stored` and `Event::Renewed`",
