@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "613e00ed694cb846dae7796997d4224832d6aa67",
+      "message": "Revert \"pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees\" (#10458)",
+      "date": "2025-12-04T20:27:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/613e00ed694cb846dae7796997d4224832d6aa67"
+    },
+    {
+      "sha": "34034a943bf67268f9e59a991f00eef1ff1fb9c8",
+      "message": "Revert \"xcm: Do not require `Asset` to be sorted on `decode`\" (#10459)",
+      "date": "2025-12-04T07:45:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/34034a943bf67268f9e59a991f00eef1ff1fb9c8"
+    },
+    {
       "sha": "14f0e2e3af9dbfe366151e2445f320585a3fba87",
       "message": "pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees (#10243)",
       "date": "2025-11-12T20:17:46Z",
@@ -1625,6 +1637,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10537,
+      "pr_title": "[stable2512] Backport #10459",
+      "reviewed_at": "2025-12-04T14:04:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10537"
+    },
     {
       "pr_number": 9962,
       "pr_title": "[Fungibles] Avoid dusting below-ED amounts when creating/releasing holds",

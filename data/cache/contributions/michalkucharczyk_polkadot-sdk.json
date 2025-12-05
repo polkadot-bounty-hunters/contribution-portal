@@ -999,6 +999,55 @@
   ],
   "prs": [
     {
+      "number": 10549,
+      "title": "PoV reclaim overshooting test",
+      "state": "OPEN",
+      "created_at": "2025-12-04T22:40:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10549",
+      "ready_for_review_at": "2025-12-04T22:40:24Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:51Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:52Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:52Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:52Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:52Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:52Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:54Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-04T22:46:54Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10312,
       "title": "fatxpool: metrics for unfiltered timings of inblock events",
       "state": "OPEN",

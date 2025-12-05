@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-04T04:36:44.873Z",
+  "generated_at": "2025-12-05T04:36:32.551Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1429,
-    "total_prs": 1458,
+    "total_commits": 1431,
+    "total_prs": 1459,
     "total_merged_prs": 1011,
-    "total_reviews": 2208
+    "total_reviews": 2212
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 254,
-        "prs": 185,
+        "prs": 186,
         "merged_prs": 145,
         "reviews": 234,
-        "score": 3331
+        "score": 3336
       },
       {
         "name": "pgherveou",
@@ -27,8 +27,8 @@
         "commits": 241,
         "prs": 162,
         "merged_prs": 126,
-        "reviews": 189,
-        "score": 2878
+        "reviews": 192,
+        "score": 2887
       },
       {
         "name": "liamaharon",
@@ -114,11 +114,11 @@
         "name": "karolk91",
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 16,
+        "commits": 18,
         "prs": 29,
         "merged_prs": 19,
-        "reviews": 96,
-        "score": 639
+        "reviews": 97,
+        "score": 644
       },
       {
         "name": "Krayt78",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 254,
-          "prs": 185,
+          "prs": 186,
           "merged_prs": 145,
           "reviews": 234,
-          "score": 3331
+          "score": 3336
         },
         {
           "name": "ank4n",
@@ -932,8 +932,8 @@
           "commits": 241,
           "prs": 162,
           "merged_prs": 126,
-          "reviews": 189,
-          "score": 2878
+          "reviews": 192,
+          "score": 2887
         },
         {
           "name": "liamaharon",
@@ -3105,11 +3105,11 @@
           "name": "karolk91",
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 16,
+          "commits": 18,
           "prs": 29,
           "merged_prs": 19,
-          "reviews": 96,
-          "score": 639
+          "reviews": 97,
+          "score": 644
         },
         {
           "name": "Krayt78",
@@ -37341,6 +37341,55 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10549,
+                    "title": "PoV reclaim overshooting test",
+                    "state": "OPEN",
+                    "created_at": "2025-12-04T22:40:24Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10549",
+                    "ready_for_review_at": "2025-12-04T22:40:24Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:51Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:52Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:52Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:52Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:52Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:52Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:54Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-04T22:46:54Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10312,
                     "title": "fatxpool: metrics for unfiltered timings of inblock events",
@@ -96350,6 +96399,24 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10544,
+                    "pr_title": "Check for failures in DT CI",
+                    "reviewed_at": "2025-12-05T03:04:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10544"
+                  },
+                  {
+                    "pr_number": 10540,
+                    "pr_title": "Tighten length estimation during dry running",
+                    "reviewed_at": "2025-12-04T16:11:56Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10540"
+                  },
+                  {
+                    "pr_number": 10535,
+                    "pr_title": "Set a proper proof size block limit",
+                    "reviewed_at": "2025-12-04T15:47:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10535"
+                  },
+                  {
                     "pr_number": 10510,
                     "pr_title": "[pallet-revive] fix delegate_call_contract in evm-test-suites",
                     "reviewed_at": "2025-12-02T21:32:03Z",
@@ -145654,6 +145721,18 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "613e00ed694cb846dae7796997d4224832d6aa67",
+                    "message": "Revert \"pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees\" (#10458)",
+                    "date": "2025-12-04T20:27:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/613e00ed694cb846dae7796997d4224832d6aa67"
+                  },
+                  {
+                    "sha": "34034a943bf67268f9e59a991f00eef1ff1fb9c8",
+                    "message": "Revert \"xcm: Do not require `Asset` to be sorted on `decode`\" (#10459)",
+                    "date": "2025-12-04T07:45:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/34034a943bf67268f9e59a991f00eef1ff1fb9c8"
+                  },
+                  {
                     "sha": "14f0e2e3af9dbfe366151e2445f320585a3fba87",
                     "message": "pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees (#10243)",
                     "date": "2025-11-12T20:17:46Z",
@@ -147278,6 +147357,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10537,
+                    "pr_title": "[stable2512] Backport #10459",
+                    "reviewed_at": "2025-12-04T14:04:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10537"
+                  },
                   {
                     "pr_number": 9962,
                     "pr_title": "[Fungibles] Avoid dusting below-ED amounts when creating/releasing holds",
