@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-05T04:36:32.551Z",
+  "generated_at": "2025-12-06T04:27:04.824Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1431,
-    "total_prs": 1459,
+    "total_commits": 1432,
+    "total_prs": 1460,
     "total_merged_prs": 1011,
-    "total_reviews": 2212
+    "total_reviews": 2214
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 241,
-        "prs": 162,
+        "prs": 163,
         "merged_prs": 126,
-        "reviews": 192,
-        "score": 2887
+        "reviews": 194,
+        "score": 2898
       },
       {
         "name": "liamaharon",
@@ -491,19 +491,19 @@
         "score": 43
       },
       {
-        "name": "ffarall",
-        "github": "ffarall",
-        "cohort": "PBA 3 Berkeley 2023",
-        "commits": 2,
-        "prs": 3,
-        "merged_prs": 2,
-        "reviews": 1,
-        "score": 40
-      },
-      {
         "name": "voliva",
         "github": "voliva",
         "cohort": "PBA 5 Singapore 2024",
+        "commits": 3,
+        "prs": 3,
+        "merged_prs": 2,
+        "reviews": 1,
+        "score": 41
+      },
+      {
+        "name": "ffarall",
+        "github": "ffarall",
+        "cohort": "PBA 3 Berkeley 2023",
         "commits": 2,
         "prs": 3,
         "merged_prs": 2,
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 241,
-          "prs": 162,
+          "prs": 163,
           "merged_prs": 126,
-          "reviews": 192,
-          "score": 2887
+          "reviews": 194,
+          "score": 2898
         },
         {
           "name": "liamaharon",
@@ -3205,11 +3205,11 @@
           "name": "voliva",
           "github": "voliva",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 2,
+          "commits": 3,
           "prs": 3,
           "merged_prs": 2,
           "reviews": 1,
-          "score": 40
+          "score": 41
         },
         {
           "name": "tsenovilla",
@@ -89705,6 +89705,59 @@
                 ],
                 "prs": [
                   {
+                    "number": 10559,
+                    "title": "revive: prototype new storage host fn to handle hot vs cold load",
+                    "state": "OPEN",
+                    "created_at": "2025-12-05T18:43:42Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10559",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-12-05T18:43:49Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-05T18:44:33Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-05T19:07:04Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-12-05T19:44:13Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-05T19:45:02Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-05T20:07:36Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-12-05T20:55:15Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-05T20:56:05Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-05T21:48:20Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10435,
                     "title": "Run evm-test-suite with westend-runtime & revive-dev-node",
                     "state": "OPEN",
@@ -96398,6 +96451,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10554,
+                    "pr_title": "[pallet-revive] add EVM gas call syscalls",
+                    "reviewed_at": "2025-12-06T00:25:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10554"
+                  },
+                  {
+                    "pr_number": 10558,
+                    "pr_title": "pin solc version to 0.8.30 in tests-misc.yml",
+                    "reviewed_at": "2025-12-05T23:02:33Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10558"
+                  },
                   {
                     "pr_number": 10544,
                     "pr_title": "Check for failures in DT CI",
@@ -152147,6 +152212,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "68c1250bbc3b28cfdec1e6effbaa91d9a8999b3d",
+                    "message": "fix(rpc-spec-v2): best block not announced immediately after initialised (#10525)",
+                    "date": "2025-12-05T10:58:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/68c1250bbc3b28cfdec1e6effbaa91d9a8999b3d"
+                  },
                   {
                     "sha": "4a869b92b7d7397bfbb30bcafce103461714ec08",
                     "message": "feat(revive): add contract instantiated event (#8789)",

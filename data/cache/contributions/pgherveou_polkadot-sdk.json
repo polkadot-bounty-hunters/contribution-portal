@@ -1239,6 +1239,59 @@
   ],
   "prs": [
     {
+      "number": 10559,
+      "title": "revive: prototype new storage host fn to handle hot vs cold load",
+      "state": "OPEN",
+      "created_at": "2025-12-05T18:43:42Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10559",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-12-05T18:43:49Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-05T18:44:33Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-05T19:07:04Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-12-05T19:44:13Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-05T19:45:02Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-05T20:07:36Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-12-05T20:55:15Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-05T20:56:05Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-05T21:48:20Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10435,
       "title": "Run evm-test-suite with westend-runtime & revive-dev-node",
       "state": "OPEN",
@@ -7932,6 +7985,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10554,
+      "pr_title": "[pallet-revive] add EVM gas call syscalls",
+      "reviewed_at": "2025-12-06T00:25:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10554"
+    },
+    {
+      "pr_number": 10558,
+      "pr_title": "pin solc version to 0.8.30 in tests-misc.yml",
+      "reviewed_at": "2025-12-05T23:02:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10558"
+    },
     {
       "pr_number": 10544,
       "pr_title": "Check for failures in DT CI",

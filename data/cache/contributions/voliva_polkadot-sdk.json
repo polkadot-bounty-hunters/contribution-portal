@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "68c1250bbc3b28cfdec1e6effbaa91d9a8999b3d",
+      "message": "fix(rpc-spec-v2): best block not announced immediately after initialised (#10525)",
+      "date": "2025-12-05T10:58:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/68c1250bbc3b28cfdec1e6effbaa91d9a8999b3d"
+    },
+    {
       "sha": "4a869b92b7d7397bfbb30bcafce103461714ec08",
       "message": "feat(revive): add contract instantiated event (#8789)",
       "date": "2025-06-25T16:38:35Z",
