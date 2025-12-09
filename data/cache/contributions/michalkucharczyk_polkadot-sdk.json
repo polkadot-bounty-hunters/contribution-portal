@@ -999,6 +999,33 @@
   ],
   "prs": [
     {
+      "number": 10573,
+      "title": "bump trie-db version to 0.31.0",
+      "state": "OPEN",
+      "created_at": "2025-12-08T15:55:23Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10573",
+      "ready_for_review_at": "2025-12-08T15:55:23Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-12-08T15:58:46Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sandreim",
+          "submitted_at": "2025-12-08T16:07:15Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.05638888888888889,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10549,
       "title": "PoV reclaim overshooting test",
       "state": "OPEN",

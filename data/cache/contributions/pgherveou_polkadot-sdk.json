@@ -7986,6 +7986,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10567,
+      "pr_title": "[Revive] Fix construction of negative zero SignedGas",
+      "reviewed_at": "2025-12-08T13:14:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10567"
+    },
+    {
       "pr_number": 10554,
       "pr_title": "[pallet-revive] add EVM gas call syscalls",
       "reviewed_at": "2025-12-06T00:25:05Z",
