@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-10T04:40:12.349Z",
+  "generated_at": "2025-12-11T04:41:49.199Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1432,
-    "total_prs": 1463,
+    "total_commits": 1435,
+    "total_prs": 1465,
     "total_merged_prs": 1011,
-    "total_reviews": 2217
+    "total_reviews": 2218
   },
   "leaderboard": {
     "overall": [
@@ -14,21 +14,21 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 254,
+        "commits": 255,
         "prs": 187,
         "merged_prs": 145,
-        "reviews": 234,
-        "score": 3341
+        "reviews": 235,
+        "score": 3345
       },
       {
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 241,
-        "prs": 164,
+        "prs": 165,
         "merged_prs": 126,
         "reviews": 195,
-        "score": 2906
+        "score": 2911
       },
       {
         "name": "liamaharon",
@@ -104,11 +104,11 @@
         "name": "raymondkfcheung",
         "github": "raymondkfcheung",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 31,
-        "prs": 46,
+        "commits": 32,
+        "prs": 47,
         "merged_prs": 34,
         "reviews": 116,
-        "score": 949
+        "score": 955
       },
       {
         "name": "karolk91",
@@ -374,11 +374,11 @@
         "name": "BigTava",
         "github": "BigTava",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 2,
+        "commits": 3,
         "prs": 8,
         "merged_prs": 2,
         "reviews": 7,
-        "score": 83
+        "score": 84
       },
       {
         "name": "mittal-parth",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 254,
+          "commits": 255,
           "prs": 187,
           "merged_prs": 145,
-          "reviews": 234,
-          "score": 3341
+          "reviews": 235,
+          "score": 3345
         },
         {
           "name": "ank4n",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 241,
-          "prs": 164,
+          "prs": 165,
           "merged_prs": 126,
           "reviews": 195,
-          "score": 2906
+          "score": 2911
         },
         {
           "name": "liamaharon",
@@ -3175,11 +3175,11 @@
           "name": "BigTava",
           "github": "BigTava",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 2,
+          "commits": 3,
           "prs": 8,
           "merged_prs": 2,
           "reviews": 7,
-          "score": 83
+          "score": 84
         },
         {
           "name": "mittal-parth",
@@ -5099,11 +5099,11 @@
           "name": "raymondkfcheung",
           "github": "raymondkfcheung",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 31,
-          "prs": 46,
+          "commits": 32,
+          "prs": 47,
           "merged_prs": 34,
           "reviews": 116,
-          "score": 949
+          "score": 955
         },
         {
           "name": "marian-radu",
@@ -36356,6 +36356,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "acd03062aeb1a222e5738eff3d63b6988c277d65",
+                    "message": "fatxpool: metrics for unfiltered timings of inblock events (#10312)",
+                    "date": "2025-12-10T13:09:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/acd03062aeb1a222e5738eff3d63b6988c277d65"
+                  },
+                  {
                     "sha": "8978c005de6631dce20e204380bb43149127cdce",
                     "message": "wasmtime: support for perfmap added (#9821)",
                     "date": "2025-09-25T10:38:47Z",
@@ -45561,6 +45567,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10611,
+                    "pr_title": "Fix check-semver",
+                    "reviewed_at": "2025-12-10T18:20:50Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10611"
+                  },
                   {
                     "pr_number": 10453,
                     "pr_title": "fatp: Implement blockchain revert handling",
@@ -89743,6 +89755,31 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10612,
+                    "title": "revive eth-rpc Add substrate_postDispatchWeight rpc methods",
+                    "state": "OPEN",
+                    "created_at": "2025-12-10T18:43:24Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10612",
+                    "ready_for_review_at": "2025-12-10T18:43:24Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2025-12-10T18:44:55Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-10T18:53:15Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10580,
                     "title": "Fix eth-rpc publish",
@@ -155853,6 +155890,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "6e3d8ba7a347c30a691ccab381901278dd6029f8",
+                    "message": "Add `pallet_multi_asset_bounties` to Westend Asset Hub testnet runtime. (#10064)",
+                    "date": "2025-12-10T16:04:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/6e3d8ba7a347c30a691ccab381901278dd6029f8"
+                  },
+                  {
                     "sha": "6173140aa84e3f537e8fdcbb7132d06c8fddb049",
                     "message": "pallet-multi-asset-bounties: create first version of the pallet (#8381)",
                     "date": "2025-10-17T13:43:34Z",
@@ -166760,6 +166803,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "18cb5ee6196e884c74bce3b79981604a352b3829",
+                    "message": "Align Types between Bulletin and SDK (#10578)",
+                    "date": "2025-12-10T13:46:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/18cb5ee6196e884c74bce3b79981604a352b3829"
+                  },
+                  {
                     "sha": "f75716203c2579336bed659199680329cb9fb120",
                     "message": "Align Events between Bulletin and SDK (#10445)",
                     "date": "2025-12-03T13:23:14Z",
@@ -166929,6 +166978,31 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10593,
+                    "title": "Align Storages between Bulletin and SDK",
+                    "state": "OPEN",
+                    "created_at": "2025-12-10T09:43:45Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "raymondkfcheung",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10593",
+                    "ready_for_review_at": "2025-12-10T09:43:45Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "raymondkfcheung",
+                        "commented_at": "2025-12-10T09:45:11Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-10T14:42:29Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10578,
                     "title": "Align Types between Bulletin and SDK",

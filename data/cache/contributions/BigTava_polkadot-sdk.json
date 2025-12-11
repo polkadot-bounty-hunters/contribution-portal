@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "6e3d8ba7a347c30a691ccab381901278dd6029f8",
+      "message": "Add `pallet_multi_asset_bounties` to Westend Asset Hub testnet runtime. (#10064)",
+      "date": "2025-12-10T16:04:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6e3d8ba7a347c30a691ccab381901278dd6029f8"
+    },
+    {
       "sha": "6173140aa84e3f537e8fdcbb7132d06c8fddb049",
       "message": "pallet-multi-asset-bounties: create first version of the pallet (#8381)",
       "date": "2025-10-17T13:43:34Z",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "acd03062aeb1a222e5738eff3d63b6988c277d65",
+      "message": "fatxpool: metrics for unfiltered timings of inblock events (#10312)",
+      "date": "2025-12-10T13:09:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/acd03062aeb1a222e5738eff3d63b6988c277d65"
+    },
+    {
       "sha": "8978c005de6631dce20e204380bb43149127cdce",
       "message": "wasmtime: support for perfmap added (#9821)",
       "date": "2025-09-25T10:38:47Z",
@@ -9206,6 +9212,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10611,
+      "pr_title": "Fix check-semver",
+      "reviewed_at": "2025-12-10T18:20:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10611"
+    },
     {
       "pr_number": 10453,
       "pr_title": "fatp: Implement blockchain revert handling",
