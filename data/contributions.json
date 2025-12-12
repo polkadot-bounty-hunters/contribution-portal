@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-11T04:41:49.199Z",
+  "generated_at": "2025-12-12T04:41:02.075Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1435,
-    "total_prs": 1465,
+    "total_commits": 1437,
+    "total_prs": 1467,
     "total_merged_prs": 1011,
-    "total_reviews": 2218
+    "total_reviews": 2219
   },
   "leaderboard": {
     "overall": [
@@ -14,11 +14,11 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 255,
+        "commits": 256,
         "prs": 187,
         "merged_prs": 145,
         "reviews": 235,
-        "score": 3345
+        "score": 3346
       },
       {
         "name": "pgherveou",
@@ -47,8 +47,8 @@
         "commits": 85,
         "prs": 112,
         "merged_prs": 73,
-        "reviews": 193,
-        "score": 1954
+        "reviews": 194,
+        "score": 1957
       },
       {
         "name": "franciscoaguirre",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 255,
+          "commits": 256,
           "prs": 187,
           "merged_prs": 145,
           "reviews": 235,
-          "score": 3345
+          "score": 3346
         },
         {
           "name": "ank4n",
@@ -530,8 +530,8 @@
           "commits": 85,
           "prs": 112,
           "merged_prs": 73,
-          "reviews": 193,
-          "score": 1954
+          "reviews": 194,
+          "score": 1957
         },
         {
           "name": "franciscoaguirre",
@@ -1100,10 +1100,10 @@
           "github": "metricaez",
           "cohort": "PBA 2 BA 2023",
           "commits": 0,
-          "prs": 4,
+          "prs": 5,
           "merged_prs": 0,
           "reviews": 1,
-          "score": 23
+          "score": 28
         },
         {
           "name": "dudo50",
@@ -4367,11 +4367,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 1,
+          "commits": 2,
           "prs": 2,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 27
+          "score": 28
         },
         {
           "name": "andrzejSulkowski",
@@ -5206,6 +5206,16 @@
           "score": 5
         },
         {
+          "name": "yashj09",
+          "github": "yashj09",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "0xdipak",
           "github": "0xdipak",
           "cohort": "PBA 7 Bali 2025",
@@ -5568,16 +5578,6 @@
         {
           "name": "Wsteth",
           "github": "Wsteth",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "yashj09",
-          "github": "yashj09",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -25968,6 +25968,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10620,
+                    "pr_title": "Post crates release activities for stable2509",
+                    "reviewed_at": "2025-12-11T20:02:41Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10620"
+                  },
+                  {
                     "pr_number": 10454,
                     "pr_title": "staking: do not remove an invulnerable in case of bad solution",
                     "reviewed_at": "2025-11-28T16:00:32Z",
@@ -36355,6 +36361,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "7b40bd275e2497bf06c4fe4e5edb6fdac0e3deb4",
+                    "message": "bump trie-db version to 0.31.0 (#10573)",
+                    "date": "2025-12-11T08:19:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/7b40bd275e2497bf06c4fe4e5edb6fdac0e3deb4"
+                  },
                   {
                     "sha": "acd03062aeb1a222e5738eff3d63b6988c277d65",
                     "message": "fatxpool: metrics for unfiltered timings of inblock events (#10312)",
@@ -111219,6 +111231,27 @@
                 "commits": [],
                 "prs": [
                   {
+                    "number": 10621,
+                    "title": "feat: Pub/Sub mechanism - Pallet architecture review",
+                    "state": "CLOSED",
+                    "created_at": "2025-12-11T15:23:41Z",
+                    "closed_at": "2025-12-11T15:25:38Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "metricaez",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10621",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "metricaez",
+                        "commented_at": "2025-12-11T15:25:37Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 9994,
                     "title": "[DRAFT] Publish-only pubsub mechanism (Milestone 1) - Addresses #606 ",
                     "state": "OPEN",
@@ -160780,7 +160813,14 @@
             "polkadot-fellows/runtimes": {
               "category": "polkadot",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "fc922d2df7fdfd43f9ee1bffa3be9ebf546cbee6",
+                    "message": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion  (#1019)",
+                    "date": "2025-12-11T20:59:41Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/fc922d2df7fdfd43f9ee1bffa3be9ebf546cbee6"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 1019,
@@ -172570,7 +172610,29 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10622,
+                    "title": "Fix(session): implement proper weight accounting for session rotation",
+                    "state": "OPEN",
+                    "created_at": "2025-12-11T18:57:01Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "yashj09",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10622",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2025-12-11T18:57:08Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }

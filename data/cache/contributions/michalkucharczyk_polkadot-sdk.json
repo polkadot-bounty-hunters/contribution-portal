@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "7b40bd275e2497bf06c4fe4e5edb6fdac0e3deb4",
+      "message": "bump trie-db version to 0.31.0 (#10573)",
+      "date": "2025-12-11T08:19:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7b40bd275e2497bf06c4fe4e5edb6fdac0e3deb4"
+    },
+    {
       "sha": "acd03062aeb1a222e5738eff3d63b6988c277d65",
       "message": "fatxpool: metrics for unfiltered timings of inblock events (#10312)",
       "date": "2025-12-10T13:09:47Z",

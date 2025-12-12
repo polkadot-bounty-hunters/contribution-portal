@@ -6835,6 +6835,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10620,
+      "pr_title": "Post crates release activities for stable2509",
+      "reviewed_at": "2025-12-11T20:02:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10620"
+    },
+    {
       "pr_number": 10454,
       "pr_title": "staking: do not remove an invulnerable in case of bad solution",
       "reviewed_at": "2025-11-28T16:00:32Z",

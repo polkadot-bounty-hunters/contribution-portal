@@ -1,6 +1,28 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 10622,
+      "title": "Fix(session): implement proper weight accounting for session rotation",
+      "state": "OPEN",
+      "created_at": "2025-12-11T18:57:01Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "yashj09",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10622",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2025-12-11T18:57:08Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }
