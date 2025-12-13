@@ -6835,6 +6835,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10633,
+      "pr_title": "[unstable2507] Post crates release changes",
+      "reviewed_at": "2025-12-12T12:40:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10633"
+    },
+    {
       "pr_number": 10620,
       "pr_title": "Post crates release activities for stable2509",
       "reviewed_at": "2025-12-11T20:02:41Z",

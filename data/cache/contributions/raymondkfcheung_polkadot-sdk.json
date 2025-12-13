@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d4c12401b1a242d6c23e35c76845a23a061d56f6",
+      "message": "Align Common Functions between Bulletin and SDK (#10593)",
+      "date": "2025-12-12T10:55:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d4c12401b1a242d6c23e35c76845a23a061d56f6"
+    },
+    {
       "sha": "18cb5ee6196e884c74bce3b79981604a352b3829",
       "message": "Align Types between Bulletin and SDK (#10578)",
       "date": "2025-12-10T13:46:44Z",

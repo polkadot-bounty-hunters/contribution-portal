@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "30791a35e5f7c6ce85003535725705e9b900cd8b",
+      "message": "Snowbridge V2: Generic inbound message processing (#8175)",
+      "date": "2025-12-12T13:29:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/30791a35e5f7c6ce85003535725705e9b900cd8b"
+    },
+    {
       "sha": "75dcd030700b2b45059fbd0fe4245e0d30429485",
       "message": "Increase `max_upward_message_size` in `RelayStateSproofBuilder` (#10313)",
       "date": "2025-11-14T09:50:10Z",

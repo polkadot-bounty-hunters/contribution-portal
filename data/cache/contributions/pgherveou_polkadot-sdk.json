@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "6792d05e509dad53bc98b741bc4bd8b14bceffff",
+      "message": "Fix eth-rpc publish (#10580)",
+      "date": "2025-12-12T17:27:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6792d05e509dad53bc98b741bc4bd8b14bceffff"
+    },
+    {
       "sha": "abe05daf56d3af1611de7d6478e0cd1a23a789d9",
       "message": "pallet-revive benchmark opcode fix (#10380)",
       "date": "2025-11-21T12:04:04Z",

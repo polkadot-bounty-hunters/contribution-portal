@@ -9219,6 +9219,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10636,
+      "pr_title": "[stable2512] Backport #9003",
+      "reviewed_at": "2025-12-12T17:08:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10636"
+    },
+    {
       "pr_number": 10611,
       "pr_title": "Fix check-semver",
       "reviewed_at": "2025-12-10T18:20:50Z",
