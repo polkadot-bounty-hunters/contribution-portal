@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-12-15T04:46:46.841Z",
+  "generated_at": "2025-12-16T04:41:25.800Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1440,
-    "total_prs": 1468,
+    "total_commits": 1441,
+    "total_prs": 1469,
     "total_merged_prs": 1011,
     "total_reviews": 2222
   },
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 242,
+        "commits": 243,
         "prs": 165,
         "merged_prs": 126,
         "reviews": 195,
-        "score": 2912
+        "score": 2913
       },
       {
         "name": "liamaharon",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 242,
+          "commits": 243,
           "prs": 165,
           "merged_prs": 126,
           "reviews": 195,
-          "score": 2912
+          "score": 2913
         },
         {
           "name": "liamaharon",
@@ -4368,10 +4368,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 2,
-          "prs": 2,
+          "prs": 3,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 28
+          "score": 33
         },
         {
           "name": "andrzejSulkowski",
@@ -88569,6 +88569,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "7b99b022d1877d9c57c67c0cd040a13e26f39fac",
+                    "message": "revive eth-rpc Add polkadot_postDispatchWeight rpc methods (#10612)",
+                    "date": "2025-12-15T09:53:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/7b99b022d1877d9c57c67c0cd040a13e26f39fac"
+                  },
+                  {
                     "sha": "6792d05e509dad53bc98b741bc4bd8b14bceffff",
                     "message": "Fix eth-rpc publish (#10580)",
                     "date": "2025-12-12T17:27:24Z",
@@ -160699,6 +160705,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10646,
+                    "title": "Update asset-conversion validation to use strict withdrawal checks",
+                    "state": "OPEN",
+                    "created_at": "2025-12-15T07:32:34Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10646",
+                    "ready_for_review_at": "2025-12-15T07:32:34Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2025-12-15T08:06:15Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 7243,
                     "title": "transfer function Preservation is changed to Expendable ",
