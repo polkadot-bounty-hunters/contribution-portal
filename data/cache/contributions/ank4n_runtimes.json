@@ -45,6 +45,22 @@
   ],
   "prs": [
     {
+      "number": 1038,
+      "title": "ES changes without revive based on 2507",
+      "state": "OPEN",
+      "created_at": "2025-12-16T20:55:23Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1038",
+      "ready_for_review_at": "2025-12-16T20:55:23Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 1034,
       "title": "[KAH] Enable buffered election export",
       "state": "CLOSED",
@@ -369,6 +385,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 1037,
+      "pr_title": "[modulo Revive] asset-hub-kusama: Prepare ElasticScaling with 3 cores on asset hub kusama and enable buffered election",
+      "reviewed_at": "2025-12-16T20:51:06Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1037"
+    },
+    {
+      "pr_number": 1036,
+      "pr_title": "[AHM] Migrate missing stellaswap double derived acc",
+      "reviewed_at": "2025-12-16T15:17:27Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1036"
+    },
     {
       "pr_number": 1033,
       "pr_title": "Add `StakingOperator` proxy type and allow `Staking` proxy to add/remove a `StakingOperator`",

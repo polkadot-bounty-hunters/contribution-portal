@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-16T04:41:25.800Z",
+  "generated_at": "2025-12-17T04:37:49.132Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1441,
-    "total_prs": 1469,
+    "total_prs": 1470,
     "total_merged_prs": 1011,
-    "total_reviews": 2222
+    "total_reviews": 2224
   },
   "leaderboard": {
     "overall": [
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 85,
-        "prs": 113,
+        "prs": 114,
         "merged_prs": 73,
-        "reviews": 196,
-        "score": 1968
+        "reviews": 198,
+        "score": 1979
       },
       {
         "name": "franciscoaguirre",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 85,
-          "prs": 113,
+          "prs": 114,
           "merged_prs": 73,
-          "reviews": 196,
-          "score": 1968
+          "reviews": 198,
+          "score": 1979
         },
         {
           "name": "franciscoaguirre",
@@ -29862,6 +29862,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 1038,
+                    "title": "ES changes without revive based on 2507",
+                    "state": "OPEN",
+                    "created_at": "2025-12-16T20:55:23Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1038",
+                    "ready_for_review_at": "2025-12-16T20:55:23Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1034,
                     "title": "[KAH] Enable buffered election export",
                     "state": "CLOSED",
@@ -30186,6 +30202,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1037,
+                    "pr_title": "[modulo Revive] asset-hub-kusama: Prepare ElasticScaling with 3 cores on asset hub kusama and enable buffered election",
+                    "reviewed_at": "2025-12-16T20:51:06Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1037"
+                  },
+                  {
+                    "pr_number": 1036,
+                    "pr_title": "[AHM] Migrate missing stellaswap double derived acc",
+                    "reviewed_at": "2025-12-16T15:17:27Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1036"
+                  },
                   {
                     "pr_number": 1033,
                     "pr_title": "Add `StakingOperator` proxy type and allow `Staking` proxy to add/remove a `StakingOperator`",
