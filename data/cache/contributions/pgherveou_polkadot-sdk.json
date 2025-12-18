@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "95b300fbd8fe043267e0974babbd3960a2e7d1a9",
+      "message": "revive: fix revive post_upgrade assert (#10680)",
+      "date": "2025-12-17T15:17:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/95b300fbd8fe043267e0974babbd3960a2e7d1a9"
+    },
+    {
       "sha": "7b99b022d1877d9c57c67c0cd040a13e26f39fac",
       "message": "revive eth-rpc Add polkadot_postDispatchWeight rpc methods (#10612)",
       "date": "2025-12-15T09:53:45Z",
@@ -1250,6 +1256,119 @@
     }
   ],
   "prs": [
+    {
+      "number": 10682,
+      "title": "add must_use attributes",
+      "state": "OPEN",
+      "created_at": "2025-12-17T15:42:48Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10682",
+      "ready_for_review_at": "2025-12-17T15:42:48Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2025-12-17T16:00:38Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2025-12-17T16:05:28Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2025-12-17T15:53:14Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2972222222222222,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10681,
+      "title": "Backport patch from #10680",
+      "state": "CLOSED",
+      "created_at": "2025-12-17T14:42:34Z",
+      "closed_at": "2025-12-17T14:45:14Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10681",
+      "ready_for_review_at": "2025-12-17T14:42:34Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-12-17T14:45:14Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10680,
+      "title": "revive: fix revive post_upgrade assert",
+      "state": "MERGED",
+      "created_at": "2025-12-17T14:30:47Z",
+      "closed_at": "2025-12-17T15:52:41Z",
+      "merged_at": "2025-12-17T15:52:41Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10680",
+      "ready_for_review_at": "2025-12-17T14:30:47Z",
+      "reviews": [
+        {
+          "reviewer": "TorstenStueber",
+          "submitted_at": "2025-12-17T14:35:06Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2025-12-17T14:35:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-12-17T14:33:40Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2025-12-17T14:38:04Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-17T14:49:18Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2025-12-17T14:50:29Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2025-12-17T15:06:26Z"
+        },
+        {
+          "commenter": "ggwpez",
+          "commented_at": "2025-12-17T15:21:40Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-12-17T15:53:16Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2025-12-17T15:53:20Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.07194444444444445,
+      "time_to_merge_hours": 1.365
+    },
     {
       "number": 10612,
       "title": "revive eth-rpc Add substrate_postDispatchWeight rpc methods",
