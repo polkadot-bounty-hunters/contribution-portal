@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-12-18T04:38:27.719Z",
+  "generated_at": "2025-12-19T04:40:59.731Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1442,
-    "total_prs": 1476,
+    "total_prs": 1477,
     "total_merged_prs": 1012,
     "total_reviews": 2224
   },
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 244,
-        "prs": 168,
+        "prs": 169,
         "merged_prs": 127,
         "reviews": 195,
-        "score": 2939
+        "score": 2944
       },
       {
         "name": "liamaharon",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 244,
-          "prs": 168,
+          "prs": 169,
           "merged_prs": 127,
           "reviews": 195,
-          "score": 2939
+          "score": 2944
         },
         {
           "name": "liamaharon",
@@ -89852,6 +89852,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10693,
+                    "title": "refund deposit_eth_extrinsic_revert_event on the base_weight",
+                    "state": "OPEN",
+                    "created_at": "2025-12-18T16:19:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10693",
+                    "ready_for_review_at": "2025-12-18T16:19:16Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10682,
                     "title": "add must_use attributes",
