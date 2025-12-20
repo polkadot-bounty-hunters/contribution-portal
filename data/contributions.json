@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-12-19T04:40:59.731Z",
+  "generated_at": "2025-12-20T04:32:52.639Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1442,
-    "total_prs": 1477,
+    "total_prs": 1481,
     "total_merged_prs": 1012,
     "total_reviews": 2224
   },
@@ -125,10 +125,10 @@
         "github": "Krayt78",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 22,
-        "prs": 37,
+        "prs": 38,
         "merged_prs": 22,
         "reviews": 10,
-        "score": 457
+        "score": 462
       },
       {
         "name": "rossbulat",
@@ -351,6 +351,16 @@
         "score": 90
       },
       {
+        "name": "BigTava",
+        "github": "BigTava",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 3,
+        "prs": 9,
+        "merged_prs": 2,
+        "reviews": 7,
+        "score": 89
+      },
+      {
         "name": "wentelteefje",
         "github": "wentelteefje",
         "cohort": "PBA 3 Berkeley 2023",
@@ -368,16 +378,6 @@
         "prs": 5,
         "merged_prs": 5,
         "reviews": 2,
-        "score": 84
-      },
-      {
-        "name": "BigTava",
-        "github": "BigTava",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 3,
-        "prs": 8,
-        "merged_prs": 2,
-        "reviews": 7,
         "score": 84
       },
       {
@@ -684,6 +684,16 @@
           "score": 5
         },
         {
+          "name": "lrazovic",
+          "github": "lrazovic",
+          "cohort": "PBA 1 Cambridge 2022",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "dadepo",
           "github": "dadepo",
           "cohort": "PBA 1 Cambridge 2022",
@@ -856,16 +866,6 @@
         {
           "name": "MarijoR",
           "github": "MarijoR",
-          "cohort": "PBA 1 Cambridge 2022",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "lrazovic",
-          "github": "lrazovic",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 0,
           "prs": 0,
@@ -1116,6 +1116,16 @@
           "score": 21
         },
         {
+          "name": "l0r1s",
+          "github": "l0r1s",
+          "cohort": "PBA 2 BA 2023",
+          "commits": 1,
+          "prs": 2,
+          "merged_prs": 1,
+          "reviews": 0,
+          "score": 21
+        },
+        {
           "name": "tesol2y090",
           "github": "tesol2y090",
           "cohort": "PBA 2 BA 2023",
@@ -1158,16 +1168,6 @@
         {
           "name": "0xLucca",
           "github": "0xLucca",
-          "cohort": "PBA 2 BA 2023",
-          "commits": 1,
-          "prs": 1,
-          "merged_prs": 1,
-          "reviews": 0,
-          "score": 16
-        },
-        {
-          "name": "l0r1s",
-          "github": "l0r1s",
           "cohort": "PBA 2 BA 2023",
           "commits": 1,
           "prs": 1,
@@ -3116,10 +3116,10 @@
           "github": "Krayt78",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 22,
-          "prs": 37,
+          "prs": 38,
           "merged_prs": 22,
           "reviews": 10,
-          "score": 457
+          "score": 462
         },
         {
           "name": "rosarp",
@@ -3176,10 +3176,10 @@
           "github": "BigTava",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 3,
-          "prs": 8,
+          "prs": 9,
           "merged_prs": 2,
           "reviews": 7,
-          "score": 84
+          "score": 89
         },
         {
           "name": "mittal-parth",
@@ -55799,7 +55799,29 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10699,
+                    "title": "Introduce Vaults pallet (part of the pUSD Project) ",
+                    "state": "OPEN",
+                    "created_at": "2025-12-19T15:14:47Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "lrazovic",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10699",
+                    "ready_for_review_at": "2025-12-19T15:14:47Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2025-12-19T15:14:55Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -105360,6 +105382,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 10700,
+                    "title": "Export grandpa weights",
+                    "state": "OPEN",
+                    "created_at": "2025-12-19T15:20:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "l0r1s",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10700",
+                    "ready_for_review_at": "2025-12-19T15:20:58Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 9983,
                     "title": "Fix utility::force_batch returning incorrect weights causing mismatch",
                     "state": "MERGED",
@@ -142037,6 +142075,31 @@
                 ],
                 "prs": [
                   {
+                    "number": 10701,
+                    "title": "pallet-referenda: Migrate from Currency reserves to fungible holds",
+                    "state": "OPEN",
+                    "created_at": "2025-12-19T15:47:53Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Krayt78",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10701",
+                    "ready_for_review_at": "2025-12-19T15:47:53Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2025-12-19T15:54:21Z"
+                      },
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2025-12-19T16:57:53Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10045,
                     "title": "Refactor lottery pallet to use fungible traits",
                     "state": "OPEN",
@@ -156210,6 +156273,43 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10702,
+                    "title": "Add pallet-meta-tx to Westend Asset Hub testnet runtime.",
+                    "state": "OPEN",
+                    "created_at": "2025-12-19T16:01:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "BigTava",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10702",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2025-12-19T17:32:04Z"
+                      },
+                      {
+                        "commenter": "BigTava",
+                        "commented_at": "2025-12-20T00:22:13Z"
+                      },
+                      {
+                        "commenter": "BigTava",
+                        "commented_at": "2025-12-20T00:34:14Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-20T00:35:02Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2025-12-20T01:09:34Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10064,
                     "title": "multi-asset-bounties: address final comments from first draft PR",
