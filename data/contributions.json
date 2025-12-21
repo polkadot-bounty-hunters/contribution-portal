@@ -1,9 +1,9 @@
 {
-  "generated_at": "2025-12-20T04:32:52.639Z",
+  "generated_at": "2025-12-21T04:45:56.963Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1442,
+    "total_commits": 1443,
     "total_prs": 1481,
     "total_merged_prs": 1012,
     "total_reviews": 2224
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 244,
+        "commits": 245,
         "prs": 169,
         "merged_prs": 127,
         "reviews": 195,
-        "score": 2944
+        "score": 2945
       },
       {
         "name": "liamaharon",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 244,
+          "commits": 245,
           "prs": 169,
           "merged_prs": 127,
           "reviews": 195,
-          "score": 2944
+          "score": 2945
         },
         {
           "name": "liamaharon",
@@ -88618,6 +88618,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "665b6c04bf144af54d98dc7d573544edfc8831e9",
+                    "message": "add must_use attributes (#10682)",
+                    "date": "2025-12-20T07:28:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/665b6c04bf144af54d98dc7d573544edfc8831e9"
+                  },
                   {
                     "sha": "95b300fbd8fe043267e0974babbd3960a2e7d1a9",
                     "message": "revive: fix revive post_upgrade assert (#10680)",
