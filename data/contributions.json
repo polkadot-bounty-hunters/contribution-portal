@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-06T04:45:54.389Z",
+  "generated_at": "2026-01-07T04:46:16.158Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1443,
+    "total_commits": 1445,
     "total_prs": 1482,
     "total_merged_prs": 1012,
-    "total_reviews": 2224
+    "total_reviews": 2225
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 245,
+        "commits": 246,
         "prs": 169,
         "merged_prs": 127,
         "reviews": 195,
-        "score": 2945
+        "score": 2946
       },
       {
         "name": "liamaharon",
@@ -47,8 +47,8 @@
         "commits": 85,
         "prs": 114,
         "merged_prs": 73,
-        "reviews": 198,
-        "score": 1979
+        "reviews": 199,
+        "score": 1982
       },
       {
         "name": "franciscoaguirre",
@@ -530,8 +530,8 @@
           "commits": 85,
           "prs": 114,
           "merged_prs": 73,
-          "reviews": 198,
-          "score": 1979
+          "reviews": 199,
+          "score": 1982
         },
         {
           "name": "franciscoaguirre",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 245,
+          "commits": 246,
           "prs": 169,
           "merged_prs": 127,
           "reviews": 195,
-          "score": 2945
+          "score": 2946
         },
         {
           "name": "liamaharon",
@@ -4367,11 +4367,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 2,
+          "commits": 3,
           "prs": 3,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 33
+          "score": 34
         },
         {
           "name": "andrzejSulkowski",
@@ -30202,6 +30202,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1048,
+                    "pr_title": "Enable Elastic Scaling and buffered election for Polkadot Hub",
+                    "reviewed_at": "2026-01-06T18:34:35Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1048"
+                  },
                   {
                     "pr_number": 1037,
                     "pr_title": "[modulo Revive] asset-hub-kusama: Prepare ElasticScaling with 3 cores on asset hub kusama and enable buffered election",
@@ -88618,6 +88624,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "e1d01a04394915aab62bb1321c44fe4c5b620a9a",
+                    "message": "refund deposit_eth_extrinsic_revert_event on the base_weight (#10693)",
+                    "date": "2026-01-06T09:40:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/e1d01a04394915aab62bb1321c44fe4c5b620a9a"
+                  },
                   {
                     "sha": "665b6c04bf144af54d98dc7d573544edfc8831e9",
                     "message": "add must_use attributes (#10682)",
@@ -161014,6 +161026,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "f569daa322fd977b9a29a3fd711454b70fb00cb7",
+                    "message": "Update asset-conversion validation to use strict withdrawal checks (#10646)",
+                    "date": "2026-01-06T09:48:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/f569daa322fd977b9a29a3fd711454b70fb00cb7"
+                  },
                   {
                     "sha": "f96da6f3c37318568a1a662f39511afa76c13791",
                     "message": "transfer function Preservation is changed to Expendable  (#7243)",

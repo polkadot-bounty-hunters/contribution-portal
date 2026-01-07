@@ -386,6 +386,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1048,
+      "pr_title": "Enable Elastic Scaling and buffered election for Polkadot Hub",
+      "reviewed_at": "2026-01-06T18:34:35Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1048"
+    },
+    {
       "pr_number": 1037,
       "pr_title": "[modulo Revive] asset-hub-kusama: Prepare ElasticScaling with 3 cores on asset hub kusama and enable buffered election",
       "reviewed_at": "2025-12-16T20:51:06Z",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "f569daa322fd977b9a29a3fd711454b70fb00cb7",
+      "message": "Update asset-conversion validation to use strict withdrawal checks (#10646)",
+      "date": "2026-01-06T09:48:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f569daa322fd977b9a29a3fd711454b70fb00cb7"
+    },
+    {
       "sha": "f96da6f3c37318568a1a662f39511afa76c13791",
       "message": "transfer function Preservation is changed to Expendable  (#7243)",
       "date": "2025-02-10T16:10:47Z",

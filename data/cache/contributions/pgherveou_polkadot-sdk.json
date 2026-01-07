@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "e1d01a04394915aab62bb1321c44fe4c5b620a9a",
+      "message": "refund deposit_eth_extrinsic_revert_event on the base_weight (#10693)",
+      "date": "2026-01-06T09:40:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e1d01a04394915aab62bb1321c44fe4c5b620a9a"
+    },
+    {
       "sha": "665b6c04bf144af54d98dc7d573544edfc8831e9",
       "message": "add must_use attributes (#10682)",
       "date": "2025-12-20T07:28:28Z",
