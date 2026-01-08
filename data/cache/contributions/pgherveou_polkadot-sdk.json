@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "664643bf274380cf18e0151e4a72107dd3ae5af5",
+      "message": "build & deploy eth-rpc docker image for stable release (#10739)",
+      "date": "2026-01-07T20:17:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/664643bf274380cf18e0151e4a72107dd3ae5af5"
+    },
+    {
       "sha": "e1d01a04394915aab62bb1321c44fe4c5b620a9a",
       "message": "refund deposit_eth_extrinsic_revert_event on the base_weight (#10693)",
       "date": "2026-01-06T09:40:16Z",
@@ -1268,6 +1274,54 @@
     }
   ],
   "prs": [
+    {
+      "number": 10739,
+      "title": "build & deploy eth-rpc docker image for stable release",
+      "state": "MERGED",
+      "created_at": "2026-01-07T12:10:24Z",
+      "closed_at": "2026-01-07T20:56:45Z",
+      "merged_at": "2026-01-07T20:56:45Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10739",
+      "ready_for_review_at": "2026-01-07T12:10:24Z",
+      "reviews": [
+        {
+          "reviewer": "alvicsam",
+          "submitted_at": "2026-01-07T12:45:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "athei",
+          "submitted_at": "2026-01-07T13:13:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-01-07T12:10:36Z"
+        },
+        {
+          "commenter": "athei",
+          "commented_at": "2026-01-07T12:16:19Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-01-07T12:24:52Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-01-07T12:25:46Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-01-07T12:26:56Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.5905555555555555,
+      "time_to_merge_hours": 8.7725
+    },
     {
       "number": 10693,
       "title": "refund deposit_eth_extrinsic_revert_event on the base_weight",
@@ -8209,6 +8263,36 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10745,
+      "pr_title": "[stable2512] Backport #10740",
+      "reviewed_at": "2026-01-07T17:25:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10745"
+    },
+    {
+      "pr_number": 10744,
+      "pr_title": "[unstable2507] Backport #10740",
+      "reviewed_at": "2026-01-07T16:47:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10744"
+    },
+    {
+      "pr_number": 10740,
+      "pr_title": "Make BlockRatioFee no longer require pallet_revive",
+      "reviewed_at": "2026-01-07T14:46:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10740"
+    },
+    {
+      "pr_number": 10737,
+      "pr_title": "[stable2512] Backport #10476",
+      "reviewed_at": "2026-01-07T13:29:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10737"
+    },
+    {
+      "pr_number": 10736,
+      "pr_title": "[unstable2507] Backport #10476",
+      "reviewed_at": "2026-01-07T12:53:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10736"
+    },
     {
       "pr_number": 10567,
       "pr_title": "[Revive] Fix construction of negative zero SignedGas",

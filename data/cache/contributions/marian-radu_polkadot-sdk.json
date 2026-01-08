@@ -447,6 +447,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10745,
+      "pr_title": "[stable2512] Backport #10740",
+      "reviewed_at": "2026-01-07T17:25:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10745"
+    },
+    {
       "pr_number": 10524,
       "pr_title": "Fix Differential Testing CI Flakiness",
       "reviewed_at": "2025-12-03T17:52:52Z",

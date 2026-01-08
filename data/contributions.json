@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-07T04:46:16.158Z",
+  "generated_at": "2026-01-08T04:46:48.655Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1445,
-    "total_prs": 1482,
-    "total_merged_prs": 1012,
-    "total_reviews": 2225
+    "total_commits": 1446,
+    "total_prs": 1483,
+    "total_merged_prs": 1013,
+    "total_reviews": 2231
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 246,
-        "prs": 169,
-        "merged_prs": 127,
-        "reviews": 195,
-        "score": 2946
+        "commits": 247,
+        "prs": 170,
+        "merged_prs": 128,
+        "reviews": 200,
+        "score": 2977
       },
       {
         "name": "liamaharon",
@@ -267,8 +267,8 @@
         "commits": 6,
         "prs": 9,
         "merged_prs": 3,
-        "reviews": 16,
-        "score": 129
+        "reviews": 17,
+        "score": 132
       },
       {
         "name": "MrishoLukamba",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 246,
-          "prs": 169,
-          "merged_prs": 127,
-          "reviews": 195,
-          "score": 2946
+          "commits": 247,
+          "prs": 170,
+          "merged_prs": 128,
+          "reviews": 200,
+          "score": 2977
         },
         {
           "name": "liamaharon",
@@ -5112,8 +5112,8 @@
           "commits": 6,
           "prs": 9,
           "merged_prs": 3,
-          "reviews": 16,
-          "score": 129
+          "reviews": 17,
+          "score": 132
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 80.16504839168798,
+    "average_review_time_hours": 80.09715206674248,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5631,10 +5631,10 @@
       },
       {
         "reviewer": "athei",
-        "review_count": 326,
-        "approved_count": 133,
+        "review_count": 327,
+        "approved_count": 134,
         "avg_time_to_review_hours": 59.45847530864198,
-        "approval_rate": 40.79754601226993
+        "approval_rate": 40.97859327217125
       },
       {
         "reviewer": "acatangiu",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 92.05632555555556,
-        "pr_count": 750,
-        "merged_count": 644
+        "avg_review_time_hours": 91.93453358484983,
+        "pr_count": 751,
+        "merged_count": 645
       },
       {
         "repository": "paritytech/substrate",
@@ -88625,6 +88625,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "664643bf274380cf18e0151e4a72107dd3ae5af5",
+                    "message": "build & deploy eth-rpc docker image for stable release (#10739)",
+                    "date": "2026-01-07T20:17:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/664643bf274380cf18e0151e4a72107dd3ae5af5"
+                  },
+                  {
                     "sha": "e1d01a04394915aab62bb1321c44fe4c5b620a9a",
                     "message": "refund deposit_eth_extrinsic_revert_event on the base_weight (#10693)",
                     "date": "2026-01-06T09:40:16Z",
@@ -89892,6 +89898,54 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10739,
+                    "title": "build & deploy eth-rpc docker image for stable release",
+                    "state": "MERGED",
+                    "created_at": "2026-01-07T12:10:24Z",
+                    "closed_at": "2026-01-07T20:56:45Z",
+                    "merged_at": "2026-01-07T20:56:45Z",
+                    "merged_by": "pgherveou",
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10739",
+                    "ready_for_review_at": "2026-01-07T12:10:24Z",
+                    "reviews": [
+                      {
+                        "reviewer": "alvicsam",
+                        "submitted_at": "2026-01-07T12:45:50Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "athei",
+                        "submitted_at": "2026-01-07T13:13:49Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-01-07T12:10:36Z"
+                      },
+                      {
+                        "commenter": "athei",
+                        "commented_at": "2026-01-07T12:16:19Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-01-07T12:24:52Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-01-07T12:25:46Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-01-07T12:26:56Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.5905555555555555,
+                    "time_to_merge_hours": 8.7725
+                  },
                   {
                     "number": 10693,
                     "title": "refund deposit_eth_extrinsic_revert_event on the base_weight",
@@ -96833,6 +96887,36 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10745,
+                    "pr_title": "[stable2512] Backport #10740",
+                    "reviewed_at": "2026-01-07T17:25:53Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10745"
+                  },
+                  {
+                    "pr_number": 10744,
+                    "pr_title": "[unstable2507] Backport #10740",
+                    "reviewed_at": "2026-01-07T16:47:41Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10744"
+                  },
+                  {
+                    "pr_number": 10740,
+                    "pr_title": "Make BlockRatioFee no longer require pallet_revive",
+                    "reviewed_at": "2026-01-07T14:46:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10740"
+                  },
+                  {
+                    "pr_number": 10737,
+                    "pr_title": "[stable2512] Backport #10476",
+                    "reviewed_at": "2026-01-07T13:29:46Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10737"
+                  },
+                  {
+                    "pr_number": 10736,
+                    "pr_title": "[unstable2507] Backport #10476",
+                    "reviewed_at": "2026-01-07T12:53:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10736"
+                  },
                   {
                     "pr_number": 10567,
                     "pr_title": "[Revive] Fix construction of negative zero SignedGas",
@@ -166770,6 +166854,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10745,
+                    "pr_title": "[stable2512] Backport #10740",
+                    "reviewed_at": "2026-01-07T17:25:53Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10745"
+                  },
                   {
                     "pr_number": 10524,
                     "pr_title": "Fix Differential Testing CI Flakiness",
