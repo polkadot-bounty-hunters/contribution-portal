@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-08T04:46:48.655Z",
+  "generated_at": "2026-01-09T04:47:13.794Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1446,
     "total_prs": 1483,
     "total_merged_prs": 1013,
-    "total_reviews": 2231
+    "total_reviews": 2232
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 247,
         "prs": 170,
         "merged_prs": 128,
-        "reviews": 200,
-        "score": 2977
+        "reviews": 201,
+        "score": 2980
       },
       {
         "name": "liamaharon",
@@ -932,8 +932,8 @@
           "commits": 247,
           "prs": 170,
           "merged_prs": 128,
-          "reviews": 200,
-          "score": 2977
+          "reviews": 201,
+          "score": 2980
         },
         {
           "name": "liamaharon",
@@ -96887,6 +96887,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10749,
+                    "pr_title": "[pallet-revive] fixtures compilation fix for rust 1.92.0",
+                    "reviewed_at": "2026-01-08T18:50:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10749"
+                  },
                   {
                     "pr_number": 10745,
                     "pr_title": "[stable2512] Backport #10740",

@@ -8264,6 +8264,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10749,
+      "pr_title": "[pallet-revive] fixtures compilation fix for rust 1.92.0",
+      "reviewed_at": "2026-01-08T18:50:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10749"
+    },
+    {
       "pr_number": 10745,
       "pr_title": "[stable2512] Backport #10740",
       "reviewed_at": "2026-01-07T17:25:53Z",
