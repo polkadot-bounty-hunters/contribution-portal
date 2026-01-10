@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-09T04:47:13.794Z",
+  "generated_at": "2026-01-10T04:41:36.682Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1446,
     "total_prs": 1483,
     "total_merged_prs": 1013,
-    "total_reviews": 2232
+    "total_reviews": 2233
   },
   "leaderboard": {
     "overall": [
@@ -4414,6 +4414,16 @@
           "score": 16
         },
         {
+          "name": "P1sar",
+          "github": "P1sar",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 2,
+          "score": 11
+        },
+        {
           "name": "Yung-Beef",
           "github": "Yung-Beef",
           "cohort": "PBA 6 Lucerne 2025",
@@ -4422,16 +4432,6 @@
           "merged_prs": 0,
           "reviews": 0,
           "score": 10
-        },
-        {
-          "name": "P1sar",
-          "github": "P1sar",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 0,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 1,
-          "score": 8
         },
         {
           "name": "developerfred",
@@ -162170,6 +162170,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10760,
+                    "pr_title": "subsystem-bench: adjust benchmark thresholds",
+                    "reviewed_at": "2026-01-09T15:24:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10760"
+                  },
                   {
                     "pr_number": 9687,
                     "pr_title": "chore: initial statistics subsystem",
