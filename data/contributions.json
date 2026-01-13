@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-12T04:54:21.771Z",
+  "generated_at": "2026-01-13T04:45:16.783Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1446,
     "total_prs": 1483,
     "total_merged_prs": 1013,
-    "total_reviews": 2233
+    "total_reviews": 2234
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 74,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 161,
-        "score": 1937
+        "reviews": 162,
+        "score": 1940
       },
       {
         "name": "jsidorenko",
@@ -540,8 +540,8 @@
           "commits": 74,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 161,
-          "score": 1937
+          "reviews": 162,
+          "score": 1940
         },
         {
           "name": "jsidorenko",
@@ -16770,6 +16770,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1053,
+                    "pr_title": "add encointer to the intergration tests matrix",
+                    "reviewed_at": "2026-01-12T22:40:48Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1053"
+                  },
                   {
                     "pr_number": 1014,
                     "pr_title": "Remove XCM Transact filters and Pool assets transactors",

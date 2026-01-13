@@ -1249,6 +1249,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1053,
+      "pr_title": "add encointer to the intergration tests matrix",
+      "reviewed_at": "2026-01-12T22:40:48Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1053"
+    },
+    {
       "pr_number": 1014,
       "pr_title": "Remove XCM Transact filters and Pool assets transactors",
       "reviewed_at": "2025-11-20T18:35:44Z",
