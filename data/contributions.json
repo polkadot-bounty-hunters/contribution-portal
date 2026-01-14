@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-13T04:45:16.783Z",
+  "generated_at": "2026-01-14T04:53:17.571Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1446,
-    "total_prs": 1483,
+    "total_prs": 1484,
     "total_merged_prs": 1013,
-    "total_reviews": 2234
+    "total_reviews": 2235
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 247,
         "prs": 170,
         "merged_prs": 128,
-        "reviews": 201,
-        "score": 2980
+        "reviews": 202,
+        "score": 2983
       },
       {
         "name": "liamaharon",
@@ -105,10 +105,10 @@
         "github": "raymondkfcheung",
         "cohort": "PBA 7 Bali 2025",
         "commits": 33,
-        "prs": 47,
+        "prs": 48,
         "merged_prs": 34,
         "reviews": 116,
-        "score": 956
+        "score": 961
       },
       {
         "name": "karolk91",
@@ -932,8 +932,8 @@
           "commits": 247,
           "prs": 170,
           "merged_prs": 128,
-          "reviews": 201,
-          "score": 2980
+          "reviews": 202,
+          "score": 2983
         },
         {
           "name": "liamaharon",
@@ -5100,10 +5100,10 @@
           "github": "raymondkfcheung",
           "cohort": "PBA 7 Bali 2025",
           "commits": 33,
-          "prs": 47,
+          "prs": 48,
           "merged_prs": 34,
           "reviews": 116,
-          "score": 956
+          "score": 961
         },
         {
           "name": "marian-radu",
@@ -96894,6 +96894,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10780,
+                    "pr_title": "Fix pallet-revive-fixtures",
+                    "reviewed_at": "2026-01-13T15:00:51Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10780"
+                  },
+                  {
                     "pr_number": 10749,
                     "pr_title": "[pallet-revive] fixtures compilation fix for rust 1.92.0",
                     "reviewed_at": "2026-01-08T18:50:23Z",
@@ -167562,6 +167568,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10786,
+                    "title": "Copy Public Functions from Bulletin to SDK",
+                    "state": "OPEN",
+                    "created_at": "2026-01-13T10:18:45Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "raymondkfcheung",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10786",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-13T10:27:58Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10593,
                     "title": "Align Storages between Bulletin and SDK",

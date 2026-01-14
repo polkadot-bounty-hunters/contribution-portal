@@ -183,6 +183,27 @@
   ],
   "prs": [
     {
+      "number": 10786,
+      "title": "Copy Public Functions from Bulletin to SDK",
+      "state": "OPEN",
+      "created_at": "2026-01-13T10:18:45Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "raymondkfcheung",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10786",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-01-13T10:27:58Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10593,
       "title": "Align Storages between Bulletin and SDK",
       "state": "OPEN",
