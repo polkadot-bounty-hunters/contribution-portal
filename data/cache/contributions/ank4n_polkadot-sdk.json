@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "b3bfba618e98f2aa10ee8d4233a15c1e09fef50f",
+      "message": "[Staking] Allow nominators to be non-slashable and fast unbondable (#10502)",
+      "date": "2026-01-14T21:42:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b3bfba618e98f2aa10ee8d4233a15c1e09fef50f"
+    },
+    {
       "sha": "90b7cafd8cfba509cc0f6ea476acc1a8c9ad0c11",
       "message": "[Staking] Async Election and Export (#10311)",
       "date": "2025-12-03T16:24:29Z",

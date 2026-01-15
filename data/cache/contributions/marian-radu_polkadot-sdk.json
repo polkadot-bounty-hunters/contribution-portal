@@ -447,6 +447,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10801,
+      "pr_title": "Pin the Version of The Retester CI Action",
+      "reviewed_at": "2026-01-14T17:50:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10801"
+    },
+    {
       "pr_number": 10745,
       "pr_title": "[stable2512] Backport #10740",
       "reviewed_at": "2026-01-07T17:25:53Z",

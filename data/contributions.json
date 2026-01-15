@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-14T04:53:17.571Z",
+  "generated_at": "2026-01-15T04:47:36.972Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1446,
+    "total_commits": 1447,
     "total_prs": 1484,
     "total_merged_prs": 1013,
-    "total_reviews": 2235
+    "total_reviews": 2238
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 247,
         "prs": 170,
         "merged_prs": 128,
-        "reviews": 202,
-        "score": 2983
+        "reviews": 203,
+        "score": 2986
       },
       {
         "name": "liamaharon",
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 85,
+        "commits": 86,
         "prs": 114,
         "merged_prs": 73,
         "reviews": 199,
-        "score": 1982
+        "score": 1983
       },
       {
         "name": "franciscoaguirre",
@@ -57,8 +57,8 @@
         "commits": 74,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 162,
-        "score": 1940
+        "reviews": 163,
+        "score": 1943
       },
       {
         "name": "jsidorenko",
@@ -267,8 +267,8 @@
         "commits": 6,
         "prs": 9,
         "merged_prs": 3,
-        "reviews": 17,
-        "score": 132
+        "reviews": 18,
+        "score": 135
       },
       {
         "name": "MrishoLukamba",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 85,
+          "commits": 86,
           "prs": 114,
           "merged_prs": 73,
           "reviews": 199,
-          "score": 1982
+          "score": 1983
         },
         {
           "name": "franciscoaguirre",
@@ -540,8 +540,8 @@
           "commits": 74,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 162,
-          "score": 1940
+          "reviews": 163,
+          "score": 1943
         },
         {
           "name": "jsidorenko",
@@ -932,8 +932,8 @@
           "commits": 247,
           "prs": 170,
           "merged_prs": 128,
-          "reviews": 202,
-          "score": 2983
+          "reviews": 203,
+          "score": 2986
         },
         {
           "name": "liamaharon",
@@ -5112,8 +5112,8 @@
           "commits": 6,
           "prs": 9,
           "merged_prs": 3,
-          "reviews": 17,
-          "score": 132
+          "reviews": 18,
+          "score": 135
         },
         {
           "name": "surajk-m",
@@ -14693,6 +14693,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10805,
+                    "pr_title": "Add CLAUDE.md",
+                    "reviewed_at": "2026-01-15T00:20:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10805"
+                  },
+                  {
                     "pr_number": 10582,
                     "pr_title": "Deprecate `RuntimeDebug` and replace it with `Debug`",
                     "reviewed_at": "2025-12-09T22:05:30Z",
@@ -19139,6 +19145,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "b3bfba618e98f2aa10ee8d4233a15c1e09fef50f",
+                    "message": "[Staking] Allow nominators to be non-slashable and fast unbondable (#10502)",
+                    "date": "2026-01-14T21:42:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b3bfba618e98f2aa10ee8d4233a15c1e09fef50f"
+                  },
                   {
                     "sha": "90b7cafd8cfba509cc0f6ea476acc1a8c9ad0c11",
                     "message": "[Staking] Async Election and Export (#10311)",
@@ -96894,6 +96906,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10805,
+                    "pr_title": "Add CLAUDE.md",
+                    "reviewed_at": "2026-01-15T00:20:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10805"
+                  },
+                  {
                     "pr_number": 10780,
                     "pr_title": "Fix pallet-revive-fixtures",
                     "reviewed_at": "2026-01-13T15:00:51Z",
@@ -166878,6 +166896,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10801,
+                    "pr_title": "Pin the Version of The Retester CI Action",
+                    "reviewed_at": "2026-01-14T17:50:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10801"
+                  },
                   {
                     "pr_number": 10745,
                     "pr_title": "[stable2512] Backport #10740",
