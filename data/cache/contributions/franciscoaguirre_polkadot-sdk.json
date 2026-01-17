@@ -8772,6 +8772,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10831,
+      "pr_title": "Fix fee handling of pay-over-xcm trait(s)",
+      "reviewed_at": "2026-01-16T20:40:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10831"
+    },
+    {
       "pr_number": 10805,
       "pr_title": "Add CLAUDE.md",
       "reviewed_at": "2026-01-15T00:20:18Z",

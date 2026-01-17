@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-16T04:46:50.708Z",
+  "generated_at": "2026-01-17T04:40:06.394Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1447,
+    "total_commits": 1448,
     "total_prs": 1484,
     "total_merged_prs": 1013,
-    "total_reviews": 2238
+    "total_reviews": 2240
   },
   "leaderboard": {
     "overall": [
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 74,
+        "commits": 75,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 163,
-        "score": 1943
+        "reviews": 164,
+        "score": 1947
       },
       {
         "name": "jsidorenko",
@@ -187,8 +187,8 @@
         "commits": 6,
         "prs": 18,
         "merged_prs": 14,
-        "reviews": 18,
-        "score": 290
+        "reviews": 19,
+        "score": 293
       },
       {
         "name": "Overkillus",
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 74,
+          "commits": 75,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 163,
-          "score": 1943
+          "reviews": 164,
+          "score": 1947
         },
         {
           "name": "jsidorenko",
@@ -3128,8 +3128,8 @@
           "commits": 6,
           "prs": 18,
           "merged_prs": 14,
-          "reviews": 18,
-          "score": 290
+          "reviews": 19,
+          "score": 293
         },
         {
           "name": "ndkazu",
@@ -14693,6 +14693,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10831,
+                    "pr_title": "Fix fee handling of pay-over-xcm trait(s)",
+                    "reviewed_at": "2026-01-16T20:40:50Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10831"
+                  },
+                  {
                     "pr_number": 10805,
                     "pr_title": "Add CLAUDE.md",
                     "reviewed_at": "2026-01-15T00:20:18Z",
@@ -15528,6 +15534,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "4e17c8e790e15bac0b3472fa92c59bfa3600d91d",
+                    "message": "Allow HOLLAR to be reserved transferred to People Chain from Hydration (#962)",
+                    "date": "2026-01-16T21:35:52Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/4e17c8e790e15bac0b3472fa92c59bfa3600d91d"
+                  },
                   {
                     "sha": "f33a68e0f7240e27df8e5ed6fd7deb8760c094c6",
                     "message": "Release 1.5.1 (#712)",
@@ -155506,6 +155518,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10831,
+                    "pr_title": "Fix fee handling of pay-over-xcm trait(s)",
+                    "reviewed_at": "2026-01-16T20:40:50Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10831"
+                  },
                   {
                     "pr_number": 9421,
                     "pr_title": "benchmarking for proof-root-store",
