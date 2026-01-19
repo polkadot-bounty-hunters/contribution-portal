@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-01-18T04:52:42.163Z",
+  "generated_at": "2026-01-19T05:06:05.321Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1448,
-    "total_prs": 1484,
+    "total_prs": 1486,
     "total_merged_prs": 1013,
     "total_reviews": 2240
   },
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 86,
-        "prs": 114,
+        "prs": 116,
         "merged_prs": 73,
         "reviews": 199,
-        "score": 1983
+        "score": 1993
       },
       {
         "name": "franciscoaguirre",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 86,
-          "prs": 114,
+          "prs": 116,
           "merged_prs": 73,
           "reviews": 199,
-          "score": 1983
+          "score": 1993
         },
         {
           "name": "franciscoaguirre",
@@ -19561,6 +19561,52 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10834,
+                    "title": "[WIP] Validator Incentive implementation",
+                    "state": "OPEN",
+                    "created_at": "2026-01-18T23:09:00Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10834",
+                    "ready_for_review_at": "2026-01-18T23:09:00Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-18T23:46:34Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-18T23:46:34Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10833,
+                    "title": "[WIP] Move minting from Staking to DAP",
+                    "state": "OPEN",
+                    "created_at": "2026-01-18T11:33:25Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10833",
+                    "ready_for_review_at": "2026-01-18T11:33:25Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-18T21:28:50Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10502,
                     "title": "[WIP] No slashing nominators",
