@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-19T05:06:05.321Z",
+  "generated_at": "2026-01-20T04:50:15.746Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1448,
-    "total_prs": 1486,
+    "total_prs": 1487,
     "total_merged_prs": 1013,
-    "total_reviews": 2240
+    "total_reviews": 2241
   },
   "leaderboard": {
     "overall": [
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 86,
-        "prs": 116,
+        "prs": 117,
         "merged_prs": 73,
-        "reviews": 199,
-        "score": 1993
+        "reviews": 200,
+        "score": 2001
       },
       {
         "name": "franciscoaguirre",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 86,
-          "prs": 116,
+          "prs": 117,
           "merged_prs": 73,
-          "reviews": 199,
-          "score": 1993
+          "reviews": 200,
+          "score": 2001
         },
         {
           "name": "franciscoaguirre",
@@ -19562,6 +19562,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 10844,
+                    "title": "[WIP] Move era reward minting to DAP with era-based allocation in Staking",
+                    "state": "OPEN",
+                    "created_at": "2026-01-19T23:13:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10844",
+                    "ready_for_review_at": "2026-01-19T23:13:16Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-20T00:05:11Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10834,
                     "title": "[WIP] Validator Incentive implementation",
                     "state": "OPEN",
@@ -26043,6 +26064,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10837,
+                    "pr_title": "[stable2512] Backport #10802",
+                    "reviewed_at": "2026-01-19T21:06:24Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10837"
+                  },
                   {
                     "pr_number": 10633,
                     "pr_title": "[unstable2507] Post crates release changes",
