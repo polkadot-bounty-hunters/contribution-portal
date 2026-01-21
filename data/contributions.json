@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-20T04:50:15.746Z",
+  "generated_at": "2026-01-21T04:49:42.659Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1448,
-    "total_prs": 1487,
+    "total_prs": 1488,
     "total_merged_prs": 1013,
-    "total_reviews": 2241
+    "total_reviews": 2242
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 256,
         "prs": 187,
         "merged_prs": 145,
-        "reviews": 236,
-        "score": 3349
+        "reviews": 237,
+        "score": 3352
       },
       {
         "name": "pgherveou",
@@ -241,6 +241,16 @@
         "score": 144
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 10,
+        "merged_prs": 3,
+        "reviews": 18,
+        "score": 140
+      },
+      {
         "name": "vstam1",
         "github": "vstam1",
         "cohort": "PBA 2 BA 2023",
@@ -259,16 +269,6 @@
         "merged_prs": 8,
         "reviews": 2,
         "score": 137
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 9,
-        "merged_prs": 3,
-        "reviews": 18,
-        "score": 135
       },
       {
         "name": "MrishoLukamba",
@@ -520,8 +520,8 @@
           "commits": 256,
           "prs": 187,
           "merged_prs": 145,
-          "reviews": 236,
-          "score": 3349
+          "reviews": 237,
+          "score": 3352
         },
         {
           "name": "ank4n",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 9,
+          "prs": 10,
           "merged_prs": 3,
           "reviews": 18,
-          "score": 135
+          "score": 140
         },
         {
           "name": "surajk-m",
@@ -45749,6 +45749,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10848,
+                    "pr_title": "rpc-spec-v2: Fix flaky tests",
+                    "reviewed_at": "2026-01-20T21:14:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10848"
+                  },
                   {
                     "pr_number": 10636,
                     "pr_title": "[stable2512] Backport #9003",
@@ -166579,6 +166585,31 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10849,
+                    "title": "pallet-revive: Enable call_invalid_opcode test",
+                    "state": "OPEN",
+                    "created_at": "2026-01-20T16:25:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10849",
+                    "ready_for_review_at": "2026-01-20T16:25:29Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-01-20T16:27:57Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-20T16:53:50Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10440,
                     "title": "Quick fix: Wait for the transaction to be imported in a block.",

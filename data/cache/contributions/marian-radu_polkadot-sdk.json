@@ -39,6 +39,31 @@
   ],
   "prs": [
     {
+      "number": 10849,
+      "title": "pallet-revive: Enable call_invalid_opcode test",
+      "state": "OPEN",
+      "created_at": "2026-01-20T16:25:29Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10849",
+      "ready_for_review_at": "2026-01-20T16:25:29Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2026-01-20T16:27:57Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-01-20T16:53:50Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10440,
       "title": "Quick fix: Wait for the transaction to be imported in a block.",
       "state": "MERGED",
