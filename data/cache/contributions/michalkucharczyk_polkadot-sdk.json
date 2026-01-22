@@ -9219,6 +9219,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10857,
+      "pr_title": "[stable2512] Backport #10312",
+      "reviewed_at": "2026-01-21T12:50:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10857"
+    },
+    {
       "pr_number": 10848,
       "pr_title": "rpc-spec-v2: Fix flaky tests",
       "reviewed_at": "2026-01-20T21:14:15Z",

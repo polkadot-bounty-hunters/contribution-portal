@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-21T04:49:42.659Z",
+  "generated_at": "2026-01-22T04:53:29.043Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1448,
     "total_prs": 1488,
     "total_merged_prs": 1013,
-    "total_reviews": 2242
+    "total_reviews": 2245
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 256,
         "prs": 187,
         "merged_prs": 145,
-        "reviews": 237,
-        "score": 3352
+        "reviews": 238,
+        "score": 3355
       },
       {
         "name": "pgherveou",
@@ -27,8 +27,8 @@
         "commits": 247,
         "prs": 170,
         "merged_prs": 128,
-        "reviews": 203,
-        "score": 2986
+        "reviews": 204,
+        "score": 2989
       },
       {
         "name": "liamaharon",
@@ -247,8 +247,8 @@
         "commits": 6,
         "prs": 10,
         "merged_prs": 3,
-        "reviews": 18,
-        "score": 140
+        "reviews": 19,
+        "score": 143
       },
       {
         "name": "vstam1",
@@ -520,8 +520,8 @@
           "commits": 256,
           "prs": 187,
           "merged_prs": 145,
-          "reviews": 237,
-          "score": 3352
+          "reviews": 238,
+          "score": 3355
         },
         {
           "name": "ank4n",
@@ -932,8 +932,8 @@
           "commits": 247,
           "prs": 170,
           "merged_prs": 128,
-          "reviews": 203,
-          "score": 2986
+          "reviews": 204,
+          "score": 2989
         },
         {
           "name": "liamaharon",
@@ -5112,8 +5112,8 @@
           "commits": 6,
           "prs": 10,
           "merged_prs": 3,
-          "reviews": 18,
-          "score": 140
+          "reviews": 19,
+          "score": 143
         },
         {
           "name": "surajk-m",
@@ -45749,6 +45749,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10857,
+                    "pr_title": "[stable2512] Backport #10312",
+                    "reviewed_at": "2026-01-21T12:50:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10857"
+                  },
                   {
                     "pr_number": 10848,
                     "pr_title": "rpc-spec-v2: Fix flaky tests",
@@ -96996,6 +97002,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10861,
+                    "pr_title": "[pallet-revive] weight charge in `sr25519_verify` and `ecdsa_to_eth_address` precompiles",
+                    "reviewed_at": "2026-01-21T23:53:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10861"
+                  },
                   {
                     "pr_number": 10805,
                     "pr_title": "Add CLAUDE.md",
@@ -167018,6 +167030,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10861,
+                    "pr_title": "[pallet-revive] weight charge in `sr25519_verify` and `ecdsa_to_eth_address` precompiles",
+                    "reviewed_at": "2026-01-21T23:53:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10861"
+                  },
                   {
                     "pr_number": 10801,
                     "pr_title": "Pin the Version of The Retester CI Action",

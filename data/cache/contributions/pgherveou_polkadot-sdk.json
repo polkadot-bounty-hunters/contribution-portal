@@ -8264,6 +8264,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10861,
+      "pr_title": "[pallet-revive] weight charge in `sr25519_verify` and `ecdsa_to_eth_address` precompiles",
+      "reviewed_at": "2026-01-21T23:53:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10861"
+    },
+    {
       "pr_number": 10805,
       "pr_title": "Add CLAUDE.md",
       "reviewed_at": "2026-01-15T00:20:18Z",
