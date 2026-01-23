@@ -1,6 +1,23 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 10884,
+      "title": "[benchmarking-cli] Add `--keys-limit=Option<usize>` and `--random-seed=Option<u64>`",
+      "state": "OPEN",
+      "created_at": "2026-01-22T20:23:22Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "arturgontijo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10884",
+      "ready_for_review_at": "2026-01-22T20:23:22Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }

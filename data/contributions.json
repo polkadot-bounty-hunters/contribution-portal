@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-22T04:53:29.043Z",
+  "generated_at": "2026-01-23T04:49:32.248Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1448,
-    "total_prs": 1488,
+    "total_prs": 1490,
     "total_merged_prs": 1013,
-    "total_reviews": 2245
+    "total_reviews": 2248
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 247,
         "prs": 170,
         "merged_prs": 128,
-        "reviews": 204,
-        "score": 2989
+        "reviews": 205,
+        "score": 2992
       },
       {
         "name": "liamaharon",
@@ -231,6 +231,16 @@
         "score": 150
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 10,
+        "merged_prs": 3,
+        "reviews": 20,
+        "score": 146
+      },
+      {
         "name": "wirednkod",
         "github": "wirednkod",
         "cohort": "PBA 2 BA 2023",
@@ -239,16 +249,6 @@
         "merged_prs": 5,
         "reviews": 7,
         "score": 144
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 10,
-        "merged_prs": 3,
-        "reviews": 19,
-        "score": 143
       },
       {
         "name": "vstam1",
@@ -481,6 +481,16 @@
         "score": 47
       },
       {
+        "name": "arturgontijo",
+        "github": "arturgontijo",
+        "cohort": "PBA 1 Cambridge 2022",
+        "commits": 0,
+        "prs": 4,
+        "merged_prs": 2,
+        "reviews": 1,
+        "score": 43
+      },
+      {
         "name": "adelarja",
         "github": "adelarja",
         "cohort": "PBA 2 BA 2023",
@@ -499,16 +509,6 @@
         "merged_prs": 0,
         "reviews": 1,
         "score": 43
-      },
-      {
-        "name": "voliva",
-        "github": "voliva",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 3,
-        "prs": 3,
-        "merged_prs": 2,
-        "reviews": 1,
-        "score": 41
       }
     ],
     "by_cohort": {
@@ -608,10 +608,10 @@
           "github": "arturgontijo",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 0,
-          "prs": 3,
+          "prs": 4,
           "merged_prs": 2,
           "reviews": 1,
-          "score": 38
+          "score": 43
         },
         {
           "name": "zdave",
@@ -932,8 +932,8 @@
           "commits": 247,
           "prs": 170,
           "merged_prs": 128,
-          "reviews": 204,
-          "score": 2989
+          "reviews": 205,
+          "score": 2992
         },
         {
           "name": "liamaharon",
@@ -4420,8 +4420,8 @@
           "commits": 0,
           "prs": 1,
           "merged_prs": 0,
-          "reviews": 2,
-          "score": 11
+          "reviews": 3,
+          "score": 14
         },
         {
           "name": "Yung-Beef",
@@ -5112,8 +5112,8 @@
           "commits": 6,
           "prs": 10,
           "merged_prs": 3,
-          "reviews": 19,
-          "score": 143
+          "reviews": 20,
+          "score": 146
         },
         {
           "name": "surajk-m",
@@ -5158,6 +5158,16 @@
         {
           "name": "CECILIA-MULANDI",
           "github": "CECILIA-MULANDI",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
+          "name": "cirko33",
+          "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 1,
@@ -5258,16 +5268,6 @@
         {
           "name": "bogos",
           "github": "bogos",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "cirko33",
-          "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 80.09715206674248,
+    "average_review_time_hours": 80.02984844179214,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 91.93453358484983,
-        "pr_count": 751,
+        "avg_review_time_hours": 91.81380947104019,
+        "pr_count": 752,
         "merged_count": 645
       },
       {
@@ -36248,7 +36248,24 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10884,
+                    "title": "[benchmarking-cli] Add `--keys-limit=Option<usize>` and `--random-seed=Option<u64>`",
+                    "state": "OPEN",
+                    "created_at": "2026-01-22T20:23:22Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "arturgontijo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10884",
+                    "ready_for_review_at": "2026-01-22T20:23:22Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -97002,6 +97019,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10873,
+                    "pr_title": "[pallet-revive] bump resolc",
+                    "reviewed_at": "2026-01-22T14:17:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10873"
+                  },
                   {
                     "pr_number": 10861,
                     "pr_title": "[pallet-revive] weight charge in `sr25519_verify` and `ecdsa_to_eth_address` precompiles",
@@ -162310,6 +162333,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 10882,
+                    "pr_title": "statement-store: make encode/hash faster",
+                    "reviewed_at": "2026-01-22T17:07:03Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10882"
+                  },
+                  {
                     "pr_number": 10760,
                     "pr_title": "subsystem-bench: adjust benchmark thresholds",
                     "reviewed_at": "2026-01-09T15:24:59Z",
@@ -165492,7 +165521,47 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 10880,
+                    "title": "Remove failing assertion related to VoterList count mismatch",
+                    "state": "OPEN",
+                    "created_at": "2026-01-22T14:54:31Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10880",
+                    "ready_for_review_at": "2026-01-22T14:54:31Z",
+                    "reviews": [
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-01-22T16:03:31Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-01-22T15:07:14Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-01-22T18:29:07Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-01-22T18:31:50Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-01-22T18:37:32Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.15,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -167030,6 +167099,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10873,
+                    "pr_title": "[pallet-revive] bump resolc",
+                    "reviewed_at": "2026-01-22T14:17:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10873"
+                  },
                   {
                     "pr_number": 10861,
                     "pr_title": "[pallet-revive] weight charge in `sr25519_verify` and `ecdsa_to_eth_address` precompiles",

@@ -1,6 +1,46 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 10880,
+      "title": "Remove failing assertion related to VoterList count mismatch",
+      "state": "OPEN",
+      "created_at": "2026-01-22T14:54:31Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10880",
+      "ready_for_review_at": "2026-01-22T14:54:31Z",
+      "reviews": [
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-01-22T16:03:31Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cirko33",
+          "commented_at": "2026-01-22T15:07:14Z"
+        },
+        {
+          "commenter": "cirko33",
+          "commented_at": "2026-01-22T18:29:07Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-01-22T18:31:50Z"
+        },
+        {
+          "commenter": "cirko33",
+          "commented_at": "2026-01-22T18:37:32Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.15,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }

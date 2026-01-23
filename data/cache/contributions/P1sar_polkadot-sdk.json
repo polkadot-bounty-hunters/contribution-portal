@@ -21,6 +21,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10882,
+      "pr_title": "statement-store: make encode/hash faster",
+      "reviewed_at": "2026-01-22T17:07:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10882"
+    },
+    {
       "pr_number": 10760,
       "pr_title": "subsystem-bench: adjust benchmark thresholds",
       "reviewed_at": "2026-01-09T15:24:59Z",

@@ -472,6 +472,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10873,
+      "pr_title": "[pallet-revive] bump resolc",
+      "reviewed_at": "2026-01-22T14:17:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10873"
+    },
+    {
       "pr_number": 10861,
       "pr_title": "[pallet-revive] weight charge in `sr25519_verify` and `ecdsa_to_eth_address` precompiles",
       "reviewed_at": "2026-01-21T23:53:45Z",
