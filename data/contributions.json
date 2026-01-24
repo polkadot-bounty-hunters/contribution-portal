@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-23T04:49:32.248Z",
+  "generated_at": "2026-01-24T04:43:59.709Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1448,
     "total_prs": 1490,
     "total_merged_prs": 1013,
-    "total_reviews": 2248
+    "total_reviews": 2249
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 75,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 164,
-        "score": 1947
+        "reviews": 165,
+        "score": 1950
       },
       {
         "name": "jsidorenko",
@@ -540,8 +540,8 @@
           "commits": 75,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 164,
-          "score": 1947
+          "reviews": 165,
+          "score": 1950
         },
         {
           "name": "jsidorenko",
@@ -16788,6 +16788,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1062,
+                    "pr_title": "Fix Polkadot and Kusama AH and RC compilation for SDK 2512-1-rc1",
+                    "reviewed_at": "2026-01-23T20:59:26Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1062"
+                  },
                   {
                     "pr_number": 1053,
                     "pr_title": "add encointer to the intergration tests matrix",

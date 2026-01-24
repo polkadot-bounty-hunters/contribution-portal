@@ -1255,6 +1255,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1062,
+      "pr_title": "Fix Polkadot and Kusama AH and RC compilation for SDK 2512-1-rc1",
+      "reviewed_at": "2026-01-23T20:59:26Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1062"
+    },
+    {
       "pr_number": 1053,
       "pr_title": "add encointer to the intergration tests matrix",
       "reviewed_at": "2026-01-12T22:40:48Z",
