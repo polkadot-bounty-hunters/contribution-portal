@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "51d25debbc1b4ee0e81ceaf26d970fe93e089aa3",
+      "message": "[pallet-revive] Execution tracer (#9722)",
+      "date": "2026-01-26T14:22:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/51d25debbc1b4ee0e81ceaf26d970fe93e089aa3"
+    },
+    {
       "sha": "664643bf274380cf18e0151e4a72107dd3ae5af5",
       "message": "build & deploy eth-rpc docker image for stable release (#10739)",
       "date": "2026-01-07T20:17:10Z",
@@ -1274,6 +1280,46 @@
     }
   ],
   "prs": [
+    {
+      "number": 10902,
+      "title": "[pallet-revive] Enforce weight limit on dry-run RPC calls",
+      "state": "OPEN",
+      "created_at": "2026-01-26T10:20:05Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10902",
+      "ready_for_review_at": "2026-01-26T10:20:05Z",
+      "reviews": [
+        {
+          "reviewer": "0xRVE",
+          "submitted_at": "2026-01-26T12:50:43Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "0xRVE",
+          "submitted_at": "2026-01-26T14:18:45Z",
+          "state": "CHANGES_REQUESTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2026-01-26T10:20:13Z"
+        },
+        {
+          "commenter": "0xRVE",
+          "commented_at": "2026-01-26T12:50:24Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-01-26T14:47:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.5105555555555554,
+      "time_to_merge_hours": null
+    },
     {
       "number": 10739,
       "title": "build & deploy eth-rpc docker image for stable release",
