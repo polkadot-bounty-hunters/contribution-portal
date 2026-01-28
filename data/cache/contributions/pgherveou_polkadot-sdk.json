@@ -1281,6 +1281,44 @@
   ],
   "prs": [
     {
+      "number": 10909,
+      "title": "pg/add eth rpc pub 2",
+      "state": "CLOSED",
+      "created_at": "2026-01-27T08:58:15Z",
+      "closed_at": "2026-01-27T09:29:03Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10909",
+      "ready_for_review_at": "2026-01-27T08:58:15Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10908,
+      "title": "Pg/add eth rpc pub",
+      "state": "MERGED",
+      "created_at": "2026-01-27T08:50:11Z",
+      "closed_at": "2026-01-27T09:53:17Z",
+      "merged_at": "2026-01-27T09:53:17Z",
+      "merged_by": "EgorPopelyaev",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10908",
+      "ready_for_review_at": "2026-01-27T08:50:11Z",
+      "reviews": [
+        {
+          "reviewer": "EgorPopelyaev",
+          "submitted_at": "2026-01-27T09:35:48Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.7602777777777778,
+      "time_to_merge_hours": 1.0516666666666667
+    },
+    {
       "number": 10902,
       "title": "[pallet-revive] Enforce weight limit on dry-run RPC calls",
       "state": "OPEN",

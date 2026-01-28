@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-01-27T04:53:55.499Z",
+  "generated_at": "2026-01-28T04:51:36.854Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1449,
-    "total_prs": 1491,
-    "total_merged_prs": 1013,
+    "total_prs": 1494,
+    "total_merged_prs": 1014,
     "total_reviews": 2249
   },
   "leaderboard": {
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 248,
-        "prs": 171,
-        "merged_prs": 128,
+        "prs": 173,
+        "merged_prs": 129,
         "reviews": 205,
-        "score": 2998
+        "score": 3018
       },
       {
         "name": "liamaharon",
@@ -205,10 +205,10 @@
         "github": "smiasojed",
         "cohort": "PBA 2 BA 2023",
         "commits": 7,
-        "prs": 7,
+        "prs": 8,
         "merged_prs": 6,
         "reviews": 47,
-        "score": 243
+        "score": 248
       },
       {
         "name": "DrW3RK",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 248,
-          "prs": 171,
-          "merged_prs": 128,
+          "prs": 173,
+          "merged_prs": 129,
           "reviews": 205,
-          "score": 2998
+          "score": 3018
         },
         {
           "name": "liamaharon",
@@ -990,10 +990,10 @@
           "github": "smiasojed",
           "cohort": "PBA 2 BA 2023",
           "commits": 7,
-          "prs": 7,
+          "prs": 8,
           "merged_prs": 6,
           "reviews": 47,
-          "score": 243
+          "score": 248
         },
         {
           "name": "wirednkod",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.96381837970846,
+    "average_review_time_hours": 79.89641111111108,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 91.69521285229453,
-        "pr_count": 753,
-        "merged_count": 645
+        "avg_review_time_hours": 91.57460949012673,
+        "pr_count": 754,
+        "merged_count": 646
       },
       {
         "repository": "paritytech/substrate",
@@ -5805,7 +5805,7 @@
       },
       {
         "merger": "EgorPopelyaev",
-        "merge_count": 16
+        "merge_count": 17
       },
       {
         "merger": "kianenigma",
@@ -90043,6 +90043,44 @@
                 ],
                 "prs": [
                   {
+                    "number": 10909,
+                    "title": "pg/add eth rpc pub 2",
+                    "state": "CLOSED",
+                    "created_at": "2026-01-27T08:58:15Z",
+                    "closed_at": "2026-01-27T09:29:03Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10909",
+                    "ready_for_review_at": "2026-01-27T08:58:15Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10908,
+                    "title": "Pg/add eth rpc pub",
+                    "state": "MERGED",
+                    "created_at": "2026-01-27T08:50:11Z",
+                    "closed_at": "2026-01-27T09:53:17Z",
+                    "merged_at": "2026-01-27T09:53:17Z",
+                    "merged_by": "EgorPopelyaev",
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10908",
+                    "ready_for_review_at": "2026-01-27T08:50:11Z",
+                    "reviews": [
+                      {
+                        "reviewer": "EgorPopelyaev",
+                        "submitted_at": "2026-01-27T09:35:48Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.7602777777777778,
+                    "time_to_merge_hours": 1.0516666666666667
+                  },
+                  {
                     "number": 10902,
                     "title": "[pallet-revive] Enforce weight limit on dry-run RPC calls",
                     "state": "OPEN",
@@ -103684,6 +103722,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10911,
+                    "title": "[pallet-revive] Fix EXTCODESIZE and EXTCODEHASH for mocked addresses",
+                    "state": "OPEN",
+                    "created_at": "2026-01-27T12:54:54Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "smiasojed",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10911",
+                    "ready_for_review_at": "2026-01-27T12:54:54Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10129,
                     "title": "Add upload evm code function",
