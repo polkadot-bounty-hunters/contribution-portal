@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-28T04:51:36.854Z",
+  "generated_at": "2026-01-29T05:24:09.151Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1449,
-    "total_prs": 1494,
+    "total_commits": 1450,
+    "total_prs": 1497,
     "total_merged_prs": 1014,
-    "total_reviews": 2249
+    "total_reviews": 2252
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 248,
-        "prs": 173,
+        "prs": 176,
         "merged_prs": 129,
-        "reviews": 205,
-        "score": 3018
+        "reviews": 206,
+        "score": 3036
       },
       {
         "name": "liamaharon",
@@ -221,6 +221,16 @@
         "score": 157
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 10,
+        "merged_prs": 3,
+        "reviews": 22,
+        "score": 152
+      },
+      {
         "name": "ndkazu",
         "github": "ndkazu",
         "cohort": "PBA 5 Singapore 2024",
@@ -229,16 +239,6 @@
         "merged_prs": 7,
         "reviews": 6,
         "score": 150
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 10,
-        "merged_prs": 3,
-        "reviews": 20,
-        "score": 146
       },
       {
         "name": "wirednkod",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 248,
-          "prs": 173,
+          "prs": 176,
           "merged_prs": 129,
-          "reviews": 205,
-          "score": 3018
+          "reviews": 206,
+          "score": 3036
         },
         {
           "name": "liamaharon",
@@ -5112,8 +5112,8 @@
           "commits": 6,
           "prs": 10,
           "merged_prs": 3,
-          "reviews": 20,
-          "score": 146
+          "reviews": 22,
+          "score": 152
         },
         {
           "name": "surajk-m",
@@ -5156,18 +5156,18 @@
           "score": 10
         },
         {
-          "name": "CECILIA-MULANDI",
-          "github": "CECILIA-MULANDI",
+          "name": "cirko33",
+          "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
+          "commits": 1,
           "prs": 1,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 5
+          "score": 6
         },
         {
-          "name": "cirko33",
-          "github": "cirko33",
+          "name": "CECILIA-MULANDI",
+          "github": "CECILIA-MULANDI",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 1,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.89641111111108,
+    "average_review_time_hours": 79.76933069007832,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 91.57460949012673,
-        "pr_count": 754,
+        "avg_review_time_hours": 91.34586603468547,
+        "pr_count": 756,
         "merged_count": 646
       },
       {
@@ -90043,6 +90043,94 @@
                 ],
                 "prs": [
                   {
+                    "number": 10924,
+                    "title": "revive: cap remaining_gas to u64::MAX in substrate_execution",
+                    "state": "OPEN",
+                    "created_at": "2026-01-28T13:34:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10924",
+                    "ready_for_review_at": null,
+                    "reviews": [
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-01-28T15:46:17Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10919,
+                    "title": "Add revive substrate runtime-api integration tests for call & instantiate",
+                    "state": "OPEN",
+                    "created_at": "2026-01-28T08:43:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10919",
+                    "ready_for_review_at": "2026-01-28T08:43:16Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-01-28T13:57:55Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-01-28T08:58:17Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-28T09:16:18Z"
+                      },
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-01-28T14:32:03Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 5.244166666666667,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10918,
+                    "title": "Fix delegatecall callTracer addresses",
+                    "state": "OPEN",
+                    "created_at": "2026-01-28T08:43:04Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10918",
+                    "ready_for_review_at": "2026-01-28T08:43:04Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-01-28T13:41:34Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-01-28T08:58:49Z"
+                      },
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-01-28T14:33:36Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 4.975,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10909,
                     "title": "pg/add eth rpc pub 2",
                     "state": "CLOSED",
@@ -97109,6 +97197,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10924,
+                    "pr_title": "revive: cap remaining_gas to u64::MAX in substrate_execution",
+                    "reviewed_at": "2026-01-28T15:46:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10924"
+                  },
                   {
                     "pr_number": 10873,
                     "pr_title": "[pallet-revive] bump resolc",
@@ -165626,7 +165720,14 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "df0500abc53f46111071ee3a1075f0da4f5541c0",
+                    "message": "Remove failing assertion related to VoterList count mismatch (#10880)",
+                    "date": "2026-01-28T16:22:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/df0500abc53f46111071ee3a1075f0da4f5541c0"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 10880,
@@ -167205,6 +167306,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10918,
+                    "pr_title": "Fix delegatecall callTracer addresses",
+                    "reviewed_at": "2026-01-28T14:42:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10918"
+                  },
+                  {
+                    "pr_number": 10919,
+                    "pr_title": "Add revive substrate runtime-api integration tests for call & instantiate",
+                    "reviewed_at": "2026-01-28T14:32:03Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10919"
+                  },
                   {
                     "pr_number": 10873,
                     "pr_title": "[pallet-revive] bump resolc",

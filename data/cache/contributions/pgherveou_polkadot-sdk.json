@@ -1281,6 +1281,94 @@
   ],
   "prs": [
     {
+      "number": 10924,
+      "title": "revive: cap remaining_gas to u64::MAX in substrate_execution",
+      "state": "OPEN",
+      "created_at": "2026-01-28T13:34:03Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10924",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-01-28T15:46:17Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10919,
+      "title": "Add revive substrate runtime-api integration tests for call & instantiate",
+      "state": "OPEN",
+      "created_at": "2026-01-28T08:43:16Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10919",
+      "ready_for_review_at": "2026-01-28T08:43:16Z",
+      "reviews": [
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2026-01-28T13:57:55Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-01-28T08:58:17Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-01-28T09:16:18Z"
+        },
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2026-01-28T14:32:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 5.244166666666667,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10918,
+      "title": "Fix delegatecall callTracer addresses",
+      "state": "OPEN",
+      "created_at": "2026-01-28T08:43:04Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10918",
+      "ready_for_review_at": "2026-01-28T08:43:04Z",
+      "reviews": [
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2026-01-28T13:41:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-01-28T08:58:49Z"
+        },
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2026-01-28T14:33:36Z"
+        }
+      ],
+      "time_to_first_review_hours": 4.975,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10909,
       "title": "pg/add eth rpc pub 2",
       "state": "CLOSED",
@@ -8347,6 +8435,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10924,
+      "pr_title": "revive: cap remaining_gas to u64::MAX in substrate_execution",
+      "reviewed_at": "2026-01-28T15:46:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10924"
+    },
     {
       "pr_number": 10873,
       "pr_title": "[pallet-revive] bump resolc",

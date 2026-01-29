@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "df0500abc53f46111071ee3a1075f0da4f5541c0",
+      "message": "Remove failing assertion related to VoterList count mismatch (#10880)",
+      "date": "2026-01-28T16:22:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/df0500abc53f46111071ee3a1075f0da4f5541c0"
+    }
+  ],
   "prs": [
     {
       "number": 10880,

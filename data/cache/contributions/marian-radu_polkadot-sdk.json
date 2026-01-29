@@ -472,6 +472,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10918,
+      "pr_title": "Fix delegatecall callTracer addresses",
+      "reviewed_at": "2026-01-28T14:42:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10918"
+    },
+    {
+      "pr_number": 10919,
+      "pr_title": "Add revive substrate runtime-api integration tests for call & instantiate",
+      "reviewed_at": "2026-01-28T14:32:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10919"
+    },
+    {
       "pr_number": 10873,
       "pr_title": "[pallet-revive] bump resolc",
       "reviewed_at": "2026-01-22T14:17:07Z",
