@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-29T05:24:09.151Z",
+  "generated_at": "2026-01-30T05:24:03.552Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1450,
-    "total_prs": 1497,
+    "total_prs": 1500,
     "total_merged_prs": 1014,
-    "total_reviews": 2252
+    "total_reviews": 2254
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 248,
-        "prs": 176,
+        "prs": 179,
         "merged_prs": 129,
-        "reviews": 206,
-        "score": 3036
+        "reviews": 207,
+        "score": 3054
       },
       {
         "name": "liamaharon",
@@ -57,8 +57,8 @@
         "commits": 75,
         "prs": 110,
         "merged_prs": 83,
-        "reviews": 165,
-        "score": 1950
+        "reviews": 166,
+        "score": 1953
       },
       {
         "name": "jsidorenko",
@@ -540,8 +540,8 @@
           "commits": 75,
           "prs": 110,
           "merged_prs": 83,
-          "reviews": 165,
-          "score": 1950
+          "reviews": 166,
+          "score": 1953
         },
         {
           "name": "jsidorenko",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 248,
-          "prs": 176,
+          "prs": 179,
           "merged_prs": 129,
-          "reviews": 206,
-          "score": 3036
+          "reviews": 207,
+          "score": 3054
         },
         {
           "name": "liamaharon",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.76933069007832,
+    "average_review_time_hours": 79.70175650820596,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,24 +5610,24 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 760,
-        "approved_count": 258,
+        "review_count": 761,
+        "approved_count": 259,
         "avg_time_to_review_hours": 86.53806423611113,
-        "approval_rate": 33.94736842105263
+        "approval_rate": 34.03416557161629
       },
       {
         "reviewer": "bkchr",
-        "review_count": 690,
-        "approved_count": 393,
-        "avg_time_to_review_hours": 49.42845189701899,
-        "approval_rate": 56.95652173913044
+        "review_count": 692,
+        "approved_count": 394,
+        "avg_time_to_review_hours": 49.12989730639732,
+        "approval_rate": 56.936416184971094
       },
       {
         "reviewer": "bkontur",
-        "review_count": 485,
-        "approved_count": 141,
+        "review_count": 486,
+        "approved_count": 142,
         "avg_time_to_review_hours": 19.652990740740737,
-        "approval_rate": 29.07216494845361
+        "approval_rate": 29.218106995884774
       },
       {
         "reviewer": "athei",
@@ -5722,10 +5722,10 @@
       },
       {
         "reviewer": "franciscoaguirre",
-        "review_count": 115,
-        "approved_count": 73,
+        "review_count": 116,
+        "approved_count": 74,
         "avg_time_to_review_hours": 121.78095238095239,
-        "approval_rate": 63.47826086956522
+        "approval_rate": 63.793103448275865
       },
       {
         "reviewer": "seadanda",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 91.34586603468547,
-        "pr_count": 756,
+        "avg_review_time_hours": 91.22541831792161,
+        "pr_count": 757,
         "merged_count": 646
       },
       {
@@ -14692,6 +14692,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10939,
+                    "pr_title": "Enforce stricter rustfmt rules to prevent style ambiguity",
+                    "reviewed_at": "2026-01-30T01:21:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10939"
+                  },
                   {
                     "pr_number": 10831,
                     "pr_title": "Fix fee handling of pay-over-xcm trait(s)",
@@ -90043,6 +90049,103 @@
                 ],
                 "prs": [
                   {
+                    "number": 10939,
+                    "title": "Enforce stricter rustfmt rules to prevent style ambiguity",
+                    "state": "OPEN",
+                    "created_at": "2026-01-29T21:12:07Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10939",
+                    "ready_for_review_at": "2026-01-29T21:12:07Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-01-29T21:22:08Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-01-29T21:30:07Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-01-29T21:41:27Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-01-29T21:52:41Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-01-29T22:45:42Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "franciscoaguirre",
+                        "submitted_at": "2026-01-30T01:21:57Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-01-29T21:12:15Z"
+                      },
+                      {
+                        "commenter": "bkchr",
+                        "commented_at": "2026-01-29T21:50:49Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-29T22:17:45Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.16694444444444445,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10938,
+                    "title": "docs: Add Rust code editing guidelines to CLAUDE.md",
+                    "state": "CLOSED",
+                    "created_at": "2026-01-29T20:42:30Z",
+                    "closed_at": "2026-01-29T20:50:22Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10938",
+                    "ready_for_review_at": "2026-01-29T20:42:30Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-01-29T20:50:22Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10936,
+                    "title": "pallet-revive: EIP-7702 Set EOA Account Code (continued)",
+                    "state": "OPEN",
+                    "created_at": "2026-01-29T15:44:25Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10936",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10924,
                     "title": "revive: cap remaining_gas to u64::MAX in substrate_execution",
                     "state": "OPEN",
@@ -97197,6 +97300,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10939,
+                    "pr_title": "Enforce stricter rustfmt rules to prevent style ambiguity",
+                    "reviewed_at": "2026-01-30T01:21:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10939"
+                  },
                   {
                     "pr_number": 10924,
                     "pr_title": "revive: cap remaining_gas to u64::MAX in substrate_execution",
