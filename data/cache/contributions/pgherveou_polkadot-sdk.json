@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "684c79ccace32f8813b2570acac7dfb29f515656",
+      "message": "fix(revive): handle transaction hash conflicts during re-org (#10950)",
+      "date": "2026-01-30T21:49:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/684c79ccace32f8813b2570acac7dfb29f515656"
+    },
+    {
+      "sha": "c3487a54579dbfb96cde4168b012bf60438c93ef",
+      "message": "Enforce stricter rustfmt rules to prevent style ambiguity (#10939)",
+      "date": "2026-01-30T12:58:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c3487a54579dbfb96cde4168b012bf60438c93ef"
+    },
+    {
       "sha": "51d25debbc1b4ee0e81ceaf26d970fe93e089aa3",
       "message": "[pallet-revive] Execution tracer (#9722)",
       "date": "2026-01-26T14:22:27Z",
@@ -1280,6 +1292,84 @@
     }
   ],
   "prs": [
+    {
+      "number": 10951,
+      "title": "fix(revive): handle transaction hash conflicts during re-org",
+      "state": "OPEN",
+      "created_at": "2026-01-30T15:45:59Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10951",
+      "ready_for_review_at": "2026-01-30T15:45:59Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 10950,
+      "title": "fix(revive): handle transaction hash conflicts during re-org",
+      "state": "MERGED",
+      "created_at": "2026-01-30T15:45:23Z",
+      "closed_at": "2026-01-30T22:22:26Z",
+      "merged_at": "2026-01-30T22:22:26Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10950",
+      "ready_for_review_at": "2026-01-30T15:45:23Z",
+      "reviews": [
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2026-01-30T15:54:22Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2026-01-30T16:00:24Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "0xRVE",
+          "submitted_at": "2026-01-30T17:39:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-01-30T21:14:04Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-01-30T15:50:15Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-01-30T15:51:39Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.14972222222222223,
+      "time_to_merge_hours": 6.6175
+    },
+    {
+      "number": 10945,
+      "title": "Remove ForeignAssetId associated type from ForeignAssetsConfig",
+      "state": "CLOSED",
+      "created_at": "2026-01-30T11:48:05Z",
+      "closed_at": "2026-01-30T16:39:44Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10945",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 10939,
       "title": "Enforce stricter rustfmt rules to prevent style ambiguity",
@@ -8532,6 +8622,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10950,
+      "pr_title": "fix(revive): handle transaction hash conflicts during re-org",
+      "reviewed_at": "2026-01-30T22:22:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10950"
+    },
+    {
+      "pr_number": 10949,
+      "pr_title": "implement `IERC20Metadata` for pallet-assets-precompiles",
+      "reviewed_at": "2026-01-30T17:31:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10949"
+    },
     {
       "pr_number": 10939,
       "pr_title": "Enforce stricter rustfmt rules to prevent style ambiguity",

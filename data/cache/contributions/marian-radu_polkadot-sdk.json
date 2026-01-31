@@ -472,6 +472,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10950,
+      "pr_title": "fix(revive): handle transaction hash conflicts during re-org",
+      "reviewed_at": "2026-01-30T22:22:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10950"
+    },
+    {
       "pr_number": 10918,
       "pr_title": "Fix delegatecall callTracer addresses",
       "reviewed_at": "2026-01-28T14:42:17Z",

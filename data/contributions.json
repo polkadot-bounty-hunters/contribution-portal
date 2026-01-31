@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-01-30T05:24:03.552Z",
+  "generated_at": "2026-01-31T05:21:04.657Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1450,
-    "total_prs": 1500,
-    "total_merged_prs": 1014,
-    "total_reviews": 2254
+    "total_commits": 1452,
+    "total_prs": 1503,
+    "total_merged_prs": 1015,
+    "total_reviews": 2257
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 248,
-        "prs": 179,
-        "merged_prs": 129,
-        "reviews": 207,
-        "score": 3054
+        "commits": 250,
+        "prs": 182,
+        "merged_prs": 130,
+        "reviews": 209,
+        "score": 3087
       },
       {
         "name": "liamaharon",
@@ -227,8 +227,8 @@
         "commits": 6,
         "prs": 10,
         "merged_prs": 3,
-        "reviews": 22,
-        "score": 152
+        "reviews": 23,
+        "score": 155
       },
       {
         "name": "ndkazu",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 248,
-          "prs": 179,
-          "merged_prs": 129,
-          "reviews": 207,
-          "score": 3054
+          "commits": 250,
+          "prs": 182,
+          "merged_prs": 130,
+          "reviews": 209,
+          "score": 3087
         },
         {
           "name": "liamaharon",
@@ -5112,8 +5112,8 @@
           "commits": 6,
           "prs": 10,
           "merged_prs": 3,
-          "reviews": 22,
-          "score": 152
+          "reviews": 23,
+          "score": 155
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.70175650820596,
+    "average_review_time_hours": 79.63428234850623,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5694,10 +5694,10 @@
       },
       {
         "reviewer": "xermicus",
-        "review_count": 130,
-        "approved_count": 89,
-        "avg_time_to_review_hours": 46.09491769547326,
-        "approval_rate": 68.46153846153847
+        "review_count": 131,
+        "approved_count": 90,
+        "avg_time_to_review_hours": 44.45401785714285,
+        "approval_rate": 68.70229007633588
       },
       {
         "reviewer": "skunert",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 91.22541831792161,
-        "pr_count": 757,
-        "merged_count": 646
+        "avg_review_time_hours": 91.10526568454998,
+        "pr_count": 758,
+        "merged_count": 647
       },
       {
         "repository": "paritytech/substrate",
@@ -88769,6 +88769,18 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "684c79ccace32f8813b2570acac7dfb29f515656",
+                    "message": "fix(revive): handle transaction hash conflicts during re-org (#10950)",
+                    "date": "2026-01-30T21:49:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/684c79ccace32f8813b2570acac7dfb29f515656"
+                  },
+                  {
+                    "sha": "c3487a54579dbfb96cde4168b012bf60438c93ef",
+                    "message": "Enforce stricter rustfmt rules to prevent style ambiguity (#10939)",
+                    "date": "2026-01-30T12:58:02Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/c3487a54579dbfb96cde4168b012bf60438c93ef"
+                  },
+                  {
                     "sha": "51d25debbc1b4ee0e81ceaf26d970fe93e089aa3",
                     "message": "[pallet-revive] Execution tracer (#9722)",
                     "date": "2026-01-26T14:22:27Z",
@@ -90048,6 +90060,84 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10951,
+                    "title": "fix(revive): handle transaction hash conflicts during re-org",
+                    "state": "OPEN",
+                    "created_at": "2026-01-30T15:45:59Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10951",
+                    "ready_for_review_at": "2026-01-30T15:45:59Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 10950,
+                    "title": "fix(revive): handle transaction hash conflicts during re-org",
+                    "state": "MERGED",
+                    "created_at": "2026-01-30T15:45:23Z",
+                    "closed_at": "2026-01-30T22:22:26Z",
+                    "merged_at": "2026-01-30T22:22:26Z",
+                    "merged_by": "pgherveou",
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10950",
+                    "ready_for_review_at": "2026-01-30T15:45:23Z",
+                    "reviews": [
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2026-01-30T15:54:22Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-01-30T16:00:24Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "0xRVE",
+                        "submitted_at": "2026-01-30T17:39:02Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-01-30T21:14:04Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-01-30T15:50:15Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-01-30T15:51:39Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.14972222222222223,
+                    "time_to_merge_hours": 6.6175
+                  },
+                  {
+                    "number": 10945,
+                    "title": "Remove ForeignAssetId associated type from ForeignAssetsConfig",
+                    "state": "CLOSED",
+                    "created_at": "2026-01-30T11:48:05Z",
+                    "closed_at": "2026-01-30T16:39:44Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10945",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10939,
                     "title": "Enforce stricter rustfmt rules to prevent style ambiguity",
@@ -97300,6 +97390,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10950,
+                    "pr_title": "fix(revive): handle transaction hash conflicts during re-org",
+                    "reviewed_at": "2026-01-30T22:22:27Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10950"
+                  },
+                  {
+                    "pr_number": 10949,
+                    "pr_title": "implement `IERC20Metadata` for pallet-assets-precompiles",
+                    "reviewed_at": "2026-01-30T17:31:53Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10949"
+                  },
                   {
                     "pr_number": 10939,
                     "pr_title": "Enforce stricter rustfmt rules to prevent style ambiguity",
@@ -167415,6 +167517,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10950,
+                    "pr_title": "fix(revive): handle transaction hash conflicts during re-org",
+                    "reviewed_at": "2026-01-30T22:22:27Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10950"
+                  },
                   {
                     "pr_number": 10918,
                     "pr_title": "Fix delegatecall callTracer addresses",
