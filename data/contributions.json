@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-02T05:37:32.571Z",
+  "generated_at": "2026-02-03T05:29:48.813Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1452,
-    "total_prs": 1503,
+    "total_prs": 1505,
     "total_merged_prs": 1015,
-    "total_reviews": 2257
+    "total_reviews": 2258
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 250,
-        "prs": 182,
+        "prs": 183,
         "merged_prs": 130,
         "reviews": 209,
-        "score": 3087
+        "score": 3092
       },
       {
         "name": "liamaharon",
@@ -47,8 +47,8 @@
         "commits": 86,
         "prs": 117,
         "merged_prs": 73,
-        "reviews": 200,
-        "score": 2001
+        "reviews": 201,
+        "score": 2004
       },
       {
         "name": "franciscoaguirre",
@@ -530,8 +530,8 @@
           "commits": 86,
           "prs": 117,
           "merged_prs": 73,
-          "reviews": 200,
-          "score": 2001
+          "reviews": 201,
+          "score": 2004
         },
         {
           "name": "franciscoaguirre",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 250,
-          "prs": 182,
+          "prs": 183,
           "merged_prs": 130,
           "reviews": 209,
-          "score": 3087
+          "score": 3092
         },
         {
           "name": "liamaharon",
@@ -5146,6 +5146,16 @@
           "score": 16
         },
         {
+          "name": "cirko33",
+          "github": "cirko33",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 1,
+          "prs": 2,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 11
+        },
+        {
           "name": "LucasGrasso",
           "github": "LucasGrasso",
           "cohort": "PBA 7 Bali 2025",
@@ -5154,16 +5164,6 @@
           "merged_prs": 0,
           "reviews": 0,
           "score": 10
-        },
-        {
-          "name": "cirko33",
-          "github": "cirko33",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 1,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 6
         },
         {
           "name": "CECILIA-MULANDI",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.63428234850623,
+    "average_review_time_hours": 79.5680967514124,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 692,
-        "approved_count": 394,
-        "avg_time_to_review_hours": 49.12989730639732,
-        "approval_rate": 56.936416184971094
+        "review_count": 693,
+        "approved_count": 395,
+        "avg_time_to_review_hours": 48.84318273092371,
+        "approval_rate": 56.99855699855701
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 91.10526568454998,
-        "pr_count": 758,
+        "avg_review_time_hours": 90.98725516029863,
+        "pr_count": 759,
         "merged_count": 647
       },
       {
@@ -26076,6 +26076,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10957,
+                    "pr_title": "pallet-dap: mark funds as inactive ",
+                    "reviewed_at": "2026-02-02T16:25:24Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10957"
+                  },
                   {
                     "pr_number": 10837,
                     "pr_title": "[stable2512] Backport #10802",
@@ -90060,6 +90066,33 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10958,
+                    "title": "Enforce match_arm_blocks = true for consistent formatting",
+                    "state": "OPEN",
+                    "created_at": "2026-02-02T19:51:52Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10958",
+                    "ready_for_review_at": "2026-02-02T19:51:52Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-02-02T21:23:59Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-02-02T21:16:34Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.5352777777777777,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10951,
                     "title": "fix(revive): handle transaction hash conflicts during re-org",
@@ -165940,6 +165973,31 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10956,
+                    "title": "[staking] enhance error logging from voter list updates",
+                    "state": "OPEN",
+                    "created_at": "2026-02-02T13:58:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10956",
+                    "ready_for_review_at": "2026-02-02T13:58:03Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-02-02T13:59:26Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-02-02T14:28:22Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10880,
                     "title": "Remove failing assertion related to VoterList count mismatch",

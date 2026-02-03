@@ -9,6 +9,31 @@
   ],
   "prs": [
     {
+      "number": 10956,
+      "title": "[staking] enhance error logging from voter list updates",
+      "state": "OPEN",
+      "created_at": "2026-02-02T13:58:03Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10956",
+      "ready_for_review_at": "2026-02-02T13:58:03Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cirko33",
+          "commented_at": "2026-02-02T13:59:26Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-02-02T14:28:22Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10880,
       "title": "Remove failing assertion related to VoterList count mismatch",
       "state": "OPEN",

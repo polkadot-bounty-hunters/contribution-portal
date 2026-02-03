@@ -1293,6 +1293,33 @@
   ],
   "prs": [
     {
+      "number": 10958,
+      "title": "Enforce match_arm_blocks = true for consistent formatting",
+      "state": "OPEN",
+      "created_at": "2026-02-02T19:51:52Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10958",
+      "ready_for_review_at": "2026-02-02T19:51:52Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-02-02T21:23:59Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-02-02T21:16:34Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.5352777777777777,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10951,
       "title": "fix(revive): handle transaction hash conflicts during re-org",
       "state": "OPEN",

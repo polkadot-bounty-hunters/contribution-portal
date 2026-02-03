@@ -6908,6 +6908,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 10957,
+      "pr_title": "pallet-dap: mark funds as inactive ",
+      "reviewed_at": "2026-02-02T16:25:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10957"
+    },
+    {
       "pr_number": 10837,
       "pr_title": "[stable2512] Backport #10802",
       "reviewed_at": "2026-01-19T21:06:24Z",
