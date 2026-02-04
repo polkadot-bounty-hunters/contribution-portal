@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-03T05:29:48.813Z",
+  "generated_at": "2026-02-04T05:27:44.375Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1452,
-    "total_prs": 1505,
+    "total_commits": 1453,
+    "total_prs": 1507,
     "total_merged_prs": 1015,
-    "total_reviews": 2258
+    "total_reviews": 2261
   },
   "leaderboard": {
     "overall": [
@@ -17,18 +17,18 @@
         "commits": 256,
         "prs": 187,
         "merged_prs": 145,
-        "reviews": 238,
-        "score": 3355
+        "reviews": 239,
+        "score": 3358
       },
       {
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 250,
-        "prs": 183,
+        "commits": 251,
+        "prs": 184,
         "merged_prs": 130,
-        "reviews": 209,
-        "score": 3092
+        "reviews": 211,
+        "score": 3104
       },
       {
         "name": "liamaharon",
@@ -211,6 +211,16 @@
         "score": 248
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 11,
+        "merged_prs": 3,
+        "reviews": 23,
+        "score": 160
+      },
+      {
         "name": "DrW3RK",
         "github": "DrW3RK",
         "cohort": "PBA 3 Berkeley 2023",
@@ -219,16 +229,6 @@
         "merged_prs": 7,
         "reviews": 8,
         "score": 157
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 10,
-        "merged_prs": 3,
-        "reviews": 23,
-        "score": 155
       },
       {
         "name": "ndkazu",
@@ -520,8 +520,8 @@
           "commits": 256,
           "prs": 187,
           "merged_prs": 145,
-          "reviews": 238,
-          "score": 3355
+          "reviews": 239,
+          "score": 3358
         },
         {
           "name": "ank4n",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 250,
-          "prs": 183,
+          "commits": 251,
+          "prs": 184,
           "merged_prs": 130,
-          "reviews": 209,
-          "score": 3092
+          "reviews": 211,
+          "score": 3104
         },
         {
           "name": "liamaharon",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 10,
+          "prs": 11,
           "merged_prs": 3,
           "reviews": 23,
-          "score": 155
+          "score": 160
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.5680967514124,
+    "average_review_time_hours": 79.50537162480003,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5673,10 +5673,10 @@
       },
       {
         "reviewer": "pgherveou",
-        "review_count": 157,
-        "approved_count": 39,
-        "avg_time_to_review_hours": 37.07830103359173,
-        "approval_rate": 24.840764331210192
+        "review_count": 158,
+        "approved_count": 40,
+        "avg_time_to_review_hours": 36.36037878787879,
+        "approval_rate": 25.31645569620253
       },
       {
         "reviewer": "gilescope",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 90.98725516029863,
-        "pr_count": 759,
+        "avg_review_time_hours": 90.87475840643273,
+        "pr_count": 760,
         "merged_count": 647
       },
       {
@@ -45784,6 +45784,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10965,
+                    "pr_title": "fatxpool: Do not remove listener for finalized view",
+                    "reviewed_at": "2026-02-03T14:20:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10965"
+                  },
                   {
                     "pr_number": 10857,
                     "pr_title": "[stable2512] Backport #10312",
@@ -88775,6 +88781,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "4c1bfa799df3db035d5785d08bfe85b5b77fdc64",
+                    "message": "[pallet-revive] Enforce weight limit on dry-run RPC calls (#10902)",
+                    "date": "2026-02-03T21:38:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/4c1bfa799df3db035d5785d08bfe85b5b77fdc64"
+                  },
+                  {
                     "sha": "684c79ccace32f8813b2570acac7dfb29f515656",
                     "message": "fix(revive): handle transaction hash conflicts during re-org (#10950)",
                     "date": "2026-01-30T21:49:20Z",
@@ -90066,6 +90078,39 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10966,
+                    "title": "Benchmark pallet_assets for IERC20Metadata",
+                    "state": "CLOSED",
+                    "created_at": "2026-02-03T10:28:17Z",
+                    "closed_at": "2026-02-03T13:35:24Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10966",
+                    "ready_for_review_at": "2026-02-03T10:28:17Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-02-03T10:28:22Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-02-03T10:29:11Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-02-03T11:10:54Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-02-03T13:35:24Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10958,
                     "title": "Enforce match_arm_blocks = true for consistent formatting",
@@ -97423,6 +97468,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10971,
+                    "pr_title": "implement `IERC20Metadata` for pallet-assets-precompiles",
+                    "reviewed_at": "2026-02-03T13:56:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10971"
+                  },
+                  {
+                    "pr_number": 10963,
+                    "pr_title": "revive-eth-rpc: Use pending block for estimate_gas in dev mode",
+                    "reviewed_at": "2026-02-03T12:58:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10963"
+                  },
                   {
                     "pr_number": 10950,
                     "pr_title": "fix(revive): handle transaction hash conflicts during re-org",
@@ -167142,6 +167199,33 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10963,
+                    "title": "revive-eth-rpc: Use pending block for estimate_gas in dev mode",
+                    "state": "OPEN",
+                    "created_at": "2026-02-03T07:21:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10963",
+                    "ready_for_review_at": "2026-02-03T07:21:16Z",
+                    "reviews": [
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-02-03T12:50:39Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-02-03T12:55:51Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 5.489722222222222,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10849,
                     "title": "pallet-revive: Enable call_invalid_opcode test",

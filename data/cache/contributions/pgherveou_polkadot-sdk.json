@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "4c1bfa799df3db035d5785d08bfe85b5b77fdc64",
+      "message": "[pallet-revive] Enforce weight limit on dry-run RPC calls (#10902)",
+      "date": "2026-02-03T21:38:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/4c1bfa799df3db035d5785d08bfe85b5b77fdc64"
+    },
+    {
       "sha": "684c79ccace32f8813b2570acac7dfb29f515656",
       "message": "fix(revive): handle transaction hash conflicts during re-org (#10950)",
       "date": "2026-01-30T21:49:20Z",
@@ -1292,6 +1298,39 @@
     }
   ],
   "prs": [
+    {
+      "number": 10966,
+      "title": "Benchmark pallet_assets for IERC20Metadata",
+      "state": "CLOSED",
+      "created_at": "2026-02-03T10:28:17Z",
+      "closed_at": "2026-02-03T13:35:24Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10966",
+      "ready_for_review_at": "2026-02-03T10:28:17Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-02-03T10:28:22Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-02-03T10:29:11Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-02-03T11:10:54Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-02-03T13:35:24Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 10958,
       "title": "Enforce match_arm_blocks = true for consistent formatting",
@@ -8649,6 +8688,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10971,
+      "pr_title": "implement `IERC20Metadata` for pallet-assets-precompiles",
+      "reviewed_at": "2026-02-03T13:56:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10971"
+    },
+    {
+      "pr_number": 10963,
+      "pr_title": "revive-eth-rpc: Use pending block for estimate_gas in dev mode",
+      "reviewed_at": "2026-02-03T12:58:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10963"
+    },
     {
       "pr_number": 10950,
       "pr_title": "fix(revive): handle transaction hash conflicts during re-org",
