@@ -9,6 +9,22 @@
   ],
   "prs": [
     {
+      "number": 1070,
+      "title": "Add multi asset bounties to runtime and upgrade related deps",
+      "state": "OPEN",
+      "created_at": "2026-02-04T21:03:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1070",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 1019,
       "title": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion ",
       "state": "OPEN",

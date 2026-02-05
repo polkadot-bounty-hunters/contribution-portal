@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-04T05:27:44.375Z",
+  "generated_at": "2026-02-05T05:29:28.439Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1453,
-    "total_prs": 1507,
-    "total_merged_prs": 1015,
-    "total_reviews": 2261
+    "total_commits": 1454,
+    "total_prs": 1511,
+    "total_merged_prs": 1016,
+    "total_reviews": 2264
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 251,
-        "prs": 184,
+        "prs": 185,
         "merged_prs": 130,
         "reviews": 211,
-        "score": 3104
+        "score": 3109
       },
       {
         "name": "liamaharon",
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 86,
-        "prs": 117,
-        "merged_prs": 73,
-        "reviews": 201,
-        "score": 2004
+        "commits": 87,
+        "prs": 118,
+        "merged_prs": 74,
+        "reviews": 203,
+        "score": 2026
       },
       {
         "name": "franciscoaguirre",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 86,
-          "prs": 117,
-          "merged_prs": 73,
-          "reviews": 201,
-          "score": 2004
+          "commits": 87,
+          "prs": 118,
+          "merged_prs": 74,
+          "reviews": 203,
+          "score": 2026
         },
         {
           "name": "franciscoaguirre",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 251,
-          "prs": 184,
+          "prs": 185,
           "merged_prs": 130,
           "reviews": 211,
-          "score": 3104
+          "score": 3109
         },
         {
           "name": "liamaharon",
@@ -4368,10 +4368,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 3,
-          "prs": 3,
+          "prs": 4,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 34
+          "score": 39
         },
         {
           "name": "andrzejSulkowski",
@@ -5126,6 +5126,16 @@
           "score": 33
         },
         {
+          "name": "cirko33",
+          "github": "cirko33",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 1,
+          "prs": 3,
+          "merged_prs": 0,
+          "reviews": 1,
+          "score": 19
+        },
+        {
           "name": "talhadaar",
           "github": "talhadaar",
           "cohort": "PBA 7 Bali 2025",
@@ -5144,16 +5154,6 @@
           "merged_prs": 1,
           "reviews": 0,
           "score": 16
-        },
-        {
-          "name": "cirko33",
-          "github": "cirko33",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 1,
-          "prs": 2,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 11
         },
         {
           "name": "LucasGrasso",
@@ -5599,14 +5599,14 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.50537162480003,
+    "average_review_time_hours": 79.43829479225415,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
-        "review_count": 1344,
-        "approved_count": 202,
-        "avg_time_to_review_hours": 103.74404929577464,
-        "approval_rate": 15.029761904761903
+        "review_count": 1347,
+        "approved_count": 203,
+        "avg_time_to_review_hours": 102.30622299382715,
+        "approval_rate": 15.070527097253155
       },
       {
         "reviewer": "ggwpez",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 90.87475840643273,
-        "pr_count": 760,
-        "merged_count": 647
+        "avg_review_time_hours": 90.75563330413198,
+        "pr_count": 761,
+        "merged_count": 648
       },
       {
         "repository": "paritytech/substrate",
@@ -19170,6 +19170,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "aaf8ab15b68a826e79fded0f4d7aca6da631eed0",
+                    "message": "[Pool] Use active era for withdrawals (#10986)",
+                    "date": "2026-02-04T15:01:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/aaf8ab15b68a826e79fded0f4d7aca6da631eed0"
+                  },
+                  {
                     "sha": "b3bfba618e98f2aa10ee8d4233a15c1e09fef50f",
                     "message": "[Staking] Allow nominators to be non-slashable and fast unbondable (#10502)",
                     "date": "2026-01-14T21:42:10Z",
@@ -19573,6 +19579,61 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10986,
+                    "title": "[Pool] Use active era for withdrawals",
+                    "state": "MERGED",
+                    "created_at": "2026-02-04T13:41:55Z",
+                    "closed_at": "2026-02-04T15:40:05Z",
+                    "merged_at": "2026-02-04T15:40:05Z",
+                    "merged_by": "Ank4n",
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10986",
+                    "ready_for_review_at": "2026-02-04T13:41:55Z",
+                    "reviews": [
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-02-04T13:55:09Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-02-04T13:56:55Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-02-04T13:57:09Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-02-04T14:06:41Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-02-04T14:09:40Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-02-04T13:49:31Z"
+                      },
+                      {
+                        "commenter": "kianenigma",
+                        "commented_at": "2026-02-04T14:03:18Z"
+                      },
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-02-04T15:40:48Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.22055555555555556,
+                    "time_to_merge_hours": 1.9694444444444446
+                  },
                   {
                     "number": 10844,
                     "title": "[WIP] Move era reward minting to DAP with era-based allocation in Staking",
@@ -26076,6 +26137,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 10987,
+                    "pr_title": "Kiz backport 10986 2507",
+                    "reviewed_at": "2026-02-04T14:06:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10987"
+                  },
+                  {
+                    "pr_number": 10980,
+                    "pr_title": "Add StakingOperator proxy type to Westend AssetHub",
+                    "reviewed_at": "2026-02-04T13:15:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10980"
+                  },
                   {
                     "pr_number": 10957,
                     "pr_title": "pallet-dap: mark funds as inactive ",
@@ -90078,6 +90151,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 10992,
+                    "title": "benchmarking: Support child trie key whitelisting",
+                    "state": "OPEN",
+                    "created_at": "2026-02-04T21:39:11Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10992",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10966,
                     "title": "Benchmark pallet_assets for IERC20Metadata",
@@ -161989,6 +162078,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 1070,
+                    "title": "Add multi asset bounties to runtime and upgrade related deps",
+                    "state": "OPEN",
+                    "created_at": "2026-02-04T21:03:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1070",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1019,
                     "title": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion ",
                     "state": "OPEN",
@@ -166031,6 +166136,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 10982,
+                    "title": "Meta Transactions - Benchmarking update",
+                    "state": "OPEN",
+                    "created_at": "2026-02-04T12:21:32Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10982",
+                    "ready_for_review_at": "2026-02-04T12:21:32Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-02-04T12:23:02Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10956,
                     "title": "[staking] enhance error logging from voter list updates",
                     "state": "OPEN",
@@ -166096,7 +166222,14 @@
                   }
                 ],
                 "issues": [],
-                "reviews": []
+                "reviews": [
+                  {
+                    "pr_number": 10986,
+                    "pr_title": "[Pool] Use active era for withdrawals",
+                    "reviewed_at": "2026-02-04T15:40:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10986"
+                  }
+                ]
               }
             },
             "paritytech/substrate": {

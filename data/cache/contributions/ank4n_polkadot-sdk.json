@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "aaf8ab15b68a826e79fded0f4d7aca6da631eed0",
+      "message": "[Pool] Use active era for withdrawals (#10986)",
+      "date": "2026-02-04T15:01:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/aaf8ab15b68a826e79fded0f4d7aca6da631eed0"
+    },
+    {
       "sha": "b3bfba618e98f2aa10ee8d4233a15c1e09fef50f",
       "message": "[Staking] Allow nominators to be non-slashable and fast unbondable (#10502)",
       "date": "2026-01-14T21:42:10Z",
@@ -404,6 +410,61 @@
     }
   ],
   "prs": [
+    {
+      "number": 10986,
+      "title": "[Pool] Use active era for withdrawals",
+      "state": "MERGED",
+      "created_at": "2026-02-04T13:41:55Z",
+      "closed_at": "2026-02-04T15:40:05Z",
+      "merged_at": "2026-02-04T15:40:05Z",
+      "merged_by": "Ank4n",
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10986",
+      "ready_for_review_at": "2026-02-04T13:41:55Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-02-04T13:55:09Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-02-04T13:56:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-02-04T13:57:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-02-04T14:06:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-02-04T14:09:40Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2026-02-04T13:49:31Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2026-02-04T14:03:18Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2026-02-04T15:40:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.22055555555555556,
+      "time_to_merge_hours": 1.9694444444444446
+    },
     {
       "number": 10844,
       "title": "[WIP] Move era reward minting to DAP with era-based allocation in Staking",
@@ -6907,6 +6968,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 10987,
+      "pr_title": "Kiz backport 10986 2507",
+      "reviewed_at": "2026-02-04T14:06:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10987"
+    },
+    {
+      "pr_number": 10980,
+      "pr_title": "Add StakingOperator proxy type to Westend AssetHub",
+      "reviewed_at": "2026-02-04T13:15:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10980"
+    },
     {
       "pr_number": 10957,
       "pr_title": "pallet-dap: mark funds as inactive ",

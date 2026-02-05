@@ -9,6 +9,27 @@
   ],
   "prs": [
     {
+      "number": 10982,
+      "title": "Meta Transactions - Benchmarking update",
+      "state": "OPEN",
+      "created_at": "2026-02-04T12:21:32Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10982",
+      "ready_for_review_at": "2026-02-04T12:21:32Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cirko33",
+          "commented_at": "2026-02-04T12:23:02Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10956,
       "title": "[staking] enhance error logging from voter list updates",
       "state": "OPEN",
@@ -74,5 +95,12 @@
     }
   ],
   "issues": [],
-  "reviews": []
+  "reviews": [
+    {
+      "pr_number": 10986,
+      "pr_title": "[Pool] Use active era for withdrawals",
+      "reviewed_at": "2026-02-04T15:40:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10986"
+    }
+  ]
 }
