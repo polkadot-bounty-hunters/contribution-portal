@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "567e35b8bc433f45b2caa35ef2b73bd2f72b90c6",
+      "message": "[pallet-revive] Fix EXTCODESIZE and EXTCODEHASH for mocked addresses (#10911)",
+      "date": "2026-02-05T10:14:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/567e35b8bc433f45b2caa35ef2b73bd2f72b90c6"
+    },
+    {
       "sha": "9eff394bebadac947132d0cd2731be0d58d4f7a5",
       "message": "Add upload evm code function (#10129)",
       "date": "2025-11-03T14:06:12Z",

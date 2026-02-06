@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-05T05:29:28.439Z",
+  "generated_at": "2026-02-06T05:29:45.817Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1454,
-    "total_prs": 1511,
+    "total_commits": 1455,
+    "total_prs": 1512,
     "total_merged_prs": 1016,
     "total_reviews": 2264
   },
@@ -204,11 +204,11 @@
         "name": "smiasojed",
         "github": "smiasojed",
         "cohort": "PBA 2 BA 2023",
-        "commits": 7,
+        "commits": 8,
         "prs": 8,
         "merged_prs": 6,
         "reviews": 47,
-        "score": 248
+        "score": 249
       },
       {
         "name": "marian-radu",
@@ -644,6 +644,16 @@
           "score": 18
         },
         {
+          "name": "lrazovic",
+          "github": "lrazovic",
+          "cohort": "PBA 1 Cambridge 2022",
+          "commits": 0,
+          "prs": 2,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 10
+        },
+        {
           "name": "PoisonPhang",
           "github": "PoisonPhang",
           "cohort": "PBA 1 Cambridge 2022",
@@ -679,16 +689,6 @@
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 5,
           "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 5
-        },
-        {
-          "name": "lrazovic",
-          "github": "lrazovic",
-          "cohort": "PBA 1 Cambridge 2022",
-          "commits": 0,
-          "prs": 1,
           "merged_prs": 0,
           "reviews": 0,
           "score": 5
@@ -989,11 +989,11 @@
           "name": "smiasojed",
           "github": "smiasojed",
           "cohort": "PBA 2 BA 2023",
-          "commits": 7,
+          "commits": 8,
           "prs": 8,
           "merged_prs": 6,
           "reviews": 47,
-          "score": 248
+          "score": 249
         },
         {
           "name": "wirednkod",
@@ -56036,6 +56036,22 @@
                 "commits": [],
                 "prs": [
                   {
+                    "number": 10994,
+                    "title": "Introduce Auctions pallet (part of the pUSD Project)",
+                    "state": "OPEN",
+                    "created_at": "2026-02-05T09:57:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "lrazovic",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/10994",
+                    "ready_for_review_at": "2026-02-05T09:57:58Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10699,
                     "title": "Introduce Vaults pallet (part of the pUSD Project) ",
                     "state": "OPEN",
@@ -104162,6 +104178,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "567e35b8bc433f45b2caa35ef2b73bd2f72b90c6",
+                    "message": "[pallet-revive] Fix EXTCODESIZE and EXTCODEHASH for mocked addresses (#10911)",
+                    "date": "2026-02-05T10:14:43Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/567e35b8bc433f45b2caa35ef2b73bd2f72b90c6"
+                  },
                   {
                     "sha": "9eff394bebadac947132d0cd2731be0d58d4f7a5",
                     "message": "Add upload evm code function (#10129)",
