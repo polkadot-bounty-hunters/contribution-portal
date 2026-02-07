@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "b4a1f75c4f26109c76f1e4b90eb93a2f44d0b0e7",
+      "message": "revive-eth-rpc: Use pending block for estimate_gas in dev mode (#10963)",
+      "date": "2026-02-06T11:55:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b4a1f75c4f26109c76f1e4b90eb93a2f44d0b0e7"
+    },
+    {
       "sha": "eb7f82266ce8a9201352cd0164573701bdcb5b2b",
       "message": "[pallet-revive] improve eth-rpc tests reliability (#10281)",
       "date": "2025-11-12T15:43:11Z",

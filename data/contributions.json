@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-06T05:29:45.817Z",
+  "generated_at": "2026-02-07T05:23:38.912Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1455,
+    "total_commits": 1457,
     "total_prs": 1512,
     "total_merged_prs": 1016,
     "total_reviews": 2264
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 251,
+        "commits": 252,
         "prs": 185,
         "merged_prs": 130,
         "reviews": 211,
-        "score": 3109
+        "score": 3110
       },
       {
         "name": "liamaharon",
@@ -214,11 +214,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
+        "commits": 7,
         "prs": 11,
         "merged_prs": 3,
         "reviews": 23,
-        "score": 160
+        "score": 161
       },
       {
         "name": "DrW3RK",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 251,
+          "commits": 252,
           "prs": 185,
           "merged_prs": 130,
           "reviews": 211,
-          "score": 3109
+          "score": 3110
         },
         {
           "name": "liamaharon",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 6,
+          "commits": 7,
           "prs": 11,
           "merged_prs": 3,
           "reviews": 23,
-          "score": 160
+          "score": 161
         },
         {
           "name": "surajk-m",
@@ -88870,6 +88870,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "298bf2cb182b6fe3530568060a47853e630f52cb",
+                    "message": "Enforce match_arm_blocks = true for consistent formatting (#10958)",
+                    "date": "2026-02-06T07:25:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/298bf2cb182b6fe3530568060a47853e630f52cb"
+                  },
+                  {
                     "sha": "4c1bfa799df3db035d5785d08bfe85b5b77fdc64",
                     "message": "[pallet-revive] Enforce weight limit on dry-run RPC calls (#10902)",
                     "date": "2026-02-03T21:38:47Z",
@@ -167316,6 +167322,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "b4a1f75c4f26109c76f1e4b90eb93a2f44d0b0e7",
+                    "message": "revive-eth-rpc: Use pending block for estimate_gas in dev mode (#10963)",
+                    "date": "2026-02-06T11:55:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b4a1f75c4f26109c76f1e4b90eb93a2f44d0b0e7"
+                  },
                   {
                     "sha": "eb7f82266ce8a9201352cd0164573701bdcb5b2b",
                     "message": "[pallet-revive] improve eth-rpc tests reliability (#10281)",

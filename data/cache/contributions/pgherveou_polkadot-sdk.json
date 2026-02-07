@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "298bf2cb182b6fe3530568060a47853e630f52cb",
+      "message": "Enforce match_arm_blocks = true for consistent formatting (#10958)",
+      "date": "2026-02-06T07:25:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/298bf2cb182b6fe3530568060a47853e630f52cb"
+    },
+    {
       "sha": "4c1bfa799df3db035d5785d08bfe85b5b77fdc64",
       "message": "[pallet-revive] Enforce weight limit on dry-run RPC calls (#10902)",
       "date": "2026-02-03T21:38:47Z",
