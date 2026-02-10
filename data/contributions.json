@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-09T05:40:26.354Z",
+  "generated_at": "2026-02-10T05:48:07.190Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1457,
-    "total_prs": 1512,
+    "total_prs": 1514,
     "total_merged_prs": 1016,
     "total_reviews": 2264
   },
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 87,
-        "prs": 118,
+        "prs": 119,
         "merged_prs": 74,
         "reviews": 203,
-        "score": 2026
+        "score": 2031
       },
       {
         "name": "franciscoaguirre",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 87,
-          "prs": 118,
+          "prs": 119,
           "merged_prs": 74,
           "reviews": 203,
-          "score": 2026
+          "score": 2031
         },
         {
           "name": "franciscoaguirre",
@@ -1742,10 +1742,10 @@
           "github": "snowmead",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 2,
-          "prs": 2,
+          "prs": 3,
           "merged_prs": 1,
           "reviews": 4,
-          "score": 34
+          "score": 39
         },
         {
           "name": "jtfirek",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.43829479225415,
+    "average_review_time_hours": 79.37257396449701,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 761,
-        "approved_count": 259,
-        "avg_time_to_review_hours": 86.53806423611113,
-        "approval_rate": 34.03416557161629
+        "review_count": 762,
+        "approved_count": 260,
+        "avg_time_to_review_hours": 85.88033161068046,
+        "approval_rate": 34.120734908136484
       },
       {
         "reviewer": "bkchr",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 90.75563330413198,
-        "pr_count": 761,
+        "avg_review_time_hours": 90.63874999999999,
+        "pr_count": 762,
         "merged_count": 648
       },
       {
@@ -19579,6 +19579,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11018,
+                    "title": "[Pool] Claim trapped balance",
+                    "state": "OPEN",
+                    "created_at": "2026-02-09T05:23:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11018",
+                    "ready_for_review_at": "2026-02-09T05:23:27Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-02-10T03:51:55Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10986,
                     "title": "[Pool] Use active era for withdrawals",
@@ -114123,6 +114144,33 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11028,
+                    "title": "Add `DecodeWithMemTracking` derive to `CompactProof`",
+                    "state": "OPEN",
+                    "created_at": "2026-02-09T21:46:20Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "snowmead",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11028",
+                    "ready_for_review_at": "2026-02-09T21:46:20Z",
+                    "reviews": [
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-02-09T23:27:46Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-02-09T21:46:29Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.6905555555555556,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 6412,
                     "title": "Use frame umbrella crate in `pallet-babe` & `pallet-staking-reward-curve`",
