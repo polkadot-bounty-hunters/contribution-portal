@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-10T05:48:07.190Z",
+  "generated_at": "2026-02-11T05:46:02.466Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1457,
+    "total_commits": 1458,
     "total_prs": 1514,
     "total_merged_prs": 1016,
     "total_reviews": 2264
@@ -1728,6 +1728,16 @@
           "score": 48
         },
         {
+          "name": "snowmead",
+          "github": "snowmead",
+          "cohort": "PBA 3 Berkeley 2023",
+          "commits": 3,
+          "prs": 3,
+          "merged_prs": 1,
+          "reviews": 4,
+          "score": 40
+        },
+        {
           "name": "ffarall",
           "github": "ffarall",
           "cohort": "PBA 3 Berkeley 2023",
@@ -1736,16 +1746,6 @@
           "merged_prs": 2,
           "reviews": 1,
           "score": 40
-        },
-        {
-          "name": "snowmead",
-          "github": "snowmead",
-          "cohort": "PBA 3 Berkeley 2023",
-          "commits": 2,
-          "prs": 3,
-          "merged_prs": 1,
-          "reviews": 4,
-          "score": 39
         },
         {
           "name": "jtfirek",
@@ -114136,6 +114136,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "fbddee8faabeadef47a375c71c1a8a11274e4e0d",
+                    "message": "Add `DecodeWithMemTracking` derive to `CompactProof` (#11028)",
+                    "date": "2026-02-10T18:41:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/fbddee8faabeadef47a375c71c1a8a11274e4e0d"
+                  },
                   {
                     "sha": "4ced9bb474841f40e53c08b5d9f675c3c4d31192",
                     "message": "Update Scheduler Pallet Documentation (#14740)",
