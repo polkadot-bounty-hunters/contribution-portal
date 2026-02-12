@@ -15,6 +15,27 @@
   ],
   "prs": [
     {
+      "number": 11052,
+      "title": "update multi asset bounties pallet account derivation logic ",
+      "state": "OPEN",
+      "created_at": "2026-02-11T17:45:52Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11052",
+      "ready_for_review_at": "2026-02-11T17:45:52Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "dhirajs0",
+          "commented_at": "2026-02-11T17:46:07Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10646,
       "title": "Update asset-conversion validation to use strict withdrawal checks",
       "state": "OPEN",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-11T05:46:02.466Z",
+  "generated_at": "2026-02-12T05:38:35.216Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1458,
-    "total_prs": 1514,
+    "total_prs": 1515,
     "total_merged_prs": 1016,
-    "total_reviews": 2264
+    "total_reviews": 2265
   },
   "leaderboard": {
     "overall": [
@@ -47,8 +47,8 @@
         "commits": 87,
         "prs": 119,
         "merged_prs": 74,
-        "reviews": 203,
-        "score": 2031
+        "reviews": 204,
+        "score": 2034
       },
       {
         "name": "franciscoaguirre",
@@ -481,6 +481,16 @@
         "score": 47
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 3,
+        "prs": 5,
+        "merged_prs": 1,
+        "reviews": 2,
+        "score": 44
+      },
+      {
         "name": "arturgontijo",
         "github": "arturgontijo",
         "cohort": "PBA 1 Cambridge 2022",
@@ -498,16 +508,6 @@
         "prs": 3,
         "merged_prs": 2,
         "reviews": 2,
-        "score": 43
-      },
-      {
-        "name": "metricaez",
-        "github": "metricaez",
-        "cohort": "PBA 2 BA 2023",
-        "commits": 0,
-        "prs": 8,
-        "merged_prs": 0,
-        "reviews": 1,
         "score": 43
       }
     ],
@@ -530,8 +530,8 @@
           "commits": 87,
           "prs": 119,
           "merged_prs": 74,
-          "reviews": 203,
-          "score": 2031
+          "reviews": 204,
+          "score": 2034
         },
         {
           "name": "franciscoaguirre",
@@ -4368,10 +4368,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 3,
-          "prs": 4,
+          "prs": 5,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 39
+          "score": 44
         },
         {
           "name": "andrzejSulkowski",
@@ -26158,6 +26158,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11050,
+                    "pr_title": "staking-aync: remove stale prune_era_total_stake",
+                    "reviewed_at": "2026-02-11T18:45:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11050"
+                  },
                   {
                     "pr_number": 10987,
                     "pr_title": "Kiz backport 10986 2507",
@@ -161964,6 +161970,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11052,
+                    "title": "update multi asset bounties pallet account derivation logic ",
+                    "state": "OPEN",
+                    "created_at": "2026-02-11T17:45:52Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11052",
+                    "ready_for_review_at": "2026-02-11T17:45:52Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-02-11T17:46:07Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10646,
                     "title": "Update asset-conversion validation to use strict withdrawal checks",

@@ -6990,6 +6990,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11050,
+      "pr_title": "staking-aync: remove stale prune_era_total_stake",
+      "reviewed_at": "2026-02-11T18:45:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11050"
+    },
+    {
       "pr_number": 10987,
       "pr_title": "Kiz backport 10986 2507",
       "reviewed_at": "2026-02-04T14:06:16Z",
