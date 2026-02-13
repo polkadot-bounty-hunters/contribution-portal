@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "3d6768bb613732a2dc29fa87f64e2da88c4d05d7",
+      "message": "Feat: Add API and mechanism to retrieve additional top-level and child proofs via the relay state proof (#10678)",
+      "date": "2026-02-12T21:20:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/3d6768bb613732a2dc29fa87f64e2da88c4d05d7"
+    }
+  ],
   "prs": [
     {
       "number": 10679,
