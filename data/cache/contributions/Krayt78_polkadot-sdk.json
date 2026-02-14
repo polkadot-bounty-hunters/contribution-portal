@@ -135,6 +135,27 @@
   ],
   "prs": [
     {
+      "number": 11066,
+      "title": "Refactor the preimage pallet to use fungible traits",
+      "state": "OPEN",
+      "created_at": "2026-02-13T11:02:15Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11066",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2026-02-13T13:59:07Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11064,
       "title": "Refactor the multisig pallet to use fungible traits",
       "state": "OPEN",

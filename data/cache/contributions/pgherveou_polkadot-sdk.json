@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "6ed951984c065c843dfbe292c11b1c38d22083e2",
+      "message": "pallet-revive: minor cleanups and fixes (#11054)",
+      "date": "2026-02-13T17:42:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6ed951984c065c843dfbe292c11b1c38d22083e2"
+    },
+    {
+      "sha": "e9b9f740fab72060252628ebce5a5e30c1c5da2a",
+      "message": "Fix delegatecall callTracer addresses (#10918)",
+      "date": "2026-02-13T17:05:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e9b9f740fab72060252628ebce5a5e30c1c5da2a"
+    },
+    {
       "sha": "298bf2cb182b6fe3530568060a47853e630f52cb",
       "message": "Enforce match_arm_blocks = true for consistent formatting (#10958)",
       "date": "2026-02-06T07:25:57Z",

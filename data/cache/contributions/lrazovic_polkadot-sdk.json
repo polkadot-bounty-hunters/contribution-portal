@@ -2,6 +2,22 @@
   "commits": [],
   "prs": [
     {
+      "number": 11068,
+      "title": "Introduce PSM pallet (part of the pUSD Project)",
+      "state": "OPEN",
+      "created_at": "2026-02-13T14:49:01Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "lrazovic",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11068",
+      "ready_for_review_at": "2026-02-13T14:49:01Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10994,
       "title": "Introduce Auctions pallet (part of the pUSD Project)",
       "state": "OPEN",
