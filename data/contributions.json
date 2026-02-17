@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-16T05:37:49.532Z",
+  "generated_at": "2026-02-17T05:33:32.750Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1461,
-    "total_prs": 1520,
+    "total_commits": 1462,
+    "total_prs": 1521,
     "total_merged_prs": 1016,
     "total_reviews": 2266
   },
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 254,
+        "commits": 255,
         "prs": 186,
         "merged_prs": 130,
         "reviews": 211,
-        "score": 3117
+        "score": 3118
       },
       {
         "name": "liamaharon",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 7,
-        "prs": 11,
+        "prs": 12,
         "merged_prs": 3,
         "reviews": 23,
-        "score": 161
+        "score": 166
       },
       {
         "name": "DrW3RK",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 254,
+          "commits": 255,
           "prs": 186,
           "merged_prs": 130,
           "reviews": 211,
-          "score": 3117
+          "score": 3118
         },
         {
           "name": "liamaharon",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 7,
-          "prs": 11,
+          "prs": 12,
           "merged_prs": 3,
           "reviews": 23,
-          "score": 161
+          "score": 166
         },
         {
           "name": "surajk-m",
@@ -88935,6 +88935,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "1897ae0d78945a7134df3386d53420939804d2ab",
+                    "message": "Add revive substrate runtime-api integration tests for call & instantiate (#10919)",
+                    "date": "2026-02-16T18:18:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/1897ae0d78945a7134df3386d53420939804d2ab"
+                  },
+                  {
                     "sha": "6ed951984c065c843dfbe292c11b1c38d22083e2",
                     "message": "pallet-revive: minor cleanups and fixes (#11054)",
                     "date": "2026-02-13T17:42:01Z",
@@ -167562,6 +167568,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11079,
+                    "title": "[WIP][pallet-revive]: implement EIP-150 63/64 gas rule",
+                    "state": "OPEN",
+                    "created_at": "2026-02-16T13:21:08Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11079",
+                    "ready_for_review_at": "2026-02-16T13:21:08Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 10963,
                     "title": "revive-eth-rpc: Use pending block for estimate_gas in dev mode",

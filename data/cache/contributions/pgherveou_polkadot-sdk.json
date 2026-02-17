@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "1897ae0d78945a7134df3386d53420939804d2ab",
+      "message": "Add revive substrate runtime-api integration tests for call & instantiate (#10919)",
+      "date": "2026-02-16T18:18:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1897ae0d78945a7134df3386d53420939804d2ab"
+    },
+    {
       "sha": "6ed951984c065c843dfbe292c11b1c38d22083e2",
       "message": "pallet-revive: minor cleanups and fixes (#11054)",
       "date": "2026-02-13T17:42:01Z",

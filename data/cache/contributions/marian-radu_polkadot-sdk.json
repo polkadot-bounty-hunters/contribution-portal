@@ -45,6 +45,22 @@
   ],
   "prs": [
     {
+      "number": 11079,
+      "title": "[WIP][pallet-revive]: implement EIP-150 63/64 gas rule",
+      "state": "OPEN",
+      "created_at": "2026-02-16T13:21:08Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11079",
+      "ready_for_review_at": "2026-02-16T13:21:08Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10963,
       "title": "revive-eth-rpc: Use pending block for estimate_gas in dev mode",
       "state": "OPEN",
