@@ -45,6 +45,31 @@
   ],
   "prs": [
     {
+      "number": 11109,
+      "title": "refactor(pallet-treasury): Migrate from `Currency` to `Fungible`, and remove deprecated `Proposals` mechansism.",
+      "state": "OPEN",
+      "created_at": "2026-02-19T02:30:31Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pandres95",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11109",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pandres95",
+          "commented_at": "2026-02-19T02:30:39Z"
+        },
+        {
+          "commenter": "pandres95",
+          "commented_at": "2026-02-19T02:33:57Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9859,
       "title": "Migrate Pallet Identity from `Currency` to `fungible`",
       "state": "OPEN",

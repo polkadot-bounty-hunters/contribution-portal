@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-18T05:35:38.113Z",
+  "generated_at": "2026-02-19T05:34:20.533Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1462,
-    "total_prs": 1521,
+    "total_prs": 1522,
     "total_merged_prs": 1016,
     "total_reviews": 2266
   },
@@ -145,10 +145,10 @@
         "github": "pandres95",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 12,
-        "prs": 22,
+        "prs": 23,
         "merged_prs": 12,
         "reviews": 45,
-        "score": 377
+        "score": 382
       },
       {
         "name": "muraca",
@@ -1682,10 +1682,10 @@
           "github": "pandres95",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 12,
-          "prs": 22,
+          "prs": 23,
           "merged_prs": 12,
           "reviews": 45,
-          "score": 377
+          "score": 382
         },
         {
           "name": "DrW3RK",
@@ -116232,6 +116232,31 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11109,
+                    "title": "refactor(pallet-treasury): Migrate from `Currency` to `Fungible`, and remove deprecated `Proposals` mechansism.",
+                    "state": "OPEN",
+                    "created_at": "2026-02-19T02:30:31Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pandres95",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11109",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pandres95",
+                        "commented_at": "2026-02-19T02:30:39Z"
+                      },
+                      {
+                        "commenter": "pandres95",
+                        "commented_at": "2026-02-19T02:33:57Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 9859,
                     "title": "Migrate Pallet Identity from `Currency` to `fungible`",
