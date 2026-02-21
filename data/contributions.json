@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-20T05:30:17.985Z",
+  "generated_at": "2026-02-21T05:21:53.335Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1463,
-    "total_prs": 1523,
+    "total_prs": 1524,
     "total_merged_prs": 1017,
     "total_reviews": 2266
   },
@@ -1186,6 +1186,16 @@
           "score": 8
         },
         {
+          "name": "ayomidebajo",
+          "github": "ayomidebajo",
+          "cohort": "PBA 2 BA 2023",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "sylvaincormier",
           "github": "sylvaincormier",
           "cohort": "PBA 2 BA 2023",
@@ -1238,16 +1248,6 @@
         {
           "name": "obrienalaribe",
           "github": "obrienalaribe",
-          "cohort": "PBA 2 BA 2023",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "ayomidebajo",
-          "github": "ayomidebajo",
           "cohort": "PBA 2 BA 2023",
           "commits": 0,
           "prs": 0,
@@ -73773,7 +73773,33 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 11138,
+                    "title": "feat(pallet-identity): make `Data` raw size limit generic via `Get<u32>`",
+                    "state": "OPEN",
+                    "created_at": "2026-02-20T13:42:31Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ayomidebajo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11138",
+                    "ready_for_review_at": "2026-02-20T13:42:31Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-02-20T13:42:38Z"
+                      },
+                      {
+                        "commenter": "ayomidebajo",
+                        "commented_at": "2026-02-20T13:51:19Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
