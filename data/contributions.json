@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-22T05:31:17.815Z",
+  "generated_at": "2026-02-23T05:37:29.688Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1463,
-    "total_prs": 1524,
+    "total_prs": 1525,
     "total_merged_prs": 1017,
     "total_reviews": 2266
   },
@@ -1176,6 +1176,16 @@
           "score": 16
         },
         {
+          "name": "ayomidebajo",
+          "github": "ayomidebajo",
+          "cohort": "PBA 2 BA 2023",
+          "commits": 0,
+          "prs": 2,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 10
+        },
+        {
           "name": "prybalko",
           "github": "prybalko",
           "cohort": "PBA 2 BA 2023",
@@ -1184,16 +1194,6 @@
           "merged_prs": 0,
           "reviews": 1,
           "score": 8
-        },
-        {
-          "name": "ayomidebajo",
-          "github": "ayomidebajo",
-          "cohort": "PBA 2 BA 2023",
-          "commits": 0,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 5
         },
         {
           "name": "sylvaincormier",
@@ -73774,6 +73774,27 @@
               "contributions": {
                 "commits": [],
                 "prs": [
+                  {
+                    "number": 11143,
+                    "title": "cumulus: refactor omni-node-lib ignored tests into reusable conformance test suite",
+                    "state": "OPEN",
+                    "created_at": "2026-02-22T15:40:18Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ayomidebajo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11143",
+                    "ready_for_review_at": "2026-02-22T15:40:18Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "ayomidebajo",
+                        "commented_at": "2026-02-22T15:44:11Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11138,
                     "title": "feat(pallet-identity): make `Data` raw size limit generic via `Get<u32>`",
