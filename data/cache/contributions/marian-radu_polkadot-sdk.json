@@ -45,6 +45,22 @@
   ],
   "prs": [
     {
+      "number": 11153,
+      "title": "[WIP][eth-rpc]: add resumable block sync and improve CLI arguments",
+      "state": "OPEN",
+      "created_at": "2026-02-23T18:03:10Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11153",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11079,
       "title": "[WIP][pallet-revive]: implement EIP-150 63/64 gas rule",
       "state": "OPEN",

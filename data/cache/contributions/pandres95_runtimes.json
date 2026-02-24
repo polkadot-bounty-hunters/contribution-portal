@@ -1533,6 +1533,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1086,
+      "pr_title": "ci: add check-runtime validation to release workflow",
+      "reviewed_at": "2026-02-23T22:45:41Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1086"
+    },
+    {
+      "pr_number": 1084,
+      "pr_title": "Update crates to SDK 2512-2 via psvm",
+      "reviewed_at": "2026-02-23T14:45:10Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1084"
+    },
+    {
       "pr_number": 1012,
       "pr_title": "add review bot workflow",
       "reviewed_at": "2025-11-19T22:24:05Z",

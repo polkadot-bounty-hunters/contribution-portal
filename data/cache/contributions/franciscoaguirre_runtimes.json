@@ -1271,6 +1271,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1085,
+      "pr_title": "Asset Hubs: add reserves info to support non-teleportable Foreign Assets",
+      "reviewed_at": "2026-02-23T16:39:30Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1085"
+    },
+    {
       "pr_number": 1062,
       "pr_title": "Fix Polkadot and Kusama AH and RC compilation for SDK 2512-1-rc1",
       "reviewed_at": "2026-01-23T20:59:26Z",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-23T05:37:29.688Z",
+  "generated_at": "2026-02-24T05:32:53.518Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1463,
-    "total_prs": 1525,
+    "total_commits": 1464,
+    "total_prs": 1526,
     "total_merged_prs": 1017,
-    "total_reviews": 2266
+    "total_reviews": 2269
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 255,
+        "commits": 256,
         "prs": 186,
         "merged_prs": 130,
         "reviews": 211,
-        "score": 3118
+        "score": 3119
       },
       {
         "name": "liamaharon",
@@ -57,8 +57,8 @@
         "commits": 75,
         "prs": 111,
         "merged_prs": 83,
-        "reviews": 166,
-        "score": 1958
+        "reviews": 167,
+        "score": 1961
       },
       {
         "name": "jsidorenko",
@@ -147,8 +147,8 @@
         "commits": 12,
         "prs": 23,
         "merged_prs": 12,
-        "reviews": 45,
-        "score": 382
+        "reviews": 47,
+        "score": 388
       },
       {
         "name": "muraca",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 7,
-        "prs": 12,
+        "prs": 13,
         "merged_prs": 3,
         "reviews": 23,
-        "score": 166
+        "score": 171
       },
       {
         "name": "DrW3RK",
@@ -540,8 +540,8 @@
           "commits": 75,
           "prs": 111,
           "merged_prs": 83,
-          "reviews": 166,
-          "score": 1958
+          "reviews": 167,
+          "score": 1961
         },
         {
           "name": "jsidorenko",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 255,
+          "commits": 256,
           "prs": 186,
           "merged_prs": 130,
           "reviews": 211,
-          "score": 3118
+          "score": 3119
         },
         {
           "name": "liamaharon",
@@ -1684,8 +1684,8 @@
           "commits": 12,
           "prs": 23,
           "merged_prs": 12,
-          "reviews": 45,
-          "score": 382
+          "reviews": 47,
+          "score": 388
         },
         {
           "name": "DrW3RK",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 7,
-          "prs": 12,
+          "prs": 13,
           "merged_prs": 3,
           "reviews": 23,
-          "score": 166
+          "score": 171
         },
         {
           "name": "cirko33",
@@ -16810,6 +16810,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1085,
+                    "pr_title": "Asset Hubs: add reserves info to support non-teleportable Foreign Assets",
+                    "reviewed_at": "2026-02-23T16:39:30Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1085"
+                  },
                   {
                     "pr_number": 1062,
                     "pr_title": "Fix Polkadot and Kusama AH and RC compilation for SDK 2512-1-rc1",
@@ -88982,6 +88988,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "fb71b25620c5ce246a1151d5eca21491bac012b1",
+                    "message": "pallet-revive: eth-rpc improve submit (#10328)",
+                    "date": "2026-02-23T15:14:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/fb71b25620c5ce246a1151d5eca21491bac012b1"
+                  },
+                  {
                     "sha": "1897ae0d78945a7134df3386d53420939804d2ab",
                     "message": "Add revive substrate runtime-api integration tests for call & instantiate (#10919)",
                     "date": "2026-02-16T18:18:05Z",
@@ -119779,6 +119791,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1086,
+                    "pr_title": "ci: add check-runtime validation to release workflow",
+                    "reviewed_at": "2026-02-23T22:45:41Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1086"
+                  },
+                  {
+                    "pr_number": 1084,
+                    "pr_title": "Update crates to SDK 2512-2 via psvm",
+                    "reviewed_at": "2026-02-23T14:45:10Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1084"
+                  },
                   {
                     "pr_number": 1012,
                     "pr_title": "add review bot workflow",
@@ -167704,6 +167728,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11153,
+                    "title": "[WIP][eth-rpc]: add resumable block sync and improve CLI arguments",
+                    "state": "OPEN",
+                    "created_at": "2026-02-23T18:03:10Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11153",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11079,
                     "title": "[WIP][pallet-revive]: implement EIP-150 63/64 gas rule",

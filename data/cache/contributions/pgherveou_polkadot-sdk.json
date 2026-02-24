@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "fb71b25620c5ce246a1151d5eca21491bac012b1",
+      "message": "pallet-revive: eth-rpc improve submit (#10328)",
+      "date": "2026-02-23T15:14:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/fb71b25620c5ce246a1151d5eca21491bac012b1"
+    },
+    {
       "sha": "1897ae0d78945a7134df3386d53420939804d2ab",
       "message": "Add revive substrate runtime-api integration tests for call & instantiate (#10919)",
       "date": "2026-02-16T18:18:05Z",
