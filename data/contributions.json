@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-24T05:32:53.518Z",
+  "generated_at": "2026-02-25T05:34:54.603Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1464,
+    "total_commits": 1466,
     "total_prs": 1526,
     "total_merged_prs": 1017,
     "total_reviews": 2269
@@ -481,6 +481,16 @@
         "score": 47
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 4,
+        "prs": 5,
+        "merged_prs": 1,
+        "reviews": 2,
+        "score": 45
+      },
+      {
         "name": "metricaez",
         "github": "metricaez",
         "cohort": "PBA 2 BA 2023",
@@ -488,16 +498,6 @@
         "prs": 8,
         "merged_prs": 0,
         "reviews": 1,
-        "score": 44
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 3,
-        "prs": 5,
-        "merged_prs": 1,
-        "reviews": 2,
         "score": 44
       },
       {
@@ -4367,11 +4367,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 3,
+          "commits": 4,
           "prs": 5,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 44
+          "score": 45
         },
         {
           "name": "andrzejSulkowski",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 2,
+          "commits": 3,
           "prs": 4,
           "merged_prs": 1,
           "reviews": 1,
-          "score": 35
+          "score": 36
         },
         {
           "name": "surajk-m",
@@ -162396,6 +162396,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "1c6a06a1175d6d0df7bcc21fd048b9736cb92e97",
+                    "message": "Add multi asset bounties to runtime and upgrade related deps (#1070)",
+                    "date": "2026-02-24T15:47:59Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/1c6a06a1175d6d0df7bcc21fd048b9736cb92e97"
+                  },
+                  {
                     "sha": "fc922d2df7fdfd43f9ee1bffa3be9ebf546cbee6",
                     "message": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion  (#1019)",
                     "date": "2025-12-11T20:59:41Z",
@@ -166453,6 +166459,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "f6e430ef28716084bed0b3af47256069c75e79d7",
+                    "message": "Meta Transactions - Benchmarking update (#10982)",
+                    "date": "2026-02-24T13:12:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/f6e430ef28716084bed0b3af47256069c75e79d7"
+                  },
                   {
                     "sha": "5049801bd6c2030260ba9a1eea5ade6f81016076",
                     "message": "Remove MaxSessionKeysLength and MaxSessionKeysProofLength (#11115)",

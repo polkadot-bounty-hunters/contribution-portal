@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "f6e430ef28716084bed0b3af47256069c75e79d7",
+      "message": "Meta Transactions - Benchmarking update (#10982)",
+      "date": "2026-02-24T13:12:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f6e430ef28716084bed0b3af47256069c75e79d7"
+    },
+    {
       "sha": "5049801bd6c2030260ba9a1eea5ade6f81016076",
       "message": "Remove MaxSessionKeysLength and MaxSessionKeysProofLength (#11115)",
       "date": "2026-02-19T21:54:31Z",
