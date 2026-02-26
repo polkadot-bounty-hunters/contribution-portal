@@ -21,6 +21,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11175,
+      "pr_title": "[stable2603] Backport #11172",
+      "reviewed_at": "2026-02-25T14:47:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11175"
+    },
+    {
       "pr_number": 10882,
       "pr_title": "statement-store: make encode/hash faster",
       "reviewed_at": "2026-01-22T17:07:03Z",

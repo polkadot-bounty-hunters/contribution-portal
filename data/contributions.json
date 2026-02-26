@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-25T05:34:54.603Z",
+  "generated_at": "2026-02-26T05:30:44.441Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1466,
-    "total_prs": 1526,
+    "total_commits": 1467,
+    "total_prs": 1527,
     "total_merged_prs": 1017,
-    "total_reviews": 2269
+    "total_reviews": 2274
   },
   "leaderboard": {
     "overall": [
@@ -47,8 +47,8 @@
         "commits": 87,
         "prs": 119,
         "merged_prs": 74,
-        "reviews": 205,
-        "score": 2037
+        "reviews": 207,
+        "score": 2043
       },
       {
         "name": "franciscoaguirre",
@@ -57,8 +57,8 @@
         "commits": 75,
         "prs": 111,
         "merged_prs": 83,
-        "reviews": 167,
-        "score": 1961
+        "reviews": 168,
+        "score": 1964
       },
       {
         "name": "jsidorenko",
@@ -491,6 +491,16 @@
         "score": 45
       },
       {
+        "name": "arturgontijo",
+        "github": "arturgontijo",
+        "cohort": "PBA 1 Cambridge 2022",
+        "commits": 1,
+        "prs": 4,
+        "merged_prs": 2,
+        "reviews": 1,
+        "score": 44
+      },
+      {
         "name": "metricaez",
         "github": "metricaez",
         "cohort": "PBA 2 BA 2023",
@@ -499,16 +509,6 @@
         "merged_prs": 0,
         "reviews": 1,
         "score": 44
-      },
-      {
-        "name": "arturgontijo",
-        "github": "arturgontijo",
-        "cohort": "PBA 1 Cambridge 2022",
-        "commits": 0,
-        "prs": 4,
-        "merged_prs": 2,
-        "reviews": 1,
-        "score": 43
       }
     ],
     "by_cohort": {
@@ -530,8 +530,8 @@
           "commits": 87,
           "prs": 119,
           "merged_prs": 74,
-          "reviews": 205,
-          "score": 2037
+          "reviews": 207,
+          "score": 2043
         },
         {
           "name": "franciscoaguirre",
@@ -540,8 +540,8 @@
           "commits": 75,
           "prs": 111,
           "merged_prs": 83,
-          "reviews": 167,
-          "score": 1961
+          "reviews": 168,
+          "score": 1964
         },
         {
           "name": "jsidorenko",
@@ -607,11 +607,11 @@
           "name": "arturgontijo",
           "github": "arturgontijo",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 0,
+          "commits": 1,
           "prs": 4,
           "merged_prs": 2,
           "reviews": 1,
-          "score": 43
+          "score": 44
         },
         {
           "name": "zdave",
@@ -4374,6 +4374,16 @@
           "score": 45
         },
         {
+          "name": "P1sar",
+          "github": "P1sar",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 4,
+          "score": 17
+        },
+        {
           "name": "andrzejSulkowski",
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
@@ -4412,16 +4422,6 @@
           "merged_prs": 1,
           "reviews": 0,
           "score": 16
-        },
-        {
-          "name": "P1sar",
-          "github": "P1sar",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 0,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 3,
-          "score": 14
         },
         {
           "name": "Yung-Beef",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 3,
-          "prs": 4,
+          "prs": 5,
           "merged_prs": 1,
-          "reviews": 1,
-          "score": 36
+          "reviews": 2,
+          "score": 44
         },
         {
           "name": "surajk-m",
@@ -14692,6 +14692,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11172,
+                    "pr_title": "Fix statement allowance storage key",
+                    "reviewed_at": "2026-02-25T13:07:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11172"
+                  },
                   {
                     "pr_number": 10939,
                     "pr_title": "Enforce stricter rustfmt rules to prevent style ambiguity",
@@ -26181,6 +26187,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11168,
+                    "pr_title": "Add MinSetKeysBond check in rc_client::set_keys",
+                    "reviewed_at": "2026-02-25T11:37:55Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11168"
+                  },
+                  {
                     "pr_number": 11055,
                     "pr_title": "staking-async/ah-client: emit event when session key update from AssettHub fails on relay chain",
                     "reviewed_at": "2026-02-12T14:37:59Z",
@@ -30451,6 +30463,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1090,
+                    "pr_title": "Bump staking and EPMB crates",
+                    "reviewed_at": "2026-02-25T22:11:31Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1090"
+                  },
                   {
                     "pr_number": 1048,
                     "pr_title": "Enable Elastic Scaling and buffered election for Polkadot Hub",
@@ -36393,7 +36411,14 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "5e8782adcd35723bd51d89eeb74555c423822117",
+                    "message": "[benchmarking-cli] Add `--keys-limit=Option<usize>` and `--random-seed=Option<u64>` (#10884)",
+                    "date": "2026-02-25T22:13:43Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/5e8782adcd35723bd51d89eeb74555c423822117"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 10884,
@@ -163271,6 +163296,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11175,
+                    "pr_title": "[stable2603] Backport #11172",
+                    "reviewed_at": "2026-02-25T14:47:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11175"
+                  },
+                  {
                     "pr_number": 10882,
                     "pr_title": "statement-store: make encode/hash faster",
                     "reviewed_at": "2026-01-22T17:07:03Z",
@@ -166480,6 +166511,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 11178,
+                    "title": "Price Oracle Chain Pallet Implementation",
+                    "state": "OPEN",
+                    "created_at": "2026-02-25T13:34:23Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11178",
+                    "ready_for_review_at": "2026-02-25T13:34:23Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-02-25T13:34:37Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11115,
                     "title": "Remove MaxSessionKeysLength and MaxSessionKeysProofLength",
                     "state": "MERGED",
@@ -166625,6 +166677,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11167,
+                    "pr_title": "tiny fixes for staking weights",
+                    "reviewed_at": "2026-02-25T15:32:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11167"
+                  },
                   {
                     "pr_number": 10986,
                     "pr_title": "[Pool] Use active era for withdrawals",

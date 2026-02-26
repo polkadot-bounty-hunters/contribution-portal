@@ -21,6 +21,27 @@
   ],
   "prs": [
     {
+      "number": 11178,
+      "title": "Price Oracle Chain Pallet Implementation",
+      "state": "OPEN",
+      "created_at": "2026-02-25T13:34:23Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11178",
+      "ready_for_review_at": "2026-02-25T13:34:23Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cirko33",
+          "commented_at": "2026-02-25T13:34:37Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11115,
       "title": "Remove MaxSessionKeysLength and MaxSessionKeysProofLength",
       "state": "MERGED",
@@ -166,6 +187,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11167,
+      "pr_title": "tiny fixes for staking weights",
+      "reviewed_at": "2026-02-25T15:32:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11167"
+    },
     {
       "pr_number": 10986,
       "pr_title": "[Pool] Use active era for withdrawals",

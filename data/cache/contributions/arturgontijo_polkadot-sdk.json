@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "5e8782adcd35723bd51d89eeb74555c423822117",
+      "message": "[benchmarking-cli] Add `--keys-limit=Option<usize>` and `--random-seed=Option<u64>` (#10884)",
+      "date": "2026-02-25T22:13:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5e8782adcd35723bd51d89eeb74555c423822117"
+    }
+  ],
   "prs": [
     {
       "number": 10884,
