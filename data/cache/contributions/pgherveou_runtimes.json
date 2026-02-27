@@ -19,7 +19,45 @@
       "url": "https://github.com/polkadot-fellows/runtimes/commit/e80a43494607dccda1d11de255a5460803130e19"
     }
   ],
-  "prs": [],
+  "prs": [
+    {
+      "number": 1091,
+      "title": "Lower MaxEthExtrinsicWeight from 90% to 50%",
+      "state": "OPEN",
+      "created_at": "2026-02-26T12:07:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1091",
+      "ready_for_review_at": "2026-02-26T12:07:50Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-02-26T13:37:47Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2026-02-26T13:53:45Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-02-26T14:18:38Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2026-02-26T20:45:43Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.4991666666666668,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": [
     {

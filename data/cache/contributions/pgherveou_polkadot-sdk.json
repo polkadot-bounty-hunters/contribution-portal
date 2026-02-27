@@ -8751,6 +8751,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11193,
+      "pr_title": "[eth-rpc]: cap block_number_to_hashes map size",
+      "reviewed_at": "2026-02-26T18:01:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11193"
+    },
+    {
       "pr_number": 10971,
       "pr_title": "implement `IERC20Metadata` for pallet-assets-precompiles",
       "reviewed_at": "2026-02-03T13:56:58Z",

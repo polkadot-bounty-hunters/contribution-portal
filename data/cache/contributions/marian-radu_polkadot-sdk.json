@@ -45,6 +45,33 @@
   ],
   "prs": [
     {
+      "number": 11193,
+      "title": "[eth-rpc]: cap block_number_to_hashes map size",
+      "state": "OPEN",
+      "created_at": "2026-02-26T15:20:14Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11193",
+      "ready_for_review_at": "2026-02-26T15:20:14Z",
+      "reviews": [
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-02-26T18:01:17Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2026-02-26T16:38:18Z"
+        }
+      ],
+      "time_to_first_review_hours": 2.6841666666666666,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11153,
       "title": "[WIP][eth-rpc]: add resumable block sync and improve CLI arguments",
       "state": "OPEN",

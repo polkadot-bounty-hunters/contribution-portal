@@ -6990,6 +6990,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11197,
+      "pr_title": "pallet-session: track consumer refs and release deposits for externally set keys",
+      "reviewed_at": "2026-02-27T02:39:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11197"
+    },
+    {
       "pr_number": 11168,
       "pr_title": "Add MinSetKeysBond check in rc_client::set_keys",
       "reviewed_at": "2026-02-25T11:37:55Z",

@@ -2,6 +2,53 @@
   "commits": [],
   "prs": [
     {
+      "number": 11187,
+      "title": "StatementStore: readme update with dev node running guide",
+      "state": "OPEN",
+      "created_at": "2026-02-26T11:29:00Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "P1sar",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11187",
+      "ready_for_review_at": "2026-02-26T11:29:00Z",
+      "reviews": [
+        {
+          "reviewer": "s0me0ne-unkn0wn",
+          "submitted_at": "2026-02-26T13:42:00Z",
+          "state": "CHANGES_REQUESTED"
+        },
+        {
+          "reviewer": "AndreiEres",
+          "submitted_at": "2026-02-26T14:09:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "AndreiEres",
+          "submitted_at": "2026-02-26T14:10:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "s0me0ne-unkn0wn",
+          "submitted_at": "2026-02-26T14:12:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "s0me0ne-unkn0wn",
+          "submitted_at": "2026-02-26T14:12:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alexggh",
+          "submitted_at": "2026-02-26T14:22:21Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 2.216666666666667,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10724,
       "title": "P1sar/bulk stattements processing bench",
       "state": "OPEN",
