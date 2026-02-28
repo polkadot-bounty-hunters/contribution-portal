@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "5f121acf12dc4dcaaa4d6d9a9d6342897c216ad2",
+      "message": "[eth-rpc]: cap block_number_to_hashes map size (#11193)",
+      "date": "2026-02-27T16:06:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5f121acf12dc4dcaaa4d6d9a9d6342897c216ad2"
+    },
+    {
       "sha": "b4a1f75c4f26109c76f1e4b90eb93a2f44d0b0e7",
       "message": "revive-eth-rpc: Use pending block for estimate_gas in dev mode (#10963)",
       "date": "2026-02-06T11:55:08Z",

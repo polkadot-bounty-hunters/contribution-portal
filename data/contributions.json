@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-27T05:28:11.416Z",
+  "generated_at": "2026-02-28T05:14:55.231Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1467,
-    "total_prs": 1530,
+    "total_commits": 1469,
+    "total_prs": 1531,
     "total_merged_prs": 1017,
-    "total_reviews": 2276
+    "total_reviews": 2277
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 256,
+        "commits": 257,
         "prs": 187,
         "merged_prs": 130,
         "reviews": 212,
-        "score": 3127
+        "score": 3128
       },
       {
         "name": "liamaharon",
@@ -214,11 +214,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 7,
+        "commits": 8,
         "prs": 14,
         "merged_prs": 3,
         "reviews": 23,
-        "score": 176
+        "score": 177
       },
       {
         "name": "DrW3RK",
@@ -451,6 +451,16 @@
         "score": 50
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 4,
+        "prs": 6,
+        "merged_prs": 1,
+        "reviews": 2,
+        "score": 50
+      },
+      {
         "name": "joshuacheong",
         "github": "joshuacheong",
         "cohort": "PBA 3 Berkeley 2023",
@@ -481,14 +491,14 @@
         "score": 47
       },
       {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 4,
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 3,
         "prs": 5,
         "merged_prs": 1,
-        "reviews": 2,
-        "score": 45
+        "reviews": 3,
+        "score": 47
       },
       {
         "name": "arturgontijo",
@@ -497,16 +507,6 @@
         "commits": 1,
         "prs": 4,
         "merged_prs": 2,
-        "reviews": 1,
-        "score": 44
-      },
-      {
-        "name": "metricaez",
-        "github": "metricaez",
-        "cohort": "PBA 2 BA 2023",
-        "commits": 1,
-        "prs": 8,
-        "merged_prs": 0,
         "reviews": 1,
         "score": 44
       }
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 256,
+          "commits": 257,
           "prs": 187,
           "merged_prs": 130,
           "reviews": 212,
-          "score": 3127
+          "score": 3128
         },
         {
           "name": "liamaharon",
@@ -4344,6 +4344,16 @@
           "score": 90
         },
         {
+          "name": "dhirajs0",
+          "github": "dhirajs0",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 4,
+          "prs": 6,
+          "merged_prs": 1,
+          "reviews": 2,
+          "score": 50
+        },
+        {
           "name": "charlesHetterich",
           "github": "charlesHetterich",
           "cohort": "PBA 6 Lucerne 2025",
@@ -4362,16 +4372,6 @@
           "merged_prs": 1,
           "reviews": 2,
           "score": 47
-        },
-        {
-          "name": "dhirajs0",
-          "github": "dhirajs0",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 4,
-          "prs": 5,
-          "merged_prs": 1,
-          "reviews": 2,
-          "score": 45
         },
         {
           "name": "P1sar",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 7,
+          "commits": 8,
           "prs": 14,
           "merged_prs": 3,
           "reviews": 23,
-          "score": 176
+          "score": 177
         },
         {
           "name": "cirko33",
@@ -5122,8 +5122,8 @@
           "commits": 3,
           "prs": 5,
           "merged_prs": 1,
-          "reviews": 2,
-          "score": 44
+          "reviews": 3,
+          "score": 47
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.11132500234012,
+    "average_review_time_hours": 79.04908038720535,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 763,
-        "approved_count": 261,
-        "avg_time_to_review_hours": 85.88033161068046,
-        "approval_rate": 34.20707732634338
+        "review_count": 765,
+        "approved_count": 262,
+        "avg_time_to_review_hours": 85.25944230769231,
+        "approval_rate": 34.248366013071895
       },
       {
         "reviewer": "bkchr",
@@ -5763,8 +5763,8 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 69.63091435185184,
-        "pr_count": 48,
+        "avg_review_time_hours": 68.31527777777778,
+        "pr_count": 49,
         "merged_count": 39
       },
       {
@@ -102684,6 +102684,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "4dc7a6ca8705af21a1b8c2731d008d26a7b8f76b",
+                    "message": "Lower MaxEthExtrinsicWeight from 90% to 50% (#1091)",
+                    "date": "2026-02-28T00:58:25Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/4dc7a6ca8705af21a1b8c2731d008d26a7b8f76b"
+                  },
+                  {
                     "sha": "17538a854dff0dc7b9dbe95f6227de2a8f02119b",
                     "message": "Contracts-rococo: Update migration (#2763)",
                     "date": "2023-06-22T17:50:32Z",
@@ -162485,6 +162491,38 @@
                 ],
                 "prs": [
                   {
+                    "number": 1095,
+                    "title": "fix(asset-hub-polkadot): add MultiAssetBounties to Governance and NonTransfer proxy filters",
+                    "state": "OPEN",
+                    "created_at": "2026-02-27T10:15:43Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1095",
+                    "ready_for_review_at": "2026-02-27T10:15:43Z",
+                    "reviews": [
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-02-27T15:25:36Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-02-27T15:25:49Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-02-27T10:28:56Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 5.164722222222222,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1070,
                     "title": "Add multi asset bounties to runtime and upgrade related deps",
                     "state": "OPEN",
@@ -166775,6 +166813,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11203,
+                    "pr_title": "asset-hub-westend: restrict StakingOperator proxy to explicit utility  batch calls",
+                    "reviewed_at": "2026-02-27T15:06:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11203"
+                  },
+                  {
                     "pr_number": 11167,
                     "pr_title": "tiny fixes for staking weights",
                     "reviewed_at": "2026-02-25T15:32:20Z",
@@ -167851,6 +167895,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "5f121acf12dc4dcaaa4d6d9a9d6342897c216ad2",
+                    "message": "[eth-rpc]: cap block_number_to_hashes map size (#11193)",
+                    "date": "2026-02-27T16:06:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/5f121acf12dc4dcaaa4d6d9a9d6342897c216ad2"
+                  },
                   {
                     "sha": "b4a1f75c4f26109c76f1e4b90eb93a2f44d0b0e7",
                     "message": "revive-eth-rpc: Use pending block for estimate_gas in dev mode (#10963)",

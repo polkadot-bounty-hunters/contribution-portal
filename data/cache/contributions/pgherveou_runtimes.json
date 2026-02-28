@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "4dc7a6ca8705af21a1b8c2731d008d26a7b8f76b",
+      "message": "Lower MaxEthExtrinsicWeight from 90% to 50% (#1091)",
+      "date": "2026-02-28T00:58:25Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/4dc7a6ca8705af21a1b8c2731d008d26a7b8f76b"
+    },
+    {
       "sha": "17538a854dff0dc7b9dbe95f6227de2a8f02119b",
       "message": "Contracts-rococo: Update migration (#2763)",
       "date": "2023-06-22T17:50:32Z",
