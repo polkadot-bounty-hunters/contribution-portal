@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "c6e762a4e9d07b56ae3fef14625a8c8bd11091cc",
+      "message": "fix(asset-hub-polkadot): add MultiAssetBounties to Governance and NonTransfer proxy filters (#1095)",
+      "date": "2026-03-02T09:46:32Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/c6e762a4e9d07b56ae3fef14625a8c8bd11091cc"
+    },
+    {
       "sha": "1c6a06a1175d6d0df7bcc21fd048b9736cb92e97",
       "message": "Add multi asset bounties to runtime and upgrade related deps (#1070)",
       "date": "2026-02-24T15:47:59Z",

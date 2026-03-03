@@ -6990,6 +6990,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11222,
+      "pr_title": "staking-async/rc-client: replace MinSetKeysBond with storage deposit",
+      "reviewed_at": "2026-03-02T20:56:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11222"
+    },
+    {
       "pr_number": 11197,
       "pr_title": "pallet-session: track consumer refs and release deposits for externally set keys",
       "reviewed_at": "2026-02-27T02:39:41Z",

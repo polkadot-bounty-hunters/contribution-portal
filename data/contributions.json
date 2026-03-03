@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-02T05:28:34.952Z",
+  "generated_at": "2026-03-03T05:29:49.034Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1469,
-    "total_prs": 1531,
-    "total_merged_prs": 1017,
-    "total_reviews": 2277
+    "total_commits": 1471,
+    "total_prs": 1534,
+    "total_merged_prs": 1018,
+    "total_reviews": 2281
   },
   "leaderboard": {
     "overall": [
@@ -14,21 +14,21 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 256,
-        "prs": 187,
-        "merged_prs": 145,
+        "commits": 257,
+        "prs": 188,
+        "merged_prs": 146,
         "reviews": 239,
-        "score": 3358
+        "score": 3374
       },
       {
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 257,
-        "prs": 187,
+        "prs": 189,
         "merged_prs": 130,
-        "reviews": 212,
-        "score": 3128
+        "reviews": 213,
+        "score": 3141
       },
       {
         "name": "liamaharon",
@@ -47,8 +47,8 @@
         "commits": 87,
         "prs": 119,
         "merged_prs": 74,
-        "reviews": 208,
-        "score": 2046
+        "reviews": 209,
+        "score": 2049
       },
       {
         "name": "franciscoaguirre",
@@ -147,8 +147,8 @@
         "commits": 12,
         "prs": 23,
         "merged_prs": 12,
-        "reviews": 47,
-        "score": 388
+        "reviews": 48,
+        "score": 391
       },
       {
         "name": "muraca",
@@ -217,8 +217,8 @@
         "commits": 8,
         "prs": 14,
         "merged_prs": 3,
-        "reviews": 23,
-        "score": 177
+        "reviews": 24,
+        "score": 180
       },
       {
         "name": "DrW3RK",
@@ -441,6 +441,16 @@
         "score": 55
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 5,
+        "prs": 6,
+        "merged_prs": 1,
+        "reviews": 2,
+        "score": 51
+      },
+      {
         "name": "bee344",
         "github": "bee344",
         "cohort": "PBA 2 BA 2023",
@@ -448,16 +458,6 @@
         "prs": 4,
         "merged_prs": 0,
         "reviews": 10,
-        "score": 50
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 4,
-        "prs": 6,
-        "merged_prs": 1,
-        "reviews": 2,
         "score": 50
       },
       {
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 256,
-          "prs": 187,
-          "merged_prs": 145,
+          "commits": 257,
+          "prs": 188,
+          "merged_prs": 146,
           "reviews": 239,
-          "score": 3358
+          "score": 3374
         },
         {
           "name": "ank4n",
@@ -530,8 +530,8 @@
           "commits": 87,
           "prs": 119,
           "merged_prs": 74,
-          "reviews": 208,
-          "score": 2046
+          "reviews": 209,
+          "score": 2049
         },
         {
           "name": "franciscoaguirre",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 257,
-          "prs": 187,
+          "prs": 189,
           "merged_prs": 130,
-          "reviews": 212,
-          "score": 3128
+          "reviews": 213,
+          "score": 3141
         },
         {
           "name": "liamaharon",
@@ -1684,8 +1684,8 @@
           "commits": 12,
           "prs": 23,
           "merged_prs": 12,
-          "reviews": 47,
-          "score": 388
+          "reviews": 48,
+          "score": 391
         },
         {
           "name": "DrW3RK",
@@ -4347,11 +4347,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 4,
+          "commits": 5,
           "prs": 6,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 50
+          "score": 51
         },
         {
           "name": "charlesHetterich",
@@ -5112,8 +5112,8 @@
           "commits": 8,
           "prs": 14,
           "merged_prs": 3,
-          "reviews": 23,
-          "score": 177
+          "reviews": 24,
+          "score": 180
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 79.04908038720535,
+    "average_review_time_hours": 78.92047105508867,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 695,
-        "approved_count": 397,
+        "review_count": 696,
+        "approved_count": 398,
         "avg_time_to_review_hours": 48.84318273092371,
-        "approval_rate": 57.122302158273385
+        "approval_rate": 57.18390804597702
       },
       {
         "reviewer": "bkontur",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 90.29100145243282,
-        "pr_count": 765,
-        "merged_count": 649
+        "avg_review_time_hours": 90.06215015210779,
+        "pr_count": 767,
+        "merged_count": 650
       },
       {
         "repository": "paritytech/substrate",
@@ -26187,6 +26187,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11222,
+                    "pr_title": "staking-async/rc-client: replace MinSetKeysBond with storage deposit",
+                    "reviewed_at": "2026-03-02T20:56:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11222"
+                  },
+                  {
                     "pr_number": 11197,
                     "pr_title": "pallet-session: track consumer refs and release deposits for externally set keys",
                     "reviewed_at": "2026-02-27T02:39:41Z",
@@ -36726,6 +36732,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "f9df32360c6c22747f60b3ff58243890eecafc8e",
+                    "message": "fix: publish-check-compile.yml (#11232)",
+                    "date": "2026-03-02T19:28:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/f9df32360c6c22747f60b3ff58243890eecafc8e"
+                  },
+                  {
                     "sha": "7b40bd275e2497bf06c4fe4e5edb6fdac0e3deb4",
                     "message": "bump trie-db version to 0.31.0 (#10573)",
                     "date": "2025-12-11T08:19:44Z",
@@ -37735,6 +37747,43 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11232,
+                    "title": "fix: publish-check-compile.yml",
+                    "state": "MERGED",
+                    "created_at": "2026-03-02T16:11:43Z",
+                    "closed_at": "2026-03-02T20:16:56Z",
+                    "merged_at": "2026-03-02T20:16:56Z",
+                    "merged_by": "dmitry-markin",
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11232",
+                    "ready_for_review_at": "2026-03-02T16:11:43Z",
+                    "reviews": [
+                      {
+                        "reviewer": "alvicsam",
+                        "submitted_at": "2026-03-02T16:26:59Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-03-02T16:28:55Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "dmitry-markin",
+                        "submitted_at": "2026-03-02T19:28:34Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2026-03-02T16:13:38Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.2544444444444444,
+                    "time_to_merge_hours": 4.086944444444445
+                  },
                   {
                     "number": 10573,
                     "title": "bump trie-db version to 0.31.0",
@@ -90347,6 +90396,64 @@
                 ],
                 "prs": [
                   {
+                    "number": 11227,
+                    "title": "pallet-revive: add zero-value transfer/send stipend tests",
+                    "state": "OPEN",
+                    "created_at": "2026-03-02T12:48:31Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11227",
+                    "ready_for_review_at": "2026-03-02T12:48:31Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-03-02T17:36:26Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "mokita-j",
+                        "submitted_at": "2026-03-02T18:08:27Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-03-02T19:37:15Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-03-02T19:40:09Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-03-02T19:51:59Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 4.798611111111111,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11226,
+                    "title": "pallet-revive: simplify call stipend and reentrancy heuristic",
+                    "state": "CLOSED",
+                    "created_at": "2026-03-02T12:06:06Z",
+                    "closed_at": "2026-03-02T12:31:30Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11226",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11054,
                     "title": "pallet-revive: minor cleanups and fixes",
                     "state": "OPEN",
@@ -97768,6 +97875,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11227,
+                    "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",
+                    "reviewed_at": "2026-03-02T19:52:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11227"
+                  },
                   {
                     "pr_number": 11193,
                     "pr_title": "[eth-rpc]: cap block_number_to_hashes map size",
@@ -119872,6 +119985,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1098,
+                    "pr_title": "Recalibrate PriorityBoostPerMessage for bridge-hub-polkadot",
+                    "reviewed_at": "2026-03-02T20:03:28Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1098"
+                  },
                   {
                     "pr_number": 1086,
                     "pr_title": "ci: add check-runtime validation to release workflow",
@@ -162477,6 +162596,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "c6e762a4e9d07b56ae3fef14625a8c8bd11091cc",
+                    "message": "fix(asset-hub-polkadot): add MultiAssetBounties to Governance and NonTransfer proxy filters (#1095)",
+                    "date": "2026-03-02T09:46:32Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/c6e762a4e9d07b56ae3fef14625a8c8bd11091cc"
+                  },
+                  {
                     "sha": "1c6a06a1175d6d0df7bcc21fd048b9736cb92e97",
                     "message": "Add multi asset bounties to runtime and upgrade related deps (#1070)",
                     "date": "2026-02-24T15:47:59Z",
@@ -168464,6 +168589,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11227,
+                    "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",
+                    "reviewed_at": "2026-03-02T19:52:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11227"
+                  },
                   {
                     "pr_number": 10950,
                     "pr_title": "fix(revive): handle transaction hash conflicts during re-org",

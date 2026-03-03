@@ -1329,6 +1329,64 @@
   ],
   "prs": [
     {
+      "number": 11227,
+      "title": "pallet-revive: add zero-value transfer/send stipend tests",
+      "state": "OPEN",
+      "created_at": "2026-03-02T12:48:31Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11227",
+      "ready_for_review_at": "2026-03-02T12:48:31Z",
+      "reviews": [
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2026-03-02T17:36:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "mokita-j",
+          "submitted_at": "2026-03-02T18:08:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-03-02T19:37:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-03-02T19:40:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-03-02T19:51:59Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 4.798611111111111,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11226,
+      "title": "pallet-revive: simplify call stipend and reentrancy heuristic",
+      "state": "CLOSED",
+      "created_at": "2026-03-02T12:06:06Z",
+      "closed_at": "2026-03-02T12:31:30Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11226",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11054,
       "title": "pallet-revive: minor cleanups and fixes",
       "state": "OPEN",
@@ -8750,6 +8808,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11227,
+      "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",
+      "reviewed_at": "2026-03-02T19:52:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11227"
+    },
     {
       "pr_number": 11193,
       "pr_title": "[eth-rpc]: cap block_number_to_hashes map size",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "f9df32360c6c22747f60b3ff58243890eecafc8e",
+      "message": "fix: publish-check-compile.yml (#11232)",
+      "date": "2026-03-02T19:28:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f9df32360c6c22747f60b3ff58243890eecafc8e"
+    },
+    {
       "sha": "7b40bd275e2497bf06c4fe4e5edb6fdac0e3deb4",
       "message": "bump trie-db version to 0.31.0 (#10573)",
       "date": "2025-12-11T08:19:44Z",
@@ -1010,6 +1016,43 @@
     }
   ],
   "prs": [
+    {
+      "number": 11232,
+      "title": "fix: publish-check-compile.yml",
+      "state": "MERGED",
+      "created_at": "2026-03-02T16:11:43Z",
+      "closed_at": "2026-03-02T20:16:56Z",
+      "merged_at": "2026-03-02T20:16:56Z",
+      "merged_by": "dmitry-markin",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11232",
+      "ready_for_review_at": "2026-03-02T16:11:43Z",
+      "reviews": [
+        {
+          "reviewer": "alvicsam",
+          "submitted_at": "2026-03-02T16:26:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-03-02T16:28:55Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "dmitry-markin",
+          "submitted_at": "2026-03-02T19:28:34Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2026-03-02T16:13:38Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2544444444444444,
+      "time_to_merge_hours": 4.086944444444445
+    },
     {
       "number": 10573,
       "title": "bump trie-db version to 0.31.0",

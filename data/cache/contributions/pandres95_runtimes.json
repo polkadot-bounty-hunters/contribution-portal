@@ -1533,6 +1533,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1098,
+      "pr_title": "Recalibrate PriorityBoostPerMessage for bridge-hub-polkadot",
+      "reviewed_at": "2026-03-02T20:03:28Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1098"
+    },
+    {
       "pr_number": 1086,
       "pr_title": "ci: add check-runtime validation to release workflow",
       "reviewed_at": "2026-02-23T22:45:41Z",

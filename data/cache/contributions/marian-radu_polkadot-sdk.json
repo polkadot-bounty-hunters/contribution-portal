@@ -570,6 +570,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11227,
+      "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",
+      "reviewed_at": "2026-03-02T19:52:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11227"
+    },
+    {
       "pr_number": 10950,
       "pr_title": "fix(revive): handle transaction hash conflicts during re-org",
       "reviewed_at": "2026-01-30T22:22:27Z",
