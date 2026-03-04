@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d17cd91ab7e092c08ce1a002309f031df7f804a5",
+      "message": "pallet-revive: add zero-value transfer/send stipend tests (#11227)",
+      "date": "2026-03-03T10:08:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d17cd91ab7e092c08ce1a002309f031df7f804a5"
+    },
+    {
       "sha": "fb71b25620c5ce246a1151d5eca21491bac012b1",
       "message": "pallet-revive: eth-rpc improve submit (#10328)",
       "date": "2026-02-23T15:14:25Z",

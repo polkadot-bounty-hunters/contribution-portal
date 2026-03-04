@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-03T05:29:49.034Z",
+  "generated_at": "2026-03-04T05:23:35.276Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1471,
+    "total_commits": 1473,
     "total_prs": 1534,
     "total_merged_prs": 1018,
     "total_reviews": 2281
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 257,
+        "commits": 258,
         "prs": 189,
         "merged_prs": 130,
         "reviews": 213,
-        "score": 3141
+        "score": 3142
       },
       {
         "name": "liamaharon",
@@ -214,11 +214,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 8,
+        "commits": 9,
         "prs": 14,
         "merged_prs": 3,
         "reviews": 24,
-        "score": 180
+        "score": 181
       },
       {
         "name": "DrW3RK",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 257,
+          "commits": 258,
           "prs": 189,
           "merged_prs": 130,
           "reviews": 213,
-          "score": 3141
+          "score": 3142
         },
         {
           "name": "liamaharon",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 8,
+          "commits": 9,
           "prs": 14,
           "merged_prs": 3,
           "reviews": 24,
-          "score": 180
+          "score": 181
         },
         {
           "name": "cirko33",
@@ -89068,6 +89068,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "d17cd91ab7e092c08ce1a002309f031df7f804a5",
+                    "message": "pallet-revive: add zero-value transfer/send stipend tests (#11227)",
+                    "date": "2026-03-03T10:08:12Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/d17cd91ab7e092c08ce1a002309f031df7f804a5"
+                  },
+                  {
                     "sha": "fb71b25620c5ce246a1151d5eca21491bac012b1",
                     "message": "pallet-revive: eth-rpc improve submit (#10328)",
                     "date": "2026-02-23T15:14:25Z",
@@ -168020,6 +168026,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "9d70d96ddb160b56eaa3d7c83fd74b0123c2c826",
+                    "message": "pallet-revive: Enable call_invalid_opcode test (#10849)",
+                    "date": "2026-03-03T11:06:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/9d70d96ddb160b56eaa3d7c83fd74b0123c2c826"
+                  },
                   {
                     "sha": "5f121acf12dc4dcaaa4d6d9a9d6342897c216ad2",
                     "message": "[eth-rpc]: cap block_number_to_hashes map size (#11193)",

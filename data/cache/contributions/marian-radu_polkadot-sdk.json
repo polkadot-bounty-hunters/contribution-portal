@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "9d70d96ddb160b56eaa3d7c83fd74b0123c2c826",
+      "message": "pallet-revive: Enable call_invalid_opcode test (#10849)",
+      "date": "2026-03-03T11:06:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/9d70d96ddb160b56eaa3d7c83fd74b0123c2c826"
+    },
+    {
       "sha": "5f121acf12dc4dcaaa4d6d9a9d6342897c216ad2",
       "message": "[eth-rpc]: cap block_number_to_hashes map size (#11193)",
       "date": "2026-02-27T16:06:06Z",
