@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-04T05:23:35.276Z",
+  "generated_at": "2026-03-05T05:27:24.555Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1473,
     "total_prs": 1534,
     "total_merged_prs": 1018,
-    "total_reviews": 2281
+    "total_reviews": 2282
   },
   "leaderboard": {
     "overall": [
@@ -47,8 +47,8 @@
         "commits": 87,
         "prs": 119,
         "merged_prs": 74,
-        "reviews": 209,
-        "score": 2049
+        "reviews": 210,
+        "score": 2052
       },
       {
         "name": "franciscoaguirre",
@@ -530,8 +530,8 @@
           "commits": 87,
           "prs": 119,
           "merged_prs": 74,
-          "reviews": 209,
-          "score": 2049
+          "reviews": 210,
+          "score": 2052
         },
         {
           "name": "franciscoaguirre",
@@ -26186,6 +26186,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11255,
+                    "pr_title": "staking-async-rc-client: add proof parameter to set_keys ",
+                    "reviewed_at": "2026-03-04T14:09:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11255"
+                  },
                   {
                     "pr_number": 11222,
                     "pr_title": "staking-async/rc-client: replace MinSetKeysBond with storage deposit",

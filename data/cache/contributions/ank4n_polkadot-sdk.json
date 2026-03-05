@@ -6990,6 +6990,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11255,
+      "pr_title": "staking-async-rc-client: add proof parameter to set_keys ",
+      "reviewed_at": "2026-03-04T14:09:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11255"
+    },
+    {
       "pr_number": 11222,
       "pr_title": "staking-async/rc-client: replace MinSetKeysBond with storage deposit",
       "reviewed_at": "2026-03-02T20:56:10Z",
