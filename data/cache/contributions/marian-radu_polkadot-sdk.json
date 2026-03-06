@@ -576,6 +576,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11276,
+      "pr_title": "pallet-revive: use u128 Balance in test config",
+      "reviewed_at": "2026-03-05T14:15:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11276"
+    },
+    {
       "pr_number": 11227,
       "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",
       "reviewed_at": "2026-03-02T19:52:08Z",

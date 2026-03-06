@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "b931f1f32771dd8d65bfd077c815af482e9389d5",
+      "message": "pallet-revive: use u128 Balance in test config (#11276)",
+      "date": "2026-03-05T13:29:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b931f1f32771dd8d65bfd077c815af482e9389d5"
+    },
+    {
       "sha": "d17cd91ab7e092c08ce1a002309f031df7f804a5",
       "message": "pallet-revive: add zero-value transfer/send stipend tests (#11227)",
       "date": "2026-03-03T10:08:12Z",
@@ -1334,6 +1340,95 @@
     }
   ],
   "prs": [
+    {
+      "number": 11282,
+      "title": "[CI] Download resolc from GitHub release instead of artifact",
+      "state": "OPEN",
+      "created_at": "2026-03-05T13:41:26Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11282",
+      "ready_for_review_at": "2026-03-05T13:41:26Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-03-05T13:42:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "alvicsam",
+          "submitted_at": "2026-03-05T13:50:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2026-03-05T14:08:27Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-03-05T14:16:41Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "pgherveou",
+          "submitted_at": "2026-03-05T15:48:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2026-03-05T16:28:11Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2026-03-05T16:29:18Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-03-05T13:44:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.025277777777777777,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11276,
+      "title": "pallet-revive: use u128 Balance in test config",
+      "state": "MERGED",
+      "created_at": "2026-03-05T08:25:10Z",
+      "closed_at": "2026-03-05T14:15:43Z",
+      "merged_at": "2026-03-05T14:15:43Z",
+      "merged_by": "pgherveou",
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11276",
+      "ready_for_review_at": "2026-03-05T08:25:10Z",
+      "reviews": [
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2026-03-05T09:49:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "smiasojed",
+          "submitted_at": "2026-03-05T13:29:06Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-03-05T08:28:19Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.4108333333333334,
+      "time_to_merge_hours": 5.8425
+    },
     {
       "number": 11227,
       "title": "pallet-revive: add zero-value transfer/send stipend tests",
@@ -8814,6 +8909,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11282,
+      "pr_title": "[CI] Download resolc from GitHub release instead of artifact",
+      "reviewed_at": "2026-03-05T16:29:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11282"
+    },
     {
       "pr_number": 11227,
       "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",

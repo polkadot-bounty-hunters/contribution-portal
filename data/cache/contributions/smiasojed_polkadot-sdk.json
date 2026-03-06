@@ -1406,6 +1406,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11282,
+      "pr_title": "[CI] Download resolc from GitHub release instead of artifact",
+      "reviewed_at": "2026-03-05T16:29:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11282"
+    },
+    {
+      "pr_number": 11276,
+      "pr_title": "pallet-revive: use u128 Balance in test config",
+      "reviewed_at": "2026-03-05T14:15:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11276"
+    },
+    {
       "pr_number": 10169,
       "pr_title": "pallet-revive-eth-rpc: derive Encode/Decode for subxt-generated types",
       "reviewed_at": "2025-10-30T15:22:48Z",

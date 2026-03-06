@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-05T05:27:24.555Z",
+  "generated_at": "2026-03-06T05:24:16.939Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1473,
-    "total_prs": 1534,
-    "total_merged_prs": 1018,
-    "total_reviews": 2282
+    "total_commits": 1474,
+    "total_prs": 1536,
+    "total_merged_prs": 1019,
+    "total_reviews": 2288
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 258,
-        "prs": 189,
-        "merged_prs": 130,
-        "reviews": 213,
-        "score": 3142
+        "commits": 259,
+        "prs": 191,
+        "merged_prs": 131,
+        "reviews": 214,
+        "score": 3166
       },
       {
         "name": "liamaharon",
@@ -47,8 +47,8 @@
         "commits": 87,
         "prs": 119,
         "merged_prs": 74,
-        "reviews": 210,
-        "score": 2052
+        "reviews": 212,
+        "score": 2058
       },
       {
         "name": "franciscoaguirre",
@@ -191,6 +191,16 @@
         "score": 293
       },
       {
+        "name": "smiasojed",
+        "github": "smiasojed",
+        "cohort": "PBA 2 BA 2023",
+        "commits": 8,
+        "prs": 8,
+        "merged_prs": 6,
+        "reviews": 49,
+        "score": 255
+      },
+      {
         "name": "Overkillus",
         "github": "Overkillus",
         "cohort": "PBA 2 BA 2023",
@@ -201,24 +211,14 @@
         "score": 254
       },
       {
-        "name": "smiasojed",
-        "github": "smiasojed",
-        "cohort": "PBA 2 BA 2023",
-        "commits": 8,
-        "prs": 8,
-        "merged_prs": 6,
-        "reviews": 47,
-        "score": 249
-      },
-      {
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 9,
         "prs": 14,
         "merged_prs": 3,
-        "reviews": 24,
-        "score": 181
+        "reviews": 25,
+        "score": 184
       },
       {
         "name": "DrW3RK",
@@ -530,8 +530,8 @@
           "commits": 87,
           "prs": 119,
           "merged_prs": 74,
-          "reviews": 210,
-          "score": 2052
+          "reviews": 212,
+          "score": 2058
         },
         {
           "name": "franciscoaguirre",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 258,
-          "prs": 189,
-          "merged_prs": 130,
-          "reviews": 213,
-          "score": 3142
+          "commits": 259,
+          "prs": 191,
+          "merged_prs": 131,
+          "reviews": 214,
+          "score": 3166
         },
         {
           "name": "liamaharon",
@@ -976,6 +976,16 @@
           "score": 319
         },
         {
+          "name": "smiasojed",
+          "github": "smiasojed",
+          "cohort": "PBA 2 BA 2023",
+          "commits": 8,
+          "prs": 8,
+          "merged_prs": 6,
+          "reviews": 49,
+          "score": 255
+        },
+        {
           "name": "Overkillus",
           "github": "Overkillus",
           "cohort": "PBA 2 BA 2023",
@@ -984,16 +994,6 @@
           "merged_prs": 10,
           "reviews": 30,
           "score": 254
-        },
-        {
-          "name": "smiasojed",
-          "github": "smiasojed",
-          "cohort": "PBA 2 BA 2023",
-          "commits": 8,
-          "prs": 8,
-          "merged_prs": 6,
-          "reviews": 47,
-          "score": 249
         },
         {
           "name": "wirednkod",
@@ -5112,8 +5112,8 @@
           "commits": 9,
           "prs": 14,
           "merged_prs": 3,
-          "reviews": 24,
-          "score": 181
+          "reviews": 25,
+          "score": 184
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.92047105508867,
+    "average_review_time_hours": 78.78925894854582,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 696,
+        "review_count": 697,
         "approved_count": 398,
-        "avg_time_to_review_hours": 48.84318273092371,
-        "approval_rate": 57.18390804597702
+        "avg_time_to_review_hours": 48.55085994677314,
+        "approval_rate": 57.10186513629842
       },
       {
         "reviewer": "bkontur",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 90.06215015210779,
-        "pr_count": 767,
-        "merged_count": 650
+        "avg_review_time_hours": 89.82978579685017,
+        "pr_count": 769,
+        "merged_count": 651
       },
       {
         "repository": "paritytech/substrate",
@@ -26187,6 +26187,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11280,
+                    "pr_title": "[stable2512] Backport #11154",
+                    "reviewed_at": "2026-03-05T13:42:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11280"
+                  },
+                  {
                     "pr_number": 11255,
                     "pr_title": "staking-async-rc-client: add proof parameter to set_keys ",
                     "reviewed_at": "2026-03-04T14:09:22Z",
@@ -30481,6 +30487,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1101,
+                    "pr_title": "Add support for kick_member in pallet-society and key deposit and proof of ownership in staking-async-rc-client",
+                    "reviewed_at": "2026-03-05T20:15:54Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1101"
+                  },
                   {
                     "pr_number": 1090,
                     "pr_title": "Bump staking and EPMB crates",
@@ -89074,6 +89086,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "b931f1f32771dd8d65bfd077c815af482e9389d5",
+                    "message": "pallet-revive: use u128 Balance in test config (#11276)",
+                    "date": "2026-03-05T13:29:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b931f1f32771dd8d65bfd077c815af482e9389d5"
+                  },
+                  {
                     "sha": "d17cd91ab7e092c08ce1a002309f031df7f804a5",
                     "message": "pallet-revive: add zero-value transfer/send stipend tests (#11227)",
                     "date": "2026-03-03T10:08:12Z",
@@ -90407,6 +90425,95 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11282,
+                    "title": "[CI] Download resolc from GitHub release instead of artifact",
+                    "state": "OPEN",
+                    "created_at": "2026-03-05T13:41:26Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11282",
+                    "ready_for_review_at": "2026-03-05T13:41:26Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-03-05T13:42:57Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "alvicsam",
+                        "submitted_at": "2026-03-05T13:50:41Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "smiasojed",
+                        "submitted_at": "2026-03-05T14:08:27Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-03-05T14:16:41Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "pgherveou",
+                        "submitted_at": "2026-03-05T15:48:53Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2026-03-05T16:28:11Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2026-03-05T16:29:18Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-03-05T13:44:28Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.025277777777777777,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11276,
+                    "title": "pallet-revive: use u128 Balance in test config",
+                    "state": "MERGED",
+                    "created_at": "2026-03-05T08:25:10Z",
+                    "closed_at": "2026-03-05T14:15:43Z",
+                    "merged_at": "2026-03-05T14:15:43Z",
+                    "merged_by": "pgherveou",
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11276",
+                    "ready_for_review_at": "2026-03-05T08:25:10Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-03-05T09:49:49Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "smiasojed",
+                        "submitted_at": "2026-03-05T13:29:06Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-03-05T08:28:19Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.4108333333333334,
+                    "time_to_merge_hours": 5.8425
+                  },
                   {
                     "number": 11227,
                     "title": "pallet-revive: add zero-value transfer/send stipend tests",
@@ -97887,6 +97994,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11282,
+                    "pr_title": "[CI] Download resolc from GitHub release instead of artifact",
+                    "reviewed_at": "2026-03-05T16:29:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11282"
+                  },
                   {
                     "pr_number": 11227,
                     "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",
@@ -105953,6 +106066,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11282,
+                    "pr_title": "[CI] Download resolc from GitHub release instead of artifact",
+                    "reviewed_at": "2026-03-05T16:29:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11282"
+                  },
+                  {
+                    "pr_number": 11276,
+                    "pr_title": "pallet-revive: use u128 Balance in test config",
+                    "reviewed_at": "2026-03-05T14:15:46Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11276"
+                  },
                   {
                     "pr_number": 10169,
                     "pr_title": "pallet-revive-eth-rpc: derive Encode/Decode for subxt-generated types",
@@ -168607,6 +168732,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11276,
+                    "pr_title": "pallet-revive: use u128 Balance in test config",
+                    "reviewed_at": "2026-03-05T14:15:46Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11276"
+                  },
                   {
                     "pr_number": 11227,
                     "pr_title": "pallet-revive: add zero-value transfer/send stipend tests",
