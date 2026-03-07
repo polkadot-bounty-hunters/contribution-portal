@@ -68,6 +68,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11291,
+      "pr_title": "statement-store: Add small statement-store network for debugging purposes",
+      "reviewed_at": "2026-03-06T10:15:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11291"
+    },
+    {
       "pr_number": 11175,
       "pr_title": "[stable2603] Backport #11172",
       "reviewed_at": "2026-02-25T14:47:21Z",

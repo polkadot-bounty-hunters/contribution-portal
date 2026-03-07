@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-06T05:24:16.939Z",
+  "generated_at": "2026-03-07T05:15:55.073Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1474,
+    "total_commits": 1475,
     "total_prs": 1536,
     "total_merged_prs": 1019,
-    "total_reviews": 2288
+    "total_reviews": 2290
   },
   "leaderboard": {
     "overall": [
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 75,
+        "commits": 76,
         "prs": 111,
         "merged_prs": 83,
         "reviews": 168,
-        "score": 1964
+        "score": 1965
       },
       {
         "name": "jsidorenko",
@@ -461,6 +461,16 @@
         "score": 50
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 3,
+        "prs": 5,
+        "merged_prs": 1,
+        "reviews": 4,
+        "score": 50
+      },
+      {
         "name": "joshuacheong",
         "github": "joshuacheong",
         "cohort": "PBA 3 Berkeley 2023",
@@ -488,16 +498,6 @@
         "prs": 6,
         "merged_prs": 1,
         "reviews": 2,
-        "score": 47
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 3,
-        "prs": 5,
-        "merged_prs": 1,
-        "reviews": 3,
         "score": 47
       },
       {
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 75,
+          "commits": 76,
           "prs": 111,
           "merged_prs": 83,
           "reviews": 168,
-          "score": 1964
+          "score": 1965
         },
         {
           "name": "jsidorenko",
@@ -4380,8 +4380,8 @@
           "commits": 0,
           "prs": 2,
           "merged_prs": 0,
-          "reviews": 4,
-          "score": 22
+          "reviews": 5,
+          "score": 25
         },
         {
           "name": "andrzejSulkowski",
@@ -5122,8 +5122,8 @@
           "commits": 3,
           "prs": 5,
           "merged_prs": 1,
-          "reviews": 3,
-          "score": 47
+          "reviews": 4,
+          "score": 50
         },
         {
           "name": "surajk-m",
@@ -15546,6 +15546,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "e9ed6607cd25bd4743ad80dc19dc971575776294",
+                    "message": "Allow fellowship's Architects track (ranks 4+) to manage fellowship treasury and salary on Asset Hub (#1072)",
+                    "date": "2026-03-06T17:43:25Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/e9ed6607cd25bd4743ad80dc19dc971575776294"
+                  },
                   {
                     "sha": "4e17c8e790e15bac0b3472fa92c59bfa3600d91d",
                     "message": "Allow HOLLAR to be reserved transferred to People Chain from Hydration (#962)",
@@ -163693,6 +163699,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11291,
+                    "pr_title": "statement-store: Add small statement-store network for debugging purposes",
+                    "reviewed_at": "2026-03-06T10:15:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11291"
+                  },
+                  {
                     "pr_number": 11175,
                     "pr_title": "[stable2603] Backport #11172",
                     "reviewed_at": "2026-02-25T14:47:21Z",
@@ -167074,6 +167086,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11295,
+                    "pr_title": "add  flag to collator",
+                    "reviewed_at": "2026-03-06T18:29:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11295"
+                  },
                   {
                     "pr_number": 11203,
                     "pr_title": "asset-hub-westend: restrict StakingOperator proxy to explicit utility  batch calls",

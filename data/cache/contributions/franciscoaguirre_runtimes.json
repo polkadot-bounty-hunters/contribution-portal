@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "e9ed6607cd25bd4743ad80dc19dc971575776294",
+      "message": "Allow fellowship's Architects track (ranks 4+) to manage fellowship treasury and salary on Asset Hub (#1072)",
+      "date": "2026-03-06T17:43:25Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e9ed6607cd25bd4743ad80dc19dc971575776294"
+    },
+    {
       "sha": "4e17c8e790e15bac0b3472fa92c59bfa3600d91d",
       "message": "Allow HOLLAR to be reserved transferred to People Chain from Hydration (#962)",
       "date": "2026-01-16T21:35:52Z",

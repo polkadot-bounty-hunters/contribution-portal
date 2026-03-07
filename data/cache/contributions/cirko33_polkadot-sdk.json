@@ -188,6 +188,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11295,
+      "pr_title": "add  flag to collator",
+      "reviewed_at": "2026-03-06T18:29:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11295"
+    },
+    {
       "pr_number": 11203,
       "pr_title": "asset-hub-westend: restrict StakingOperator proxy to explicit utility  batch calls",
       "reviewed_at": "2026-02-27T15:06:22Z",
