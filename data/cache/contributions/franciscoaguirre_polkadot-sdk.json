@@ -375,6 +375,22 @@
   ],
   "prs": [
     {
+      "number": 11320,
+      "title": "xcm executor refactor: process_holding_transaction",
+      "state": "OPEN",
+      "created_at": "2026-03-09T22:25:59Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "franciscoaguirre",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11320",
+      "ready_for_review_at": "2026-03-09T22:25:59Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 9963,
       "title": "Query delivery fees v2",
       "state": "OPEN",

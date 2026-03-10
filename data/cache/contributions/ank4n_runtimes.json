@@ -45,6 +45,33 @@
   ],
   "prs": [
     {
+      "number": 1104,
+      "title": "Add migration for PAH pool member with trapped funds",
+      "state": "OPEN",
+      "created_at": "2026-03-09T17:50:16Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1104",
+      "ready_for_review_at": "2026-03-09T17:50:16Z",
+      "reviews": [
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-03-09T18:53:17Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2026-03-09T18:14:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.0502777777777779,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 1038,
       "title": "ES changes without revive based on 2507",
       "state": "OPEN",

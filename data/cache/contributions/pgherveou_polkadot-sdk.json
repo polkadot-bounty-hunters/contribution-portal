@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "ded6501b8342825e9c382dc656614f6931cbb460",
+      "message": "revive: cap remaining_gas to u64::MAX in substrate_execution (#10924)",
+      "date": "2026-03-09T11:58:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ded6501b8342825e9c382dc656614f6931cbb460"
+    },
+    {
+      "sha": "46463b35c4a6c452189d762997668295165747d5",
+      "message": "[CI] Download resolc from GitHub release instead of artifact (#11282)",
+      "date": "2026-03-09T09:59:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/46463b35c4a6c452189d762997668295165747d5"
+    },
+    {
       "sha": "b931f1f32771dd8d65bfd077c815af482e9389d5",
       "message": "pallet-revive: use u128 Balance in test config (#11276)",
       "date": "2026-03-05T13:29:08Z",
