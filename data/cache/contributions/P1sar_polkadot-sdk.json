@@ -68,6 +68,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11329,
+      "pr_title": "statement-store: allow light clients to specify topic affinity",
+      "reviewed_at": "2026-03-10T17:39:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11329"
+    },
+    {
       "pr_number": 11291,
       "pr_title": "statement-store: Add small statement-store network for debugging purposes",
       "reviewed_at": "2026-03-06T10:15:06Z",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "05c70db1df49d5f3d1c1ec8176b920129befc12b",
+      "message": "Add migration for PAH pool member with trapped funds (#1104)",
+      "date": "2026-03-10T13:08:17Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/05c70db1df49d5f3d1c1ec8176b920129befc12b"
+    },
+    {
       "sha": "59802a1954fb9b9435536a56ed81075dc4fc70e9",
       "message": "Enable Nomination Pool Participation in Governance in Kusama (#540)",
       "date": "2025-01-13T18:57:00Z",

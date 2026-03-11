@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-10T05:23:34.841Z",
+  "generated_at": "2026-03-11T05:24:38.890Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1478,
+    "total_commits": 1479,
     "total_prs": 1539,
     "total_merged_prs": 1019,
-    "total_reviews": 2292
+    "total_reviews": 2295
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 261,
         "prs": 191,
         "merged_prs": 131,
-        "reviews": 214,
-        "score": 3168
+        "reviews": 215,
+        "score": 3171
       },
       {
         "name": "liamaharon",
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 88,
+        "commits": 89,
         "prs": 121,
         "merged_prs": 74,
         "reviews": 214,
-        "score": 2075
+        "score": 2076
       },
       {
         "name": "franciscoaguirre",
@@ -57,8 +57,8 @@
         "commits": 76,
         "prs": 112,
         "merged_prs": 83,
-        "reviews": 168,
-        "score": 1970
+        "reviews": 169,
+        "score": 1973
       },
       {
         "name": "jsidorenko",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 88,
+          "commits": 89,
           "prs": 121,
           "merged_prs": 74,
           "reviews": 214,
-          "score": 2075
+          "score": 2076
         },
         {
           "name": "franciscoaguirre",
@@ -540,8 +540,8 @@
           "commits": 76,
           "prs": 112,
           "merged_prs": 83,
-          "reviews": 168,
-          "score": 1970
+          "reviews": 169,
+          "score": 1973
         },
         {
           "name": "jsidorenko",
@@ -932,8 +932,8 @@
           "commits": 261,
           "prs": 191,
           "merged_prs": 131,
-          "reviews": 214,
-          "score": 3168
+          "reviews": 215,
+          "score": 3171
         },
         {
           "name": "liamaharon",
@@ -4380,8 +4380,8 @@
           "commits": 0,
           "prs": 2,
           "merged_prs": 0,
-          "reviews": 5,
-          "score": 25
+          "reviews": 6,
+          "score": 28
         },
         {
           "name": "andrzejSulkowski",
@@ -14708,6 +14708,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11327,
+                    "pr_title": "[stable2603] Backport #10384",
+                    "reviewed_at": "2026-03-10T18:54:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11327"
+                  },
                   {
                     "pr_number": 11172,
                     "pr_title": "Fix statement allowance storage key",
@@ -30158,6 +30164,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "05c70db1df49d5f3d1c1ec8176b920129befc12b",
+                    "message": "Add migration for PAH pool member with trapped funds (#1104)",
+                    "date": "2026-03-10T13:08:17Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/05c70db1df49d5f3d1c1ec8176b920129befc12b"
+                  },
                   {
                     "sha": "59802a1954fb9b9435536a56ed81075dc4fc70e9",
                     "message": "Enable Nomination Pool Participation in Governance in Kusama (#540)",
@@ -98090,6 +98102,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11322,
+                    "pr_title": "[WIP][pallet-assets-precompiles] Idiomatic Rust cleanups",
+                    "reviewed_at": "2026-03-10T18:58:55Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11322"
+                  },
+                  {
                     "pr_number": 11282,
                     "pr_title": "[CI] Download resolc from GitHub release instead of artifact",
                     "reviewed_at": "2026-03-05T16:29:18Z",
@@ -163787,6 +163805,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11329,
+                    "pr_title": "statement-store: allow light clients to specify topic affinity",
+                    "reviewed_at": "2026-03-10T17:39:32Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11329"
+                  },
                   {
                     "pr_number": 11291,
                     "pr_title": "statement-store: Add small statement-store network for debugging purposes",
