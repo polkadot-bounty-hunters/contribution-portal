@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-11T05:24:38.890Z",
+  "generated_at": "2026-03-12T05:29:03.150Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1479,
-    "total_prs": 1539,
+    "total_prs": 1540,
     "total_merged_prs": 1019,
     "total_reviews": 2295
   },
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 261,
-        "prs": 191,
+        "prs": 192,
         "merged_prs": 131,
         "reviews": 215,
-        "score": 3171
+        "score": 3176
       },
       {
         "name": "liamaharon",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 261,
-          "prs": 191,
+          "prs": 192,
           "merged_prs": 131,
           "reviews": 215,
-          "score": 3171
+          "score": 3176
         },
         {
           "name": "liamaharon",
@@ -90532,6 +90532,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11344,
+                    "title": "ci: filter out GitHub Project custom labels in check-labels workflow",
+                    "state": "CLOSED",
+                    "created_at": "2026-03-11T14:15:29Z",
+                    "closed_at": "2026-03-11T15:31:18Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11344",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11282,
                     "title": "[CI] Download resolc from GitHub release instead of artifact",

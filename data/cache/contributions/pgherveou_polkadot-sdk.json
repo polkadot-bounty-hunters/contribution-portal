@@ -1353,6 +1353,22 @@
   ],
   "prs": [
     {
+      "number": 11344,
+      "title": "ci: filter out GitHub Project custom labels in check-labels workflow",
+      "state": "CLOSED",
+      "created_at": "2026-03-11T14:15:29Z",
+      "closed_at": "2026-03-11T15:31:18Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11344",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11282,
       "title": "[CI] Download resolc from GitHub release instead of artifact",
       "state": "OPEN",
