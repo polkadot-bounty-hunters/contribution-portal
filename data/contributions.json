@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-12T05:29:03.150Z",
+  "generated_at": "2026-03-13T05:27:02.072Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1479,
-    "total_prs": 1540,
+    "total_prs": 1541,
     "total_merged_prs": 1019,
     "total_reviews": 2295
   },
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 111,
-        "prs": 70,
+        "prs": 71,
         "merged_prs": 54,
         "reviews": 53,
-        "score": 1160
+        "score": 1165
       },
       {
         "name": "juangirini",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 111,
-          "prs": 70,
+          "prs": 71,
           "merged_prs": 54,
           "reviews": 53,
-          "score": 1160
+          "score": 1165
         },
         {
           "name": "pandres95",
@@ -123448,6 +123448,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11351,
+                    "title": "Coretime Market Pallet",
+                    "state": "OPEN",
+                    "created_at": "2026-03-12T09:44:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11351",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 8176,
                     "title": "RelaychainStateProvider block_hash_at",
