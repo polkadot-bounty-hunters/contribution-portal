@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-13T05:27:02.072Z",
+  "generated_at": "2026-03-14T05:25:44.459Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1479,
     "total_prs": 1541,
     "total_merged_prs": 1019,
-    "total_reviews": 2295
+    "total_reviews": 2296
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 76,
         "prs": 112,
         "merged_prs": 83,
-        "reviews": 169,
-        "score": 1973
+        "reviews": 170,
+        "score": 1976
       },
       {
         "name": "jsidorenko",
@@ -540,8 +540,8 @@
           "commits": 76,
           "prs": 112,
           "merged_prs": 83,
-          "reviews": 169,
-          "score": 1973
+          "reviews": 170,
+          "score": 1976
         },
         {
           "name": "jsidorenko",
@@ -16844,6 +16844,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1110,
+                    "pr_title": "Release 2.1.1",
+                    "reviewed_at": "2026-03-13T17:10:49Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1110"
+                  },
                   {
                     "pr_number": 1085,
                     "pr_title": "Asset Hubs: add reserves info to support non-teleportable Foreign Assets",

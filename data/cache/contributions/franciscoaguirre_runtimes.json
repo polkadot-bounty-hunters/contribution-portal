@@ -1277,6 +1277,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1110,
+      "pr_title": "Release 2.1.1",
+      "reviewed_at": "2026-03-13T17:10:49Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1110"
+    },
+    {
       "pr_number": 1085,
       "pr_title": "Asset Hubs: add reserves info to support non-teleportable Foreign Assets",
       "reviewed_at": "2026-02-23T16:39:30Z",
