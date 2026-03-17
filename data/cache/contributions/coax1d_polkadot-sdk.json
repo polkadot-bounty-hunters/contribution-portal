@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "b7e7e89063fa039d3e643e7d112f7455632b1a3f",
+      "message": "Add Pallas and Vesta curve host functions to sp-crypto-ec-utils (#11035)",
+      "date": "2026-03-16T15:59:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b7e7e89063fa039d3e643e7d112f7455632b1a3f"
+    }
+  ],
   "prs": [],
   "issues": [],
   "reviews": []

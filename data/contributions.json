@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-16T05:55:03.518Z",
+  "generated_at": "2026-03-17T05:32:22.550Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1479,
-    "total_prs": 1541,
+    "total_commits": 1480,
+    "total_prs": 1542,
     "total_merged_prs": 1019,
     "total_reviews": 2296
   },
@@ -441,6 +441,16 @@
         "score": 55
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 3,
+        "prs": 6,
+        "merged_prs": 1,
+        "reviews": 4,
+        "score": 55
+      },
+      {
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
@@ -458,16 +468,6 @@
         "prs": 4,
         "merged_prs": 0,
         "reviews": 10,
-        "score": 50
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 3,
-        "prs": 5,
-        "merged_prs": 1,
-        "reviews": 4,
         "score": 50
       },
       {
@@ -694,6 +694,16 @@
           "score": 5
         },
         {
+          "name": "coax1d",
+          "github": "coax1d",
+          "cohort": "PBA 1 Cambridge 2022",
+          "commits": 1,
+          "prs": 0,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 1
+        },
+        {
           "name": "dadepo",
           "github": "dadepo",
           "cohort": "PBA 1 Cambridge 2022",
@@ -736,16 +746,6 @@
         {
           "name": "adambrzosko",
           "github": "adambrzosko",
-          "cohort": "PBA 1 Cambridge 2022",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "coax1d",
-          "github": "coax1d",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 0,
           "prs": 0,
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 3,
-          "prs": 5,
+          "prs": 6,
           "merged_prs": 1,
           "reviews": 4,
-          "score": 50
+          "score": 55
         },
         {
           "name": "surajk-m",
@@ -35454,7 +35454,14 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "b7e7e89063fa039d3e643e7d112f7455632b1a3f",
+                    "message": "Add Pallas and Vesta curve host functions to sp-crypto-ec-utils (#11035)",
+                    "date": "2026-03-16T15:59:11Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b7e7e89063fa039d3e643e7d112f7455632b1a3f"
+                  }
+                ],
                 "prs": [],
                 "issues": [],
                 "reviews": []
@@ -167070,6 +167077,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11382,
+                    "title": "price parsing methods for endpoints",
+                    "state": "OPEN",
+                    "created_at": "2026-03-16T11:57:36Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11382",
+                    "ready_for_review_at": "2026-03-16T11:57:36Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11178,
                     "title": "Price Oracle Chain Pallet Implementation",
