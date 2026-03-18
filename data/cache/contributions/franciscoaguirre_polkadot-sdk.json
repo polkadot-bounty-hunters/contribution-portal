@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "8cb746e89960f827ca2e1ab1cdd1e2703fc2ce0e",
+      "message": "xcm executor refactor: transactional_process (#11320)",
+      "date": "2026-03-17T14:28:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8cb746e89960f827ca2e1ab1cdd1e2703fc2ce0e"
+    },
+    {
       "sha": "9b69a55cca9a21f032bdc00e8fef8f5f21c4d039",
       "message": "Query delivery fees v2 (#9963)",
       "date": "2025-11-10T11:32:04Z",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-17T05:32:22.550Z",
+  "generated_at": "2026-03-18T05:38:21.937Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1480,
+    "total_commits": 1481,
     "total_prs": 1542,
     "total_merged_prs": 1019,
     "total_reviews": 2296
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 76,
+        "commits": 77,
         "prs": 112,
         "merged_prs": 83,
         "reviews": 170,
-        "score": 1976
+        "score": 1977
       },
       {
         "name": "jsidorenko",
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 76,
+          "commits": 77,
           "prs": 112,
           "merged_prs": 83,
           "reviews": 170,
-          "score": 1976
+          "score": 1977
         },
         {
           "name": "jsidorenko",
@@ -5921,6 +5921,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "8cb746e89960f827ca2e1ab1cdd1e2703fc2ce0e",
+                    "message": "xcm executor refactor: transactional_process (#11320)",
+                    "date": "2026-03-17T14:28:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/8cb746e89960f827ca2e1ab1cdd1e2703fc2ce0e"
+                  },
                   {
                     "sha": "9b69a55cca9a21f032bdc00e8fef8f5f21c4d039",
                     "message": "Query delivery fees v2 (#9963)",
