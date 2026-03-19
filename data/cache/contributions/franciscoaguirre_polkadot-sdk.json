@@ -8794,6 +8794,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11424,
+      "pr_title": "[stable2603] Backport #11389",
+      "reviewed_at": "2026-03-18T20:03:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11424"
+    },
+    {
       "pr_number": 11327,
       "pr_title": "[stable2603] Backport #10384",
       "reviewed_at": "2026-03-10T18:54:57Z",

@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "665aabcf98c0981db9a90525780c61a9c6ba830e",
+      "message": "StatementStore: readme update with dev node running guide (#11187)",
+      "date": "2026-03-18T15:15:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/665aabcf98c0981db9a90525780c61a9c6ba830e"
+    }
+  ],
   "prs": [
     {
       "number": 11187,

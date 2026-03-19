@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-18T05:38:21.937Z",
+  "generated_at": "2026-03-19T05:36:41.577Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1481,
-    "total_prs": 1542,
+    "total_commits": 1482,
+    "total_prs": 1544,
     "total_merged_prs": 1019,
-    "total_reviews": 2296
+    "total_reviews": 2297
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 261,
-        "prs": 192,
+        "prs": 193,
         "merged_prs": 131,
         "reviews": 215,
-        "score": 3176
+        "score": 3181
       },
       {
         "name": "liamaharon",
@@ -57,8 +57,8 @@
         "commits": 77,
         "prs": 112,
         "merged_prs": 83,
-        "reviews": 170,
-        "score": 1977
+        "reviews": 171,
+        "score": 1980
       },
       {
         "name": "jsidorenko",
@@ -431,6 +431,16 @@
         "score": 57
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 5,
+        "prs": 7,
+        "merged_prs": 1,
+        "reviews": 2,
+        "score": 56
+      },
+      {
         "name": "CrackTheCode016",
         "github": "CrackTheCode016",
         "cohort": "PBA 2 BA 2023",
@@ -449,16 +459,6 @@
         "merged_prs": 1,
         "reviews": 4,
         "score": 55
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 5,
-        "prs": 6,
-        "merged_prs": 1,
-        "reviews": 2,
-        "score": 51
       },
       {
         "name": "bee344",
@@ -540,8 +540,8 @@
           "commits": 77,
           "prs": 112,
           "merged_prs": 83,
-          "reviews": 170,
-          "score": 1977
+          "reviews": 171,
+          "score": 1980
         },
         {
           "name": "jsidorenko",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 261,
-          "prs": 192,
+          "prs": 193,
           "merged_prs": 131,
           "reviews": 215,
-          "score": 3176
+          "score": 3181
         },
         {
           "name": "liamaharon",
@@ -4348,10 +4348,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 5,
-          "prs": 6,
+          "prs": 7,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 51
+          "score": 56
         },
         {
           "name": "charlesHetterich",
@@ -4377,11 +4377,11 @@
           "name": "P1sar",
           "github": "P1sar",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 0,
+          "commits": 1,
           "prs": 2,
           "merged_prs": 0,
           "reviews": 6,
-          "score": 28
+          "score": 29
         },
         {
           "name": "andrzejSulkowski",
@@ -14714,6 +14714,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11424,
+                    "pr_title": "[stable2603] Backport #11389",
+                    "reviewed_at": "2026-03-18T20:03:09Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11424"
+                  },
                   {
                     "pr_number": 11327,
                     "pr_title": "[stable2603] Backport #10384",
@@ -90552,6 +90558,31 @@
                 ],
                 "prs": [
                   {
+                    "number": 11416,
+                    "title": "revive: Automatic address mapping via OnNewAccount/OnKilledAccount",
+                    "state": "OPEN",
+                    "created_at": "2026-03-18T14:27:14Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11416",
+                    "ready_for_review_at": "2026-03-18T14:27:14Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-03-18T14:27:21Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-03-18T16:20:05Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11344,
                     "title": "ci: filter out GitHub Project custom labels in check-labels workflow",
                     "state": "CLOSED",
@@ -162689,6 +162720,31 @@
                 ],
                 "prs": [
                   {
+                    "number": 11425,
+                    "title": "fix(pallet-multi-asset-bounties): use non-destructive read in calculate_payout()",
+                    "state": "OPEN",
+                    "created_at": "2026-03-18T19:07:59Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11425",
+                    "ready_for_review_at": "2026-03-18T19:07:59Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-03-18T19:10:47Z"
+                      },
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-03-18T19:11:15Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11052,
                     "title": "update multi asset bounties pallet account derivation logic ",
                     "state": "OPEN",
@@ -163788,7 +163844,14 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "665aabcf98c0981db9a90525780c61a9c6ba830e",
+                    "message": "StatementStore: readme update with dev node running guide (#11187)",
+                    "date": "2026-03-18T15:15:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/665aabcf98c0981db9a90525780c61a9c6ba830e"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 11187,

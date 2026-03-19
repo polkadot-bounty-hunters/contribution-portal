@@ -1353,6 +1353,31 @@
   ],
   "prs": [
     {
+      "number": 11416,
+      "title": "revive: Automatic address mapping via OnNewAccount/OnKilledAccount",
+      "state": "OPEN",
+      "created_at": "2026-03-18T14:27:14Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11416",
+      "ready_for_review_at": "2026-03-18T14:27:14Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-03-18T14:27:21Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-03-18T16:20:05Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11344,
       "title": "ci: filter out GitHub Project custom labels in check-labels workflow",
       "state": "CLOSED",
