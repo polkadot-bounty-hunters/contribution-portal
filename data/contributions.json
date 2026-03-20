@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-19T05:36:41.577Z",
+  "generated_at": "2026-03-20T05:29:10.469Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1482,
-    "total_prs": 1544,
+    "total_prs": 1546,
     "total_merged_prs": 1019,
     "total_reviews": 2297
   },
@@ -55,10 +55,10 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 77,
-        "prs": 112,
+        "prs": 113,
         "merged_prs": 83,
         "reviews": 171,
-        "score": 1980
+        "score": 1985
       },
       {
         "name": "jsidorenko",
@@ -411,6 +411,16 @@
         "score": 62
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 3,
+        "prs": 7,
+        "merged_prs": 1,
+        "reviews": 4,
+        "score": 60
+      },
+      {
         "name": "TarekkMA",
         "github": "TarekkMA",
         "cohort": "PBA 5 Singapore 2024",
@@ -448,16 +458,6 @@
         "prs": 3,
         "merged_prs": 2,
         "reviews": 6,
-        "score": 55
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 3,
-        "prs": 6,
-        "merged_prs": 1,
-        "reviews": 4,
         "score": 55
       },
       {
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 77,
-          "prs": 112,
+          "prs": 113,
           "merged_prs": 83,
           "reviews": 171,
-          "score": 1980
+          "score": 1985
         },
         {
           "name": "jsidorenko",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 3,
-          "prs": 6,
+          "prs": 7,
           "merged_prs": 1,
           "reviews": 4,
-          "score": 55
+          "score": 60
         },
         {
           "name": "surajk-m",
@@ -6301,6 +6301,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11447,
+                    "title": "Add ACK RPC method to HOP",
+                    "state": "OPEN",
+                    "created_at": "2026-03-20T03:11:37Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11447",
+                    "ready_for_review_at": "2026-03-20T03:11:37Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11320,
                     "title": "xcm executor refactor: process_holding_transaction",
@@ -167146,6 +167162,35 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11435,
+                    "title": "Raise offence queue eras bound limit",
+                    "state": "OPEN",
+                    "created_at": "2026-03-19T10:56:11Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11435",
+                    "ready_for_review_at": "2026-03-19T10:56:11Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-19T10:57:29Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-19T11:10:07Z"
+                      },
+                      {
+                        "commenter": "sigurpol",
+                        "commented_at": "2026-03-19T13:35:50Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11382,
                     "title": "price parsing methods for endpoints",
