@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "8c6f7606348edee72a7a1abf14807e38bec5ca17",
+      "message": "[eth-rpc]: add resumable block sync and improve CLI arguments (#11153)",
+      "date": "2026-03-20T10:45:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8c6f7606348edee72a7a1abf14807e38bec5ca17"
+    },
+    {
       "sha": "9d70d96ddb160b56eaa3d7c83fd74b0123c2c826",
       "message": "pallet-revive: Enable call_invalid_opcode test (#10849)",
       "date": "2026-03-03T11:06:39Z",
@@ -56,6 +62,22 @@
     }
   ],
   "prs": [
+    {
+      "number": 11457,
+      "title": "eth-rpc: add support for the earliest block tag",
+      "state": "OPEN",
+      "created_at": "2026-03-20T17:44:59Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11457",
+      "ready_for_review_at": "2026-03-20T17:44:59Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 11193,
       "title": "[eth-rpc]: cap block_number_to_hashes map size",
