@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-23T05:42:11.873Z",
+  "generated_at": "2026-03-24T05:32:39.802Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1483,
-    "total_prs": 1547,
+    "total_prs": 1548,
     "total_merged_prs": 1019,
-    "total_reviews": 2297
+    "total_reviews": 2298
   },
   "leaderboard": {
     "overall": [
@@ -27,8 +27,8 @@
         "commits": 261,
         "prs": 193,
         "merged_prs": 131,
-        "reviews": 215,
-        "score": 3181
+        "reviews": 216,
+        "score": 3184
       },
       {
         "name": "liamaharon",
@@ -401,6 +401,16 @@
         "score": 73
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 3,
+        "prs": 8,
+        "merged_prs": 1,
+        "reviews": 4,
+        "score": 65
+      },
+      {
         "name": "JuaniRios",
         "github": "JuaniRios",
         "cohort": "PBA 2 BA 2023",
@@ -409,16 +419,6 @@
         "merged_prs": 3,
         "reviews": 3,
         "score": 62
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 3,
-        "prs": 7,
-        "merged_prs": 1,
-        "reviews": 4,
-        "score": 60
       },
       {
         "name": "TarekkMA",
@@ -932,8 +932,8 @@
           "commits": 261,
           "prs": 193,
           "merged_prs": 131,
-          "reviews": 215,
-          "score": 3181
+          "reviews": 216,
+          "score": 3184
         },
         {
           "name": "liamaharon",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 3,
-          "prs": 7,
+          "prs": 8,
           "merged_prs": 1,
           "reviews": 4,
-          "score": 60
+          "score": 65
         },
         {
           "name": "surajk-m",
@@ -98184,6 +98184,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11468,
+                    "pr_title": "Add a call to `.unvalidated()` for all eth-rpc interactions",
+                    "reviewed_at": "2026-03-23T13:28:32Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11468"
+                  },
+                  {
                     "pr_number": 11322,
                     "pr_title": "[WIP][pallet-assets-precompiles] Idiomatic Rust cleanups",
                     "reviewed_at": "2026-03-10T18:58:55Z",
@@ -167162,6 +167168,123 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11469,
+                    "title": "Pallet Meta Tx into multiple runtimes",
+                    "state": "OPEN",
+                    "created_at": "2026-03-23T13:19:22Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11469",
+                    "ready_for_review_at": "2026-03-23T13:19:22Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T13:20:16Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T13:21:13Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T13:21:31Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T13:21:39Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T13:21:47Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T13:21:48Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T13:22:13Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T13:22:22Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T13:22:38Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T13:51:48Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T13:52:16Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T13:52:34Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T14:01:00Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T19:57:07Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T19:57:17Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T19:57:23Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-03-23T19:57:38Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T19:57:56Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T19:58:02Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T19:58:05Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T19:58:22Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T20:24:21Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T20:25:34Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T20:25:53Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-03-23T20:34:39Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11435,
                     "title": "Raise offence queue eras bound limit",

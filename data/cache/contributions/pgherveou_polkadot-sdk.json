@@ -8963,6 +8963,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11468,
+      "pr_title": "Add a call to `.unvalidated()` for all eth-rpc interactions",
+      "reviewed_at": "2026-03-23T13:28:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11468"
+    },
+    {
       "pr_number": 11322,
       "pr_title": "[WIP][pallet-assets-precompiles] Idiomatic Rust cleanups",
       "reviewed_at": "2026-03-10T18:58:55Z",
