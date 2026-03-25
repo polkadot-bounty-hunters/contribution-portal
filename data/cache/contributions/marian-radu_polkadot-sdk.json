@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "a754446d5f37e02ccfec44431a0f25732072e15e",
+      "message": "eth-rpc: add support for the earliest block tag (#11457)",
+      "date": "2026-03-24T07:31:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a754446d5f37e02ccfec44431a0f25732072e15e"
+    },
+    {
       "sha": "8c6f7606348edee72a7a1abf14807e38bec5ca17",
       "message": "[eth-rpc]: add resumable block sync and improve CLI arguments (#11153)",
       "date": "2026-03-20T10:45:49Z",
@@ -597,6 +603,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11475,
+      "pr_title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
+      "reviewed_at": "2026-03-24T10:39:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11475"
+    },
+    {
+      "pr_number": 11476,
+      "pr_title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
+      "reviewed_at": "2026-03-24T10:36:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11476"
+    },
     {
       "pr_number": 11276,
       "pr_title": "pallet-revive: use u128 Balance in test config",

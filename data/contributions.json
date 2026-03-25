@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-24T05:32:39.802Z",
+  "generated_at": "2026-03-25T05:34:21.421Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1483,
-    "total_prs": 1548,
+    "total_commits": 1484,
+    "total_prs": 1552,
     "total_merged_prs": 1019,
-    "total_reviews": 2298
+    "total_reviews": 2301
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 261,
-        "prs": 193,
+        "prs": 195,
         "merged_prs": 131,
-        "reviews": 216,
-        "score": 3184
+        "reviews": 217,
+        "score": 3197
       },
       {
         "name": "liamaharon",
@@ -55,10 +55,10 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 77,
-        "prs": 113,
+        "prs": 114,
         "merged_prs": 83,
         "reviews": 171,
-        "score": 1985
+        "score": 1990
       },
       {
         "name": "jsidorenko",
@@ -171,6 +171,16 @@
         "score": 306
       },
       {
+        "name": "rosarp",
+        "github": "rosarp",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 6,
+        "prs": 19,
+        "merged_prs": 14,
+        "reviews": 19,
+        "score": 298
+      },
+      {
         "name": "tonyalaribe",
         "github": "tonyalaribe",
         "cohort": "PBA 1 Cambridge 2022",
@@ -179,16 +189,6 @@
         "merged_prs": 9,
         "reviews": 33,
         "score": 294
-      },
-      {
-        "name": "rosarp",
-        "github": "rosarp",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 6,
-        "prs": 18,
-        "merged_prs": 14,
-        "reviews": 19,
-        "score": 293
       },
       {
         "name": "smiasojed",
@@ -214,11 +214,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 10,
+        "commits": 11,
         "prs": 15,
         "merged_prs": 3,
-        "reviews": 25,
-        "score": 190
+        "reviews": 27,
+        "score": 197
       },
       {
         "name": "DrW3RK",
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 77,
-          "prs": 113,
+          "prs": 114,
           "merged_prs": 83,
           "reviews": 171,
-          "score": 1985
+          "score": 1990
         },
         {
           "name": "jsidorenko",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 261,
-          "prs": 193,
+          "prs": 195,
           "merged_prs": 131,
-          "reviews": 216,
-          "score": 3184
+          "reviews": 217,
+          "score": 3197
         },
         {
           "name": "liamaharon",
@@ -3126,10 +3126,10 @@
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 6,
-          "prs": 18,
+          "prs": 19,
           "merged_prs": 14,
           "reviews": 19,
-          "score": 293
+          "score": 298
         },
         {
           "name": "ndkazu",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 10,
+          "commits": 11,
           "prs": 15,
           "merged_prs": 3,
-          "reviews": 25,
-          "score": 190
+          "reviews": 27,
+          "score": 197
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.72409634907326,
+    "average_review_time_hours": 78.59282124593209,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 89.82978579685017,
-        "pr_count": 769,
+        "avg_review_time_hours": 89.597509367344,
+        "pr_count": 771,
         "merged_count": 651
       },
       {
@@ -6301,6 +6301,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11484,
+                    "title": "Add HOP promotion: node-side",
+                    "state": "OPEN",
+                    "created_at": "2026-03-24T15:09:53Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11484",
+                    "ready_for_review_at": "2026-03-24T15:09:53Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11447,
                     "title": "Two-phase claim/ack for HOP data retrieval",
@@ -90574,6 +90590,60 @@
                 ],
                 "prs": [
                   {
+                    "number": 11476,
+                    "title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
+                    "state": "OPEN",
+                    "created_at": "2026-03-24T09:31:33Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11476",
+                    "ready_for_review_at": "2026-03-24T09:31:33Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-03-24T09:48:12Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "0xRVE",
+                        "submitted_at": "2026-03-24T10:36:17Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.2775,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11475,
+                    "title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
+                    "state": "OPEN",
+                    "created_at": "2026-03-24T09:31:17Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11475",
+                    "ready_for_review_at": "2026-03-24T09:31:17Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-03-24T09:49:06Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "0xRVE",
+                        "submitted_at": "2026-03-24T10:39:05Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.29694444444444446,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11416,
                     "title": "revive: Automatic address mapping via OnNewAccount/OnKilledAccount",
                     "state": "OPEN",
@@ -98183,6 +98253,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11481,
+                    "pr_title": "[pallet-revive] Add PVM fuel tracing",
+                    "reviewed_at": "2026-03-24T19:56:14Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11481"
+                  },
                   {
                     "pr_number": 11468,
                     "pr_title": "Add a call to `.unvalidated()` for all eth-rpc interactions",
@@ -156179,6 +156255,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 11474,
+                    "title": "Support multiple `IndexOperation::Renew` calls within a single extrinsic index in `sc-client-db`",
+                    "state": "OPEN",
+                    "created_at": "2026-03-24T07:57:38Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rosarp",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11474",
+                    "ready_for_review_at": "2026-03-24T07:57:38Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 9421,
                     "title": "benchmarking for proof-root-store",
                     "state": "OPEN",
@@ -168587,6 +168679,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "a754446d5f37e02ccfec44431a0f25732072e15e",
+                    "message": "eth-rpc: add support for the earliest block tag (#11457)",
+                    "date": "2026-03-24T07:31:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/a754446d5f37e02ccfec44431a0f25732072e15e"
+                  },
+                  {
                     "sha": "8c6f7606348edee72a7a1abf14807e38bec5ca17",
                     "message": "[eth-rpc]: add resumable block sync and improve CLI arguments (#11153)",
                     "date": "2026-03-20T10:45:49Z",
@@ -169183,6 +169281,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11475,
+                    "pr_title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
+                    "reviewed_at": "2026-03-24T10:39:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11475"
+                  },
+                  {
+                    "pr_number": 11476,
+                    "pr_title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
+                    "reviewed_at": "2026-03-24T10:36:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11476"
+                  },
                   {
                     "pr_number": 11276,
                     "pr_title": "pallet-revive: use u128 Balance in test config",
