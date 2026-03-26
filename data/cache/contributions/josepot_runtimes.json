@@ -1,6 +1,29 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 1117,
+      "title": "Use chain-specific ExtrinsicBaseWeight in fee constants",
+      "state": "OPEN",
+      "created_at": "2026-03-25T19:59:13Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "josepot",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1117",
+      "ready_for_review_at": "2026-03-25T19:59:13Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-03-25T20:40:28Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.6875,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": [
     {
