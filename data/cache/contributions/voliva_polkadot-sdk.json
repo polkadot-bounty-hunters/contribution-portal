@@ -21,6 +21,27 @@
   ],
   "prs": [
     {
+      "number": 11524,
+      "title": "[referenda] Add `slash_submission_deposit` extrinsic",
+      "state": "OPEN",
+      "created_at": "2026-03-26T23:32:57Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "voliva",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11524",
+      "ready_for_review_at": "2026-03-26T23:32:57Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "voliva",
+          "commented_at": "2026-03-26T23:36:17Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10525,
       "title": "fix(rpc-spec-v2): best block not announced immediately after initialised",
       "state": "OPEN",

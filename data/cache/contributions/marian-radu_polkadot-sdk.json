@@ -69,6 +69,22 @@
   ],
   "prs": [
     {
+      "number": 11522,
+      "title": "eth-rpc: Add trace logging for receipt lookup debugging",
+      "state": "OPEN",
+      "created_at": "2026-03-26T16:36:38Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11522",
+      "ready_for_review_at": "2026-03-26T16:36:38Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11457,
       "title": "eth-rpc: add support for the earliest block tag",
       "state": "OPEN",

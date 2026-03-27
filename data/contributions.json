@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-26T05:48:51.891Z",
+  "generated_at": "2026-03-27T05:49:51.548Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1484,
-    "total_prs": 1553,
+    "total_prs": 1557,
     "total_merged_prs": 1019,
     "total_reviews": 2301
   },
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 89,
-        "prs": 121,
+        "prs": 123,
         "merged_prs": 74,
         "reviews": 214,
-        "score": 2076
+        "score": 2086
       },
       {
         "name": "franciscoaguirre",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 11,
-        "prs": 15,
+        "prs": 16,
         "merged_prs": 3,
         "reviews": 27,
-        "score": 197
+        "score": 202
       },
       {
         "name": "DrW3RK",
@@ -501,14 +501,14 @@
         "score": 47
       },
       {
-        "name": "arturgontijo",
-        "github": "arturgontijo",
-        "cohort": "PBA 1 Cambridge 2022",
-        "commits": 1,
+        "name": "voliva",
+        "github": "voliva",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 3,
         "prs": 4,
         "merged_prs": 2,
         "reviews": 1,
-        "score": 44
+        "score": 46
       }
     ],
     "by_cohort": {
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 89,
-          "prs": 121,
+          "prs": 123,
           "merged_prs": 74,
           "reviews": 214,
-          "score": 2076
+          "score": 2086
         },
         {
           "name": "franciscoaguirre",
@@ -3206,10 +3206,10 @@
           "github": "voliva",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 3,
-          "prs": 3,
+          "prs": 4,
           "merged_prs": 2,
           "reviews": 1,
-          "score": 41
+          "score": 46
         },
         {
           "name": "tsenovilla",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 11,
-          "prs": 15,
+          "prs": 16,
           "merged_prs": 3,
           "reviews": 27,
-          "score": 197
+          "score": 202
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.52768301746559,
+    "average_review_time_hours": 78.46585932423649,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 89.597509367344,
-        "pr_count": 771,
+        "avg_review_time_hours": 89.48731145653426,
+        "pr_count": 772,
         "merged_count": 651
       },
       {
@@ -19691,6 +19691,54 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11513,
+                    "title": "Traits in prep for Budget Split ",
+                    "state": "OPEN",
+                    "created_at": "2026-03-26T07:02:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11513",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11512,
+                    "title": "Vested Payout trait and implementation",
+                    "state": "OPEN",
+                    "created_at": "2026-03-26T06:42:25Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11512",
+                    "ready_for_review_at": "2026-03-26T06:42:25Z",
+                    "reviews": [
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-03-26T11:13:54Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-03-26T12:25:00Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-03-26T12:25:59Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 4.5247222222222225,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11319,
                     "title": "Ankn generic budget",
@@ -154508,6 +154556,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 11524,
+                    "title": "[referenda] Add `slash_submission_deposit` extrinsic",
+                    "state": "OPEN",
+                    "created_at": "2026-03-26T23:32:57Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "voliva",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11524",
+                    "ready_for_review_at": "2026-03-26T23:32:57Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "voliva",
+                        "commented_at": "2026-03-26T23:36:17Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10525,
                     "title": "fix(rpc-spec-v2): best block not announced immediately after initialised",
                     "state": "OPEN",
@@ -168769,6 +168838,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11522,
+                    "title": "eth-rpc: Add trace logging for receipt lookup debugging",
+                    "state": "OPEN",
+                    "created_at": "2026-03-26T16:36:38Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11522",
+                    "ready_for_review_at": "2026-03-26T16:36:38Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11457,
                     "title": "eth-rpc: add support for the earliest block tag",
