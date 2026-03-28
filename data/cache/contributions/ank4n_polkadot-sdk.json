@@ -417,6 +417,28 @@
   ],
   "prs": [
     {
+      "number": 11527,
+      "title": "Implement Budget Distribution logic in pallet-dap",
+      "state": "OPEN",
+      "created_at": "2026-03-27T07:47:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11527",
+      "ready_for_review_at": "2026-03-27T07:47:50Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-03-27T08:24:36Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.6127777777777778,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11513,
       "title": "Traits in prep for Budget Split ",
       "state": "OPEN",
@@ -7059,6 +7081,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11527,
+      "pr_title": "Implement Budget Distribution logic in pallet-dap",
+      "reviewed_at": "2026-03-27T10:30:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11527"
+    },
     {
       "pr_number": 11305,
       "pr_title": "[stable2603] Backport #11018",

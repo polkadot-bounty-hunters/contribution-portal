@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "e4428f8a5016d5fb41bbc47a4d797a7e164afd33",
+      "message": "Use chain-specific ExtrinsicBaseWeight in fee constants (#1117)",
+      "date": "2026-03-27T11:45:45Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/e4428f8a5016d5fb41bbc47a4d797a7e164afd33"
+    }
+  ],
   "prs": [
     {
       "number": 1117,

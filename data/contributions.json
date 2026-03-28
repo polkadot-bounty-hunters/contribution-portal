@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-27T05:49:51.548Z",
+  "generated_at": "2026-03-28T05:34:17.266Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1484,
-    "total_prs": 1557,
+    "total_commits": 1485,
+    "total_prs": 1560,
     "total_merged_prs": 1019,
-    "total_reviews": 2301
+    "total_reviews": 2302
   },
   "leaderboard": {
     "overall": [
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 89,
-        "prs": 123,
+        "prs": 124,
         "merged_prs": 74,
-        "reviews": 214,
-        "score": 2086
+        "reviews": 215,
+        "score": 2094
       },
       {
         "name": "franciscoaguirre",
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 111,
-        "prs": 71,
+        "prs": 72,
         "merged_prs": 54,
         "reviews": 53,
-        "score": 1165
+        "score": 1170
       },
       {
         "name": "juangirini",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 11,
-        "prs": 16,
+        "prs": 17,
         "merged_prs": 3,
         "reviews": 27,
-        "score": 202
+        "score": 207
       },
       {
         "name": "DrW3RK",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 89,
-          "prs": 123,
+          "prs": 124,
           "merged_prs": 74,
-          "reviews": 214,
-          "score": 2086
+          "reviews": 215,
+          "score": 2094
         },
         {
           "name": "franciscoaguirre",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 111,
-          "prs": 71,
+          "prs": 72,
           "merged_prs": 54,
           "reviews": 53,
-          "score": 1165
+          "score": 1170
         },
         {
           "name": "pandres95",
@@ -3255,11 +3255,11 @@
           "name": "josepot",
           "github": "josepot",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 1,
+          "commits": 2,
           "prs": 2,
           "merged_prs": 1,
           "reviews": 3,
-          "score": 30
+          "score": 31
         },
         {
           "name": "Chralt98",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 11,
-          "prs": 16,
+          "prs": 17,
           "merged_prs": 3,
           "reviews": 27,
-          "score": 202
+          "score": 207
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.46585932423649,
+    "average_review_time_hours": 78.40087344648485,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 89.48731145653426,
-        "pr_count": 772,
+        "avg_review_time_hours": 89.3723379330171,
+        "pr_count": 773,
         "merged_count": 651
       },
       {
@@ -19692,6 +19692,28 @@
                 ],
                 "prs": [
                   {
+                    "number": 11527,
+                    "title": "Implement Budget Distribution logic in pallet-dap",
+                    "state": "OPEN",
+                    "created_at": "2026-03-27T07:47:50Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11527",
+                    "ready_for_review_at": "2026-03-27T07:47:50Z",
+                    "reviews": [
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-03-27T08:24:36Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.6127777777777778,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11513,
                     "title": "Traits in prep for Budget Split ",
                     "state": "OPEN",
@@ -26334,6 +26356,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11527,
+                    "pr_title": "Implement Budget Distribution logic in pallet-dap",
+                    "reviewed_at": "2026-03-27T10:30:12Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11527"
+                  },
                   {
                     "pr_number": 11305,
                     "pr_title": "[stable2603] Backport #11018",
@@ -123645,6 +123673,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 11529,
+                    "title": "Westend AH: Add PSM",
+                    "state": "OPEN",
+                    "created_at": "2026-03-27T11:25:00Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11529",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11351,
                     "title": "Coretime Market Pallet",
                     "state": "OPEN",
@@ -157999,7 +158043,14 @@
             "polkadot-fellows/runtimes": {
               "category": "polkadot",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "e4428f8a5016d5fb41bbc47a4d797a7e164afd33",
+                    "message": "Use chain-specific ExtrinsicBaseWeight in fee constants (#1117)",
+                    "date": "2026-03-27T11:45:45Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/e4428f8a5016d5fb41bbc47a4d797a7e164afd33"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 1117,
@@ -168838,6 +168889,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11538,
+                    "title": "[eth-rpc] Detect and backfill gaps in finalized block subscriptions",
+                    "state": "OPEN",
+                    "created_at": "2026-03-27T15:40:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11538",
+                    "ready_for_review_at": "2026-03-27T15:40:58Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11522,
                     "title": "eth-rpc: Add trace logging for receipt lookup debugging",
