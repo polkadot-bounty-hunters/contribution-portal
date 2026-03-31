@@ -2,6 +2,38 @@
   "commits": [],
   "prs": [
     {
+      "number": 11564,
+      "title": "omni-node: always enable runtime-benchmarks node functionality",
+      "state": "OPEN",
+      "created_at": "2026-03-30T14:44:12Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ayomidebajo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11564",
+      "ready_for_review_at": "2026-03-30T14:44:12Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11559,
+      "title": "prospective-parachains: validate claim queue position reachability on candidate introduction",
+      "state": "OPEN",
+      "created_at": "2026-03-30T11:34:06Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ayomidebajo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11559",
+      "ready_for_review_at": "2026-03-30T11:34:06Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11143,
       "title": "cumulus: refactor omni-node-lib ignored tests into reusable conformance test suite",
       "state": "OPEN",

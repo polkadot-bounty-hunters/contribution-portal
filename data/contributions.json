@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-30T06:00:37.140Z",
+  "generated_at": "2026-03-31T05:51:42.219Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1485,
-    "total_prs": 1560,
+    "total_prs": 1563,
     "total_merged_prs": 1019,
-    "total_reviews": 2302
+    "total_reviews": 2303
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 257,
         "prs": 188,
         "merged_prs": 146,
-        "reviews": 239,
-        "score": 3374
+        "reviews": 240,
+        "score": 3377
       },
       {
         "name": "pgherveou",
@@ -421,6 +421,16 @@
         "score": 62
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 5,
+        "prs": 8,
+        "merged_prs": 1,
+        "reviews": 2,
+        "score": 61
+      },
+      {
         "name": "TarekkMA",
         "github": "TarekkMA",
         "cohort": "PBA 5 Singapore 2024",
@@ -439,16 +449,6 @@
         "merged_prs": 2,
         "reviews": 5,
         "score": 57
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 5,
-        "prs": 7,
-        "merged_prs": 1,
-        "reviews": 2,
-        "score": 56
       },
       {
         "name": "CrackTheCode016",
@@ -520,8 +520,8 @@
           "commits": 257,
           "prs": 188,
           "merged_prs": 146,
-          "reviews": 239,
-          "score": 3374
+          "reviews": 240,
+          "score": 3377
         },
         {
           "name": "ank4n",
@@ -1126,6 +1126,16 @@
           "score": 21
         },
         {
+          "name": "ayomidebajo",
+          "github": "ayomidebajo",
+          "cohort": "PBA 2 BA 2023",
+          "commits": 0,
+          "prs": 4,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 20
+        },
+        {
           "name": "tesol2y090",
           "github": "tesol2y090",
           "cohort": "PBA 2 BA 2023",
@@ -1174,16 +1184,6 @@
           "merged_prs": 1,
           "reviews": 0,
           "score": 16
-        },
-        {
-          "name": "ayomidebajo",
-          "github": "ayomidebajo",
-          "cohort": "PBA 2 BA 2023",
-          "commits": 0,
-          "prs": 2,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 10
         },
         {
           "name": "prybalko",
@@ -4348,10 +4348,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 5,
-          "prs": 7,
+          "prs": 8,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 56
+          "score": 61
         },
         {
           "name": "charlesHetterich",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.40087344648485,
+    "average_review_time_hours": 78.33834005189506,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 698,
+        "review_count": 699,
         "approved_count": 399,
-        "avg_time_to_review_hours": 48.26595899470901,
-        "approval_rate": 57.163323782234954
+        "avg_time_to_review_hours": 48.00061801446418,
+        "approval_rate": 57.08154506437768
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 89.3723379330171,
-        "pr_count": 773,
+        "avg_review_time_hours": 89.2612927074361,
+        "pr_count": 774,
         "merged_count": 651
       },
       {
@@ -46239,6 +46239,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11557,
+                    "pr_title": "Double max memory on block import",
+                    "reviewed_at": "2026-03-30T21:21:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11557"
+                  },
+                  {
                     "pr_number": 10965,
                     "pr_title": "fatxpool: Do not remove listener for finalized view",
                     "reviewed_at": "2026-02-03T14:20:15Z",
@@ -74106,6 +74112,38 @@
               "contributions": {
                 "commits": [],
                 "prs": [
+                  {
+                    "number": 11564,
+                    "title": "omni-node: always enable runtime-benchmarks node functionality",
+                    "state": "OPEN",
+                    "created_at": "2026-03-30T14:44:12Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ayomidebajo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11564",
+                    "ready_for_review_at": "2026-03-30T14:44:12Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11559,
+                    "title": "prospective-parachains: validate claim queue position reachability on candidate introduction",
+                    "state": "OPEN",
+                    "created_at": "2026-03-30T11:34:06Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ayomidebajo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11559",
+                    "ready_for_review_at": "2026-03-30T11:34:06Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11143,
                     "title": "cumulus: refactor omni-node-lib ignored tests into reusable conformance test suite",
@@ -162976,6 +163014,33 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11567,
+                    "title": "Align Tally::approval() with VoteTally trait semantics",
+                    "state": "OPEN",
+                    "created_at": "2026-03-30T16:48:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11567",
+                    "ready_for_review_at": "2026-03-30T16:48:58Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-03-30T20:14:22Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-03-30T17:18:14Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 3.4233333333333333,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11425,
                     "title": "fix(pallet-multi-asset-bounties): use non-destructive read in calculate_payout()",

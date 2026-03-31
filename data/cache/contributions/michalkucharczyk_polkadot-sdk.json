@@ -9262,6 +9262,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11557,
+      "pr_title": "Double max memory on block import",
+      "reviewed_at": "2026-03-30T21:21:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11557"
+    },
+    {
       "pr_number": 10965,
       "pr_title": "fatxpool: Do not remove listener for finalized view",
       "reviewed_at": "2026-02-03T14:20:15Z",
