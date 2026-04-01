@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "de0a245168da894e24d974fadf6bdf803e3ac219",
+      "message": "Raise offence queue eras bound limit (#11435)",
+      "date": "2026-03-31T14:39:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/de0a245168da894e24d974fadf6bdf803e3ac219"
+    },
+    {
       "sha": "f6e430ef28716084bed0b3af47256069c75e79d7",
       "message": "Meta Transactions - Benchmarking update (#10982)",
       "date": "2026-02-24T13:12:59Z",
@@ -349,6 +355,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11584,
+      "pr_title": "[stable2603] Backport #11435",
+      "reviewed_at": "2026-03-31T18:55:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11584"
+    },
+    {
+      "pr_number": 11573,
+      "pr_title": "Fix can_inc_consumer check blocking session key rotation in pallet_session",
+      "reviewed_at": "2026-03-31T18:43:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11573"
+    },
     {
       "pr_number": 11295,
       "pr_title": "add  flag to collator",

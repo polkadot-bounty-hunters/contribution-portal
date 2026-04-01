@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "sha": "0d6888a1cd4c7c864d05d843a72fccbb5f7a3fea",
+      "message": "Implement Budget Distribution logic in pallet-dap (#11527)",
+      "date": "2026-03-31T22:18:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0d6888a1cd4c7c864d05d843a72fccbb5f7a3fea"
+    },
+    {
+      "sha": "129a48aa9f17a3d5ccbcb8cb4167dd505165d35f",
+      "message": "[Staking] Add issuance and budget traits in prep for Budget Split (#11513)",
+      "date": "2026-03-31T17:06:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/129a48aa9f17a3d5ccbcb8cb4167dd505165d35f"
+    },
+    {
+      "sha": "798fa7917d869022588f9f5d472448ecb57bf7c2",
+      "message": "Vested Payout trait and implementation (#11512)",
+      "date": "2026-03-31T12:22:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/798fa7917d869022588f9f5d472448ecb57bf7c2"
+    },
+    {
       "sha": "d4f1c4b280d36439ccecbcf7adad4343d71050dc",
       "message": "[Pool] Claim trapped balance (#11018)",
       "date": "2026-03-09T06:59:16Z",
@@ -416,6 +434,43 @@
     }
   ],
   "prs": [
+    {
+      "number": 11577,
+      "title": "[WIP] Staking with validator self stake incentive",
+      "state": "OPEN",
+      "created_at": "2026-03-31T11:40:47Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11577",
+      "ready_for_review_at": "2026-03-31T11:40:47Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-03-31T11:53:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-03-31T12:37:09Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-03-31T12:39:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-03-31T12:42:05Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.21722222222222223,
+      "time_to_merge_hours": null
+    },
     {
       "number": 11527,
       "title": "Implement Budget Distribution logic in pallet-dap",
@@ -7081,6 +7136,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11577,
+      "pr_title": "[WIP] Staking with validator self stake incentive",
+      "reviewed_at": "2026-03-31T20:58:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11577"
+    },
+    {
+      "pr_number": 11573,
+      "pr_title": "Fix can_inc_consumer check blocking session key rotation in pallet_session",
+      "reviewed_at": "2026-03-31T18:43:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11573"
+    },
     {
       "pr_number": 11527,
       "pr_title": "Implement Budget Distribution logic in pallet-dap",

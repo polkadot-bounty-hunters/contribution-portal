@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-31T05:51:42.219Z",
+  "generated_at": "2026-04-01T06:03:48.958Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1485,
-    "total_prs": 1563,
+    "total_commits": 1489,
+    "total_prs": 1564,
     "total_merged_prs": 1019,
-    "total_reviews": 2303
+    "total_reviews": 2307
   },
   "leaderboard": {
     "overall": [
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 89,
-        "prs": 124,
+        "commits": 92,
+        "prs": 125,
         "merged_prs": 74,
-        "reviews": 215,
-        "score": 2094
+        "reviews": 217,
+        "score": 2108
       },
       {
         "name": "franciscoaguirre",
@@ -404,11 +404,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 3,
+        "commits": 4,
         "prs": 8,
         "merged_prs": 1,
-        "reviews": 4,
-        "score": 65
+        "reviews": 6,
+        "score": 72
       },
       {
         "name": "JuaniRios",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 89,
-          "prs": 124,
+          "commits": 92,
+          "prs": 125,
           "merged_prs": 74,
-          "reviews": 215,
-          "score": 2094
+          "reviews": 217,
+          "score": 2108
         },
         {
           "name": "franciscoaguirre",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 3,
+          "commits": 4,
           "prs": 8,
           "merged_prs": 1,
-          "reviews": 4,
-          "score": 65
+          "reviews": 6,
+          "score": 72
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.33834005189506,
+    "average_review_time_hours": 78.27323912037033,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 89.2612927074361,
-        "pr_count": 774,
+        "avg_review_time_hours": 89.14639713261649,
+        "pr_count": 775,
         "merged_count": 651
       },
       {
@@ -19276,6 +19276,24 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "0d6888a1cd4c7c864d05d843a72fccbb5f7a3fea",
+                    "message": "Implement Budget Distribution logic in pallet-dap (#11527)",
+                    "date": "2026-03-31T22:18:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/0d6888a1cd4c7c864d05d843a72fccbb5f7a3fea"
+                  },
+                  {
+                    "sha": "129a48aa9f17a3d5ccbcb8cb4167dd505165d35f",
+                    "message": "[Staking] Add issuance and budget traits in prep for Budget Split (#11513)",
+                    "date": "2026-03-31T17:06:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/129a48aa9f17a3d5ccbcb8cb4167dd505165d35f"
+                  },
+                  {
+                    "sha": "798fa7917d869022588f9f5d472448ecb57bf7c2",
+                    "message": "Vested Payout trait and implementation (#11512)",
+                    "date": "2026-03-31T12:22:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/798fa7917d869022588f9f5d472448ecb57bf7c2"
+                  },
+                  {
                     "sha": "d4f1c4b280d36439ccecbcf7adad4343d71050dc",
                     "message": "[Pool] Claim trapped balance (#11018)",
                     "date": "2026-03-09T06:59:16Z",
@@ -19691,6 +19709,43 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11577,
+                    "title": "[WIP] Staking with validator self stake incentive",
+                    "state": "OPEN",
+                    "created_at": "2026-03-31T11:40:47Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11577",
+                    "ready_for_review_at": "2026-03-31T11:40:47Z",
+                    "reviews": [
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-03-31T11:53:49Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-03-31T12:37:09Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-03-31T12:39:06Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-03-31T12:42:05Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.21722222222222223,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11527,
                     "title": "Implement Budget Distribution logic in pallet-dap",
@@ -26356,6 +26411,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11577,
+                    "pr_title": "[WIP] Staking with validator self stake incentive",
+                    "reviewed_at": "2026-03-31T20:58:27Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11577"
+                  },
+                  {
+                    "pr_number": 11573,
+                    "pr_title": "Fix can_inc_consumer check blocking session key rotation in pallet_session",
+                    "reviewed_at": "2026-03-31T18:43:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11573"
+                  },
                   {
                     "pr_number": 11527,
                     "pr_title": "Implement Budget Distribution logic in pallet-dap",
@@ -167449,6 +167516,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "de0a245168da894e24d974fadf6bdf803e3ac219",
+                    "message": "Raise offence queue eras bound limit (#11435)",
+                    "date": "2026-03-31T14:39:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/de0a245168da894e24d974fadf6bdf803e3ac219"
+                  },
+                  {
                     "sha": "f6e430ef28716084bed0b3af47256069c75e79d7",
                     "message": "Meta Transactions - Benchmarking update (#10982)",
                     "date": "2026-02-24T13:12:59Z",
@@ -167797,6 +167870,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11584,
+                    "pr_title": "[stable2603] Backport #11435",
+                    "reviewed_at": "2026-03-31T18:55:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11584"
+                  },
+                  {
+                    "pr_number": 11573,
+                    "pr_title": "Fix can_inc_consumer check blocking session key rotation in pallet_session",
+                    "reviewed_at": "2026-03-31T18:43:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11573"
+                  },
                   {
                     "pr_number": 11295,
                     "pr_title": "add  flag to collator",
