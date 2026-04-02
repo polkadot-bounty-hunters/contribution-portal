@@ -435,6 +435,35 @@
   ],
   "prs": [
     {
+      "number": 11616,
+      "title": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots",
+      "state": "OPEN",
+      "created_at": "2026-04-01T20:13:17Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11616",
+      "ready_for_review_at": "2026-04-01T20:13:17Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2026-04-01T21:03:29Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-01T21:04:14Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-02T00:25:13Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11577,
       "title": "[WIP] Staking with validator self stake incentive",
       "state": "OPEN",

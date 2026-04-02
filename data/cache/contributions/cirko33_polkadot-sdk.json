@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "c69795dad68821aaa780e160f6defcf0683e0aa4",
+      "message": "Westend: Support Meta Transactions (#11469)",
+      "date": "2026-04-01T09:06:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c69795dad68821aaa780e160f6defcf0683e0aa4"
+    },
+    {
       "sha": "de0a245168da894e24d974fadf6bdf803e3ac219",
       "message": "Raise offence queue eras bound limit (#11435)",
       "date": "2026-03-31T14:39:48Z",

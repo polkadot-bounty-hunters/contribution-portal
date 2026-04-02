@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-01T06:03:48.958Z",
+  "generated_at": "2026-04-02T05:43:52.113Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1489,
-    "total_prs": 1564,
+    "total_commits": 1491,
+    "total_prs": 1568,
     "total_merged_prs": 1019,
-    "total_reviews": 2307
+    "total_reviews": 2311
   },
   "leaderboard": {
     "overall": [
@@ -45,20 +45,20 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 92,
-        "prs": 125,
+        "prs": 126,
         "merged_prs": 74,
         "reviews": 217,
-        "score": 2108
+        "score": 2113
       },
       {
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 77,
-        "prs": 114,
+        "prs": 115,
         "merged_prs": 83,
         "reviews": 171,
-        "score": 1990
+        "score": 1995
       },
       {
         "name": "jsidorenko",
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 111,
-        "prs": 72,
+        "prs": 73,
         "merged_prs": 54,
         "reviews": 53,
-        "score": 1170
+        "score": 1175
       },
       {
         "name": "juangirini",
@@ -381,6 +381,16 @@
         "score": 84
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 6,
+        "prs": 9,
+        "merged_prs": 1,
+        "reviews": 6,
+        "score": 79
+      },
+      {
         "name": "mittal-parth",
         "github": "mittal-parth",
         "cohort": "PBA 5 Singapore 2024",
@@ -404,11 +414,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 4,
+        "commits": 5,
         "prs": 8,
         "merged_prs": 1,
         "reviews": 6,
-        "score": 72
+        "score": 73
       },
       {
         "name": "JuaniRios",
@@ -419,16 +429,6 @@
         "merged_prs": 3,
         "reviews": 3,
         "score": 62
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 5,
-        "prs": 8,
-        "merged_prs": 1,
-        "reviews": 2,
-        "score": 61
       },
       {
         "name": "TarekkMA",
@@ -528,20 +528,20 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 92,
-          "prs": 125,
+          "prs": 126,
           "merged_prs": 74,
           "reviews": 217,
-          "score": 2108
+          "score": 2113
         },
         {
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 77,
-          "prs": 114,
+          "prs": 115,
           "merged_prs": 83,
           "reviews": 171,
-          "score": 1990
+          "score": 1995
         },
         {
           "name": "jsidorenko",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 111,
-          "prs": 72,
+          "prs": 73,
           "merged_prs": 54,
           "reviews": 53,
-          "score": 1170
+          "score": 1175
         },
         {
           "name": "pandres95",
@@ -4347,11 +4347,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 5,
-          "prs": 8,
+          "commits": 6,
+          "prs": 9,
           "merged_prs": 1,
-          "reviews": 2,
-          "score": 61
+          "reviews": 6,
+          "score": 79
         },
         {
           "name": "charlesHetterich",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 4,
+          "commits": 5,
           "prs": 8,
           "merged_prs": 1,
           "reviews": 6,
-          "score": 72
+          "score": 73
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.27323912037033,
+    "average_review_time_hours": 78.20974858913864,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5645,10 +5645,10 @@
       },
       {
         "reviewer": "muharem",
-        "review_count": 218,
-        "approved_count": 39,
-        "avg_time_to_review_hours": 222.18767676767678,
-        "approval_rate": 17.889908256880734
+        "review_count": 219,
+        "approved_count": 40,
+        "avg_time_to_review_hours": 203.840462962963,
+        "approval_rate": 18.2648401826484
       },
       {
         "reviewer": "liamaharon",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 89.14639713261649,
-        "pr_count": 775,
+        "avg_review_time_hours": 89.03412227949599,
+        "pr_count": 776,
         "merged_count": 651
       },
       {
@@ -6301,6 +6301,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11614,
+                    "title": "[DNM] Add HOP to the omni-node",
+                    "state": "OPEN",
+                    "created_at": "2026-04-01T16:25:35Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11614",
+                    "ready_for_review_at": "2026-04-01T16:25:35Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11484,
                     "title": "Add HOP promotion: node-side",
@@ -19709,6 +19725,35 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11616,
+                    "title": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots",
+                    "state": "OPEN",
+                    "created_at": "2026-04-01T20:13:17Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11616",
+                    "ready_for_review_at": "2026-04-01T20:13:17Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-04-01T21:03:29Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-01T21:04:14Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-02T00:25:13Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11577,
                     "title": "[WIP] Staking with validator self stake incentive",
@@ -123778,6 +123823,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 11609,
+                    "title": "Add pUSD teleport support to People chain Westend",
+                    "state": "OPEN",
+                    "created_at": "2026-04-01T12:11:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11609",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11529,
                     "title": "Westend AH: Add PSM",
                     "state": "OPEN",
@@ -163068,6 +163129,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "2a4ca43f680cecf3a26666c02bd1c7c0199b6d09",
+                    "message": "Align Tally::approval() with VoteTally trait semantics (#11567)",
+                    "date": "2026-04-01T10:57:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/2a4ca43f680cecf3a26666c02bd1c7c0199b6d09"
+                  },
+                  {
                     "sha": "f569daa322fd977b9a29a3fd711454b70fb00cb7",
                     "message": "Update asset-conversion validation to use strict withdrawal checks (#10646)",
                     "date": "2026-01-06T09:48:48Z",
@@ -163081,6 +163148,33 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11612,
+                    "title": "fix(multi-asset-bounties): enforce authorization in unassign_curator when parent bounty is not Active",
+                    "state": "OPEN",
+                    "created_at": "2026-04-01T14:55:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11612",
+                    "ready_for_review_at": "2026-04-01T14:55:27Z",
+                    "reviews": [
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-04-01T16:56:43Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-04-01T15:01:50Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 2.0211111111111113,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11567,
                     "title": "Align Tally::approval() with VoteTally trait semantics",
@@ -163310,6 +163404,30 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11607,
+                    "pr_title": "[stable2512] Backport #11567",
+                    "reviewed_at": "2026-04-01T11:55:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11607"
+                  },
+                  {
+                    "pr_number": 11606,
+                    "pr_title": "[stable2509] Backport #11567",
+                    "reviewed_at": "2026-04-01T11:54:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11606"
+                  },
+                  {
+                    "pr_number": 11608,
+                    "pr_title": "[stable2603] Backport #11567",
+                    "reviewed_at": "2026-04-01T11:53:55Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11608"
+                  },
+                  {
+                    "pr_number": 11605,
+                    "pr_title": "[stable2506] Backport #11567",
+                    "reviewed_at": "2026-04-01T11:52:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11605"
+                  },
                   {
                     "pr_number": 7243,
                     "pr_title": "transfer function Preservation is changed to Expendable ",
@@ -167515,6 +167633,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "c69795dad68821aaa780e160f6defcf0683e0aa4",
+                    "message": "Westend: Support Meta Transactions (#11469)",
+                    "date": "2026-04-01T09:06:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/c69795dad68821aaa780e160f6defcf0683e0aa4"
+                  },
                   {
                     "sha": "de0a245168da894e24d974fadf6bdf803e3ac219",
                     "message": "Raise offence queue eras bound limit (#11435)",

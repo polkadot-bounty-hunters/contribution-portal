@@ -369,6 +369,22 @@
   ],
   "prs": [
     {
+      "number": 11609,
+      "title": "Add pUSD teleport support to People chain Westend",
+      "state": "OPEN",
+      "created_at": "2026-04-01T12:11:58Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11609",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11529,
       "title": "Westend AH: Add PSM",
       "state": "OPEN",

@@ -381,6 +381,22 @@
   ],
   "prs": [
     {
+      "number": 11614,
+      "title": "[DNM] Add HOP to the omni-node",
+      "state": "OPEN",
+      "created_at": "2026-04-01T16:25:35Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "franciscoaguirre",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11614",
+      "ready_for_review_at": "2026-04-01T16:25:35Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11484,
       "title": "Add HOP promotion: node-side",
       "state": "OPEN",
