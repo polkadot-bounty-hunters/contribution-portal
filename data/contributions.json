@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-02T05:43:52.113Z",
+  "generated_at": "2026-04-03T05:45:20.694Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1491,
+    "total_commits": 1492,
     "total_prs": 1568,
     "total_merged_prs": 1019,
-    "total_reviews": 2311
+    "total_reviews": 2312
   },
   "leaderboard": {
     "overall": [
@@ -384,11 +384,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 6,
+        "commits": 7,
         "prs": 9,
         "merged_prs": 1,
-        "reviews": 6,
-        "score": 79
+        "reviews": 7,
+        "score": 83
       },
       {
         "name": "mittal-parth",
@@ -4347,11 +4347,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 6,
+          "commits": 7,
           "prs": 9,
           "merged_prs": 1,
-          "reviews": 6,
-          "score": 79
+          "reviews": 7,
+          "score": 83
         },
         {
           "name": "charlesHetterich",
@@ -163129,6 +163129,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "5fbeadde2a12aa6c3bd97b64a82748e715ae7813",
+                    "message": "fix(pallet-multi-asset-bounties): use non-destructive read in calculate_payout() (#11425)",
+                    "date": "2026-04-02T12:05:52Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/5fbeadde2a12aa6c3bd97b64a82748e715ae7813"
+                  },
+                  {
                     "sha": "2a4ca43f680cecf3a26666c02bd1c7c0199b6d09",
                     "message": "Align Tally::approval() with VoteTally trait semantics (#11567)",
                     "date": "2026-04-01T10:57:22Z",
@@ -163404,6 +163410,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11623,
+                    "pr_title": "[stable2603] Backport #11425",
+                    "reviewed_at": "2026-04-02T13:25:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11623"
+                  },
                   {
                     "pr_number": 11607,
                     "pr_title": "[stable2512] Backport #11567",
