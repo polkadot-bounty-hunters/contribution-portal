@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-03T05:45:20.694Z",
+  "generated_at": "2026-04-04T05:31:29.592Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1492,
-    "total_prs": 1568,
+    "total_commits": 1494,
+    "total_prs": 1569,
     "total_merged_prs": 1019,
-    "total_reviews": 2312
+    "total_reviews": 2313
   },
   "leaderboard": {
     "overall": [
@@ -47,8 +47,8 @@
         "commits": 92,
         "prs": 126,
         "merged_prs": 74,
-        "reviews": 217,
-        "score": 2113
+        "reviews": 218,
+        "score": 2116
       },
       {
         "name": "franciscoaguirre",
@@ -351,6 +351,16 @@
         "score": 90
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 9,
+        "prs": 10,
+        "merged_prs": 1,
+        "reviews": 7,
+        "score": 90
+      },
+      {
         "name": "BigTava",
         "github": "BigTava",
         "cohort": "PBA 5 Singapore 2024",
@@ -379,16 +389,6 @@
         "merged_prs": 5,
         "reviews": 2,
         "score": 84
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 7,
-        "prs": 9,
-        "merged_prs": 1,
-        "reviews": 7,
-        "score": 83
       },
       {
         "name": "mittal-parth",
@@ -530,8 +530,8 @@
           "commits": 92,
           "prs": 126,
           "merged_prs": 74,
-          "reviews": 217,
-          "score": 2113
+          "reviews": 218,
+          "score": 2116
         },
         {
           "name": "franciscoaguirre",
@@ -4347,11 +4347,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 7,
-          "prs": 9,
+          "commits": 9,
+          "prs": 10,
           "merged_prs": 1,
           "reviews": 7,
-          "score": 83
+          "score": 90
         },
         {
           "name": "charlesHetterich",
@@ -26456,6 +26456,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11628,
+                    "pr_title": "fix: slot-based collator shuts down immediately after init",
+                    "reviewed_at": "2026-04-03T14:58:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11628"
+                  },
                   {
                     "pr_number": 11577,
                     "pr_title": "[WIP] Staking with validator self stake incentive",
@@ -163129,6 +163135,18 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "ecada3402a70d906e10c6d33b0f42b6174fea119",
+                    "message": "fix(multi-asset-bounties): enforce authorization in unassign_curator when parent bounty is not Active (#11612)",
+                    "date": "2026-04-03T17:48:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/ecada3402a70d906e10c6d33b0f42b6174fea119"
+                  },
+                  {
+                    "sha": "97ebda9a6dab457e53a94e7108a6b2f9c374a5c1",
+                    "message": "update multi asset bounties pallet account derivation logic  (#11052)",
+                    "date": "2026-04-03T10:16:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/97ebda9a6dab457e53a94e7108a6b2f9c374a5c1"
+                  },
+                  {
                     "sha": "5fbeadde2a12aa6c3bd97b64a82748e715ae7813",
                     "message": "fix(pallet-multi-asset-bounties): use non-destructive read in calculate_payout() (#11425)",
                     "date": "2026-04-02T12:05:52Z",
@@ -163491,6 +163509,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1132,
+                    "title": "Update `BountyDepositBase` on Asset Hub Polkadot and Kusama",
+                    "state": "OPEN",
+                    "created_at": "2026-04-03T13:53:40Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1132",
+                    "ready_for_review_at": "2026-04-03T13:53:40Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1095,
                     "title": "fix(asset-hub-polkadot): add MultiAssetBounties to Governance and NonTransfer proxy filters",

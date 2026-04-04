@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "ecada3402a70d906e10c6d33b0f42b6174fea119",
+      "message": "fix(multi-asset-bounties): enforce authorization in unassign_curator when parent bounty is not Active (#11612)",
+      "date": "2026-04-03T17:48:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ecada3402a70d906e10c6d33b0f42b6174fea119"
+    },
+    {
+      "sha": "97ebda9a6dab457e53a94e7108a6b2f9c374a5c1",
+      "message": "update multi asset bounties pallet account derivation logic  (#11052)",
+      "date": "2026-04-03T10:16:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/97ebda9a6dab457e53a94e7108a6b2f9c374a5c1"
+    },
+    {
       "sha": "5fbeadde2a12aa6c3bd97b64a82748e715ae7813",
       "message": "fix(pallet-multi-asset-bounties): use non-destructive read in calculate_payout() (#11425)",
       "date": "2026-04-02T12:05:52Z",
