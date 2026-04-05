@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-04T05:31:29.592Z",
+  "generated_at": "2026-04-05T05:52:52.712Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1494,
-    "total_prs": 1569,
+    "total_prs": 1570,
     "total_merged_prs": 1019,
     "total_reviews": 2313
   },
@@ -175,10 +175,10 @@
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 6,
-        "prs": 19,
+        "prs": 20,
         "merged_prs": 14,
         "reviews": 19,
-        "score": 298
+        "score": 303
       },
       {
         "name": "tonyalaribe",
@@ -3126,10 +3126,10 @@
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 6,
-          "prs": 19,
+          "prs": 20,
           "merged_prs": 14,
           "reviews": 19,
-          "score": 298
+          "score": 303
         },
         {
           "name": "ndkazu",
@@ -156539,6 +156539,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11643,
+                    "title": "Fix bridges integration test failure for the Westend network",
+                    "state": "OPEN",
+                    "created_at": "2026-04-05T05:10:05Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rosarp",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11643",
+                    "ready_for_review_at": "2026-04-05T05:10:05Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11474,
                     "title": "Support multiple `IndexOperation::Renew` calls within a single extrinsic index in `sc-client-db`",
