@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T05:52:52.712Z",
+  "generated_at": "2026-04-06T06:01:09.175Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.20974858913864,
+    "average_review_time_hours": 78.15341537252723,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 89.03412227949599,
-        "pr_count": 776,
+        "avg_review_time_hours": 88.9330451880452,
+        "pr_count": 777,
         "merged_count": 651
       },
       {
@@ -156550,9 +156550,15 @@
                     "author": "rosarp",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/11643",
                     "ready_for_review_at": "2026-04-05T05:10:05Z",
-                    "reviews": [],
+                    "reviews": [
+                      {
+                        "reviewer": "pepoviola",
+                        "submitted_at": "2026-04-05T15:39:55Z",
+                        "state": "APPROVED"
+                      }
+                    ],
                     "comments": [],
-                    "time_to_first_review_hours": null,
+                    "time_to_first_review_hours": 10.497222222222222,
                     "time_to_merge_hours": null
                   },
                   {

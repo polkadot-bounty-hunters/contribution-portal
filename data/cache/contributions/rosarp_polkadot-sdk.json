@@ -49,9 +49,15 @@
       "author": "rosarp",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11643",
       "ready_for_review_at": "2026-04-05T05:10:05Z",
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "pepoviola",
+          "submitted_at": "2026-04-05T15:39:55Z",
+          "state": "APPROVED"
+        }
+      ],
       "comments": [],
-      "time_to_first_review_hours": null,
+      "time_to_first_review_hours": 10.497222222222222,
       "time_to_merge_hours": null
     },
     {
