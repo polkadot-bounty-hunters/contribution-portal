@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-06T06:01:09.175Z",
+  "generated_at": "2026-04-07T05:48:55.477Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1494,
-    "total_prs": 1570,
+    "total_commits": 1495,
+    "total_prs": 1576,
     "total_merged_prs": 1019,
-    "total_reviews": 2313
+    "total_reviews": 2314
   },
   "leaderboard": {
     "overall": [
@@ -45,20 +45,20 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 92,
-        "prs": 126,
+        "prs": 129,
         "merged_prs": 74,
         "reviews": 218,
-        "score": 2116
+        "score": 2131
       },
       {
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 77,
-        "prs": 115,
+        "prs": 116,
         "merged_prs": 83,
         "reviews": 171,
-        "score": 1995
+        "score": 2000
       },
       {
         "name": "jsidorenko",
@@ -174,11 +174,11 @@
         "name": "rosarp",
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 6,
+        "commits": 7,
         "prs": 20,
         "merged_prs": 14,
         "reviews": 19,
-        "score": 303
+        "score": 304
       },
       {
         "name": "tonyalaribe",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 11,
-        "prs": 17,
+        "prs": 18,
         "merged_prs": 3,
         "reviews": 27,
-        "score": 207
+        "score": 212
       },
       {
         "name": "DrW3RK",
@@ -391,6 +391,16 @@
         "score": 84
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 5,
+        "prs": 9,
+        "merged_prs": 1,
+        "reviews": 7,
+        "score": 81
+      },
+      {
         "name": "mittal-parth",
         "github": "mittal-parth",
         "cohort": "PBA 5 Singapore 2024",
@@ -407,16 +417,6 @@
         "commits": 5,
         "prs": 4,
         "merged_prs": 3,
-        "reviews": 6,
-        "score": 73
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 5,
-        "prs": 8,
-        "merged_prs": 1,
         "reviews": 6,
         "score": 73
       },
@@ -528,20 +528,20 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 92,
-          "prs": 126,
+          "prs": 129,
           "merged_prs": 74,
           "reviews": 218,
-          "score": 2116
+          "score": 2131
         },
         {
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 77,
-          "prs": 115,
+          "prs": 116,
           "merged_prs": 83,
           "reviews": 171,
-          "score": 1995
+          "score": 2000
         },
         {
           "name": "jsidorenko",
@@ -3125,11 +3125,11 @@
           "name": "rosarp",
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 6,
+          "commits": 7,
           "prs": 20,
           "merged_prs": 14,
           "reviews": 19,
-          "score": 303
+          "score": 304
         },
         {
           "name": "ndkazu",
@@ -5110,20 +5110,20 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 11,
-          "prs": 17,
+          "prs": 18,
           "merged_prs": 3,
           "reviews": 27,
-          "score": 207
+          "score": 212
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 5,
-          "prs": 8,
+          "prs": 9,
           "merged_prs": 1,
-          "reviews": 6,
-          "score": 73
+          "reviews": 7,
+          "score": 81
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 78.15341537252723,
+    "average_review_time_hours": 77.96453480866757,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 88.9330451880452,
-        "pr_count": 777,
+        "avg_review_time_hours": 88.59978881766382,
+        "pr_count": 780,
         "merged_count": 651
       },
       {
@@ -6301,6 +6301,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11662,
+                    "title": "Hand-off protocol",
+                    "state": "OPEN",
+                    "created_at": "2026-04-06T20:02:43Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11662",
+                    "ready_for_review_at": "2026-04-06T20:02:43Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11614,
                     "title": "[DNM] Add HOP to the omni-node",
@@ -19725,6 +19741,71 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11651,
+                    "title": "[Staking] Self stake incentive for Validators",
+                    "state": "OPEN",
+                    "created_at": "2026-04-06T12:03:11Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11651",
+                    "ready_for_review_at": "2026-04-06T12:03:11Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11649,
+                    "title": "[Staking] Consolidate try state warnings",
+                    "state": "OPEN",
+                    "created_at": "2026-04-06T08:37:10Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11649",
+                    "ready_for_review_at": "2026-04-06T08:37:10Z",
+                    "reviews": [
+                      {
+                        "reviewer": "rockbmb",
+                        "submitted_at": "2026-04-06T10:25:18Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-04-06T10:21:06Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.8022222222222222,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11647,
+                    "title": "[Staking] Fix LastValidatorEra false positive",
+                    "state": "OPEN",
+                    "created_at": "2026-04-06T07:01:39Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11647",
+                    "ready_for_review_at": "2026-04-06T07:01:39Z",
+                    "reviews": [
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-04-06T09:57:49Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 2.936111111111111,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11616,
                     "title": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots",
@@ -156502,6 +156583,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "8e64bb2e4d7554a813fe5a99805c9898123c1366",
+                    "message": "Fix bridges integration test failure for the Westend network (#11643)",
+                    "date": "2026-04-06T15:48:46Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/8e64bb2e4d7554a813fe5a99805c9898123c1366"
+                  },
+                  {
                     "sha": "c2174ff3505eaa1ea1eb047b784a0ed7afe1cbd7",
                     "message": "Bridges: Fix - Improve try-state for pallet-xcm-bridge-hub (#8615)",
                     "date": "2025-05-26T12:33:40Z",
@@ -167734,6 +167821,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 11653,
+                    "title": "Update runtime api with minimum nudges required and nudge validity",
+                    "state": "OPEN",
+                    "created_at": "2026-04-06T13:46:42Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11653",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11469,
                     "title": "Pallet Meta Tx into multiple runtimes",
                     "state": "OPEN",
@@ -168062,6 +168165,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11647,
+                    "pr_title": "[Staking] Fix LastValidatorEra false positive",
+                    "reviewed_at": "2026-04-06T11:08:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11647"
+                  },
                   {
                     "pr_number": 11584,
                     "pr_title": "[stable2603] Backport #11435",
@@ -169231,6 +169340,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11655,
+                    "title": "[eth-rpc] Handle event decode errors across runtime upgrades",
+                    "state": "OPEN",
+                    "created_at": "2026-04-06T15:18:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11655",
+                    "ready_for_review_at": "2026-04-06T15:18:27Z",
+                    "reviews": [
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2026-04-06T17:25:42Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2026-04-06T17:29:00Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2026-04-06T17:30:39Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 2.120833333333333,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11538,
                     "title": "[eth-rpc] Detect and backfill gaps in finalized block subscriptions",

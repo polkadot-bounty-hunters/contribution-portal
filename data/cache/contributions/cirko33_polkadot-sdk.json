@@ -33,6 +33,22 @@
   ],
   "prs": [
     {
+      "number": 11653,
+      "title": "Update runtime api with minimum nudges required and nudge validity",
+      "state": "OPEN",
+      "created_at": "2026-04-06T13:46:42Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11653",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11469,
       "title": "Pallet Meta Tx into multiple runtimes",
       "state": "OPEN",
@@ -361,6 +377,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11647,
+      "pr_title": "[Staking] Fix LastValidatorEra false positive",
+      "reviewed_at": "2026-04-06T11:08:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11647"
+    },
     {
       "pr_number": 11584,
       "pr_title": "[stable2603] Backport #11435",

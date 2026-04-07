@@ -435,6 +435,71 @@
   ],
   "prs": [
     {
+      "number": 11651,
+      "title": "[Staking] Self stake incentive for Validators",
+      "state": "OPEN",
+      "created_at": "2026-04-06T12:03:11Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11651",
+      "ready_for_review_at": "2026-04-06T12:03:11Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11649,
+      "title": "[Staking] Consolidate try state warnings",
+      "state": "OPEN",
+      "created_at": "2026-04-06T08:37:10Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11649",
+      "ready_for_review_at": "2026-04-06T08:37:10Z",
+      "reviews": [
+        {
+          "reviewer": "rockbmb",
+          "submitted_at": "2026-04-06T10:25:18Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2026-04-06T10:21:06Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.8022222222222222,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11647,
+      "title": "[Staking] Fix LastValidatorEra false positive",
+      "state": "OPEN",
+      "created_at": "2026-04-06T07:01:39Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11647",
+      "ready_for_review_at": "2026-04-06T07:01:39Z",
+      "reviews": [
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-04-06T09:57:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 2.936111111111111,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11616,
       "title": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots",
       "state": "OPEN",

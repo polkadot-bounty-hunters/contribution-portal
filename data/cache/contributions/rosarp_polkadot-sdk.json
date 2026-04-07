@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "8e64bb2e4d7554a813fe5a99805c9898123c1366",
+      "message": "Fix bridges integration test failure for the Westend network (#11643)",
+      "date": "2026-04-06T15:48:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/8e64bb2e4d7554a813fe5a99805c9898123c1366"
+    },
+    {
       "sha": "c2174ff3505eaa1ea1eb047b784a0ed7afe1cbd7",
       "message": "Bridges: Fix - Improve try-state for pallet-xcm-bridge-hub (#8615)",
       "date": "2025-05-26T12:33:40Z",

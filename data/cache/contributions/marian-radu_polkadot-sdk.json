@@ -69,6 +69,38 @@
   ],
   "prs": [
     {
+      "number": 11655,
+      "title": "[eth-rpc] Handle event decode errors across runtime upgrades",
+      "state": "OPEN",
+      "created_at": "2026-04-06T15:18:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11655",
+      "ready_for_review_at": "2026-04-06T15:18:27Z",
+      "reviews": [
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2026-04-06T17:25:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2026-04-06T17:29:00Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2026-04-06T17:30:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 2.120833333333333,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11538,
       "title": "[eth-rpc] Detect and backfill gaps in finalized block subscriptions",
       "state": "OPEN",
