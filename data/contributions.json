@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-07T05:48:55.477Z",
+  "generated_at": "2026-04-08T05:52:16.466Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1495,
-    "total_prs": 1576,
-    "total_merged_prs": 1019,
-    "total_reviews": 2314
+    "total_commits": 1498,
+    "total_prs": 1578,
+    "total_merged_prs": 1021,
+    "total_reviews": 2317
   },
   "leaderboard": {
     "overall": [
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 92,
+        "commits": 94,
         "prs": 129,
         "merged_prs": 74,
-        "reviews": 218,
-        "score": 2131
+        "reviews": 219,
+        "score": 2136
       },
       {
         "name": "franciscoaguirre",
@@ -301,6 +301,16 @@
         "score": 105
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 9,
+        "prs": 11,
+        "merged_prs": 2,
+        "reviews": 7,
+        "score": 105
+      },
+      {
         "name": "asiniscalchi",
         "github": "asiniscalchi",
         "cohort": "PBA 1 Cambridge 2022",
@@ -319,6 +329,16 @@
         "merged_prs": 4,
         "reviews": 5,
         "score": 101
+      },
+      {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 10,
+        "merged_prs": 2,
+        "reviews": 7,
+        "score": 97
       },
       {
         "name": "Aideepakchaudhary",
@@ -351,16 +371,6 @@
         "score": 90
       },
       {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 9,
-        "prs": 10,
-        "merged_prs": 1,
-        "reviews": 7,
-        "score": 90
-      },
-      {
         "name": "BigTava",
         "github": "BigTava",
         "cohort": "PBA 5 Singapore 2024",
@@ -389,16 +399,6 @@
         "merged_prs": 5,
         "reviews": 2,
         "score": 84
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 5,
-        "prs": 9,
-        "merged_prs": 1,
-        "reviews": 7,
-        "score": 81
       },
       {
         "name": "mittal-parth",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 92,
+          "commits": 94,
           "prs": 129,
           "merged_prs": 74,
-          "reviews": 218,
-          "score": 2131
+          "reviews": 219,
+          "score": 2136
         },
         {
           "name": "franciscoaguirre",
@@ -4334,6 +4334,16 @@
       ],
       "pba_6_2025_Lucerne": [
         {
+          "name": "dhirajs0",
+          "github": "dhirajs0",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 9,
+          "prs": 11,
+          "merged_prs": 2,
+          "reviews": 7,
+          "score": 105
+        },
+        {
           "name": "castillax",
           "github": "castillax",
           "cohort": "PBA 6 Lucerne 2025",
@@ -4341,16 +4351,6 @@
           "prs": 6,
           "merged_prs": 3,
           "reviews": 9,
-          "score": 90
-        },
-        {
-          "name": "dhirajs0",
-          "github": "dhirajs0",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 9,
-          "prs": 10,
-          "merged_prs": 1,
-          "reviews": 7,
           "score": 90
         },
         {
@@ -4380,8 +4380,8 @@
           "commits": 1,
           "prs": 2,
           "merged_prs": 0,
-          "reviews": 6,
-          "score": 29
+          "reviews": 8,
+          "score": 35
         },
         {
           "name": "andrzejSulkowski",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 5,
-          "prs": 9,
-          "merged_prs": 1,
+          "commits": 6,
+          "prs": 10,
+          "merged_prs": 2,
           "reviews": 7,
-          "score": 81
+          "score": 97
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.96453480866757,
+    "average_review_time_hours": 77.8411760103102,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 765,
-        "approved_count": 262,
+        "review_count": 766,
+        "approved_count": 263,
         "avg_time_to_review_hours": 85.25944230769231,
-        "approval_rate": 34.248366013071895
+        "approval_rate": 34.33420365535248
       },
       {
         "reviewer": "bkchr",
@@ -5645,10 +5645,10 @@
       },
       {
         "reviewer": "muharem",
-        "review_count": 219,
-        "approved_count": 40,
-        "avg_time_to_review_hours": 203.840462962963,
-        "approval_rate": 18.2648401826484
+        "review_count": 222,
+        "approved_count": 42,
+        "avg_time_to_review_hours": 175.22289682539684,
+        "approval_rate": 18.91891891891892
       },
       {
         "reviewer": "liamaharon",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 88.59978881766382,
-        "pr_count": 780,
-        "merged_count": 651
+        "avg_review_time_hours": 88.48822023047376,
+        "pr_count": 781,
+        "merged_count": 652
       },
       {
         "repository": "paritytech/substrate",
@@ -5763,9 +5763,9 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 65.67032135076252,
-        "pr_count": 51,
-        "merged_count": 39
+        "avg_review_time_hours": 64.51455128205129,
+        "pr_count": 52,
+        "merged_count": 40
       },
       {
         "repository": "open-web3-stack/open-runtime-module-library",
@@ -5788,11 +5788,11 @@
         "merge_count": 29
       },
       {
-        "merger": "fellowship-merge-bot[bot]",
-        "merge_count": 28
+        "merger": "ggwpez",
+        "merge_count": 29
       },
       {
-        "merger": "ggwpez",
+        "merger": "fellowship-merge-bot[bot]",
         "merge_count": 28
       },
       {
@@ -19308,6 +19308,18 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "de426461c0d204ba0f4a290b7ff3b085f74a086f",
+                    "message": "[Staking] Consolidate try state warnings (#11649)",
+                    "date": "2026-04-07T20:34:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/de426461c0d204ba0f4a290b7ff3b085f74a086f"
+                  },
+                  {
+                    "sha": "99be95da17c08dfc8388be26c213157db86dba22",
+                    "message": "[Staking] Fix LastValidatorEra false positive (#11647)",
+                    "date": "2026-04-07T11:18:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/99be95da17c08dfc8388be26c213157db86dba22"
+                  },
+                  {
                     "sha": "0d6888a1cd4c7c864d05d843a72fccbb5f7a3fea",
                     "message": "Implement Budget Distribution logic in pallet-dap (#11527)",
                     "date": "2026-03-31T22:18:21Z",
@@ -26537,6 +26549,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11668,
+                    "pr_title": "Remove Meta Tx from Westend RC",
+                    "reviewed_at": "2026-04-07T23:30:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11668"
+                  },
                   {
                     "pr_number": 11628,
                     "pr_title": "fix: slot-based collator shuts down immediately after init",
@@ -163619,6 +163637,38 @@
                 ],
                 "prs": [
                   {
+                    "number": 1134,
+                    "title": "Update BountyDepositBase on Asset Hub Polkadot and Kusama",
+                    "state": "MERGED",
+                    "created_at": "2026-04-07T06:22:09Z",
+                    "closed_at": "2026-04-07T12:05:44Z",
+                    "merged_at": "2026-04-07T12:05:43Z",
+                    "merged_by": "ggwpez",
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1134",
+                    "ready_for_review_at": "2026-04-07T06:22:09Z",
+                    "reviews": [
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-04-07T11:56:22Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-04-07T12:05:35Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-04-07T17:09:25Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 5.570277777777778,
+                    "time_to_merge_hours": 5.726111111111111
+                  },
+                  {
                     "number": 1132,
                     "title": "Update `BountyDepositBase` on Asset Hub Polkadot and Kusama",
                     "state": "OPEN",
@@ -164581,6 +164631,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11673,
+                    "pr_title": "statement-store: Add malformed input unit tests",
+                    "reviewed_at": "2026-04-07T16:59:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11673"
+                  },
+                  {
+                    "pr_number": 11667,
+                    "pr_title": "statement-store: read allowance on best hash",
+                    "reviewed_at": "2026-04-07T16:50:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11667"
+                  },
                   {
                     "pr_number": 11329,
                     "pr_title": "statement-store: allow light clients to specify topic affinity",
@@ -167789,6 +167851,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "5a8eaa7825953ed960d88ff73dd6c363f59495d2",
+                    "message": "Remove Meta Tx from Westend RC (#11668)",
+                    "date": "2026-04-07T22:43:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/5a8eaa7825953ed960d88ff73dd6c363f59495d2"
+                  },
+                  {
                     "sha": "c69795dad68821aaa780e160f6defcf0683e0aa4",
                     "message": "Westend: Support Meta Transactions (#11469)",
                     "date": "2026-04-01T09:06:17Z",
@@ -167820,6 +167888,55 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11668,
+                    "title": "Remove Meta Tx from Westend RC",
+                    "state": "MERGED",
+                    "created_at": "2026-04-07T13:07:00Z",
+                    "closed_at": "2026-04-07T23:29:35Z",
+                    "merged_at": "2026-04-07T23:29:35Z",
+                    "merged_by": "cirko33",
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11668",
+                    "ready_for_review_at": "2026-04-07T13:07:00Z",
+                    "reviews": [
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-04-07T14:34:53Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-04-07T14:35:00Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-07T20:52:35Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-04-07T13:07:30Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-07T13:09:41Z"
+                      },
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-04-07T13:13:40Z"
+                      },
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-04-07T23:30:06Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.4647222222222223,
+                    "time_to_merge_hours": 10.376388888888888
+                  },
                   {
                     "number": 11653,
                     "title": "Update runtime api with minimum nudges required and nudge validity",

@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "de426461c0d204ba0f4a290b7ff3b085f74a086f",
+      "message": "[Staking] Consolidate try state warnings (#11649)",
+      "date": "2026-04-07T20:34:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/de426461c0d204ba0f4a290b7ff3b085f74a086f"
+    },
+    {
+      "sha": "99be95da17c08dfc8388be26c213157db86dba22",
+      "message": "[Staking] Fix LastValidatorEra false positive (#11647)",
+      "date": "2026-04-07T11:18:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/99be95da17c08dfc8388be26c213157db86dba22"
+    },
+    {
       "sha": "0d6888a1cd4c7c864d05d843a72fccbb5f7a3fea",
       "message": "Implement Budget Distribution logic in pallet-dap (#11527)",
       "date": "2026-03-31T22:18:21Z",
@@ -7230,6 +7242,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11668,
+      "pr_title": "Remove Meta Tx from Westend RC",
+      "reviewed_at": "2026-04-07T23:30:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11668"
+    },
     {
       "pr_number": 11628,
       "pr_title": "fix: slot-based collator shuts down immediately after init",

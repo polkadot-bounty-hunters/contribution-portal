@@ -75,6 +75,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11673,
+      "pr_title": "statement-store: Add malformed input unit tests",
+      "reviewed_at": "2026-04-07T16:59:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11673"
+    },
+    {
+      "pr_number": 11667,
+      "pr_title": "statement-store: read allowance on best hash",
+      "reviewed_at": "2026-04-07T16:50:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11667"
+    },
+    {
       "pr_number": 11329,
       "pr_title": "statement-store: allow light clients to specify topic affinity",
       "reviewed_at": "2026-03-10T17:39:32Z",
