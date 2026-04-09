@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d8837ceb93f00290612d51b5348ae3e80d0eb8a8",
+      "message": "revive: Automatic address mapping via OnNewAccount/OnKilledAccount (#11416)",
+      "date": "2026-04-08T09:02:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d8837ceb93f00290612d51b5348ae3e80d0eb8a8"
+    },
+    {
       "sha": "ded6501b8342825e9c382dc656614f6931cbb460",
       "message": "revive: cap remaining_gas to u64::MAX in substrate_execution (#10924)",
       "date": "2026-03-09T11:58:54Z",

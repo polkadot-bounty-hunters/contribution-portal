@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-08T05:52:16.466Z",
+  "generated_at": "2026-04-09T05:48:54.340Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1498,
-    "total_prs": 1578,
+    "total_commits": 1501,
+    "total_prs": 1579,
     "total_merged_prs": 1021,
-    "total_reviews": 2317
+    "total_reviews": 2319
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 261,
+        "commits": 262,
         "prs": 195,
         "merged_prs": 131,
         "reviews": 217,
-        "score": 3197
+        "score": 3198
       },
       {
         "name": "liamaharon",
@@ -55,10 +55,10 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 77,
-        "prs": 116,
+        "prs": 117,
         "merged_prs": 83,
-        "reviews": 171,
-        "score": 2000
+        "reviews": 172,
+        "score": 2008
       },
       {
         "name": "jsidorenko",
@@ -161,6 +161,16 @@
         "score": 319
       },
       {
+        "name": "rosarp",
+        "github": "rosarp",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 7,
+        "prs": 20,
+        "merged_prs": 14,
+        "reviews": 20,
+        "score": 307
+      },
+      {
         "name": "BradleyOlson64",
         "github": "BradleyOlson64",
         "cohort": "PBA 1 Cambridge 2022",
@@ -169,16 +179,6 @@
         "merged_prs": 12,
         "reviews": 27,
         "score": 306
-      },
-      {
-        "name": "rosarp",
-        "github": "rosarp",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 7,
-        "prs": 20,
-        "merged_prs": 14,
-        "reviews": 19,
-        "score": 304
       },
       {
         "name": "tonyalaribe",
@@ -214,11 +214,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 11,
+        "commits": 12,
         "prs": 18,
         "merged_prs": 3,
         "reviews": 27,
-        "score": 212
+        "score": 213
       },
       {
         "name": "DrW3RK",
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 77,
-          "prs": 116,
+          "prs": 117,
           "merged_prs": 83,
-          "reviews": 171,
-          "score": 2000
+          "reviews": 172,
+          "score": 2008
         },
         {
           "name": "jsidorenko",
@@ -647,11 +647,11 @@
           "name": "lrazovic",
           "github": "lrazovic",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 0,
+          "commits": 1,
           "prs": 3,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 15
+          "score": 16
         },
         {
           "name": "PoisonPhang",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 261,
+          "commits": 262,
           "prs": 195,
           "merged_prs": 131,
           "reviews": 217,
-          "score": 3197
+          "score": 3198
         },
         {
           "name": "liamaharon",
@@ -3128,8 +3128,8 @@
           "commits": 7,
           "prs": 20,
           "merged_prs": 14,
-          "reviews": 19,
-          "score": 304
+          "reviews": 20,
+          "score": 307
         },
         {
           "name": "ndkazu",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 11,
+          "commits": 12,
           "prs": 18,
           "merged_prs": 3,
           "reviews": 27,
-          "score": 212
+          "score": 213
         },
         {
           "name": "cirko33",
@@ -6301,6 +6301,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11692,
+                    "title": "HOP auth using bulletin authorizations",
+                    "state": "OPEN",
+                    "created_at": "2026-04-08T11:13:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11692",
+                    "ready_for_review_at": "2026-04-08T11:13:58Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11662,
                     "title": "Hand-off protocol",
@@ -14778,6 +14794,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11694,
+                    "pr_title": "Make pallet_xcm_bridge_hub_router exporter configurable for paid/unpaid",
+                    "reviewed_at": "2026-04-08T20:32:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11694"
+                  },
                   {
                     "pr_number": 11424,
                     "pr_title": "[stable2603] Backport #11389",
@@ -56637,7 +56659,14 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "dd79f9668c46bd439cec8a916eabbb02ce74bba1",
+                    "message": "Introduce PSM pallet (part of the pUSD Project) (#11068)",
+                    "date": "2026-04-08T14:25:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/dd79f9668c46bd439cec8a916eabbb02ce74bba1"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 11068,
@@ -89568,6 +89597,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "d8837ceb93f00290612d51b5348ae3e80d0eb8a8",
+                    "message": "revive: Automatic address mapping via OnNewAccount/OnKilledAccount (#11416)",
+                    "date": "2026-04-08T09:02:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/d8837ceb93f00290612d51b5348ae3e80d0eb8a8"
+                  },
                   {
                     "sha": "ded6501b8342825e9c382dc656614f6931cbb460",
                     "message": "revive: cap remaining_gas to u64::MAX in substrate_execution (#10924)",
@@ -157586,6 +157621,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11694,
+                    "pr_title": "Make pallet_xcm_bridge_hub_router exporter configurable for paid/unpaid",
+                    "reviewed_at": "2026-04-08T20:32:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11694"
+                  },
+                  {
                     "pr_number": 10831,
                     "pr_title": "Fix fee handling of pay-over-xcm trait(s)",
                     "reviewed_at": "2026-01-16T20:40:50Z",
@@ -169389,6 +169430,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "2ae43774747e1d54c617d30dc5573570d0e6f7c6",
+                    "message": "eth-rpc: Add trace logging for receipt lookup debugging (#11522)",
+                    "date": "2026-04-08T16:45:55Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/2ae43774747e1d54c617d30dc5573570d0e6f7c6"
+                  },
                   {
                     "sha": "a754446d5f37e02ccfec44431a0f25732072e15e",
                     "message": "eth-rpc: add support for the earliest block tag (#11457)",

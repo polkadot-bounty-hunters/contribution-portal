@@ -381,6 +381,22 @@
   ],
   "prs": [
     {
+      "number": 11692,
+      "title": "HOP auth using bulletin authorizations",
+      "state": "OPEN",
+      "created_at": "2026-04-08T11:13:58Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "franciscoaguirre",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11692",
+      "ready_for_review_at": "2026-04-08T11:13:58Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11662,
       "title": "Hand-off protocol",
       "state": "OPEN",
@@ -8857,6 +8873,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11694,
+      "pr_title": "Make pallet_xcm_bridge_hub_router exporter configurable for paid/unpaid",
+      "reviewed_at": "2026-04-08T20:32:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11694"
+    },
     {
       "pr_number": 11424,
       "pr_title": "[stable2603] Backport #11389",

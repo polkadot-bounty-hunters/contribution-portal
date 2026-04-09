@@ -986,6 +986,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11694,
+      "pr_title": "Make pallet_xcm_bridge_hub_router exporter configurable for paid/unpaid",
+      "reviewed_at": "2026-04-08T20:32:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11694"
+    },
+    {
       "pr_number": 10831,
       "pr_title": "Fix fee handling of pay-over-xcm trait(s)",
       "reviewed_at": "2026-01-16T20:40:50Z",

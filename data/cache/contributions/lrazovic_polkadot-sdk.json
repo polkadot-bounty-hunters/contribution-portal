@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "dd79f9668c46bd439cec8a916eabbb02ce74bba1",
+      "message": "Introduce PSM pallet (part of the pUSD Project) (#11068)",
+      "date": "2026-04-08T14:25:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/dd79f9668c46bd439cec8a916eabbb02ce74bba1"
+    }
+  ],
   "prs": [
     {
       "number": 11068,

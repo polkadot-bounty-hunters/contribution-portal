@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "2ae43774747e1d54c617d30dc5573570d0e6f7c6",
+      "message": "eth-rpc: Add trace logging for receipt lookup debugging (#11522)",
+      "date": "2026-04-08T16:45:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/2ae43774747e1d54c617d30dc5573570d0e6f7c6"
+    },
+    {
       "sha": "a754446d5f37e02ccfec44431a0f25732072e15e",
       "message": "eth-rpc: add support for the earliest block tag (#11457)",
       "date": "2026-03-24T07:31:49Z",
