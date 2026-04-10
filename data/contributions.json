@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-09T05:48:54.340Z",
+  "generated_at": "2026-04-10T06:02:36.034Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1501,
-    "total_prs": 1579,
-    "total_merged_prs": 1021,
-    "total_reviews": 2319
+    "total_commits": 1503,
+    "total_prs": 1581,
+    "total_merged_prs": 1022,
+    "total_reviews": 2320
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 257,
-        "prs": 188,
-        "merged_prs": 146,
+        "prs": 189,
+        "merged_prs": 147,
         "reviews": 240,
-        "score": 3377
+        "score": 3392
       },
       {
         "name": "pgherveou",
@@ -214,11 +214,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 12,
+        "commits": 14,
         "prs": 18,
         "merged_prs": 3,
         "reviews": 27,
-        "score": 213
+        "score": 215
       },
       {
         "name": "DrW3RK",
@@ -311,6 +311,16 @@
         "score": 105
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 11,
+        "merged_prs": 2,
+        "reviews": 8,
+        "score": 105
+      },
+      {
         "name": "asiniscalchi",
         "github": "asiniscalchi",
         "cohort": "PBA 1 Cambridge 2022",
@@ -329,16 +339,6 @@
         "merged_prs": 4,
         "reviews": 5,
         "score": 101
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 10,
-        "merged_prs": 2,
-        "reviews": 7,
-        "score": 97
       },
       {
         "name": "Aideepakchaudhary",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 257,
-          "prs": 188,
-          "merged_prs": 146,
+          "prs": 189,
+          "merged_prs": 147,
           "reviews": 240,
-          "score": 3377
+          "score": 3392
         },
         {
           "name": "ank4n",
@@ -5109,21 +5109,21 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 12,
+          "commits": 14,
           "prs": 18,
           "merged_prs": 3,
           "reviews": 27,
-          "score": 213
+          "score": 215
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 10,
+          "prs": 11,
           "merged_prs": 2,
-          "reviews": 7,
-          "score": 97
+          "reviews": 8,
+          "score": 105
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.8411760103102,
+    "average_review_time_hours": 77.7793087748344,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 88.48822023047376,
-        "pr_count": 781,
-        "merged_count": 652
+        "avg_review_time_hours": 88.37903523728332,
+        "pr_count": 782,
+        "merged_count": 653
       },
       {
         "repository": "paritytech/substrate",
@@ -5848,11 +5848,11 @@
         "merge_count": 4
       },
       {
-        "merger": "muharem",
+        "merger": "skunert",
         "merge_count": 4
       },
       {
-        "merger": "ordian",
+        "merger": "muharem",
         "merge_count": 4
       }
     ]
@@ -38232,6 +38232,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11708,
+                    "title": "simplify blocks_per_cores",
+                    "state": "MERGED",
+                    "created_at": "2026-04-09T15:07:30Z",
+                    "closed_at": "2026-04-09T15:19:18Z",
+                    "merged_at": "2026-04-09T15:19:18Z",
+                    "merged_by": "skunert",
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11708",
+                    "ready_for_review_at": "2026-04-09T15:07:30Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": 0.19666666666666666
+                  },
                   {
                     "number": 11232,
                     "title": "fix: publish-check-compile.yml",
@@ -167930,6 +167946,28 @@
                 ],
                 "prs": [
                   {
+                    "number": 11702,
+                    "title": "introduce panic switch into price oracle",
+                    "state": "OPEN",
+                    "created_at": "2026-04-09T11:10:19Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11702",
+                    "ready_for_review_at": "2026-04-09T11:10:19Z",
+                    "reviews": [
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-04-09T14:16:39Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 3.1055555555555556,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11668,
                     "title": "Remove Meta Tx from Westend RC",
                     "state": "MERGED",
@@ -168323,6 +168361,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11702,
+                    "pr_title": "introduce panic switch into price oracle",
+                    "reviewed_at": "2026-04-09T14:16:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11702"
+                  },
                   {
                     "pr_number": 11647,
                     "pr_title": "[Staking] Fix LastValidatorEra false positive",
@@ -169430,6 +169474,18 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "a3f0e923b94c50aac0876fdee40de823c2dd8d4c",
+                    "message": "[eth-rpc] Handle event decode errors across runtime upgrades (#11655)",
+                    "date": "2026-04-09T15:35:51Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/a3f0e923b94c50aac0876fdee40de823c2dd8d4c"
+                  },
+                  {
+                    "sha": "99670e9703224aa06c5c1e863034841d58525c1f",
+                    "message": "[eth-rpc] Detect and backfill gaps in finalized block subscriptions (#11538)",
+                    "date": "2026-04-09T07:57:02Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/99670e9703224aa06c5c1e863034841d58525c1f"
+                  },
                   {
                     "sha": "2ae43774747e1d54c617d30dc5573570d0e6f7c6",
                     "message": "eth-rpc: Add trace logging for receipt lookup debugging (#11522)",

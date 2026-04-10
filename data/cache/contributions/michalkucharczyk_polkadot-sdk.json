@@ -1017,6 +1017,22 @@
   ],
   "prs": [
     {
+      "number": 11708,
+      "title": "simplify blocks_per_cores",
+      "state": "MERGED",
+      "created_at": "2026-04-09T15:07:30Z",
+      "closed_at": "2026-04-09T15:19:18Z",
+      "merged_at": "2026-04-09T15:19:18Z",
+      "merged_by": "skunert",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11708",
+      "ready_for_review_at": "2026-04-09T15:07:30Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": 0.19666666666666666
+    },
+    {
       "number": 11232,
       "title": "fix: publish-check-compile.yml",
       "state": "MERGED",

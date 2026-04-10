@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "a3f0e923b94c50aac0876fdee40de823c2dd8d4c",
+      "message": "[eth-rpc] Handle event decode errors across runtime upgrades (#11655)",
+      "date": "2026-04-09T15:35:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a3f0e923b94c50aac0876fdee40de823c2dd8d4c"
+    },
+    {
+      "sha": "99670e9703224aa06c5c1e863034841d58525c1f",
+      "message": "[eth-rpc] Detect and backfill gaps in finalized block subscriptions (#11538)",
+      "date": "2026-04-09T07:57:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/99670e9703224aa06c5c1e863034841d58525c1f"
+    },
+    {
       "sha": "2ae43774747e1d54c617d30dc5573570d0e6f7c6",
       "message": "eth-rpc: Add trace logging for receipt lookup debugging (#11522)",
       "date": "2026-04-08T16:45:55Z",
