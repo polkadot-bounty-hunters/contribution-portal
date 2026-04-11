@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-10T06:02:36.034Z",
+  "generated_at": "2026-04-11T05:35:24.763Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1503,
-    "total_prs": 1581,
-    "total_merged_prs": 1022,
-    "total_reviews": 2320
+    "total_commits": 1504,
+    "total_prs": 1583,
+    "total_merged_prs": 1023,
+    "total_reviews": 2322
   },
   "leaderboard": {
     "overall": [
@@ -15,20 +15,20 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 257,
-        "prs": 189,
-        "merged_prs": 147,
-        "reviews": 240,
-        "score": 3392
+        "prs": 190,
+        "merged_prs": 148,
+        "reviews": 241,
+        "score": 3410
       },
       {
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 262,
+        "commits": 263,
         "prs": 195,
         "merged_prs": 131,
         "reviews": 217,
-        "score": 3198
+        "score": 3199
       },
       {
         "name": "liamaharon",
@@ -57,8 +57,8 @@
         "commits": 77,
         "prs": 117,
         "merged_prs": 83,
-        "reviews": 172,
-        "score": 2008
+        "reviews": 173,
+        "score": 2011
       },
       {
         "name": "jsidorenko",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 14,
-        "prs": 18,
+        "prs": 19,
         "merged_prs": 3,
         "reviews": 27,
-        "score": 215
+        "score": 220
       },
       {
         "name": "DrW3RK",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 257,
-          "prs": 189,
-          "merged_prs": 147,
-          "reviews": 240,
-          "score": 3392
+          "prs": 190,
+          "merged_prs": 148,
+          "reviews": 241,
+          "score": 3410
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 77,
           "prs": 117,
           "merged_prs": 83,
-          "reviews": 172,
-          "score": 2008
+          "reviews": 173,
+          "score": 2011
         },
         {
           "name": "jsidorenko",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 262,
+          "commits": 263,
           "prs": 195,
           "merged_prs": 131,
           "reviews": 217,
-          "score": 3198
+          "score": 3199
         },
         {
           "name": "liamaharon",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 14,
-          "prs": 18,
+          "prs": 19,
           "merged_prs": 3,
           "reviews": 27,
-          "score": 215
+          "score": 220
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.7793087748344,
+    "average_review_time_hours": 77.71531293079677,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5701,10 +5701,10 @@
       },
       {
         "reviewer": "skunert",
-        "review_count": 127,
-        "approved_count": 83,
-        "avg_time_to_review_hours": 123.04621794871794,
-        "approval_rate": 65.35433070866141
+        "review_count": 129,
+        "approved_count": 84,
+        "avg_time_to_review_hours": 114.28636904761903,
+        "approval_rate": 65.11627906976744
       },
       {
         "reviewer": "gpestana",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 88.37903523728332,
-        "pr_count": 782,
-        "merged_count": 653
+        "avg_review_time_hours": 88.26668440471123,
+        "pr_count": 783,
+        "merged_count": 654
       },
       {
         "repository": "paritytech/substrate",
@@ -16942,6 +16942,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1143,
+                    "pr_title": "Add `AuthorizeCall` transaction extension to all runtimes",
+                    "reviewed_at": "2026-04-10T16:04:35Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1143"
+                  },
                   {
                     "pr_number": 1110,
                     "pr_title": "Release 2.1.1",
@@ -38233,6 +38239,48 @@
                 ],
                 "prs": [
                   {
+                    "number": 11725,
+                    "title": "warp sync fix and little test",
+                    "state": "MERGED",
+                    "created_at": "2026-04-10T15:15:13Z",
+                    "closed_at": "2026-04-10T20:07:17Z",
+                    "merged_at": "2026-04-10T20:07:17Z",
+                    "merged_by": "michalkucharczyk",
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11725",
+                    "ready_for_review_at": "2026-04-10T15:15:13Z",
+                    "reviews": [
+                      {
+                        "reviewer": "skunert",
+                        "submitted_at": "2026-04-10T15:39:43Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "michalkucharczyk",
+                        "submitted_at": "2026-04-10T15:51:17Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "michalkucharczyk",
+                        "submitted_at": "2026-04-10T15:51:30Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "michalkucharczyk",
+                        "submitted_at": "2026-04-10T15:54:52Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "skunert",
+                        "submitted_at": "2026-04-10T16:10:16Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.4083333333333333,
+                    "time_to_merge_hours": 4.8677777777777775
+                  },
+                  {
                     "number": 11708,
                     "title": "simplify blocks_per_cores",
                     "state": "MERGED",
@@ -46493,6 +46541,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11725,
+                    "pr_title": "warp sync fix and little test",
+                    "reviewed_at": "2026-04-10T20:07:19Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11725"
+                  },
                   {
                     "pr_number": 11557,
                     "pr_title": "Double max memory on block import",
@@ -89613,6 +89667,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "de4709b0914c8290f0092c919d841b79249db836",
+                    "message": "revive: Skip redundant eth_block_hash RPC call in block subscription (#11475)",
+                    "date": "2026-04-10T14:54:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/de4709b0914c8290f0092c919d841b79249db836"
+                  },
                   {
                     "sha": "d8837ceb93f00290612d51b5348ae3e80d0eb8a8",
                     "message": "revive: Automatic address mapping via OnNewAccount/OnKilledAccount (#11416)",
@@ -169560,6 +169620,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11726,
+                    "title": "eth-rpc: Bulk INSERT/DELETE and commit per-block writes atomically",
+                    "state": "OPEN",
+                    "created_at": "2026-04-10T17:14:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11726",
+                    "ready_for_review_at": "2026-04-10T17:14:49Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11655,
                     "title": "[eth-rpc] Handle event decode errors across runtime upgrades",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "de4709b0914c8290f0092c919d841b79249db836",
+      "message": "revive: Skip redundant eth_block_hash RPC call in block subscription (#11475)",
+      "date": "2026-04-10T14:54:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/de4709b0914c8290f0092c919d841b79249db836"
+    },
+    {
       "sha": "d8837ceb93f00290612d51b5348ae3e80d0eb8a8",
       "message": "revive: Automatic address mapping via OnNewAccount/OnKilledAccount (#11416)",
       "date": "2026-04-08T09:02:21Z",
