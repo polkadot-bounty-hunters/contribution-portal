@@ -1017,6 +1017,48 @@
   ],
   "prs": [
     {
+      "number": 11733,
+      "title": "fatxpool: invalid inblock event fixed",
+      "state": "OPEN",
+      "created_at": "2026-04-11T18:47:57Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11733",
+      "ready_for_review_at": "2026-04-11T18:47:57Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2026-04-11T18:48:17Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11731,
+      "title": "fatxpool: unban viewless transactions after mempool revalidation",
+      "state": "OPEN",
+      "created_at": "2026-04-11T09:56:15Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11731",
+      "ready_for_review_at": "2026-04-11T09:56:15Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2026-04-11T09:56:47Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11725,
       "title": "warp sync fix and little test",
       "state": "MERGED",

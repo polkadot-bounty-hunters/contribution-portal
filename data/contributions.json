@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-11T05:35:24.763Z",
+  "generated_at": "2026-04-12T06:03:09.528Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1504,
-    "total_prs": 1583,
+    "total_prs": 1585,
     "total_merged_prs": 1023,
     "total_reviews": 2322
   },
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 257,
-        "prs": 190,
+        "prs": 192,
         "merged_prs": 148,
         "reviews": 241,
-        "score": 3410
+        "score": 3420
       },
       {
         "name": "pgherveou",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 257,
-          "prs": 190,
+          "prs": 192,
           "merged_prs": 148,
           "reviews": 241,
-          "score": 3410
+          "score": 3420
         },
         {
           "name": "ank4n",
@@ -38238,6 +38238,48 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11733,
+                    "title": "fatxpool: invalid inblock event fixed",
+                    "state": "OPEN",
+                    "created_at": "2026-04-11T18:47:57Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11733",
+                    "ready_for_review_at": "2026-04-11T18:47:57Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2026-04-11T18:48:17Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11731,
+                    "title": "fatxpool: unban viewless transactions after mempool revalidation",
+                    "state": "OPEN",
+                    "created_at": "2026-04-11T09:56:15Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11731",
+                    "ready_for_review_at": "2026-04-11T09:56:15Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2026-04-11T09:56:47Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11725,
                     "title": "warp sync fix and little test",
