@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "de2291157851582dbdddec5bdd96c3d87d68cae8",
+      "message": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots (#11616)",
+      "date": "2026-04-13T18:52:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/de2291157851582dbdddec5bdd96c3d87d68cae8"
+    },
+    {
       "sha": "de426461c0d204ba0f4a290b7ff3b085f74a086f",
       "message": "[Staking] Consolidate try state warnings (#11649)",
       "date": "2026-04-07T20:34:05Z",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-13T06:14:37.863Z",
+  "generated_at": "2026-04-14T06:01:46.585Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1504,
-    "total_prs": 1585,
+    "total_commits": 1506,
+    "total_prs": 1586,
     "total_merged_prs": 1023,
-    "total_reviews": 2322
+    "total_reviews": 2323
   },
   "leaderboard": {
     "overall": [
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 94,
+        "commits": 95,
         "prs": 129,
         "merged_prs": 74,
         "reviews": 219,
-        "score": 2136
+        "score": 2137
       },
       {
         "name": "franciscoaguirre",
@@ -84,11 +84,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 111,
-        "prs": 73,
+        "commits": 112,
+        "prs": 74,
         "merged_prs": 54,
         "reviews": 53,
-        "score": 1175
+        "score": 1181
       },
       {
         "name": "juangirini",
@@ -291,6 +291,16 @@
         "score": 113
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 9,
+        "prs": 11,
+        "merged_prs": 2,
+        "reviews": 8,
+        "score": 108
+      },
+      {
         "name": "brunopgalvao",
         "github": "brunopgalvao",
         "cohort": "PBA 2 BA 2023",
@@ -298,16 +308,6 @@
         "prs": 8,
         "merged_prs": 3,
         "reviews": 10,
-        "score": 105
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 9,
-        "prs": 11,
-        "merged_prs": 2,
-        "reviews": 7,
         "score": 105
       },
       {
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 94,
+          "commits": 95,
           "prs": 129,
           "merged_prs": 74,
           "reviews": 219,
-          "score": 2136
+          "score": 2137
         },
         {
           "name": "franciscoaguirre",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 111,
-          "prs": 73,
+          "commits": 112,
+          "prs": 74,
           "merged_prs": 54,
           "reviews": 53,
-          "score": 1175
+          "score": 1181
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 9,
           "prs": 11,
           "merged_prs": 2,
-          "reviews": 7,
-          "score": 105
+          "reviews": 8,
+          "score": 108
         },
         {
           "name": "castillax",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.71531293079677,
+    "average_review_time_hours": 77.657085399449,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 766,
-        "approved_count": 263,
+        "review_count": 767,
+        "approved_count": 264,
         "avg_time_to_review_hours": 85.25944230769231,
-        "approval_rate": 34.33420365535248
+        "approval_rate": 34.419817470664924
       },
       {
         "reviewer": "bkchr",
@@ -5645,10 +5645,10 @@
       },
       {
         "reviewer": "muharem",
-        "review_count": 222,
-        "approved_count": 42,
-        "avg_time_to_review_hours": 175.22289682539684,
-        "approval_rate": 18.91891891891892
+        "review_count": 223,
+        "approved_count": 43,
+        "avg_time_to_review_hours": 164.02537037037038,
+        "approval_rate": 19.282511210762333
       },
       {
         "reviewer": "liamaharon",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 88.26668440471123,
-        "pr_count": 783,
+        "avg_review_time_hours": 88.16335955215419,
+        "pr_count": 784,
         "merged_count": 654
       },
       {
@@ -19335,6 +19335,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "de2291157851582dbdddec5bdd96c3d87d68cae8",
+                    "message": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots (#11616)",
+                    "date": "2026-04-13T18:52:53Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/de2291157851582dbdddec5bdd96c3d87d68cae8"
+                  },
                   {
                     "sha": "de426461c0d204ba0f4a290b7ff3b085f74a086f",
                     "message": "[Staking] Consolidate try state warnings (#11649)",
@@ -123713,6 +123719,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "a5a89478428fb46b8cc378e9003a046bc4a0eece",
+                    "message": "Westend AH: Add PSM (#11529)",
+                    "date": "2026-04-13T06:39:56Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/a5a89478428fb46b8cc378e9003a046bc4a0eece"
+                  },
+                  {
                     "sha": "f22c30c9e308ee3780652adcd788264a6242e0ac",
                     "message": "On-demand credits (#5990)",
                     "date": "2025-02-12T14:26:01Z",
@@ -124080,6 +124092,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11736,
+                    "title": "Asset Hub Westend: Monetary guard track",
+                    "state": "OPEN",
+                    "created_at": "2026-04-13T06:35:17Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11736",
+                    "ready_for_review_at": "2026-04-13T06:35:17Z",
+                    "reviews": [
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-04-13T13:50:53Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "dhirajs0",
+                        "submitted_at": "2026-04-13T14:07:35Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-04-13T14:15:16Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 7.26,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11609,
                     "title": "Add pUSD teleport support to People chain Westend",
@@ -163714,6 +163758,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11736,
+                    "pr_title": "Asset Hub Westend: Monetary guard track",
+                    "reviewed_at": "2026-04-13T17:17:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11736"
+                  },
                   {
                     "pr_number": 11623,
                     "pr_title": "[stable2603] Backport #11425",
