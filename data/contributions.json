@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-14T06:01:46.585Z",
+  "generated_at": "2026-04-15T06:02:05.486Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1506,
-    "total_prs": 1586,
+    "total_commits": 1507,
+    "total_prs": 1588,
     "total_merged_prs": 1023,
-    "total_reviews": 2323
+    "total_reviews": 2326
   },
   "leaderboard": {
     "overall": [
@@ -55,10 +55,10 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 77,
-        "prs": 117,
+        "prs": 118,
         "merged_prs": 83,
-        "reviews": 173,
-        "score": 2011
+        "reviews": 174,
+        "score": 2019
       },
       {
         "name": "jsidorenko",
@@ -84,11 +84,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 112,
+        "commits": 113,
         "prs": 74,
         "merged_prs": 54,
         "reviews": 53,
-        "score": 1181
+        "score": 1182
       },
       {
         "name": "juangirini",
@@ -291,14 +291,24 @@
         "score": 113
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 12,
+        "merged_prs": 2,
+        "reviews": 9,
+        "score": 113
+      },
+      {
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
         "commits": 9,
         "prs": 11,
         "merged_prs": 2,
-        "reviews": 8,
-        "score": 108
+        "reviews": 9,
+        "score": 111
       },
       {
         "name": "brunopgalvao",
@@ -308,16 +318,6 @@
         "prs": 8,
         "merged_prs": 3,
         "reviews": 10,
-        "score": 105
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 11,
-        "merged_prs": 2,
-        "reviews": 8,
         "score": 105
       },
       {
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 77,
-          "prs": 117,
+          "prs": 118,
           "merged_prs": 83,
-          "reviews": 173,
-          "score": 2011
+          "reviews": 174,
+          "score": 2019
         },
         {
           "name": "jsidorenko",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 112,
+          "commits": 113,
           "prs": 74,
           "merged_prs": 54,
           "reviews": 53,
-          "score": 1181
+          "score": 1182
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 9,
           "prs": 11,
           "merged_prs": 2,
-          "reviews": 8,
-          "score": 108
+          "reviews": 9,
+          "score": 111
         },
         {
           "name": "castillax",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 11,
+          "prs": 12,
           "merged_prs": 2,
-          "reviews": 8,
-          "score": 105
+          "reviews": 9,
+          "score": 113
         },
         {
           "name": "surajk-m",
@@ -5599,14 +5599,14 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.657085399449,
+    "average_review_time_hours": 77.59949743095694,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
-        "review_count": 1348,
+        "review_count": 1353,
         "approved_count": 204,
         "avg_time_to_review_hours": 100.92530441400304,
-        "approval_rate": 15.133531157270031
+        "approval_rate": 15.077605321507761
       },
       {
         "reviewer": "ggwpez",
@@ -5617,17 +5617,17 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 699,
-        "approved_count": 399,
-        "avg_time_to_review_hours": 48.00061801446418,
-        "approval_rate": 57.08154506437768
+        "review_count": 700,
+        "approved_count": 400,
+        "avg_time_to_review_hours": 47.764838235294135,
+        "approval_rate": 57.14285714285714
       },
       {
         "reviewer": "bkontur",
-        "review_count": 486,
-        "approved_count": 142,
+        "review_count": 488,
+        "approved_count": 143,
         "avg_time_to_review_hours": 19.652990740740737,
-        "approval_rate": 29.218106995884774
+        "approval_rate": 29.303278688524593
       },
       {
         "reviewer": "athei",
@@ -5763,8 +5763,8 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 64.51455128205129,
-        "pr_count": 52,
+        "avg_review_time_hours": 63.446692872117396,
+        "pr_count": 53,
         "merged_count": 40
       },
       {
@@ -14795,6 +14795,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11750,
+                    "pr_title": "Post 2603 cleanup",
+                    "reviewed_at": "2026-04-14T16:35:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11750"
+                  },
+                  {
                     "pr_number": 11694,
                     "pr_title": "Make pallet_xcm_bridge_hub_router exporter configurable for paid/unpaid",
                     "reviewed_at": "2026-04-08T20:32:26Z",
@@ -15746,6 +15752,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1146,
+                    "title": "feat: add bulletin chain spec to generator",
+                    "state": "OPEN",
+                    "created_at": "2026-04-14T13:10:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1146",
+                    "ready_for_review_at": "2026-04-14T13:10:29Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-04-14T21:05:34Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-04-14T21:57:21Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-04-14T22:03:26Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 7.918055555555555,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1072,
                     "title": "Allow fellowship's Architects track (ranks 4+) to manage fellowship treasury and salary on Asset Hub",
@@ -123719,6 +123757,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "ca40ef596465ea4e37823da7da1f5e2cf329f913",
+                    "message": "Asset Hub Westend: Monetary guard track (#11736)",
+                    "date": "2026-04-14T08:18:33Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/ca40ef596465ea4e37823da7da1f5e2cf329f913"
+                  },
+                  {
                     "sha": "a5a89478428fb46b8cc378e9003a046bc4a0eece",
                     "message": "Westend AH: Add PSM (#11529)",
                     "date": "2026-04-13T06:39:56Z",
@@ -163759,6 +163803,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11757,
+                    "pr_title": "Bump westend runtimes spec_versions",
+                    "reviewed_at": "2026-04-14T16:28:00Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11757"
+                  },
+                  {
                     "pr_number": 11736,
                     "pr_title": "Asset Hub Westend: Monetary guard track",
                     "reviewed_at": "2026-04-13T17:17:29Z",
@@ -168098,6 +168148,48 @@
                 ],
                 "prs": [
                   {
+                    "number": 11749,
+                    "title": "More price feeds",
+                    "state": "OPEN",
+                    "created_at": "2026-04-14T09:36:55Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11749",
+                    "ready_for_review_at": null,
+                    "reviews": [
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-14T11:43:04Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-14T12:08:47Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-14T12:09:45Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-14T12:10:42Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-14T12:11:13Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11702,
                     "title": "introduce panic switch into price oracle",
                     "state": "OPEN",
@@ -168513,6 +168605,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11757,
+                    "pr_title": "Bump westend runtimes spec_versions",
+                    "reviewed_at": "2026-04-14T16:28:00Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11757"
+                  },
                   {
                     "pr_number": 11702,
                     "pr_title": "introduce panic switch into price oracle",

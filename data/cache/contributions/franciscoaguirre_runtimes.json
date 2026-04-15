@@ -81,6 +81,38 @@
   ],
   "prs": [
     {
+      "number": 1146,
+      "title": "feat: add bulletin chain spec to generator",
+      "state": "OPEN",
+      "created_at": "2026-04-14T13:10:29Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "franciscoaguirre",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1146",
+      "ready_for_review_at": "2026-04-14T13:10:29Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-04-14T21:05:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2026-04-14T21:57:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2026-04-14T22:03:26Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 7.918055555555555,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 1072,
       "title": "Allow fellowship's Architects track (ranks 4+) to manage fellowship treasury and salary on Asset Hub",
       "state": "OPEN",

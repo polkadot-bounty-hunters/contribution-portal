@@ -39,6 +39,48 @@
   ],
   "prs": [
     {
+      "number": 11749,
+      "title": "More price feeds",
+      "state": "OPEN",
+      "created_at": "2026-04-14T09:36:55Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11749",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-04-14T11:43:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-04-14T12:08:47Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-04-14T12:09:45Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-04-14T12:10:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-04-14T12:11:13Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11702,
       "title": "introduce panic switch into price oracle",
       "state": "OPEN",
@@ -454,6 +496,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11757,
+      "pr_title": "Bump westend runtimes spec_versions",
+      "reviewed_at": "2026-04-14T16:28:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11757"
+    },
     {
       "pr_number": 11702,
       "pr_title": "introduce panic switch into price oracle",

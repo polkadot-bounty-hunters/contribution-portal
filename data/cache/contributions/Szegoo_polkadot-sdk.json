@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "ca40ef596465ea4e37823da7da1f5e2cf329f913",
+      "message": "Asset Hub Westend: Monetary guard track (#11736)",
+      "date": "2026-04-14T08:18:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ca40ef596465ea4e37823da7da1f5e2cf329f913"
+    },
+    {
       "sha": "a5a89478428fb46b8cc378e9003a046bc4a0eece",
       "message": "Westend AH: Add PSM (#11529)",
       "date": "2026-04-13T06:39:56Z",
