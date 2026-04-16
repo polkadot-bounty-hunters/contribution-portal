@@ -87,6 +87,22 @@
   ],
   "prs": [
     {
+      "number": 11777,
+      "title": "eth-rpc: single-pass event processing for receipt extraction",
+      "state": "OPEN",
+      "created_at": "2026-04-15T16:58:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11777",
+      "ready_for_review_at": "2026-04-15T16:58:50Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11726,
       "title": "eth-rpc: Bulk INSERT/DELETE and commit per-block writes atomically",
       "state": "OPEN",

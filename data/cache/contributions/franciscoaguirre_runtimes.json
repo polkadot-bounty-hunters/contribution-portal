@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "c8603f3f844bb4084149f2ec332134bb274e21c6",
+      "message": "feat: add bulletin chain spec to generator (#1146)",
+      "date": "2026-04-15T20:45:00Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/c8603f3f844bb4084149f2ec332134bb274e21c6"
+    },
+    {
       "sha": "e9ed6607cd25bd4743ad80dc19dc971575776294",
       "message": "Allow fellowship's Architects track (ranks 4+) to manage fellowship treasury and salary on Asset Hub (#1072)",
       "date": "2026-03-06T17:43:25Z",

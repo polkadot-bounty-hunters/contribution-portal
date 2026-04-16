@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "0688fe97808b6bff442115868beba51c3e1b9f64",
+      "message": "Fix PSM storage migration (#11770)",
+      "date": "2026-04-15T13:14:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0688fe97808b6bff442115868beba51c3e1b9f64"
+    },
+    {
       "sha": "ca40ef596465ea4e37823da7da1f5e2cf329f913",
       "message": "Asset Hub Westend: Monetary guard track (#11736)",
       "date": "2026-04-14T08:18:33Z",
@@ -380,6 +386,38 @@
     }
   ],
   "prs": [
+    {
+      "number": 11770,
+      "title": "Fix PSM storage migration",
+      "state": "MERGED",
+      "created_at": "2026-04-15T10:06:41Z",
+      "closed_at": "2026-04-15T14:01:57Z",
+      "merged_at": "2026-04-15T14:01:57Z",
+      "merged_by": "Szegoo",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11770",
+      "ready_for_review_at": "2026-04-15T10:06:41Z",
+      "reviews": [
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2026-04-15T10:18:06Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2026-04-15T10:18:21Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-04-15T10:21:19Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.19027777777777777,
+      "time_to_merge_hours": 3.921111111111111
+    },
     {
       "number": 11736,
       "title": "Asset Hub Westend: Monetary guard track",
