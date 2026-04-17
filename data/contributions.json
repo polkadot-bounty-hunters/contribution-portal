@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-16T06:08:00.239Z",
+  "generated_at": "2026-04-17T06:05:23.975Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1509,
-    "total_prs": 1590,
+    "total_prs": 1592,
     "total_merged_prs": 1024,
-    "total_reviews": 2327
+    "total_reviews": 2330
   },
   "leaderboard": {
     "overall": [
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 114,
-        "prs": 75,
+        "prs": 76,
         "merged_prs": 55,
-        "reviews": 53,
-        "score": 1198
+        "reviews": 55,
+        "score": 1209
       },
       {
         "name": "juangirini",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 14,
-        "prs": 20,
+        "prs": 21,
         "merged_prs": 3,
         "reviews": 27,
-        "score": 225
+        "score": 230
       },
       {
         "name": "DrW3RK",
@@ -291,6 +291,16 @@
         "score": 116
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 9,
+        "prs": 11,
+        "merged_prs": 2,
+        "reviews": 10,
+        "score": 114
+      },
+      {
         "name": "chungquantin",
         "github": "chungquantin",
         "cohort": "PBA 5 Singapore 2024",
@@ -299,16 +309,6 @@
         "merged_prs": 5,
         "reviews": 6,
         "score": 113
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 9,
-        "prs": 11,
-        "merged_prs": 2,
-        "reviews": 9,
-        "score": 111
       },
       {
         "name": "brunopgalvao",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 114,
-          "prs": 75,
+          "prs": 76,
           "merged_prs": 55,
-          "reviews": 53,
-          "score": 1198
+          "reviews": 55,
+          "score": 1209
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 9,
           "prs": 11,
           "merged_prs": 2,
-          "reviews": 9,
-          "score": 111
+          "reviews": 10,
+          "score": 114
         },
         {
           "name": "castillax",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 14,
-          "prs": 20,
+          "prs": 21,
           "merged_prs": 3,
           "reviews": 27,
-          "score": 225
+          "score": 230
         },
         {
           "name": "cirko33",
@@ -124149,6 +124149,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 11802,
+                    "title": "RFC-17 coretime-market pallet",
+                    "state": "OPEN",
+                    "created_at": "2026-04-16T16:12:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11802",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11770,
                     "title": "Fix PSM storage migration",
                     "state": "MERGED",
@@ -126372,6 +126388,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11795,
+                    "pr_title": "Harden asset-conversion quote functions against zero amounts",
+                    "reviewed_at": "2026-04-16T15:15:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11795"
+                  },
+                  {
+                    "pr_number": 11792,
+                    "pr_title": "Bump spec_version WAH",
+                    "reviewed_at": "2026-04-16T11:17:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11792"
+                  },
                   {
                     "pr_number": 8176,
                     "pr_title": "RelaychainStateProvider block_hash_at",
@@ -163847,6 +163875,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11792,
+                    "pr_title": "Bump spec_version WAH",
+                    "reviewed_at": "2026-04-16T11:17:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11792"
+                  },
+                  {
                     "pr_number": 11757,
                     "pr_title": "Bump westend runtimes spec_versions",
                     "reviewed_at": "2026-04-14T16:28:00Z",
@@ -169860,6 +169894,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11801,
+                    "title": "eth-rpc: skip receipt extraction for finalized blocks already processed as best",
+                    "state": "OPEN",
+                    "created_at": "2026-04-16T15:55:11Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11801",
+                    "ready_for_review_at": "2026-04-16T15:55:11Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-04-16T17:36:54Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11777,
                     "title": "eth-rpc: single-pass event processing for receipt extraction",

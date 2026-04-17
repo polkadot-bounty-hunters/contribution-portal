@@ -295,6 +295,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11792,
+      "pr_title": "Bump spec_version WAH",
+      "reviewed_at": "2026-04-16T11:17:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11792"
+    },
+    {
       "pr_number": 11757,
       "pr_title": "Bump westend runtimes spec_versions",
       "reviewed_at": "2026-04-14T16:28:00Z",
