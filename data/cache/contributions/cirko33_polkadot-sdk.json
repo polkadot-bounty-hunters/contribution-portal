@@ -497,6 +497,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11811,
+      "pr_title": "Wired pallet_dap weights on Asset Hub Westend",
+      "reviewed_at": "2026-04-17T16:44:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11811"
+    },
+    {
+      "pr_number": 11806,
+      "pr_title": "[Staking] Refactor Staking Reward Mode Selection",
+      "reviewed_at": "2026-04-17T13:13:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11806"
+    },
+    {
       "pr_number": 11770,
       "pr_title": "Fix PSM storage migration",
       "reviewed_at": "2026-04-15T14:01:58Z",

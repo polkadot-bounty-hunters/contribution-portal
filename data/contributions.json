@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-17T06:05:23.975Z",
+  "generated_at": "2026-04-18T05:47:57.306Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1509,
-    "total_prs": 1592,
-    "total_merged_prs": 1024,
-    "total_reviews": 2330
+    "total_commits": 1510,
+    "total_prs": 1597,
+    "total_merged_prs": 1025,
+    "total_reviews": 2336
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 263,
-        "prs": 195,
+        "prs": 196,
         "merged_prs": 131,
         "reviews": 217,
-        "score": 3199
+        "score": 3204
       },
       {
         "name": "liamaharon",
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 95,
-        "prs": 129,
-        "merged_prs": 74,
-        "reviews": 219,
-        "score": 2137
+        "commits": 96,
+        "prs": 131,
+        "merged_prs": 75,
+        "reviews": 222,
+        "score": 2167
       },
       {
         "name": "franciscoaguirre",
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 114,
-        "prs": 76,
+        "prs": 78,
         "merged_prs": 55,
-        "reviews": 55,
-        "score": 1209
+        "reviews": 56,
+        "score": 1222
       },
       {
         "name": "juangirini",
@@ -287,8 +287,8 @@
         "commits": 6,
         "prs": 12,
         "merged_prs": 2,
-        "reviews": 10,
-        "score": 116
+        "reviews": 12,
+        "score": 122
       },
       {
         "name": "dhirajs0",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 95,
-          "prs": 129,
-          "merged_prs": 74,
-          "reviews": 219,
-          "score": 2137
+          "commits": 96,
+          "prs": 131,
+          "merged_prs": 75,
+          "reviews": 222,
+          "score": 2167
         },
         {
           "name": "franciscoaguirre",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 263,
-          "prs": 195,
+          "prs": 196,
           "merged_prs": 131,
           "reviews": 217,
-          "score": 3199
+          "score": 3204
         },
         {
           "name": "liamaharon",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 114,
-          "prs": 76,
+          "prs": 78,
           "merged_prs": 55,
-          "reviews": 55,
-          "score": 1209
+          "reviews": 56,
+          "score": 1222
         },
         {
           "name": "pandres95",
@@ -5122,8 +5122,8 @@
           "commits": 6,
           "prs": 12,
           "merged_prs": 2,
-          "reviews": 10,
-          "score": 116
+          "reviews": 12,
+          "score": 122
         },
         {
           "name": "surajk-m",
@@ -5599,21 +5599,21 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.53562843784376,
+    "average_review_time_hours": 77.28986362390347,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
-        "review_count": 1353,
-        "approved_count": 204,
+        "review_count": 1355,
+        "approved_count": 205,
         "avg_time_to_review_hours": 100.92530441400304,
-        "approval_rate": 15.077605321507761
+        "approval_rate": 15.129151291512915
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 767,
+        "review_count": 768,
         "approved_count": 264,
         "avg_time_to_review_hours": 85.25944230769231,
-        "approval_rate": 34.419817470664924
+        "approval_rate": 34.375
       },
       {
         "reviewer": "bkchr",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 88.05129193205946,
-        "pr_count": 785,
-        "merged_count": 655
+        "avg_review_time_hours": 87.61920997042671,
+        "pr_count": 789,
+        "merged_count": 656
       },
       {
         "repository": "paritytech/substrate",
@@ -19380,6 +19380,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "14ed925742ea797129c824531c24d4982a08d8d2",
+                    "message": "[DAP] V2 Migration bootstraps drip (#11809)",
+                    "date": "2026-04-17T11:41:42Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/14ed925742ea797129c824531c24d4982a08d8d2"
+                  },
+                  {
                     "sha": "de2291157851582dbdddec5bdd96c3d87d68cae8",
                     "message": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots (#11616)",
                     "date": "2026-04-13T18:52:53Z",
@@ -19831,6 +19837,145 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11809,
+                    "title": "[DAP] V2 Migration bootstraps drip",
+                    "state": "MERGED",
+                    "created_at": "2026-04-17T08:59:55Z",
+                    "closed_at": "2026-04-17T13:17:58Z",
+                    "merged_at": "2026-04-17T13:17:58Z",
+                    "merged_by": "Ank4n",
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11809",
+                    "ready_for_review_at": "2026-04-17T08:59:55Z",
+                    "reviews": [
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T09:54:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T09:59:14Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T10:10:18Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-17T10:25:59Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-17T10:40:57Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T11:18:19Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T11:18:55Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-17T11:20:55Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-17T11:23:07Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T11:30:49Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T11:31:00Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-17T11:37:01Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-17T10:39:46Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.9155555555555556,
+                    "time_to_merge_hours": 4.300833333333333
+                  },
+                  {
+                    "number": 11806,
+                    "title": "[Staking] Refactor Staking Reward Mode Selection",
+                    "state": "OPEN",
+                    "created_at": "2026-04-17T04:42:23Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11806",
+                    "ready_for_review_at": "2026-04-17T04:42:23Z",
+                    "reviews": [
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T08:37:36Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-04-17T08:57:08Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-17T11:43:49Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T12:27:15Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-17T13:02:53Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-17T13:12:02Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-17T13:13:16Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-04-17T13:13:40Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 3.9202777777777778,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11651,
                     "title": "[Staking] Self stake incentive for Validators",
@@ -26627,6 +26772,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11811,
+                    "pr_title": "Wired pallet_dap weights on Asset Hub Westend",
+                    "reviewed_at": "2026-04-17T16:44:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11811"
+                  },
+                  {
+                    "pr_number": 11809,
+                    "pr_title": "[DAP] V2 Migration bootstraps drip",
+                    "reviewed_at": "2026-04-17T13:18:00Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11809"
+                  },
+                  {
+                    "pr_number": 11806,
+                    "pr_title": "[Staking] Refactor Staking Reward Mode Selection",
+                    "reviewed_at": "2026-04-17T13:13:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11806"
+                  },
                   {
                     "pr_number": 11668,
                     "pr_title": "Remove Meta Tx from Westend RC",
@@ -91124,6 +91287,51 @@
                 ],
                 "prs": [
                   {
+                    "number": 11818,
+                    "title": "Add pallet-gas-allowance with ChargePGAS transaction extension",
+                    "state": "OPEN",
+                    "created_at": "2026-04-17T15:11:22Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11818",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-04-17T15:11:37Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-04-17T17:24:31Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-17T17:25:09Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-17T17:59:44Z"
+                      },
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-04-17T18:15:09Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-17T18:15:55Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-04-17T18:53:13Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11476,
                     "title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
                     "state": "OPEN",
@@ -124149,6 +124357,65 @@
                 ],
                 "prs": [
                   {
+                    "number": 11810,
+                    "title": "Introduce `sp-coretime`",
+                    "state": "OPEN",
+                    "created_at": "2026-04-17T09:32:10Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11810",
+                    "ready_for_review_at": "2026-04-17T09:32:10Z",
+                    "reviews": [
+                      {
+                        "reviewer": "mertwole",
+                        "submitted_at": "2026-04-17T10:06:32Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-04-17T11:57:36Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-04-17T12:00:23Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-04-17T12:08:24Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.5727777777777778,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11807,
+                    "title": "PSM init: skip assets with mismatched decimals instead of panicking",
+                    "state": "OPEN",
+                    "created_at": "2026-04-17T08:13:44Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11807",
+                    "ready_for_review_at": "2026-04-17T08:13:44Z",
+                    "reviews": [
+                      {
+                        "reviewer": "rockbmb",
+                        "submitted_at": "2026-04-17T14:06:46Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 5.8838888888888885,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11802,
                     "title": "RFC-17 coretime-market pallet",
                     "state": "OPEN",
@@ -126388,6 +126655,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11810,
+                    "pr_title": "Introduce `sp-coretime`",
+                    "reviewed_at": "2026-04-17T14:26:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11810"
+                  },
                   {
                     "pr_number": 11795,
                     "pr_title": "Harden asset-conversion quote functions against zero amounts",
@@ -168683,6 +168956,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11811,
+                    "pr_title": "Wired pallet_dap weights on Asset Hub Westend",
+                    "reviewed_at": "2026-04-17T16:44:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11811"
+                  },
+                  {
+                    "pr_number": 11806,
+                    "pr_title": "[Staking] Refactor Staking Reward Mode Selection",
+                    "reviewed_at": "2026-04-17T13:13:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11806"
+                  },
                   {
                     "pr_number": 11770,
                     "pr_title": "Fix PSM storage migration",

@@ -387,6 +387,65 @@
   ],
   "prs": [
     {
+      "number": 11810,
+      "title": "Introduce `sp-coretime`",
+      "state": "OPEN",
+      "created_at": "2026-04-17T09:32:10Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11810",
+      "ready_for_review_at": "2026-04-17T09:32:10Z",
+      "reviews": [
+        {
+          "reviewer": "mertwole",
+          "submitted_at": "2026-04-17T10:06:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2026-04-17T11:57:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Szegoo",
+          "submitted_at": "2026-04-17T12:00:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2026-04-17T12:08:24Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.5727777777777778,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11807,
+      "title": "PSM init: skip assets with mismatched decimals instead of panicking",
+      "state": "OPEN",
+      "created_at": "2026-04-17T08:13:44Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11807",
+      "ready_for_review_at": "2026-04-17T08:13:44Z",
+      "reviews": [
+        {
+          "reviewer": "rockbmb",
+          "submitted_at": "2026-04-17T14:06:46Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 5.8838888888888885,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11802,
       "title": "RFC-17 coretime-market pallet",
       "state": "OPEN",
@@ -2626,6 +2685,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11810,
+      "pr_title": "Introduce `sp-coretime`",
+      "reviewed_at": "2026-04-17T14:26:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11810"
+    },
     {
       "pr_number": 11795,
       "pr_title": "Harden asset-conversion quote functions against zero amounts",

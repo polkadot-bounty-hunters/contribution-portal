@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "14ed925742ea797129c824531c24d4982a08d8d2",
+      "message": "[DAP] V2 Migration bootstraps drip (#11809)",
+      "date": "2026-04-17T11:41:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/14ed925742ea797129c824531c24d4982a08d8d2"
+    },
+    {
       "sha": "de2291157851582dbdddec5bdd96c3d87d68cae8",
       "message": "[Staking] Move reward minting to DAP; payouts from drip-funded era pots (#11616)",
       "date": "2026-04-13T18:52:53Z",
@@ -452,6 +458,145 @@
     }
   ],
   "prs": [
+    {
+      "number": 11809,
+      "title": "[DAP] V2 Migration bootstraps drip",
+      "state": "MERGED",
+      "created_at": "2026-04-17T08:59:55Z",
+      "closed_at": "2026-04-17T13:17:58Z",
+      "merged_at": "2026-04-17T13:17:58Z",
+      "merged_by": "Ank4n",
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11809",
+      "ready_for_review_at": "2026-04-17T08:59:55Z",
+      "reviews": [
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T09:54:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T09:59:14Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T10:10:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-17T10:25:59Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-17T10:40:57Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T11:18:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T11:18:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-17T11:20:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-17T11:23:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T11:30:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T11:31:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-04-17T11:37:01Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-17T10:39:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.9155555555555556,
+      "time_to_merge_hours": 4.300833333333333
+    },
+    {
+      "number": 11806,
+      "title": "[Staking] Refactor Staking Reward Mode Selection",
+      "state": "OPEN",
+      "created_at": "2026-04-17T04:42:23Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11806",
+      "ready_for_review_at": "2026-04-17T04:42:23Z",
+      "reviews": [
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T08:37:36Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-04-17T08:57:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-04-17T11:43:49Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T12:27:15Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-17T13:02:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-17T13:12:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-17T13:13:16Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-17T13:13:40Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 3.9202777777777778,
+      "time_to_merge_hours": null
+    },
     {
       "number": 11651,
       "title": "[Staking] Self stake incentive for Validators",
@@ -7248,6 +7393,24 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11811,
+      "pr_title": "Wired pallet_dap weights on Asset Hub Westend",
+      "reviewed_at": "2026-04-17T16:44:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11811"
+    },
+    {
+      "pr_number": 11809,
+      "pr_title": "[DAP] V2 Migration bootstraps drip",
+      "reviewed_at": "2026-04-17T13:18:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11809"
+    },
+    {
+      "pr_number": 11806,
+      "pr_title": "[Staking] Refactor Staking Reward Mode Selection",
+      "reviewed_at": "2026-04-17T13:13:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11806"
+    },
     {
       "pr_number": 11668,
       "pr_title": "Remove Meta Tx from Westend RC",

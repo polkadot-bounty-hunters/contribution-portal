@@ -1365,6 +1365,51 @@
   ],
   "prs": [
     {
+      "number": 11818,
+      "title": "Add pallet-gas-allowance with ChargePGAS transaction extension",
+      "state": "OPEN",
+      "created_at": "2026-04-17T15:11:22Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11818",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-04-17T15:11:37Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-04-17T17:24:31Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-17T17:25:09Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-17T17:59:44Z"
+        },
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-04-17T18:15:09Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-17T18:15:55Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-17T18:53:13Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11476,
       "title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
       "state": "OPEN",
