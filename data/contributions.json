@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-20T06:14:12.615Z",
+  "generated_at": "2026-04-21T06:05:00.656Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1511,
+    "total_commits": 1512,
     "total_prs": 1597,
     "total_merged_prs": 1025,
     "total_reviews": 2336
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 96,
+        "commits": 97,
         "prs": 131,
         "merged_prs": 75,
         "reviews": 222,
-        "score": 2167
+        "score": 2168
       },
       {
         "name": "franciscoaguirre",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 96,
+          "commits": 97,
           "prs": 131,
           "merged_prs": 75,
           "reviews": 222,
-          "score": 2167
+          "score": 2168
         },
         {
           "name": "franciscoaguirre",
@@ -19379,6 +19379,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "b80b5691f3d02f058f3d251a88aa2e1021dad26e",
+                    "message": "[Staking] Refactor Staking Reward Mode Selection (#11806)",
+                    "date": "2026-04-20T06:51:43Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b80b5691f3d02f058f3d251a88aa2e1021dad26e"
+                  },
                   {
                     "sha": "14ed925742ea797129c824531c24d4982a08d8d2",
                     "message": "[DAP] V2 Migration bootstraps drip (#11809)",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "b80b5691f3d02f058f3d251a88aa2e1021dad26e",
+      "message": "[Staking] Refactor Staking Reward Mode Selection (#11806)",
+      "date": "2026-04-20T06:51:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b80b5691f3d02f058f3d251a88aa2e1021dad26e"
+    },
+    {
       "sha": "14ed925742ea797129c824531c24d4982a08d8d2",
       "message": "[DAP] V2 Migration bootstraps drip (#11809)",
       "date": "2026-04-17T11:41:42Z",
