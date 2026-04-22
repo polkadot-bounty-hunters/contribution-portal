@@ -8874,6 +8874,30 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11846,
+      "pr_title": "Hop - runtime-agnostic doc wording",
+      "reviewed_at": "2026-04-21T10:56:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11846"
+    },
+    {
+      "pr_number": 11845,
+      "pr_title": "HOP: Not needed here",
+      "reviewed_at": "2026-04-21T09:43:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11845"
+    },
+    {
+      "pr_number": 11844,
+      "pr_title": "HOP: up-to-date docs with current impl",
+      "reviewed_at": "2026-04-21T09:17:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11844"
+    },
+    {
+      "pr_number": 11840,
+      "pr_title": "Hop nits",
+      "reviewed_at": "2026-04-21T08:27:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11840"
+    },
+    {
       "pr_number": 11750,
       "pr_title": "Post 2603 cleanup",
       "reviewed_at": "2026-04-14T16:35:58Z",

@@ -1365,6 +1365,22 @@
   ],
   "prs": [
     {
+      "number": 11847,
+      "title": "[revive] pgas as storage deposit",
+      "state": "OPEN",
+      "created_at": "2026-04-21T11:29:06Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11847",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11818,
       "title": "Add pallet-gas-allowance with ChargePGAS transaction extension",
       "state": "OPEN",

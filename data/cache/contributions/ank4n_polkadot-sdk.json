@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "5cb698c61791d5905bcea032e3a4ee3fecc5eb5e",
+      "message": "[Staking] Self stake incentive for Validators (#11651)",
+      "date": "2026-04-21T09:40:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5cb698c61791d5905bcea032e3a4ee3fecc5eb5e"
+    },
+    {
       "sha": "b80b5691f3d02f058f3d251a88aa2e1021dad26e",
       "message": "[Staking] Refactor Staking Reward Mode Selection (#11806)",
       "date": "2026-04-20T06:51:43Z",
@@ -7399,6 +7405,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11843,
+      "pr_title": "Remove DDayBodyId from Westend relay chain",
+      "reviewed_at": "2026-04-21T19:29:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11843"
+    },
     {
       "pr_number": 11811,
       "pr_title": "Wired pallet_dap weights on Asset Hub Westend",

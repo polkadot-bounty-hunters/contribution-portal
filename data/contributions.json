@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-21T06:05:00.656Z",
+  "generated_at": "2026-04-22T06:02:33.660Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1512,
-    "total_prs": 1597,
+    "total_commits": 1516,
+    "total_prs": 1598,
     "total_merged_prs": 1025,
-    "total_reviews": 2336
+    "total_reviews": 2342
   },
   "leaderboard": {
     "overall": [
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 263,
-        "prs": 196,
+        "prs": 197,
         "merged_prs": 131,
         "reviews": 217,
-        "score": 3204
+        "score": 3209
       },
       {
         "name": "liamaharon",
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 97,
+        "commits": 98,
         "prs": 131,
         "merged_prs": 75,
-        "reviews": 222,
-        "score": 2168
+        "reviews": 223,
+        "score": 2172
       },
       {
         "name": "franciscoaguirre",
@@ -57,8 +57,8 @@
         "commits": 78,
         "prs": 118,
         "merged_prs": 83,
-        "reviews": 174,
-        "score": 2020
+        "reviews": 178,
+        "score": 2032
       },
       {
         "name": "jsidorenko",
@@ -214,11 +214,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 14,
+        "commits": 17,
         "prs": 21,
         "merged_prs": 3,
-        "reviews": 27,
-        "score": 230
+        "reviews": 28,
+        "score": 236
       },
       {
         "name": "DrW3RK",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 97,
+          "commits": 98,
           "prs": 131,
           "merged_prs": 75,
-          "reviews": 222,
-          "score": 2168
+          "reviews": 223,
+          "score": 2172
         },
         {
           "name": "franciscoaguirre",
@@ -540,8 +540,8 @@
           "commits": 78,
           "prs": 118,
           "merged_prs": 83,
-          "reviews": 174,
-          "score": 2020
+          "reviews": 178,
+          "score": 2032
         },
         {
           "name": "jsidorenko",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 263,
-          "prs": 196,
+          "prs": 197,
           "merged_prs": 131,
           "reviews": 217,
-          "score": 3204
+          "score": 3209
         },
         {
           "name": "liamaharon",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 14,
+          "commits": 17,
           "prs": 21,
           "merged_prs": 3,
-          "reviews": 27,
-          "score": 230
+          "reviews": 28,
+          "score": 236
         },
         {
           "name": "cirko33",
@@ -14795,6 +14795,30 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11846,
+                    "pr_title": "Hop - runtime-agnostic doc wording",
+                    "reviewed_at": "2026-04-21T10:56:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11846"
+                  },
+                  {
+                    "pr_number": 11845,
+                    "pr_title": "HOP: Not needed here",
+                    "reviewed_at": "2026-04-21T09:43:01Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11845"
+                  },
+                  {
+                    "pr_number": 11844,
+                    "pr_title": "HOP: up-to-date docs with current impl",
+                    "reviewed_at": "2026-04-21T09:17:12Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11844"
+                  },
+                  {
+                    "pr_number": 11840,
+                    "pr_title": "Hop nits",
+                    "reviewed_at": "2026-04-21T08:27:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11840"
+                  },
+                  {
                     "pr_number": 11750,
                     "pr_title": "Post 2603 cleanup",
                     "reviewed_at": "2026-04-14T16:35:58Z",
@@ -19379,6 +19403,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "5cb698c61791d5905bcea032e3a4ee3fecc5eb5e",
+                    "message": "[Staking] Self stake incentive for Validators (#11651)",
+                    "date": "2026-04-21T09:40:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/5cb698c61791d5905bcea032e3a4ee3fecc5eb5e"
+                  },
                   {
                     "sha": "b80b5691f3d02f058f3d251a88aa2e1021dad26e",
                     "message": "[Staking] Refactor Staking Reward Mode Selection (#11806)",
@@ -26778,6 +26808,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11843,
+                    "pr_title": "Remove DDayBodyId from Westend relay chain",
+                    "reviewed_at": "2026-04-21T19:29:32Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11843"
+                  },
                   {
                     "pr_number": 11811,
                     "pr_title": "Wired pallet_dap weights on Asset Hub Westend",
@@ -91292,6 +91328,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11847,
+                    "title": "[revive] pgas as storage deposit",
+                    "state": "OPEN",
+                    "created_at": "2026-04-21T11:29:06Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11847",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11818,
                     "title": "Add pallet-gas-allowance with ChargePGAS transaction extension",
@@ -170106,6 +170158,24 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "95ae463f8443cd479a1c997e66a43208e7aea47a",
+                    "message": "eth-rpc: skip receipt extraction for finalized blocks already processed as best (#11801)",
+                    "date": "2026-04-22T04:54:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/95ae463f8443cd479a1c997e66a43208e7aea47a"
+                  },
+                  {
+                    "sha": "663c3f687e6d31d6fd094695ba334a8bce973203",
+                    "message": "eth-rpc: single-pass event processing for receipt extraction (#11777)",
+                    "date": "2026-04-21T16:11:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/663c3f687e6d31d6fd094695ba334a8bce973203"
+                  },
+                  {
+                    "sha": "1f705c2fe6505da8aa9ebab22c8e01d768aeb3c9",
+                    "message": "eth-rpc: Bulk INSERT/DELETE and commit per-block writes atomically (#11726)",
+                    "date": "2026-04-21T09:42:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/1f705c2fe6505da8aa9ebab22c8e01d768aeb3c9"
+                  },
+                  {
                     "sha": "a3f0e923b94c50aac0876fdee40de823c2dd8d4c",
                     "message": "[eth-rpc] Handle event decode errors across runtime upgrades (#11655)",
                     "date": "2026-04-09T15:35:51Z",
@@ -170843,6 +170913,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11839,
+                    "pr_title": "pallet_revive:  Fix dispatch_as_fallback_account",
+                    "reviewed_at": "2026-04-21T10:54:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11839"
+                  },
                   {
                     "pr_number": 11475,
                     "pr_title": "revive: Skip redundant eth_block_hash RPC call in block subscription",

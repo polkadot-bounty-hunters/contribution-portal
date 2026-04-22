@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "sha": "95ae463f8443cd479a1c997e66a43208e7aea47a",
+      "message": "eth-rpc: skip receipt extraction for finalized blocks already processed as best (#11801)",
+      "date": "2026-04-22T04:54:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/95ae463f8443cd479a1c997e66a43208e7aea47a"
+    },
+    {
+      "sha": "663c3f687e6d31d6fd094695ba334a8bce973203",
+      "message": "eth-rpc: single-pass event processing for receipt extraction (#11777)",
+      "date": "2026-04-21T16:11:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/663c3f687e6d31d6fd094695ba334a8bce973203"
+    },
+    {
+      "sha": "1f705c2fe6505da8aa9ebab22c8e01d768aeb3c9",
+      "message": "eth-rpc: Bulk INSERT/DELETE and commit per-block writes atomically (#11726)",
+      "date": "2026-04-21T09:42:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1f705c2fe6505da8aa9ebab22c8e01d768aeb3c9"
+    },
+    {
       "sha": "a3f0e923b94c50aac0876fdee40de823c2dd8d4c",
       "message": "[eth-rpc] Handle event decode errors across runtime upgrades (#11655)",
       "date": "2026-04-09T15:35:51Z",
@@ -738,6 +756,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11839,
+      "pr_title": "pallet_revive:  Fix dispatch_as_fallback_account",
+      "reviewed_at": "2026-04-21T10:54:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11839"
+    },
     {
       "pr_number": 11475,
       "pr_title": "revive: Skip redundant eth_block_hash RPC call in block subscription",
