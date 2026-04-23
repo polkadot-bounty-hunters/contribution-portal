@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-22T06:02:33.660Z",
+  "generated_at": "2026-04-23T06:07:18.920Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1516,
-    "total_prs": 1598,
+    "total_prs": 1601,
     "total_merged_prs": 1025,
     "total_reviews": 2342
   },
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 98,
-        "prs": 131,
+        "prs": 132,
         "merged_prs": 75,
         "reviews": 223,
-        "score": 2172
+        "score": 2177
       },
       {
         "name": "franciscoaguirre",
@@ -215,10 +215,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 17,
-        "prs": 21,
+        "prs": 23,
         "merged_prs": 3,
         "reviews": 28,
-        "score": 236
+        "score": 246
       },
       {
         "name": "DrW3RK",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 98,
-          "prs": 131,
+          "prs": 132,
           "merged_prs": 75,
           "reviews": 223,
-          "score": 2172
+          "score": 2177
         },
         {
           "name": "franciscoaguirre",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 17,
-          "prs": 21,
+          "prs": 23,
           "merged_prs": 3,
           "reviews": 28,
-          "score": 236
+          "score": 246
         },
         {
           "name": "cirko33",
@@ -19873,6 +19873,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11855,
+                    "title": "[DAP] Improvements",
+                    "state": "OPEN",
+                    "created_at": "2026-04-22T08:48:02Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11855",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11809,
                     "title": "[DAP] V2 Migration bootstraps drip",
@@ -170261,6 +170277,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11860,
+                    "title": "pallet-revive: align eth_substrate_call origin check with other eth dispatchables",
+                    "state": "OPEN",
+                    "created_at": "2026-04-22T15:12:07Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11860",
+                    "ready_for_review_at": "2026-04-22T15:12:07Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11858,
+                    "title": "pallet-revive: reserve on_finalize per-tx weight for eth extrinsics",
+                    "state": "OPEN",
+                    "created_at": "2026-04-22T11:46:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11858",
+                    "ready_for_review_at": "2026-04-22T11:46:16Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11801,
                     "title": "eth-rpc: skip receipt extraction for finalized blocks already processed as best",

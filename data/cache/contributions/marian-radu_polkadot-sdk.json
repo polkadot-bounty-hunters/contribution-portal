@@ -105,6 +105,38 @@
   ],
   "prs": [
     {
+      "number": 11860,
+      "title": "pallet-revive: align eth_substrate_call origin check with other eth dispatchables",
+      "state": "OPEN",
+      "created_at": "2026-04-22T15:12:07Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11860",
+      "ready_for_review_at": "2026-04-22T15:12:07Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11858,
+      "title": "pallet-revive: reserve on_finalize per-tx weight for eth extrinsics",
+      "state": "OPEN",
+      "created_at": "2026-04-22T11:46:16Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11858",
+      "ready_for_review_at": "2026-04-22T11:46:16Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11801,
       "title": "eth-rpc: skip receipt extraction for finalized blocks already processed as best",
       "state": "OPEN",
