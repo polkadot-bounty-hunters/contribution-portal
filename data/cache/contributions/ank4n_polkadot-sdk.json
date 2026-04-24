@@ -471,6 +471,60 @@
   ],
   "prs": [
     {
+      "number": 11875,
+      "title": "[Staking] Stop being over defensive",
+      "state": "OPEN",
+      "created_at": "2026-04-23T20:16:41Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11875",
+      "ready_for_review_at": "2026-04-23T20:16:41Z",
+      "reviews": [
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-04-23T20:52:52Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.6030555555555556,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11868,
+      "title": "Staking and DAP genesis ",
+      "state": "OPEN",
+      "created_at": "2026-04-23T09:25:46Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11868",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 11867,
+      "title": "[Staking] Always include self stake of registered validators in election snapshot.",
+      "state": "OPEN",
+      "created_at": "2026-04-23T09:11:12Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11867",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11855,
       "title": "[DAP] Improvements",
       "state": "OPEN",

@@ -8874,6 +8874,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11871,
+      "pr_title": "is_account_authorized(hop) -> can_account_promote(who, data_len)",
+      "reviewed_at": "2026-04-23T13:27:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11871"
+    },
+    {
       "pr_number": 11846,
       "pr_title": "Hop - runtime-agnostic doc wording",
       "reviewed_at": "2026-04-21T10:56:16Z",

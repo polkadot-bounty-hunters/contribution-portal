@@ -497,6 +497,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11875,
+      "pr_title": "[Staking] Stop being over defensive",
+      "reviewed_at": "2026-04-23T20:52:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11875"
+    },
+    {
       "pr_number": 11811,
       "pr_title": "Wired pallet_dap weights on Asset Hub Westend",
       "reviewed_at": "2026-04-17T16:44:40Z",

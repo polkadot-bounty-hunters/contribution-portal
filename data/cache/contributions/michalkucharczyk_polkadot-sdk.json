@@ -9362,6 +9362,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11873,
+      "pr_title": "[stable2512] Backport #10780: Fix pallet-revive-fixtures (#10780)",
+      "reviewed_at": "2026-04-23T17:27:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11873"
+    },
+    {
       "pr_number": 11725,
       "pr_title": "warp sync fix and little test",
       "reviewed_at": "2026-04-10T20:07:19Z",
