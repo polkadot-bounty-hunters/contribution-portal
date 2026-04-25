@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "e2480cb9209b6e27b237e2c069d3cb20efb5b419",
+      "message": "View functions to support DAP debug UI (#11877)",
+      "date": "2026-04-24T14:54:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e2480cb9209b6e27b237e2c069d3cb20efb5b419"
+    },
+    {
+      "sha": "805379bd0f88f8c4d2486532964acfcdb8a60775",
+      "message": "[Staking] Stop being over defensive (#11875)",
+      "date": "2026-04-24T08:01:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/805379bd0f88f8c4d2486532964acfcdb8a60775"
+    },
+    {
       "sha": "5cb698c61791d5905bcea032e3a4ee3fecc5eb5e",
       "message": "[Staking] Self stake incentive for Validators (#11651)",
       "date": "2026-04-21T09:40:49Z",
@@ -470,6 +482,43 @@
     }
   ],
   "prs": [
+    {
+      "number": 11877,
+      "title": "View functions to support DAP debug UI",
+      "state": "MERGED",
+      "created_at": "2026-04-24T10:03:07Z",
+      "closed_at": "2026-04-24T16:20:16Z",
+      "merged_at": "2026-04-24T16:20:16Z",
+      "merged_by": "Ank4n",
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11877",
+      "ready_for_review_at": "2026-04-24T10:03:07Z",
+      "reviews": [
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-24T11:10:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-04-24T11:10:27Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-04-24T11:16:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "andreitrand",
+          "submitted_at": "2026-04-24T11:21:22Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 1.1205555555555555,
+      "time_to_merge_hours": 6.285833333333334
+    },
     {
       "number": 11875,
       "title": "[Staking] Stop being over defensive",
@@ -7475,6 +7524,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 11877,
+      "pr_title": "View functions to support DAP debug UI",
+      "reviewed_at": "2026-04-24T16:20:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11877"
+    },
     {
       "pr_number": 11843,
       "pr_title": "Remove DDayBodyId from Westend relay chain",

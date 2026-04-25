@@ -393,6 +393,27 @@
   ],
   "prs": [
     {
+      "number": 11885,
+      "title": "[stable2603] Add pallet-psm for alpha release",
+      "state": "OPEN",
+      "created_at": "2026-04-24T17:08:19Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11885",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-04-24T17:11:51Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11810,
       "title": "Introduce `sp-coretime`",
       "state": "OPEN",
