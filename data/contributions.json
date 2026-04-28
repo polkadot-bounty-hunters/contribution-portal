@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-27T06:23:52.945Z",
+  "generated_at": "2026-04-28T06:46:57.872Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1520,
-    "total_prs": 1607,
+    "total_prs": 1609,
     "total_merged_prs": 1026,
     "total_reviews": 2346
   },
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 115,
-        "prs": 79,
+        "prs": 81,
         "merged_prs": 55,
         "reviews": 56,
-        "score": 1228
+        "score": 1238
       },
       {
         "name": "juangirini",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 115,
-          "prs": 79,
+          "prs": 81,
           "merged_prs": 55,
           "reviews": 56,
-          "score": 1228
+          "score": 1238
         },
         {
           "name": "pandres95",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.16436599160734,
+    "average_review_time_hours": 77.0400241347905,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,17 +5610,17 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 768,
-        "approved_count": 264,
-        "avg_time_to_review_hours": 85.25944230769231,
-        "approval_rate": 34.375
+        "review_count": 770,
+        "approved_count": 265,
+        "avg_time_to_review_hours": 84.62363019508058,
+        "approval_rate": 34.41558441558442
       },
       {
         "reviewer": "bkchr",
-        "review_count": 700,
-        "approved_count": 400,
+        "review_count": 701,
+        "approved_count": 401,
         "avg_time_to_review_hours": 47.764838235294135,
-        "approval_rate": 57.14285714285714
+        "approval_rate": 57.203994293865904
       },
       {
         "reviewer": "bkontur",
@@ -5645,10 +5645,10 @@
       },
       {
         "reviewer": "muharem",
-        "review_count": 225,
-        "approved_count": 44,
-        "avg_time_to_review_hours": 153.78567708333335,
-        "approval_rate": 19.555555555555557
+        "review_count": 227,
+        "approved_count": 46,
+        "avg_time_to_review_hours": 144.77849673202616,
+        "approval_rate": 20.26431718061674
       },
       {
         "reviewer": "liamaharon",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 87.39984864447254,
-        "pr_count": 791,
+        "avg_review_time_hours": 87.18273889589464,
+        "pr_count": 793,
         "merged_count": 657
       },
       {
@@ -124573,6 +124573,65 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11905,
+                    "title": "pallet-psm: relax `AssetId` from `Copy` to `Clone`",
+                    "state": "OPEN",
+                    "created_at": "2026-04-27T16:31:05Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11905",
+                    "ready_for_review_at": "2026-04-27T16:31:05Z",
+                    "reviews": [
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-04-27T18:29:10Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-04-27T20:28:38Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 1.9680555555555554,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 11901,
+                    "title": "UnionOf: implement metadata traits",
+                    "state": "OPEN",
+                    "created_at": "2026-04-27T14:19:42Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11901",
+                    "ready_for_review_at": "2026-04-27T14:19:42Z",
+                    "reviews": [
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-04-27T14:59:31Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-04-27T14:59:53Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-04-27T15:29:09Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.6636111111111112,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11885,
                     "title": "[stable2603] Add pallet-psm for alpha release",
