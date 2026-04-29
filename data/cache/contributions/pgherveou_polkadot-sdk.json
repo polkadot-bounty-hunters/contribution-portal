@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "7333c29c30e9c95dc0f061712c626db03b067d10",
+      "message": "Add pallet-gas-allowance with ChargePGAS transaction extension (#11818)",
+      "date": "2026-04-28T08:45:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7333c29c30e9c95dc0f061712c626db03b067d10"
+    },
+    {
       "sha": "de4709b0914c8290f0092c919d841b79249db836",
       "message": "revive: Skip redundant eth_block_hash RPC call in block subscription (#11475)",
       "date": "2026-04-10T14:54:26Z",

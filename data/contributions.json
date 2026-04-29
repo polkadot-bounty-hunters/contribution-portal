@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-28T06:46:57.872Z",
+  "generated_at": "2026-04-29T06:43:04.850Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1520,
-    "total_prs": 1609,
+    "total_commits": 1523,
+    "total_prs": 1610,
     "total_merged_prs": 1026,
     "total_reviews": 2346
   },
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 263,
+        "commits": 264,
         "prs": 198,
         "merged_prs": 131,
         "reviews": 217,
-        "score": 3214
+        "score": 3215
       },
       {
         "name": "liamaharon",
@@ -84,11 +84,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 115,
+        "commits": 117,
         "prs": 81,
         "merged_prs": 55,
         "reviews": 56,
-        "score": 1238
+        "score": 1240
       },
       {
         "name": "juangirini",
@@ -271,6 +271,16 @@
         "score": 137
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 13,
+        "merged_prs": 2,
+        "reviews": 13,
+        "score": 130
+      },
+      {
         "name": "MrishoLukamba",
         "github": "MrishoLukamba",
         "cohort": "PBA 4 Hong Kong 2024",
@@ -279,16 +289,6 @@
         "merged_prs": 4,
         "reviews": 4,
         "score": 127
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 12,
-        "merged_prs": 2,
-        "reviews": 13,
-        "score": 125
       },
       {
         "name": "dhirajs0",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 263,
+          "commits": 264,
           "prs": 198,
           "merged_prs": 131,
           "reviews": 217,
-          "score": 3214
+          "score": 3215
         },
         {
           "name": "liamaharon",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 115,
+          "commits": 117,
           "prs": 81,
           "merged_prs": 55,
           "reviews": 56,
-          "score": 1238
+          "score": 1240
         },
         {
           "name": "pandres95",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 12,
+          "prs": 13,
           "merged_prs": 2,
           "reviews": 13,
-          "score": 125
+          "score": 130
         },
         {
           "name": "surajk-m",
@@ -90102,6 +90102,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "7333c29c30e9c95dc0f061712c626db03b067d10",
+                    "message": "Add pallet-gas-allowance with ChargePGAS transaction extension (#11818)",
+                    "date": "2026-04-28T08:45:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/7333c29c30e9c95dc0f061712c626db03b067d10"
+                  },
+                  {
                     "sha": "de4709b0914c8290f0092c919d841b79249db836",
                     "message": "revive: Skip redundant eth_block_hash RPC call in block subscription (#11475)",
                     "date": "2026-04-10T14:54:26Z",
@@ -124181,6 +124187,18 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "94876278e60a2dfca8ae764eb322db0df4ed9cff",
+                    "message": "UnionOf: implement metadata traits (#11901)",
+                    "date": "2026-04-28T15:56:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/94876278e60a2dfca8ae764eb322db0df4ed9cff"
+                  },
+                  {
+                    "sha": "2d3272e36e9883199c5eabaafa54f4e33dc71e4b",
+                    "message": "pallet-psm: relax `AssetId` from `Copy` to `Clone` (#11905)",
+                    "date": "2026-04-28T09:57:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/2d3272e36e9883199c5eabaafa54f4e33dc71e4b"
+                  },
                   {
                     "sha": "878b1583b5031aa4ee936cb98ff45257778acafa",
                     "message": "PSM init: skip assets with mismatched decimals instead of panicking (#11807)",
@@ -168795,6 +168813,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11913,
+                    "title": "Cirko33 multi asset price oracle",
+                    "state": "OPEN",
+                    "created_at": "2026-04-28T10:09:20Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11913",
+                    "ready_for_review_at": "2026-04-28T10:09:20Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11749,
                     "title": "More price feeds",

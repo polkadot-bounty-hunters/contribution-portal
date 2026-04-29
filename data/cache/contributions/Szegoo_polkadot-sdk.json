@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "94876278e60a2dfca8ae764eb322db0df4ed9cff",
+      "message": "UnionOf: implement metadata traits (#11901)",
+      "date": "2026-04-28T15:56:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/94876278e60a2dfca8ae764eb322db0df4ed9cff"
+    },
+    {
+      "sha": "2d3272e36e9883199c5eabaafa54f4e33dc71e4b",
+      "message": "pallet-psm: relax `AssetId` from `Copy` to `Clone` (#11905)",
+      "date": "2026-04-28T09:57:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/2d3272e36e9883199c5eabaafa54f4e33dc71e4b"
+    },
+    {
       "sha": "878b1583b5031aa4ee936cb98ff45257778acafa",
       "message": "PSM init: skip assets with mismatched decimals instead of panicking (#11807)",
       "date": "2026-04-18T17:42:40Z",
