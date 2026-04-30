@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-29T06:43:04.850Z",
+  "generated_at": "2026-04-30T06:46:43.576Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1523,
-    "total_prs": 1610,
-    "total_merged_prs": 1026,
-    "total_reviews": 2346
+    "total_commits": 1524,
+    "total_prs": 1611,
+    "total_merged_prs": 1027,
+    "total_reviews": 2348
   },
   "leaderboard": {
     "overall": [
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 100,
-        "prs": 136,
-        "merged_prs": 76,
-        "reviews": 224,
-        "score": 2212
+        "commits": 101,
+        "prs": 137,
+        "merged_prs": 77,
+        "reviews": 225,
+        "score": 2231
       },
       {
         "name": "franciscoaguirre",
@@ -277,8 +277,8 @@
         "commits": 6,
         "prs": 13,
         "merged_prs": 2,
-        "reviews": 13,
-        "score": 130
+        "reviews": 14,
+        "score": 133
       },
       {
         "name": "MrishoLukamba",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 100,
-          "prs": 136,
-          "merged_prs": 76,
-          "reviews": 224,
-          "score": 2212
+          "commits": 101,
+          "prs": 137,
+          "merged_prs": 77,
+          "reviews": 225,
+          "score": 2231
         },
         {
           "name": "franciscoaguirre",
@@ -5122,8 +5122,8 @@
           "commits": 6,
           "prs": 13,
           "merged_prs": 2,
-          "reviews": 13,
-          "score": 130
+          "reviews": 14,
+          "score": 133
         },
         {
           "name": "surajk-m",
@@ -5599,14 +5599,14 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 77.0400241347905,
+    "average_review_time_hours": 76.97745586495583,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
-        "review_count": 1355,
-        "approved_count": 205,
+        "review_count": 1358,
+        "approved_count": 206,
         "avg_time_to_review_hours": 100.92530441400304,
-        "approval_rate": 15.129151291512915
+        "approval_rate": 15.169366715758468
       },
       {
         "reviewer": "ggwpez",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 87.18273889589464,
-        "pr_count": 793,
-        "merged_count": 657
+        "avg_review_time_hours": 87.07374825076967,
+        "pr_count": 794,
+        "merged_count": 658
       },
       {
         "repository": "paritytech/substrate",
@@ -19410,6 +19410,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "eb8daca9e5a377ed0863262096485ac35d95f405",
+                    "message": "[Staking] Rotate era reward pots through a fixed-size pool (#11930)",
+                    "date": "2026-04-29T18:11:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/eb8daca9e5a377ed0863262096485ac35d95f405"
+                  },
+                  {
                     "sha": "e2480cb9209b6e27b237e2c069d3cb20efb5b419",
                     "message": "View functions to support DAP debug UI (#11877)",
                     "date": "2026-04-24T14:54:47Z",
@@ -19891,6 +19897,78 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11930,
+                    "title": "[Staking] Rotate era reward pots through a fixed-size pool",
+                    "state": "MERGED",
+                    "created_at": "2026-04-29T07:45:35Z",
+                    "closed_at": "2026-04-29T19:01:48Z",
+                    "merged_at": "2026-04-29T19:01:48Z",
+                    "merged_by": "Ank4n",
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11930",
+                    "ready_for_review_at": "2026-04-29T07:45:35Z",
+                    "reviews": [
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-29T08:24:14Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-29T08:25:21Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-29T08:36:38Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-29T08:45:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-04-29T08:46:42Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-29T08:49:55Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-04-29T10:29:09Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "andreitrand",
+                        "submitted_at": "2026-04-29T11:59:04Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "andreitrand",
+                        "submitted_at": "2026-04-29T12:02:41Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-04-29T12:10:34Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "scutuatua-crypto",
+                        "submitted_at": "2026-04-29T18:47:04Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.6441666666666667,
+                    "time_to_merge_hours": 11.270277777777778
+                  },
                   {
                     "number": 11877,
                     "title": "View functions to support DAP debug UI",
@@ -26933,6 +27011,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11930,
+                    "pr_title": "[Staking] Rotate era reward pots through a fixed-size pool",
+                    "reviewed_at": "2026-04-29T19:01:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11930"
+                  },
                   {
                     "pr_number": 11877,
                     "pr_title": "View functions to support DAP debug UI",
@@ -169287,6 +169371,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11930,
+                    "pr_title": "[Staking] Rotate era reward pots through a fixed-size pool",
+                    "reviewed_at": "2026-04-29T19:01:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11930"
+                  },
                   {
                     "pr_number": 11875,
                     "pr_title": "[Staking] Stop being over defensive",

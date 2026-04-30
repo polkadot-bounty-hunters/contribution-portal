@@ -513,6 +513,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11930,
+      "pr_title": "[Staking] Rotate era reward pots through a fixed-size pool",
+      "reviewed_at": "2026-04-29T19:01:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11930"
+    },
+    {
       "pr_number": 11875,
       "pr_title": "[Staking] Stop being over defensive",
       "reviewed_at": "2026-04-23T20:52:52Z",
