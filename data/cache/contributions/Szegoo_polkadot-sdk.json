@@ -405,6 +405,22 @@
   ],
   "prs": [
     {
+      "number": 11950,
+      "title": "pallet-psm-remote-tests: support multi-instance fungibles",
+      "state": "OPEN",
+      "created_at": "2026-04-30T13:26:41Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11950",
+      "ready_for_review_at": "2026-04-30T13:26:41Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11905,
       "title": "pallet-psm: relax `AssetId` from `Copy` to `Clone`",
       "state": "OPEN",

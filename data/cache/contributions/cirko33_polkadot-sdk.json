@@ -513,6 +513,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11949,
+      "pr_title": "Additional improvements for the DAP satellite pallet generalization",
+      "reviewed_at": "2026-05-01T05:09:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11949"
+    },
+    {
       "pr_number": 11930,
       "pr_title": "[Staking] Rotate era reward pots through a fixed-size pool",
       "reviewed_at": "2026-04-29T19:01:49Z",

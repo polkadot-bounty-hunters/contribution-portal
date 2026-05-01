@@ -986,6 +986,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11953,
+      "pr_title": "link-checker: exclude two 403-blocked Medium URLs",
+      "reviewed_at": "2026-04-30T21:45:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11953"
+    },
+    {
       "pr_number": 11694,
       "pr_title": "Make pallet_xcm_bridge_hub_router exporter configurable for paid/unpaid",
       "reviewed_at": "2026-04-08T20:32:26Z",
