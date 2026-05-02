@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "98e0271c667a0a32ea4aabd5e4f811f2a1f6171e",
+      "message": "Support multiple `IndexOperation::Renew` calls within a single extrinsic index in `sc-client-db` (#11474)",
+      "date": "2026-05-01T12:03:05Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/98e0271c667a0a32ea4aabd5e4f811f2a1f6171e"
+    },
+    {
       "sha": "8e64bb2e4d7554a813fe5a99805c9898123c1366",
       "message": "Fix bridges integration test failure for the Westend network (#11643)",
       "date": "2026-04-06T15:48:46Z",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "154e0f5560b5f3dc1a60569aca9e1a232e702fbc",
+      "message": "[revive] pgas as storage deposit (#11847)",
+      "date": "2026-05-01T10:01:02Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/154e0f5560b5f3dc1a60569aca9e1a232e702fbc"
+    },
+    {
       "sha": "7333c29c30e9c95dc0f061712c626db03b067d10",
       "message": "Add pallet-gas-allowance with ChargePGAS transaction extension (#11818)",
       "date": "2026-04-28T08:45:05Z",

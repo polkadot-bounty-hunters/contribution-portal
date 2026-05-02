@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-01T06:58:47.550Z",
+  "generated_at": "2026-05-02T06:16:05.255Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1524,
-    "total_prs": 1613,
+    "total_commits": 1527,
+    "total_prs": 1615,
     "total_merged_prs": 1027,
-    "total_reviews": 2351
+    "total_reviews": 2353
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 264,
+        "commits": 265,
         "prs": 198,
         "merged_prs": 131,
         "reviews": 217,
-        "score": 3215
+        "score": 3216
       },
       {
         "name": "liamaharon",
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 78,
-        "prs": 119,
+        "commits": 79,
+        "prs": 120,
         "merged_prs": 83,
-        "reviews": 179,
-        "score": 2040
+        "reviews": 180,
+        "score": 2049
       },
       {
         "name": "jsidorenko",
@@ -87,8 +87,8 @@
         "commits": 117,
         "prs": 82,
         "merged_prs": 55,
-        "reviews": 56,
-        "score": 1245
+        "reviews": 57,
+        "score": 1248
       },
       {
         "name": "juangirini",
@@ -115,10 +115,10 @@
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 18,
-        "prs": 29,
+        "prs": 30,
         "merged_prs": 19,
         "reviews": 97,
-        "score": 644
+        "score": 649
       },
       {
         "name": "Krayt78",
@@ -164,11 +164,11 @@
         "name": "rosarp",
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 7,
+        "commits": 8,
         "prs": 20,
         "merged_prs": 14,
         "reviews": 21,
-        "score": 310
+        "score": 311
       },
       {
         "name": "BradleyOlson64",
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 78,
-          "prs": 119,
+          "commits": 79,
+          "prs": 120,
           "merged_prs": 83,
-          "reviews": 179,
-          "score": 2040
+          "reviews": 180,
+          "score": 2049
         },
         {
           "name": "jsidorenko",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 264,
+          "commits": 265,
           "prs": 198,
           "merged_prs": 131,
           "reviews": 217,
-          "score": 3215
+          "score": 3216
         },
         {
           "name": "liamaharon",
@@ -1674,8 +1674,8 @@
           "commits": 117,
           "prs": 82,
           "merged_prs": 55,
-          "reviews": 56,
-          "score": 1245
+          "reviews": 57,
+          "score": 1248
         },
         {
           "name": "pandres95",
@@ -3106,10 +3106,10 @@
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 18,
-          "prs": 29,
+          "prs": 30,
           "merged_prs": 19,
           "reviews": 97,
-          "score": 644
+          "score": 649
         },
         {
           "name": "Krayt78",
@@ -3125,11 +3125,11 @@
           "name": "rosarp",
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 7,
+          "commits": 8,
           "prs": 20,
           "merged_prs": 14,
           "reviews": 21,
-          "score": 310
+          "score": 311
         },
         {
           "name": "ndkazu",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 76.91451013820691,
+    "average_review_time_hours": 76.85199395839008,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 771,
-        "approved_count": 266,
-        "avg_time_to_review_hours": 84.62363019508058,
-        "approval_rate": 34.50064850843061
+        "review_count": 774,
+        "approved_count": 267,
+        "avg_time_to_review_hours": 83.98600589225589,
+        "approval_rate": 34.49612403100775
       },
       {
         "reviewer": "bkchr",
@@ -5624,10 +5624,10 @@
       },
       {
         "reviewer": "bkontur",
-        "review_count": 488,
-        "approved_count": 143,
+        "review_count": 489,
+        "approved_count": 144,
         "avg_time_to_review_hours": 19.652990740740737,
-        "approval_rate": 29.303278688524593
+        "approval_rate": 29.447852760736197
       },
       {
         "reviewer": "athei",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 86.96429419986025,
-        "pr_count": 795,
+        "avg_review_time_hours": 86.85561697375768,
+        "pr_count": 796,
         "merged_count": 658
       },
       {
@@ -5921,6 +5921,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "2225cdc7a4d74da5dba93719fc8c1bd00ec420c2",
+                    "message": "link-checker: exclude two 403-blocked Medium URLs (#11953)",
+                    "date": "2026-05-01T15:33:33Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/2225cdc7a4d74da5dba93719fc8c1bd00ec420c2"
+                  },
                   {
                     "sha": "8cb746e89960f827ca2e1ab1cdd1e2703fc2ce0e",
                     "message": "xcm executor refactor: transactional_process (#11320)",
@@ -6301,6 +6307,53 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 11960,
+                    "title": "Add sp-hop",
+                    "state": "OPEN",
+                    "created_at": "2026-05-01T17:16:01Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11960",
+                    "ready_for_review_at": "2026-05-01T17:16:01Z",
+                    "reviews": [
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-05-01T17:43:27Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "franciscoaguirre",
+                        "submitted_at": "2026-05-01T17:56:25Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "franciscoaguirre",
+                        "submitted_at": "2026-05-01T18:01:47Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-05-01T18:13:49Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-05-01T18:32:10Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-05-01T18:36:47Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.4572222222222222,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11953,
                     "title": "link-checker: exclude two 403-blocked Medium URLs",
@@ -14831,6 +14884,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11960,
+                    "pr_title": "Add sp-hop",
+                    "reviewed_at": "2026-05-01T18:37:13Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11960"
+                  },
                   {
                     "pr_number": 11871,
                     "pr_title": "is_account_authorized(hop) -> can_account_promote(who, data_len)",
@@ -90229,6 +90288,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "154e0f5560b5f3dc1a60569aca9e1a232e702fbc",
+                    "message": "[revive] pgas as storage deposit (#11847)",
+                    "date": "2026-05-01T10:01:02Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/154e0f5560b5f3dc1a60569aca9e1a232e702fbc"
+                  },
+                  {
                     "sha": "7333c29c30e9c95dc0f061712c626db03b067d10",
                     "message": "Add pallet-gas-allowance with ChargePGAS transaction extension (#11818)",
                     "date": "2026-04-28T08:45:05Z",
@@ -127114,6 +127179,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11959,
+                    "pr_title": "Bump WAH spec_version",
+                    "reviewed_at": "2026-05-01T16:49:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11959"
+                  },
+                  {
                     "pr_number": 11810,
                     "pr_title": "Introduce `sp-coretime`",
                     "reviewed_at": "2026-04-17T14:26:45Z",
@@ -149542,6 +149613,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 11962,
+                    "title": "client/db, sp-transaction-storage-proof: preserve `MultiRenew` submit order",
+                    "state": "OPEN",
+                    "created_at": "2026-05-01T22:55:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "karolk91",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11962",
+                    "ready_for_review_at": "2026-05-01T22:55:58Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "karolk91",
+                        "commented_at": "2026-05-01T22:57:42Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10459,
                     "title": "Revert \"xcm: Do not require `Asset` to be sorted on `decode`\"",
                     "state": "OPEN",
@@ -157644,6 +157736,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "98e0271c667a0a32ea4aabd5e4f811f2a1f6171e",
+                    "message": "Support multiple `IndexOperation::Renew` calls within a single extrinsic index in `sc-client-db` (#11474)",
+                    "date": "2026-05-01T12:03:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/98e0271c667a0a32ea4aabd5e4f811f2a1f6171e"
+                  },
                   {
                     "sha": "8e64bb2e4d7554a813fe5a99805c9898123c1366",
                     "message": "Fix bridges integration test failure for the Westend network (#11643)",

@@ -2800,6 +2800,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11959,
+      "pr_title": "Bump WAH spec_version",
+      "reviewed_at": "2026-05-01T16:49:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11959"
+    },
+    {
       "pr_number": 11810,
       "pr_title": "Introduce `sp-coretime`",
       "reviewed_at": "2026-04-17T14:26:45Z",
