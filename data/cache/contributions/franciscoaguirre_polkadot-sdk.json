@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "3501f2c3c8e46d0b726994065a05615995f03880",
+      "message": "Add sp-hop (#11960)",
+      "date": "2026-05-02T10:43:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/3501f2c3c8e46d0b726994065a05615995f03880"
+    },
+    {
       "sha": "2225cdc7a4d74da5dba93719fc8c1bd00ec420c2",
       "message": "link-checker: exclude two 403-blocked Medium URLs (#11953)",
       "date": "2026-05-01T15:33:33Z",
