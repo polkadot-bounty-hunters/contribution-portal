@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "7fd332f53c29ab2b639e895f339769f1a0b6caf9",
+      "message": "benchmarking: Support child trie key whitelisting (#10992)",
+      "date": "2026-05-04T18:34:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7fd332f53c29ab2b639e895f339769f1a0b6caf9"
+    },
+    {
       "sha": "154e0f5560b5f3dc1a60569aca9e1a232e702fbc",
       "message": "[revive] pgas as storage deposit (#11847)",
       "date": "2026-05-01T10:01:02Z",

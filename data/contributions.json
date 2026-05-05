@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-04T06:49:23.895Z",
+  "generated_at": "2026-05-05T06:17:36.304Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1528,
+    "total_commits": 1530,
     "total_prs": 1615,
     "total_merged_prs": 1027,
-    "total_reviews": 2353
+    "total_reviews": 2355
   },
   "leaderboard": {
     "overall": [
@@ -24,11 +24,11 @@
         "name": "pgherveou",
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
-        "commits": 265,
+        "commits": 266,
         "prs": 198,
         "merged_prs": 131,
         "reviews": 217,
-        "score": 3216
+        "score": 3217
       },
       {
         "name": "liamaharon",
@@ -87,8 +87,8 @@
         "commits": 117,
         "prs": 82,
         "merged_prs": 55,
-        "reviews": 57,
-        "score": 1248
+        "reviews": 58,
+        "score": 1251
       },
       {
         "name": "juangirini",
@@ -114,11 +114,11 @@
         "name": "karolk91",
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 18,
+        "commits": 19,
         "prs": 30,
         "merged_prs": 19,
-        "reviews": 97,
-        "score": 649
+        "reviews": 98,
+        "score": 653
       },
       {
         "name": "Krayt78",
@@ -929,11 +929,11 @@
           "name": "pgherveou",
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
-          "commits": 265,
+          "commits": 266,
           "prs": 198,
           "merged_prs": 131,
           "reviews": 217,
-          "score": 3216
+          "score": 3217
         },
         {
           "name": "liamaharon",
@@ -1674,8 +1674,8 @@
           "commits": 117,
           "prs": 82,
           "merged_prs": 55,
-          "reviews": 57,
-          "score": 1248
+          "reviews": 58,
+          "score": 1251
         },
         {
           "name": "pandres95",
@@ -3105,11 +3105,11 @@
           "name": "karolk91",
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 18,
+          "commits": 19,
           "prs": 30,
           "merged_prs": 19,
-          "reviews": 97,
-          "score": 649
+          "reviews": 98,
+          "score": 653
         },
         {
           "name": "Krayt78",
@@ -90294,6 +90294,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "7fd332f53c29ab2b639e895f339769f1a0b6caf9",
+                    "message": "benchmarking: Support child trie key whitelisting (#10992)",
+                    "date": "2026-05-04T18:34:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/7fd332f53c29ab2b639e895f339769f1a0b6caf9"
+                  },
+                  {
                     "sha": "154e0f5560b5f3dc1a60569aca9e1a232e702fbc",
                     "message": "[revive] pgas as storage deposit (#11847)",
                     "date": "2026-05-01T10:01:02Z",
@@ -127185,6 +127191,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 11977,
+                    "pr_title": "Version bumps and prdocs reordering after stable2603-1",
+                    "reviewed_at": "2026-05-04T14:52:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11977"
+                  },
+                  {
                     "pr_number": 11959,
                     "pr_title": "Bump WAH spec_version",
                     "reviewed_at": "2026-05-01T16:49:28Z",
@@ -149545,6 +149557,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "4d5876e2565a4fe83c92c8f710778ff49c4ed4a8",
+                    "message": "client/db, sp-transaction-storage-proof: preserve `MultiRenew` submit order (#11962)",
+                    "date": "2026-05-04T09:40:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/4d5876e2565a4fe83c92c8f710778ff49c4ed4a8"
+                  },
+                  {
                     "sha": "613e00ed694cb846dae7796997d4224832d6aa67",
                     "message": "Revert \"pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees\" (#10458)",
                     "date": "2025-12-04T20:27:10Z",
@@ -151202,6 +151220,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 11968,
+                    "pr_title": "[unstable2604] Backport #11962",
+                    "reviewed_at": "2026-05-04T10:49:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/11968"
+                  },
                   {
                     "pr_number": 10537,
                     "pr_title": "[stable2512] Backport #10459",

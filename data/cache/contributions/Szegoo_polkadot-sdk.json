@@ -2800,6 +2800,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11977,
+      "pr_title": "Version bumps and prdocs reordering after stable2603-1",
+      "reviewed_at": "2026-05-04T14:52:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11977"
+    },
+    {
       "pr_number": 11959,
       "pr_title": "Bump WAH spec_version",
       "reviewed_at": "2026-05-01T16:49:28Z",
