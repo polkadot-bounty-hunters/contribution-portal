@@ -1383,6 +1383,42 @@
   ],
   "prs": [
     {
+      "number": 11983,
+      "title": "[asset-hub-westend] Add pallet_revive v4 migration",
+      "state": "OPEN",
+      "created_at": "2026-05-05T12:36:39Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11983",
+      "ready_for_review_at": "2026-05-05T12:36:39Z",
+      "reviews": [
+        {
+          "reviewer": "athei",
+          "submitted_at": "2026-05-05T13:21:04Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "mokita-j",
+          "submitted_at": "2026-05-05T14:14:54Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-05-05T12:51:01Z"
+        },
+        {
+          "commenter": "bkchr",
+          "commented_at": "2026-05-05T21:21:49Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.7402777777777778,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11879,
       "title": "Add PgasOnChargeAssetTransaction adapter (alternative to #11818)",
       "state": "OPEN",
