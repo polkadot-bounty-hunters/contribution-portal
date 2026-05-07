@@ -801,6 +801,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11992,
+      "pr_title": "Pass -Zjson-target-spec when building with a .json target spec",
+      "reviewed_at": "2026-05-06T12:29:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11992"
+    },
+    {
       "pr_number": 11839,
       "pr_title": "pallet_revive:  Fix dispatch_as_fallback_account",
       "reviewed_at": "2026-04-21T10:54:22Z",

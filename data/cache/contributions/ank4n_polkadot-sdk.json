@@ -489,6 +489,33 @@
   ],
   "prs": [
     {
+      "number": 11999,
+      "title": "[Staking] Use offence era for proportional slash distribution",
+      "state": "OPEN",
+      "created_at": "2026-05-06T08:22:43Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11999",
+      "ready_for_review_at": "2026-05-06T08:22:43Z",
+      "reviews": [
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-05-06T08:43:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-05-06T08:49:08Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.3516666666666667,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11930,
       "title": "[Staking] Rotate era reward pots through a fixed-size pool",
       "state": "MERGED",

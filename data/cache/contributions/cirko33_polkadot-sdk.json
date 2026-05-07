@@ -545,6 +545,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 11999,
+      "pr_title": "[Staking] Use offence era for proportional slash distribution",
+      "reviewed_at": "2026-05-06T09:53:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11999"
+    },
+    {
       "pr_number": 11949,
       "pr_title": "Additional improvements for the DAP satellite pallet generalization",
       "reviewed_at": "2026-05-01T05:09:33Z",
