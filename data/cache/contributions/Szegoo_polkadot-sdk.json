@@ -405,6 +405,38 @@
   ],
   "prs": [
     {
+      "number": 12012,
+      "title": "Allow Emergency origin to set PSM max debt",
+      "state": "OPEN",
+      "created_at": "2026-05-07T14:03:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12012",
+      "ready_for_review_at": "2026-05-07T14:03:49Z",
+      "reviews": [
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2026-05-07T14:49:50Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "ggwpez",
+          "submitted_at": "2026-05-07T15:02:53Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2026-05-07T15:47:12Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.7669444444444444,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11950,
       "title": "pallet-psm-remote-tests: support multi-instance fungibles",
       "state": "OPEN",

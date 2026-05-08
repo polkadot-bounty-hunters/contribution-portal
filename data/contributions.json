@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-07T06:47:14.839Z",
+  "generated_at": "2026-05-08T06:11:50.136Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1530,
-    "total_prs": 1620,
+    "total_prs": 1623,
     "total_merged_prs": 1027,
-    "total_reviews": 2358
+    "total_reviews": 2359
   },
   "leaderboard": {
     "overall": [
@@ -45,10 +45,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 101,
-        "prs": 138,
+        "prs": 139,
         "merged_prs": 77,
-        "reviews": 227,
-        "score": 2242
+        "reviews": 228,
+        "score": 2250
       },
       {
         "name": "franciscoaguirre",
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 117,
-        "prs": 82,
+        "prs": 83,
         "merged_prs": 55,
         "reviews": 58,
-        "score": 1251
+        "score": 1256
       },
       {
         "name": "juangirini",
@@ -191,6 +191,16 @@
         "score": 294
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 19,
+        "prs": 24,
+        "merged_prs": 3,
+        "reviews": 29,
+        "score": 256
+      },
+      {
         "name": "smiasojed",
         "github": "smiasojed",
         "cohort": "PBA 2 BA 2023",
@@ -209,16 +219,6 @@
         "merged_prs": 10,
         "reviews": 30,
         "score": 254
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 19,
-        "prs": 23,
-        "merged_prs": 3,
-        "reviews": 29,
-        "score": 251
       },
       {
         "name": "DrW3RK",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 101,
-          "prs": 138,
+          "prs": 139,
           "merged_prs": 77,
-          "reviews": 227,
-          "score": 2242
+          "reviews": 228,
+          "score": 2250
         },
         {
           "name": "franciscoaguirre",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 117,
-          "prs": 82,
+          "prs": 83,
           "merged_prs": 55,
           "reviews": 58,
-          "score": 1251
+          "score": 1256
         },
         {
           "name": "pandres95",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 19,
-          "prs": 23,
+          "prs": 24,
           "merged_prs": 3,
           "reviews": 29,
-          "score": 251
+          "score": 256
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 76.66975190320822,
+    "average_review_time_hours": 76.60789142443173,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,17 +5610,17 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 774,
+        "review_count": 775,
         "approved_count": 267,
         "avg_time_to_review_hours": 83.98600589225589,
-        "approval_rate": 34.49612403100775
+        "approval_rate": 34.45161290322581
       },
       {
         "reviewer": "bkchr",
-        "review_count": 702,
+        "review_count": 703,
         "approved_count": 402,
         "avg_time_to_review_hours": 47.48584957764783,
-        "approval_rate": 57.26495726495726
+        "approval_rate": 57.18349928876245
       },
       {
         "reviewer": "bkontur",
@@ -5645,10 +5645,10 @@
       },
       {
         "reviewer": "muharem",
-        "review_count": 227,
-        "approved_count": 46,
-        "avg_time_to_review_hours": 144.77849673202616,
-        "approval_rate": 20.26431718061674
+        "review_count": 228,
+        "approved_count": 47,
+        "avg_time_to_review_hours": 136.77785493827162,
+        "approval_rate": 20.614035087719298
       },
       {
         "reviewer": "liamaharon",
@@ -5729,10 +5729,10 @@
       },
       {
         "reviewer": "seadanda",
-        "review_count": 96,
+        "review_count": 97,
         "approved_count": 45,
         "avg_time_to_review_hours": 47.100625,
-        "approval_rate": 46.875
+        "approval_rate": 46.391752577319586
       },
       {
         "reviewer": "Ank4n",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 86.53842094284524,
-        "pr_count": 799,
+        "avg_review_time_hours": 86.43120659722224,
+        "pr_count": 800,
         "merged_count": 658
       },
       {
@@ -31197,6 +31197,33 @@
                 ],
                 "prs": [
                   {
+                    "number": 1173,
+                    "title": "[WIP] Redirect burns and fees to DAP",
+                    "state": "OPEN",
+                    "created_at": "2026-05-07T11:25:45Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1173",
+                    "ready_for_review_at": null,
+                    "reviews": [
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-05-07T11:35:38Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-05-07T11:45:55Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1104,
                     "title": "Add migration for PAH pool member with trapped funds",
                     "state": "OPEN",
@@ -31564,6 +31591,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1173,
+                    "pr_title": "[WIP] Redirect burns and fees to DAP",
+                    "reviewed_at": "2026-05-07T12:30:57Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1173"
+                  },
                   {
                     "pr_number": 1101,
                     "pr_title": "Add support for kick_member in pallet-society and key deposit and proof of ownership in staking-async-rc-client",
@@ -124881,6 +124914,38 @@
                 ],
                 "prs": [
                   {
+                    "number": 12012,
+                    "title": "Allow Emergency origin to set PSM max debt",
+                    "state": "OPEN",
+                    "created_at": "2026-05-07T14:03:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12012",
+                    "ready_for_review_at": "2026-05-07T14:03:49Z",
+                    "reviews": [
+                      {
+                        "reviewer": "muharem",
+                        "submitted_at": "2026-05-07T14:49:50Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-05-07T15:02:53Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "seadanda",
+                        "submitted_at": "2026-05-07T15:47:12Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.7669444444444444,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11950,
                     "title": "pallet-psm-remote-tests: support multi-instance fungibles",
                     "state": "OPEN",
@@ -170979,6 +171044,28 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12015,
+                    "title": "sp-io, sp-state-machine: add get_with_status host fns for hot/cold loads",
+                    "state": "OPEN",
+                    "created_at": "2026-05-07T17:27:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12015",
+                    "ready_for_review_at": null,
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-05-07T21:19:09Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11860,
                     "title": "pallet-revive: align eth_substrate_call origin check with other eth dispatchables",
