@@ -9160,6 +9160,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12027,
+      "pr_title": "Extend PGAS filter to allow batches",
+      "reviewed_at": "2026-05-08T15:45:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12027"
+    },
+    {
       "pr_number": 11481,
       "pr_title": "[pallet-revive] Add PVM fuel tracing",
       "reviewed_at": "2026-03-24T19:56:14Z",

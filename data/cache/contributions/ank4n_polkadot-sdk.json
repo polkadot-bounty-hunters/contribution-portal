@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "67190176f144a642c3e3831dc13248d4327bbdf1",
+      "message": "[Staking] Use offence era for proportional slash distribution (#11999)",
+      "date": "2026-05-08T06:13:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/67190176f144a642c3e3831dc13248d4327bbdf1"
+    },
+    {
       "sha": "eb8daca9e5a377ed0863262096485ac35d95f405",
       "message": "[Staking] Rotate era reward pots through a fixed-size pool (#11930)",
       "date": "2026-04-29T18:11:17Z",
@@ -7629,6 +7635,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12018,
+      "pr_title": "[unstable2604] Backport #11999",
+      "reviewed_at": "2026-05-08T07:55:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12018"
+    },
     {
       "pr_number": 11979,
       "pr_title": "Scale validator self-stake incentive by era-points performance",

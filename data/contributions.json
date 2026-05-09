@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-08T06:11:50.136Z",
+  "generated_at": "2026-05-09T06:38:11.184Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1530,
-    "total_prs": 1623,
+    "total_commits": 1531,
+    "total_prs": 1624,
     "total_merged_prs": 1027,
-    "total_reviews": 2359
+    "total_reviews": 2363
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 257,
-        "prs": 193,
+        "prs": 194,
         "merged_prs": 148,
         "reviews": 242,
-        "score": 3428
+        "score": 3433
       },
       {
         "name": "pgherveou",
@@ -27,8 +27,8 @@
         "commits": 266,
         "prs": 199,
         "merged_prs": 131,
-        "reviews": 217,
-        "score": 3222
+        "reviews": 218,
+        "score": 3225
       },
       {
         "name": "liamaharon",
@@ -44,11 +44,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 101,
+        "commits": 102,
         "prs": 139,
         "merged_prs": 77,
-        "reviews": 228,
-        "score": 2250
+        "reviews": 229,
+        "score": 2254
       },
       {
         "name": "franciscoaguirre",
@@ -87,8 +87,8 @@
         "commits": 117,
         "prs": 83,
         "merged_prs": 55,
-        "reviews": 58,
-        "score": 1256
+        "reviews": 59,
+        "score": 1259
       },
       {
         "name": "juangirini",
@@ -297,8 +297,8 @@
         "commits": 9,
         "prs": 12,
         "merged_prs": 2,
-        "reviews": 10,
-        "score": 119
+        "reviews": 11,
+        "score": 122
       },
       {
         "name": "chungquantin",
@@ -518,20 +518,20 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 257,
-          "prs": 193,
+          "prs": 194,
           "merged_prs": 148,
           "reviews": 242,
-          "score": 3428
+          "score": 3433
         },
         {
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 101,
+          "commits": 102,
           "prs": 139,
           "merged_prs": 77,
-          "reviews": 228,
-          "score": 2250
+          "reviews": 229,
+          "score": 2254
         },
         {
           "name": "franciscoaguirre",
@@ -932,8 +932,8 @@
           "commits": 266,
           "prs": 199,
           "merged_prs": 131,
-          "reviews": 217,
-          "score": 3222
+          "reviews": 218,
+          "score": 3225
         },
         {
           "name": "liamaharon",
@@ -1674,8 +1674,8 @@
           "commits": 117,
           "prs": 83,
           "merged_prs": 55,
-          "reviews": 58,
-          "score": 1256
+          "reviews": 59,
+          "score": 1259
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 9,
           "prs": 12,
           "merged_prs": 2,
-          "reviews": 10,
-          "score": 119
+          "reviews": 11,
+          "score": 122
         },
         {
           "name": "castillax",
@@ -19512,6 +19512,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "67190176f144a642c3e3831dc13248d4327bbdf1",
+                    "message": "[Staking] Use offence era for proportional slash distribution (#11999)",
+                    "date": "2026-05-08T06:13:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/67190176f144a642c3e3831dc13248d4327bbdf1"
+                  },
+                  {
                     "sha": "eb8daca9e5a377ed0863262096485ac35d95f405",
                     "message": "[Staking] Rotate era reward pots through a fixed-size pool (#11930)",
                     "date": "2026-04-29T18:11:17Z",
@@ -27140,6 +27146,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12018,
+                    "pr_title": "[unstable2604] Backport #11999",
+                    "reviewed_at": "2026-05-08T07:55:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12018"
+                  },
                   {
                     "pr_number": 11979,
                     "pr_title": "Scale validator self-stake incentive by era-points performance",
@@ -38882,6 +38894,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12029,
+                    "title": "`bitswap_v1_stream` implementation added",
+                    "state": "OPEN",
+                    "created_at": "2026-05-08T12:11:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12029",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12000,
                     "title": "hoppool: guard helper for insert",
@@ -99535,6 +99563,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12027,
+                    "pr_title": "Extend PGAS filter to allow batches",
+                    "reviewed_at": "2026-05-08T15:45:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12027"
+                  },
+                  {
                     "pr_number": 11481,
                     "pr_title": "[pallet-revive] Add PVM fuel tracing",
                     "reviewed_at": "2026-03-24T19:56:14Z",
@@ -127340,6 +127374,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12030,
+                    "pr_title": "Bump WAH spec_version",
+                    "reviewed_at": "2026-05-08T16:31:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12030"
+                  },
                   {
                     "pr_number": 11977,
                     "pr_title": "Version bumps and prdocs reordering after stable2603-1",
@@ -164889,6 +164929,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12030,
+                    "pr_title": "Bump WAH spec_version",
+                    "reviewed_at": "2026-05-08T16:31:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12030"
+                  },
                   {
                     "pr_number": 11792,
                     "pr_title": "Bump spec_version WAH",
