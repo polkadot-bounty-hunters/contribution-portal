@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-11T07:14:43.719Z",
+  "generated_at": "2026-05-12T06:55:01.817Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1531,
-    "total_prs": 1624,
+    "total_prs": 1625,
     "total_merged_prs": 1027,
     "total_reviews": 2363
   },
@@ -25,10 +25,10 @@
         "github": "pgherveou",
         "cohort": "PBA 2 BA 2023",
         "commits": 266,
-        "prs": 199,
+        "prs": 200,
         "merged_prs": 131,
         "reviews": 218,
-        "score": 3225
+        "score": 3230
       },
       {
         "name": "liamaharon",
@@ -930,10 +930,10 @@
           "github": "pgherveou",
           "cohort": "PBA 2 BA 2023",
           "commits": 266,
-          "prs": 199,
+          "prs": 200,
           "merged_prs": 131,
           "reviews": 218,
-          "score": 3225
+          "score": 3230
         },
         {
           "name": "liamaharon",
@@ -91785,6 +91785,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12047,
+                    "title": "[revive] test: dry-run max_storage_deposit from an unfunded account",
+                    "state": "OPEN",
+                    "created_at": "2026-05-11T15:56:35Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pgherveou",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12047",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "pgherveou",
+                        "commented_at": "2026-05-11T15:57:21Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11983,
                     "title": "[asset-hub-westend] Add pallet_revive v4 migration",

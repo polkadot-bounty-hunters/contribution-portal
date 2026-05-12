@@ -1383,6 +1383,27 @@
   ],
   "prs": [
     {
+      "number": 12047,
+      "title": "[revive] test: dry-run max_storage_deposit from an unfunded account",
+      "state": "OPEN",
+      "created_at": "2026-05-11T15:56:35Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "pgherveou",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12047",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "pgherveou",
+          "commented_at": "2026-05-11T15:57:21Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11983,
       "title": "[asset-hub-westend] Add pallet_revive v4 migration",
       "state": "OPEN",
