@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-12T06:55:01.817Z",
+  "generated_at": "2026-05-13T07:04:41.180Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1531,
     "total_prs": 1625,
     "total_merged_prs": 1027,
-    "total_reviews": 2363
+    "total_reviews": 2364
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 80,
         "prs": 120,
         "merged_prs": 83,
-        "reviews": 180,
-        "score": 2050
+        "reviews": 181,
+        "score": 2053
       },
       {
         "name": "jsidorenko",
@@ -540,8 +540,8 @@
           "commits": 80,
           "prs": 120,
           "merged_prs": 83,
-          "reviews": 180,
-          "score": 2050
+          "reviews": 181,
+          "score": 2053
         },
         {
           "name": "jsidorenko",
@@ -14890,6 +14890,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12059,
+                    "pr_title": "pallet-transaction-storage: mark publish = false and drop from umbrella",
+                    "reviewed_at": "2026-05-13T02:43:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12059"
+                  },
                   {
                     "pr_number": 11960,
                     "pr_title": "Add sp-hop",

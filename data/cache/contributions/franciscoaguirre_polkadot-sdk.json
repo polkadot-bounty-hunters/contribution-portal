@@ -8970,6 +8970,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12059,
+      "pr_title": "pallet-transaction-storage: mark publish = false and drop from umbrella",
+      "reviewed_at": "2026-05-13T02:43:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12059"
+    },
+    {
       "pr_number": 11960,
       "pr_title": "Add sp-hop",
       "reviewed_at": "2026-05-01T18:37:13Z",
