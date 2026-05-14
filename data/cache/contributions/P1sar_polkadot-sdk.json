@@ -75,6 +75,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12061,
+      "pr_title": "statement-store: add statement-ops-bench for per-node RPC benchmarks",
+      "reviewed_at": "2026-05-13T15:16:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12061"
+    },
+    {
       "pr_number": 11673,
       "pr_title": "statement-store: Add malformed input unit tests",
       "reviewed_at": "2026-04-07T16:59:23Z",

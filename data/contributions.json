@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-13T07:04:41.180Z",
+  "generated_at": "2026-05-14T07:03:55.089Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1531,
+    "total_commits": 1532,
     "total_prs": 1625,
     "total_merged_prs": 1027,
-    "total_reviews": 2364
+    "total_reviews": 2365
   },
   "leaderboard": {
     "overall": [
@@ -84,11 +84,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 117,
+        "commits": 118,
         "prs": 83,
         "merged_prs": 55,
         "reviews": 59,
-        "score": 1259
+        "score": 1260
       },
       {
         "name": "juangirini",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 117,
+          "commits": 118,
           "prs": 83,
           "merged_prs": 55,
           "reviews": 59,
-          "score": 1259
+          "score": 1260
         },
         {
           "name": "pandres95",
@@ -4380,8 +4380,8 @@
           "commits": 1,
           "prs": 2,
           "merged_prs": 0,
-          "reviews": 8,
-          "score": 35
+          "reviews": 9,
+          "score": 38
         },
         {
           "name": "andrzejSulkowski",
@@ -124571,6 +124571,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "0f3e5c1917f08fe4e3fcc03ad8e50272311be3b7",
+                    "message": "Allow Emergency origin to set PSM max debt (#12012)",
+                    "date": "2026-05-13T13:39:03Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/0f3e5c1917f08fe4e3fcc03ad8e50272311be3b7"
+                  },
+                  {
                     "sha": "94876278e60a2dfca8ae764eb322db0df4ed9cff",
                     "message": "UnionOf: implement metadata traits (#11901)",
                     "date": "2026-04-28T15:56:28Z",
@@ -166077,6 +166083,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12061,
+                    "pr_title": "statement-store: add statement-ops-bench for per-node RPC benchmarks",
+                    "reviewed_at": "2026-05-13T15:16:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12061"
+                  },
                   {
                     "pr_number": 11673,
                     "pr_title": "statement-store: Add malformed input unit tests",

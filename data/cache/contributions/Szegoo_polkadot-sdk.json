@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "0f3e5c1917f08fe4e3fcc03ad8e50272311be3b7",
+      "message": "Allow Emergency origin to set PSM max debt (#12012)",
+      "date": "2026-05-13T13:39:03Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/0f3e5c1917f08fe4e3fcc03ad8e50272311be3b7"
+    },
+    {
       "sha": "94876278e60a2dfca8ae764eb322db0df4ed9cff",
       "message": "UnionOf: implement metadata traits (#11901)",
       "date": "2026-04-28T15:56:28Z",
