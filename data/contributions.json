@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-15T07:10:18.514Z",
+  "generated_at": "2026-05-16T06:43:36.327Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1532,
     "total_prs": 1625,
     "total_merged_prs": 1027,
-    "total_reviews": 2365
+    "total_reviews": 2366
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 257,
         "prs": 194,
         "merged_prs": 148,
-        "reviews": 242,
-        "score": 3433
+        "reviews": 243,
+        "score": 3436
       },
       {
         "name": "pgherveou",
@@ -520,8 +520,8 @@
           "commits": 257,
           "prs": 194,
           "merged_prs": 148,
-          "reviews": 242,
-          "score": 3433
+          "reviews": 243,
+          "score": 3436
         },
         {
           "name": "ank4n",
@@ -47277,6 +47277,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12084,
+                    "pr_title": "Allow calling `runtime_api` with supplied storage overlay",
+                    "reviewed_at": "2026-05-15T19:40:46Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12084"
+                  },
                   {
                     "pr_number": 11873,
                     "pr_title": "[stable2512] Backport #10780: Fix pallet-revive-fixtures (#10780)",
