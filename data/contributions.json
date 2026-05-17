@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-16T06:43:36.327Z",
+  "generated_at": "2026-05-17T07:04:52.061Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1532,
-    "total_prs": 1625,
+    "total_prs": 1626,
     "total_merged_prs": 1027,
     "total_reviews": 2366
   },
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 118,
-        "prs": 83,
+        "prs": 84,
         "merged_prs": 55,
         "reviews": 59,
-        "score": 1260
+        "score": 1265
       },
       {
         "name": "juangirini",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 118,
-          "prs": 83,
+          "prs": 84,
           "merged_prs": 55,
           "reviews": 59,
-          "score": 1260
+          "score": 1265
         },
         {
           "name": "pandres95",
@@ -124986,6 +124986,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12088,
+                    "title": "PSM: move per-instance config to storage",
+                    "state": "OPEN",
+                    "created_at": "2026-05-16T20:32:42Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12088",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12012,
                     "title": "Allow Emergency origin to set PSM max debt",
