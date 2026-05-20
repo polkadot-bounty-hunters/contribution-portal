@@ -75,6 +75,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12102,
+      "pr_title": "statement-store: remove statement-latency-bench crate",
+      "reviewed_at": "2026-05-19T14:52:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12102"
+    },
+    {
       "pr_number": 12061,
       "pr_title": "statement-store: add statement-ops-bench for per-node RPC benchmarks",
       "reviewed_at": "2026-05-13T15:16:20Z",

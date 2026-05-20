@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-19T07:21:55.128Z",
+  "generated_at": "2026-05-20T07:21:24.925Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1532,
-    "total_prs": 1628,
+    "total_prs": 1632,
     "total_merged_prs": 1029,
-    "total_reviews": 2368
+    "total_reviews": 2370
   },
   "leaderboard": {
     "overall": [
@@ -35,10 +35,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 102,
-        "prs": 141,
+        "prs": 142,
         "merged_prs": 79,
-        "reviews": 231,
-        "score": 2290
+        "reviews": 232,
+        "score": 2298
       },
       {
         "name": "liamaharon",
@@ -115,10 +115,10 @@
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 19,
-        "prs": 30,
+        "prs": 31,
         "merged_prs": 19,
         "reviews": 98,
-        "score": 653
+        "score": 658
       },
       {
         "name": "Krayt78",
@@ -195,10 +195,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 19,
-        "prs": 24,
+        "prs": 26,
         "merged_prs": 3,
         "reviews": 29,
-        "score": 256
+        "score": 266
       },
       {
         "name": "smiasojed",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 102,
-          "prs": 141,
+          "prs": 142,
           "merged_prs": 79,
-          "reviews": 231,
-          "score": 2290
+          "reviews": 232,
+          "score": 2298
         },
         {
           "name": "franciscoaguirre",
@@ -3106,10 +3106,10 @@
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 19,
-          "prs": 30,
+          "prs": 31,
           "merged_prs": 19,
           "reviews": 98,
-          "score": 653
+          "score": 658
         },
         {
           "name": "Krayt78",
@@ -4380,8 +4380,8 @@
           "commits": 1,
           "prs": 2,
           "merged_prs": 0,
-          "reviews": 9,
-          "score": 38
+          "reviews": 10,
+          "score": 41
         },
         {
           "name": "andrzejSulkowski",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 19,
-          "prs": 24,
+          "prs": 26,
           "merged_prs": 3,
           "reviews": 29,
-          "score": 256
+          "score": 266
         },
         {
           "name": "cirko33",
@@ -20012,6 +20012,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 12103,
+                    "title": "Cap member slash to pool pending slash",
+                    "state": "OPEN",
+                    "created_at": "2026-05-19T08:58:22Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12103",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-05-19T09:03:33Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11999,
                     "title": "[Staking] Use offence era for proportional slash distribution",
                     "state": "OPEN",
@@ -27152,6 +27173,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12100,
+                    "pr_title": "staking-async / WAH: use div_ceil for VoterSnapshotPerBlock",
+                    "reviewed_at": "2026-05-19T13:04:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12100"
+                  },
                   {
                     "pr_number": 12018,
                     "pr_title": "[unstable2604] Backport #11999",
@@ -150009,6 +150036,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 12106,
+                    "title": "sp-database: aggregate same-key refcount ops within a transaction",
+                    "state": "OPEN",
+                    "created_at": "2026-05-19T12:03:12Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "karolk91",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12106",
+                    "ready_for_review_at": "2026-05-19T12:03:12Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "karolk91",
+                        "commented_at": "2026-05-19T12:06:58Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11962,
                     "title": "client/db, sp-transaction-storage-proof: preserve `MultiRenew` submit order",
                     "state": "OPEN",
@@ -166233,6 +166281,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12102,
+                    "pr_title": "statement-store: remove statement-latency-bench crate",
+                    "reviewed_at": "2026-05-19T14:52:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12102"
+                  },
+                  {
                     "pr_number": 12061,
                     "pr_title": "statement-store: add statement-ops-bench for per-node RPC benchmarks",
                     "reviewed_at": "2026-05-13T15:16:20Z",
@@ -171278,6 +171332,88 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12115,
+                    "title": "pallet-revive: recalibrate `contains_storage` benchmark",
+                    "state": "OPEN",
+                    "created_at": "2026-05-19T15:57:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12115",
+                    "ready_for_review_at": "2026-05-19T15:57:29Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-05-19T15:58:31Z"
+                      },
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-05-19T15:58:57Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-19T15:59:52Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-19T16:57:05Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-05-19T17:13:03Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12104,
+                    "title": "[WIP] pallet-revive: prototype per-tx cold/warm storage pricing",
+                    "state": "OPEN",
+                    "created_at": "2026-05-19T09:04:17Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12104",
+                    "ready_for_review_at": "2026-05-19T09:04:17Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-05-19T09:35:24Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-19T09:36:06Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-19T10:38:56Z"
+                      },
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-05-19T12:21:21Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-19T12:22:13Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-19T13:21:22Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-05-19T13:28:12Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12015,
                     "title": "sp-io, sp-state-machine: add get_with_status host fns for hot/cold loads",
