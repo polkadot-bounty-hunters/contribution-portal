@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "5f453ce659941cc092c4aa3eda8eebc310f39bfd",
+      "message": "pallet-revive: recalibrate `contains_storage` benchmark (#12115)",
+      "date": "2026-05-21T05:18:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/5f453ce659941cc092c4aa3eda8eebc310f39bfd"
+    },
+    {
       "sha": "9b3a4a9ec06179f2fac5d1d97ae82d9da05915ca",
       "message": "pallet-revive: align eth_substrate_call origin check with other eth dispatchables (#11860)",
       "date": "2026-04-23T20:13:29Z",

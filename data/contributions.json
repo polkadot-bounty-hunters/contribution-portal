@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-20T07:21:24.925Z",
+  "generated_at": "2026-05-21T07:25:11.271Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1532,
+    "total_commits": 1533,
     "total_prs": 1632,
     "total_merged_prs": 1029,
-    "total_reviews": 2370
+    "total_reviews": 2371
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 80,
         "prs": 120,
         "merged_prs": 83,
-        "reviews": 181,
-        "score": 2053
+        "reviews": 182,
+        "score": 2056
       },
       {
         "name": "jsidorenko",
@@ -194,11 +194,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 19,
+        "commits": 20,
         "prs": 26,
         "merged_prs": 3,
         "reviews": 29,
-        "score": 266
+        "score": 267
       },
       {
         "name": "smiasojed",
@@ -540,8 +540,8 @@
           "commits": 80,
           "prs": 120,
           "merged_prs": 83,
-          "reviews": 181,
-          "score": 2053
+          "reviews": 182,
+          "score": 2056
         },
         {
           "name": "jsidorenko",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 19,
+          "commits": 20,
           "prs": 26,
           "merged_prs": 3,
           "reviews": 29,
-          "score": 266
+          "score": 267
         },
         {
           "name": "cirko33",
@@ -14890,6 +14890,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12135,
+                    "pr_title": "revive automap: batch map accounts for free",
+                    "reviewed_at": "2026-05-20T18:52:51Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12135"
+                  },
                   {
                     "pr_number": 12059,
                     "pr_title": "pallet-transaction-storage: mark publish = false and drop from umbrella",
@@ -171216,6 +171222,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "5f453ce659941cc092c4aa3eda8eebc310f39bfd",
+                    "message": "pallet-revive: recalibrate `contains_storage` benchmark (#12115)",
+                    "date": "2026-05-21T05:18:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/5f453ce659941cc092c4aa3eda8eebc310f39bfd"
+                  },
                   {
                     "sha": "9b3a4a9ec06179f2fac5d1d97ae82d9da05915ca",
                     "message": "pallet-revive: align eth_substrate_call origin check with other eth dispatchables (#11860)",

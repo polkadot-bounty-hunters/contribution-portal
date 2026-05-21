@@ -8970,6 +8970,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12135,
+      "pr_title": "revive automap: batch map accounts for free",
+      "reviewed_at": "2026-05-20T18:52:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12135"
+    },
+    {
       "pr_number": 12059,
       "pr_title": "pallet-transaction-storage: mark publish = false and drop from umbrella",
       "reviewed_at": "2026-05-13T02:43:40Z",
