@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-21T07:25:11.271Z",
+  "generated_at": "2026-05-22T07:21:28.037Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1533,
-    "total_prs": 1632,
+    "total_prs": 1633,
     "total_merged_prs": 1029,
     "total_reviews": 2371
   },
@@ -5206,6 +5206,16 @@
           "score": 5
         },
         {
+          "name": "wadkhlemshem",
+          "github": "wadkhlemshem",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "WonderJL",
           "github": "WonderJL",
           "cohort": "PBA 7 Bali 2025",
@@ -5558,16 +5568,6 @@
         {
           "name": "ucals",
           "github": "ucals",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "wadkhlemshem",
-          "github": "wadkhlemshem",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -178332,7 +178332,37 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 12151,
+                    "title": "feat: add time scheduler pallet",
+                    "state": "OPEN",
+                    "created_at": "2026-05-21T15:48:51Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "wadkhlemshem",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12151",
+                    "ready_for_review_at": "2026-05-21T15:48:51Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-05-21T15:49:18Z"
+                      },
+                      {
+                        "commenter": "wadkhlemshem",
+                        "commented_at": "2026-05-21T15:53:09Z"
+                      },
+                      {
+                        "commenter": "wadkhlemshem",
+                        "commented_at": "2026-05-21T15:54:23Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
