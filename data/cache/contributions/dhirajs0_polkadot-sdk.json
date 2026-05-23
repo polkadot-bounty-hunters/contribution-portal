@@ -295,6 +295,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12165,
+      "pr_title": "Bump spec_version",
+      "reviewed_at": "2026-05-22T15:26:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12165"
+    },
+    {
       "pr_number": 12030,
       "pr_title": "Bump WAH spec_version",
       "reviewed_at": "2026-05-08T16:31:48Z",

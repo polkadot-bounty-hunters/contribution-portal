@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "ccdacdbf1b2b23b7fca0f19e63f5d02a940bf0d5",
+      "message": "Hand-off protocol (#11662)",
+      "date": "2026-05-22T11:46:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ccdacdbf1b2b23b7fca0f19e63f5d02a940bf0d5"
+    },
+    {
       "sha": "3501f2c3c8e46d0b726994065a05615995f03880",
       "message": "Add sp-hop (#11960)",
       "date": "2026-05-02T10:43:06Z",

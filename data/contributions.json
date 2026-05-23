@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-22T07:21:28.037Z",
+  "generated_at": "2026-05-23T06:56:09.284Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1533,
+    "total_commits": 1534,
     "total_prs": 1633,
     "total_merged_prs": 1029,
-    "total_reviews": 2371
+    "total_reviews": 2375
   },
   "leaderboard": {
     "overall": [
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 80,
+        "commits": 81,
         "prs": 120,
         "merged_prs": 83,
         "reviews": 182,
-        "score": 2056
+        "score": 2057
       },
       {
         "name": "jsidorenko",
@@ -87,8 +87,8 @@
         "commits": 118,
         "prs": 84,
         "merged_prs": 55,
-        "reviews": 59,
-        "score": 1265
+        "reviews": 62,
+        "score": 1274
       },
       {
         "name": "juangirini",
@@ -297,8 +297,8 @@
         "commits": 9,
         "prs": 12,
         "merged_prs": 2,
-        "reviews": 11,
-        "score": 122
+        "reviews": 12,
+        "score": 125
       },
       {
         "name": "chungquantin",
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 80,
+          "commits": 81,
           "prs": 120,
           "merged_prs": 83,
           "reviews": 182,
-          "score": 2056
+          "score": 2057
         },
         {
           "name": "jsidorenko",
@@ -1674,8 +1674,8 @@
           "commits": 118,
           "prs": 84,
           "merged_prs": 55,
-          "reviews": 59,
-          "score": 1265
+          "reviews": 62,
+          "score": 1274
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 9,
           "prs": 12,
           "merged_prs": 2,
-          "reviews": 11,
-          "score": 122
+          "reviews": 12,
+          "score": 125
         },
         {
           "name": "castillax",
@@ -5921,6 +5921,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "ccdacdbf1b2b23b7fca0f19e63f5d02a940bf0d5",
+                    "message": "Hand-off protocol (#11662)",
+                    "date": "2026-05-22T11:46:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/ccdacdbf1b2b23b7fca0f19e63f5d02a940bf0d5"
+                  },
                   {
                     "sha": "3501f2c3c8e46d0b726994065a05615995f03880",
                     "message": "Add sp-hop (#11960)",
@@ -127590,6 +127596,24 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12171,
+                    "pr_title": "WAH: wire pallet-recovery into  benchmark list",
+                    "reviewed_at": "2026-05-22T19:32:14Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12171"
+                  },
+                  {
+                    "pr_number": 12167,
+                    "pr_title": "Version bumps and prdocs reordering after stable2603-2",
+                    "reviewed_at": "2026-05-22T15:33:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12167"
+                  },
+                  {
+                    "pr_number": 12165,
+                    "pr_title": "Bump spec_version",
+                    "reviewed_at": "2026-05-22T15:26:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12165"
+                  },
+                  {
                     "pr_number": 12030,
                     "pr_title": "Bump WAH spec_version",
                     "reviewed_at": "2026-05-08T16:31:48Z",
@@ -165165,6 +165189,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12165,
+                    "pr_title": "Bump spec_version",
+                    "reviewed_at": "2026-05-22T15:26:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12165"
+                  },
                   {
                     "pr_number": 12030,
                     "pr_title": "Bump WAH spec_version",
