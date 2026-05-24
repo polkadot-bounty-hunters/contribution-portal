@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-23T06:56:09.284Z",
+  "generated_at": "2026-05-24T07:17:23.619Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1534,
-    "total_prs": 1633,
+    "total_prs": 1634,
     "total_merged_prs": 1029,
     "total_reviews": 2375
   },
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 118,
-        "prs": 84,
+        "prs": 85,
         "merged_prs": 55,
         "reviews": 62,
-        "score": 1274
+        "score": 1279
       },
       {
         "name": "juangirini",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 118,
-          "prs": 84,
+          "prs": 85,
           "merged_prs": 55,
           "reviews": 62,
-          "score": 1274
+          "score": 1279
         },
         {
           "name": "pandres95",
@@ -125152,6 +125152,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12174,
+                    "title": "pallet-psm: multi-instance storage",
+                    "state": "OPEN",
+                    "created_at": "2026-05-23T16:40:39Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12174",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12088,
                     "title": "PSM: move per-instance config to storage",
