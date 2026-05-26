@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-25T07:40:34.696Z",
+  "generated_at": "2026-05-26T07:22:17.760Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1534,
-    "total_prs": 1634,
-    "total_merged_prs": 1029,
-    "total_reviews": 2375
+    "total_commits": 1535,
+    "total_prs": 1636,
+    "total_merged_prs": 1030,
+    "total_reviews": 2377
   },
   "leaderboard": {
     "overall": [
@@ -35,10 +35,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 102,
-        "prs": 142,
+        "prs": 143,
         "merged_prs": 79,
-        "reviews": 232,
-        "score": 2298
+        "reviews": 233,
+        "score": 2306
       },
       {
         "name": "liamaharon",
@@ -194,11 +194,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 20,
-        "prs": 26,
-        "merged_prs": 3,
-        "reviews": 29,
-        "score": 267
+        "commits": 21,
+        "prs": 27,
+        "merged_prs": 4,
+        "reviews": 30,
+        "score": 286
       },
       {
         "name": "smiasojed",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 102,
-          "prs": 142,
+          "prs": 143,
           "merged_prs": 79,
-          "reviews": 232,
-          "score": 2298
+          "reviews": 233,
+          "score": 2306
         },
         {
           "name": "franciscoaguirre",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 20,
-          "prs": 26,
-          "merged_prs": 3,
-          "reviews": 29,
-          "score": 267
+          "commits": 21,
+          "prs": 27,
+          "merged_prs": 4,
+          "reviews": 30,
+          "score": 286
         },
         {
           "name": "cirko33",
@@ -5599,21 +5599,21 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 76.48493242021513,
+    "average_review_time_hours": 76.36309910641751,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
-        "review_count": 1358,
-        "approved_count": 206,
-        "avg_time_to_review_hours": 100.92530441400304,
-        "approval_rate": 15.169366715758468
+        "review_count": 1360,
+        "approved_count": 207,
+        "avg_time_to_review_hours": 99.56754504504504,
+        "approval_rate": 15.220588235294116
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 775,
-        "approved_count": 267,
+        "review_count": 777,
+        "approved_count": 269,
         "avg_time_to_review_hours": 83.98600589225589,
-        "approval_rate": 34.45161290322581
+        "approval_rate": 34.62033462033462
       },
       {
         "reviewer": "bkchr",
@@ -5631,10 +5631,10 @@
       },
       {
         "reviewer": "athei",
-        "review_count": 328,
-        "approved_count": 135,
-        "avg_time_to_review_hours": 58.18199275362319,
-        "approval_rate": 41.15853658536585
+        "review_count": 329,
+        "approved_count": 136,
+        "avg_time_to_review_hours": 56.99816193853429,
+        "approval_rate": 41.33738601823708
       },
       {
         "reviewer": "acatangiu",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 86.43120659722224,
-        "pr_count": 800,
-        "merged_count": 658
+        "avg_review_time_hours": 86.32647593286173,
+        "pr_count": 801,
+        "merged_count": 659
       },
       {
         "repository": "paritytech/substrate",
@@ -5763,8 +5763,8 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 61.17770707070707,
-        "pr_count": 55,
+        "avg_review_time_hours": 60.09330357142857,
+        "pr_count": 56,
         "merged_count": 42
       },
       {
@@ -31254,6 +31254,52 @@
                 ],
                 "prs": [
                   {
+                    "number": 1184,
+                    "title": "[PAH 2.3.0] Filter Staking::reap_stash during validator self stake transition",
+                    "state": "OPEN",
+                    "created_at": "2026-05-25T10:39:12Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1184",
+                    "ready_for_review_at": "2026-05-25T10:39:12Z",
+                    "reviews": [
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-05-25T11:06:16Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-05-25T11:06:19Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-05-25T11:16:27Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-05-25T18:42:09Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-05-25T10:40:31Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-25T11:17:32Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.45111111111111113,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1179,
                     "title": "Updates to 1159",
                     "state": "MERGED",
@@ -31763,6 +31809,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1184,
+                    "pr_title": "[PAH 2.3.0] Filter Staking::reap_stash during validator self stake transition",
+                    "reviewed_at": "2026-05-25T20:23:17Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1184"
+                  },
                   {
                     "pr_number": 1179,
                     "pr_title": "Updates to 1159",
@@ -171269,6 +171321,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "8f3592abc64aee813b97915feb001d6632c4729c",
+                    "message": "pallet-revive: skip non-existent accounts in batch_map_accounts (#12179)",
+                    "date": "2026-05-25T16:31:03Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/8f3592abc64aee813b97915feb001d6632c4729c"
+                  },
+                  {
                     "sha": "5f453ce659941cc092c4aa3eda8eebc310f39bfd",
                     "message": "pallet-revive: recalibrate `contains_storage` benchmark (#12115)",
                     "date": "2026-05-21T05:18:48Z",
@@ -171390,6 +171448,58 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12179,
+                    "title": "pallet-revive: skip non-existent accounts in batch_map_accounts",
+                    "state": "MERGED",
+                    "created_at": "2026-05-25T12:40:50Z",
+                    "closed_at": "2026-05-25T17:27:51Z",
+                    "merged_at": "2026-05-25T17:27:51Z",
+                    "merged_by": "marian-radu",
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12179",
+                    "ready_for_review_at": "2026-05-25T12:40:50Z",
+                    "reviews": [
+                      {
+                        "reviewer": "athei",
+                        "submitted_at": "2026-05-25T15:13:21Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-05-25T15:16:39Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-05-25T12:41:39Z"
+                      },
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-05-25T12:41:49Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-25T12:42:47Z"
+                      },
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-05-25T13:05:16Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-05-25T14:36:02Z"
+                      },
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-05-25T17:28:26Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 2.5419444444444443,
+                    "time_to_merge_hours": 4.783611111111111
+                  },
                   {
                     "number": 12115,
                     "title": "pallet-revive: recalibrate `contains_storage` benchmark",
@@ -172178,6 +172288,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12187,
+                    "pr_title": "[unstable2604] Backport #12179",
+                    "reviewed_at": "2026-05-26T06:18:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12187"
+                  },
                   {
                     "pr_number": 11992,
                     "pr_title": "Pass -Zjson-target-spec when building with a .json target spec",
