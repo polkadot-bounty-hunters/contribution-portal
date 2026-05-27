@@ -39,6 +39,22 @@
   ],
   "prs": [
     {
+      "number": 12208,
+      "title": "staking-async: remove try_state(false) test escape hatch",
+      "state": "OPEN",
+      "created_at": "2026-05-26T18:34:55Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12208",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11612,
       "title": "fix(multi-asset-bounties): enforce authorization in unassign_curator when parent bounty is not Active",
       "state": "OPEN",
@@ -294,6 +310,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12203,
+      "pr_title": "pallet-referenda: Check before decrement deciding count",
+      "reviewed_at": "2026-05-26T14:28:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12203"
+    },
     {
       "pr_number": 12165,
       "pr_title": "Bump spec_version",

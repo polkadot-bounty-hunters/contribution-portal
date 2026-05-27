@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-26T07:22:17.760Z",
+  "generated_at": "2026-05-27T07:32:50.231Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1535,
-    "total_prs": 1636,
+    "total_prs": 1639,
     "total_merged_prs": 1030,
-    "total_reviews": 2377
+    "total_reviews": 2381
   },
   "leaderboard": {
     "overall": [
@@ -37,8 +37,8 @@
         "commits": 102,
         "prs": 143,
         "merged_prs": 79,
-        "reviews": 233,
-        "score": 2306
+        "reviews": 234,
+        "score": 2309
       },
       {
         "name": "liamaharon",
@@ -85,10 +85,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 118,
-        "prs": 85,
+        "prs": 86,
         "merged_prs": 55,
         "reviews": 62,
-        "score": 1279
+        "score": 1284
       },
       {
         "name": "juangirini",
@@ -197,8 +197,8 @@
         "commits": 21,
         "prs": 27,
         "merged_prs": 4,
-        "reviews": 30,
-        "score": 286
+        "reviews": 31,
+        "score": 289
       },
       {
         "name": "smiasojed",
@@ -231,6 +231,16 @@
         "score": 157
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 15,
+        "merged_prs": 2,
+        "reviews": 17,
+        "score": 152
+      },
+      {
         "name": "ndkazu",
         "github": "ndkazu",
         "cohort": "PBA 5 Singapore 2024",
@@ -248,16 +258,6 @@
         "prs": 12,
         "merged_prs": 5,
         "reviews": 7,
-        "score": 144
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 14,
-        "merged_prs": 2,
-        "reviews": 16,
         "score": 144
       },
       {
@@ -281,6 +281,16 @@
         "score": 137
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 9,
+        "prs": 13,
+        "merged_prs": 2,
+        "reviews": 13,
+        "score": 133
+      },
+      {
         "name": "MrishoLukamba",
         "github": "MrishoLukamba",
         "cohort": "PBA 4 Hong Kong 2024",
@@ -289,16 +299,6 @@
         "merged_prs": 4,
         "reviews": 4,
         "score": 127
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 9,
-        "prs": 12,
-        "merged_prs": 2,
-        "reviews": 12,
-        "score": 125
       },
       {
         "name": "chungquantin",
@@ -530,8 +530,8 @@
           "commits": 102,
           "prs": 143,
           "merged_prs": 79,
-          "reviews": 233,
-          "score": 2306
+          "reviews": 234,
+          "score": 2309
         },
         {
           "name": "franciscoaguirre",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 118,
-          "prs": 85,
+          "prs": 86,
           "merged_prs": 55,
           "reviews": 62,
-          "score": 1279
+          "score": 1284
         },
         {
           "name": "pandres95",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 9,
-          "prs": 12,
+          "prs": 13,
           "merged_prs": 2,
-          "reviews": 12,
-          "score": 125
+          "reviews": 13,
+          "score": 133
         },
         {
           "name": "castillax",
@@ -5112,18 +5112,18 @@
           "commits": 21,
           "prs": 27,
           "merged_prs": 4,
-          "reviews": 30,
-          "score": 286
+          "reviews": 31,
+          "score": 289
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 14,
+          "prs": 15,
           "merged_prs": 2,
-          "reviews": 16,
-          "score": 144
+          "reviews": 17,
+          "score": 152
         },
         {
           "name": "surajk-m",
@@ -27185,6 +27185,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12199,
+                    "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",
+                    "reviewed_at": "2026-05-26T22:13:14Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12199"
+                  },
                   {
                     "pr_number": 12100,
                     "pr_title": "staking-async / WAH: use div_ceil for VoterSnapshotPerBlock",
@@ -125205,6 +125211,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12206,
+                    "title": "pallet-psm: permissionless PSM creation",
+                    "state": "OPEN",
+                    "created_at": "2026-05-26T12:41:40Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12206",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12174,
                     "title": "pallet-psm: multi-instance storage",
                     "state": "OPEN",
@@ -165002,6 +165024,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12208,
+                    "title": "staking-async: remove try_state(false) test escape hatch",
+                    "state": "OPEN",
+                    "created_at": "2026-05-26T18:34:55Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12208",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11612,
                     "title": "fix(multi-asset-bounties): enforce authorization in unassign_curator when parent bounty is not Active",
                     "state": "OPEN",
@@ -165257,6 +165295,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12203,
+                    "pr_title": "pallet-referenda: Check before decrement deciding count",
+                    "reviewed_at": "2026-05-26T14:28:54Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12203"
+                  },
                   {
                     "pr_number": 12165,
                     "pr_title": "Bump spec_version",
@@ -169654,6 +169698,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12202,
+                    "title": "Staking async on Basti blocks",
+                    "state": "OPEN",
+                    "created_at": "2026-05-26T10:40:06Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12202",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11979,
                     "title": "Scale validator self-stake incentive by era-points performance",
                     "state": "OPEN",
@@ -170159,6 +170219,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12199,
+                    "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",
+                    "reviewed_at": "2026-05-26T22:13:14Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12199"
+                  },
                   {
                     "pr_number": 11999,
                     "pr_title": "[Staking] Use offence era for proportional slash distribution",
@@ -172288,6 +172354,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12196,
+                    "pr_title": "[pallet-assets-precompiles] saturate permit/approval allowance",
+                    "reviewed_at": "2026-05-27T06:31:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12196"
+                  },
                   {
                     "pr_number": 12187,
                     "pr_title": "[unstable2604] Backport #12179",

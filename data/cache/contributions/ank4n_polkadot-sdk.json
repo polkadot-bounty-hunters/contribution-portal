@@ -7657,6 +7657,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12199,
+      "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",
+      "reviewed_at": "2026-05-26T22:13:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12199"
+    },
+    {
       "pr_number": 12100,
       "pr_title": "staking-async / WAH: use div_ceil for VoterSnapshotPerBlock",
       "reviewed_at": "2026-05-19T13:04:05Z",

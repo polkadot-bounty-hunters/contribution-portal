@@ -969,6 +969,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12196,
+      "pr_title": "[pallet-assets-precompiles] saturate permit/approval allowance",
+      "reviewed_at": "2026-05-27T06:31:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12196"
+    },
+    {
       "pr_number": 12187,
       "pr_title": "[unstable2604] Backport #12179",
       "reviewed_at": "2026-05-26T06:18:10Z",

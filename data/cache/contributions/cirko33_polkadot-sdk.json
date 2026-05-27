@@ -39,6 +39,22 @@
   ],
   "prs": [
     {
+      "number": 12202,
+      "title": "Staking async on Basti blocks",
+      "state": "OPEN",
+      "created_at": "2026-05-26T10:40:06Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12202",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11979,
       "title": "Scale validator self-stake incentive by era-points performance",
       "state": "OPEN",
@@ -544,6 +560,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12199,
+      "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",
+      "reviewed_at": "2026-05-26T22:13:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12199"
+    },
     {
       "pr_number": 11999,
       "pr_title": "[Staking] Use offence era for proportional slash distribution",
