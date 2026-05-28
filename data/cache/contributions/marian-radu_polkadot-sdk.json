@@ -969,6 +969,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12216,
+      "pr_title": "[pallet-revive] test dry run max storage deposit",
+      "reviewed_at": "2026-05-28T07:03:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12216"
+    },
+    {
       "pr_number": 12196,
       "pr_title": "[pallet-assets-precompiles] saturate permit/approval allowance",
       "reviewed_at": "2026-05-27T06:31:18Z",

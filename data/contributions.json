@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-27T07:32:50.231Z",
+  "generated_at": "2026-05-28T07:25:51.451Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1535,
-    "total_prs": 1639,
+    "total_prs": 1640,
     "total_merged_prs": 1030,
-    "total_reviews": 2381
+    "total_reviews": 2382
   },
   "leaderboard": {
     "overall": [
@@ -55,10 +55,10 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 81,
-        "prs": 120,
+        "prs": 121,
         "merged_prs": 83,
         "reviews": 182,
-        "score": 2057
+        "score": 2062
       },
       {
         "name": "jsidorenko",
@@ -197,8 +197,8 @@
         "commits": 21,
         "prs": 27,
         "merged_prs": 4,
-        "reviews": 31,
-        "score": 289
+        "reviews": 32,
+        "score": 292
       },
       {
         "name": "smiasojed",
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 81,
-          "prs": 120,
+          "prs": 121,
           "merged_prs": 83,
           "reviews": 182,
-          "score": 2057
+          "score": 2062
         },
         {
           "name": "jsidorenko",
@@ -5112,8 +5112,8 @@
           "commits": 21,
           "prs": 27,
           "merged_prs": 4,
-          "reviews": 31,
-          "score": 289
+          "reviews": 32,
+          "score": 292
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 76.36309910641751,
+    "average_review_time_hours": 76.30233089826837,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5624,10 +5624,10 @@
       },
       {
         "reviewer": "bkontur",
-        "review_count": 489,
-        "approved_count": 144,
-        "avg_time_to_review_hours": 19.652990740740737,
-        "approval_rate": 29.447852760736197
+        "review_count": 490,
+        "approved_count": 145,
+        "avg_time_to_review_hours": 19.355346083788703,
+        "approval_rate": 29.591836734693878
       },
       {
         "reviewer": "athei",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 86.32647593286173,
-        "pr_count": 801,
+        "avg_review_time_hours": 86.22070310335273,
+        "pr_count": 802,
         "merged_count": 659
       },
       {
@@ -6319,6 +6319,28 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12222,
+                    "title": "Remove stale non-audited warning in pallet-parameters",
+                    "state": "OPEN",
+                    "created_at": "2026-05-28T03:01:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12222",
+                    "ready_for_review_at": "2026-05-28T03:01:27Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-05-28T04:31:15Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 1.4966666666666666,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11960,
                     "title": "Add sp-hop",
@@ -172354,6 +172376,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12216,
+                    "pr_title": "[pallet-revive] test dry run max storage deposit",
+                    "reviewed_at": "2026-05-28T07:03:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12216"
+                  },
                   {
                     "pr_number": 12196,
                     "pr_title": "[pallet-assets-precompiles] saturate permit/approval allowance",
