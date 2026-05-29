@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "6baed95a807650a13bb815354b357766991862d8",
+      "message": "Remove stale non-audited warning in pallet-parameters (#12222)",
+      "date": "2026-05-28T09:23:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6baed95a807650a13bb815354b357766991862d8"
+    },
+    {
       "sha": "ccdacdbf1b2b23b7fca0f19e63f5d02a940bf0d5",
       "message": "Hand-off protocol (#11662)",
       "date": "2026-05-22T11:46:21Z",
@@ -401,11 +407,11 @@
     {
       "number": 12222,
       "title": "Remove stale non-audited warning in pallet-parameters",
-      "state": "OPEN",
+      "state": "MERGED",
       "created_at": "2026-05-28T03:01:27Z",
-      "closed_at": null,
-      "merged_at": null,
-      "merged_by": null,
+      "closed_at": "2026-05-28T10:20:18Z",
+      "merged_at": "2026-05-28T10:20:18Z",
+      "merged_by": "bkchr",
       "author": "franciscoaguirre",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12222",
       "ready_for_review_at": "2026-05-28T03:01:27Z",
@@ -414,11 +420,21 @@
           "reviewer": "bkontur",
           "submitted_at": "2026-05-28T04:31:15Z",
           "state": "APPROVED"
+        },
+        {
+          "reviewer": "muharem",
+          "submitted_at": "2026-05-28T08:57:15Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-05-28T09:23:23Z",
+          "state": "APPROVED"
         }
       ],
       "comments": [],
       "time_to_first_review_hours": 1.4966666666666666,
-      "time_to_merge_hours": null
+      "time_to_merge_hours": 7.314166666666667
     },
     {
       "number": 11960,
