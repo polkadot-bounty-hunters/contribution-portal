@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "e1c5425b23f1b0c14974075c8dfa89f12959ed6e",
+      "message": "litep2p: bitswap metrics added (#12232)",
+      "date": "2026-05-29T19:19:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e1c5425b23f1b0c14974075c8dfa89f12959ed6e"
+    },
+    {
       "sha": "f9df32360c6c22747f60b3ff58243890eecafc8e",
       "message": "fix: publish-check-compile.yml (#11232)",
       "date": "2026-03-02T19:28:57Z",
@@ -1016,6 +1022,46 @@
     }
   ],
   "prs": [
+    {
+      "number": 12232,
+      "title": "litep2p: bitswap metrics added",
+      "state": "MERGED",
+      "created_at": "2026-05-29T12:58:02Z",
+      "closed_at": "2026-05-29T20:26:20Z",
+      "merged_at": "2026-05-29T20:26:19Z",
+      "merged_by": "michalkucharczyk",
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12232",
+      "ready_for_review_at": "2026-05-29T12:58:02Z",
+      "reviews": [
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2026-05-29T13:24:02Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2026-05-29T13:44:27Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2026-05-29T13:35:03Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-05-29T13:42:48Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2026-05-29T14:01:28Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.43333333333333335,
+      "time_to_merge_hours": 7.471388888888889
+    },
     {
       "number": 12029,
       "title": "`bitswap_v1_stream` implementation added",

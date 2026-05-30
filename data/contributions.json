@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-29T07:28:10.202Z",
+  "generated_at": "2026-05-30T07:04:35.738Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1537,
-    "total_prs": 1641,
-    "total_merged_prs": 1032,
+    "total_commits": 1538,
+    "total_prs": 1642,
+    "total_merged_prs": 1033,
     "total_reviews": 2382
   },
   "leaderboard": {
@@ -14,11 +14,11 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 257,
-        "prs": 194,
-        "merged_prs": 148,
+        "commits": 258,
+        "prs": 195,
+        "merged_prs": 149,
         "reviews": 243,
-        "score": 3436
+        "score": 3452
       },
       {
         "name": "pgherveou",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 257,
-          "prs": 194,
-          "merged_prs": 148,
+          "commits": 258,
+          "prs": 195,
+          "merged_prs": 149,
           "reviews": 243,
-          "score": 3436
+          "score": 3452
         },
         {
           "name": "ank4n",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 76.24055082454714,
+    "average_review_time_hours": 76.17911871961098,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5701,10 +5701,10 @@
       },
       {
         "reviewer": "skunert",
-        "review_count": 130,
-        "approved_count": 85,
-        "avg_time_to_review_hours": 114.28636904761903,
-        "approval_rate": 65.38461538461539
+        "review_count": 131,
+        "approved_count": 86,
+        "avg_time_to_review_hours": 106.69616666666666,
+        "approval_rate": 65.64885496183206
       },
       {
         "reviewer": "gpestana",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 86.1134886536599,
-        "pr_count": 803,
-        "merged_count": 661
+        "avg_review_time_hours": 86.00692129629631,
+        "pr_count": 804,
+        "merged_count": 662
       },
       {
         "repository": "paritytech/substrate",
@@ -38147,6 +38147,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "e1c5425b23f1b0c14974075c8dfa89f12959ed6e",
+                    "message": "litep2p: bitswap metrics added (#12232)",
+                    "date": "2026-05-29T19:19:46Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/e1c5425b23f1b0c14974075c8dfa89f12959ed6e"
+                  },
+                  {
                     "sha": "f9df32360c6c22747f60b3ff58243890eecafc8e",
                     "message": "fix: publish-check-compile.yml (#11232)",
                     "date": "2026-03-02T19:28:57Z",
@@ -39162,6 +39168,46 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12232,
+                    "title": "litep2p: bitswap metrics added",
+                    "state": "MERGED",
+                    "created_at": "2026-05-29T12:58:02Z",
+                    "closed_at": "2026-05-29T20:26:20Z",
+                    "merged_at": "2026-05-29T20:26:19Z",
+                    "merged_by": "michalkucharczyk",
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12232",
+                    "ready_for_review_at": "2026-05-29T12:58:02Z",
+                    "reviews": [
+                      {
+                        "reviewer": "skunert",
+                        "submitted_at": "2026-05-29T13:24:02Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "lexnv",
+                        "submitted_at": "2026-05-29T13:44:27Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2026-05-29T13:35:03Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-05-29T13:42:48Z"
+                      },
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2026-05-29T14:01:28Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.43333333333333335,
+                    "time_to_merge_hours": 7.471388888888889
+                  },
                   {
                     "number": 12029,
                     "title": "`bitswap_v1_stream` implementation added",
