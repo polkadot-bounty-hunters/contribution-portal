@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-01T08:09:11.266Z",
+  "generated_at": "2026-06-02T07:51:24.990Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1538,
-    "total_prs": 1642,
+    "total_prs": 1643,
     "total_merged_prs": 1033,
-    "total_reviews": 2382
+    "total_reviews": 2383
   },
   "leaderboard": {
     "overall": [
@@ -71,6 +71,16 @@
         "score": 1301
       },
       {
+        "name": "Szegoo",
+        "github": "Szegoo",
+        "cohort": "PBA 3 Berkeley 2023",
+        "commits": 118,
+        "prs": 87,
+        "merged_prs": 55,
+        "reviews": 62,
+        "score": 1289
+      },
+      {
         "name": "gupnik",
         "github": "gupnik",
         "cohort": "PBA 2 BA 2023",
@@ -78,16 +88,6 @@
         "prs": 70,
         "merged_prs": 50,
         "reviews": 131,
-        "score": 1284
-      },
-      {
-        "name": "Szegoo",
-        "github": "Szegoo",
-        "cohort": "PBA 3 Berkeley 2023",
-        "commits": 118,
-        "prs": 86,
-        "merged_prs": 55,
-        "reviews": 62,
         "score": 1284
       },
       {
@@ -237,8 +237,8 @@
         "commits": 6,
         "prs": 15,
         "merged_prs": 2,
-        "reviews": 17,
-        "score": 152
+        "reviews": 18,
+        "score": 155
       },
       {
         "name": "ndkazu",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 118,
-          "prs": 86,
+          "prs": 87,
           "merged_prs": 55,
           "reviews": 62,
-          "score": 1284
+          "score": 1289
         },
         {
           "name": "pandres95",
@@ -5122,8 +5122,8 @@
           "commits": 6,
           "prs": 15,
           "merged_prs": 2,
-          "reviews": 17,
-          "score": 152
+          "reviews": 18,
+          "score": 155
         },
         {
           "name": "surajk-m",
@@ -125341,6 +125341,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12245,
+                    "title": "Multi instance PSM",
+                    "state": "OPEN",
+                    "created_at": "2026-06-01T10:31:38Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12245",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12206,
                     "title": "pallet-psm: permissionless PSM creation",
                     "state": "OPEN",
@@ -170349,6 +170365,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12246,
+                    "pr_title": "pallet-dap: re-export WeightInfo at crate root",
+                    "reviewed_at": "2026-06-01T20:42:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12246"
+                  },
                   {
                     "pr_number": 12199,
                     "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",

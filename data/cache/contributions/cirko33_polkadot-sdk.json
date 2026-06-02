@@ -561,6 +561,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12246,
+      "pr_title": "pallet-dap: re-export WeightInfo at crate root",
+      "reviewed_at": "2026-06-01T20:42:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12246"
+    },
+    {
       "pr_number": 12199,
       "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",
       "reviewed_at": "2026-05-26T22:13:14Z",
