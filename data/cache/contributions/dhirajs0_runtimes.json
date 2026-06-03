@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "195d5c25ed149b9885d6eff3765efe1573af7a9b",
+      "message": "refactor(asset-hubs): use upstream multi-asset bounty source types (#1168)",
+      "date": "2026-06-02T20:41:32Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/195d5c25ed149b9885d6eff3765efe1573af7a9b"
+    },
+    {
       "sha": "c6e762a4e9d07b56ae3fef14625a8c8bd11091cc",
       "message": "fix(asset-hub-polkadot): add MultiAssetBounties to Governance and NonTransfer proxy filters (#1095)",
       "date": "2026-03-02T09:46:32Z",

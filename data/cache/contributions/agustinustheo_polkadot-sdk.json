@@ -2,5 +2,12 @@
   "commits": [],
   "prs": [],
   "issues": [],
-  "reviews": []
+  "reviews": [
+    {
+      "pr_number": 12254,
+      "pr_title": "claims: Reject vesting claims below the existential deposit",
+      "reviewed_at": "2026-06-02T15:20:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12254"
+    }
+  ]
 }

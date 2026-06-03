@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-02T07:51:24.990Z",
+  "generated_at": "2026-06-03T08:07:53.995Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1538,
-    "total_prs": 1643,
+    "total_commits": 1539,
+    "total_prs": 1646,
     "total_merged_prs": 1033,
-    "total_reviews": 2383
+    "total_reviews": 2386
   },
   "leaderboard": {
     "overall": [
@@ -125,10 +125,10 @@
         "github": "Krayt78",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 22,
-        "prs": 40,
+        "prs": 41,
         "merged_prs": 22,
         "reviews": 10,
-        "score": 472
+        "score": 477
       },
       {
         "name": "rossbulat",
@@ -165,10 +165,10 @@
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 8,
-        "prs": 20,
+        "prs": 21,
         "merged_prs": 14,
         "reviews": 21,
-        "score": 311
+        "score": 316
       },
       {
         "name": "BradleyOlson64",
@@ -284,11 +284,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 9,
+        "commits": 10,
         "prs": 13,
         "merged_prs": 2,
         "reviews": 13,
-        "score": 133
+        "score": 134
       },
       {
         "name": "MrishoLukamba",
@@ -471,6 +471,16 @@
         "score": 50
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 1,
+        "prs": 3,
+        "merged_prs": 0,
+        "reviews": 11,
+        "score": 49
+      },
+      {
         "name": "joshuacheong",
         "github": "joshuacheong",
         "cohort": "PBA 3 Berkeley 2023",
@@ -499,16 +509,6 @@
         "merged_prs": 1,
         "reviews": 2,
         "score": 47
-      },
-      {
-        "name": "voliva",
-        "github": "voliva",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 3,
-        "prs": 4,
-        "merged_prs": 2,
-        "reviews": 1,
-        "score": 46
       }
     ],
     "by_cohort": {
@@ -3116,20 +3116,20 @@
           "github": "Krayt78",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 22,
-          "prs": 40,
+          "prs": 41,
           "merged_prs": 22,
           "reviews": 10,
-          "score": 472
+          "score": 477
         },
         {
           "name": "rosarp",
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 8,
-          "prs": 20,
+          "prs": 21,
           "merged_prs": 14,
           "reviews": 21,
-          "score": 311
+          "score": 316
         },
         {
           "name": "ndkazu",
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 9,
+          "commits": 10,
           "prs": 13,
           "merged_prs": 2,
           "reviews": 13,
-          "score": 133
+          "score": 134
         },
         {
           "name": "castillax",
@@ -4352,6 +4352,16 @@
           "merged_prs": 3,
           "reviews": 9,
           "score": 90
+        },
+        {
+          "name": "P1sar",
+          "github": "P1sar",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 1,
+          "prs": 3,
+          "merged_prs": 0,
+          "reviews": 11,
+          "score": 49
         },
         {
           "name": "charlesHetterich",
@@ -4374,24 +4384,14 @@
           "score": 47
         },
         {
-          "name": "P1sar",
-          "github": "P1sar",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 1,
-          "prs": 2,
-          "merged_prs": 0,
-          "reviews": 10,
-          "score": 41
-        },
-        {
           "name": "andrzejSulkowski",
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 1,
           "prs": 1,
           "merged_prs": 1,
-          "reviews": 0,
-          "score": 16
+          "reviews": 1,
+          "score": 19
         },
         {
           "name": "leonardocustodio",
@@ -5236,6 +5236,16 @@
           "score": 5
         },
         {
+          "name": "agustinustheo",
+          "github": "agustinustheo",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 0,
+          "merged_prs": 0,
+          "reviews": 1,
+          "score": 3
+        },
+        {
           "name": "0xdipak",
           "github": "0xdipak",
           "cohort": "PBA 7 Bali 2025",
@@ -5248,16 +5258,6 @@
         {
           "name": "0xshae",
           "github": "0xshae",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "agustinustheo",
-          "github": "agustinustheo",
           "cohort": "PBA 7 Bali 2025",
           "commits": 0,
           "prs": 0,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 76.17911871961098,
+    "average_review_time_hours": 76.06358256921966,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5624,10 +5624,10 @@
       },
       {
         "reviewer": "bkontur",
-        "review_count": 490,
+        "review_count": 491,
         "approved_count": 145,
-        "avg_time_to_review_hours": 19.355346083788703,
-        "approval_rate": 29.591836734693878
+        "avg_time_to_review_hours": 19.174206989247306,
+        "approval_rate": 29.531568228105908
       },
       {
         "reviewer": "athei",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 86.00692129629631,
-        "pr_count": 804,
+        "avg_review_time_hours": 85.80536014612628,
+        "pr_count": 806,
         "merged_count": 662
       },
       {
@@ -145983,6 +145983,39 @@
                 ],
                 "prs": [
                   {
+                    "number": 12263,
+                    "title": "Add `remove_registrar` extrinsic to `pallet-identity`",
+                    "state": "OPEN",
+                    "created_at": "2026-06-02T15:28:40Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Krayt78",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12263",
+                    "ready_for_review_at": "2026-06-02T15:28:40Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2026-06-02T15:33:21Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-06-02T15:34:23Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-06-02T16:23:01Z"
+                      },
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2026-06-03T06:54:46Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11066,
                     "title": "Refactor the preimage pallet to use fungible traits",
                     "state": "OPEN",
@@ -158503,6 +158536,33 @@
                 ],
                 "prs": [
                   {
+                    "number": 12257,
+                    "title": "Migrates legacy zombienet tests to zombienet-sdk",
+                    "state": "OPEN",
+                    "created_at": "2026-06-02T11:38:59Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rosarp",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12257",
+                    "ready_for_review_at": "2026-06-02T11:38:59Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-06-02T19:46:28Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "rosarp",
+                        "commented_at": "2026-06-02T11:54:22Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 8.124722222222223,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11643,
                     "title": "Fix bridges integration test failure for the Westend network",
                     "state": "OPEN",
@@ -163300,7 +163360,14 @@
                   }
                 ],
                 "issues": [],
-                "reviews": []
+                "reviews": [
+                  {
+                    "pr_number": 12254,
+                    "pr_title": "claims: Reject vesting claims below the existential deposit",
+                    "reviewed_at": "2026-06-02T15:20:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12254"
+                  }
+                ]
               }
             },
             "paritytech/substrate": {
@@ -165539,6 +165606,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "195d5c25ed149b9885d6eff3765efe1573af7a9b",
+                    "message": "refactor(asset-hubs): use upstream multi-asset bounty source types (#1168)",
+                    "date": "2026-06-02T20:41:32Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/195d5c25ed149b9885d6eff3765efe1573af7a9b"
+                  },
+                  {
                     "sha": "c6e762a4e9d07b56ae3fef14625a8c8bd11091cc",
                     "message": "fix(asset-hub-polkadot): add MultiAssetBounties to Governance and NonTransfer proxy filters (#1095)",
                     "date": "2026-03-02T09:46:32Z",
@@ -166509,6 +166582,48 @@
                 ],
                 "prs": [
                   {
+                    "number": 12256,
+                    "title": "Statement-store: Publishing documentation",
+                    "state": "OPEN",
+                    "created_at": "2026-06-02T11:26:20Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "P1sar",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12256",
+                    "ready_for_review_at": "2026-06-02T11:26:20Z",
+                    "reviews": [
+                      {
+                        "reviewer": "s0me0ne-unkn0wn",
+                        "submitted_at": "2026-06-02T12:52:11Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "alexggh",
+                        "submitted_at": "2026-06-02T13:08:03Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "alexggh",
+                        "submitted_at": "2026-06-02T13:08:14Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "P1sar",
+                        "submitted_at": "2026-06-02T13:20:45Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "P1sar",
+                        "submitted_at": "2026-06-02T14:04:00Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 1.4308333333333334,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11187,
                     "title": "StatementStore: readme update with dev node running guide",
                     "state": "OPEN",
@@ -166574,6 +166689,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12256,
+                    "pr_title": "Statement-store: Publishing documentation",
+                    "reviewed_at": "2026-06-02T17:03:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12256"
+                  },
                   {
                     "pr_number": 12102,
                     "pr_title": "statement-store: remove statement-latency-bench crate",
@@ -169581,7 +169702,14 @@
                 "commits": [],
                 "prs": [],
                 "issues": [],
-                "reviews": []
+                "reviews": [
+                  {
+                    "pr_number": 12254,
+                    "pr_title": "claims: Reject vesting claims below the existential deposit",
+                    "reviewed_at": "2026-06-02T15:20:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12254"
+                  }
+                ]
               }
             },
             "paritytech/substrate": {

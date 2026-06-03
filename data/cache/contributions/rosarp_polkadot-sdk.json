@@ -51,6 +51,33 @@
   ],
   "prs": [
     {
+      "number": 12257,
+      "title": "Migrates legacy zombienet tests to zombienet-sdk",
+      "state": "OPEN",
+      "created_at": "2026-06-02T11:38:59Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rosarp",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12257",
+      "ready_for_review_at": "2026-06-02T11:38:59Z",
+      "reviews": [
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2026-06-02T19:46:28Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rosarp",
+          "commented_at": "2026-06-02T11:54:22Z"
+        }
+      ],
+      "time_to_first_review_hours": 8.124722222222223,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11643,
       "title": "Fix bridges integration test failure for the Westend network",
       "state": "OPEN",

@@ -135,6 +135,39 @@
   ],
   "prs": [
     {
+      "number": 12263,
+      "title": "Add `remove_registrar` extrinsic to `pallet-identity`",
+      "state": "OPEN",
+      "created_at": "2026-06-02T15:28:40Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12263",
+      "ready_for_review_at": "2026-06-02T15:28:40Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2026-06-02T15:33:21Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-06-02T15:34:23Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-06-02T16:23:01Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2026-06-03T06:54:46Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11066,
       "title": "Refactor the preimage pallet to use fungible traits",
       "state": "OPEN",
