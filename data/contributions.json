@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-04T07:51:41.023Z",
+  "generated_at": "2026-06-05T07:36:46.455Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1539,
     "total_prs": 1646,
     "total_merged_prs": 1033,
-    "total_reviews": 2386
+    "total_reviews": 2388
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 82,
         "prs": 121,
         "merged_prs": 84,
-        "reviews": 182,
-        "score": 2073
+        "reviews": 183,
+        "score": 2076
       },
       {
         "name": "jsidorenko",
@@ -461,6 +461,16 @@
         "score": 55
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 1,
+        "prs": 3,
+        "merged_prs": 0,
+        "reviews": 12,
+        "score": 52
+      },
+      {
         "name": "bee344",
         "github": "bee344",
         "cohort": "PBA 2 BA 2023",
@@ -469,16 +479,6 @@
         "merged_prs": 0,
         "reviews": 10,
         "score": 50
-      },
-      {
-        "name": "P1sar",
-        "github": "P1sar",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 1,
-        "prs": 3,
-        "merged_prs": 0,
-        "reviews": 11,
-        "score": 49
       },
       {
         "name": "joshuacheong",
@@ -540,8 +540,8 @@
           "commits": 82,
           "prs": 121,
           "merged_prs": 84,
-          "reviews": 182,
-          "score": 2073
+          "reviews": 183,
+          "score": 2076
         },
         {
           "name": "jsidorenko",
@@ -4360,8 +4360,8 @@
           "commits": 1,
           "prs": 3,
           "merged_prs": 0,
-          "reviews": 11,
-          "score": 49
+          "reviews": 12,
+          "score": 52
         },
         {
           "name": "charlesHetterich",
@@ -17174,6 +17174,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1196,
+                    "pr_title": "collectives: dedup salary asset conversion and reuse AssetHubUsdt default",
+                    "reviewed_at": "2026-06-04T15:01:30Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1196"
+                  },
                   {
                     "pr_number": 1143,
                     "pr_title": "Add `AuthorizeCall` transaction extension to all runtimes",
@@ -166689,6 +166695,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12276,
+                    "pr_title": "statement-store: build node-side affinity filters",
+                    "reviewed_at": "2026-06-04T11:42:13Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12276"
+                  },
                   {
                     "pr_number": 12256,
                     "pr_title": "Statement-store: Publishing documentation",

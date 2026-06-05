@@ -117,6 +117,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12276,
+      "pr_title": "statement-store: build node-side affinity filters",
+      "reviewed_at": "2026-06-04T11:42:13Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12276"
+    },
+    {
       "pr_number": 12256,
       "pr_title": "Statement-store: Publishing documentation",
       "reviewed_at": "2026-06-02T17:03:30Z",
