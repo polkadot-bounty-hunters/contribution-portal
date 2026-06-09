@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-08T07:51:36.090Z",
+  "generated_at": "2026-06-09T07:24:29.151Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1539,
-    "total_prs": 1646,
-    "total_merged_prs": 1033,
-    "total_reviews": 2388
+    "total_commits": 1540,
+    "total_prs": 1648,
+    "total_merged_prs": 1034,
+    "total_reviews": 2390
   },
   "leaderboard": {
     "overall": [
@@ -37,8 +37,8 @@
         "commits": 102,
         "prs": 143,
         "merged_prs": 79,
-        "reviews": 234,
-        "score": 2309
+        "reviews": 235,
+        "score": 2312
       },
       {
         "name": "liamaharon",
@@ -134,11 +134,11 @@
         "name": "rossbulat",
         "github": "rossbulat",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 0,
-        "prs": 29,
-        "merged_prs": 15,
-        "reviews": 48,
-        "score": 439
+        "commits": 1,
+        "prs": 30,
+        "merged_prs": 16,
+        "reviews": 49,
+        "score": 458
       },
       {
         "name": "pandres95",
@@ -221,6 +221,16 @@
         "score": 254
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 6,
+        "prs": 16,
+        "merged_prs": 2,
+        "reviews": 18,
+        "score": 160
+      },
+      {
         "name": "DrW3RK",
         "github": "DrW3RK",
         "cohort": "PBA 3 Berkeley 2023",
@@ -229,16 +239,6 @@
         "merged_prs": 7,
         "reviews": 8,
         "score": 157
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
-        "prs": 15,
-        "merged_prs": 2,
-        "reviews": 18,
-        "score": 155
       },
       {
         "name": "ndkazu",
@@ -530,8 +530,8 @@
           "commits": 102,
           "prs": 143,
           "merged_prs": 79,
-          "reviews": 234,
-          "score": 2309
+          "reviews": 235,
+          "score": 2312
         },
         {
           "name": "franciscoaguirre",
@@ -557,11 +557,11 @@
           "name": "rossbulat",
           "github": "rossbulat",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 0,
-          "prs": 29,
-          "merged_prs": 15,
-          "reviews": 48,
-          "score": 439
+          "commits": 1,
+          "prs": 30,
+          "merged_prs": 16,
+          "reviews": 49,
+          "score": 458
         },
         {
           "name": "BradleyOlson64",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 6,
-          "prs": 15,
+          "prs": 16,
           "merged_prs": 2,
           "reviews": 18,
-          "score": 155
+          "score": 160
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 76.06358256921966,
+    "average_review_time_hours": 76.0024512709961,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5728,26 +5728,26 @@
         "approval_rate": 63.793103448275865
       },
       {
+        "reviewer": "Ank4n",
+        "review_count": 98,
+        "approved_count": 23,
+        "avg_time_to_review_hours": 209.99250000000004,
+        "approval_rate": 23.46938775510204
+      },
+      {
         "reviewer": "seadanda",
         "review_count": 97,
         "approved_count": 45,
         "avg_time_to_review_hours": 47.100625,
         "approval_rate": 46.391752577319586
-      },
-      {
-        "reviewer": "Ank4n",
-        "review_count": 95,
-        "approved_count": 22,
-        "avg_time_to_review_hours": 230.94733333333338,
-        "approval_rate": 23.157894736842106
       }
     ],
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 85.80536014612628,
-        "pr_count": 806,
-        "merged_count": 662
+        "avg_review_time_hours": 85.6995841938593,
+        "pr_count": 807,
+        "merged_count": 663
       },
       {
         "repository": "paritytech/substrate",
@@ -27230,6 +27230,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12297,
+                    "pr_title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
+                    "reviewed_at": "2026-06-08T16:27:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12297"
+                  },
+                  {
                     "pr_number": 12199,
                     "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",
                     "reviewed_at": "2026-05-26T22:13:14Z",
@@ -32372,8 +32378,129 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "a0ef3da4f1d9173dd44f8d8dbb181e69ff5c001a",
+                    "message": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state (#12297)",
+                    "date": "2026-06-08T13:01:52Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/a0ef3da4f1d9173dd44f8d8dbb181e69ff5c001a"
+                  }
+                ],
                 "prs": [
+                  {
+                    "number": 12297,
+                    "title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
+                    "state": "MERGED",
+                    "created_at": "2026-06-08T08:03:46Z",
+                    "closed_at": "2026-06-08T16:27:58Z",
+                    "merged_at": "2026-06-08T16:27:58Z",
+                    "merged_by": "Ank4n",
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12297",
+                    "ready_for_review_at": "2026-06-08T08:03:46Z",
+                    "reviews": [
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-06-08T08:30:25Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-06-08T08:34:30Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "rossbulat",
+                        "submitted_at": "2026-06-08T08:38:32Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-08T08:39:44Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-08T08:51:55Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "rossbulat",
+                        "submitted_at": "2026-06-08T08:57:30Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "rossbulat",
+                        "submitted_at": "2026-06-08T09:00:24Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-08T09:04:13Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "rossbulat",
+                        "submitted_at": "2026-06-08T09:22:46Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "rossbulat",
+                        "submitted_at": "2026-06-08T09:23:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-08T09:45:18Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-08T09:46:31Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-08T09:56:02Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "rossbulat",
+                        "submitted_at": "2026-06-08T10:36:19Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-08T11:23:13Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-06-08T13:00:33Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "sigurpol",
+                        "commented_at": "2026-06-08T08:56:23Z"
+                      },
+                      {
+                        "commenter": "rossbulat",
+                        "commented_at": "2026-06-08T09:40:53Z"
+                      },
+                      {
+                        "commenter": "sigurpol",
+                        "commented_at": "2026-06-08T09:58:50Z"
+                      },
+                      {
+                        "commenter": "rossbulat",
+                        "commented_at": "2026-06-08T11:29:17Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.44416666666666665,
+                    "time_to_merge_hours": 8.403333333333334
+                  },
                   {
                     "number": 5715,
                     "title": "[WIP] RFC-0097 Implementation to Decrease Unbonding Time",
@@ -33485,6 +33612,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12297,
+                    "pr_title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
+                    "reviewed_at": "2026-06-08T16:27:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12297"
+                  },
                   {
                     "pr_number": 5715,
                     "pr_title": "[WIP] RFC-0097 Implementation to Decrease Unbonding Time",
@@ -169983,6 +170116,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12303,
+                    "title": "Add `WeakBoundedBTreeMap` and use it for nomination-pools `SubPools::with_era`",
+                    "state": "OPEN",
+                    "created_at": "2026-06-08T19:09:37Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12303",
+                    "ready_for_review_at": "2026-06-08T19:09:37Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-06-08T19:14:58Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12202,
                     "title": "Staking async on Basti blocks",

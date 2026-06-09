@@ -1,6 +1,127 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "a0ef3da4f1d9173dd44f8d8dbb181e69ff5c001a",
+      "message": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state (#12297)",
+      "date": "2026-06-08T13:01:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/a0ef3da4f1d9173dd44f8d8dbb181e69ff5c001a"
+    }
+  ],
   "prs": [
+    {
+      "number": 12297,
+      "title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
+      "state": "MERGED",
+      "created_at": "2026-06-08T08:03:46Z",
+      "closed_at": "2026-06-08T16:27:58Z",
+      "merged_at": "2026-06-08T16:27:58Z",
+      "merged_by": "Ank4n",
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12297",
+      "ready_for_review_at": "2026-06-08T08:03:46Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-06-08T08:30:25Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-06-08T08:34:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2026-06-08T08:38:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-08T08:39:44Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-08T08:51:55Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2026-06-08T08:57:30Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2026-06-08T09:00:24Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-08T09:04:13Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2026-06-08T09:22:46Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2026-06-08T09:23:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-08T09:45:18Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-08T09:46:31Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-08T09:56:02Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2026-06-08T10:36:19Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-08T11:23:13Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-06-08T13:00:33Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2026-06-08T08:56:23Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2026-06-08T09:40:53Z"
+        },
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2026-06-08T09:58:50Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2026-06-08T11:29:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.44416666666666665,
+      "time_to_merge_hours": 8.403333333333334
+    },
     {
       "number": 5715,
       "title": "[WIP] RFC-0097 Implementation to Decrease Unbonding Time",
@@ -1112,6 +1233,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12297,
+      "pr_title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
+      "reviewed_at": "2026-06-08T16:27:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12297"
+    },
     {
       "pr_number": 5715,
       "pr_title": "[WIP] RFC-0097 Implementation to Decrease Unbonding Time",

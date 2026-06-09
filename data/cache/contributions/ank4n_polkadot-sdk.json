@@ -7657,6 +7657,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12297,
+      "pr_title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
+      "reviewed_at": "2026-06-08T16:27:58Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12297"
+    },
+    {
       "pr_number": 12199,
       "pr_title": "pallet-staking-async: gate reap_stash by existential deposit",
       "reviewed_at": "2026-05-26T22:13:14Z",
