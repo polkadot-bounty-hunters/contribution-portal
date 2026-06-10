@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-09T07:24:29.151Z",
+  "generated_at": "2026-06-10T07:37:47.654Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1540,
     "total_prs": 1648,
     "total_merged_prs": 1034,
-    "total_reviews": 2390
+    "total_reviews": 2392
   },
   "leaderboard": {
     "overall": [
@@ -441,6 +441,16 @@
         "score": 58
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 1,
+        "prs": 3,
+        "merged_prs": 0,
+        "reviews": 14,
+        "score": 58
+      },
+      {
         "name": "PieWol",
         "github": "PieWol",
         "cohort": "PBA 3 Berkeley 2023",
@@ -459,16 +469,6 @@
         "merged_prs": 2,
         "reviews": 6,
         "score": 55
-      },
-      {
-        "name": "P1sar",
-        "github": "P1sar",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 1,
-        "prs": 3,
-        "merged_prs": 0,
-        "reviews": 12,
-        "score": 52
       },
       {
         "name": "bee344",
@@ -4360,8 +4360,8 @@
           "commits": 1,
           "prs": 3,
           "merged_prs": 0,
-          "reviews": 12,
-          "score": 52
+          "reviews": 14,
+          "score": 58
         },
         {
           "name": "charlesHetterich",
@@ -166828,6 +166828,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12320,
+                    "pr_title": "statement store: sync dht feature branch with master",
+                    "reviewed_at": "2026-06-10T07:21:46Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12320"
+                  },
+                  {
+                    "pr_number": 12308,
+                    "pr_title": "statement-store: source-aware local topic set in ExplicitAffinity",
+                    "reviewed_at": "2026-06-09T15:35:52Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12308"
+                  },
                   {
                     "pr_number": 12276,
                     "pr_title": "statement-store: build node-side affinity filters",

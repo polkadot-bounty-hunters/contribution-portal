@@ -117,6 +117,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12320,
+      "pr_title": "statement store: sync dht feature branch with master",
+      "reviewed_at": "2026-06-10T07:21:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12320"
+    },
+    {
+      "pr_number": 12308,
+      "pr_title": "statement-store: source-aware local topic set in ExplicitAffinity",
+      "reviewed_at": "2026-06-09T15:35:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12308"
+    },
+    {
       "pr_number": 12276,
       "pr_title": "statement-store: build node-side affinity filters",
       "reviewed_at": "2026-06-04T11:42:13Z",
