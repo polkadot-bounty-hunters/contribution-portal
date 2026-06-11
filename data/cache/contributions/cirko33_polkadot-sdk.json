@@ -39,6 +39,42 @@
   ],
   "prs": [
     {
+      "number": 12323,
+      "title": "Decouple unbonding pool bound from bonding duration",
+      "state": "OPEN",
+      "created_at": "2026-06-10T11:33:55Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12323",
+      "ready_for_review_at": "2026-06-10T11:33:55Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-06-10T13:23:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-10T14:22:26Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "cirko33",
+          "commented_at": "2026-06-10T11:35:44Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-06-10T11:58:16Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.82,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12303,
       "title": "Add `WeakBoundedBTreeMap` and use it for nomination-pools `SubPools::with_era`",
       "state": "OPEN",

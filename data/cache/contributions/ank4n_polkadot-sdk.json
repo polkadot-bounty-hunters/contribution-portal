@@ -7657,6 +7657,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12323,
+      "pr_title": "Decouple unbonding pool bound from bonding duration",
+      "reviewed_at": "2026-06-10T18:57:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12323"
+    },
+    {
       "pr_number": 12297,
       "pr_title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
       "reviewed_at": "2026-06-08T16:27:58Z",
