@@ -1315,6 +1315,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1205,
+      "pr_title": "Release 2.3.1",
+      "reviewed_at": "2026-06-12T16:01:35Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1205"
+    },
+    {
       "pr_number": 1196,
       "pr_title": "collectives: dedup salary asset conversion and reuse AssetHubUsdt default",
       "reviewed_at": "2026-06-04T15:01:30Z",

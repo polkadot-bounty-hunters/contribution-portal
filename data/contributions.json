@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-12T07:48:12.319Z",
+  "generated_at": "2026-06-13T07:31:26.361Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1540,
-    "total_prs": 1649,
+    "total_prs": 1650,
     "total_merged_prs": 1034,
-    "total_reviews": 2394
+    "total_reviews": 2397
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 258,
-        "prs": 195,
+        "prs": 196,
         "merged_prs": 149,
-        "reviews": 243,
-        "score": 3452
+        "reviews": 244,
+        "score": 3460
       },
       {
         "name": "pgherveou",
@@ -57,8 +57,8 @@
         "commits": 82,
         "prs": 121,
         "merged_prs": 84,
-        "reviews": 183,
-        "score": 2076
+        "reviews": 184,
+        "score": 2079
       },
       {
         "name": "jsidorenko",
@@ -431,6 +431,16 @@
         "score": 62
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 1,
+        "prs": 3,
+        "merged_prs": 0,
+        "reviews": 15,
+        "score": 61
+      },
+      {
         "name": "TarekkMA",
         "github": "TarekkMA",
         "cohort": "PBA 5 Singapore 2024",
@@ -438,16 +448,6 @@
         "prs": 6,
         "merged_prs": 2,
         "reviews": 2,
-        "score": 58
-      },
-      {
-        "name": "P1sar",
-        "github": "P1sar",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 1,
-        "prs": 3,
-        "merged_prs": 0,
-        "reviews": 14,
         "score": 58
       },
       {
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 258,
-          "prs": 195,
+          "prs": 196,
           "merged_prs": 149,
-          "reviews": 243,
-          "score": 3452
+          "reviews": 244,
+          "score": 3460
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 82,
           "prs": 121,
           "merged_prs": 84,
-          "reviews": 183,
-          "score": 2076
+          "reviews": 184,
+          "score": 2079
         },
         {
           "name": "jsidorenko",
@@ -4360,8 +4360,8 @@
           "commits": 1,
           "prs": 3,
           "merged_prs": 0,
-          "reviews": 14,
-          "score": 58
+          "reviews": 15,
+          "score": 61
         },
         {
           "name": "charlesHetterich",
@@ -17174,6 +17174,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1205,
+                    "pr_title": "Release 2.3.1",
+                    "reviewed_at": "2026-06-12T16:01:35Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1205"
+                  },
                   {
                     "pr_number": 1196,
                     "pr_title": "collectives: dedup salary asset conversion and reuse AssetHubUsdt default",
@@ -39320,6 +39326,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 12362,
+                    "title": "fatxpool: preserve order of same-priority transactions on re-orgs",
+                    "state": "OPEN",
+                    "created_at": "2026-06-12T20:11:25Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12362",
+                    "ready_for_review_at": "2026-06-12T20:11:25Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2026-06-12T20:12:43Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12232,
                     "title": "litep2p: bitswap metrics added",
                     "state": "MERGED",
@@ -47736,6 +47763,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12358,
+                    "pr_title": "Bump litep2p to 0.14.2",
+                    "reviewed_at": "2026-06-12T21:14:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12358"
+                  },
                   {
                     "pr_number": 12084,
                     "pr_title": "Allow calling `runtime_api` with supplied storage overlay",
@@ -166840,6 +166873,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12357,
+                    "pr_title": "statement-store: log account when statements get rejected",
+                    "reviewed_at": "2026-06-12T19:24:42Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12357"
+                  },
                   {
                     "pr_number": 12320,
                     "pr_title": "statement store: sync dht feature branch with master",

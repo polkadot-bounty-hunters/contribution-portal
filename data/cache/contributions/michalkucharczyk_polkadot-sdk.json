@@ -1023,6 +1023,27 @@
   ],
   "prs": [
     {
+      "number": 12362,
+      "title": "fatxpool: preserve order of same-priority transactions on re-orgs",
+      "state": "OPEN",
+      "created_at": "2026-06-12T20:11:25Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12362",
+      "ready_for_review_at": "2026-06-12T20:11:25Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2026-06-12T20:12:43Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12232,
       "title": "litep2p: bitswap metrics added",
       "state": "MERGED",
@@ -9439,6 +9460,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12358,
+      "pr_title": "Bump litep2p to 0.14.2",
+      "reviewed_at": "2026-06-12T21:14:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12358"
+    },
     {
       "pr_number": 12084,
       "pr_title": "Allow calling `runtime_api` with supplied storage overlay",
