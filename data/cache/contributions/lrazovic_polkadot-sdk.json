@@ -9,6 +9,22 @@
   ],
   "prs": [
     {
+      "number": 12375,
+      "title": "Leo/vaults v2",
+      "state": "CLOSED",
+      "created_at": "2026-06-15T11:39:29Z",
+      "closed_at": "2026-06-15T11:39:42Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "lrazovic",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12375",
+      "ready_for_review_at": "2026-06-15T11:39:29Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 11068,
       "title": "Introduce PSM pallet (part of the pUSD Project)",
       "state": "OPEN",

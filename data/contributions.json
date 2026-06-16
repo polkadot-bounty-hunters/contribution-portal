@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-15T08:32:04.565Z",
+  "generated_at": "2026-06-16T08:37:40.223Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1540,
-    "total_prs": 1650,
+    "total_prs": 1652,
     "total_merged_prs": 1034,
     "total_reviews": 2397
   },
@@ -135,10 +135,10 @@
         "github": "rossbulat",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 1,
-        "prs": 30,
+        "prs": 31,
         "merged_prs": 16,
         "reviews": 49,
-        "score": 458
+        "score": 463
       },
       {
         "name": "pandres95",
@@ -558,10 +558,10 @@
           "github": "rossbulat",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 1,
-          "prs": 30,
+          "prs": 31,
           "merged_prs": 16,
           "reviews": 49,
-          "score": 458
+          "score": 463
         },
         {
           "name": "BradleyOlson64",
@@ -634,6 +634,16 @@
           "score": 24
         },
         {
+          "name": "lrazovic",
+          "github": "lrazovic",
+          "cohort": "PBA 1 Cambridge 2022",
+          "commits": 1,
+          "prs": 4,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 21
+        },
+        {
           "name": "SkymanOne",
           "github": "SkymanOne",
           "cohort": "PBA 1 Cambridge 2022",
@@ -642,16 +652,6 @@
           "merged_prs": 0,
           "reviews": 6,
           "score": 18
-        },
-        {
-          "name": "lrazovic",
-          "github": "lrazovic",
-          "cohort": "PBA 1 Cambridge 2022",
-          "commits": 1,
-          "prs": 3,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 16
         },
         {
           "name": "PoisonPhang",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.94253006641533,
+    "average_review_time_hours": 75.88695767195763,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 704,
-        "approved_count": 403,
-        "avg_time_to_review_hours": 47.48584957764783,
-        "approval_rate": 57.24431818181818
+        "review_count": 705,
+        "approved_count": 404,
+        "avg_time_to_review_hours": 47.25098029715764,
+        "approval_rate": 57.304964539007095
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 85.59577282728273,
-        "pr_count": 808,
+        "avg_review_time_hours": 85.49873025683284,
+        "pr_count": 809,
         "merged_count": 663
       },
       {
@@ -32406,6 +32406,33 @@
                 ],
                 "prs": [
                   {
+                    "number": 12379,
+                    "title": "Avoid RocksDB dependency in subkey build",
+                    "state": "OPEN",
+                    "created_at": "2026-06-15T13:59:35Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12379",
+                    "ready_for_review_at": "2026-06-15T13:59:35Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-06-15T21:04:53Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "lexnv",
+                        "submitted_at": "2026-06-15T21:17:35Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 7.088333333333333,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12297,
                     "title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
                     "state": "MERGED",
@@ -57978,6 +58005,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12375,
+                    "title": "Leo/vaults v2",
+                    "state": "CLOSED",
+                    "created_at": "2026-06-15T11:39:29Z",
+                    "closed_at": "2026-06-15T11:39:42Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "lrazovic",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12375",
+                    "ready_for_review_at": "2026-06-15T11:39:29Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 11068,
                     "title": "Introduce PSM pallet (part of the pUSD Project)",
