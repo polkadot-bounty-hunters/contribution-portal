@@ -9,6 +9,27 @@
   ],
   "prs": [
     {
+      "number": 12394,
+      "title": "Remove compact encoding bound from `BaseArithmetic`",
+      "state": "OPEN",
+      "created_at": "2026-06-16T14:57:03Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12394",
+      "ready_for_review_at": "2026-06-16T14:57:03Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2026-06-17T03:39:01Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12379,
       "title": "Avoid RocksDB dependency in subkey build",
       "state": "OPEN",

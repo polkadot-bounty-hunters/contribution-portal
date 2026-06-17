@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-16T08:37:40.223Z",
+  "generated_at": "2026-06-17T08:22:53.091Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1540,
-    "total_prs": 1652,
+    "total_prs": 1653,
     "total_merged_prs": 1034,
     "total_reviews": 2397
   },
@@ -135,10 +135,10 @@
         "github": "rossbulat",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 1,
-        "prs": 31,
+        "prs": 32,
         "merged_prs": 16,
         "reviews": 49,
-        "score": 463
+        "score": 468
       },
       {
         "name": "pandres95",
@@ -558,10 +558,10 @@
           "github": "rossbulat",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 1,
-          "prs": 31,
+          "prs": 32,
           "merged_prs": 16,
           "reviews": 49,
-          "score": 463
+          "score": 468
         },
         {
           "name": "BradleyOlson64",
@@ -32405,6 +32405,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12394,
+                    "title": "Remove compact encoding bound from `BaseArithmetic`",
+                    "state": "OPEN",
+                    "created_at": "2026-06-16T14:57:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12394",
+                    "ready_for_review_at": "2026-06-16T14:57:03Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "rossbulat",
+                        "commented_at": "2026-06-17T03:39:01Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12379,
                     "title": "Avoid RocksDB dependency in subkey build",
