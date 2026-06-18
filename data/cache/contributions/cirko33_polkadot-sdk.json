@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "fc2028840cf2a2dc2d44f41f099492797269c63d",
+      "message": "Decouple unbonding pool bound from bonding duration (#12323)",
+      "date": "2026-06-17T10:54:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/fc2028840cf2a2dc2d44f41f099492797269c63d"
+    },
+    {
       "sha": "5a8eaa7825953ed960d88ff73dd6c363f59495d2",
       "message": "Remove Meta Tx from Westend RC (#11668)",
       "date": "2026-04-07T22:43:26Z",

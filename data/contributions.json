@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-17T08:22:53.091Z",
+  "generated_at": "2026-06-18T08:06:59.403Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1540,
-    "total_prs": 1653,
+    "total_commits": 1542,
+    "total_prs": 1655,
     "total_merged_prs": 1034,
     "total_reviews": 2397
   },
@@ -14,11 +14,11 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 258,
+        "commits": 259,
         "prs": 196,
         "merged_prs": 149,
         "reviews": 244,
-        "score": 3460
+        "score": 3461
       },
       {
         "name": "pgherveou",
@@ -135,20 +135,20 @@
         "github": "rossbulat",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 1,
-        "prs": 32,
+        "prs": 33,
         "merged_prs": 16,
         "reviews": 49,
-        "score": 468
+        "score": 473
       },
       {
         "name": "pandres95",
         "github": "pandres95",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 12,
-        "prs": 23,
+        "prs": 24,
         "merged_prs": 12,
         "reviews": 48,
-        "score": 391
+        "score": 396
       },
       {
         "name": "muraca",
@@ -224,11 +224,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 6,
+        "commits": 7,
         "prs": 17,
         "merged_prs": 2,
         "reviews": 18,
-        "score": 165
+        "score": 166
       },
       {
         "name": "DrW3RK",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 258,
+          "commits": 259,
           "prs": 196,
           "merged_prs": 149,
           "reviews": 244,
-          "score": 3460
+          "score": 3461
         },
         {
           "name": "ank4n",
@@ -558,10 +558,10 @@
           "github": "rossbulat",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 1,
-          "prs": 32,
+          "prs": 33,
           "merged_prs": 16,
           "reviews": 49,
-          "score": 468
+          "score": 473
         },
         {
           "name": "BradleyOlson64",
@@ -1682,10 +1682,10 @@
           "github": "pandres95",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 12,
-          "prs": 23,
+          "prs": 24,
           "merged_prs": 12,
           "reviews": 48,
-          "score": 391
+          "score": 396
         },
         {
           "name": "DrW3RK",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 6,
+          "commits": 7,
           "prs": 17,
           "merged_prs": 2,
           "reviews": 18,
-          "score": 165
+          "score": 166
         },
         {
           "name": "surajk-m",
@@ -32406,6 +32406,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12403,
+                    "title": "Add BlockNumberProvider to salary pallet config",
+                    "state": "OPEN",
+                    "created_at": "2026-06-17T15:40:43Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12403",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12394,
                     "title": "Remove compact encoding bound from `BaseArithmetic`",
                     "state": "OPEN",
@@ -38351,6 +38367,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "831741222650ee43920cc3564deff0f47a524a47",
+                    "message": "fatxpool: preserve order of same-priority transactions on re-orgs (#12362)",
+                    "date": "2026-06-17T10:38:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/831741222650ee43920cc3564deff0f47a524a47"
+                  },
                   {
                     "sha": "e1c5425b23f1b0c14974075c8dfa89f12959ed6e",
                     "message": "litep2p: bitswap metrics added (#12232)",
@@ -118850,6 +118872,27 @@
                 ],
                 "prs": [
                   {
+                    "number": 12401,
+                    "title": "Add pallet-asset-conversion-storage-deposit (PoC)",
+                    "state": "OPEN",
+                    "created_at": "2026-06-17T10:42:31Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "pandres95",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12401",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-06-17T10:42:40Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 11109,
                     "title": "refactor(pallet-treasury): Migrate from `Currency` to `Fungible`, and remove deprecated `Proposals` mechansism.",
                     "state": "OPEN",
@@ -170205,6 +170248,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "fc2028840cf2a2dc2d44f41f099492797269c63d",
+                    "message": "Decouple unbonding pool bound from bonding duration (#12323)",
+                    "date": "2026-06-17T10:54:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/fc2028840cf2a2dc2d44f41f099492797269c63d"
+                  },
                   {
                     "sha": "5a8eaa7825953ed960d88ff73dd6c363f59495d2",
                     "message": "Remove Meta Tx from Westend RC (#11668)",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "831741222650ee43920cc3564deff0f47a524a47",
+      "message": "fatxpool: preserve order of same-priority transactions on re-orgs (#12362)",
+      "date": "2026-06-17T10:38:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/831741222650ee43920cc3564deff0f47a524a47"
+    },
+    {
       "sha": "e1c5425b23f1b0c14974075c8dfa89f12959ed6e",
       "message": "litep2p: bitswap metrics added (#12232)",
       "date": "2026-05-29T19:19:46Z",
