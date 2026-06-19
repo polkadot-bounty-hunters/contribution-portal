@@ -9014,6 +9014,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12407,
+      "pr_title": "Ba/runtime/xcm/optimization",
+      "reviewed_at": "2026-06-18T18:03:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12407"
+    },
+    {
       "pr_number": 12135,
       "pr_title": "revive automap: batch map accounts for free",
       "reviewed_at": "2026-05-20T18:52:51Z",

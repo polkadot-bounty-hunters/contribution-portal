@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-18T08:06:59.403Z",
+  "generated_at": "2026-06-19T08:20:24.487Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1542,
-    "total_prs": 1655,
+    "total_prs": 1656,
     "total_merged_prs": 1034,
-    "total_reviews": 2397
+    "total_reviews": 2398
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 82,
         "prs": 121,
         "merged_prs": 84,
-        "reviews": 184,
-        "score": 2079
+        "reviews": 185,
+        "score": 2082
       },
       {
         "name": "jsidorenko",
@@ -121,6 +121,16 @@
         "score": 658
       },
       {
+        "name": "rossbulat",
+        "github": "rossbulat",
+        "cohort": "PBA 1 Cambridge 2022",
+        "commits": 1,
+        "prs": 34,
+        "merged_prs": 16,
+        "reviews": 49,
+        "score": 478
+      },
+      {
         "name": "Krayt78",
         "github": "Krayt78",
         "cohort": "PBA 5 Singapore 2024",
@@ -129,16 +139,6 @@
         "merged_prs": 22,
         "reviews": 10,
         "score": 477
-      },
-      {
-        "name": "rossbulat",
-        "github": "rossbulat",
-        "cohort": "PBA 1 Cambridge 2022",
-        "commits": 1,
-        "prs": 33,
-        "merged_prs": 16,
-        "reviews": 49,
-        "score": 473
       },
       {
         "name": "pandres95",
@@ -540,8 +540,8 @@
           "commits": 82,
           "prs": 121,
           "merged_prs": 84,
-          "reviews": 184,
-          "score": 2079
+          "reviews": 185,
+          "score": 2082
         },
         {
           "name": "jsidorenko",
@@ -558,10 +558,10 @@
           "github": "rossbulat",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 1,
-          "prs": 33,
+          "prs": 34,
           "merged_prs": 16,
           "reviews": 49,
-          "score": 473
+          "score": 478
         },
         {
           "name": "BradleyOlson64",
@@ -14934,6 +14934,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12407,
+                    "pr_title": "Ba/runtime/xcm/optimization",
+                    "reviewed_at": "2026-06-18T18:03:54Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12407"
+                  },
                   {
                     "pr_number": 12135,
                     "pr_title": "revive automap: batch map accounts for free",
@@ -32405,6 +32411,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12406,
+                    "title": "core-fellowship: add block number provider",
+                    "state": "OPEN",
+                    "created_at": "2026-06-18T09:16:30Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12406",
+                    "ready_for_review_at": "2026-06-18T09:16:30Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12403,
                     "title": "Add BlockNumberProvider to salary pallet config",
