@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-19T08:20:24.487Z",
+  "generated_at": "2026-06-20T07:34:09.579Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1542,
-    "total_prs": 1656,
+    "total_prs": 1657,
     "total_merged_prs": 1034,
     "total_reviews": 2398
   },
@@ -261,6 +261,16 @@
         "score": 144
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 10,
+        "prs": 14,
+        "merged_prs": 2,
+        "reviews": 13,
+        "score": 139
+      },
+      {
         "name": "vstam1",
         "github": "vstam1",
         "cohort": "PBA 2 BA 2023",
@@ -279,16 +289,6 @@
         "merged_prs": 8,
         "reviews": 2,
         "score": 137
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 10,
-        "prs": 13,
-        "merged_prs": 2,
-        "reviews": 13,
-        "score": 134
       },
       {
         "name": "MrishoLukamba",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 10,
-          "prs": 13,
+          "prs": 14,
           "merged_prs": 2,
           "reviews": 13,
-          "score": 134
+          "score": 139
         },
         {
           "name": "castillax",
@@ -165549,6 +165549,35 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12409,
+                    "title": "Add increase_value call to pallet-multi-asset-bounties",
+                    "state": "OPEN",
+                    "created_at": "2026-06-19T13:22:43Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12409",
+                    "ready_for_review_at": "2026-06-19T13:22:43Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-06-19T13:24:19Z"
+                      },
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-06-19T13:24:56Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-06-19T13:25:08Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12208,
                     "title": "staking-async: remove try_state(false) test escape hatch",
