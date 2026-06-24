@@ -1029,6 +1029,37 @@
   ],
   "prs": [
     {
+      "number": 12433,
+      "title": "txpool: maintain on all blocks",
+      "state": "OPEN",
+      "created_at": "2026-06-22T15:04:34Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12433",
+      "ready_for_review_at": "2026-06-22T15:04:34Z",
+      "reviews": [
+        {
+          "reviewer": "skunert",
+          "submitted_at": "2026-06-23T15:58:55Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-06-22T15:10:49Z"
+        },
+        {
+          "commenter": "michalkucharczyk",
+          "commented_at": "2026-06-22T15:13:46Z"
+        }
+      ],
+      "time_to_first_review_hours": 24.905833333333334,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12362,
       "title": "fatxpool: preserve order of same-priority transactions on re-orgs",
       "state": "OPEN",
@@ -9466,6 +9497,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12440,
+      "pr_title": "Fix for `rust-lld` regression",
+      "reviewed_at": "2026-06-23T18:12:21Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12440"
+    },
     {
       "pr_number": 12358,
       "pr_title": "Bump litep2p to 0.14.2",

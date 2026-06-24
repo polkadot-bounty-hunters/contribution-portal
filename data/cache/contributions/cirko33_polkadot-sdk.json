@@ -624,6 +624,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12441,
+      "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
+      "reviewed_at": "2026-06-23T13:13:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12441"
+    },
+    {
       "pr_number": 12246,
       "pr_title": "pallet-dap: re-export WeightInfo at crate root",
       "reviewed_at": "2026-06-01T20:42:38Z",

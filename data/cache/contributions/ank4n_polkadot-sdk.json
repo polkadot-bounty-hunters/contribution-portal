@@ -495,6 +495,67 @@
   ],
   "prs": [
     {
+      "number": 12441,
+      "title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
+      "state": "OPEN",
+      "created_at": "2026-06-23T11:50:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12441",
+      "ready_for_review_at": "2026-06-23T11:50:53Z",
+      "reviews": [
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-06-23T12:06:34Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-06-23T12:17:03Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-06-23T12:18:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "mertwole",
+          "submitted_at": "2026-06-23T12:29:20Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-06-23T12:35:42Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-06-23T12:36:37Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-06-23T13:13:43Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-06-23T12:21:53Z"
+        },
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2026-06-23T13:04:03Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.2613888888888889,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12103,
       "title": "Cap member slash to pool pending slash",
       "state": "OPEN",
@@ -7656,6 +7717,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12441,
+      "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
+      "reviewed_at": "2026-06-23T13:13:43Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12441"
+    },
     {
       "pr_number": 12323,
       "pr_title": "Decouple unbonding pool bound from bonding duration",

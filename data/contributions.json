@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-23T05:58:05.008Z",
+  "generated_at": "2026-06-24T07:22:14.888Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1542,
-    "total_prs": 1657,
+    "total_commits": 1543,
+    "total_prs": 1660,
     "total_merged_prs": 1034,
-    "total_reviews": 2398
+    "total_reviews": 2403
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 259,
-        "prs": 196,
+        "prs": 197,
         "merged_prs": 149,
-        "reviews": 244,
-        "score": 3461
+        "reviews": 245,
+        "score": 3469
       },
       {
         "name": "pgherveou",
@@ -35,10 +35,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 102,
-        "prs": 143,
+        "prs": 144,
         "merged_prs": 79,
-        "reviews": 237,
-        "score": 2318
+        "reviews": 239,
+        "score": 2329
       },
       {
         "name": "liamaharon",
@@ -181,6 +181,16 @@
         "score": 306
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 21,
+        "prs": 28,
+        "merged_prs": 4,
+        "reviews": 32,
+        "score": 297
+      },
+      {
         "name": "tonyalaribe",
         "github": "tonyalaribe",
         "cohort": "PBA 1 Cambridge 2022",
@@ -189,16 +199,6 @@
         "merged_prs": 9,
         "reviews": 33,
         "score": 294
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 21,
-        "prs": 27,
-        "merged_prs": 4,
-        "reviews": 32,
-        "score": 292
       },
       {
         "name": "smiasojed",
@@ -227,8 +227,8 @@
         "commits": 7,
         "prs": 17,
         "merged_prs": 2,
-        "reviews": 18,
-        "score": 166
+        "reviews": 20,
+        "score": 172
       },
       {
         "name": "DrW3RK",
@@ -434,11 +434,11 @@
         "name": "P1sar",
         "github": "P1sar",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 1,
+        "commits": 2,
         "prs": 3,
         "merged_prs": 0,
         "reviews": 15,
-        "score": 61
+        "score": 62
       },
       {
         "name": "TarekkMA",
@@ -518,20 +518,20 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 259,
-          "prs": 196,
+          "prs": 197,
           "merged_prs": 149,
-          "reviews": 244,
-          "score": 3461
+          "reviews": 245,
+          "score": 3469
         },
         {
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 102,
-          "prs": 143,
+          "prs": 144,
           "merged_prs": 79,
-          "reviews": 237,
-          "score": 2318
+          "reviews": 239,
+          "score": 2329
         },
         {
           "name": "franciscoaguirre",
@@ -4357,11 +4357,11 @@
           "name": "P1sar",
           "github": "P1sar",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 1,
+          "commits": 2,
           "prs": 3,
           "merged_prs": 0,
           "reviews": 15,
-          "score": 61
+          "score": 62
         },
         {
           "name": "charlesHetterich",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 21,
-          "prs": 27,
+          "prs": 28,
           "merged_prs": 4,
           "reviews": 32,
-          "score": 292
+          "score": 297
         },
         {
           "name": "cirko33",
@@ -5122,8 +5122,8 @@
           "commits": 7,
           "prs": 17,
           "merged_prs": 2,
-          "reviews": 18,
-          "score": 166
+          "reviews": 20,
+          "score": 172
         },
         {
           "name": "surajk-m",
@@ -5599,14 +5599,14 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.88695767195763,
+    "average_review_time_hours": 75.74071479692249,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
-        "review_count": 1361,
-        "approved_count": 208,
+        "review_count": 1362,
+        "approved_count": 209,
         "avg_time_to_review_hours": 98.24167777777777,
-        "approval_rate": 15.282880235121235
+        "approval_rate": 15.345080763582967
       },
       {
         "reviewer": "ggwpez",
@@ -5693,18 +5693,18 @@
         "approval_rate": 34.69387755102041
       },
       {
+        "reviewer": "skunert",
+        "review_count": 132,
+        "approved_count": 86,
+        "avg_time_to_review_hours": 101.58427083333332,
+        "approval_rate": 65.15151515151516
+      },
+      {
         "reviewer": "xermicus",
         "review_count": 132,
         "approved_count": 91,
         "avg_time_to_review_hours": 44.45401785714285,
         "approval_rate": 68.93939393939394
-      },
-      {
-        "reviewer": "skunert",
-        "review_count": 131,
-        "approved_count": 86,
-        "avg_time_to_review_hours": 106.69616666666666,
-        "approval_rate": 65.64885496183206
       },
       {
         "reviewer": "gpestana",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 85.49873025683284,
-        "pr_count": 809,
+        "avg_review_time_hours": 85.23953201970443,
+        "pr_count": 812,
         "merged_count": 663
       },
       {
@@ -20080,6 +20080,67 @@
                 ],
                 "prs": [
                   {
+                    "number": 12441,
+                    "title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
+                    "state": "OPEN",
+                    "created_at": "2026-06-23T11:50:53Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12441",
+                    "ready_for_review_at": "2026-06-23T11:50:53Z",
+                    "reviews": [
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-06-23T12:06:34Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-06-23T12:17:03Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-06-23T12:18:01Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "mertwole",
+                        "submitted_at": "2026-06-23T12:29:20Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-06-23T12:35:42Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-06-23T12:36:37Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-06-23T13:13:43Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-06-23T12:21:53Z"
+                      },
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-06-23T13:04:03Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.2613888888888889,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12103,
                     "title": "Cap member slash to pool pending slash",
                     "state": "OPEN",
@@ -27242,6 +27303,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12441,
+                    "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
+                    "reviewed_at": "2026-06-23T13:13:43Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12441"
+                  },
+                  {
                     "pr_number": 12323,
                     "pr_title": "Decouple unbonding pool bound from bonding duration",
                     "reviewed_at": "2026-06-10T18:57:24Z",
@@ -31883,6 +31950,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1212,
+                    "pr_title": "Disable relay session set_keys/purge_keys post-AHM",
+                    "reviewed_at": "2026-06-23T12:26:38Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1212"
+                  },
                   {
                     "pr_number": 1201,
                     "pr_title": "AHP: pin nomination-pools unbonding bound across the fast-unbond flip",
@@ -39417,6 +39490,37 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12433,
+                    "title": "txpool: maintain on all blocks",
+                    "state": "OPEN",
+                    "created_at": "2026-06-22T15:04:34Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12433",
+                    "ready_for_review_at": "2026-06-22T15:04:34Z",
+                    "reviews": [
+                      {
+                        "reviewer": "skunert",
+                        "submitted_at": "2026-06-23T15:58:55Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-06-22T15:10:49Z"
+                      },
+                      {
+                        "commenter": "michalkucharczyk",
+                        "commented_at": "2026-06-22T15:13:46Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 24.905833333333334,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12362,
                     "title": "fatxpool: preserve order of same-priority transactions on re-orgs",
@@ -47855,6 +47959,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12440,
+                    "pr_title": "Fix for `rust-lld` regression",
+                    "reviewed_at": "2026-06-23T18:12:21Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12440"
+                  },
                   {
                     "pr_number": 12358,
                     "pr_title": "Bump litep2p to 0.14.2",
@@ -166916,6 +167026,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "cb27c1ee088fb6cade9278ea3980077c566a2329",
+                    "message": "Statement-store: Publishing documentation (#12256)",
+                    "date": "2026-06-22T12:06:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/cb27c1ee088fb6cade9278ea3980077c566a2329"
+                  },
+                  {
                     "sha": "665aabcf98c0981db9a90525780c61a9c6ba830e",
                     "message": "StatementStore: readme update with dev node running guide (#11187)",
                     "date": "2026-03-18T15:15:20Z",
@@ -170923,6 +171039,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12441,
+                    "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
+                    "reviewed_at": "2026-06-23T13:13:43Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12441"
+                  },
+                  {
                     "pr_number": 12246,
                     "pr_title": "pallet-dap: re-export WeightInfo at crate root",
                     "reviewed_at": "2026-06-01T20:42:38Z",
@@ -171057,7 +171179,14 @@
                 "commits": [],
                 "prs": [],
                 "issues": [],
-                "reviews": []
+                "reviews": [
+                  {
+                    "pr_number": 1212,
+                    "pr_title": "Disable relay session set_keys/purge_keys post-AHM",
+                    "reviewed_at": "2026-06-23T12:26:38Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1212"
+                  }
+                ]
               }
             },
             "open-web3-stack/open-runtime-module-library": {
@@ -172223,6 +172352,50 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12434,
+                    "title": "[pallet-revive] storage precompile error-handling refactor and accounting refinements",
+                    "state": "OPEN",
+                    "created_at": "2026-06-22T15:38:13Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12434",
+                    "ready_for_review_at": "2026-06-22T15:38:13Z",
+                    "reviews": [
+                      {
+                        "reviewer": "0xRVE",
+                        "submitted_at": "2026-06-23T12:29:49Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2026-06-24T02:32:44Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-06-22T18:36:28Z"
+                      },
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-06-23T10:13:08Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-06-23T10:13:58Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-06-23T11:57:13Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 20.86,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12179,
                     "title": "pallet-revive: skip non-existent accounts in batch_map_accounts",

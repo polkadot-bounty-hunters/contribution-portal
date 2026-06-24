@@ -129,6 +129,50 @@
   ],
   "prs": [
     {
+      "number": 12434,
+      "title": "[pallet-revive] storage precompile error-handling refactor and accounting refinements",
+      "state": "OPEN",
+      "created_at": "2026-06-22T15:38:13Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12434",
+      "ready_for_review_at": "2026-06-22T15:38:13Z",
+      "reviews": [
+        {
+          "reviewer": "0xRVE",
+          "submitted_at": "2026-06-23T12:29:49Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2026-06-24T02:32:44Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-06-22T18:36:28Z"
+        },
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2026-06-23T10:13:08Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-06-23T10:13:58Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-06-23T11:57:13Z"
+        }
+      ],
+      "time_to_first_review_hours": 20.86,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12179,
       "title": "pallet-revive: skip non-existent accounts in batch_map_accounts",
       "state": "MERGED",

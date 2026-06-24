@@ -607,6 +607,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1212,
+      "pr_title": "Disable relay session set_keys/purge_keys post-AHM",
+      "reviewed_at": "2026-06-23T12:26:38Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1212"
+    },
+    {
       "pr_number": 1201,
       "pr_title": "AHP: pin nomination-pools unbonding bound across the fast-unbond flip",
       "reviewed_at": "2026-06-11T19:44:46Z",
