@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24T07:22:14.888Z",
+  "generated_at": "2026-06-25T07:21:13.648Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1543,
-    "total_prs": 1660,
+    "total_prs": 1661,
     "total_merged_prs": 1034,
     "total_reviews": 2403
   },
@@ -121,6 +121,16 @@
         "score": 658
       },
       {
+        "name": "Krayt78",
+        "github": "Krayt78",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 22,
+        "prs": 42,
+        "merged_prs": 22,
+        "reviews": 10,
+        "score": 482
+      },
+      {
         "name": "rossbulat",
         "github": "rossbulat",
         "cohort": "PBA 1 Cambridge 2022",
@@ -129,16 +139,6 @@
         "merged_prs": 16,
         "reviews": 49,
         "score": 478
-      },
-      {
-        "name": "Krayt78",
-        "github": "Krayt78",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 22,
-        "prs": 41,
-        "merged_prs": 22,
-        "reviews": 10,
-        "score": 477
       },
       {
         "name": "pandres95",
@@ -3116,10 +3116,10 @@
           "github": "Krayt78",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 22,
-          "prs": 41,
+          "prs": 42,
           "merged_prs": 22,
           "reviews": 10,
-          "score": 477
+          "score": 482
         },
         {
           "name": "rosarp",
@@ -146405,6 +146405,47 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12457,
+                    "title": "[pallet-revive] Add unstable runtime precompile (call dispatch + raw storage reads)",
+                    "state": "OPEN",
+                    "created_at": "2026-06-24T19:43:40Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Krayt78",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12457",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2026-06-24T21:22:37Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-06-24T21:23:25Z"
+                      },
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2026-06-24T21:23:27Z"
+                      },
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2026-06-24T21:25:54Z"
+                      },
+                      {
+                        "commenter": "Krayt78",
+                        "commented_at": "2026-06-24T21:30:34Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-06-24T22:22:53Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12263,
                     "title": "Add `remove_registrar` extrinsic to `pallet-identity`",

@@ -135,6 +135,47 @@
   ],
   "prs": [
     {
+      "number": 12457,
+      "title": "[pallet-revive] Add unstable runtime precompile (call dispatch + raw storage reads)",
+      "state": "OPEN",
+      "created_at": "2026-06-24T19:43:40Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Krayt78",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12457",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2026-06-24T21:22:37Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-06-24T21:23:25Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2026-06-24T21:23:27Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2026-06-24T21:25:54Z"
+        },
+        {
+          "commenter": "Krayt78",
+          "commented_at": "2026-06-24T21:30:34Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-06-24T22:22:53Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12263,
       "title": "Add `remove_registrar` extrinsic to `pallet-identity`",
       "state": "OPEN",
