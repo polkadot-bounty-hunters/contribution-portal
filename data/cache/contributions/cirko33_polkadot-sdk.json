@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "eff6017465e6d7f6ee00db5faec3738d070fe960",
+      "message": "Scale validator self-stake incentive by era-points performance (#11979)",
+      "date": "2026-06-25T09:23:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/eff6017465e6d7f6ee00db5faec3738d070fe960"
+    },
+    {
       "sha": "fc2028840cf2a2dc2d44f41f099492797269c63d",
       "message": "Decouple unbonding pool bound from bonding duration (#12323)",
       "date": "2026-06-17T10:54:30Z",

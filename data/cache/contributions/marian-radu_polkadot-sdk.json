@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "cd33d702d9da16e5d3d9e11c61d2b76b9e2a1a30",
+      "message": "[pallet-revive] storage precompile error-handling refactor and accounting refinements (#12434)",
+      "date": "2026-06-25T19:37:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cd33d702d9da16e5d3d9e11c61d2b76b9e2a1a30"
+    },
+    {
+      "sha": "b339135883ffe5f7e7f02e265b0db55ab9f2bae7",
+      "message": "pallet-revive: per-transaction cold/hot storage access pricing (#12104)",
+      "date": "2026-06-25T14:01:59Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b339135883ffe5f7e7f02e265b0db55ab9f2bae7"
+    },
+    {
       "sha": "8f3592abc64aee813b97915feb001d6632c4729c",
       "message": "pallet-revive: skip non-existent accounts in batch_map_accounts (#12179)",
       "date": "2026-05-25T16:31:03Z",
@@ -1012,6 +1024,24 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12479,
+      "pr_title": "pallet-revive: fix eth_getLogs with empty address/topic filter lists",
+      "reviewed_at": "2026-06-26T07:07:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12479"
+    },
+    {
+      "pr_number": 12470,
+      "pr_title": "pallet-revive: fix eth_feeHistory reward percentile resolution",
+      "reviewed_at": "2026-06-26T06:23:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12470"
+    },
+    {
+      "pr_number": 12474,
+      "pr_title": "pallet-revive: support finalized/safe/pending block tags in eth_getLogs",
+      "reviewed_at": "2026-06-26T06:13:24Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12474"
+    },
     {
       "pr_number": 12216,
       "pr_title": "[pallet-revive] test dry run max storage deposit",

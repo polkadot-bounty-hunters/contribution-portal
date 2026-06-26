@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-25T07:21:13.648Z",
+  "generated_at": "2026-06-26T07:25:16.167Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1543,
-    "total_prs": 1661,
+    "total_commits": 1547,
+    "total_prs": 1666,
     "total_merged_prs": 1034,
-    "total_reviews": 2403
+    "total_reviews": 2406
   },
   "leaderboard": {
     "overall": [
@@ -14,11 +14,11 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 259,
+        "commits": 260,
         "prs": 197,
         "merged_prs": 149,
         "reviews": 245,
-        "score": 3469
+        "score": 3470
       },
       {
         "name": "pgherveou",
@@ -171,6 +171,16 @@
         "score": 316
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 23,
+        "prs": 28,
+        "merged_prs": 4,
+        "reviews": 35,
+        "score": 308
+      },
+      {
         "name": "BradleyOlson64",
         "github": "BradleyOlson64",
         "cohort": "PBA 1 Cambridge 2022",
@@ -179,16 +189,6 @@
         "merged_prs": 12,
         "reviews": 27,
         "score": 306
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 21,
-        "prs": 28,
-        "merged_prs": 4,
-        "reviews": 32,
-        "score": 297
       },
       {
         "name": "tonyalaribe",
@@ -224,11 +224,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 7,
+        "commits": 8,
         "prs": 17,
         "merged_prs": 2,
         "reviews": 20,
-        "score": 172
+        "score": 173
       },
       {
         "name": "DrW3RK",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 259,
+          "commits": 260,
           "prs": 197,
           "merged_prs": 149,
           "reviews": 245,
-          "score": 3469
+          "score": 3470
         },
         {
           "name": "ank4n",
@@ -3262,6 +3262,16 @@
           "score": 31
         },
         {
+          "name": "soloking1412",
+          "github": "soloking1412",
+          "cohort": "PBA 5 Singapore 2024",
+          "commits": 0,
+          "prs": 5,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 25
+        },
+        {
           "name": "Chralt98",
           "github": "Chralt98",
           "cohort": "PBA 5 Singapore 2024",
@@ -4272,16 +4282,6 @@
           "score": 0
         },
         {
-          "name": "soloking1412",
-          "github": "soloking1412",
-          "cohort": "PBA 5 Singapore 2024",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
           "name": "VUHAILAM",
           "github": "VUHAILAM",
           "cohort": "PBA 5 Singapore 2024",
@@ -5109,21 +5109,21 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 21,
+          "commits": 23,
           "prs": 28,
           "merged_prs": 4,
-          "reviews": 32,
-          "score": 297
+          "reviews": 35,
+          "score": 308
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 7,
+          "commits": 8,
           "prs": 17,
           "merged_prs": 2,
           "reviews": 20,
-          "score": 172
+          "score": 173
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.74071479692249,
+    "average_review_time_hours": 75.64100392997494,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5693,18 +5693,18 @@
         "approval_rate": 34.69387755102041
       },
       {
+        "reviewer": "xermicus",
+        "review_count": 133,
+        "approved_count": 92,
+        "avg_time_to_review_hours": 43.158141762452104,
+        "approval_rate": 69.17293233082707
+      },
+      {
         "reviewer": "skunert",
         "review_count": 132,
         "approved_count": 86,
         "avg_time_to_review_hours": 101.58427083333332,
         "approval_rate": 65.15151515151516
-      },
-      {
-        "reviewer": "xermicus",
-        "review_count": 132,
-        "approved_count": 91,
-        "avg_time_to_review_hours": 44.45401785714285,
-        "approval_rate": 68.93939393939394
       },
       {
         "reviewer": "gpestana",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 85.23953201970443,
-        "pr_count": 812,
+        "avg_review_time_hours": 85.06380971880972,
+        "pr_count": 814,
         "merged_count": 663
       },
       {
@@ -38462,6 +38462,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "90d5eef17615c4340e307f7f908c07435f63fd90",
+                    "message": "fatxpool: invalid inblock event fixed (#11733)",
+                    "date": "2026-06-25T10:21:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/90d5eef17615c4340e307f7f908c07435f63fd90"
+                  },
                   {
                     "sha": "831741222650ee43920cc3564deff0f47a524a47",
                     "message": "fatxpool: preserve order of same-priority transactions on re-orgs (#12362)",
@@ -163192,7 +163198,138 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 12483,
+                    "title": "pallet-revive: accept null topic positions in eth_getLogs filters",
+                    "state": "OPEN",
+                    "created_at": "2026-06-25T20:24:51Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "soloking1412",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12483",
+                    "ready_for_review_at": "2026-06-25T20:24:51Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "soloking1412",
+                        "commented_at": "2026-06-25T20:25:52Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12479,
+                    "title": "pallet-revive: fix eth_getLogs with empty address/topic filter lists",
+                    "state": "OPEN",
+                    "created_at": "2026-06-25T13:31:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "soloking1412",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12479",
+                    "ready_for_review_at": "2026-06-25T13:31:29Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "soloking1412",
+                        "commented_at": "2026-06-25T13:32:20Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12474,
+                    "title": "pallet-revive: support finalized/safe/pending block tags in eth_getLogs",
+                    "state": "OPEN",
+                    "created_at": "2026-06-25T10:54:46Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "soloking1412",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12474",
+                    "ready_for_review_at": "2026-06-25T10:54:46Z",
+                    "reviews": [
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2026-06-25T17:47:11Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-06-26T06:13:24Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "soloking1412",
+                        "commented_at": "2026-06-25T10:55:42Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 6.873611111111111,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12470,
+                    "title": "pallet-revive: fix eth_feeHistory reward percentile resolution",
+                    "state": "OPEN",
+                    "created_at": "2026-06-25T09:49:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "soloking1412",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12470",
+                    "ready_for_review_at": "2026-06-25T09:49:16Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-06-26T06:23:19Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "soloking1412",
+                        "commented_at": "2026-06-25T09:50:27Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 20.5675,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12467,
+                    "title": "pallet-revive: map eth-rpc errors to EIP-1474 error codes",
+                    "state": "OPEN",
+                    "created_at": "2026-06-25T08:41:12Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "soloking1412",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12467",
+                    "ready_for_review_at": "2026-06-25T08:41:12Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-06-25T08:41:20Z"
+                      },
+                      {
+                        "commenter": "soloking1412",
+                        "commented_at": "2026-06-25T08:41:40Z"
+                      },
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-06-25T09:08:06Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -170457,6 +170594,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "eff6017465e6d7f6ee00db5faec3738d070fe960",
+                    "message": "Scale validator self-stake incentive by era-points performance (#11979)",
+                    "date": "2026-06-25T09:23:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/eff6017465e6d7f6ee00db5faec3738d070fe960"
+                  },
+                  {
                     "sha": "fc2028840cf2a2dc2d44f41f099492797269c63d",
                     "message": "Decouple unbonding pool bound from bonding duration (#12323)",
                     "date": "2026-06-17T10:54:30Z",
@@ -172266,6 +172409,18 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "cd33d702d9da16e5d3d9e11c61d2b76b9e2a1a30",
+                    "message": "[pallet-revive] storage precompile error-handling refactor and accounting refinements (#12434)",
+                    "date": "2026-06-25T19:37:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/cd33d702d9da16e5d3d9e11c61d2b76b9e2a1a30"
+                  },
+                  {
+                    "sha": "b339135883ffe5f7e7f02e265b0db55ab9f2bae7",
+                    "message": "pallet-revive: per-transaction cold/hot storage access pricing (#12104)",
+                    "date": "2026-06-25T14:01:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b339135883ffe5f7e7f02e265b0db55ab9f2bae7"
+                  },
+                  {
                     "sha": "8f3592abc64aee813b97915feb001d6632c4729c",
                     "message": "pallet-revive: skip non-existent accounts in batch_map_accounts (#12179)",
                     "date": "2026-05-25T16:31:03Z",
@@ -173277,6 +173432,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12479,
+                    "pr_title": "pallet-revive: fix eth_getLogs with empty address/topic filter lists",
+                    "reviewed_at": "2026-06-26T07:07:51Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12479"
+                  },
+                  {
+                    "pr_number": 12470,
+                    "pr_title": "pallet-revive: fix eth_feeHistory reward percentile resolution",
+                    "reviewed_at": "2026-06-26T06:23:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12470"
+                  },
+                  {
+                    "pr_number": 12474,
+                    "pr_title": "pallet-revive: support finalized/safe/pending block tags in eth_getLogs",
+                    "reviewed_at": "2026-06-26T06:13:24Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12474"
+                  },
                   {
                     "pr_number": 12216,
                     "pr_title": "[pallet-revive] test dry run max storage deposit",

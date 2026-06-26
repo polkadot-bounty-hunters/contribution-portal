@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "90d5eef17615c4340e307f7f908c07435f63fd90",
+      "message": "fatxpool: invalid inblock event fixed (#11733)",
+      "date": "2026-06-25T10:21:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/90d5eef17615c4340e307f7f908c07435f63fd90"
+    },
+    {
       "sha": "831741222650ee43920cc3564deff0f47a524a47",
       "message": "fatxpool: preserve order of same-priority transactions on re-orgs (#12362)",
       "date": "2026-06-17T10:38:15Z",
