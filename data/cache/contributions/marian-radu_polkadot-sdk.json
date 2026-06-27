@@ -141,6 +141,22 @@
   ],
   "prs": [
     {
+      "number": 12492,
+      "title": "[WIP] eth-rpc: read eth block/hash/receipts directly from storage",
+      "state": "OPEN",
+      "created_at": "2026-06-26T13:43:00Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12492",
+      "ready_for_review_at": "2026-06-26T13:43:00Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12434,
       "title": "[pallet-revive] storage precompile error-handling refactor and accounting refinements",
       "state": "OPEN",
@@ -1024,6 +1040,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12494,
+      "pr_title": "[CI/CD ]Add eth-rpc image build to  Binary and Docker image Build for testing flow",
+      "reviewed_at": "2026-06-26T16:08:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12494"
+    },
     {
       "pr_number": 12479,
       "pr_title": "pallet-revive: fix eth_getLogs with empty address/topic filter lists",

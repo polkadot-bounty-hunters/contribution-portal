@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-26T07:25:16.167Z",
+  "generated_at": "2026-06-27T07:09:15.207Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1547,
-    "total_prs": 1666,
+    "total_prs": 1667,
     "total_merged_prs": 1034,
-    "total_reviews": 2406
+    "total_reviews": 2407
   },
   "leaderboard": {
     "overall": [
@@ -175,10 +175,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 23,
-        "prs": 28,
+        "prs": 29,
         "merged_prs": 4,
-        "reviews": 35,
-        "score": 308
+        "reviews": 36,
+        "score": 316
       },
       {
         "name": "BradleyOlson64",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 23,
-          "prs": 28,
+          "prs": 29,
           "merged_prs": 4,
-          "reviews": 35,
-          "score": 308
+          "reviews": 36,
+          "score": 316
         },
         {
           "name": "cirko33",
@@ -172549,6 +172549,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12492,
+                    "title": "[WIP] eth-rpc: read eth block/hash/receipts directly from storage",
+                    "state": "OPEN",
+                    "created_at": "2026-06-26T13:43:00Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12492",
+                    "ready_for_review_at": "2026-06-26T13:43:00Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12434,
                     "title": "[pallet-revive] storage precompile error-handling refactor and accounting refinements",
                     "state": "OPEN",
@@ -173432,6 +173448,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12494,
+                    "pr_title": "[CI/CD ]Add eth-rpc image build to  Binary and Docker image Build for testing flow",
+                    "reviewed_at": "2026-06-26T16:08:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12494"
+                  },
                   {
                     "pr_number": 12479,
                     "pr_title": "pallet-revive: fix eth_getLogs with empty address/topic filter lists",
