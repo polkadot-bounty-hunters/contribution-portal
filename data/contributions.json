@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-29T07:51:44.554Z",
+  "generated_at": "2026-06-30T07:25:26.662Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1547,
+    "total_commits": 1548,
     "total_prs": 1667,
     "total_merged_prs": 1034,
-    "total_reviews": 2407
+    "total_reviews": 2411
   },
   "leaderboard": {
     "overall": [
@@ -14,11 +14,11 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 260,
+        "commits": 261,
         "prs": 197,
         "merged_prs": 149,
         "reviews": 245,
-        "score": 3470
+        "score": 3471
       },
       {
         "name": "pgherveou",
@@ -57,8 +57,8 @@
         "commits": 82,
         "prs": 121,
         "merged_prs": 84,
-        "reviews": 185,
-        "score": 2082
+        "reviews": 189,
+        "score": 2094
       },
       {
         "name": "jsidorenko",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 260,
+          "commits": 261,
           "prs": 197,
           "merged_prs": 149,
           "reviews": 245,
-          "score": 3470
+          "score": 3471
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 82,
           "prs": 121,
           "merged_prs": 84,
-          "reviews": 185,
-          "score": 2082
+          "reviews": 189,
+          "score": 2094
         },
         {
           "name": "jsidorenko",
@@ -14934,6 +14934,30 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12505,
+                    "pr_title": "Remove deprecated JustTry and Identity re-exports from xcm-executor",
+                    "reviewed_at": "2026-06-29T17:19:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12505"
+                  },
+                  {
+                    "pr_number": 12503,
+                    "pr_title": "Remove deprecated CurrencyAdapter from staging-xcm-builder",
+                    "reviewed_at": "2026-06-29T15:48:56Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12503"
+                  },
+                  {
+                    "pr_number": 12502,
+                    "pr_title": "Remove deprecated ForeignChainAliasAccount type alias",
+                    "reviewed_at": "2026-06-29T15:48:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12502"
+                  },
+                  {
+                    "pr_number": 12504,
+                    "pr_title": "Remove deprecated UnpaidLocalExporter from staging-xcm-builder",
+                    "reviewed_at": "2026-06-29T15:47:11Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12504"
+                  },
                   {
                     "pr_number": 12407,
                     "pr_title": "Ba/runtime/xcm/optimization",
@@ -38462,6 +38486,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "40f9a5ddbe62c0b797a4be9beb35fba93e6d6336",
+                    "message": "txpool: maintain on all blocks (#12433)",
+                    "date": "2026-06-29T13:30:13Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/40f9a5ddbe62c0b797a4be9beb35fba93e6d6336"
+                  },
                   {
                     "sha": "90d5eef17615c4340e307f7f908c07435f63fd90",
                     "message": "fatxpool: invalid inblock event fixed (#11733)",

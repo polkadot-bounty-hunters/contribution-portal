@@ -9014,6 +9014,30 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12505,
+      "pr_title": "Remove deprecated JustTry and Identity re-exports from xcm-executor",
+      "reviewed_at": "2026-06-29T17:19:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12505"
+    },
+    {
+      "pr_number": 12503,
+      "pr_title": "Remove deprecated CurrencyAdapter from staging-xcm-builder",
+      "reviewed_at": "2026-06-29T15:48:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12503"
+    },
+    {
+      "pr_number": 12502,
+      "pr_title": "Remove deprecated ForeignChainAliasAccount type alias",
+      "reviewed_at": "2026-06-29T15:48:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12502"
+    },
+    {
+      "pr_number": 12504,
+      "pr_title": "Remove deprecated UnpaidLocalExporter from staging-xcm-builder",
+      "reviewed_at": "2026-06-29T15:47:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12504"
+    },
+    {
       "pr_number": 12407,
       "pr_title": "Ba/runtime/xcm/optimization",
       "reviewed_at": "2026-06-18T18:03:54Z",
