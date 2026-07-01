@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T07:25:26.662Z",
+  "generated_at": "2026-07-01T07:40:21.200Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1548,
-    "total_prs": 1667,
+    "total_prs": 1668,
     "total_merged_prs": 1034,
     "total_reviews": 2411
   },
@@ -5140,10 +5140,10 @@
           "github": "talhadaar",
           "cohort": "PBA 7 Bali 2025",
           "commits": 1,
-          "prs": 1,
+          "prs": 2,
           "merged_prs": 1,
           "reviews": 0,
-          "score": 16
+          "score": 21
         },
         {
           "name": "vrom911",
@@ -179408,7 +179408,41 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 12521,
+                    "title": "Fix out-of-bounds chunk index error in erasure coding",
+                    "state": "OPEN",
+                    "created_at": "2026-06-30T12:21:06Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "talhadaar",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12521",
+                    "ready_for_review_at": "2026-06-30T12:21:06Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-06-30T12:21:14Z"
+                      },
+                      {
+                        "commenter": "talhadaar",
+                        "commented_at": "2026-06-30T12:22:48Z"
+                      },
+                      {
+                        "commenter": "talhadaar",
+                        "commented_at": "2026-06-30T12:25:38Z"
+                      },
+                      {
+                        "commenter": "talhadaar",
+                        "commented_at": "2026-06-30T12:35:18Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }

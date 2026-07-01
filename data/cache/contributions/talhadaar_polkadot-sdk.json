@@ -1,6 +1,40 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 12521,
+      "title": "Fix out-of-bounds chunk index error in erasure coding",
+      "state": "OPEN",
+      "created_at": "2026-06-30T12:21:06Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "talhadaar",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12521",
+      "ready_for_review_at": "2026-06-30T12:21:06Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "cla-bot-2021[bot]",
+          "commented_at": "2026-06-30T12:21:14Z"
+        },
+        {
+          "commenter": "talhadaar",
+          "commented_at": "2026-06-30T12:22:48Z"
+        },
+        {
+          "commenter": "talhadaar",
+          "commented_at": "2026-06-30T12:25:38Z"
+        },
+        {
+          "commenter": "talhadaar",
+          "commented_at": "2026-06-30T12:35:18Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }
