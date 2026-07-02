@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-01T07:40:21.200Z",
+  "generated_at": "2026-07-02T07:13:03.884Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1548,
+    "total_commits": 1550,
     "total_prs": 1668,
     "total_merged_prs": 1034,
-    "total_reviews": 2411
+    "total_reviews": 2414
   },
   "leaderboard": {
     "overall": [
@@ -34,11 +34,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 102,
+        "commits": 103,
         "prs": 144,
         "merged_prs": 79,
-        "reviews": 239,
-        "score": 2329
+        "reviews": 240,
+        "score": 2333
       },
       {
         "name": "liamaharon",
@@ -161,6 +161,16 @@
         "score": 319
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 23,
+        "prs": 29,
+        "merged_prs": 4,
+        "reviews": 37,
+        "score": 319
+      },
+      {
         "name": "rosarp",
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
@@ -168,16 +178,6 @@
         "prs": 21,
         "merged_prs": 14,
         "reviews": 21,
-        "score": 316
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 23,
-        "prs": 29,
-        "merged_prs": 4,
-        "reviews": 36,
         "score": 316
       },
       {
@@ -227,8 +227,8 @@
         "commits": 8,
         "prs": 17,
         "merged_prs": 2,
-        "reviews": 20,
-        "score": 173
+        "reviews": 21,
+        "score": 176
       },
       {
         "name": "DrW3RK",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 102,
+          "commits": 103,
           "prs": 144,
           "merged_prs": 79,
-          "reviews": 239,
-          "score": 2329
+          "reviews": 240,
+          "score": 2333
         },
         {
           "name": "franciscoaguirre",
@@ -3265,11 +3265,11 @@
           "name": "soloking1412",
           "github": "soloking1412",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 0,
+          "commits": 1,
           "prs": 5,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 25
+          "score": 26
         },
         {
           "name": "Chralt98",
@@ -5112,8 +5112,8 @@
           "commits": 23,
           "prs": 29,
           "merged_prs": 4,
-          "reviews": 36,
-          "score": 316
+          "reviews": 37,
+          "score": 319
         },
         {
           "name": "cirko33",
@@ -5122,8 +5122,8 @@
           "commits": 8,
           "prs": 17,
           "merged_prs": 2,
-          "reviews": 20,
-          "score": 173
+          "reviews": 21,
+          "score": 176
         },
         {
           "name": "surajk-m",
@@ -19610,6 +19610,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "ceea8fe5116c2c721b3ee190016e98400296f4a3",
+                    "message": "[Staking] Fix pendingRewards returning true for exposed validators with zero points (#12441)",
+                    "date": "2026-07-01T08:51:09Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/ceea8fe5116c2c721b3ee190016e98400296f4a3"
+                  },
+                  {
                     "sha": "67190176f144a642c3e3831dc13248d4327bbdf1",
                     "message": "[Staking] Use offence era for proportional slash distribution (#11999)",
                     "date": "2026-05-08T06:13:29Z",
@@ -27326,6 +27332,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12525,
+                    "pr_title": "[pallet-staking-async] fix `chill_inactive` benchmark",
+                    "reviewed_at": "2026-07-01T16:09:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12525"
+                  },
                   {
                     "pr_number": 12441,
                     "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
@@ -163227,7 +163239,14 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "6b13ec018e36fc4a76c316d6a139d9382f3593f2",
+                    "message": "pallet-revive: fix eth_feeHistory reward percentile resolution (#12470)",
+                    "date": "2026-07-01T16:42:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/6b13ec018e36fc4a76c316d6a139d9382f3593f2"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 12483,
@@ -171253,6 +171272,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12525,
+                    "pr_title": "[pallet-staking-async] fix `chill_inactive` benchmark",
+                    "reviewed_at": "2026-07-01T16:09:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12525"
+                  },
+                  {
                     "pr_number": 12441,
                     "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
                     "reviewed_at": "2026-06-23T13:13:43Z",
@@ -173478,6 +173503,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12522,
+                    "pr_title": "[pallet-revive] Test Versioning Invariants and Conventions",
+                    "reviewed_at": "2026-07-02T02:34:15Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12522"
+                  },
                   {
                     "pr_number": 12494,
                     "pr_title": "[CI/CD ]Add eth-rpc image build to  Binary and Docker image Build for testing flow",

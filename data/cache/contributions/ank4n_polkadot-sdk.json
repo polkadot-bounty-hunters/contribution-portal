@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "ceea8fe5116c2c721b3ee190016e98400296f4a3",
+      "message": "[Staking] Fix pendingRewards returning true for exposed validators with zero points (#12441)",
+      "date": "2026-07-01T08:51:09Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ceea8fe5116c2c721b3ee190016e98400296f4a3"
+    },
+    {
       "sha": "67190176f144a642c3e3831dc13248d4327bbdf1",
       "message": "[Staking] Use offence era for proportional slash distribution (#11999)",
       "date": "2026-05-08T06:13:29Z",
@@ -7717,6 +7723,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12525,
+      "pr_title": "[pallet-staking-async] fix `chill_inactive` benchmark",
+      "reviewed_at": "2026-07-01T16:09:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12525"
+    },
     {
       "pr_number": 12441,
       "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",

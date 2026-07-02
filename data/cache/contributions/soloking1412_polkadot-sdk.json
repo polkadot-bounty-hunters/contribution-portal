@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "6b13ec018e36fc4a76c316d6a139d9382f3593f2",
+      "message": "pallet-revive: fix eth_feeHistory reward percentile resolution (#12470)",
+      "date": "2026-07-01T16:42:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6b13ec018e36fc4a76c316d6a139d9382f3593f2"
+    }
+  ],
   "prs": [
     {
       "number": 12483,

@@ -630,6 +630,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12525,
+      "pr_title": "[pallet-staking-async] fix `chill_inactive` benchmark",
+      "reviewed_at": "2026-07-01T16:09:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12525"
+    },
+    {
       "pr_number": 12441,
       "pr_title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
       "reviewed_at": "2026-06-23T13:13:43Z",

@@ -1041,6 +1041,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12522,
+      "pr_title": "[pallet-revive] Test Versioning Invariants and Conventions",
+      "reviewed_at": "2026-07-02T02:34:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12522"
+    },
+    {
       "pr_number": 12494,
       "pr_title": "[CI/CD ]Add eth-rpc image build to  Binary and Docker image Build for testing flow",
       "reviewed_at": "2026-06-26T16:08:45Z",
