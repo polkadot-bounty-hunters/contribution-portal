@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-02T07:13:03.884Z",
+  "generated_at": "2026-07-03T07:07:35.152Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1550,
-    "total_prs": 1668,
+    "total_prs": 1669,
     "total_merged_prs": 1034,
-    "total_reviews": 2414
+    "total_reviews": 2415
   },
   "leaderboard": {
     "overall": [
@@ -3212,6 +3212,16 @@
           "score": 46
         },
         {
+          "name": "josepot",
+          "github": "josepot",
+          "cohort": "PBA 5 Singapore 2024",
+          "commits": 2,
+          "prs": 3,
+          "merged_prs": 1,
+          "reviews": 4,
+          "score": 39
+        },
+        {
           "name": "tsenovilla",
           "github": "tsenovilla",
           "cohort": "PBA 5 Singapore 2024",
@@ -3250,16 +3260,6 @@
           "merged_prs": 1,
           "reviews": 2,
           "score": 32
-        },
-        {
-          "name": "josepot",
-          "github": "josepot",
-          "cohort": "PBA 5 Singapore 2024",
-          "commits": 2,
-          "prs": 2,
-          "merged_prs": 1,
-          "reviews": 3,
-          "score": 31
         },
         {
           "name": "soloking1412",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.64100392997494,
+    "average_review_time_hours": 75.5803110218652,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,17 +5610,17 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 777,
-        "approved_count": 269,
+        "review_count": 779,
+        "approved_count": 270,
         "avg_time_to_review_hours": 83.98600589225589,
-        "approval_rate": 34.62033462033462
+        "approval_rate": 34.65982028241335
       },
       {
         "reviewer": "bkchr",
-        "review_count": 705,
-        "approved_count": 404,
-        "avg_time_to_review_hours": 47.25098029715764,
-        "approval_rate": 57.304964539007095
+        "review_count": 706,
+        "approved_count": 405,
+        "avg_time_to_review_hours": 46.97830603725114,
+        "approval_rate": 57.36543909348442
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 85.06380971880972,
-        "pr_count": 814,
+        "avg_review_time_hours": 84.95953306066804,
+        "pr_count": 815,
         "merged_count": 663
       },
       {
@@ -160705,6 +160705,53 @@
                 ],
                 "prs": [
                   {
+                    "number": 12534,
+                    "title": "pallet-utility: fix dispatch class of empty batch/batch_all/force_batch",
+                    "state": "OPEN",
+                    "created_at": "2026-07-02T14:07:15Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "josepot",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12534",
+                    "ready_for_review_at": "2026-07-02T14:07:15Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-07-02T14:11:57Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "rockbmb",
+                        "submitted_at": "2026-07-02T14:14:01Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-07-02T14:26:26Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-07-02T14:59:13Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-07-02T15:20:36Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "josepot",
+                        "submitted_at": "2026-07-02T15:25:07Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.07833333333333334,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 7959,
                     "title": "Treasury: update expire date on payout (#7958)",
                     "state": "MERGED",
@@ -160748,6 +160795,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12534,
+                    "pr_title": "pallet-utility: fix dispatch class of empty batch/batch_all/force_batch",
+                    "reviewed_at": "2026-07-02T15:25:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12534"
+                  },
                   {
                     "pr_number": 8840,
                     "pr_title": "include poll_index in voted and vote removed event",
