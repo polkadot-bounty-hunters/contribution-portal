@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-03T07:07:35.152Z",
+  "generated_at": "2026-07-04T07:01:17.793Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1550,
+    "total_commits": 1551,
     "total_prs": 1669,
     "total_merged_prs": 1034,
     "total_reviews": 2415
@@ -3215,11 +3215,11 @@
           "name": "josepot",
           "github": "josepot",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 2,
+          "commits": 3,
           "prs": 3,
           "merged_prs": 1,
           "reviews": 4,
-          "score": 39
+          "score": 40
         },
         {
           "name": "tsenovilla",
@@ -160696,6 +160696,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "9235da264fe1d2d8f7f75c8fc0a0d10f4b4fa51d",
+                    "message": "pallet-utility: fix dispatch class of empty batch/batch_all/force_batch (#12534)",
+                    "date": "2026-07-03T07:00:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/9235da264fe1d2d8f7f75c8fc0a0d10f4b4fa51d"
+                  },
                   {
                     "sha": "dbebf539e6ae2c796fb1026be0740fdeec247f85",
                     "message": "Treasury: update expire date on payout (#7958) (#7959)",
