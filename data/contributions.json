@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-05T07:18:48.208Z",
+  "generated_at": "2026-07-06T07:42:13.060Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1551,
-    "total_prs": 1669,
+    "total_prs": 1670,
     "total_merged_prs": 1034,
     "total_reviews": 2415
   },
@@ -3266,10 +3266,10 @@
           "github": "soloking1412",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 1,
-          "prs": 5,
+          "prs": 6,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 26
+          "score": 31
         },
         {
           "name": "Chralt98",
@@ -163307,6 +163307,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12547,
+                    "title": "pallet-revive: validate eth_feeHistory reward percentiles",
+                    "state": "OPEN",
+                    "created_at": "2026-07-05T15:41:19Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "soloking1412",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12547",
+                    "ready_for_review_at": "2026-07-05T15:41:19Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "soloking1412",
+                        "commented_at": "2026-07-05T15:42:12Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12483,
                     "title": "pallet-revive: accept null topic positions in eth_getLogs filters",
