@@ -2902,6 +2902,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12566,
+      "pr_title": "Version bumps  and prdocs reordering stable2606",
+      "reviewed_at": "2026-07-06T11:13:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12566"
+    },
+    {
       "pr_number": 12171,
       "pr_title": "WAH: wire pallet-recovery into  benchmark list",
       "reviewed_at": "2026-05-22T19:32:14Z",

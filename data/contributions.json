@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-06T07:42:13.060Z",
+  "generated_at": "2026-07-07T07:22:26.635Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1551,
     "total_prs": 1670,
     "total_merged_prs": 1034,
-    "total_reviews": 2415
+    "total_reviews": 2416
   },
   "leaderboard": {
     "overall": [
@@ -77,8 +77,8 @@
         "commits": 118,
         "prs": 87,
         "merged_prs": 55,
-        "reviews": 62,
-        "score": 1289
+        "reviews": 63,
+        "score": 1292
       },
       {
         "name": "gupnik",
@@ -1674,8 +1674,8 @@
           "commits": 118,
           "prs": 87,
           "merged_prs": 55,
-          "reviews": 62,
-          "score": 1289
+          "reviews": 63,
+          "score": 1292
         },
         {
           "name": "pandres95",
@@ -128302,6 +128302,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12566,
+                    "pr_title": "Version bumps  and prdocs reordering stable2606",
+                    "reviewed_at": "2026-07-06T11:13:42Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12566"
+                  },
                   {
                     "pr_number": 12171,
                     "pr_title": "WAH: wire pallet-recovery into  benchmark list",
