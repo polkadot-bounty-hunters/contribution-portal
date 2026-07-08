@@ -9014,6 +9014,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12585,
+      "pr_title": "Remove Polkadot Bulletin bridge related code",
+      "reviewed_at": "2026-07-08T00:10:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12585"
+    },
+    {
+      "pr_number": 12587,
+      "pr_title": "AHW: populate foreign asset reserves in genesis; use ambient tokio runtime in relay RPC client",
+      "reviewed_at": "2026-07-07T18:27:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12587"
+    },
+    {
       "pr_number": 12505,
       "pr_title": "Remove deprecated JustTry and Identity re-exports from xcm-executor",
       "reviewed_at": "2026-06-29T17:19:35Z",

@@ -51,6 +51,28 @@
   ],
   "prs": [
     {
+      "number": 12587,
+      "title": "AHW: populate foreign asset reserves in genesis; use ambient tokio runtime in relay RPC client",
+      "state": "OPEN",
+      "created_at": "2026-07-07T17:42:34Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rosarp",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12587",
+      "ready_for_review_at": "2026-07-07T17:42:34Z",
+      "reviews": [
+        {
+          "reviewer": "franciscoaguirre",
+          "submitted_at": "2026-07-07T18:27:16Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.745,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12257,
       "title": "Migrates legacy zombienet tests to zombienet-sdk",
       "state": "OPEN",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d988144f162df86614159e932493bfa23b7ab5b3",
+      "message": "Introduce `fp-coretime` (#11810)",
+      "date": "2026-07-07T17:21:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d988144f162df86614159e932493bfa23b7ab5b3"
+    },
+    {
       "sha": "0f3e5c1917f08fe4e3fcc03ad8e50272311be3b7",
       "message": "Allow Emergency origin to set PSM max debt (#12012)",
       "date": "2026-05-13T13:39:03Z",
