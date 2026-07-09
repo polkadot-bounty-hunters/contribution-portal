@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-08T06:22:37.252Z",
+  "generated_at": "2026-07-09T07:19:09.201Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1552,
-    "total_prs": 1671,
+    "total_commits": 1553,
+    "total_prs": 1672,
     "total_merged_prs": 1034,
-    "total_reviews": 2418
+    "total_reviews": 2419
   },
   "leaderboard": {
     "overall": [
@@ -37,8 +37,8 @@
         "commits": 103,
         "prs": 144,
         "merged_prs": 79,
-        "reviews": 240,
-        "score": 2333
+        "reviews": 241,
+        "score": 2336
       },
       {
         "name": "liamaharon",
@@ -151,14 +151,24 @@
         "score": 396
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 23,
+        "prs": 30,
+        "merged_prs": 4,
+        "reviews": 37,
+        "score": 324
+      },
+      {
         "name": "rosarp",
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 8,
+        "commits": 9,
         "prs": 22,
         "merged_prs": 14,
         "reviews": 21,
-        "score": 321
+        "score": 322
       },
       {
         "name": "muraca",
@@ -168,16 +178,6 @@
         "prs": 24,
         "merged_prs": 13,
         "reviews": 18,
-        "score": 319
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 23,
-        "prs": 29,
-        "merged_prs": 4,
-        "reviews": 37,
         "score": 319
       },
       {
@@ -530,8 +530,8 @@
           "commits": 103,
           "prs": 144,
           "merged_prs": 79,
-          "reviews": 240,
-          "score": 2333
+          "reviews": 241,
+          "score": 2336
         },
         {
           "name": "franciscoaguirre",
@@ -3125,11 +3125,11 @@
           "name": "rosarp",
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 8,
+          "commits": 9,
           "prs": 22,
           "merged_prs": 14,
           "reviews": 21,
-          "score": 321
+          "score": 322
         },
         {
           "name": "ndkazu",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 23,
-          "prs": 29,
+          "prs": 30,
           "merged_prs": 4,
           "reviews": 37,
-          "score": 319
+          "score": 324
         },
         {
           "name": "cirko33",
@@ -27344,6 +27344,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12590,
+                    "pr_title": "pallet-society: return funds of discarded payouts to the pot",
+                    "reviewed_at": "2026-07-08T22:15:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12590"
+                  },
                   {
                     "pr_number": 12525,
                     "pr_title": "[pallet-staking-async] fix `chill_inactive` benchmark",
@@ -159022,6 +159028,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "d88e92c692d41d236078a52c76f6649bc4be1cb1",
+                    "message": "AHW: populate foreign asset reserves in genesis; use ambient tokio runtime in relay RPC client (#12587)",
+                    "date": "2026-07-08T13:27:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/d88e92c692d41d236078a52c76f6649bc4be1cb1"
+                  },
+                  {
                     "sha": "98e0271c667a0a32ea4aabd5e4f811f2a1f6171e",
                     "message": "Support multiple `IndexOperation::Renew` calls within a single extrinsic index in `sc-client-db` (#11474)",
                     "date": "2026-05-01T12:03:05Z",
@@ -172729,6 +172741,35 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12599,
+                    "title": "pallet-revive: bench the overlay overhead of hot storage accesses",
+                    "state": "OPEN",
+                    "created_at": "2026-07-08T17:02:25Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12599",
+                    "ready_for_review_at": "2026-07-08T17:02:25Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-07-08T17:11:35Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-07-08T17:12:24Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-07-08T19:16:27Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12492,
                     "title": "[WIP] eth-rpc: read eth block/hash/receipts directly from storage",

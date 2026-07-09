@@ -141,6 +141,35 @@
   ],
   "prs": [
     {
+      "number": 12599,
+      "title": "pallet-revive: bench the overlay overhead of hot storage accesses",
+      "state": "OPEN",
+      "created_at": "2026-07-08T17:02:25Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12599",
+      "ready_for_review_at": "2026-07-08T17:02:25Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2026-07-08T17:11:35Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-07-08T17:12:24Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-07-08T19:16:27Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12492,
       "title": "[WIP] eth-rpc: read eth block/hash/receipts directly from storage",
       "state": "OPEN",

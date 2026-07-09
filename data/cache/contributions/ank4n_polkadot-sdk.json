@@ -7724,6 +7724,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12590,
+      "pr_title": "pallet-society: return funds of discarded payouts to the pot",
+      "reviewed_at": "2026-07-08T22:15:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12590"
+    },
+    {
       "pr_number": 12525,
       "pr_title": "[pallet-staking-async] fix `chill_inactive` benchmark",
       "reviewed_at": "2026-07-01T16:09:26Z",

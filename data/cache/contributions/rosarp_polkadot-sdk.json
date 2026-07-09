@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d88e92c692d41d236078a52c76f6649bc4be1cb1",
+      "message": "AHW: populate foreign asset reserves in genesis; use ambient tokio runtime in relay RPC client (#12587)",
+      "date": "2026-07-08T13:27:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/d88e92c692d41d236078a52c76f6649bc4be1cb1"
+    },
+    {
       "sha": "98e0271c667a0a32ea4aabd5e4f811f2a1f6171e",
       "message": "Support multiple `IndexOperation::Renew` calls within a single extrinsic index in `sc-client-db` (#11474)",
       "date": "2026-05-01T12:03:05Z",
