@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "59cae94c49c817fab66a81ef7abda0668aee0473",
+      "message": "pallet-revive: bench the overlay overhead of hot storage accesses (#12599)",
+      "date": "2026-07-10T07:21:50Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/59cae94c49c817fab66a81ef7abda0668aee0473"
+    },
+    {
       "sha": "cd33d702d9da16e5d3d9e11c61d2b76b9e2a1a30",
       "message": "[pallet-revive] storage precompile error-handling refactor and accounting refinements (#12434)",
       "date": "2026-06-25T19:37:10Z",

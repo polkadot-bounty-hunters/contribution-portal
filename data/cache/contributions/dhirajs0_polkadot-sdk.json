@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "513c79719426c66b1b02ea9d3dc746f90ac737b7",
+      "message": "Add increase_value call to pallet-multi-asset-bounties (#12409)",
+      "date": "2026-07-12T03:48:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/513c79719426c66b1b02ea9d3dc746f90ac737b7"
+    },
+    {
       "sha": "ecada3402a70d906e10c6d33b0f42b6174fea119",
       "message": "fix(multi-asset-bounties): enforce authorization in unassign_curator when parent bounty is not Active (#11612)",
       "date": "2026-04-03T17:48:31Z",
