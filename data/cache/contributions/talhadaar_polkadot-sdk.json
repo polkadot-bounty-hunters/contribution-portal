@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "35000d248860886d1b2fab8c79940e3356d02a36",
+      "message": "Fix out-of-bounds chunk index error in erasure coding (#12521)",
+      "date": "2026-07-15T13:12:00Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/35000d248860886d1b2fab8c79940e3356d02a36"
+    }
+  ],
   "prs": [
     {
       "number": 12521,
