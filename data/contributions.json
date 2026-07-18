@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-17T06:17:30.042Z",
+  "generated_at": "2026-07-18T06:02:26.840Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1557,
-    "total_prs": 1676,
+    "total_commits": 1558,
+    "total_prs": 1678,
     "total_merged_prs": 1034,
-    "total_reviews": 2419
+    "total_reviews": 2420
   },
   "leaderboard": {
     "overall": [
@@ -114,11 +114,11 @@
         "name": "karolk91",
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 19,
+        "commits": 20,
         "prs": 31,
         "merged_prs": 19,
         "reviews": 98,
-        "score": 658
+        "score": 659
       },
       {
         "name": "Krayt78",
@@ -155,10 +155,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 24,
-        "prs": 30,
+        "prs": 31,
         "merged_prs": 4,
         "reviews": 37,
-        "score": 325
+        "score": 330
       },
       {
         "name": "rosarp",
@@ -241,6 +241,16 @@
         "score": 157
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 11,
+        "prs": 16,
+        "merged_prs": 2,
+        "reviews": 14,
+        "score": 153
+      },
+      {
         "name": "ndkazu",
         "github": "ndkazu",
         "cohort": "PBA 5 Singapore 2024",
@@ -249,16 +259,6 @@
         "merged_prs": 7,
         "reviews": 6,
         "score": 150
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 11,
-        "prs": 15,
-        "merged_prs": 2,
-        "reviews": 13,
-        "score": 145
       },
       {
         "name": "wirednkod",
@@ -3105,11 +3105,11 @@
           "name": "karolk91",
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 19,
+          "commits": 20,
           "prs": 31,
           "merged_prs": 19,
           "reviews": 98,
-          "score": 658
+          "score": 659
         },
         {
           "name": "Krayt78",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 11,
-          "prs": 15,
+          "prs": 16,
           "merged_prs": 2,
-          "reviews": 13,
-          "score": 145
+          "reviews": 14,
+          "score": 153
         },
         {
           "name": "castillax",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 24,
-          "prs": 30,
+          "prs": 31,
           "merged_prs": 4,
           "reviews": 37,
-          "score": 325
+          "score": 330
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.52025057963256,
+    "average_review_time_hours": 75.45988305265968,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 779,
+        "review_count": 780,
         "approved_count": 270,
-        "avg_time_to_review_hours": 83.98600589225589,
-        "approval_rate": 34.65982028241335
+        "avg_time_to_review_hours": 83.35635129490392,
+        "approval_rate": 34.61538461538461
       },
       {
         "reviewer": "bkchr",
@@ -5763,8 +5763,8 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 60.09330357142857,
-        "pr_count": 56,
+        "avg_review_time_hours": 59.043279727095516,
+        "pr_count": 57,
         "merged_count": 42
       },
       {
@@ -150797,6 +150797,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "91d93d4ebc6d441d8e93f4a5d5fc368a494d8f78",
+                    "message": "sp-database: aggregate same-key refcount ops within a transaction (#12106)",
+                    "date": "2026-07-17T15:58:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/91d93d4ebc6d441d8e93f4a5d5fc368a494d8f78"
+                  },
+                  {
                     "sha": "4d5876e2565a4fe83c92c8f710778ff49c4ed4a8",
                     "message": "client/db, sp-transaction-storage-proof: preserve `MultiRenew` submit order (#11962)",
                     "date": "2026-05-04T09:40:40Z",
@@ -166519,6 +166525,38 @@
                 ],
                 "prs": [
                   {
+                    "number": 1226,
+                    "title": "Release 2.3.2",
+                    "state": "OPEN",
+                    "created_at": "2026-07-17T10:26:17Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1226",
+                    "ready_for_review_at": "2026-07-17T10:26:17Z",
+                    "reviews": [
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-07-17T10:40:48Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "dhirajs0",
+                        "submitted_at": "2026-07-17T10:43:58Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "dhirajs0",
+                        "submitted_at": "2026-07-17T11:11:28Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.24194444444444443,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1223,
                     "title": "Integrate SDK stable2606",
                     "state": "OPEN",
@@ -166685,6 +166723,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1226,
+                    "pr_title": "Release 2.3.2",
+                    "reviewed_at": "2026-07-17T17:14:08Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1226"
+                  },
                   {
                     "pr_number": 1019,
                     "pr_title": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion ",
@@ -172833,6 +172877,39 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12673,
+                    "title": "[WIP] pallet-revive: cold/hot storage access pricing for call opcodes",
+                    "state": "OPEN",
+                    "created_at": "2026-07-17T11:54:46Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12673",
+                    "ready_for_review_at": "2026-07-17T11:54:46Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-07-17T12:12:23Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-07-17T12:13:07Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-07-17T14:20:10Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-07-17T14:49:08Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12599,
                     "title": "pallet-revive: bench the overlay overhead of hot storage accesses",

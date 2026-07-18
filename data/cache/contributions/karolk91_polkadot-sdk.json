@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "91d93d4ebc6d441d8e93f4a5d5fc368a494d8f78",
+      "message": "sp-database: aggregate same-key refcount ops within a transaction (#12106)",
+      "date": "2026-07-17T15:58:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/91d93d4ebc6d441d8e93f4a5d5fc368a494d8f78"
+    },
+    {
       "sha": "4d5876e2565a4fe83c92c8f710778ff49c4ed4a8",
       "message": "client/db, sp-transaction-storage-proof: preserve `MultiRenew` submit order (#11962)",
       "date": "2026-05-04T09:40:40Z",
