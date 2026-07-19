@@ -15,6 +15,27 @@
   ],
   "prs": [
     {
+      "number": 12685,
+      "title": "pallet-revive: implement the eth_newFilter polling filter API",
+      "state": "OPEN",
+      "created_at": "2026-07-18T17:52:48Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "soloking1412",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12685",
+      "ready_for_review_at": "2026-07-18T17:52:48Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "soloking1412",
+          "commented_at": "2026-07-18T17:59:05Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12636,
       "title": "pallet-revive: implement eth_getBlockReceipts",
       "state": "OPEN",

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-18T06:02:26.840Z",
+  "generated_at": "2026-07-19T06:34:38.710Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1558,
-    "total_prs": 1678,
+    "total_prs": 1679,
     "total_merged_prs": 1034,
     "total_reviews": 2420
   },
@@ -501,13 +501,13 @@
         "score": 48
       },
       {
-        "name": "Wolfenheimm",
-        "github": "Wolfenheimm",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 1,
-        "prs": 6,
-        "merged_prs": 1,
-        "reviews": 2,
+        "name": "soloking1412",
+        "github": "soloking1412",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 2,
+        "prs": 9,
+        "merged_prs": 0,
+        "reviews": 0,
         "score": 47
       }
     ],
@@ -3202,6 +3202,16 @@
           "score": 58
         },
         {
+          "name": "soloking1412",
+          "github": "soloking1412",
+          "cohort": "PBA 5 Singapore 2024",
+          "commits": 2,
+          "prs": 9,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 47
+        },
+        {
           "name": "voliva",
           "github": "voliva",
           "cohort": "PBA 5 Singapore 2024",
@@ -3220,16 +3230,6 @@
           "merged_prs": 1,
           "reviews": 4,
           "score": 45
-        },
-        {
-          "name": "soloking1412",
-          "github": "soloking1412",
-          "cohort": "PBA 5 Singapore 2024",
-          "commits": 2,
-          "prs": 8,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 42
         },
         {
           "name": "tsenovilla",
@@ -163393,6 +163393,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12685,
+                    "title": "pallet-revive: implement the eth_newFilter polling filter API",
+                    "state": "OPEN",
+                    "created_at": "2026-07-18T17:52:48Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "soloking1412",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12685",
+                    "ready_for_review_at": "2026-07-18T17:52:48Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "soloking1412",
+                        "commented_at": "2026-07-18T17:59:05Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12636,
                     "title": "pallet-revive: implement eth_getBlockReceipts",
