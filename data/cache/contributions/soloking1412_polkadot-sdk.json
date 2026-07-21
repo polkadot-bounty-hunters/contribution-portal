@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "f1ef4a0725686464a3b492bfa66af698ee098fd5",
+      "message": "pallet-revive: validate eth_feeHistory reward percentiles (#12547)",
+      "date": "2026-07-20T06:40:57Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f1ef4a0725686464a3b492bfa66af698ee098fd5"
+    },
+    {
       "sha": "5d8a63875d44e926590f741574d36c8136d60cfc",
       "message": "pallet-revive: support finalized/safe/pending block tags in eth_getLogs (#12474)",
       "date": "2026-07-10T19:51:50Z",

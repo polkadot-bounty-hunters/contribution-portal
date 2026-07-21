@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-20T06:53:55.557Z",
+  "generated_at": "2026-07-21T06:22:26.189Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1558,
+    "total_commits": 1559,
     "total_prs": 1679,
     "total_merged_prs": 1034,
     "total_reviews": 2420
@@ -491,6 +491,16 @@
         "score": 48
       },
       {
+        "name": "soloking1412",
+        "github": "soloking1412",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 3,
+        "prs": 9,
+        "merged_prs": 0,
+        "reviews": 0,
+        "score": 48
+      },
+      {
         "name": "charlesHetterich",
         "github": "charlesHetterich",
         "cohort": "PBA 6 Lucerne 2025",
@@ -499,16 +509,6 @@
         "merged_prs": 3,
         "reviews": 0,
         "score": 48
-      },
-      {
-        "name": "soloking1412",
-        "github": "soloking1412",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 2,
-        "prs": 9,
-        "merged_prs": 0,
-        "reviews": 0,
-        "score": 47
       }
     ],
     "by_cohort": {
@@ -3205,11 +3205,11 @@
           "name": "soloking1412",
           "github": "soloking1412",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 2,
+          "commits": 3,
           "prs": 9,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 47
+          "score": 48
         },
         {
           "name": "voliva",
@@ -163379,6 +163379,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "f1ef4a0725686464a3b492bfa66af698ee098fd5",
+                    "message": "pallet-revive: validate eth_feeHistory reward percentiles (#12547)",
+                    "date": "2026-07-20T06:40:57Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/f1ef4a0725686464a3b492bfa66af698ee098fd5"
+                  },
                   {
                     "sha": "5d8a63875d44e926590f741574d36c8136d60cfc",
                     "message": "pallet-revive: support finalized/safe/pending block tags in eth_getLogs (#12474)",
