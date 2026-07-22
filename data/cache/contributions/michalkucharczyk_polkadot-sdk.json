@@ -1041,6 +1041,27 @@
   ],
   "prs": [
     {
+      "number": 12714,
+      "title": "cumulus on jam - scope of work",
+      "state": "OPEN",
+      "created_at": "2026-07-21T14:24:15Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12714",
+      "ready_for_review_at": "2026-07-21T14:24:15Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-07-21T14:51:16Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12433,
       "title": "txpool: maintain on all blocks",
       "state": "OPEN",
