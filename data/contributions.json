@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-22T06:21:55.799Z",
+  "generated_at": "2026-07-23T06:39:37.643Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1559,
+    "total_commits": 1560,
     "total_prs": 1681,
     "total_merged_prs": 1034,
     "total_reviews": 2420
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 82,
+        "commits": 83,
         "prs": 122,
         "merged_prs": 84,
         "reviews": 191,
-        "score": 2105
+        "score": 2106
       },
       {
         "name": "jsidorenko",
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 82,
+          "commits": 83,
           "prs": 122,
           "merged_prs": 84,
           "reviews": 191,
-          "score": 2105
+          "score": 2106
         },
         {
           "name": "jsidorenko",
@@ -15902,6 +15902,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "15dc12bf47e097f1399f854ec1812221d6fa4de3",
+                    "message": "Bump weights (#1227)",
+                    "date": "2026-07-22T20:19:29Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/15dc12bf47e097f1399f854ec1812221d6fa4de3"
+                  },
                   {
                     "sha": "c8603f3f844bb4084149f2ec332134bb274e21c6",
                     "message": "feat: add bulletin chain spec to generator (#1146)",

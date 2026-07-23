@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "15dc12bf47e097f1399f854ec1812221d6fa4de3",
+      "message": "Bump weights (#1227)",
+      "date": "2026-07-22T20:19:29Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/15dc12bf47e097f1399f854ec1812221d6fa4de3"
+    },
+    {
       "sha": "c8603f3f844bb4084149f2ec332134bb274e21c6",
       "message": "feat: add bulletin chain spec to generator (#1146)",
       "date": "2026-04-15T20:45:00Z",
