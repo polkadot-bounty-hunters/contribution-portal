@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "cb16c0820f005ba74f89472de2c20c99a5c3abb9",
+      "message": "Release 2.3.2 (#1226)",
+      "date": "2026-07-23T07:42:38Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/cb16c0820f005ba74f89472de2c20c99a5c3abb9"
+    },
+    {
       "sha": "195d5c25ed149b9885d6eff3765efe1573af7a9b",
       "message": "refactor(asset-hubs): use upstream multi-asset bounty source types (#1168)",
       "date": "2026-06-02T20:41:32Z",

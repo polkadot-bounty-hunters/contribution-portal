@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-23T06:39:37.643Z",
+  "generated_at": "2026-07-24T06:34:26.040Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1560,
+    "total_commits": 1562,
     "total_prs": 1681,
     "total_merged_prs": 1034,
     "total_reviews": 2420
@@ -244,11 +244,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 11,
+        "commits": 12,
         "prs": 16,
         "merged_prs": 2,
         "reviews": 14,
-        "score": 153
+        "score": 154
       },
       {
         "name": "ndkazu",
@@ -481,22 +481,22 @@
         "score": 50
       },
       {
+        "name": "soloking1412",
+        "github": "soloking1412",
+        "cohort": "PBA 5 Singapore 2024",
+        "commits": 4,
+        "prs": 9,
+        "merged_prs": 0,
+        "reviews": 0,
+        "score": 49
+      },
+      {
         "name": "joshuacheong",
         "github": "joshuacheong",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 3,
         "prs": 3,
         "merged_prs": 3,
-        "reviews": 0,
-        "score": 48
-      },
-      {
-        "name": "soloking1412",
-        "github": "soloking1412",
-        "cohort": "PBA 5 Singapore 2024",
-        "commits": 3,
-        "prs": 9,
-        "merged_prs": 0,
         "reviews": 0,
         "score": 48
       },
@@ -3205,11 +3205,11 @@
           "name": "soloking1412",
           "github": "soloking1412",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 3,
+          "commits": 4,
           "prs": 9,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 48
+          "score": 49
         },
         {
           "name": "voliva",
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 11,
+          "commits": 12,
           "prs": 16,
           "merged_prs": 2,
           "reviews": 14,
-          "score": 153
+          "score": 154
         },
         {
           "name": "castillax",
@@ -163448,6 +163448,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "ab770ca94391d929751faeb9189403fdb8b997b6",
+                    "message": "pallet-revive: implement eth_getBlockReceipts (#12636)",
+                    "date": "2026-07-23T13:36:54Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/ab770ca94391d929751faeb9189403fdb8b997b6"
+                  },
+                  {
                     "sha": "f1ef4a0725686464a3b492bfa66af698ee098fd5",
                     "message": "pallet-revive: validate eth_feeHistory reward percentiles (#12547)",
                     "date": "2026-07-20T06:40:57Z",
@@ -166593,6 +166599,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "cb16c0820f005ba74f89472de2c20c99a5c3abb9",
+                    "message": "Release 2.3.2 (#1226)",
+                    "date": "2026-07-23T07:42:38Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/cb16c0820f005ba74f89472de2c20c99a5c3abb9"
+                  },
                   {
                     "sha": "195d5c25ed149b9885d6eff3765efe1573af7a9b",
                     "message": "refactor(asset-hubs): use upstream multi-asset bounty source types (#1168)",

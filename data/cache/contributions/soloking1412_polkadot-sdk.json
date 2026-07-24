@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "ab770ca94391d929751faeb9189403fdb8b997b6",
+      "message": "pallet-revive: implement eth_getBlockReceipts (#12636)",
+      "date": "2026-07-23T13:36:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ab770ca94391d929751faeb9189403fdb8b997b6"
+    },
+    {
       "sha": "f1ef4a0725686464a3b492bfa66af698ee098fd5",
       "message": "pallet-revive: validate eth_feeHistory reward percentiles (#12547)",
       "date": "2026-07-20T06:40:57Z",
