@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-27T07:04:03.621Z",
+  "generated_at": "2026-07-28T06:17:57.534Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1562,
-    "total_prs": 1682,
+    "total_prs": 1684,
     "total_merged_prs": 1034,
     "total_reviews": 2420
   },
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 261,
-        "prs": 198,
+        "prs": 199,
         "merged_prs": 149,
         "reviews": 245,
-        "score": 3476
+        "score": 3481
       },
       {
         "name": "pgherveou",
@@ -155,10 +155,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 24,
-        "prs": 31,
+        "prs": 32,
         "merged_prs": 4,
         "reviews": 37,
-        "score": 330
+        "score": 335
       },
       {
         "name": "rosarp",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 261,
-          "prs": 198,
+          "prs": 199,
           "merged_prs": 149,
           "reviews": 245,
-          "score": 3476
+          "score": 3481
         },
         {
           "name": "ank4n",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 24,
-          "prs": 31,
+          "prs": 32,
           "merged_prs": 4,
           "reviews": 37,
-          "score": 330
+          "score": 335
         },
         {
           "name": "cirko33",
@@ -39603,6 +39603,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12741,
+                    "title": "parachain-service: crypto benchmark results",
+                    "state": "OPEN",
+                    "created_at": "2026-07-27T10:18:38Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12741",
+                    "ready_for_review_at": "2026-07-27T10:18:38Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-07-27T14:45:18Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12714,
                     "title": "cumulus on jam - scope of work",
@@ -173000,6 +173021,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12742,
+                    "title": "[pallet-revive] Fix eth-rpc `latest` being initialized from the finalized block",
+                    "state": "OPEN",
+                    "created_at": "2026-07-27T12:53:53Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12742",
+                    "ready_for_review_at": "2026-07-27T12:53:53Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-07-27T14:26:20Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12673,
                     "title": "[WIP] pallet-revive: cold/hot storage access pricing for call opcodes",
