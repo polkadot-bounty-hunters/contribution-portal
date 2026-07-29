@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-28T06:17:57.534Z",
+  "generated_at": "2026-07-29T06:22:57.168Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1562,
-    "total_prs": 1684,
+    "total_commits": 1563,
+    "total_prs": 1685,
     "total_merged_prs": 1034,
     "total_reviews": 2420
   },
@@ -35,10 +35,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 103,
-        "prs": 144,
+        "prs": 145,
         "merged_prs": 79,
         "reviews": 241,
-        "score": 2336
+        "score": 2341
       },
       {
         "name": "liamaharon",
@@ -74,11 +74,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 119,
+        "commits": 120,
         "prs": 88,
         "merged_prs": 55,
         "reviews": 63,
-        "score": 1298
+        "score": 1299
       },
       {
         "name": "gupnik",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 103,
-          "prs": 144,
+          "prs": 145,
           "merged_prs": 79,
           "reviews": 241,
-          "score": 2336
+          "score": 2341
         },
         {
           "name": "franciscoaguirre",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 119,
+          "commits": 120,
           "prs": 88,
           "merged_prs": 55,
           "reviews": 63,
-          "score": 1298
+          "score": 1299
         },
         {
           "name": "pandres95",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.45988305265968,
+    "average_review_time_hours": 75.40002515135323,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 84.85632897603486,
-        "pr_count": 816,
+        "avg_review_time_hours": 84.75339249286006,
+        "pr_count": 817,
         "merged_count": 663
       },
       {
@@ -20168,6 +20168,37 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12746,
+                    "title": "Remove `pallet-scored-pool`",
+                    "state": "OPEN",
+                    "created_at": "2026-07-28T13:23:13Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12746",
+                    "ready_for_review_at": "2026-07-28T13:23:13Z",
+                    "reviews": [
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-07-28T14:08:39Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-07-28T13:23:22Z"
+                      },
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-07-28T14:18:59Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.7572222222222222,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12441,
                     "title": "[Staking] Fix pendingRewards returning true for exposed validators with zero points",
@@ -125508,6 +125539,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "2f2eeb2b81dc85f90bb9fc413cb56b9eac61f8b5",
+                    "message": "Multi instance PSM (#12245)",
+                    "date": "2026-07-28T13:30:11Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/2f2eeb2b81dc85f90bb9fc413cb56b9eac61f8b5"
+                  },
                   {
                     "sha": "d988144f162df86614159e932493bfa23b7ab5b3",
                     "message": "Introduce `fp-coretime` (#11810)",
