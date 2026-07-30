@@ -423,6 +423,28 @@
   ],
   "prs": [
     {
+      "number": 12750,
+      "title": "Fix auto-renewal charging tasks for foreign workloads",
+      "state": "OPEN",
+      "created_at": "2026-07-29T06:46:04Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12750",
+      "ready_for_review_at": "2026-07-29T06:46:04Z",
+      "reviews": [
+        {
+          "reviewer": "mertwole",
+          "submitted_at": "2026-07-29T11:26:49Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 4.679166666666666,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12732,
       "title": "Move on-demand coretime ordering to the coretime chain",
       "state": "OPEN",

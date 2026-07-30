@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-29T06:22:57.168Z",
+  "generated_at": "2026-07-30T06:11:11.888Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1563,
-    "total_prs": 1685,
+    "total_prs": 1686,
     "total_merged_prs": 1034,
     "total_reviews": 2420
   },
@@ -61,6 +61,16 @@
         "score": 2106
       },
       {
+        "name": "Szegoo",
+        "github": "Szegoo",
+        "cohort": "PBA 3 Berkeley 2023",
+        "commits": 120,
+        "prs": 89,
+        "merged_prs": 55,
+        "reviews": 63,
+        "score": 1304
+      },
+      {
         "name": "jsidorenko",
         "github": "jsidorenko",
         "cohort": "PBA 1 Cambridge 2022",
@@ -69,16 +79,6 @@
         "merged_prs": 46,
         "reviews": 161,
         "score": 1301
-      },
-      {
-        "name": "Szegoo",
-        "github": "Szegoo",
-        "cohort": "PBA 3 Berkeley 2023",
-        "commits": 120,
-        "prs": 88,
-        "merged_prs": 55,
-        "reviews": 63,
-        "score": 1299
       },
       {
         "name": "gupnik",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 120,
-          "prs": 88,
+          "prs": 89,
           "merged_prs": 55,
           "reviews": 63,
-          "score": 1299
+          "score": 1304
         },
         {
           "name": "pandres95",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.40002515135323,
+    "average_review_time_hours": 75.34340316697798,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 84.75339249286006,
-        "pr_count": 817,
+        "avg_review_time_hours": 84.65550224123879,
+        "pr_count": 818,
         "merged_count": 663
       },
       {
@@ -125961,6 +125961,28 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12750,
+                    "title": "Fix auto-renewal charging tasks for foreign workloads",
+                    "state": "OPEN",
+                    "created_at": "2026-07-29T06:46:04Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12750",
+                    "ready_for_review_at": "2026-07-29T06:46:04Z",
+                    "reviews": [
+                      {
+                        "reviewer": "mertwole",
+                        "submitted_at": "2026-07-29T11:26:49Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 4.679166666666666,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12732,
                     "title": "Move on-demand coretime ordering to the coretime chain",
