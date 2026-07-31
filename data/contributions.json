@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-30T06:11:11.888Z",
+  "generated_at": "2026-07-31T06:48:48.281Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1563,
-    "total_prs": 1686,
+    "total_prs": 1687,
     "total_merged_prs": 1034,
     "total_reviews": 2420
   },
@@ -5166,6 +5166,16 @@
           "score": 10
         },
         {
+          "name": "agustinustheo",
+          "github": "agustinustheo",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 1,
+          "score": 8
+        },
+        {
           "name": "CECILIA-MULANDI",
           "github": "CECILIA-MULANDI",
           "cohort": "PBA 7 Bali 2025",
@@ -5234,16 +5244,6 @@
           "merged_prs": 0,
           "reviews": 0,
           "score": 5
-        },
-        {
-          "name": "agustinustheo",
-          "github": "agustinustheo",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 1,
-          "score": 3
         },
         {
           "name": "0xdipak",
@@ -170914,7 +170914,24 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 1233,
+                    "title": "WIP Integrate Individuality into People and Asset Hub Polkadot",
+                    "state": "OPEN",
+                    "created_at": "2026-07-30T06:13:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "agustinustheo",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1233",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
