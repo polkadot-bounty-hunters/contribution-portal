@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-31T06:48:48.281Z",
+  "generated_at": "2026-08-01T06:41:53.618Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1563,
-    "total_prs": 1687,
+    "total_prs": 1688,
     "total_merged_prs": 1034,
-    "total_reviews": 2420
+    "total_reviews": 2421
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 261,
         "prs": 199,
         "merged_prs": 149,
-        "reviews": 245,
-        "score": 3481
+        "reviews": 246,
+        "score": 3484
       },
       {
         "name": "pgherveou",
@@ -520,8 +520,8 @@
           "commits": 261,
           "prs": 199,
           "merged_prs": 149,
-          "reviews": 245,
-          "score": 3481
+          "reviews": 246,
+          "score": 3484
         },
         {
           "name": "ank4n",
@@ -5140,10 +5140,10 @@
           "github": "talhadaar",
           "cohort": "PBA 7 Bali 2025",
           "commits": 2,
-          "prs": 2,
+          "prs": 3,
           "merged_prs": 1,
           "reviews": 0,
-          "score": 22
+          "score": 27
         },
         {
           "name": "vrom911",
@@ -48145,6 +48145,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12767,
+                    "pr_title": "grandpa: Revert memory changes synced with db",
+                    "reviewed_at": "2026-07-31T13:23:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12767"
+                  },
                   {
                     "pr_number": 12440,
                     "pr_title": "Fix for `rust-lld` regression",
@@ -180024,6 +180030,31 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12770,
+                    "title": "Key state reconciliation and reporting in rc-client and ah-client",
+                    "state": "OPEN",
+                    "created_at": "2026-07-31T14:06:50Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "talhadaar",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12770",
+                    "ready_for_review_at": "2026-07-31T14:06:50Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "talhadaar",
+                        "commented_at": "2026-07-31T14:09:39Z"
+                      },
+                      {
+                        "commenter": "talhadaar",
+                        "commented_at": "2026-07-31T14:10:20Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12521,
                     "title": "Fix out-of-bounds chunk index error in erasure coding",

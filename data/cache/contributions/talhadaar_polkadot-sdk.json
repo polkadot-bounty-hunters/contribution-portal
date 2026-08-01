@@ -9,6 +9,31 @@
   ],
   "prs": [
     {
+      "number": 12770,
+      "title": "Key state reconciliation and reporting in rc-client and ah-client",
+      "state": "OPEN",
+      "created_at": "2026-07-31T14:06:50Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "talhadaar",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12770",
+      "ready_for_review_at": "2026-07-31T14:06:50Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "talhadaar",
+          "commented_at": "2026-07-31T14:09:39Z"
+        },
+        {
+          "commenter": "talhadaar",
+          "commented_at": "2026-07-31T14:10:20Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12521,
       "title": "Fix out-of-bounds chunk index error in erasure coding",
       "state": "OPEN",

@@ -9552,6 +9552,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12767,
+      "pr_title": "grandpa: Revert memory changes synced with db",
+      "reviewed_at": "2026-07-31T13:23:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12767"
+    },
+    {
       "pr_number": 12440,
       "pr_title": "Fix for `rust-lld` regression",
       "reviewed_at": "2026-06-23T18:12:21Z",
