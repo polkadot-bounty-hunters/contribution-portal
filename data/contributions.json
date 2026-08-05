@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-04T06:17:54.535Z",
+  "generated_at": "2026-08-05T06:18:52.250Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1563,
-    "total_prs": 1688,
+    "total_prs": 1693,
     "total_merged_prs": 1034,
-    "total_reviews": 2421
+    "total_reviews": 2422
   },
   "leaderboard": {
     "overall": [
@@ -155,10 +155,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 24,
-        "prs": 32,
+        "prs": 34,
         "merged_prs": 4,
-        "reviews": 37,
-        "score": 335
+        "reviews": 38,
+        "score": 348
       },
       {
         "name": "rosarp",
@@ -225,10 +225,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 8,
-        "prs": 17,
+        "prs": 18,
         "merged_prs": 2,
         "reviews": 21,
-        "score": 176
+        "score": 181
       },
       {
         "name": "DrW3RK",
@@ -421,6 +421,16 @@
         "score": 73
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 2,
+        "prs": 4,
+        "merged_prs": 0,
+        "reviews": 15,
+        "score": 67
+      },
+      {
         "name": "JuaniRios",
         "github": "JuaniRios",
         "cohort": "PBA 2 BA 2023",
@@ -428,16 +438,6 @@
         "prs": 4,
         "merged_prs": 3,
         "reviews": 3,
-        "score": 62
-      },
-      {
-        "name": "P1sar",
-        "github": "P1sar",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 2,
-        "prs": 3,
-        "merged_prs": 0,
-        "reviews": 15,
         "score": 62
       },
       {
@@ -4358,10 +4358,10 @@
           "github": "P1sar",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 2,
-          "prs": 3,
+          "prs": 4,
           "merged_prs": 0,
           "reviews": 15,
-          "score": 62
+          "score": 67
         },
         {
           "name": "charlesHetterich",
@@ -5110,20 +5110,20 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 24,
-          "prs": 32,
+          "prs": 34,
           "merged_prs": 4,
-          "reviews": 37,
-          "score": 335
+          "reviews": 38,
+          "score": 348
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 8,
-          "prs": 17,
+          "prs": 18,
           "merged_prs": 2,
           "reviews": 21,
-          "score": 176
+          "score": 181
         },
         {
           "name": "surajk-m",
@@ -5156,6 +5156,16 @@
           "score": 16
         },
         {
+          "name": "CECILIA-MULANDI",
+          "github": "CECILIA-MULANDI",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 0,
+          "prs": 2,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 10
+        },
+        {
           "name": "LucasGrasso",
           "github": "LucasGrasso",
           "cohort": "PBA 7 Bali 2025",
@@ -5174,16 +5184,6 @@
           "merged_prs": 0,
           "reviews": 1,
           "score": 8
-        },
-        {
-          "name": "CECILIA-MULANDI",
-          "github": "CECILIA-MULANDI",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 5
         },
         {
           "name": "freddyli7",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.34340316697798,
+    "average_review_time_hours": 75.22847100097695,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 84.65550224123879,
-        "pr_count": 818,
+        "avg_review_time_hours": 84.45744817073171,
+        "pr_count": 820,
         "merged_count": 663
       },
       {
@@ -167744,6 +167744,28 @@
                 ],
                 "prs": [
                   {
+                    "number": 12799,
+                    "title": "update statement-store readme",
+                    "state": "OPEN",
+                    "created_at": "2026-08-04T10:02:26Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "P1sar",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12799",
+                    "ready_for_review_at": "2026-08-04T10:02:26Z",
+                    "reviews": [
+                      {
+                        "reviewer": "AndreiEres",
+                        "submitted_at": "2026-08-04T13:20:10Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 3.2955555555555556,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12256,
                     "title": "Statement-store: Publishing documentation",
                     "state": "OPEN",
@@ -171065,6 +171087,27 @@
                 "commits": [],
                 "prs": [
                   {
+                    "number": 12808,
+                    "title": "pallet-alliance: reject duplicate members in init_members",
+                    "state": "OPEN",
+                    "created_at": "2026-08-04T16:08:56Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "CECILIA-MULANDI",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12808",
+                    "ready_for_review_at": "2026-08-04T16:08:56Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "CECILIA-MULANDI",
+                        "commented_at": "2026-08-04T16:10:28Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 10352,
                     "title": "docs(balances): fix broken links and correct trait name in README",
                     "state": "OPEN",
@@ -171186,6 +171229,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12800,
+                    "title": "Registrar: reserve and register",
+                    "state": "OPEN",
+                    "created_at": "2026-08-04T12:51:28Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12800",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12323,
                     "title": "Decouple unbonding pool bound from bonding duration",
@@ -173104,6 +173163,54 @@
                 ],
                 "prs": [
                   {
+                    "number": 12802,
+                    "title": "[WIP] pallet-revive: charge the first hot storage write the deferred write cost",
+                    "state": "OPEN",
+                    "created_at": "2026-08-04T13:11:37Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12802",
+                    "ready_for_review_at": "2026-08-04T13:11:37Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12797,
+                    "title": "rpc_server: allow setting `TCP_NODELAY` on JSON-RPC connections",
+                    "state": "OPEN",
+                    "created_at": "2026-08-04T08:20:53Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12797",
+                    "ready_for_review_at": "2026-08-04T08:20:53Z",
+                    "reviews": [
+                      {
+                        "reviewer": "lexnv",
+                        "submitted_at": "2026-08-04T11:57:33Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "lexnv",
+                        "submitted_at": "2026-08-04T11:58:29Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-08-04T10:41:45Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 3.611111111111111,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12742,
                     "title": "[pallet-revive] Fix eth-rpc `latest` being initialized from the finalized block",
                     "state": "OPEN",
@@ -174086,6 +174193,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12798,
+                    "pr_title": "Add guide for updating versioned runtime API functions",
+                    "reviewed_at": "2026-08-04T18:09:33Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12798"
+                  },
                   {
                     "pr_number": 12522,
                     "pr_title": "[pallet-revive] Test Versioning Invariants and Conventions",

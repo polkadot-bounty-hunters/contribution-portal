@@ -2,6 +2,27 @@
   "commits": [],
   "prs": [
     {
+      "number": 12808,
+      "title": "pallet-alliance: reject duplicate members in init_members",
+      "state": "OPEN",
+      "created_at": "2026-08-04T16:08:56Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "CECILIA-MULANDI",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12808",
+      "ready_for_review_at": "2026-08-04T16:08:56Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "CECILIA-MULANDI",
+          "commented_at": "2026-08-04T16:10:28Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 10352,
       "title": "docs(balances): fix broken links and correct trait name in README",
       "state": "OPEN",

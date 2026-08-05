@@ -147,6 +147,54 @@
   ],
   "prs": [
     {
+      "number": 12802,
+      "title": "[WIP] pallet-revive: charge the first hot storage write the deferred write cost",
+      "state": "OPEN",
+      "created_at": "2026-08-04T13:11:37Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12802",
+      "ready_for_review_at": "2026-08-04T13:11:37Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 12797,
+      "title": "rpc_server: allow setting `TCP_NODELAY` on JSON-RPC connections",
+      "state": "OPEN",
+      "created_at": "2026-08-04T08:20:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12797",
+      "ready_for_review_at": "2026-08-04T08:20:53Z",
+      "reviews": [
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2026-08-04T11:57:33Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2026-08-04T11:58:29Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2026-08-04T10:41:45Z"
+        }
+      ],
+      "time_to_first_review_hours": 3.611111111111111,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12742,
       "title": "[pallet-revive] Fix eth-rpc `latest` being initialized from the finalized block",
       "state": "OPEN",
@@ -1129,6 +1177,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 12798,
+      "pr_title": "Add guide for updating versioned runtime API functions",
+      "reviewed_at": "2026-08-04T18:09:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12798"
+    },
     {
       "pr_number": 12522,
       "pr_title": "[pallet-revive] Test Versioning Invariants and Conventions",

@@ -51,6 +51,22 @@
   ],
   "prs": [
     {
+      "number": 12800,
+      "title": "Registrar: reserve and register",
+      "state": "OPEN",
+      "created_at": "2026-08-04T12:51:28Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12800",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12323,
       "title": "Decouple unbonding pool bound from bonding duration",
       "state": "OPEN",
