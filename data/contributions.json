@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-05T06:18:52.250Z",
+  "generated_at": "2026-08-06T06:19:10.116Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1563,
-    "total_prs": 1693,
+    "total_prs": 1694,
     "total_merged_prs": 1034,
     "total_reviews": 2422
   },
@@ -65,10 +65,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 120,
-        "prs": 89,
+        "prs": 90,
         "merged_prs": 55,
         "reviews": 63,
-        "score": 1304
+        "score": 1309
       },
       {
         "name": "jsidorenko",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 120,
-          "prs": 89,
+          "prs": 90,
           "merged_prs": 55,
           "reviews": 63,
-          "score": 1304
+          "score": 1309
         },
         {
           "name": "pandres95",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.22847100097695,
+    "average_review_time_hours": 75.1748063099041,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 84.45744817073171,
-        "pr_count": 820,
+        "avg_review_time_hours": 84.36437000947355,
+        "pr_count": 821,
         "merged_count": 663
       },
       {
@@ -125967,6 +125967,28 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12811,
+                    "title": "Correct PSM creation footprint",
+                    "state": "OPEN",
+                    "created_at": "2026-08-05T10:52:08Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12811",
+                    "ready_for_review_at": "2026-08-05T10:52:08Z",
+                    "reviews": [
+                      {
+                        "reviewer": "shawntabrizi",
+                        "submitted_at": "2026-08-05T18:54:33Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 8.040277777777778,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12750,
                     "title": "Fix auto-renewal charging tasks for foreign workloads",
