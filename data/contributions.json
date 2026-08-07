@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-06T06:19:10.116Z",
+  "generated_at": "2026-08-07T05:42:42.635Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1563,
-    "total_prs": 1694,
+    "total_commits": 1564,
+    "total_prs": 1698,
     "total_merged_prs": 1034,
     "total_reviews": 2422
   },
@@ -55,10 +55,10 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 83,
-        "prs": 122,
+        "prs": 125,
         "merged_prs": 84,
         "reviews": 191,
-        "score": 2106
+        "score": 2121
       },
       {
         "name": "Szegoo",
@@ -155,10 +155,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 24,
-        "prs": 34,
+        "prs": 35,
         "merged_prs": 4,
         "reviews": 38,
-        "score": 348
+        "score": 353
       },
       {
         "name": "rosarp",
@@ -424,11 +424,11 @@
         "name": "P1sar",
         "github": "P1sar",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 2,
+        "commits": 3,
         "prs": 4,
         "merged_prs": 0,
         "reviews": 15,
-        "score": 67
+        "score": 68
       },
       {
         "name": "JuaniRios",
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 83,
-          "prs": 122,
+          "prs": 125,
           "merged_prs": 84,
           "reviews": 191,
-          "score": 2106
+          "score": 2121
         },
         {
           "name": "jsidorenko",
@@ -4357,11 +4357,11 @@
           "name": "P1sar",
           "github": "P1sar",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 2,
+          "commits": 3,
           "prs": 4,
           "merged_prs": 0,
           "reviews": 15,
-          "score": 67
+          "score": 68
         },
         {
           "name": "charlesHetterich",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 24,
-          "prs": 34,
+          "prs": 35,
           "merged_prs": 4,
           "reviews": 38,
-          "score": 348
+          "score": 353
         },
         {
           "name": "cirko33",
@@ -6325,6 +6325,47 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12832,
+                    "title": "XCM hardening",
+                    "state": "OPEN",
+                    "created_at": "2026-08-06T17:49:34Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12832",
+                    "ready_for_review_at": "2026-08-06T17:49:34Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "franciscoaguirre",
+                        "commented_at": "2026-08-06T19:17:41Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-08-06T23:26:19Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12831,
+                    "title": "Don't use expensive aliasers in `ExplicitUnpaidExecutionFrom`",
+                    "state": "OPEN",
+                    "created_at": "2026-08-06T17:31:01Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12831",
+                    "ready_for_review_at": "2026-08-06T17:31:01Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12222,
                     "title": "Remove stale non-audited warning in pallet-parameters",
@@ -15994,6 +16035,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1237,
+                    "title": "Don't pass AuthorizedAliasers to unpaid barrier",
+                    "state": "OPEN",
+                    "created_at": "2026-08-06T17:27:35Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1237",
+                    "ready_for_review_at": "2026-08-06T17:27:35Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1227,
                     "title": "Bump weights",
@@ -167752,6 +167809,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "688447b625e49544916295ef57ca826af6186901",
+                    "message": "update statement-store readme (#12799)",
+                    "date": "2026-08-06T14:01:33Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/688447b625e49544916295ef57ca826af6186901"
+                  },
+                  {
                     "sha": "cb27c1ee088fb6cade9278ea3980077c566a2329",
                     "message": "Statement-store: Publishing documentation (#12256)",
                     "date": "2026-06-22T12:06:30Z",
@@ -173184,6 +173247,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12824,
+                    "title": "[pallet-revive] eth-rpc: decide reorgs by block canonicality, not by finalized height",
+                    "state": "OPEN",
+                    "created_at": "2026-08-06T11:32:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12824",
+                    "ready_for_review_at": "2026-08-06T11:32:27Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-08-06T15:12:24Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12802,
                     "title": "[WIP] pallet-revive: charge the first hot storage write the deferred write cost",

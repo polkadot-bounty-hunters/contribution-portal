@@ -147,6 +147,27 @@
   ],
   "prs": [
     {
+      "number": 12824,
+      "title": "[pallet-revive] eth-rpc: decide reorgs by block canonicality, not by finalized height",
+      "state": "OPEN",
+      "created_at": "2026-08-06T11:32:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12824",
+      "ready_for_review_at": "2026-08-06T11:32:27Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2026-08-06T15:12:24Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12802,
       "title": "[WIP] pallet-revive: charge the first hot storage write the deferred write cost",
       "state": "OPEN",

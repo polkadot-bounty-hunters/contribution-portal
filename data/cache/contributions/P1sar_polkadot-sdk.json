@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "688447b625e49544916295ef57ca826af6186901",
+      "message": "update statement-store readme (#12799)",
+      "date": "2026-08-06T14:01:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/688447b625e49544916295ef57ca826af6186901"
+    },
+    {
       "sha": "cb27c1ee088fb6cade9278ea3980077c566a2329",
       "message": "Statement-store: Publishing documentation (#12256)",
       "date": "2026-06-22T12:06:30Z",
