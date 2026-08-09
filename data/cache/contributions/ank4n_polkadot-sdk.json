@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "cde8a924504c99e768940bf6b600716725c3c438",
+      "message": "Remove `pallet-scored-pool` (#12746)",
+      "date": "2026-08-07T08:36:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cde8a924504c99e768940bf6b600716725c3c438"
+    },
+    {
       "sha": "ceea8fe5116c2c721b3ee190016e98400296f4a3",
       "message": "[Staking] Fix pendingRewards returning true for exposed validators with zero points (#12441)",
       "date": "2026-07-01T08:51:09Z",

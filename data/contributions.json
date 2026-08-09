@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08T03:15:43.382Z",
+  "generated_at": "2026-08-09T04:47:33.438Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1564,
-    "total_prs": 1698,
+    "total_commits": 1566,
+    "total_prs": 1699,
     "total_merged_prs": 1034,
     "total_reviews": 2422
   },
@@ -34,11 +34,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 103,
+        "commits": 104,
         "prs": 145,
         "merged_prs": 79,
         "reviews": 241,
-        "score": 2341
+        "score": 2342
       },
       {
         "name": "liamaharon",
@@ -65,10 +65,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 120,
-        "prs": 90,
+        "prs": 91,
         "merged_prs": 55,
         "reviews": 63,
-        "score": 1309
+        "score": 1314
       },
       {
         "name": "jsidorenko",
@@ -154,11 +154,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 24,
+        "commits": 25,
         "prs": 35,
         "merged_prs": 4,
         "reviews": 38,
-        "score": 353
+        "score": 354
       },
       {
         "name": "rosarp",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 103,
+          "commits": 104,
           "prs": 145,
           "merged_prs": 79,
           "reviews": 241,
-          "score": 2341
+          "score": 2342
         },
         {
           "name": "franciscoaguirre",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 120,
-          "prs": 90,
+          "prs": 91,
           "merged_prs": 55,
           "reviews": 63,
-          "score": 1309
+          "score": 1314
         },
         {
           "name": "pandres95",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 24,
+          "commits": 25,
           "prs": 35,
           "merged_prs": 4,
           "reviews": 38,
-          "score": 353
+          "score": 354
         },
         {
           "name": "cirko33",
@@ -19725,6 +19725,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "cde8a924504c99e768940bf6b600716725c3c438",
+                    "message": "Remove `pallet-scored-pool` (#12746)",
+                    "date": "2026-08-07T08:36:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/cde8a924504c99e768940bf6b600716725c3c438"
+                  },
                   {
                     "sha": "ceea8fe5116c2c721b3ee190016e98400296f4a3",
                     "message": "[Staking] Fix pendingRewards returning true for exposed validators with zero points (#12441)",
@@ -126025,6 +126031,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12842,
+                    "title": "Unify PSM decimal scaling",
+                    "state": "OPEN",
+                    "created_at": "2026-08-08T09:04:02Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12842",
+                    "ready_for_review_at": "2026-08-08T09:04:02Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12811,
                     "title": "Correct PSM creation footprint",
                     "state": "OPEN",
@@ -173101,6 +173123,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "b9b2f58e173fdfb982677035ee3691873c7a79c1",
+                    "message": "[pallet-revive] eth-rpc: fix `latest` block initialization and reduce per-block RPC calls (#12742)",
+                    "date": "2026-08-07T08:14:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b9b2f58e173fdfb982677035ee3691873c7a79c1"
+                  },
                   {
                     "sha": "59cae94c49c817fab66a81ef7abda0668aee0473",
                     "message": "pallet-revive: bench the overlay overhead of hot storage accesses (#12599)",

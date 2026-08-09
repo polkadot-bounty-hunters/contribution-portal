@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "b9b2f58e173fdfb982677035ee3691873c7a79c1",
+      "message": "[pallet-revive] eth-rpc: fix `latest` block initialization and reduce per-block RPC calls (#12742)",
+      "date": "2026-08-07T08:14:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b9b2f58e173fdfb982677035ee3691873c7a79c1"
+    },
+    {
       "sha": "59cae94c49c817fab66a81ef7abda0668aee0473",
       "message": "pallet-revive: bench the overlay overhead of hot storage accesses (#12599)",
       "date": "2026-07-10T07:21:50Z",
