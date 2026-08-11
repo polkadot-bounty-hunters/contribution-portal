@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-10T05:06:48.940Z",
+  "generated_at": "2026-08-11T04:49:43.376Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1566,
     "total_prs": 1699,
     "total_merged_prs": 1034,
-    "total_reviews": 2422
+    "total_reviews": 2424
   },
   "leaderboard": {
     "overall": [
@@ -67,8 +67,8 @@
         "commits": 120,
         "prs": 91,
         "merged_prs": 55,
-        "reviews": 63,
-        "score": 1314
+        "reviews": 64,
+        "score": 1317
       },
       {
         "name": "jsidorenko",
@@ -247,8 +247,8 @@
         "commits": 12,
         "prs": 16,
         "merged_prs": 2,
-        "reviews": 14,
-        "score": 154
+        "reviews": 15,
+        "score": 157
       },
       {
         "name": "ndkazu",
@@ -1674,8 +1674,8 @@
           "commits": 120,
           "prs": 91,
           "merged_prs": 55,
-          "reviews": 63,
-          "score": 1314
+          "reviews": 64,
+          "score": 1317
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 12,
           "prs": 16,
           "merged_prs": 2,
-          "reviews": 14,
-          "score": 154
+          "reviews": 15,
+          "score": 157
         },
         {
           "name": "castillax",
@@ -128598,6 +128598,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12849,
+                    "pr_title": "Version bumps and prdocs reordering 2606-1",
+                    "reviewed_at": "2026-08-10T19:41:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12849"
+                  },
+                  {
                     "pr_number": 12566,
                     "pr_title": "Version bumps  and prdocs reordering stable2606",
                     "reviewed_at": "2026-07-06T11:13:42Z",
@@ -166705,6 +166711,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12849,
+                    "pr_title": "Version bumps and prdocs reordering 2606-1",
+                    "reviewed_at": "2026-08-10T19:41:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12849"
+                  },
                   {
                     "pr_number": 12203,
                     "pr_title": "pallet-referenda: Check before decrement deciding count",

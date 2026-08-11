@@ -346,6 +346,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12849,
+      "pr_title": "Version bumps and prdocs reordering 2606-1",
+      "reviewed_at": "2026-08-10T19:41:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12849"
+    },
+    {
       "pr_number": 12203,
       "pr_title": "pallet-referenda: Check before decrement deciding count",
       "reviewed_at": "2026-05-26T14:28:54Z",
