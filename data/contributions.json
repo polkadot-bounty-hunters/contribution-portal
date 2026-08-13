@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-12T05:18:37.140Z",
+  "generated_at": "2026-08-13T05:23:35.332Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1566,
     "total_prs": 1699,
     "total_merged_prs": 1034,
-    "total_reviews": 2424
+    "total_reviews": 2425
   },
   "leaderboard": {
     "overall": [
@@ -157,8 +157,8 @@
         "commits": 25,
         "prs": 35,
         "merged_prs": 4,
-        "reviews": 38,
-        "score": 354
+        "reviews": 39,
+        "score": 357
       },
       {
         "name": "rosarp",
@@ -5112,8 +5112,8 @@
           "commits": 25,
           "prs": 35,
           "merged_prs": 4,
-          "reviews": 38,
-          "score": 354
+          "reviews": 39,
+          "score": 357
         },
         {
           "name": "cirko33",
@@ -174339,6 +174339,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12866,
+                    "pr_title": "[pallet-revive] expose ReentrancyProtection",
+                    "reviewed_at": "2026-08-12T14:57:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12866"
+                  },
                   {
                     "pr_number": 12798,
                     "pr_title": "Add guide for updating versioned runtime API functions",

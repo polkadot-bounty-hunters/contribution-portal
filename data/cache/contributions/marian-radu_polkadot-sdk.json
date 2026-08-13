@@ -1205,6 +1205,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12866,
+      "pr_title": "[pallet-revive] expose ReentrancyProtection",
+      "reviewed_at": "2026-08-12T14:57:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12866"
+    },
+    {
       "pr_number": 12798,
       "pr_title": "Add guide for updating versioned runtime API functions",
       "reviewed_at": "2026-08-04T18:09:33Z",
