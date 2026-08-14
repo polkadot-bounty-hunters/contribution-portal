@@ -9055,6 +9055,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12882,
+      "pr_title": "eth-rpc: skip unresolvable streamed blocks instead of dying",
+      "reviewed_at": "2026-08-13T22:11:46Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12882"
+    },
+    {
+      "pr_number": 12879,
+      "pr_title": "snowbridge: pin removed SSZ merkle-proofs spec link",
+      "reviewed_at": "2026-08-13T21:06:41Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12879"
+    },
+    {
       "pr_number": 12585,
       "pr_title": "Remove Polkadot Bulletin bridge related code",
       "reviewed_at": "2026-07-08T00:10:57Z",

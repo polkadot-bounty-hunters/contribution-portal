@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "e27785feaba28eafd45fe7e5fe3486e61f84ce1f",
+      "message": "[pallet-revive] eth-rpc: decide reorgs by block canonicality, not by finalized height (#12824)",
+      "date": "2026-08-13T19:29:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e27785feaba28eafd45fe7e5fe3486e61f84ce1f"
+    },
+    {
       "sha": "b9b2f58e173fdfb982677035ee3691873c7a79c1",
       "message": "[pallet-revive] eth-rpc: fix `latest` block initialization and reduce per-block RPC calls (#12742)",
       "date": "2026-08-07T08:14:31Z",

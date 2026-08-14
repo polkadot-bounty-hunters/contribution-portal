@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "bccc8959101de39cfacec813443facf0e0732580",
+      "message": "Statement-store: remove unused public method `StatementHandler::propagate_statement` (#12874)",
+      "date": "2026-08-13T12:53:15Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bccc8959101de39cfacec813443facf0e0732580"
+    },
+    {
       "sha": "688447b625e49544916295ef57ca826af6186901",
       "message": "update statement-store readme (#12799)",
       "date": "2026-08-06T14:01:33Z",
@@ -20,6 +26,33 @@
     }
   ],
   "prs": [
+    {
+      "number": 12874,
+      "title": "Statement-store: remove unused public method `StatementHandler::propagate_statement`",
+      "state": "MERGED",
+      "created_at": "2026-08-13T10:21:49Z",
+      "closed_at": "2026-08-13T13:57:49Z",
+      "merged_at": "2026-08-13T13:57:49Z",
+      "merged_by": "P1sar",
+      "author": "P1sar",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12874",
+      "ready_for_review_at": "2026-08-13T10:21:49Z",
+      "reviews": [
+        {
+          "reviewer": "AndreiEres",
+          "submitted_at": "2026-08-13T10:56:31Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "DenzelPenzel",
+          "submitted_at": "2026-08-13T11:52:52Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.5783333333333334,
+      "time_to_merge_hours": 3.6
+    },
     {
       "number": 12799,
       "title": "update statement-store readme",
