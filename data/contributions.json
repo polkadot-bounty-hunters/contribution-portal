@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-15T02:43:08.598Z",
+  "generated_at": "2026-08-16T04:15:29.224Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1568,
-    "total_prs": 1700,
+    "total_prs": 1701,
     "total_merged_prs": 1035,
-    "total_reviews": 2427
+    "total_reviews": 2428
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 261,
         "prs": 199,
         "merged_prs": 149,
-        "reviews": 246,
-        "score": 3484
+        "reviews": 247,
+        "score": 3487
       },
       {
         "name": "pgherveou",
@@ -520,8 +520,8 @@
           "commits": 261,
           "prs": 199,
           "merged_prs": 149,
-          "reviews": 246,
-          "score": 3484
+          "reviews": 247,
+          "score": 3487
         },
         {
           "name": "ank4n",
@@ -4388,10 +4388,10 @@
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 1,
-          "prs": 1,
+          "prs": 2,
           "merged_prs": 1,
           "reviews": 1,
-          "score": 19
+          "score": 24
         },
         {
           "name": "leonardocustodio",
@@ -48220,6 +48220,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12887,
+                    "pr_title": "Increase default light client slots",
+                    "reviewed_at": "2026-08-14T12:42:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12887"
+                  },
                   {
                     "pr_number": 12767,
                     "pr_title": "grandpa: Revert memory changes synced with db",
@@ -164498,6 +164504,71 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12895,
+                    "title": "Pgas: fix `charge_pgas` benchmark",
+                    "state": "OPEN",
+                    "created_at": "2026-08-15T06:15:40Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "andrzejSulkowski",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12895",
+                    "ready_for_review_at": "2026-08-15T06:15:40Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-08-15T06:16:20Z"
+                      },
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-08-15T06:18:38Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-15T06:19:24Z"
+                      },
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-08-15T06:26:43Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-15T06:41:30Z"
+                      },
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-08-15T06:50:32Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-15T06:51:22Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-15T07:26:25Z"
+                      },
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-08-15T08:11:59Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-15T08:12:44Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-15T08:53:04Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-08-15T16:40:57Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 8247,
                     "title": "Refactor: Remove unused variable assignments for fallible functions",

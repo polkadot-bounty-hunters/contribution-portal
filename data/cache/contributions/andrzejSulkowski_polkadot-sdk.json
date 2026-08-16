@@ -9,6 +9,71 @@
   ],
   "prs": [
     {
+      "number": 12895,
+      "title": "Pgas: fix `charge_pgas` benchmark",
+      "state": "OPEN",
+      "created_at": "2026-08-15T06:15:40Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "andrzejSulkowski",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12895",
+      "ready_for_review_at": "2026-08-15T06:15:40Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2026-08-15T06:16:20Z"
+        },
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2026-08-15T06:18:38Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-08-15T06:19:24Z"
+        },
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2026-08-15T06:26:43Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-08-15T06:41:30Z"
+        },
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2026-08-15T06:50:32Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-08-15T06:51:22Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-08-15T07:26:25Z"
+        },
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2026-08-15T08:11:59Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-08-15T08:12:44Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-08-15T08:53:04Z"
+        },
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-08-15T16:40:57Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 8247,
       "title": "Refactor: Remove unused variable assignments for fallible functions",
       "state": "MERGED",

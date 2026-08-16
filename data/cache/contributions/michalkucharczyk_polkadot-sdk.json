@@ -9552,6 +9552,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12887,
+      "pr_title": "Increase default light client slots",
+      "reviewed_at": "2026-08-14T12:42:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12887"
+    },
+    {
       "pr_number": 12767,
       "pr_title": "grandpa: Revert memory changes synced with db",
       "reviewed_at": "2026-07-31T13:23:20Z",
