@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-17T04:15:38.571Z",
+  "generated_at": "2026-08-18T04:11:11.056Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1568,
-    "total_prs": 1701,
+    "total_prs": 1702,
     "total_merged_prs": 1035,
     "total_reviews": 2428
   },
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 261,
-        "prs": 199,
+        "prs": 200,
         "merged_prs": 149,
         "reviews": 247,
-        "score": 3487
+        "score": 3492
       },
       {
         "name": "pgherveou",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 261,
-          "prs": 199,
+          "prs": 200,
           "merged_prs": 149,
           "reviews": 247,
-          "score": 3487
+          "score": 3492
         },
         {
           "name": "ank4n",
@@ -39709,6 +39709,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12919,
+                    "title": "fatxpool: handle `AlreadyImported` race in `submit_and_watch`",
+                    "state": "OPEN",
+                    "created_at": "2026-08-17T12:53:33Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12919",
+                    "ready_for_review_at": "2026-08-17T12:53:33Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12741,
                     "title": "parachain-service: crypto benchmark results",
