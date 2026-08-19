@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-18T04:11:11.056Z",
+  "generated_at": "2026-08-19T04:12:52.129Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1568,
-    "total_prs": 1702,
+    "total_commits": 1569,
+    "total_prs": 1703,
     "total_merged_prs": 1035,
     "total_reviews": 2428
   },
@@ -64,11 +64,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 120,
+        "commits": 121,
         "prs": 91,
         "merged_prs": 55,
         "reviews": 64,
-        "score": 1317
+        "score": 1318
       },
       {
         "name": "jsidorenko",
@@ -165,10 +165,10 @@
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 9,
-        "prs": 22,
+        "prs": 23,
         "merged_prs": 14,
         "reviews": 21,
-        "score": 322
+        "score": 327
       },
       {
         "name": "muraca",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 120,
+          "commits": 121,
           "prs": 91,
           "merged_prs": 55,
           "reviews": 64,
-          "score": 1317
+          "score": 1318
         },
         {
           "name": "pandres95",
@@ -3126,10 +3126,10 @@
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 9,
-          "prs": 22,
+          "prs": 23,
           "merged_prs": 14,
           "reviews": 21,
-          "score": 322
+          "score": 327
         },
         {
           "name": "ndkazu",
@@ -125643,6 +125643,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "2920ee0c7fb6e05ab921cfbb4b815811977b945f",
+                    "message": "Correct PSM creation footprint (#12811)",
+                    "date": "2026-08-18T08:31:59Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/2920ee0c7fb6e05ab921cfbb4b815811977b945f"
+                  },
+                  {
                     "sha": "2f2eeb2b81dc85f90bb9fc413cb56b9eac61f8b5",
                     "message": "Multi instance PSM (#12245)",
                     "date": "2026-07-28T13:30:11Z",
@@ -159400,6 +159406,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 12925,
+                    "title": "ci: compare bench weights against base repo master, not fork master",
+                    "state": "OPEN",
+                    "created_at": "2026-08-18T12:01:02Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rosarp",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12925",
+                    "ready_for_review_at": "2026-08-18T12:01:02Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12587,
                     "title": "AHW: populate foreign asset reserves in genesis; use ambient tokio runtime in relay RPC client",
