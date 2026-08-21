@@ -346,6 +346,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 12952,
+      "pr_title": "[stable2606] Backport #12245 & #12811",
+      "reviewed_at": "2026-08-20T20:14:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12952"
+    },
+    {
       "pr_number": 12849,
       "pr_title": "Version bumps and prdocs reordering 2606-1",
       "reviewed_at": "2026-08-10T19:41:39Z",

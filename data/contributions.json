@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-20T04:12:13.554Z",
+  "generated_at": "2026-08-21T04:18:04.906Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1569,
-    "total_prs": 1704,
+    "total_commits": 1571,
+    "total_prs": 1706,
     "total_merged_prs": 1035,
-    "total_reviews": 2428
+    "total_reviews": 2430
   },
   "leaderboard": {
     "overall": [
@@ -54,21 +54,21 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 83,
+        "commits": 85,
         "prs": 126,
         "merged_prs": 84,
         "reviews": 193,
-        "score": 2132
+        "score": 2134
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 121,
-        "prs": 91,
+        "prs": 93,
         "merged_prs": 55,
-        "reviews": 64,
-        "score": 1318
+        "reviews": 65,
+        "score": 1331
       },
       {
         "name": "jsidorenko",
@@ -231,6 +231,16 @@
         "score": 181
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 12,
+        "prs": 16,
+        "merged_prs": 2,
+        "reviews": 16,
+        "score": 160
+      },
+      {
         "name": "DrW3RK",
         "github": "DrW3RK",
         "cohort": "PBA 3 Berkeley 2023",
@@ -238,16 +248,6 @@
         "prs": 11,
         "merged_prs": 7,
         "reviews": 8,
-        "score": 157
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 12,
-        "prs": 16,
-        "merged_prs": 2,
-        "reviews": 15,
         "score": 157
       },
       {
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 83,
+          "commits": 85,
           "prs": 126,
           "merged_prs": 84,
           "reviews": 193,
-          "score": 2132
+          "score": 2134
         },
         {
           "name": "jsidorenko",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 121,
-          "prs": 91,
+          "prs": 93,
           "merged_prs": 55,
-          "reviews": 64,
-          "score": 1318
+          "reviews": 65,
+          "score": 1331
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 12,
           "prs": 16,
           "merged_prs": 2,
-          "reviews": 15,
-          "score": 157
+          "reviews": 16,
+          "score": 160
         },
         {
           "name": "castillax",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 75.05628477760054,
+    "average_review_time_hours": 74.99681739707832,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 84.26244052446607,
-        "pr_count": 822,
+        "avg_review_time_hours": 84.16057209396519,
+        "pr_count": 823,
         "merged_count": 664
       },
       {
@@ -5921,6 +5921,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "aff2e5c0202695852eebe9bc6a22c5d4dcd8da2d",
+                    "message": "XCM hardening (#12832)",
+                    "date": "2026-08-20T17:54:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/aff2e5c0202695852eebe9bc6a22c5d4dcd8da2d"
+                  },
                   {
                     "sha": "6baed95a807650a13bb815354b357766991862d8",
                     "message": "Remove stale non-audited warning in pallet-parameters (#12222)",
@@ -15955,6 +15961,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "779f900ed53df63e7fb74d9760c3f6060b03fb44",
+                    "message": "Remove permanent MigrateXcmToLatestVersion (#1244)",
+                    "date": "2026-08-20T21:36:51Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/779f900ed53df63e7fb74d9760c3f6060b03fb44"
+                  },
                   {
                     "sha": "15dc12bf47e097f1399f854ec1812221d6fa4de3",
                     "message": "Bump weights (#1227)",
@@ -126103,6 +126115,59 @@
                 ],
                 "prs": [
                   {
+                    "number": 12952,
+                    "title": "[stable2606] Backport #12245 & #12811",
+                    "state": "OPEN",
+                    "created_at": "2026-08-20T17:32:54Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12952",
+                    "ready_for_review_at": "2026-08-20T17:32:54Z",
+                    "reviews": [
+                      {
+                        "reviewer": "dhirajs0",
+                        "submitted_at": "2026-08-20T17:58:23Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-08-20T18:16:41Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-08-20T20:14:20Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-20T17:37:55Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.4247222222222222,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 12936,
+                    "title": "Oneshot assignments",
+                    "state": "OPEN",
+                    "created_at": "2026-08-20T06:39:30Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12936",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12842,
                     "title": "Unify PSM decimal scaling",
                     "state": "OPEN",
@@ -128669,6 +128734,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12952,
+                    "pr_title": "[stable2606] Backport #12245 & #12811",
+                    "reviewed_at": "2026-08-20T20:14:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12952"
+                  },
                   {
                     "pr_number": 12849,
                     "pr_title": "Version bumps and prdocs reordering 2606-1",
@@ -166864,6 +166935,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12952,
+                    "pr_title": "[stable2606] Backport #12245 & #12811",
+                    "reviewed_at": "2026-08-20T20:14:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12952"
+                  },
                   {
                     "pr_number": 12849,
                     "pr_title": "Version bumps and prdocs reordering 2606-1",

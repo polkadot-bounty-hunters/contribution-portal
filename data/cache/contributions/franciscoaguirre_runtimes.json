@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "779f900ed53df63e7fb74d9760c3f6060b03fb44",
+      "message": "Remove permanent MigrateXcmToLatestVersion (#1244)",
+      "date": "2026-08-20T21:36:51Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/779f900ed53df63e7fb74d9760c3f6060b03fb44"
+    },
+    {
       "sha": "15dc12bf47e097f1399f854ec1812221d6fa4de3",
       "message": "Bump weights (#1227)",
       "date": "2026-07-22T20:19:29Z",

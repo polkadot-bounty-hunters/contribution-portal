@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "aff2e5c0202695852eebe9bc6a22c5d4dcd8da2d",
+      "message": "XCM hardening (#12832)",
+      "date": "2026-08-20T17:54:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/aff2e5c0202695852eebe9bc6a22c5d4dcd8da2d"
+    },
+    {
       "sha": "6baed95a807650a13bb815354b357766991862d8",
       "message": "Remove stale non-audited warning in pallet-parameters (#12222)",
       "date": "2026-05-28T09:23:47Z",
