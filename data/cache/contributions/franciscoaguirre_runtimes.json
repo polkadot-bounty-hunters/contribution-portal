@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d9014aa27eb89a129460a16d10aea0c60e1b20c3",
+      "message": "Don't pass AuthorizedAliasers to unpaid barrier (#1237)",
+      "date": "2026-08-21T17:29:43Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/d9014aa27eb89a129460a16d10aea0c60e1b20c3"
+    },
+    {
       "sha": "779f900ed53df63e7fb74d9760c3f6060b03fb44",
       "message": "Remove permanent MigrateXcmToLatestVersion (#1244)",
       "date": "2026-08-20T21:36:51Z",

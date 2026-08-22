@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "96f90ea55845da4daa1f1f52948cea539945bfad",
+      "message": "Registrar: reserve and register (#12800)",
+      "date": "2026-08-21T07:23:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/96f90ea55845da4daa1f1f52948cea539945bfad"
+    },
+    {
       "sha": "eff6017465e6d7f6ee00db5faec3738d070fe960",
       "message": "Scale validator self-stake incentive by era-points performance (#11979)",
       "date": "2026-06-25T09:23:37Z",

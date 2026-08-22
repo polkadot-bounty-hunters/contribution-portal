@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T04:18:04.906Z",
+  "generated_at": "2026-08-22T04:09:31.371Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1571,
-    "total_prs": 1706,
-    "total_merged_prs": 1035,
-    "total_reviews": 2430
+    "total_commits": 1574,
+    "total_prs": 1708,
+    "total_merged_prs": 1036,
+    "total_reviews": 2431
   },
   "leaderboard": {
     "overall": [
@@ -54,11 +54,11 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 85,
+        "commits": 86,
         "prs": 126,
         "merged_prs": 84,
         "reviews": 193,
-        "score": 2134
+        "score": 2135
       },
       {
         "name": "Szegoo",
@@ -114,11 +114,11 @@
         "name": "karolk91",
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 20,
-        "prs": 31,
-        "merged_prs": 19,
-        "reviews": 98,
-        "score": 659
+        "commits": 21,
+        "prs": 33,
+        "merged_prs": 20,
+        "reviews": 99,
+        "score": 683
       },
       {
         "name": "Krayt78",
@@ -224,11 +224,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 8,
+        "commits": 9,
         "prs": 18,
         "merged_prs": 2,
         "reviews": 21,
-        "score": 181
+        "score": 182
       },
       {
         "name": "dhirajs0",
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 85,
+          "commits": 86,
           "prs": 126,
           "merged_prs": 84,
           "reviews": 193,
-          "score": 2134
+          "score": 2135
         },
         {
           "name": "jsidorenko",
@@ -3105,11 +3105,11 @@
           "name": "karolk91",
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 20,
-          "prs": 31,
-          "merged_prs": 19,
-          "reviews": 98,
-          "score": 659
+          "commits": 21,
+          "prs": 33,
+          "merged_prs": 20,
+          "reviews": 99,
+          "score": 683
         },
         {
           "name": "Krayt78",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 8,
+          "commits": 9,
           "prs": 18,
           "merged_prs": 2,
           "reviews": 21,
-          "score": 181
+          "score": 182
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.99681739707832,
+    "average_review_time_hours": 74.93722841472041,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,17 +5610,17 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 782,
-        "approved_count": 271,
-        "avg_time_to_review_hours": 82.74283582089552,
-        "approval_rate": 34.654731457800516
+        "review_count": 786,
+        "approved_count": 272,
+        "avg_time_to_review_hours": 82.1310596707819,
+        "approval_rate": 34.605597964376585
       },
       {
         "reviewer": "bkchr",
-        "review_count": 706,
-        "approved_count": 405,
+        "review_count": 707,
+        "approved_count": 406,
         "avg_time_to_review_hours": 46.97830603725114,
-        "approval_rate": 57.36543909348442
+        "approval_rate": 57.42574257425742
       },
       {
         "reviewer": "bkontur",
@@ -5763,9 +5763,9 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 58.04503831417624,
-        "pr_count": 58,
-        "merged_count": 42
+        "avg_review_time_hours": 57.06381826741996,
+        "pr_count": 59,
+        "merged_count": 43
       },
       {
         "repository": "open-web3-stack/open-runtime-module-library",
@@ -5785,7 +5785,7 @@
       },
       {
         "merger": "ggwpez",
-        "merge_count": 31
+        "merge_count": 32
       },
       {
         "merger": "acatangiu",
@@ -15961,6 +15961,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "d9014aa27eb89a129460a16d10aea0c60e1b20c3",
+                    "message": "Don't pass AuthorizedAliasers to unpaid barrier (#1237)",
+                    "date": "2026-08-21T17:29:43Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/d9014aa27eb89a129460a16d10aea0c60e1b20c3"
+                  },
                   {
                     "sha": "779f900ed53df63e7fb74d9760c3f6060b03fb44",
                     "message": "Remove permanent MigrateXcmToLatestVersion (#1244)",
@@ -151303,6 +151309,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 12970,
+                    "title": "Fix `paras_registrar::schedule_code_upgrade` benchmark for runtimes below MAX_CODE_SIZE",
+                    "state": "OPEN",
+                    "created_at": "2026-08-21T19:22:07Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "karolk91",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12970",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12106,
                     "title": "sp-database: aggregate same-key refcount ops within a transaction",
                     "state": "OPEN",
@@ -153413,6 +153435,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "9309a354ee8c33f3e70f1f60e028f5da0cb1ec3b",
+                    "message": "ci: improvements (#1251)",
+                    "date": "2026-08-22T00:05:07Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/9309a354ee8c33f3e70f1f60e028f5da0cb1ec3b"
+                  },
+                  {
                     "sha": "fe847b9b4c9ec2411ac4db5b876937b0581ead3c",
                     "message": "Update pallet-xcm to 22.0.1 (latest unstable2507) (#880)",
                     "date": "2025-09-05T10:36:26Z",
@@ -153450,6 +153478,75 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1251,
+                    "title": "ci: improvements",
+                    "state": "MERGED",
+                    "created_at": "2026-08-21T18:37:28Z",
+                    "closed_at": "2026-08-22T00:05:08Z",
+                    "merged_at": "2026-08-22T00:05:08Z",
+                    "merged_by": "ggwpez",
+                    "author": "karolk91",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1251",
+                    "ready_for_review_at": "2026-08-21T18:37:28Z",
+                    "reviews": [
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-21T18:46:39Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-21T18:48:27Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-21T18:50:03Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "karolk91",
+                        "submitted_at": "2026-08-21T19:01:40Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "karolk91",
+                        "submitted_at": "2026-08-21T19:01:59Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-08-21T19:05:19Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-21T19:12:02Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-21T18:40:14Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-21T18:53:49Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-21T19:00:15Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-21T19:17:47Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.15305555555555556,
+                    "time_to_merge_hours": 5.461111111111111
+                  },
                   {
                     "number": 900,
                     "title": "[integration-tests][ahm] Governance origins propagation",
@@ -154533,6 +154630,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1251,
+                    "pr_title": "ci: improvements",
+                    "reviewed_at": "2026-08-22T00:05:08Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1251"
+                  },
                   {
                     "pr_number": 971,
                     "pr_title": "Fix weights for BHP",
@@ -171561,6 +171664,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "96f90ea55845da4daa1f1f52948cea539945bfad",
+                    "message": "Registrar: reserve and register (#12800)",
+                    "date": "2026-08-21T07:23:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/96f90ea55845da4daa1f1f52948cea539945bfad"
+                  },
                   {
                     "sha": "eff6017465e6d7f6ee00db5faec3738d070fe960",
                     "message": "Scale validator self-stake incentive by era-points performance (#11979)",
