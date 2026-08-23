@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T04:09:31.371Z",
+  "generated_at": "2026-08-23T04:17:37.256Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1574,
-    "total_prs": 1708,
+    "total_commits": 1575,
+    "total_prs": 1709,
     "total_merged_prs": 1036,
-    "total_reviews": 2431
+    "total_reviews": 2432
   },
   "leaderboard": {
     "overall": [
@@ -65,10 +65,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 121,
-        "prs": 93,
+        "prs": 94,
         "merged_prs": 55,
-        "reviews": 65,
-        "score": 1331
+        "reviews": 66,
+        "score": 1339
       },
       {
         "name": "jsidorenko",
@@ -234,11 +234,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 12,
+        "commits": 13,
         "prs": 16,
         "merged_prs": 2,
         "reviews": 16,
-        "score": 160
+        "score": 161
       },
       {
         "name": "DrW3RK",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 121,
-          "prs": 93,
+          "prs": 94,
           "merged_prs": 55,
-          "reviews": 65,
-          "score": 1331
+          "reviews": 66,
+          "score": 1339
         },
         {
           "name": "pandres95",
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 12,
+          "commits": 13,
           "prs": 16,
           "merged_prs": 2,
           "reviews": 16,
-          "score": 160
+          "score": 161
         },
         {
           "name": "castillax",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.93722841472041,
+    "average_review_time_hours": 74.87764629187656,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 786,
+        "review_count": 790,
         "approved_count": 272,
-        "avg_time_to_review_hours": 82.1310596707819,
-        "approval_rate": 34.605597964376585
+        "avg_time_to_review_hours": 81.52746732026144,
+        "approval_rate": 34.43037974683544
       },
       {
         "reviewer": "bkchr",
@@ -5763,8 +5763,8 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 57.06381826741996,
-        "pr_count": 59,
+        "avg_review_time_hours": 56.11346296296296,
+        "pr_count": 60,
         "merged_count": 43
       },
       {
@@ -135753,6 +135753,80 @@
                 ],
                 "prs": [
                   {
+                    "number": 1252,
+                    "title": "Add PSM to Asset Hub Polkadot runtime",
+                    "state": "OPEN",
+                    "created_at": "2026-08-22T12:09:28Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1252",
+                    "ready_for_review_at": "2026-08-22T12:09:28Z",
+                    "reviews": [
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-22T12:12:01Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-08-22T12:13:15Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-22T15:18:34Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-22T15:23:34Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-08-22T15:24:12Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-08-22T18:17:24Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-08-22T18:19:57Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Szegoo",
+                        "submitted_at": "2026-08-22T18:21:06Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-22T15:22:32Z"
+                      },
+                      {
+                        "commenter": "ggwpez",
+                        "commented_at": "2026-08-22T15:23:05Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-22T16:45:29Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-22T16:59:05Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.0425,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 483,
                     "title": "Coretime chain: allow region transfers",
                     "state": "MERGED",
@@ -135891,6 +135965,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1252,
+                    "pr_title": "Add PSM to Asset Hub Polkadot runtime",
+                    "reviewed_at": "2026-08-22T18:30:07Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1252"
+                  },
                   {
                     "pr_number": 490,
                     "pr_title": "Update to SDK `stable2409-1`",
@@ -167147,6 +167227,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "1eb4d2e30e016cb965a2dabab6b0e2e8efb39fd4",
+                    "message": "Integrate SDK stable2606-1 (#1223)",
+                    "date": "2026-08-22T13:47:06Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/1eb4d2e30e016cb965a2dabab6b0e2e8efb39fd4"
+                  },
                   {
                     "sha": "cb16c0820f005ba74f89472de2c20c99a5c3abb9",
                     "message": "Release 2.3.2 (#1226)",
