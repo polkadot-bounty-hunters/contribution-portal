@@ -1422,6 +1422,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1256,
+      "pr_title": "Fix xcm weights",
+      "reviewed_at": "2026-08-25T01:36:06Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1256"
+    },
+    {
       "pr_number": 1205,
       "pr_title": "Release 2.3.1",
       "reviewed_at": "2026-06-12T16:01:35Z",

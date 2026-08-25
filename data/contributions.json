@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-24T04:18:41.359Z",
+  "generated_at": "2026-08-25T04:14:17.534Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1575,
-    "total_prs": 1709,
+    "total_commits": 1576,
+    "total_prs": 1710,
     "total_merged_prs": 1036,
-    "total_reviews": 2432
+    "total_reviews": 2435
   },
   "leaderboard": {
     "overall": [
@@ -57,18 +57,18 @@
         "commits": 86,
         "prs": 126,
         "merged_prs": 84,
-        "reviews": 193,
-        "score": 2135
+        "reviews": 194,
+        "score": 2138
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 121,
-        "prs": 94,
+        "commits": 122,
+        "prs": 95,
         "merged_prs": 55,
         "reviews": 66,
-        "score": 1339
+        "score": 1345
       },
       {
         "name": "jsidorenko",
@@ -117,8 +117,8 @@
         "commits": 21,
         "prs": 33,
         "merged_prs": 20,
-        "reviews": 99,
-        "score": 683
+        "reviews": 101,
+        "score": 689
       },
       {
         "name": "Krayt78",
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 126,
           "merged_prs": 84,
-          "reviews": 193,
-          "score": 2135
+          "reviews": 194,
+          "score": 2138
         },
         {
           "name": "jsidorenko",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 121,
-          "prs": 94,
+          "commits": 122,
+          "prs": 95,
           "merged_prs": 55,
           "reviews": 66,
-          "score": 1339
+          "score": 1345
         },
         {
           "name": "pandres95",
@@ -3108,8 +3108,8 @@
           "commits": 21,
           "prs": 33,
           "merged_prs": 20,
-          "reviews": 99,
-          "score": 683
+          "reviews": 101,
+          "score": 689
         },
         {
           "name": "Krayt78",
@@ -17382,6 +17382,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1256,
+                    "pr_title": "Fix xcm weights",
+                    "reviewed_at": "2026-08-25T01:36:06Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1256"
+                  },
                   {
                     "pr_number": 1205,
                     "pr_title": "Release 2.3.1",
@@ -135673,6 +135679,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "44bb1266bb67b8125bdb48ecb0538871bc8dc422",
+                    "message": "Add PSM to Asset Hub Polkadot runtime (#1252)",
+                    "date": "2026-08-24T12:30:00Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/44bb1266bb67b8125bdb48ecb0538871bc8dc422"
+                  },
+                  {
                     "sha": "e2aa32afe8d75eddbfd885f4a5749efea74735c3",
                     "message": "Coretime chain: allow region transfers (#483)",
                     "date": "2025-02-03T14:43:18Z",
@@ -135752,6 +135764,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1254,
+                    "title": "Add PSM remote tests for Asset Hub Polkadot",
+                    "state": "OPEN",
+                    "created_at": "2026-08-24T12:34:47Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1254",
+                    "ready_for_review_at": "2026-08-24T12:34:47Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-08-24T12:40:35Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1252,
                     "title": "Add PSM to Asset Hub Polkadot runtime",
@@ -154710,6 +154743,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1256,
+                    "pr_title": "Fix xcm weights",
+                    "reviewed_at": "2026-08-25T01:36:06Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1256"
+                  },
+                  {
+                    "pr_number": 1253,
+                    "pr_title": "Update review-bot and get-fellows-action",
+                    "reviewed_at": "2026-08-24T20:22:02Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1253"
+                  },
                   {
                     "pr_number": 1251,
                     "pr_title": "ci: improvements",

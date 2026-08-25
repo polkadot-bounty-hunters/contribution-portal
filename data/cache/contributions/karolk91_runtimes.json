@@ -1197,6 +1197,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1256,
+      "pr_title": "Fix xcm weights",
+      "reviewed_at": "2026-08-25T01:36:06Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1256"
+    },
+    {
+      "pr_number": 1253,
+      "pr_title": "Update review-bot and get-fellows-action",
+      "reviewed_at": "2026-08-24T20:22:02Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1253"
+    },
+    {
       "pr_number": 1251,
       "pr_title": "ci: improvements",
       "reviewed_at": "2026-08-22T00:05:08Z",
