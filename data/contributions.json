@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T04:14:17.534Z",
+  "generated_at": "2026-08-26T04:20:13.370Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1576,
-    "total_prs": 1710,
+    "total_prs": 1711,
     "total_merged_prs": 1036,
-    "total_reviews": 2435
+    "total_reviews": 2437
   },
   "leaderboard": {
     "overall": [
@@ -67,8 +67,8 @@
         "commits": 122,
         "prs": 95,
         "merged_prs": 55,
-        "reviews": 66,
-        "score": 1345
+        "reviews": 67,
+        "score": 1348
       },
       {
         "name": "jsidorenko",
@@ -225,10 +225,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 9,
-        "prs": 18,
+        "prs": 19,
         "merged_prs": 2,
-        "reviews": 21,
-        "score": 182
+        "reviews": 22,
+        "score": 190
       },
       {
         "name": "dhirajs0",
@@ -1674,8 +1674,8 @@
           "commits": 122,
           "prs": 95,
           "merged_prs": 55,
-          "reviews": 66,
-          "score": 1345
+          "reviews": 67,
+          "score": 1348
         },
         {
           "name": "pandres95",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 9,
-          "prs": 18,
+          "prs": 19,
           "merged_prs": 2,
-          "reviews": 21,
-          "score": 182
+          "reviews": 22,
+          "score": 190
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.87764629187656,
+    "average_review_time_hours": 74.8209991609256,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 84.16057209396519,
-        "pr_count": 823,
+        "avg_review_time_hours": 84.06282328748652,
+        "pr_count": 824,
         "merged_count": 664
       },
       {
@@ -128747,6 +128747,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 12995,
+                    "pr_title": "Bump WAH spec version",
+                    "reviewed_at": "2026-08-25T19:13:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12995"
+                  },
+                  {
                     "pr_number": 12952,
                     "pr_title": "[stable2606] Backport #12245 & #12811",
                     "reviewed_at": "2026-08-20T20:14:20Z",
@@ -171852,6 +171858,37 @@
                 ],
                 "prs": [
                   {
+                    "number": 12993,
+                    "title": "Registrar: deregister",
+                    "state": "OPEN",
+                    "created_at": "2026-08-25T08:07:48Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12993",
+                    "ready_for_review_at": "2026-08-25T08:07:48Z",
+                    "reviews": [
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-08-25T11:44:44Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "cirko33",
+                        "commented_at": "2026-08-25T11:52:08Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-08-25T12:45:37Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 3.6155555555555554,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12800,
                     "title": "Registrar: reserve and register",
                     "state": "OPEN",
@@ -172446,6 +172483,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 12993,
+                    "pr_title": "Registrar: deregister",
+                    "reviewed_at": "2026-08-25T12:45:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/12993"
+                  },
                   {
                     "pr_number": 12525,
                     "pr_title": "[pallet-staking-async] fix `chill_inactive` benchmark",
