@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "f6113c0dca3f94f4a2102ebe0ab56f31b4284435",
+      "message": "pallet-revive: make the first hot write after a cold read pay the deferred cost (#12802)",
+      "date": "2026-08-27T11:19:08Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/f6113c0dca3f94f4a2102ebe0ab56f31b4284435"
+    },
+    {
       "sha": "e27785feaba28eafd45fe7e5fe3486e61f84ce1f",
       "message": "[pallet-revive] eth-rpc: decide reorgs by block canonicality, not by finalized height (#12824)",
       "date": "2026-08-13T19:29:48Z",
@@ -158,6 +164,22 @@
     }
   ],
   "prs": [
+    {
+      "number": 13013,
+      "title": "pallet-revive: separate slot warmth from storage access pricing",
+      "state": "OPEN",
+      "created_at": "2026-08-27T11:01:02Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13013",
+      "ready_for_review_at": "2026-08-27T11:01:02Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 12824,
       "title": "[pallet-revive] eth-rpc: decide reorgs by block canonicality, not by finalized height",

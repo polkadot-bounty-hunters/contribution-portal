@@ -184,6 +184,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13007,
+      "pr_title": "Unflake statement network tests",
+      "reviewed_at": "2026-08-26T15:15:31Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13007"
+    },
+    {
       "pr_number": 12357,
       "pr_title": "statement-store: log account when statements get rejected",
       "reviewed_at": "2026-06-12T19:24:42Z",

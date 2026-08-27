@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-26T04:20:13.370Z",
+  "generated_at": "2026-08-27T13:32:44.868Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1576,
-    "total_prs": 1711,
+    "total_commits": 1577,
+    "total_prs": 1712,
     "total_merged_prs": 1036,
-    "total_reviews": 2437
+    "total_reviews": 2438
   },
   "leaderboard": {
     "overall": [
@@ -154,11 +154,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 26,
-        "prs": 35,
+        "commits": 27,
+        "prs": 36,
         "merged_prs": 4,
         "reviews": 39,
-        "score": 358
+        "score": 364
       },
       {
         "name": "rosarp",
@@ -391,6 +391,16 @@
         "score": 87
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 4,
+        "prs": 5,
+        "merged_prs": 1,
+        "reviews": 16,
+        "score": 87
+      },
+      {
         "name": "TDemeco",
         "github": "TDemeco",
         "cohort": "PBA 4 Hong Kong 2024",
@@ -398,16 +408,6 @@
         "prs": 5,
         "merged_prs": 5,
         "reviews": 2,
-        "score": 84
-      },
-      {
-        "name": "P1sar",
-        "github": "P1sar",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 4,
-        "prs": 5,
-        "merged_prs": 1,
-        "reviews": 15,
         "score": 84
       },
       {
@@ -4360,8 +4360,8 @@
           "commits": 4,
           "prs": 5,
           "merged_prs": 1,
-          "reviews": 15,
-          "score": 84
+          "reviews": 16,
+          "score": 87
         },
         {
           "name": "charlesHetterich",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 26,
-          "prs": 35,
+          "commits": 27,
+          "prs": 36,
           "merged_prs": 4,
           "reviews": 39,
-          "score": 358
+          "score": 364
         },
         {
           "name": "cirko33",
@@ -168496,6 +168496,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13007,
+                    "pr_title": "Unflake statement network tests",
+                    "reviewed_at": "2026-08-26T15:15:31Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13007"
+                  },
+                  {
                     "pr_number": 12357,
                     "pr_title": "statement-store: log account when statements get rejected",
                     "reviewed_at": "2026-06-12T19:24:42Z",
@@ -173682,6 +173688,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "f6113c0dca3f94f4a2102ebe0ab56f31b4284435",
+                    "message": "pallet-revive: make the first hot write after a cold read pay the deferred cost (#12802)",
+                    "date": "2026-08-27T11:19:08Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/f6113c0dca3f94f4a2102ebe0ab56f31b4284435"
+                  },
+                  {
                     "sha": "e27785feaba28eafd45fe7e5fe3486e61f84ce1f",
                     "message": "[pallet-revive] eth-rpc: decide reorgs by block canonicality, not by finalized height (#12824)",
                     "date": "2026-08-13T19:29:48Z",
@@ -173839,6 +173851,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13013,
+                    "title": "pallet-revive: separate slot warmth from storage access pricing",
+                    "state": "OPEN",
+                    "created_at": "2026-08-27T11:01:02Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13013",
+                    "ready_for_review_at": "2026-08-27T11:01:02Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12824,
                     "title": "[pallet-revive] eth-rpc: decide reorgs by block canonicality, not by finalized height",
