@@ -175,9 +175,20 @@
       "author": "marian-radu",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13013",
       "ready_for_review_at": "2026-08-27T11:01:02Z",
-      "reviews": [],
-      "comments": [],
-      "time_to_first_review_hours": null,
+      "reviews": [
+        {
+          "reviewer": "0xRVE",
+          "submitted_at": "2026-08-28T08:27:31Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "marian-radu",
+          "commented_at": "2026-08-27T14:34:53Z"
+        }
+      ],
+      "time_to_first_review_hours": 21.441388888888888,
       "time_to_merge_hours": null
     },
     {

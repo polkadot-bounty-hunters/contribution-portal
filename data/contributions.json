@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:32:44.868Z",
+  "generated_at": "2026-08-28T14:55:59.543Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.8209991609256,
+    "average_review_time_hours": 74.77860074132906,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 84.06282328748652,
-        "pr_count": 824,
+        "avg_review_time_hours": 83.98691851851854,
+        "pr_count": 825,
         "merged_count": 664
       },
       {
@@ -173862,9 +173862,20 @@
                     "author": "marian-radu",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13013",
                     "ready_for_review_at": "2026-08-27T11:01:02Z",
-                    "reviews": [],
-                    "comments": [],
-                    "time_to_first_review_hours": null,
+                    "reviews": [
+                      {
+                        "reviewer": "0xRVE",
+                        "submitted_at": "2026-08-28T08:27:31Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "marian-radu",
+                        "commented_at": "2026-08-27T14:34:53Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 21.441388888888888,
                     "time_to_merge_hours": null
                   },
                   {
