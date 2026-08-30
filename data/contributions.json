@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-29T08:24:58.813Z",
+  "generated_at": "2026-08-30T09:03:16.477Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1577,
     "total_prs": 1712,
     "total_merged_prs": 1036,
-    "total_reviews": 2438
+    "total_reviews": 2439
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 86,
         "prs": 126,
         "merged_prs": 84,
-        "reviews": 194,
-        "score": 2138
+        "reviews": 195,
+        "score": 2141
       },
       {
         "name": "Szegoo",
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 126,
           "merged_prs": 84,
-          "reviews": 194,
-          "score": 2138
+          "reviews": 195,
+          "score": 2141
         },
         {
           "name": "jsidorenko",
@@ -17382,6 +17382,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1263,
+                    "pr_title": "[draft] Polkadot: Make Asset Hub Whitelisted Caller accessible in People Chain.",
+                    "reviewed_at": "2026-08-28T15:12:25Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1263"
+                  },
                   {
                     "pr_number": 1256,
                     "pr_title": "Fix xcm weights",
