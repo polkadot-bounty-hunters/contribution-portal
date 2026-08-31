@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-30T09:03:16.477Z",
+  "generated_at": "2026-08-31T09:16:51.906Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1577,
-    "total_prs": 1712,
+    "total_commits": 1578,
+    "total_prs": 1714,
     "total_merged_prs": 1036,
     "total_reviews": 2439
   },
@@ -35,10 +35,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 104,
-        "prs": 145,
+        "prs": 147,
         "merged_prs": 79,
         "reviews": 241,
-        "score": 2342
+        "score": 2352
       },
       {
         "name": "liamaharon",
@@ -64,11 +64,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 122,
+        "commits": 123,
         "prs": 95,
         "merged_prs": 55,
         "reviews": 67,
-        "score": 1348
+        "score": 1349
       },
       {
         "name": "jsidorenko",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 104,
-          "prs": 145,
+          "prs": 147,
           "merged_prs": 79,
           "reviews": 241,
-          "score": 2342
+          "score": 2352
         },
         {
           "name": "franciscoaguirre",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 122,
+          "commits": 123,
           "prs": 95,
           "merged_prs": 55,
           "reviews": 67,
-          "score": 1348
+          "score": 1349
         },
         {
           "name": "pandres95",
@@ -20305,6 +20305,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13029,
+                    "title": "[AHMv2] HRMP design",
+                    "state": "OPEN",
+                    "created_at": "2026-08-30T21:27:33Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13029",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13028,
+                    "title": "[AHMv2] Registrar design",
+                    "state": "OPEN",
+                    "created_at": "2026-08-30T21:18:10Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13028",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12746,
                     "title": "Remove `pallet-scored-pool`",
@@ -135690,6 +135722,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "577c397b0d44f2346e201b68bbf0957f8536bc4a",
+                    "message": "Add PSM remote tests for Asset Hub Polkadot (#1254)",
+                    "date": "2026-08-30T23:31:07Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/577c397b0d44f2346e201b68bbf0957f8536bc4a"
+                  },
                   {
                     "sha": "44bb1266bb67b8125bdb48ecb0538871bc8dc422",
                     "message": "Add PSM to Asset Hub Polkadot runtime (#1252)",

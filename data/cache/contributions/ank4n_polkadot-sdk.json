@@ -507,6 +507,38 @@
   ],
   "prs": [
     {
+      "number": 13029,
+      "title": "[AHMv2] HRMP design",
+      "state": "OPEN",
+      "created_at": "2026-08-30T21:27:33Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13029",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13028,
+      "title": "[AHMv2] Registrar design",
+      "state": "OPEN",
+      "created_at": "2026-08-30T21:18:10Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13028",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 12746,
       "title": "Remove `pallet-scored-pool`",
       "state": "OPEN",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "577c397b0d44f2346e201b68bbf0957f8536bc4a",
+      "message": "Add PSM remote tests for Asset Hub Polkadot (#1254)",
+      "date": "2026-08-30T23:31:07Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/577c397b0d44f2346e201b68bbf0957f8536bc4a"
+    },
+    {
       "sha": "44bb1266bb67b8125bdb48ecb0538871bc8dc422",
       "message": "Add PSM to Asset Hub Polkadot runtime (#1252)",
       "date": "2026-08-24T12:30:00Z",
