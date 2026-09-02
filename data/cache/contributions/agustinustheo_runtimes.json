@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "370a20cf6916b0c059a5d5d72b8432af82e2002d",
+      "message": "Integrate Individuality into People and Asset Hub Polkadot (#1233)",
+      "date": "2026-09-01T11:03:11Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/370a20cf6916b0c059a5d5d72b8432af82e2002d"
+    }
+  ],
   "prs": [
     {
       "number": 1233,

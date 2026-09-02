@@ -9061,6 +9061,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13045,
+      "pr_title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+      "reviewed_at": "2026-09-01T17:19:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13045"
+    },
+    {
       "pr_number": 12882,
       "pr_title": "eth-rpc: skip unresolvable streamed blocks instead of dying",
       "reviewed_at": "2026-08-13T22:11:46Z",

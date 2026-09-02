@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T08:22:33.725Z",
+  "generated_at": "2026-09-02T08:01:14.259Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1578,
-    "total_prs": 1714,
+    "total_commits": 1579,
+    "total_prs": 1715,
     "total_merged_prs": 1036,
-    "total_reviews": 2440
+    "total_reviews": 2441
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 261,
-        "prs": 200,
+        "prs": 201,
         "merged_prs": 149,
         "reviews": 247,
-        "score": 3492
+        "score": 3497
       },
       {
         "name": "pgherveou",
@@ -57,8 +57,8 @@
         "commits": 86,
         "prs": 126,
         "merged_prs": 84,
-        "reviews": 195,
-        "score": 2141
+        "reviews": 196,
+        "score": 2144
       },
       {
         "name": "Szegoo",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 261,
-          "prs": 200,
+          "prs": 201,
           "merged_prs": 149,
           "reviews": 247,
-          "score": 3492
+          "score": 3497
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 126,
           "merged_prs": 84,
-          "reviews": 195,
-          "score": 2141
+          "reviews": 196,
+          "score": 2144
         },
         {
           "name": "jsidorenko",
@@ -5179,11 +5179,11 @@
           "name": "agustinustheo",
           "github": "agustinustheo",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 0,
+          "commits": 1,
           "prs": 1,
           "merged_prs": 0,
           "reviews": 1,
-          "score": 8
+          "score": 9
         },
         {
           "name": "freddyli7",
@@ -14981,6 +14981,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13045,
+                    "pr_title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+                    "reviewed_at": "2026-09-01T17:19:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13045"
+                  },
                   {
                     "pr_number": 12882,
                     "pr_title": "eth-rpc: skip unresolvable streamed blocks instead of dying",
@@ -39803,6 +39809,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13044,
+                    "title": "wip: jam collator",
+                    "state": "OPEN",
+                    "created_at": "2026-09-01T10:50:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13044",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12919,
                     "title": "fatxpool: handle `AlreadyImported` race in `submit_and_watch`",
@@ -171619,7 +171641,14 @@
             "polkadot-fellows/runtimes": {
               "category": "polkadot",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "370a20cf6916b0c059a5d5d72b8432af82e2002d",
+                    "message": "Integrate Individuality into People and Asset Hub Polkadot (#1233)",
+                    "date": "2026-09-01T11:03:11Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/370a20cf6916b0c059a5d5d72b8432af82e2002d"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 1233,
