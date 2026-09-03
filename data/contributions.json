@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-02T08:01:14.259Z",
+  "generated_at": "2026-09-03T08:03:35.711Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1579,
-    "total_prs": 1715,
+    "total_prs": 1716,
     "total_merged_prs": 1036,
     "total_reviews": 2441
   },
@@ -225,10 +225,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 9,
-        "prs": 19,
+        "prs": 20,
         "merged_prs": 2,
         "reviews": 22,
-        "score": 190
+        "score": 195
       },
       {
         "name": "dhirajs0",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 9,
-          "prs": 19,
+          "prs": 20,
           "merged_prs": 2,
           "reviews": 22,
-          "score": 190
+          "score": 195
         },
         {
           "name": "surajk-m",
@@ -171942,6 +171942,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13060,
+                    "title": "Registrar: lock and unlock",
+                    "state": "OPEN",
+                    "created_at": "2026-09-02T10:37:57Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13060",
+                    "ready_for_review_at": "2026-09-02T10:37:57Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12993,
                     "title": "Registrar: deregister",
