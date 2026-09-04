@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-03T08:03:35.711Z",
+  "generated_at": "2026-09-04T08:07:55.587Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1579,
-    "total_prs": 1716,
-    "total_merged_prs": 1036,
+    "total_commits": 1580,
+    "total_prs": 1721,
+    "total_merged_prs": 1037,
     "total_reviews": 2441
   },
   "leaderboard": {
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 261,
-        "prs": 201,
+        "prs": 202,
         "merged_prs": 149,
         "reviews": 247,
-        "score": 3497
+        "score": 3502
       },
       {
         "name": "pgherveou",
@@ -114,11 +114,11 @@
         "name": "karolk91",
         "github": "karolk91",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 21,
-        "prs": 33,
-        "merged_prs": 20,
+        "commits": 22,
+        "prs": 34,
+        "merged_prs": 21,
         "reviews": 101,
-        "score": 689
+        "score": 705
       },
       {
         "name": "Krayt78",
@@ -225,20 +225,20 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 9,
-        "prs": 20,
+        "prs": 22,
         "merged_prs": 2,
         "reviews": 22,
-        "score": 195
+        "score": 205
       },
       {
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
         "commits": 13,
-        "prs": 16,
+        "prs": 17,
         "merged_prs": 2,
         "reviews": 16,
-        "score": 161
+        "score": 166
       },
       {
         "name": "DrW3RK",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 261,
-          "prs": 201,
+          "prs": 202,
           "merged_prs": 149,
           "reviews": 247,
-          "score": 3497
+          "score": 3502
         },
         {
           "name": "ank4n",
@@ -3105,11 +3105,11 @@
           "name": "karolk91",
           "github": "karolk91",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 21,
-          "prs": 33,
-          "merged_prs": 20,
+          "commits": 22,
+          "prs": 34,
+          "merged_prs": 21,
           "reviews": 101,
-          "score": 689
+          "score": 705
         },
         {
           "name": "Krayt78",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 13,
-          "prs": 16,
+          "prs": 17,
           "merged_prs": 2,
           "reviews": 16,
-          "score": 161
+          "score": 166
         },
         {
           "name": "castillax",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 9,
-          "prs": 20,
+          "prs": 22,
           "merged_prs": 2,
           "reviews": 22,
-          "score": 195
+          "score": 205
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.77860074132906,
+    "average_review_time_hours": 74.71927182539679,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5610,10 +5610,10 @@
       },
       {
         "reviewer": "ggwpez",
-        "review_count": 790,
-        "approved_count": 272,
+        "review_count": 791,
+        "approved_count": 273,
         "avg_time_to_review_hours": 81.52746732026144,
-        "approval_rate": 34.43037974683544
+        "approval_rate": 34.51327433628318
       },
       {
         "reviewer": "bkchr",
@@ -5624,10 +5624,10 @@
       },
       {
         "reviewer": "bkontur",
-        "review_count": 491,
-        "approved_count": 145,
-        "avg_time_to_review_hours": 19.174206989247306,
-        "approval_rate": 29.531568228105908
+        "review_count": 492,
+        "approved_count": 146,
+        "avg_time_to_review_hours": 18.870238095238093,
+        "approval_rate": 29.67479674796748
       },
       {
         "reviewer": "athei",
@@ -5763,9 +5763,9 @@
       },
       {
         "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 56.11346296296296,
-        "pr_count": 60,
-        "merged_count": 43
+        "avg_review_time_hours": 55.19396630236794,
+        "pr_count": 61,
+        "merged_count": 44
       },
       {
         "repository": "open-web3-stack/open-runtime-module-library",
@@ -5785,7 +5785,7 @@
       },
       {
         "merger": "ggwpez",
-        "merge_count": 32
+        "merge_count": 33
       },
       {
         "merger": "acatangiu",
@@ -39809,6 +39809,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13088,
+                    "title": "wip: jam collator with authorizers",
+                    "state": "OPEN",
+                    "created_at": "2026-09-03T13:42:42Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13088",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "socket-security[bot]",
+                        "commented_at": "2026-09-03T13:43:54Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13044,
                     "title": "wip: jam collator",
@@ -153626,6 +153647,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "2c025a03758f9cc8e9d095174c23910f3acc3428",
+                    "message": "Bulletin: remove temporary storage-authorization migration (#1274)",
+                    "date": "2026-09-03T11:36:25Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/2c025a03758f9cc8e9d095174c23910f3acc3428"
+                  },
+                  {
                     "sha": "9309a354ee8c33f3e70f1f60e028f5da0cb1ec3b",
                     "message": "ci: improvements (#1251)",
                     "date": "2026-08-22T00:05:07Z",
@@ -153669,6 +153696,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1274,
+                    "title": "Bulletin: remove temporary storage-authorization migration",
+                    "state": "MERGED",
+                    "created_at": "2026-09-03T07:50:37Z",
+                    "closed_at": "2026-09-03T11:36:26Z",
+                    "merged_at": "2026-09-03T11:36:26Z",
+                    "merged_by": "ggwpez",
+                    "author": "karolk91",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1274",
+                    "ready_for_review_at": "2026-09-03T07:50:37Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-09-03T07:52:04Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "ggwpez",
+                        "submitted_at": "2026-09-03T08:45:46Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-09-03T07:51:29Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.024166666666666666,
+                    "time_to_merge_hours": 3.763611111111111
+                  },
                   {
                     "number": 1251,
                     "title": "ci: improvements",
@@ -166941,6 +167000,31 @@
                 ],
                 "prs": [
                   {
+                    "number": 13090,
+                    "title": "pallet-conviction-voting: migrate from Currency locks to fungible freezes",
+                    "state": "CLOSED",
+                    "created_at": "2026-09-03T16:43:33Z",
+                    "closed_at": "2026-09-03T16:44:41Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13090",
+                    "ready_for_review_at": "2026-09-03T16:43:33Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-09-03T16:45:47Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-09-03T17:18:53Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12409,
                     "title": "Add increase_value call to pallet-multi-asset-bounties",
                     "state": "OPEN",
@@ -171942,6 +172026,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13091,
+                    "title": "Registrar: deregister",
+                    "state": "OPEN",
+                    "created_at": "2026-09-04T06:53:31Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13091",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13084,
+                    "title": "Scaffolding",
+                    "state": "OPEN",
+                    "created_at": "2026-09-03T12:10:15Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13084",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13060,
                     "title": "Registrar: lock and unlock",
