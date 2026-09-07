@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T08:02:26.277Z",
+  "generated_at": "2026-09-07T08:10:32.634Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1580,
-    "total_prs": 1722,
+    "total_prs": 1724,
     "total_merged_prs": 1037,
     "total_reviews": 2441
   },
@@ -225,10 +225,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 9,
-        "prs": 23,
+        "prs": 25,
         "merged_prs": 2,
         "reviews": 22,
-        "score": 210
+        "score": 220
       },
       {
         "name": "dhirajs0",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 9,
-          "prs": 23,
+          "prs": 25,
           "merged_prs": 2,
           "reviews": 22,
-          "score": 210
+          "score": 220
         },
         {
           "name": "surajk-m",
@@ -172026,6 +172026,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13113,
+                    "title": "Registrar: Force Register",
+                    "state": "OPEN",
+                    "created_at": "2026-09-07T07:57:52Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13113",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13112,
+                    "title": "Registrar: Schedule Code Upgrade",
+                    "state": "OPEN",
+                    "created_at": "2026-09-07T07:27:18Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13112",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13096,
                     "title": "Registrar: Set Current Head",

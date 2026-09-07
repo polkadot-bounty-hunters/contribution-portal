@@ -57,6 +57,38 @@
   ],
   "prs": [
     {
+      "number": 13113,
+      "title": "Registrar: Force Register",
+      "state": "OPEN",
+      "created_at": "2026-09-07T07:57:52Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13113",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13112,
+      "title": "Registrar: Schedule Code Upgrade",
+      "state": "OPEN",
+      "created_at": "2026-09-07T07:27:18Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13112",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13096,
       "title": "Registrar: Set Current Head",
       "state": "OPEN",
