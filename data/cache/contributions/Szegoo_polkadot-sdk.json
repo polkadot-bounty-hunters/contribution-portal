@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "78ef156b85dbd1753497f49138125a237bb589ed",
+      "message": "Fix auto-renewal charging tasks for foreign workloads (#12750)",
+      "date": "2026-09-07T08:52:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/78ef156b85dbd1753497f49138125a237bb589ed"
+    },
+    {
       "sha": "2920ee0c7fb6e05ab921cfbb4b815811977b945f",
       "message": "Correct PSM creation footprint (#12811)",
       "date": "2026-08-18T08:31:59Z",
@@ -3048,6 +3054,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13119,
+      "pr_title": "[stable2609 Backport #12750] Fix auto-renewal charging tasks for foreign workloads",
+      "reviewed_at": "2026-09-07T17:09:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13119"
+    },
+    {
+      "pr_number": 13118,
+      "pr_title": "[stable2606 Backport #12750] Fix auto-renewal charging tasks for foreign workloads",
+      "reviewed_at": "2026-09-07T14:47:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13118"
+    },
     {
       "pr_number": 12995,
       "pr_title": "Bump WAH spec version",

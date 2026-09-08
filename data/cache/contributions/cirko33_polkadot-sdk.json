@@ -57,6 +57,22 @@
   ],
   "prs": [
     {
+      "number": 13117,
+      "title": "HRMP: Scaffold",
+      "state": "OPEN",
+      "created_at": "2026-09-07T09:52:06Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13117",
+      "ready_for_review_at": "2026-09-07T09:52:06Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13113,
       "title": "Registrar: Force Register",
       "state": "OPEN",
