@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-08T08:07:46.938Z",
+  "generated_at": "2026-09-09T08:16:42.961Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1581,
+    "total_commits": 1582,
     "total_prs": 1725,
     "total_merged_prs": 1037,
     "total_reviews": 2443
@@ -164,11 +164,11 @@
         "name": "rosarp",
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
-        "commits": 9,
+        "commits": 10,
         "prs": 23,
         "merged_prs": 14,
         "reviews": 21,
-        "score": 327
+        "score": 328
       },
       {
         "name": "muraca",
@@ -3125,11 +3125,11 @@
           "name": "rosarp",
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 9,
+          "commits": 10,
           "prs": 23,
           "merged_prs": 14,
           "reviews": 21,
-          "score": 327
+          "score": 328
         },
         {
           "name": "ndkazu",
@@ -159836,6 +159836,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "bfac5667dd3b0ed7127022f98d55e8e788a29202",
+                    "message": "ci: compare bench weights against base repo master, not fork master (#12925)",
+                    "date": "2026-09-08T09:46:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/bfac5667dd3b0ed7127022f98d55e8e788a29202"
+                  },
                   {
                     "sha": "d88e92c692d41d236078a52c76f6649bc4be1cb1",
                     "message": "AHW: populate foreign asset reserves in genesis; use ambient tokio runtime in relay RPC client (#12587)",

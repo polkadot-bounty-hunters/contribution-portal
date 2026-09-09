@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "bfac5667dd3b0ed7127022f98d55e8e788a29202",
+      "message": "ci: compare bench weights against base repo master, not fork master (#12925)",
+      "date": "2026-09-08T09:46:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/bfac5667dd3b0ed7127022f98d55e8e788a29202"
+    },
+    {
       "sha": "d88e92c692d41d236078a52c76f6649bc4be1cb1",
       "message": "AHW: populate foreign asset reserves in genesis; use ambient tokio runtime in relay RPC client (#12587)",
       "date": "2026-07-08T13:27:17Z",
