@@ -795,6 +795,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13153,
+      "pr_title": "pallet-accumulate-and-forward: measure the transfer period from the last forward",
+      "reviewed_at": "2026-09-10T07:25:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13153"
+    },
+    {
       "pr_number": 12993,
       "pr_title": "Registrar: deregister",
       "reviewed_at": "2026-08-25T12:45:37Z",
