@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "6c487ab3c6c19c4f3f58b0a13ad9a848474e9d4c",
+      "message": "rpc-server: set TCP_NODELAY on JSON-RPC connections (#12797)",
+      "date": "2026-09-10T19:46:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6c487ab3c6c19c4f3f58b0a13ad9a848474e9d4c"
+    },
+    {
       "sha": "f6113c0dca3f94f4a2102ebe0ab56f31b4284435",
       "message": "pallet-revive: make the first hot write after a cold read pay the deferred cost (#12802)",
       "date": "2026-08-27T11:19:08Z",
