@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T08:12:50.688Z",
+  "generated_at": "2026-09-12T08:04:45.471Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1583,
-    "total_prs": 1731,
+    "total_prs": 1733,
     "total_merged_prs": 1037,
     "total_reviews": 2447
   },
@@ -225,10 +225,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 9,
-        "prs": 27,
+        "prs": 29,
         "merged_prs": 2,
         "reviews": 24,
-        "score": 236
+        "score": 246
       },
       {
         "name": "dhirajs0",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 9,
-          "prs": 27,
+          "prs": 29,
           "merged_prs": 2,
           "reviews": 24,
-          "score": 236
+          "score": 246
         },
         {
           "name": "surajk-m",
@@ -172142,6 +172142,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13198,
+                    "title": "Close HRMP channels from the coretime chain",
+                    "state": "OPEN",
+                    "created_at": "2026-09-11T11:58:42Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13198",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13195,
+                    "title": "HRMP: Cancel Open Request",
+                    "state": "OPEN",
+                    "created_at": "2026-09-11T09:04:23Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13195",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13168,
                     "title": "HRMP: Request & Accept Channel",
