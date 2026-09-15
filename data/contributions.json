@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-14T08:44:28.228Z",
+  "generated_at": "2026-09-15T08:21:43.889Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1583,
-    "total_prs": 1733,
+    "total_commits": 1584,
+    "total_prs": 1734,
     "total_merged_prs": 1037,
     "total_reviews": 2447
   },
@@ -64,11 +64,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 124,
+        "commits": 125,
         "prs": 96,
         "merged_prs": 55,
         "reviews": 69,
-        "score": 1361
+        "score": 1362
       },
       {
         "name": "jsidorenko",
@@ -225,10 +225,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 9,
-        "prs": 29,
+        "prs": 30,
         "merged_prs": 2,
         "reviews": 24,
-        "score": 246
+        "score": 251
       },
       {
         "name": "dhirajs0",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 124,
+          "commits": 125,
           "prs": 96,
           "merged_prs": 55,
           "reviews": 69,
-          "score": 1361
+          "score": 1362
         },
         {
           "name": "pandres95",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 9,
-          "prs": 29,
+          "prs": 30,
           "merged_prs": 2,
           "reviews": 24,
-          "score": 246
+          "score": 251
         },
         {
           "name": "surajk-m",
@@ -125846,6 +125846,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "c208ccc5d3dfa7f7c0f63af6014e4e9edd366392",
+                    "message": "asset-hub-westend: Remove PSM reset migration (#13137)",
+                    "date": "2026-09-14T11:52:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/c208ccc5d3dfa7f7c0f63af6014e4e9edd366392"
+                  },
+                  {
                     "sha": "78ef156b85dbd1753497f49138125a237bb589ed",
                     "message": "Fix auto-renewal charging tasks for foreign workloads (#12750)",
                     "date": "2026-09-07T08:52:32Z",
@@ -172142,6 +172148,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13213,
+                    "title": "HRMP: force_clean_hrmp and RequestIndex",
+                    "state": "OPEN",
+                    "created_at": "2026-09-14T08:43:29Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13213",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13198,
                     "title": "Close HRMP channels from the coretime chain",
