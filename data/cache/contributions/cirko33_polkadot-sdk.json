@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "576ec2a144c29d294c0cc190f7c4cb3849221113",
+      "message": "Registrar: lock and unlock (#13060)",
+      "date": "2026-09-15T20:05:54Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/576ec2a144c29d294c0cc190f7c4cb3849221113"
+    },
+    {
       "sha": "96f90ea55845da4daa1f1f52948cea539945bfad",
       "message": "Registrar: reserve and register (#12800)",
       "date": "2026-08-21T07:23:35Z",
@@ -56,6 +62,38 @@
     }
   ],
   "prs": [
+    {
+      "number": 13233,
+      "title": "HRMP: Establish System Channel",
+      "state": "OPEN",
+      "created_at": "2026-09-15T20:02:44Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13233",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13232,
+      "title": "HRMP: Force Open Channel",
+      "state": "OPEN",
+      "created_at": "2026-09-15T15:03:53Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13232",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 13213,
       "title": "HRMP: force_clean_hrmp and RequestIndex",

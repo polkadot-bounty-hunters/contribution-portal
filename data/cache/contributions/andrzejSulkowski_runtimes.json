@@ -1,6 +1,61 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 1292,
+      "title": "People Polkadot: Remove single-use Asset Hub subscription whitelist",
+      "state": "OPEN",
+      "created_at": "2026-09-15T08:59:31Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "andrzejSulkowski",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1292",
+      "ready_for_review_at": "2026-09-15T08:59:31Z",
+      "reviews": [
+        {
+          "reviewer": "kianenigma",
+          "submitted_at": "2026-09-15T10:02:56Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2026-09-15T10:07:42Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-09-15T10:16:01Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2026-09-15T11:52:45Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2026-09-15T10:34:41Z"
+        },
+        {
+          "commenter": "andrzejSulkowski",
+          "commented_at": "2026-09-15T10:34:55Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-09-15T10:35:12Z"
+        },
+        {
+          "commenter": "fellowship-merge-bot[bot]",
+          "commented_at": "2026-09-15T10:36:18Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.0569444444444445,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }

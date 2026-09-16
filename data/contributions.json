@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T08:21:43.889Z",
+  "generated_at": "2026-09-16T08:22:45.897Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1584,
-    "total_prs": 1734,
+    "total_commits": 1585,
+    "total_prs": 1737,
     "total_merged_prs": 1037,
     "total_reviews": 2447
   },
@@ -211,6 +211,16 @@
         "score": 263
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 10,
+        "prs": 32,
+        "merged_prs": 2,
+        "reviews": 24,
+        "score": 262
+      },
+      {
         "name": "Overkillus",
         "github": "Overkillus",
         "cohort": "PBA 2 BA 2023",
@@ -219,16 +229,6 @@
         "merged_prs": 10,
         "reviews": 30,
         "score": 254
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 9,
-        "prs": 30,
-        "merged_prs": 2,
-        "reviews": 24,
-        "score": 251
       },
       {
         "name": "dhirajs0",
@@ -4388,10 +4388,10 @@
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 1,
-          "prs": 2,
+          "prs": 3,
           "merged_prs": 1,
           "reviews": 1,
-          "score": 24
+          "score": 29
         },
         {
           "name": "leonardocustodio",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 9,
-          "prs": 30,
+          "commits": 10,
+          "prs": 32,
           "merged_prs": 2,
           "reviews": 24,
-          "score": 251
+          "score": 262
         },
         {
           "name": "surajk-m",
@@ -5599,14 +5599,14 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.71927182539679,
+    "average_review_time_hours": 74.66085602255701,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
-        "review_count": 1362,
-        "approved_count": 209,
-        "avg_time_to_review_hours": 98.24167777777777,
-        "approval_rate": 15.345080763582967
+        "review_count": 1363,
+        "approved_count": 210,
+        "avg_time_to_review_hours": 96.9629312865497,
+        "approval_rate": 15.407190022010273
       },
       {
         "reviewer": "ggwpez",
@@ -5638,10 +5638,10 @@
       },
       {
         "reviewer": "acatangiu",
-        "review_count": 301,
-        "approved_count": 165,
+        "review_count": 302,
+        "approved_count": 166,
         "avg_time_to_review_hours": 82.86602430555556,
-        "approval_rate": 54.81727574750831
+        "approval_rate": 54.966887417218544
       },
       {
         "reviewer": "muharem",
@@ -5756,16 +5756,16 @@
         "merged_count": 265
       },
       {
+        "repository": "polkadot-fellows/runtimes",
+        "avg_review_time_hours": 54.32078853046595,
+        "pr_count": 62,
+        "merged_count": 44
+      },
+      {
         "repository": "paritytech/cumulus",
         "avg_review_time_hours": 88.2360063752277,
         "pr_count": 61,
         "merged_count": 57
-      },
-      {
-        "repository": "polkadot-fellows/runtimes",
-        "avg_review_time_hours": 55.19396630236794,
-        "pr_count": 61,
-        "merged_count": 44
       },
       {
         "repository": "open-web3-stack/open-runtime-module-library",
@@ -165271,7 +165271,62 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 1292,
+                    "title": "People Polkadot: Remove single-use Asset Hub subscription whitelist",
+                    "state": "OPEN",
+                    "created_at": "2026-09-15T08:59:31Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "andrzejSulkowski",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1292",
+                    "ready_for_review_at": "2026-09-15T08:59:31Z",
+                    "reviews": [
+                      {
+                        "reviewer": "kianenigma",
+                        "submitted_at": "2026-09-15T10:02:56Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "georgepisaltu",
+                        "submitted_at": "2026-09-15T10:07:42Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-09-15T10:16:01Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "acatangiu",
+                        "submitted_at": "2026-09-15T11:52:45Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-09-15T10:34:41Z"
+                      },
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-09-15T10:34:55Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-09-15T10:35:12Z"
+                      },
+                      {
+                        "commenter": "fellowship-merge-bot[bot]",
+                        "commented_at": "2026-09-15T10:36:18Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.0569444444444445,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -172093,6 +172148,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "576ec2a144c29d294c0cc190f7c4cb3849221113",
+                    "message": "Registrar: lock and unlock (#13060)",
+                    "date": "2026-09-15T20:05:54Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/576ec2a144c29d294c0cc190f7c4cb3849221113"
+                  },
+                  {
                     "sha": "96f90ea55845da4daa1f1f52948cea539945bfad",
                     "message": "Registrar: reserve and register (#12800)",
                     "date": "2026-08-21T07:23:35Z",
@@ -172148,6 +172209,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13233,
+                    "title": "HRMP: Establish System Channel",
+                    "state": "OPEN",
+                    "created_at": "2026-09-15T20:02:44Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13233",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13232,
+                    "title": "HRMP: Force Open Channel",
+                    "state": "OPEN",
+                    "created_at": "2026-09-15T15:03:53Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13232",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13213,
                     "title": "HRMP: force_clean_hrmp and RequestIndex",
