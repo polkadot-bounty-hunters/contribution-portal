@@ -63,6 +63,22 @@
   ],
   "prs": [
     {
+      "number": 13245,
+      "title": "HRMP: Establish Channel With System",
+      "state": "OPEN",
+      "created_at": "2026-09-16T14:09:39Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13245",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13233,
       "title": "HRMP: Establish System Channel",
       "state": "OPEN",
