@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "e7c242653aba8f3dae834c71546aa0d6f731e0d5",
+      "message": "pallet-psm: reject the `None` origin as a PSM admin (#13256)",
+      "date": "2026-09-17T17:25:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e7c242653aba8f3dae834c71546aa0d6f731e0d5"
+    },
+    {
       "sha": "c208ccc5d3dfa7f7c0f63af6014e4e9edd366392",
       "message": "asset-hub-westend: Remove PSM reset migration (#13137)",
       "date": "2026-09-14T11:52:39Z",
@@ -440,6 +446,47 @@
     }
   ],
   "prs": [
+    {
+      "number": 13256,
+      "title": "pallet-psm: reject the `None` origin as a PSM admin",
+      "state": "MERGED",
+      "created_at": "2026-09-17T13:57:36Z",
+      "closed_at": "2026-09-17T18:15:39Z",
+      "merged_at": "2026-09-17T18:15:39Z",
+      "merged_by": "Szegoo",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13256",
+      "ready_for_review_at": "2026-09-17T13:57:36Z",
+      "reviews": [
+        {
+          "reviewer": "seadanda",
+          "submitted_at": "2026-09-17T15:04:08Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rockbmb",
+          "submitted_at": "2026-09-17T15:05:59Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "rockbmb",
+          "submitted_at": "2026-09-17T16:24:59Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-09-17T15:51:41Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2026-09-17T15:52:38Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.1088888888888888,
+      "time_to_merge_hours": 4.300833333333333
+    },
     {
       "number": 13249,
       "title": "Price oracle: exchange parsing",

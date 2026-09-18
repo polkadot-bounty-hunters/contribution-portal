@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "c83022e3c4632430db3632fb7a2b480718f9eddf",
+      "message": "People Polkadot: Remove single-use Asset Hub subscription whitelist (#1292)",
+      "date": "2026-09-17T13:43:42Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/c83022e3c4632430db3632fb7a2b480718f9eddf"
+    }
+  ],
   "prs": [
     {
       "number": 1292,

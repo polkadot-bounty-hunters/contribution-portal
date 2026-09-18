@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T08:18:05.163Z",
+  "generated_at": "2026-09-18T08:15:20.930Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1585,
-    "total_prs": 1739,
-    "total_merged_prs": 1037,
-    "total_reviews": 2447
+    "total_commits": 1588,
+    "total_prs": 1744,
+    "total_merged_prs": 1038,
+    "total_reviews": 2448
   },
   "leaderboard": {
     "overall": [
@@ -64,11 +64,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 125,
-        "prs": 97,
-        "merged_prs": 55,
+        "commits": 126,
+        "prs": 98,
+        "merged_prs": 56,
         "reviews": 69,
-        "score": 1367
+        "score": 1383
       },
       {
         "name": "jsidorenko",
@@ -154,11 +154,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 28,
+        "commits": 29,
         "prs": 36,
         "merged_prs": 4,
         "reviews": 39,
-        "score": 365
+        "score": 366
       },
       {
         "name": "rosarp",
@@ -205,10 +205,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 10,
-        "prs": 33,
+        "prs": 34,
         "merged_prs": 2,
         "reviews": 24,
-        "score": 267
+        "score": 272
       },
       {
         "name": "smiasojed",
@@ -217,8 +217,8 @@
         "commits": 8,
         "prs": 9,
         "merged_prs": 6,
-        "reviews": 50,
-        "score": 263
+        "reviews": 51,
+        "score": 266
       },
       {
         "name": "Overkillus",
@@ -235,10 +235,10 @@
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
         "commits": 13,
-        "prs": 17,
+        "prs": 20,
         "merged_prs": 2,
         "reviews": 16,
-        "score": 166
+        "score": 181
       },
       {
         "name": "DrW3RK",
@@ -982,8 +982,8 @@
           "commits": 8,
           "prs": 9,
           "merged_prs": 6,
-          "reviews": 50,
-          "score": 263
+          "reviews": 51,
+          "score": 266
         },
         {
           "name": "Overkillus",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 125,
-          "prs": 97,
-          "merged_prs": 55,
+          "commits": 126,
+          "prs": 98,
+          "merged_prs": 56,
           "reviews": 69,
-          "score": 1367
+          "score": 1383
         },
         {
           "name": "pandres95",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 13,
-          "prs": 17,
+          "prs": 20,
           "merged_prs": 2,
           "reviews": 16,
-          "score": 166
+          "score": 181
         },
         {
           "name": "castillax",
@@ -4387,11 +4387,11 @@
           "name": "andrzejSulkowski",
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 1,
+          "commits": 2,
           "prs": 3,
           "merged_prs": 1,
           "reviews": 1,
-          "score": 29
+          "score": 30
         },
         {
           "name": "leonardocustodio",
@@ -5109,21 +5109,21 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 28,
+          "commits": 29,
           "prs": 36,
           "merged_prs": 4,
           "reviews": 39,
-          "score": 365
+          "score": 366
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 10,
-          "prs": 33,
+          "prs": 34,
           "merged_prs": 2,
           "reviews": 24,
-          "score": 267
+          "score": 272
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.66085602255701,
+    "average_review_time_hours": 74.54691211401422,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5736,18 +5736,18 @@
       },
       {
         "reviewer": "seadanda",
-        "review_count": 97,
-        "approved_count": 45,
-        "avg_time_to_review_hours": 47.100625,
-        "approval_rate": 46.391752577319586
+        "review_count": 98,
+        "approved_count": 46,
+        "avg_time_to_review_hours": 41.99043209876543,
+        "approval_rate": 46.93877551020408
       }
     ],
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 83.98691851851854,
-        "pr_count": 825,
-        "merged_count": 664
+        "avg_review_time_hours": 83.79034864973802,
+        "pr_count": 827,
+        "merged_count": 665
       },
       {
         "repository": "paritytech/substrate",
@@ -108934,6 +108934,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13250,
+                    "pr_title": "revive: document contributor and compatibility rules",
+                    "reviewed_at": "2026-09-18T04:25:36Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13250"
+                  },
+                  {
                     "pr_number": 13039,
                     "pr_title": "[pallet-revive] Enforce the storage deposit limit before recording the charge",
                     "reviewed_at": "2026-09-01T03:44:36Z",
@@ -125846,6 +125852,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "e7c242653aba8f3dae834c71546aa0d6f731e0d5",
+                    "message": "pallet-psm: reject the `None` origin as a PSM admin (#13256)",
+                    "date": "2026-09-17T17:25:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/e7c242653aba8f3dae834c71546aa0d6f731e0d5"
+                  },
+                  {
                     "sha": "c208ccc5d3dfa7f7c0f63af6014e4e9edd366392",
                     "message": "asset-hub-westend: Remove PSM reset migration (#13137)",
                     "date": "2026-09-14T11:52:39Z",
@@ -126285,6 +126297,47 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13256,
+                    "title": "pallet-psm: reject the `None` origin as a PSM admin",
+                    "state": "MERGED",
+                    "created_at": "2026-09-17T13:57:36Z",
+                    "closed_at": "2026-09-17T18:15:39Z",
+                    "merged_at": "2026-09-17T18:15:39Z",
+                    "merged_by": "Szegoo",
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13256",
+                    "ready_for_review_at": "2026-09-17T13:57:36Z",
+                    "reviews": [
+                      {
+                        "reviewer": "seadanda",
+                        "submitted_at": "2026-09-17T15:04:08Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "rockbmb",
+                        "submitted_at": "2026-09-17T15:05:59Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "rockbmb",
+                        "submitted_at": "2026-09-17T16:24:59Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-09-17T15:51:41Z"
+                      },
+                      {
+                        "commenter": "Szegoo",
+                        "commented_at": "2026-09-17T15:52:38Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.1088888888888888,
+                    "time_to_merge_hours": 4.300833333333333
+                  },
                   {
                     "number": 13249,
                     "title": "Price oracle: exchange parsing",
@@ -165286,7 +165339,14 @@
             "polkadot-fellows/runtimes": {
               "category": "polkadot",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "c83022e3c4632430db3632fb7a2b480718f9eddf",
+                    "message": "People Polkadot: Remove single-use Asset Hub subscription whitelist (#1292)",
+                    "date": "2026-09-17T13:43:42Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/c83022e3c4632430db3632fb7a2b480718f9eddf"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 1292,
@@ -167192,6 +167252,65 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13259,
+                    "title": "`pallet-collective`: include the voting threshold in the proposal hash",
+                    "state": "OPEN",
+                    "created_at": "2026-09-17T17:51:24Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13259",
+                    "ready_for_review_at": "2026-09-17T17:51:24Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13258,
+                    "title": "pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+                    "state": "OPEN",
+                    "created_at": "2026-09-17T16:06:10Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13258",
+                    "ready_for_review_at": "2026-09-17T16:06:10Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13257,
+                    "title": "`pallet-whitelist`: document that unwhitelisting pauses a live deferral not remove it, pin it with a test.",
+                    "state": "OPEN",
+                    "created_at": "2026-09-17T15:14:06Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13257",
+                    "ready_for_review_at": "2026-09-17T15:14:06Z",
+                    "reviews": [
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-09-17T19:32:12Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-09-17T15:16:49Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 4.301666666666667,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13090,
                     "title": "pallet-conviction-voting: migrate from Currency locks to fungible freezes",
@@ -172226,6 +172345,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13252,
+                    "title": "HRMP: Poke Channel Deposits",
+                    "state": "OPEN",
+                    "created_at": "2026-09-17T11:46:27Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13252",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13245,
                     "title": "HRMP: Establish Channel With System",
                     "state": "OPEN",
@@ -174285,6 +174420,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "dccf478651c2253e490796f86160fedbe55670a9",
+                    "message": "pallet-revive: separate slot warmth from storage access pricing (#13013)",
+                    "date": "2026-09-17T09:38:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/dccf478651c2253e490796f86160fedbe55670a9"
+                  },
                   {
                     "sha": "6c487ab3c6c19c4f3f58b0a13ad9a848474e9d4c",
                     "message": "rpc-server: set TCP_NODELAY on JSON-RPC connections (#12797)",

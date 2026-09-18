@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "dccf478651c2253e490796f86160fedbe55670a9",
+      "message": "pallet-revive: separate slot warmth from storage access pricing (#13013)",
+      "date": "2026-09-17T09:38:45Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/dccf478651c2253e490796f86160fedbe55670a9"
+    },
+    {
       "sha": "6c487ab3c6c19c4f3f58b0a13ad9a848474e9d4c",
       "message": "rpc-server: set TCP_NODELAY on JSON-RPC connections (#12797)",
       "date": "2026-09-10T19:46:17Z",
