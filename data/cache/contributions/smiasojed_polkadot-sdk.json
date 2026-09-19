@@ -1422,6 +1422,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13261,
+      "pr_title": "Bump PolkaVM from 0.35 to 0.36",
+      "reviewed_at": "2026-09-19T02:34:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13261"
+    },
+    {
       "pr_number": 13250,
       "pr_title": "revive: document contributor and compatibility rules",
       "reviewed_at": "2026-09-18T04:25:36Z",

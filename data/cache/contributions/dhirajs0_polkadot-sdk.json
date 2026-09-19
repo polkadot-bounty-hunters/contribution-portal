@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "fd67bf19cbe55bd8c290d7e09ccca69ada3b68e3",
+      "message": "`pallet-whitelist`: document that unwhitelisting pauses a live deferral not remove it, pin it with a test. (#13257)",
+      "date": "2026-09-18T11:47:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/fd67bf19cbe55bd8c290d7e09ccca69ada3b68e3"
+    },
+    {
       "sha": "513c79719426c66b1b02ea9d3dc746f90ac737b7",
       "message": "Add increase_value call to pallet-multi-asset-bounties (#12409)",
       "date": "2026-07-12T03:48:15Z",

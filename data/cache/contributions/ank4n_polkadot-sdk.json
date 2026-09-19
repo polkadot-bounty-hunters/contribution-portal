@@ -7793,6 +7793,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13265,
+      "pr_title": "election-provider-support: fix MaxEncodedLen undercount in generated solution types",
+      "reviewed_at": "2026-09-18T12:51:56Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13265"
+    },
+    {
       "pr_number": 13166,
       "pr_title": "staking-async parachain and WAH genesis: fund DAP buffer as signed reward pot",
       "reviewed_at": "2026-09-10T15:22:56Z",

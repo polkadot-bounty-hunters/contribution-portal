@@ -177,6 +177,33 @@
   ],
   "prs": [
     {
+      "number": 13263,
+      "title": "pallet-revive: extend the stipend reentrancy guard to value transfers",
+      "state": "OPEN",
+      "created_at": "2026-09-18T09:34:03Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13263",
+      "ready_for_review_at": "2026-09-18T09:34:03Z",
+      "reviews": [
+        {
+          "reviewer": "marian-radu",
+          "submitted_at": "2026-09-18T09:42:18Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-09-18T10:13:17Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.1375,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13013,
       "title": "pallet-revive: separate slot warmth from storage access pricing",
       "state": "OPEN",
@@ -1255,6 +1282,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13263,
+      "pr_title": "pallet-revive: extend the stipend reentrancy guard to value transfers",
+      "reviewed_at": "2026-09-18T10:13:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13263"
+    },
     {
       "pr_number": 12866,
       "pr_title": "[pallet-revive] expose ReentrancyProtection",

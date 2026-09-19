@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-18T08:15:20.930Z",
+  "generated_at": "2026-09-19T08:14:08.989Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1588,
-    "total_prs": 1744,
+    "total_commits": 1589,
+    "total_prs": 1745,
     "total_merged_prs": 1038,
-    "total_reviews": 2448
+    "total_reviews": 2451
   },
   "leaderboard": {
     "overall": [
@@ -37,8 +37,8 @@
         "commits": 104,
         "prs": 149,
         "merged_prs": 79,
-        "reviews": 243,
-        "score": 2368
+        "reviews": 244,
+        "score": 2371
       },
       {
         "name": "liamaharon",
@@ -155,10 +155,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 29,
-        "prs": 36,
+        "prs": 37,
         "merged_prs": 4,
-        "reviews": 39,
-        "score": 366
+        "reviews": 40,
+        "score": 374
       },
       {
         "name": "rosarp",
@@ -217,8 +217,8 @@
         "commits": 8,
         "prs": 9,
         "merged_prs": 6,
-        "reviews": 51,
-        "score": 266
+        "reviews": 52,
+        "score": 269
       },
       {
         "name": "Overkillus",
@@ -234,11 +234,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 13,
+        "commits": 14,
         "prs": 20,
         "merged_prs": 2,
         "reviews": 16,
-        "score": 181
+        "score": 182
       },
       {
         "name": "DrW3RK",
@@ -530,8 +530,8 @@
           "commits": 104,
           "prs": 149,
           "merged_prs": 79,
-          "reviews": 243,
-          "score": 2368
+          "reviews": 244,
+          "score": 2371
         },
         {
           "name": "franciscoaguirre",
@@ -982,8 +982,8 @@
           "commits": 8,
           "prs": 9,
           "merged_prs": 6,
-          "reviews": 51,
-          "score": 266
+          "reviews": 52,
+          "score": 269
         },
         {
           "name": "Overkillus",
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 13,
+          "commits": 14,
           "prs": 20,
           "merged_prs": 2,
           "reviews": 16,
-          "score": 181
+          "score": 182
         },
         {
           "name": "castillax",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 29,
-          "prs": 36,
+          "prs": 37,
           "merged_prs": 4,
-          "reviews": 39,
-          "score": 366
+          "reviews": 40,
+          "score": 374
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.54691211401422,
+    "average_review_time_hours": 74.48804390822781,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 83.79034864973802,
-        "pr_count": 827,
+        "avg_review_time_hours": 83.68931863929147,
+        "pr_count": 828,
         "merged_count": 665
       },
       {
@@ -27597,6 +27597,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13265,
+                    "pr_title": "election-provider-support: fix MaxEncodedLen undercount in generated solution types",
+                    "reviewed_at": "2026-09-18T12:51:56Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13265"
+                  },
                   {
                     "pr_number": 13166,
                     "pr_title": "staking-async parachain and WAH genesis: fund DAP buffer as signed reward pot",
@@ -108934,6 +108940,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13261,
+                    "pr_title": "Bump PolkaVM from 0.35 to 0.36",
+                    "reviewed_at": "2026-09-19T02:34:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13261"
+                  },
+                  {
                     "pr_number": 13250,
                     "pr_title": "revive: document contributor and compatibility rules",
                     "reviewed_at": "2026-09-18T04:25:36Z",
@@ -167209,6 +167221,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "fd67bf19cbe55bd8c290d7e09ccca69ada3b68e3",
+                    "message": "`pallet-whitelist`: document that unwhitelisting pauses a live deferral not remove it, pin it with a test. (#13257)",
+                    "date": "2026-09-18T11:47:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/fd67bf19cbe55bd8c290d7e09ccca69ada3b68e3"
+                  },
+                  {
                     "sha": "513c79719426c66b1b02ea9d3dc746f90ac737b7",
                     "message": "Add increase_value call to pallet-multi-asset-bounties (#12409)",
                     "date": "2026-07-12T03:48:15Z",
@@ -174597,6 +174615,33 @@
                 ],
                 "prs": [
                   {
+                    "number": 13263,
+                    "title": "pallet-revive: extend the stipend reentrancy guard to value transfers",
+                    "state": "OPEN",
+                    "created_at": "2026-09-18T09:34:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13263",
+                    "ready_for_review_at": "2026-09-18T09:34:03Z",
+                    "reviews": [
+                      {
+                        "reviewer": "marian-radu",
+                        "submitted_at": "2026-09-18T09:42:18Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-09-18T10:13:17Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.1375,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13013,
                     "title": "pallet-revive: separate slot warmth from storage access pricing",
                     "state": "OPEN",
@@ -175675,6 +175720,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13263,
+                    "pr_title": "pallet-revive: extend the stipend reentrancy guard to value transfers",
+                    "reviewed_at": "2026-09-18T10:13:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13263"
+                  },
                   {
                     "pr_number": 12866,
                     "pr_title": "[pallet-revive] expose ReentrancyProtection",
