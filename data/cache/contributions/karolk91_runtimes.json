@@ -1235,6 +1235,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1303,
+      "pr_title": "Removed forgotten MigrateToLatestXcmVersion from BulletinPolkadot",
+      "reviewed_at": "2026-09-22T06:22:10Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1303"
+    },
+    {
       "pr_number": 1256,
       "pr_title": "Fix xcm weights",
       "reviewed_at": "2026-08-25T01:36:06Z",

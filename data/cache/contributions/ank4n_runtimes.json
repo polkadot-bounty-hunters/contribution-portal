@@ -51,6 +51,22 @@
   ],
   "prs": [
     {
+      "number": 1305,
+      "title": "[AHMv2] Shared migrator types and balance primitives",
+      "state": "OPEN",
+      "created_at": "2026-09-21T22:42:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1305",
+      "ready_for_review_at": "2026-09-21T22:42:24Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 1285,
       "title": "[AHMv2] Migrator scaffolding + snapshot test harness",
       "state": "OPEN",
