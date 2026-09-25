@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "c534ae5fee6bfcc4b00450ad4f27c19346097d5d",
+      "message": "[AHMv2] Migrator dependencies (#13282)",
+      "date": "2026-09-24T20:10:44Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c534ae5fee6bfcc4b00450ad4f27c19346097d5d"
+    },
+    {
       "sha": "cde8a924504c99e768940bf6b600716725c3c438",
       "message": "Remove `pallet-scored-pool` (#12746)",
       "date": "2026-08-07T08:36:45Z",

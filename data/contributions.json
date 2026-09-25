@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-24T08:19:33.933Z",
+  "generated_at": "2026-09-25T08:14:02.770Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1590,
-    "total_prs": 1750,
+    "total_commits": 1592,
+    "total_prs": 1751,
     "total_merged_prs": 1039,
     "total_reviews": 2452
   },
@@ -34,11 +34,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 104,
+        "commits": 106,
         "prs": 151,
         "merged_prs": 79,
         "reviews": 244,
-        "score": 2381
+        "score": 2383
       },
       {
         "name": "liamaharon",
@@ -65,10 +65,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 126,
-        "prs": 98,
+        "prs": 99,
         "merged_prs": 56,
         "reviews": 69,
-        "score": 1383
+        "score": 1388
       },
       {
         "name": "jsidorenko",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 104,
+          "commits": 106,
           "prs": 151,
           "merged_prs": 79,
           "reviews": 244,
-          "score": 2381
+          "score": 2383
         },
         {
           "name": "franciscoaguirre",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 126,
-          "prs": 98,
+          "prs": 99,
           "merged_prs": 56,
           "reviews": 69,
-          "score": 1383
+          "score": 1388
         },
         {
           "name": "pandres95",
@@ -19806,6 +19806,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "c534ae5fee6bfcc4b00450ad4f27c19346097d5d",
+                    "message": "[AHMv2] Migrator dependencies (#13282)",
+                    "date": "2026-09-24T20:10:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/c534ae5fee6bfcc4b00450ad4f27c19346097d5d"
+                  },
+                  {
                     "sha": "cde8a924504c99e768940bf6b600716725c3c438",
                     "message": "Remove `pallet-scored-pool` (#12746)",
                     "date": "2026-08-07T08:36:45Z",
@@ -31684,6 +31690,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "bdc754b30a22fbd6bff3bde6572480317b106309",
+                    "message": "[AHMv2] Migrator state machine + snapshot test harness (#1285)",
+                    "date": "2026-09-24T15:58:24Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/bdc754b30a22fbd6bff3bde6572480317b106309"
+                  },
                   {
                     "sha": "05c70db1df49d5f3d1c1ec8176b920129befc12b",
                     "message": "Add migration for PAH pool member with trapped funds (#1104)",
@@ -126346,6 +126358,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13311,
+                    "title": "pallet-broker: fix double counting of re-pooled regions",
+                    "state": "OPEN",
+                    "created_at": "2026-09-24T14:43:14Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13311",
+                    "ready_for_review_at": "2026-09-24T14:43:14Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13256,
                     "title": "pallet-psm: reject the `None` origin as a PSM admin",

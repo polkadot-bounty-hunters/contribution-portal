@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "bdc754b30a22fbd6bff3bde6572480317b106309",
+      "message": "[AHMv2] Migrator state machine + snapshot test harness (#1285)",
+      "date": "2026-09-24T15:58:24Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/bdc754b30a22fbd6bff3bde6572480317b106309"
+    },
+    {
       "sha": "05c70db1df49d5f3d1c1ec8176b920129befc12b",
       "message": "Add migration for PAH pool member with trapped funds (#1104)",
       "date": "2026-03-10T13:08:17Z",
