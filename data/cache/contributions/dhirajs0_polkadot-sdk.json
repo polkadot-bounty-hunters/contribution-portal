@@ -51,6 +51,38 @@
   ],
   "prs": [
     {
+      "number": 13322,
+      "title": "pallet-scheduler: remove aborted and unserviceable tasks from agendas",
+      "state": "OPEN",
+      "created_at": "2026-09-25T15:04:47Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13322",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13321,
+      "title": "Clarify that scheduler priority never bypasses MaximumWeight",
+      "state": "OPEN",
+      "created_at": "2026-09-25T13:48:58Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13321",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13259,
       "title": "`pallet-collective`: include the voting threshold in the proposal hash",
       "state": "OPEN",
