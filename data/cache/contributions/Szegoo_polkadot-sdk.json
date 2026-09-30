@@ -453,6 +453,31 @@
   ],
   "prs": [
     {
+      "number": 13357,
+      "title": "pallet-scheduler: fix false `PermanentlyOverweight`",
+      "state": "OPEN",
+      "created_at": "2026-09-29T12:12:22Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13357",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "dhirajs0",
+          "commented_at": "2026-09-29T13:13:07Z"
+        },
+        {
+          "commenter": "Szegoo",
+          "commented_at": "2026-09-29T13:18:32Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13350,
       "title": "Move venue definitions into `pallet-price-oracle-venues`",
       "state": "OPEN",
@@ -467,7 +492,7 @@
       "comments": [
         {
           "commenter": "paritytech-workflow-stopper[bot]",
-          "commented_at": "2026-09-29T07:53:05Z"
+          "commented_at": "2026-09-29T11:52:18Z"
         }
       ],
       "time_to_first_review_hours": null,

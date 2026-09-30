@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-29T09:03:59.510Z",
+  "generated_at": "2026-09-30T09:05:54.711Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1594,
-    "total_prs": 1756,
+    "total_prs": 1761,
     "total_merged_prs": 1040,
     "total_reviews": 2452
   },
@@ -65,10 +65,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 127,
-        "prs": 101,
+        "prs": 102,
         "merged_prs": 57,
         "reviews": 69,
-        "score": 1409
+        "score": 1414
       },
       {
         "name": "jsidorenko",
@@ -205,10 +205,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 11,
-        "prs": 35,
+        "prs": 36,
         "merged_prs": 2,
         "reviews": 24,
-        "score": 278
+        "score": 283
       },
       {
         "name": "smiasojed",
@@ -235,10 +235,10 @@
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
         "commits": 14,
-        "prs": 22,
+        "prs": 25,
         "merged_prs": 2,
         "reviews": 16,
-        "score": 192
+        "score": 207
       },
       {
         "name": "DrW3RK",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 127,
-          "prs": 101,
+          "prs": 102,
           "merged_prs": 57,
           "reviews": 69,
-          "score": 1409
+          "score": 1414
         },
         {
           "name": "pandres95",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 14,
-          "prs": 22,
+          "prs": 25,
           "merged_prs": 2,
           "reviews": 16,
-          "score": 192
+          "score": 207
         },
         {
           "name": "castillax",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 11,
-          "prs": 35,
+          "prs": 36,
           "merged_prs": 2,
           "reviews": 24,
-          "score": 278
+          "score": 283
         },
         {
           "name": "surajk-m",
@@ -126371,6 +126371,31 @@
                 ],
                 "prs": [
                   {
+                    "number": 13357,
+                    "title": "pallet-scheduler: fix false `PermanentlyOverweight`",
+                    "state": "OPEN",
+                    "created_at": "2026-09-29T12:12:22Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13357",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-09-29T13:13:07Z"
+                      },
+                      {
+                        "commenter": "Szegoo",
+                        "commented_at": "2026-09-29T13:18:32Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13350,
                     "title": "Move venue definitions into `pallet-price-oracle-venues`",
                     "state": "OPEN",
@@ -126385,7 +126410,7 @@
                     "comments": [
                       {
                         "commenter": "paritytech-workflow-stopper[bot]",
-                        "commented_at": "2026-09-29T07:53:05Z"
+                        "commented_at": "2026-09-29T11:52:18Z"
                       }
                     ],
                     "time_to_first_review_hours": null,
@@ -167413,6 +167438,54 @@
                 ],
                 "prs": [
                   {
+                    "number": 13365,
+                    "title": "frame-system: apply call filter to AuthorizeCall origin",
+                    "state": "OPEN",
+                    "created_at": "2026-09-29T16:09:22Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13365",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13364,
+                    "title": "frame-system: refund authorize weight when AuthorizeCall skips it",
+                    "state": "OPEN",
+                    "created_at": "2026-09-29T16:09:19Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13364",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13363,
+                    "title": "pallet-scheduler: place retries with a zero period into the next block",
+                    "state": "OPEN",
+                    "created_at": "2026-09-29T16:07:24Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13363",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13322,
                     "title": "pallet-scheduler: remove aborted and unserviceable tasks from agendas",
                     "state": "OPEN",
@@ -172542,6 +172615,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13372,
+                    "title": "HRMP: New Deposit Flow",
+                    "state": "OPEN",
+                    "created_at": "2026-09-30T08:24:51Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13372",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13299,
                     "title": "Registrar: charge registration for max code size",
