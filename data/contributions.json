@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T09:07:35.208Z",
+  "generated_at": "2026-10-03T08:40:43.258Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1594,
-    "total_prs": 1762,
+    "total_prs": 1765,
     "total_merged_prs": 1040,
     "total_reviews": 2452
   },
@@ -65,10 +65,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 127,
-        "prs": 103,
+        "prs": 105,
         "merged_prs": 57,
         "reviews": 69,
-        "score": 1419
+        "score": 1429
       },
       {
         "name": "jsidorenko",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 127,
-          "prs": 103,
+          "prs": 105,
           "merged_prs": 57,
           "reviews": 69,
-          "score": 1419
+          "score": 1429
         },
         {
           "name": "pandres95",
@@ -4388,10 +4388,10 @@
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 2,
-          "prs": 4,
+          "prs": 5,
           "merged_prs": 1,
           "reviews": 1,
-          "score": 35
+          "score": 40
         },
         {
           "name": "leonardocustodio",
@@ -126371,6 +126371,43 @@
                 ],
                 "prs": [
                   {
+                    "number": 13396,
+                    "title": "Price oracle: generic market pricing",
+                    "state": "OPEN",
+                    "created_at": "2026-10-02T09:40:55Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13396",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13393,
+                    "title": "Price oracle: register pairs and cross rates in storage",
+                    "state": "OPEN",
+                    "created_at": "2026-10-02T08:30:07Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13393",
+                    "ready_for_review_at": "2026-10-02T08:30:07Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-10-02T08:40:39Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13388,
                     "title": "Price oracle: only fetch markets from public hosts",
                     "state": "OPEN",
@@ -165532,6 +165569,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1316,
+                    "title": "Update crates to SDK stable2606-2 via psvm",
+                    "state": "OPEN",
+                    "created_at": "2026-10-03T06:32:50Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "andrzejSulkowski",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1316",
+                    "ready_for_review_at": "2026-10-03T06:32:50Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "andrzejSulkowski",
+                        "commented_at": "2026-10-03T06:51:56Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1306,
                     "title": "[WIP] Remaining Individuality Pallets",
