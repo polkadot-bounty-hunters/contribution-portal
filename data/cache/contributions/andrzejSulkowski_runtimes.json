@@ -9,6 +9,22 @@
   ],
   "prs": [
     {
+      "number": 1320,
+      "title": "Update Individuality dependencies",
+      "state": "OPEN",
+      "created_at": "2026-10-04T08:54:09Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "andrzejSulkowski",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1320",
+      "ready_for_review_at": "2026-10-04T08:54:09Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 1316,
       "title": "Update crates to SDK stable2606-2 via psvm",
       "state": "OPEN",
