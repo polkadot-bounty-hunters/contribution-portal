@@ -1422,6 +1422,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13413,
+      "pr_title": "pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
+      "reviewed_at": "2026-10-05T14:34:38Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13413"
+    },
+    {
       "pr_number": 13261,
       "pr_title": "Bump PolkaVM from 0.35 to 0.36",
       "reviewed_at": "2026-09-19T02:34:25Z",

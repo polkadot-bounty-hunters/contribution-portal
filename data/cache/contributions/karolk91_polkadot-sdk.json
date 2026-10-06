@@ -1708,6 +1708,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13411,
+      "pr_title": "[XCMP/HRMP] fix `last_processed_block` update",
+      "reviewed_at": "2026-10-06T07:49:17Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13411"
+    },
+    {
       "pr_number": 11968,
       "pr_title": "[unstable2604] Backport #11962",
       "reviewed_at": "2026-05-04T10:49:20Z",

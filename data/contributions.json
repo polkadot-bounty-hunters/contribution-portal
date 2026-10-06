@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T09:18:38.660Z",
+  "generated_at": "2026-10-06T09:42:10.413Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1594,
     "total_prs": 1767,
     "total_merged_prs": 1040,
-    "total_reviews": 2452
+    "total_reviews": 2454
   },
   "leaderboard": {
     "overall": [
@@ -117,8 +117,8 @@
         "commits": 22,
         "prs": 34,
         "merged_prs": 21,
-        "reviews": 102,
-        "score": 708
+        "reviews": 103,
+        "score": 711
       },
       {
         "name": "Krayt78",
@@ -217,8 +217,8 @@
         "commits": 8,
         "prs": 9,
         "merged_prs": 6,
-        "reviews": 52,
-        "score": 269
+        "reviews": 53,
+        "score": 272
       },
       {
         "name": "Overkillus",
@@ -982,8 +982,8 @@
           "commits": 8,
           "prs": 9,
           "merged_prs": 6,
-          "reviews": 52,
-          "score": 269
+          "reviews": 53,
+          "score": 272
         },
         {
           "name": "Overkillus",
@@ -3108,8 +3108,8 @@
           "commits": 22,
           "prs": 34,
           "merged_prs": 21,
-          "reviews": 102,
-          "score": 708
+          "reviews": 103,
+          "score": 711
         },
         {
           "name": "Krayt78",
@@ -31754,7 +31754,7 @@
                 "prs": [
                   {
                     "number": 1321,
-                    "title": "[AHMv2] Call filters before/during/after migration",
+                    "title": "[AHMv2] Lockdown",
                     "state": "OPEN",
                     "created_at": "2026-10-05T06:24:23Z",
                     "closed_at": null,
@@ -31762,9 +31762,14 @@
                     "merged_by": null,
                     "author": "ank4n",
                     "url": "https://github.com/polkadot-fellows/runtimes/pull/1321",
-                    "ready_for_review_at": null,
+                    "ready_for_review_at": "2026-10-05T06:24:23Z",
                     "reviews": [],
-                    "comments": [],
+                    "comments": [
+                      {
+                        "commenter": "sigurpol",
+                        "commented_at": "2026-10-06T07:17:01Z"
+                      }
+                    ],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
@@ -109011,6 +109016,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13413,
+                    "pr_title": "pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
+                    "reviewed_at": "2026-10-05T14:34:38Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13413"
+                  },
+                  {
                     "pr_number": 13261,
                     "pr_title": "Bump PolkaVM from 0.35 to 0.36",
                     "reviewed_at": "2026-09-19T02:34:25Z",
@@ -153541,6 +153552,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13411,
+                    "pr_title": "[XCMP/HRMP] fix `last_processed_block` update",
+                    "reviewed_at": "2026-10-06T07:49:17Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13411"
+                  },
                   {
                     "pr_number": 11968,
                     "pr_title": "[unstable2604] Backport #11962",

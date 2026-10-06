@@ -64,7 +64,7 @@
   "prs": [
     {
       "number": 1321,
-      "title": "[AHMv2] Call filters before/during/after migration",
+      "title": "[AHMv2] Lockdown",
       "state": "OPEN",
       "created_at": "2026-10-05T06:24:23Z",
       "closed_at": null,
@@ -72,9 +72,14 @@
       "merged_by": null,
       "author": "ank4n",
       "url": "https://github.com/polkadot-fellows/runtimes/pull/1321",
-      "ready_for_review_at": null,
+      "ready_for_review_at": "2026-10-05T06:24:23Z",
       "reviews": [],
-      "comments": [],
+      "comments": [
+        {
+          "commenter": "sigurpol",
+          "commented_at": "2026-10-06T07:17:01Z"
+        }
+      ],
       "time_to_first_review_hours": null,
       "time_to_merge_hours": null
     },
