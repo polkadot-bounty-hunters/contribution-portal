@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-06T09:42:10.413Z",
+  "generated_at": "2026-10-07T09:18:18.036Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1594,
     "total_prs": 1767,
     "total_merged_prs": 1040,
-    "total_reviews": 2454
+    "total_reviews": 2455
   },
   "leaderboard": {
     "overall": [
@@ -237,8 +237,8 @@
         "commits": 14,
         "prs": 25,
         "merged_prs": 2,
-        "reviews": 16,
-        "score": 207
+        "reviews": 17,
+        "score": 210
       },
       {
         "name": "DrW3RK",
@@ -4340,8 +4340,8 @@
           "commits": 14,
           "prs": 25,
           "merged_prs": 2,
-          "reviews": 16,
-          "score": 207
+          "reviews": 17,
+          "score": 210
         },
         {
           "name": "castillax",
@@ -168030,6 +168030,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13421,
+                    "pr_title": "frame-support: make `#[stored]` work in crates without a direct `derive-where` dependency'",
+                    "reviewed_at": "2026-10-06T15:59:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13421"
+                  },
                   {
                     "pr_number": 12952,
                     "pr_title": "[stable2606] Backport #12245 & #12811",

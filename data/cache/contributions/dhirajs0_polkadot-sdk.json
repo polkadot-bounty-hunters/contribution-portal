@@ -516,6 +516,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13421,
+      "pr_title": "frame-support: make `#[stored]` work in crates without a direct `derive-where` dependency'",
+      "reviewed_at": "2026-10-06T15:59:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13421"
+    },
+    {
       "pr_number": 12952,
       "pr_title": "[stable2606] Backport #12245 & #12811",
       "reviewed_at": "2026-08-20T20:14:20Z",
