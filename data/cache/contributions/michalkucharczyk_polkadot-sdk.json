@@ -9605,6 +9605,30 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13444,
+      "pr_title": "[stable2606 Backport #12433] txpool: maintain on all blocks",
+      "reviewed_at": "2026-10-08T07:59:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13444"
+    },
+    {
+      "pr_number": 13443,
+      "pr_title": "[stable2606 Backport #11731] fatxpool: unban viewless transactions after mempool revalidation",
+      "reviewed_at": "2026-10-08T07:18:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13443"
+    },
+    {
+      "pr_number": 13442,
+      "pr_title": "[stable2606 Backport #11733] fatxpool: invalid inblock event fixed",
+      "reviewed_at": "2026-10-08T07:16:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13442"
+    },
+    {
+      "pr_number": 13441,
+      "pr_title": "[stable2606 Backport #12362] fatxpool: preserve order of same-priority transactions on re-orgs",
+      "reviewed_at": "2026-10-08T07:11:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13441"
+    },
+    {
       "pr_number": 12887,
       "pr_title": "Increase default light client slots",
       "reviewed_at": "2026-08-14T12:42:23Z",

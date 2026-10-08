@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-07T09:18:18.036Z",
+  "generated_at": "2026-10-08T09:33:48.590Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1594,
     "total_prs": 1767,
     "total_merged_prs": 1040,
-    "total_reviews": 2455
+    "total_reviews": 2459
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 261,
         "prs": 202,
         "merged_prs": 149,
-        "reviews": 247,
-        "score": 3502
+        "reviews": 251,
+        "score": 3514
       },
       {
         "name": "pgherveou",
@@ -520,8 +520,8 @@
           "commits": 261,
           "prs": 202,
           "merged_prs": 149,
-          "reviews": 247,
-          "score": 3502
+          "reviews": 251,
+          "score": 3514
         },
         {
           "name": "ank4n",
@@ -48499,6 +48499,30 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13444,
+                    "pr_title": "[stable2606 Backport #12433] txpool: maintain on all blocks",
+                    "reviewed_at": "2026-10-08T07:59:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13444"
+                  },
+                  {
+                    "pr_number": 13443,
+                    "pr_title": "[stable2606 Backport #11731] fatxpool: unban viewless transactions after mempool revalidation",
+                    "reviewed_at": "2026-10-08T07:18:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13443"
+                  },
+                  {
+                    "pr_number": 13442,
+                    "pr_title": "[stable2606 Backport #11733] fatxpool: invalid inblock event fixed",
+                    "reviewed_at": "2026-10-08T07:16:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13442"
+                  },
+                  {
+                    "pr_number": 13441,
+                    "pr_title": "[stable2606 Backport #12362] fatxpool: preserve order of same-priority transactions on re-orgs",
+                    "reviewed_at": "2026-10-08T07:11:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13441"
+                  },
                   {
                     "pr_number": 12887,
                     "pr_title": "Increase default light client slots",
