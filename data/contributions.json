@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-08T09:33:48.590Z",
+  "generated_at": "2026-10-09T09:33:16.824Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1594,
     "total_prs": 1767,
     "total_merged_prs": 1040,
-    "total_reviews": 2459
+    "total_reviews": 2460
   },
   "leaderboard": {
     "overall": [
@@ -157,8 +157,8 @@
         "commits": 29,
         "prs": 38,
         "merged_prs": 4,
-        "reviews": 40,
-        "score": 379
+        "reviews": 41,
+        "score": 382
       },
       {
         "name": "rosarp",
@@ -5112,8 +5112,8 @@
           "commits": 29,
           "prs": 38,
           "merged_prs": 4,
-          "reviews": 40,
-          "score": 379
+          "reviews": 41,
+          "score": 382
         },
         {
           "name": "cirko33",
@@ -48502,7 +48502,7 @@
                   {
                     "pr_number": 13444,
                     "pr_title": "[stable2606 Backport #12433] txpool: maintain on all blocks",
-                    "reviewed_at": "2026-10-08T07:59:37Z",
+                    "reviewed_at": "2026-10-08T09:19:04Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13444"
                   },
                   {
@@ -176220,6 +176220,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13448,
+                    "pr_title": "Bump revive differential tests",
+                    "reviewed_at": "2026-10-08T15:02:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13448"
+                  },
                   {
                     "pr_number": 13263,
                     "pr_title": "pallet-revive: extend the stipend reentrancy guard to value transfers",

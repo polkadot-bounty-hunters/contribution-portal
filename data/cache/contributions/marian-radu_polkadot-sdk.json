@@ -1312,6 +1312,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13448,
+      "pr_title": "Bump revive differential tests",
+      "reviewed_at": "2026-10-08T15:02:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13448"
+    },
+    {
       "pr_number": 13263,
       "pr_title": "pallet-revive: extend the stipend reentrancy guard to value transfers",
       "reviewed_at": "2026-09-18T10:13:17Z",

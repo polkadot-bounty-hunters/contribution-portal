@@ -9607,7 +9607,7 @@
     {
       "pr_number": 13444,
       "pr_title": "[stable2606 Backport #12433] txpool: maintain on all blocks",
-      "reviewed_at": "2026-10-08T07:59:37Z",
+      "reviewed_at": "2026-10-08T09:19:04Z",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13444"
     },
     {
