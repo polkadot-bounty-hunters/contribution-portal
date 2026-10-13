@@ -63,6 +63,38 @@
   ],
   "prs": [
     {
+      "number": 1325,
+      "title": "[AHMv2] Manager multisig voting by unsigned extrinsic",
+      "state": "OPEN",
+      "created_at": "2026-10-12T16:04:27Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1325",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1324,
+      "title": "[AHMv2] Accounts stage of the migration",
+      "state": "OPEN",
+      "created_at": "2026-10-12T14:24:17Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "ank4n",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1324",
+      "ready_for_review_at": "2026-10-12T14:24:17Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 1321,
       "title": "[AHMv2] Lockdown",
       "state": "OPEN",
