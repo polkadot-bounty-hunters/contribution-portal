@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T06:52:59.501Z",
+  "generated_at": "2026-10-15T08:06:23.611Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1594,
-    "total_prs": 1769,
-    "total_merged_prs": 1040,
-    "total_reviews": 2460
+    "total_commits": 1597,
+    "total_prs": 1772,
+    "total_merged_prs": 1041,
+    "total_reviews": 2464
   },
   "leaderboard": {
     "overall": [
@@ -34,11 +34,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 107,
-        "prs": 154,
-        "merged_prs": 79,
-        "reviews": 244,
-        "score": 2399
+        "commits": 109,
+        "prs": 155,
+        "merged_prs": 80,
+        "reviews": 247,
+        "score": 2425
       },
       {
         "name": "liamaharon",
@@ -155,10 +155,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 29,
-        "prs": 38,
+        "prs": 40,
         "merged_prs": 4,
         "reviews": 41,
-        "score": 382
+        "score": 392
       },
       {
         "name": "rosarp",
@@ -207,8 +207,8 @@
         "commits": 11,
         "prs": 36,
         "merged_prs": 2,
-        "reviews": 24,
-        "score": 283
+        "reviews": 25,
+        "score": 286
       },
       {
         "name": "smiasojed",
@@ -234,11 +234,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 14,
+        "commits": 15,
         "prs": 25,
         "merged_prs": 2,
         "reviews": 17,
-        "score": 210
+        "score": 211
       },
       {
         "name": "DrW3RK",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 107,
-          "prs": 154,
-          "merged_prs": 79,
-          "reviews": 244,
-          "score": 2399
+          "commits": 109,
+          "prs": 155,
+          "merged_prs": 80,
+          "reviews": 247,
+          "score": 2425
         },
         {
           "name": "franciscoaguirre",
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 14,
+          "commits": 15,
           "prs": 25,
           "merged_prs": 2,
           "reviews": 17,
-          "score": 210
+          "score": 211
         },
         {
           "name": "castillax",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 29,
-          "prs": 38,
+          "prs": 40,
           "merged_prs": 4,
           "reviews": 41,
-          "score": 382
+          "score": 392
         },
         {
           "name": "cirko33",
@@ -5122,8 +5122,8 @@
           "commits": 11,
           "prs": 36,
           "merged_prs": 2,
-          "reviews": 24,
-          "score": 283
+          "reviews": 25,
+          "score": 286
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.38387747937509,
+    "average_review_time_hours": 74.29723010865752,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 83.50826171352074,
-        "pr_count": 830,
-        "merged_count": 667
+        "avg_review_time_hours": 83.35427417200853,
+        "pr_count": 832,
+        "merged_count": 668
       },
       {
         "repository": "paritytech/substrate",
@@ -19806,6 +19806,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "3de1a0ebc8d3c57156f020764a61667080f577d3",
+                    "message": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT) (#13475)",
+                    "date": "2026-10-14T19:45:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/3de1a0ebc8d3c57156f020764a61667080f577d3"
+                  },
+                  {
                     "sha": "c534ae5fee6bfcc4b00450ad4f27c19346097d5d",
                     "message": "[AHMv2] Migrator dependencies (#13282)",
                     "date": "2026-09-24T20:10:44Z",
@@ -20317,6 +20323,111 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13475,
+                    "title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
+                    "state": "MERGED",
+                    "created_at": "2026-10-13T12:12:07Z",
+                    "closed_at": "2026-10-14T20:59:35Z",
+                    "merged_at": "2026-10-14T20:59:35Z",
+                    "merged_by": "Ank4n",
+                    "author": "ank4n",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13475",
+                    "ready_for_review_at": "2026-10-13T12:12:07Z",
+                    "reviews": [
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-13T13:42:39Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-10-14T08:31:07Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-14T08:46:56Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-14T08:47:21Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-14T08:48:12Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-14T08:48:32Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-14T08:49:04Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-10-14T08:52:10Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-10-14T08:52:56Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-10-14T08:54:08Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-14T08:56:36Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "sigurpol",
+                        "submitted_at": "2026-10-14T08:59:00Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-10-14T12:35:54Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "cirko33",
+                        "submitted_at": "2026-10-14T12:37:26Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-10-14T15:54:32Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "Ank4n",
+                        "commented_at": "2026-10-14T15:55:34Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-10-14T15:56:27Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-10-14T16:49:57Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.508888888888889,
+                    "time_to_merge_hours": 32.791111111111114
+                  },
                   {
                     "number": 13282,
                     "title": "[AHMv2] Migrator dependencies",
@@ -27625,6 +27736,24 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13475,
+                    "pr_title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
+                    "reviewed_at": "2026-10-14T20:59:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13475"
+                  },
+                  {
+                    "pr_number": 13479,
+                    "pr_title": "papi-tests: convert chain specs with export-chain-spec",
+                    "reviewed_at": "2026-10-14T11:11:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13479"
+                  },
+                  {
+                    "pr_number": 13473,
+                    "pr_title": "[satble2606] Publish false registrar-primitives",
+                    "reviewed_at": "2026-10-13T13:44:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13473"
+                  },
+                  {
                     "pr_number": 13265,
                     "pr_title": "election-provider-support: fix MaxEncodedLen undercount in generated solution types",
                     "reviewed_at": "2026-09-18T12:51:56Z",
@@ -31690,6 +31819,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "4e52eb4815c64e0f9f9014ea86bad3d78e5e9bb5",
+                    "message": "[AHMv2] Lockdown (#1321)",
+                    "date": "2026-10-14T08:11:33Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/4e52eb4815c64e0f9f9014ea86bad3d78e5e9bb5"
+                  },
                   {
                     "sha": "9778ddb91c0acf99b8804e55ad64475fb5546624",
                     "message": "[AHMv2] Shared migrator types (#1305)",
@@ -167572,6 +167707,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "40801b808531a58136a8bf310abd62c47183c342",
+                    "message": "pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close (#13258)",
+                    "date": "2026-10-13T10:43:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/40801b808531a58136a8bf310abd62c47183c342"
+                  },
+                  {
                     "sha": "fd67bf19cbe55bd8c290d7e09ccca69ada3b68e3",
                     "message": "`pallet-whitelist`: document that unwhitelisting pauses a live deferral not remove it, pin it with a test. (#13257)",
                     "date": "2026-09-18T11:47:10Z",
@@ -173704,6 +173845,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13475,
+                    "pr_title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
+                    "reviewed_at": "2026-10-14T20:59:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13475"
+                  },
+                  {
                     "pr_number": 13166,
                     "pr_title": "staking-async parachain and WAH genesis: fund DAP buffer as signed reward pot",
                     "reviewed_at": "2026-09-10T15:22:56Z",
@@ -175117,6 +175264,44 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13477,
+                    "title": "eth-rpc: send only new latest blocks to newHeads subscribers",
+                    "state": "OPEN",
+                    "created_at": "2026-10-13T15:49:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13477",
+                    "ready_for_review_at": "2026-10-13T15:49:58Z",
+                    "reviews": [
+                      {
+                        "reviewer": "0xOmarA",
+                        "submitted_at": "2026-10-15T05:13:22Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 37.39,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13474,
+                    "title": "pallet-revive: test the access list items against actual reads and writes",
+                    "state": "OPEN",
+                    "created_at": "2026-10-13T11:29:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13474",
+                    "ready_for_review_at": "2026-10-13T11:29:16Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13342,
                     "title": "pallet-revive: split the call and instantiate benchmarks by value transfer",

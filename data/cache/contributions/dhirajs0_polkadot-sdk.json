@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "40801b808531a58136a8bf310abd62c47183c342",
+      "message": "pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close (#13258)",
+      "date": "2026-10-13T10:43:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/40801b808531a58136a8bf310abd62c47183c342"
+    },
+    {
       "sha": "fd67bf19cbe55bd8c290d7e09ccca69ada3b68e3",
       "message": "`pallet-whitelist`: document that unwhitelisting pauses a live deferral not remove it, pin it with a test. (#13257)",
       "date": "2026-09-18T11:47:10Z",

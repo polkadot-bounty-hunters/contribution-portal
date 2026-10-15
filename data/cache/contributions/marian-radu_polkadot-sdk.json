@@ -177,6 +177,44 @@
   ],
   "prs": [
     {
+      "number": 13477,
+      "title": "eth-rpc: send only new latest blocks to newHeads subscribers",
+      "state": "OPEN",
+      "created_at": "2026-10-13T15:49:58Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13477",
+      "ready_for_review_at": "2026-10-13T15:49:58Z",
+      "reviews": [
+        {
+          "reviewer": "0xOmarA",
+          "submitted_at": "2026-10-15T05:13:22Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 37.39,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13474,
+      "title": "pallet-revive: test the access list items against actual reads and writes",
+      "state": "OPEN",
+      "created_at": "2026-10-13T11:29:16Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13474",
+      "ready_for_review_at": "2026-10-13T11:29:16Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13342,
       "title": "pallet-revive: split the call and instantiate benchmarks by value transfer",
       "state": "OPEN",

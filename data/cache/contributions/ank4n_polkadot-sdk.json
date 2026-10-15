@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "3de1a0ebc8d3c57156f020764a61667080f577d3",
+      "message": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT) (#13475)",
+      "date": "2026-10-14T19:45:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/3de1a0ebc8d3c57156f020764a61667080f577d3"
+    },
+    {
       "sha": "c534ae5fee6bfcc4b00450ad4f27c19346097d5d",
       "message": "[AHMv2] Migrator dependencies (#13282)",
       "date": "2026-09-24T20:10:44Z",
@@ -512,6 +518,111 @@
     }
   ],
   "prs": [
+    {
+      "number": 13475,
+      "title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
+      "state": "MERGED",
+      "created_at": "2026-10-13T12:12:07Z",
+      "closed_at": "2026-10-14T20:59:35Z",
+      "merged_at": "2026-10-14T20:59:35Z",
+      "merged_by": "Ank4n",
+      "author": "ank4n",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13475",
+      "ready_for_review_at": "2026-10-13T12:12:07Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-13T13:42:39Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-10-14T08:31:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-14T08:46:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-14T08:47:21Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-14T08:48:12Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-14T08:48:32Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-14T08:49:04Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-10-14T08:52:10Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-10-14T08:52:56Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-10-14T08:54:08Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-14T08:56:36Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "sigurpol",
+          "submitted_at": "2026-10-14T08:59:00Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-10-14T12:35:54Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "cirko33",
+          "submitted_at": "2026-10-14T12:37:26Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-10-14T15:54:32Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "Ank4n",
+          "commented_at": "2026-10-14T15:55:34Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-10-14T15:56:27Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-10-14T16:49:57Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.508888888888889,
+      "time_to_merge_hours": 32.791111111111114
+    },
     {
       "number": 13282,
       "title": "[AHMv2] Migrator dependencies",
@@ -7819,6 +7930,24 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13475,
+      "pr_title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
+      "reviewed_at": "2026-10-14T20:59:37Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13475"
+    },
+    {
+      "pr_number": 13479,
+      "pr_title": "papi-tests: convert chain specs with export-chain-spec",
+      "reviewed_at": "2026-10-14T11:11:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13479"
+    },
+    {
+      "pr_number": 13473,
+      "pr_title": "[satble2606] Publish false registrar-primitives",
+      "reviewed_at": "2026-10-13T13:44:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13473"
+    },
     {
       "pr_number": 13265,
       "pr_title": "election-provider-support: fix MaxEncodedLen undercount in generated solution types",

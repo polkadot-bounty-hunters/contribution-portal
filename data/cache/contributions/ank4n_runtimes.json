@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "4e52eb4815c64e0f9f9014ea86bad3d78e5e9bb5",
+      "message": "[AHMv2] Lockdown (#1321)",
+      "date": "2026-10-14T08:11:33Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/4e52eb4815c64e0f9f9014ea86bad3d78e5e9bb5"
+    },
+    {
       "sha": "9778ddb91c0acf99b8804e55ad64475fb5546624",
       "message": "[AHMv2] Shared migrator types (#1305)",
       "date": "2026-09-25T07:00:08Z",
