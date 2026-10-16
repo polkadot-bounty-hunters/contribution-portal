@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T08:06:23.611Z",
+  "generated_at": "2026-10-16T07:57:20.963Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1597,
-    "total_prs": 1772,
+    "total_prs": 1773,
     "total_merged_prs": 1041,
     "total_reviews": 2464
   },
@@ -141,6 +141,16 @@
         "score": 478
       },
       {
+        "name": "marian-radu",
+        "github": "marian-radu",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 29,
+        "prs": 41,
+        "merged_prs": 4,
+        "reviews": 41,
+        "score": 397
+      },
+      {
         "name": "pandres95",
         "github": "pandres95",
         "cohort": "PBA 3 Berkeley 2023",
@@ -149,16 +159,6 @@
         "merged_prs": 12,
         "reviews": 48,
         "score": 396
-      },
-      {
-        "name": "marian-radu",
-        "github": "marian-radu",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 29,
-        "prs": 40,
-        "merged_prs": 4,
-        "reviews": 41,
-        "score": 392
       },
       {
         "name": "rosarp",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 29,
-          "prs": 40,
+          "prs": 41,
           "merged_prs": 4,
           "reviews": 41,
-          "score": 392
+          "score": 397
         },
         {
           "name": "cirko33",
@@ -175264,6 +175264,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13492,
+                    "title": "eth-rpc: add a CLI option to rate-limit the historical block sync",
+                    "state": "OPEN",
+                    "created_at": "2026-10-15T16:03:13Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13492",
+                    "ready_for_review_at": "2026-10-15T16:03:13Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13477,
                     "title": "eth-rpc: send only new latest blocks to newHeads subscribers",

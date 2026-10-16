@@ -177,6 +177,22 @@
   ],
   "prs": [
     {
+      "number": 13492,
+      "title": "eth-rpc: add a CLI option to rate-limit the historical block sync",
+      "state": "OPEN",
+      "created_at": "2026-10-15T16:03:13Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13492",
+      "ready_for_review_at": "2026-10-15T16:03:13Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13477,
       "title": "eth-rpc: send only new latest blocks to newHeads subscribers",
       "state": "OPEN",
