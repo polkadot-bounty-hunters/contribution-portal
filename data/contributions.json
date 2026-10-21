@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20T08:14:50.757Z",
+  "generated_at": "2026-10-21T08:10:17.923Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1598,
+    "total_commits": 1599,
     "total_prs": 1774,
     "total_merged_prs": 1041,
-    "total_reviews": 2464
+    "total_reviews": 2465
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 261,
         "prs": 202,
         "merged_prs": 149,
-        "reviews": 251,
-        "score": 3514
+        "reviews": 252,
+        "score": 3517
       },
       {
         "name": "pgherveou",
@@ -204,11 +204,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 11,
+        "commits": 12,
         "prs": 36,
         "merged_prs": 2,
         "reviews": 25,
-        "score": 286
+        "score": 287
       },
       {
         "name": "smiasojed",
@@ -520,8 +520,8 @@
           "commits": 261,
           "prs": 202,
           "merged_prs": 149,
-          "reviews": 251,
-          "score": 3514
+          "reviews": 252,
+          "score": 3517
         },
         {
           "name": "ank4n",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 11,
+          "commits": 12,
           "prs": 36,
           "merged_prs": 2,
           "reviews": 25,
-          "score": 286
+          "score": 287
         },
         {
           "name": "surajk-m",
@@ -48666,6 +48666,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13521,
+                    "pr_title": "network-gossip: Don't refresh known messages during garbage collection",
+                    "reviewed_at": "2026-10-20T11:14:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13521"
+                  },
                   {
                     "pr_number": 13444,
                     "pr_title": "[stable2606 Backport #12433] txpool: maintain on all blocks",
@@ -172878,6 +172884,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "193aa6c20eed45a960830aabedae6d6b8213abe9",
+                    "message": "Registrar: Deregister (#13091)",
+                    "date": "2026-10-20T12:18:36Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/193aa6c20eed45a960830aabedae6d6b8213abe9"
+                  },
                   {
                     "sha": "c4465b07a4eed1733e216bfad354586a51a1796f",
                     "message": "Registrar: Scaffolding (#13084)",

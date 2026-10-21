@@ -9605,6 +9605,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13521,
+      "pr_title": "network-gossip: Don't refresh known messages during garbage collection",
+      "reviewed_at": "2026-10-20T11:14:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13521"
+    },
+    {
       "pr_number": 13444,
       "pr_title": "[stable2606 Backport #12433] txpool: maintain on all blocks",
       "reviewed_at": "2026-10-08T09:19:04Z",

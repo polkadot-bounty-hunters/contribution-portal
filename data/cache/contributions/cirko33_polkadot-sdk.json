@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "193aa6c20eed45a960830aabedae6d6b8213abe9",
+      "message": "Registrar: Deregister (#13091)",
+      "date": "2026-10-20T12:18:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/193aa6c20eed45a960830aabedae6d6b8213abe9"
+    },
+    {
       "sha": "c4465b07a4eed1733e216bfad354586a51a1796f",
       "message": "Registrar: Scaffolding (#13084)",
       "date": "2026-09-23T07:33:55Z",
