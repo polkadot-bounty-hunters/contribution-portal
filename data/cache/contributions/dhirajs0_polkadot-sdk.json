@@ -522,6 +522,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13541,
+      "pr_title": "[Release|CI/CD] Add eth-rpc image mention to release notes",
+      "reviewed_at": "2026-10-21T16:35:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13541"
+    },
+    {
       "pr_number": 13421,
       "pr_title": "frame-support: make `#[stored]` work in crates without a direct `derive-where` dependency'",
       "reviewed_at": "2026-10-06T15:59:37Z",

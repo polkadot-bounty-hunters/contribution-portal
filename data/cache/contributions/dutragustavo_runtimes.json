@@ -1,6 +1,39 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 1330,
+      "title": "T5 PoC: Self-hosted runner execution marker",
+      "state": "CLOSED",
+      "created_at": "2026-10-21T22:56:04Z",
+      "closed_at": "2026-10-21T23:57:17Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dutragustavo",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1330",
+      "ready_for_review_at": "2026-10-21T22:56:04Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 1329,
+      "title": "PoC: T4 Matrix Injection Test",
+      "state": "CLOSED",
+      "created_at": "2026-10-21T20:07:34Z",
+      "closed_at": "2026-10-21T23:57:16Z",
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dutragustavo",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1329",
+      "ready_for_review_at": "2026-10-21T20:07:34Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }

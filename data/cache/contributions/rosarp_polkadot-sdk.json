@@ -63,6 +63,33 @@
   ],
   "prs": [
     {
+      "number": 13546,
+      "title": "Return dedicated error for justifications signed by previous authority set",
+      "state": "OPEN",
+      "created_at": "2026-10-21T17:32:12Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rosarp",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13546",
+      "ready_for_review_at": "2026-10-21T17:32:12Z",
+      "reviews": [
+        {
+          "reviewer": "rosarp",
+          "submitted_at": "2026-10-21T17:42:55Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rosarp",
+          "commented_at": "2026-10-21T17:33:05Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.1786111111111111,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13150,
       "title": "WIP: resolve header hash by number without `chain_getBlockHash`",
       "state": "OPEN",
@@ -1084,6 +1111,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13546,
+      "pr_title": "Return dedicated error for justifications signed by previous authority set",
+      "reviewed_at": "2026-10-21T18:08:22Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13546"
+    },
     {
       "pr_number": 11953,
       "pr_title": "link-checker: exclude two 403-blocked Medium URLs",

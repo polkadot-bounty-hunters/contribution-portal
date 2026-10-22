@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-21T08:10:17.923Z",
+  "generated_at": "2026-10-22T08:12:33.347Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1599,
-    "total_prs": 1774,
+    "total_prs": 1777,
     "total_merged_prs": 1041,
-    "total_reviews": 2465
+    "total_reviews": 2467
   },
   "leaderboard": {
     "overall": [
@@ -165,10 +165,10 @@
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 10,
-        "prs": 24,
+        "prs": 25,
         "merged_prs": 14,
-        "reviews": 21,
-        "score": 333
+        "reviews": 22,
+        "score": 341
       },
       {
         "name": "muraca",
@@ -237,8 +237,8 @@
         "commits": 15,
         "prs": 25,
         "merged_prs": 2,
-        "reviews": 17,
-        "score": 211
+        "reviews": 18,
+        "score": 214
       },
       {
         "name": "DrW3RK",
@@ -3126,10 +3126,10 @@
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 10,
-          "prs": 24,
+          "prs": 25,
           "merged_prs": 14,
-          "reviews": 21,
-          "score": 333
+          "reviews": 22,
+          "score": 341
         },
         {
           "name": "ndkazu",
@@ -4340,8 +4340,8 @@
           "commits": 15,
           "prs": 25,
           "merged_prs": 2,
-          "reviews": 17,
-          "score": 211
+          "reviews": 18,
+          "score": 214
         },
         {
           "name": "castillax",
@@ -4422,6 +4422,16 @@
           "merged_prs": 1,
           "reviews": 0,
           "score": 16
+        },
+        {
+          "name": "dutragustavo",
+          "github": "dutragustavo",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 0,
+          "prs": 2,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 10
         },
         {
           "name": "Yung-Beef",
@@ -4656,16 +4666,6 @@
         {
           "name": "cr-eative-dev",
           "github": "cr-eative-dev",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "dutragustavo",
-          "github": "dutragustavo",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 0,
           "prs": 0,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.29723010865752,
+    "average_review_time_hours": 74.23882300148846,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 83.35427417200853,
-        "pr_count": 832,
+        "avg_review_time_hours": 83.25442343604107,
+        "pr_count": 833,
         "merged_count": 668
       },
       {
@@ -160501,6 +160501,33 @@
                 ],
                 "prs": [
                   {
+                    "number": 13546,
+                    "title": "Return dedicated error for justifications signed by previous authority set",
+                    "state": "OPEN",
+                    "created_at": "2026-10-21T17:32:12Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rosarp",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13546",
+                    "ready_for_review_at": "2026-10-21T17:32:12Z",
+                    "reviews": [
+                      {
+                        "reviewer": "rosarp",
+                        "submitted_at": "2026-10-21T17:42:55Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "rosarp",
+                        "commented_at": "2026-10-21T17:33:05Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.1786111111111111,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13150,
                     "title": "WIP: resolve header hash by number without `chain_getBlockHash`",
                     "state": "OPEN",
@@ -161522,6 +161549,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13546,
+                    "pr_title": "Return dedicated error for justifications signed by previous authority set",
+                    "reviewed_at": "2026-10-21T18:08:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13546"
+                  },
                   {
                     "pr_number": 11953,
                     "pr_title": "link-checker: exclude two 403-blocked Medium URLs",
@@ -168234,6 +168267,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13541,
+                    "pr_title": "[Release|CI/CD] Add eth-rpc image mention to release notes",
+                    "reviewed_at": "2026-10-21T16:35:53Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13541"
+                  },
+                  {
                     "pr_number": 13421,
                     "pr_title": "frame-support: make `#[stored]` work in crates without a direct `derive-where` dependency'",
                     "reviewed_at": "2026-10-06T15:59:37Z",
@@ -168646,7 +168685,40 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 1330,
+                    "title": "T5 PoC: Self-hosted runner execution marker",
+                    "state": "CLOSED",
+                    "created_at": "2026-10-21T22:56:04Z",
+                    "closed_at": "2026-10-21T23:57:17Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dutragustavo",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1330",
+                    "ready_for_review_at": "2026-10-21T22:56:04Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 1329,
+                    "title": "PoC: T4 Matrix Injection Test",
+                    "state": "CLOSED",
+                    "created_at": "2026-10-21T20:07:34Z",
+                    "closed_at": "2026-10-21T23:57:16Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dutragustavo",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1329",
+                    "ready_for_review_at": "2026-10-21T20:07:34Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
