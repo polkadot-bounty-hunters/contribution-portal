@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-22T08:12:33.347Z",
+  "generated_at": "2026-10-23T08:07:08.186Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1599,
-    "total_prs": 1777,
+    "total_prs": 1778,
     "total_merged_prs": 1041,
     "total_reviews": 2467
   },
@@ -65,10 +65,10 @@
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 127,
-        "prs": 105,
+        "prs": 106,
         "merged_prs": 57,
         "reviews": 69,
-        "score": 1429
+        "score": 1434
       },
       {
         "name": "jsidorenko",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 127,
-          "prs": 105,
+          "prs": 106,
           "merged_prs": 57,
           "reviews": 69,
-          "score": 1429
+          "score": 1434
         },
         {
           "name": "pandres95",
@@ -126594,6 +126594,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13555,
+                    "title": "Price Oracle: logging",
+                    "state": "OPEN",
+                    "created_at": "2026-10-22T11:23:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13555",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13396,
                     "title": "Price oracle: generic market pricing",
