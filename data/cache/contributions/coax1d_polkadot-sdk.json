@@ -7,7 +7,24 @@
       "url": "https://github.com/paritytech/polkadot-sdk/commit/b7e7e89063fa039d3e643e7d112f7455632b1a3f"
     }
   ],
-  "prs": [],
+  "prs": [
+    {
+      "number": 13561,
+      "title": "[Draft] Threshold VUF (a-DKG) over BEEFY BLS keys",
+      "state": "OPEN",
+      "created_at": "2026-10-23T09:21:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "coax1d",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13561",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }

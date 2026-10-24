@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "66945c6265b78321e191a0c8caa85f4e57df2441",
+      "message": "[AHMv2] Accounts stage of the migration (#1324)",
+      "date": "2026-10-23T09:06:05Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/66945c6265b78321e191a0c8caa85f4e57df2441"
+    },
+    {
       "sha": "4e52eb4815c64e0f9f9014ea86bad3d78e5e9bb5",
       "message": "[AHMv2] Lockdown (#1321)",
       "date": "2026-10-14T08:11:33Z",
