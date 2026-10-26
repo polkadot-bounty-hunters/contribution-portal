@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T08:29:24.845Z",
+  "generated_at": "2026-10-26T08:36:36.561Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1600,
-    "total_prs": 1779,
+    "total_prs": 1780,
     "total_merged_prs": 1041,
     "total_reviews": 2467
   },
@@ -1206,6 +1206,16 @@
           "score": 5
         },
         {
+          "name": "helixstreet",
+          "github": "helixstreet",
+          "cohort": "PBA 2 BA 2023",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "driemworks",
           "github": "driemworks",
           "cohort": "PBA 2 BA 2023",
@@ -1288,16 +1298,6 @@
         {
           "name": "RocioCM",
           "github": "RocioCM",
-          "cohort": "PBA 2 BA 2023",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "helixstreet",
-          "github": "helixstreet",
           "cohort": "PBA 2 BA 2023",
           "commits": 0,
           "prs": 0,
@@ -77533,7 +77533,29 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 13571,
+                    "title": "Add Helixstreet bootnodes for Polkadot, Kusama, Asset Hub Polkadot, and People Polkadot",
+                    "state": "OPEN",
+                    "created_at": "2026-10-25T19:33:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "helixstreet",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13571",
+                    "ready_for_review_at": "2026-10-25T19:33:49Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "cla-bot-2021[bot]",
+                        "commented_at": "2026-10-25T19:34:04Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
