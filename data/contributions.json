@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-26T08:36:36.561Z",
+  "generated_at": "2026-10-27T08:24:54.052Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1600,
-    "total_prs": 1780,
+    "total_prs": 1782,
     "total_merged_prs": 1041,
-    "total_reviews": 2467
+    "total_reviews": 2468
   },
   "leaderboard": {
     "overall": [
@@ -5146,6 +5146,16 @@
           "score": 27
         },
         {
+          "name": "agustinustheo",
+          "github": "agustinustheo",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 1,
+          "prs": 3,
+          "merged_prs": 0,
+          "reviews": 2,
+          "score": 22
+        },
+        {
           "name": "vrom911",
           "github": "vrom911",
           "cohort": "PBA 7 Bali 2025",
@@ -5184,16 +5194,6 @@
           "merged_prs": 0,
           "reviews": 0,
           "score": 10
-        },
-        {
-          "name": "agustinustheo",
-          "github": "agustinustheo",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 1,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 1,
-          "score": 9
         },
         {
           "name": "freddyli7",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.23882300148846,
+    "average_review_time_hours": 74.18057064741905,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 83.25442343604107,
-        "pr_count": 833,
+        "avg_review_time_hours": 83.15490774047427,
+        "pr_count": 834,
         "merged_count": 668
       },
       {
@@ -172739,9 +172739,64 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 13597,
+                    "title": "sc-tracing: keep events without the filtered field when the filter is empty",
+                    "state": "OPEN",
+                    "created_at": "2026-10-27T05:29:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "agustinustheo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13597",
+                    "ready_for_review_at": "2026-10-27T05:29:49Z",
+                    "reviews": [
+                      {
+                        "reviewer": "agustinustheo",
+                        "submitted_at": "2026-10-27T05:45:19Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "agustinustheo",
+                        "commented_at": "2026-10-27T05:40:46Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.25833333333333336,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13596,
+                    "title": "omni-node: use the parachain tracing executor in `--dev` mode",
+                    "state": "OPEN",
+                    "created_at": "2026-10-27T05:24:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "agustinustheo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13596",
+                    "ready_for_review_at": "2026-10-27T05:24:58Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "agustinustheo",
+                        "commented_at": "2026-10-27T05:40:07Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13597,
+                    "pr_title": "sc-tracing: keep events without the filtered field when the filter is empty",
+                    "reviewed_at": "2026-10-27T05:45:19Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13597"
+                  },
                   {
                     "pr_number": 12254,
                     "pr_title": "claims: Reject vesting claims below the existential deposit",
