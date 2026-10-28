@@ -1422,6 +1422,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1336,
+      "pr_title": "Move BH to async backing",
+      "reviewed_at": "2026-10-27T18:08:11Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1336"
+    },
+    {
       "pr_number": 1263,
       "pr_title": "[draft] Polkadot: Make Asset Hub Whitelisted Caller accessible in People Chain.",
       "reviewed_at": "2026-08-28T15:12:25Z",

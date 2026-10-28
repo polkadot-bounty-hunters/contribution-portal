@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-27T08:24:54.052Z",
+  "generated_at": "2026-10-28T09:06:46.079Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1600,
-    "total_prs": 1782,
-    "total_merged_prs": 1041,
-    "total_reviews": 2468
+    "total_commits": 1602,
+    "total_prs": 1787,
+    "total_merged_prs": 1042,
+    "total_reviews": 2472
   },
   "leaderboard": {
     "overall": [
@@ -14,11 +14,11 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 261,
+        "commits": 262,
         "prs": 202,
         "merged_prs": 149,
         "reviews": 252,
-        "score": 3517
+        "score": 3518
       },
       {
         "name": "pgherveou",
@@ -57,18 +57,18 @@
         "commits": 86,
         "prs": 126,
         "merged_prs": 84,
-        "reviews": 196,
-        "score": 2144
+        "reviews": 197,
+        "score": 2147
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 127,
-        "prs": 106,
-        "merged_prs": 57,
-        "reviews": 69,
-        "score": 1434
+        "commits": 128,
+        "prs": 108,
+        "merged_prs": 58,
+        "reviews": 72,
+        "score": 1464
       },
       {
         "name": "jsidorenko",
@@ -121,6 +121,16 @@
         "score": 711
       },
       {
+        "name": "rossbulat",
+        "github": "rossbulat",
+        "cohort": "PBA 1 Cambridge 2022",
+        "commits": 1,
+        "prs": 36,
+        "merged_prs": 16,
+        "reviews": 49,
+        "score": 488
+      },
+      {
         "name": "Krayt78",
         "github": "Krayt78",
         "cohort": "PBA 5 Singapore 2024",
@@ -129,16 +139,6 @@
         "merged_prs": 22,
         "reviews": 10,
         "score": 482
-      },
-      {
-        "name": "rossbulat",
-        "github": "rossbulat",
-        "cohort": "PBA 1 Cambridge 2022",
-        "commits": 1,
-        "prs": 34,
-        "merged_prs": 16,
-        "reviews": 49,
-        "score": 478
       },
       {
         "name": "marian-radu",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 261,
+          "commits": 262,
           "prs": 202,
           "merged_prs": 149,
           "reviews": 252,
-          "score": 3517
+          "score": 3518
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 126,
           "merged_prs": 84,
-          "reviews": 196,
-          "score": 2144
+          "reviews": 197,
+          "score": 2147
         },
         {
           "name": "jsidorenko",
@@ -558,10 +558,10 @@
           "github": "rossbulat",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 1,
-          "prs": 34,
+          "prs": 36,
           "merged_prs": 16,
           "reviews": 49,
-          "score": 478
+          "score": 488
         },
         {
           "name": "BradleyOlson64",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 127,
-          "prs": 106,
-          "merged_prs": 57,
-          "reviews": 69,
-          "score": 1434
+          "commits": 128,
+          "prs": 108,
+          "merged_prs": 58,
+          "reviews": 72,
+          "score": 1464
         },
         {
           "name": "pandres95",
@@ -4428,10 +4428,10 @@
           "github": "dutragustavo",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 0,
-          "prs": 2,
+          "prs": 3,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 10
+          "score": 15
         },
         {
           "name": "Yung-Beef",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.18057064741905,
+    "average_review_time_hours": 74.12225391205521,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 707,
-        "approved_count": 406,
+        "review_count": 709,
+        "approved_count": 407,
         "avg_time_to_review_hours": 46.97830603725114,
-        "approval_rate": 57.42574257425742
+        "approval_rate": 57.40479548660085
       },
       {
         "reviewer": "bkontur",
@@ -5638,10 +5638,10 @@
       },
       {
         "reviewer": "acatangiu",
-        "review_count": 302,
-        "approved_count": 166,
-        "avg_time_to_review_hours": 82.86602430555556,
-        "approval_rate": 54.966887417218544
+        "review_count": 303,
+        "approved_count": 167,
+        "avg_time_to_review_hours": 81.17610544217688,
+        "approval_rate": 55.115511551155116
       },
       {
         "reviewer": "muharem",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 83.15490774047427,
-        "pr_count": 834,
-        "merged_count": 668
+        "avg_review_time_hours": 83.05539288090485,
+        "pr_count": 835,
+        "merged_count": 669
       },
       {
         "repository": "paritytech/substrate",
@@ -5789,7 +5789,7 @@
       },
       {
         "merger": "acatangiu",
-        "merge_count": 29
+        "merge_count": 30
       },
       {
         "merger": "fellowship-merge-bot[bot]",
@@ -17388,6 +17388,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1336,
+                    "pr_title": "Move BH to async backing",
+                    "reviewed_at": "2026-10-27T18:08:11Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1336"
+                  },
                   {
                     "pr_number": 1263,
                     "pr_title": "[draft] Polkadot: Make Asset Hub Whitelisted Caller accessible in People Chain.",
@@ -33091,6 +33097,38 @@
                 ],
                 "prs": [
                   {
+                    "number": 13614,
+                    "title": "Add report-only Subsystem Benchmarks filtering",
+                    "state": "OPEN",
+                    "created_at": "2026-10-28T07:09:23Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13614",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13611,
+                    "title": "Fix boolean handling of CI change-filter outputs",
+                    "state": "OPEN",
+                    "created_at": "2026-10-28T05:50:01Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13611",
+                    "ready_for_review_at": "2026-10-28T05:50:01Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 12406,
                     "title": "core-fellowship: add block number provider",
                     "state": "OPEN",
@@ -39085,6 +39123,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "6812e669754dc9f473e3adf277d4532c42e27ac9",
+                    "message": "`bitswap_unstable_stream` implementation added (#12029)",
+                    "date": "2026-10-27T11:37:22Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/6812e669754dc9f473e3adf277d4532c42e27ac9"
+                  },
                   {
                     "sha": "40f9a5ddbe62c0b797a4be9beb35fba93e6d6336",
                     "message": "txpool: maintain on all blocks (#12433)",
@@ -126188,6 +126232,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "111317723512d237327aa0dadfdcea054533675c",
+                    "message": "Fix user losing remainder of swapped funds when pool liquidity goes below ED (#13601)",
+                    "date": "2026-10-27T16:47:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/111317723512d237327aa0dadfdcea054533675c"
+                  },
+                  {
                     "sha": "105baae645417bf085f1d44d5a55d5e115bd6971",
                     "message": "pallet-broker: fix double counting of re-pooled regions (#13311)",
                     "date": "2026-09-28T09:10:52Z",
@@ -126639,6 +126689,77 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13601,
+                    "title": "Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+                    "state": "MERGED",
+                    "created_at": "2026-10-27T14:00:34Z",
+                    "closed_at": "2026-10-27T17:40:03Z",
+                    "merged_at": "2026-10-27T17:40:03Z",
+                    "merged_by": "acatangiu",
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13601",
+                    "ready_for_review_at": "2026-10-27T14:00:34Z",
+                    "reviews": [
+                      {
+                        "reviewer": "acatangiu",
+                        "submitted_at": "2026-10-27T14:04:10Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-10-27T14:14:40Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-10-27T17:41:29Z"
+                      },
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-10-27T17:41:40Z"
+                      },
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-10-27T17:41:48Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.06,
+                    "time_to_merge_hours": 3.6580555555555554
+                  },
+                  {
+                    "number": 13598,
+                    "title": "asset-conversion: treat frozen or blocked pools as unusable",
+                    "state": "OPEN",
+                    "created_at": "2026-10-27T10:57:49Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13598",
+                    "ready_for_review_at": null,
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-10-27T11:44:24Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-10-27T11:10:25Z"
+                      },
+                      {
+                        "commenter": "kianenigma",
+                        "commented_at": "2026-10-27T18:01:42Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13555,
                     "title": "Price Oracle: logging",
@@ -129490,6 +129611,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13604,
+                    "pr_title": "[stable2603 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+                    "reviewed_at": "2026-10-28T08:10:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13604"
+                  },
+                  {
+                    "pr_number": 13606,
+                    "pr_title": "[stable2609 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+                    "reviewed_at": "2026-10-28T07:42:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13606"
+                  },
+                  {
+                    "pr_number": 13605,
+                    "pr_title": "[stable2606 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+                    "reviewed_at": "2026-10-28T07:41:49Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13605"
+                  },
                   {
                     "pr_number": 13119,
                     "pr_title": "[stable2609 Backport #12750] Fix auto-renewal charging tasks for foreign workloads",
@@ -168747,6 +168886,27 @@
               "contributions": {
                 "commits": [],
                 "prs": [
+                  {
+                    "number": 1335,
+                    "title": "PoC: runner-state persistence write (marker-only)",
+                    "state": "CLOSED",
+                    "created_at": "2026-10-27T11:53:57Z",
+                    "closed_at": "2026-10-27T12:53:01Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dutragustavo",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1335",
+                    "ready_for_review_at": "2026-10-27T11:53:57Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dutragustavo",
+                        "commented_at": "2026-10-27T12:53:00Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1330,
                     "title": "T5 PoC: Self-hosted runner execution marker",

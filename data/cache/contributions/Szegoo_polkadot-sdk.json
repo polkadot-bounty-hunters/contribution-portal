@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "111317723512d237327aa0dadfdcea054533675c",
+      "message": "Fix user losing remainder of swapped funds when pool liquidity goes below ED (#13601)",
+      "date": "2026-10-27T16:47:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/111317723512d237327aa0dadfdcea054533675c"
+    },
+    {
       "sha": "105baae645417bf085f1d44d5a55d5e115bd6971",
       "message": "pallet-broker: fix double counting of re-pooled regions (#13311)",
       "date": "2026-09-28T09:10:52Z",
@@ -452,6 +458,77 @@
     }
   ],
   "prs": [
+    {
+      "number": 13601,
+      "title": "Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "state": "MERGED",
+      "created_at": "2026-10-27T14:00:34Z",
+      "closed_at": "2026-10-27T17:40:03Z",
+      "merged_at": "2026-10-27T17:40:03Z",
+      "merged_by": "acatangiu",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13601",
+      "ready_for_review_at": "2026-10-27T14:00:34Z",
+      "reviews": [
+        {
+          "reviewer": "acatangiu",
+          "submitted_at": "2026-10-27T14:04:10Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-10-27T14:14:40Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2026-10-27T17:41:29Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2026-10-27T17:41:40Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2026-10-27T17:41:48Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.06,
+      "time_to_merge_hours": 3.6580555555555554
+    },
+    {
+      "number": 13598,
+      "title": "asset-conversion: treat frozen or blocked pools as unusable",
+      "state": "OPEN",
+      "created_at": "2026-10-27T10:57:49Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13598",
+      "ready_for_review_at": null,
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-10-27T11:44:24Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-10-27T11:10:25Z"
+        },
+        {
+          "commenter": "kianenigma",
+          "commented_at": "2026-10-27T18:01:42Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
     {
       "number": 13555,
       "title": "Price Oracle: logging",
@@ -3303,6 +3380,24 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13604,
+      "pr_title": "[stable2603 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "reviewed_at": "2026-10-28T08:10:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13604"
+    },
+    {
+      "pr_number": 13606,
+      "pr_title": "[stable2609 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "reviewed_at": "2026-10-28T07:42:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13606"
+    },
+    {
+      "pr_number": 13605,
+      "pr_title": "[stable2606 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "reviewed_at": "2026-10-28T07:41:49Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13605"
+    },
     {
       "pr_number": 13119,
       "pr_title": "[stable2609 Backport #12750] Fix auto-renewal charging tasks for foreign workloads",
