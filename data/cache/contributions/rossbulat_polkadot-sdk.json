@@ -26,7 +26,7 @@
     },
     {
       "number": 13611,
-      "title": "Fix boolean handling of CI change-filter outputs",
+      "title": "Fix CI change filtering at the producer",
       "state": "OPEN",
       "created_at": "2026-10-28T05:50:01Z",
       "closed_at": null,
@@ -35,9 +35,20 @@
       "author": "rossbulat",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13611",
       "ready_for_review_at": "2026-10-28T05:50:01Z",
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-10-28T21:46:51Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "rossbulat",
+          "submitted_at": "2026-10-29T04:38:34Z",
+          "state": "COMMENTED"
+        }
+      ],
       "comments": [],
-      "time_to_first_review_hours": null,
+      "time_to_first_review_hours": 15.947222222222223,
       "time_to_merge_hours": null
     },
     {
@@ -1345,6 +1356,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13611,
+      "pr_title": "Fix CI change filtering at the producer",
+      "reviewed_at": "2026-10-29T04:38:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13611"
+    },
     {
       "pr_number": 12297,
       "pr_title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",

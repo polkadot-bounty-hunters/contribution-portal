@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T09:06:46.079Z",
+  "generated_at": "2026-10-29T09:11:21.024Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1602,
-    "total_prs": 1787,
+    "total_prs": 1791,
     "total_merged_prs": 1042,
-    "total_reviews": 2472
+    "total_reviews": 2476
   },
   "leaderboard": {
     "overall": [
@@ -35,10 +35,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 110,
-        "prs": 155,
+        "prs": 156,
         "merged_prs": 80,
         "reviews": 247,
-        "score": 2426
+        "score": 2431
       },
       {
         "name": "liamaharon",
@@ -55,20 +55,20 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 86,
-        "prs": 126,
+        "prs": 127,
         "merged_prs": 84,
         "reviews": 197,
-        "score": 2147
+        "score": 2152
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 128,
-        "prs": 108,
+        "prs": 109,
         "merged_prs": 58,
         "reviews": 72,
-        "score": 1464
+        "score": 1469
       },
       {
         "name": "jsidorenko",
@@ -127,8 +127,8 @@
         "commits": 1,
         "prs": 36,
         "merged_prs": 16,
-        "reviews": 49,
-        "score": 488
+        "reviews": 50,
+        "score": 491
       },
       {
         "name": "Krayt78",
@@ -147,8 +147,8 @@
         "commits": 30,
         "prs": 42,
         "merged_prs": 4,
-        "reviews": 41,
-        "score": 403
+        "reviews": 44,
+        "score": 412
       },
       {
         "name": "pandres95",
@@ -215,10 +215,10 @@
         "github": "smiasojed",
         "cohort": "PBA 2 BA 2023",
         "commits": 8,
-        "prs": 9,
+        "prs": 10,
         "merged_prs": 6,
         "reviews": 53,
-        "score": 272
+        "score": 277
       },
       {
         "name": "Overkillus",
@@ -528,20 +528,20 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 110,
-          "prs": 155,
+          "prs": 156,
           "merged_prs": 80,
           "reviews": 247,
-          "score": 2426
+          "score": 2431
         },
         {
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 86,
-          "prs": 126,
+          "prs": 127,
           "merged_prs": 84,
           "reviews": 197,
-          "score": 2147
+          "score": 2152
         },
         {
           "name": "jsidorenko",
@@ -560,8 +560,8 @@
           "commits": 1,
           "prs": 36,
           "merged_prs": 16,
-          "reviews": 49,
-          "score": 488
+          "reviews": 50,
+          "score": 491
         },
         {
           "name": "BradleyOlson64",
@@ -980,10 +980,10 @@
           "github": "smiasojed",
           "cohort": "PBA 2 BA 2023",
           "commits": 8,
-          "prs": 9,
+          "prs": 10,
           "merged_prs": 6,
           "reviews": 53,
-          "score": 272
+          "score": 277
         },
         {
           "name": "Overkillus",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 128,
-          "prs": 108,
+          "prs": 109,
           "merged_prs": 58,
           "reviews": 72,
-          "score": 1464
+          "score": 1469
         },
         {
           "name": "pandres95",
@@ -5112,8 +5112,8 @@
           "commits": 30,
           "prs": 42,
           "merged_prs": 4,
-          "reviews": 41,
-          "score": 403
+          "reviews": 44,
+          "score": 412
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.12225391205521,
+    "average_review_time_hours": 74.07651882424875,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 709,
+        "review_count": 710,
         "approved_count": 407,
-        "avg_time_to_review_hours": 46.97830603725114,
-        "approval_rate": 57.40479548660085
+        "avg_time_to_review_hours": 46.7999664750958,
+        "approval_rate": 57.32394366197183
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 83.05539288090485,
-        "pr_count": 835,
+        "avg_review_time_hours": 82.97511994949494,
+        "pr_count": 836,
         "merged_count": 669
       },
       {
@@ -6331,6 +6331,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13629,
+                    "title": "Remove XCMv3",
+                    "state": "OPEN",
+                    "created_at": "2026-10-29T02:15:50Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13629",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 12832,
                     "title": "XCM hardening",
@@ -31900,6 +31916,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 1337,
+                    "title": "[AHMv2] Inbound messages drain during the warm-up, follow-ups from #1321 and #1324",
+                    "state": "OPEN",
+                    "created_at": "2026-10-28T13:52:00Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1337",
+                    "ready_for_review_at": "2026-10-28T13:52:00Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1325,
                     "title": "[AHMv2] Manager multisig voting by unsigned extrinsic",
                     "state": "OPEN",
@@ -33114,7 +33146,7 @@
                   },
                   {
                     "number": 13611,
-                    "title": "Fix boolean handling of CI change-filter outputs",
+                    "title": "Fix CI change filtering at the producer",
                     "state": "OPEN",
                     "created_at": "2026-10-28T05:50:01Z",
                     "closed_at": null,
@@ -33123,9 +33155,20 @@
                     "author": "rossbulat",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13611",
                     "ready_for_review_at": "2026-10-28T05:50:01Z",
-                    "reviews": [],
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-10-28T21:46:51Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "rossbulat",
+                        "submitted_at": "2026-10-29T04:38:34Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
                     "comments": [],
-                    "time_to_first_review_hours": null,
+                    "time_to_first_review_hours": 15.947222222222223,
                     "time_to_merge_hours": null
                   },
                   {
@@ -34433,6 +34476,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13611,
+                    "pr_title": "Fix CI change filtering at the producer",
+                    "reviewed_at": "2026-10-29T04:38:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13611"
+                  },
                   {
                     "pr_number": 12297,
                     "pr_title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
@@ -107931,6 +107980,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13628,
+                    "title": "jamkb PoC",
+                    "state": "OPEN",
+                    "created_at": "2026-10-28T22:05:28Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "smiasojed",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13628",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13181,
                     "title": "Draft",
                     "state": "OPEN",
@@ -126689,6 +126754,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13626,
+                    "title": "pallet-psm: simplify PSM account handling",
+                    "state": "OPEN",
+                    "created_at": "2026-10-28T15:54:15Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13626",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13601,
                     "title": "Fix user losing remainder of swapped funds when pool liquidity goes below ED",
@@ -176848,6 +176929,24 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13616,
+                    "pr_title": "[stable2609] Backport #13085 & #13039 - pallet-revive storage deposit and terminate fixes",
+                    "reviewed_at": "2026-10-29T08:59:00Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13616"
+                  },
+                  {
+                    "pr_number": 13615,
+                    "pr_title": "[stable2606] Backport #13085, #13039 & #12267 - pallet-revive storage deposit and terminate fixes",
+                    "reviewed_at": "2026-10-29T08:55:41Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13615"
+                  },
+                  {
+                    "pr_number": 13630,
+                    "pr_title": "Remove dead links that fail the link checker",
+                    "reviewed_at": "2026-10-29T07:53:05Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13630"
+                  },
                   {
                     "pr_number": 13448,
                     "pr_title": "Bump revive differential tests",
