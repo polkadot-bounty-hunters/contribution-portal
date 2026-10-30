@@ -1401,6 +1401,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13630,
+      "pr_title": "Remove dead links that fail the link checker",
+      "reviewed_at": "2026-10-29T11:25:51Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13630"
+    },
+    {
       "pr_number": 13616,
       "pr_title": "[stable2609] Backport #13085 & #13039 - pallet-revive storage deposit and terminate fixes",
       "reviewed_at": "2026-10-29T08:59:00Z",
@@ -1411,12 +1417,6 @@
       "pr_title": "[stable2606] Backport #13085, #13039 & #12267 - pallet-revive storage deposit and terminate fixes",
       "reviewed_at": "2026-10-29T08:55:41Z",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13615"
-    },
-    {
-      "pr_number": 13630,
-      "pr_title": "Remove dead links that fail the link checker",
-      "reviewed_at": "2026-10-29T07:53:05Z",
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13630"
     },
     {
       "pr_number": 13448,

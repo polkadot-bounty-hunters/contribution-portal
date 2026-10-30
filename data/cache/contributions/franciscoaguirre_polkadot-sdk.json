@@ -422,7 +422,12 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13629",
       "ready_for_review_at": null,
       "reviews": [],
-      "comments": [],
+      "comments": [
+        {
+          "commenter": "bkontur",
+          "commented_at": "2026-10-29T12:36:21Z"
+        }
+      ],
       "time_to_first_review_hours": null,
       "time_to_merge_hours": null
     },

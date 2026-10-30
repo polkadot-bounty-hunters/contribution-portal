@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T09:11:21.024Z",
+  "generated_at": "2026-10-30T09:16:56.407Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1602,
-    "total_prs": 1791,
+    "total_commits": 1604,
+    "total_prs": 1792,
     "total_merged_prs": 1042,
-    "total_reviews": 2476
+    "total_reviews": 2477
   },
   "leaderboard": {
     "overall": [
@@ -35,10 +35,10 @@
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 110,
-        "prs": 156,
+        "prs": 157,
         "merged_prs": 80,
         "reviews": 247,
-        "score": 2431
+        "score": 2436
       },
       {
         "name": "liamaharon",
@@ -64,11 +64,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 128,
+        "commits": 129,
         "prs": 109,
         "merged_prs": 58,
-        "reviews": 72,
-        "score": 1469
+        "reviews": 73,
+        "score": 1473
       },
       {
         "name": "jsidorenko",
@@ -204,11 +204,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 12,
+        "commits": 13,
         "prs": 36,
         "merged_prs": 2,
         "reviews": 25,
-        "score": 287
+        "score": 288
       },
       {
         "name": "smiasojed",
@@ -528,10 +528,10 @@
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 110,
-          "prs": 156,
+          "prs": 157,
           "merged_prs": 80,
           "reviews": 247,
-          "score": 2431
+          "score": 2436
         },
         {
           "name": "franciscoaguirre",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 128,
+          "commits": 129,
           "prs": 109,
           "merged_prs": 58,
-          "reviews": 72,
-          "score": 1469
+          "reviews": 73,
+          "score": 1473
         },
         {
           "name": "pandres95",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 12,
+          "commits": 13,
           "prs": 36,
           "merged_prs": 2,
           "reviews": 25,
-          "score": 287
+          "score": 288
         },
         {
           "name": "surajk-m",
@@ -6343,7 +6343,12 @@
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13629",
                     "ready_for_review_at": null,
                     "reviews": [],
-                    "comments": [],
+                    "comments": [
+                      {
+                        "commenter": "bkontur",
+                        "commented_at": "2026-10-29T12:36:21Z"
+                      }
+                    ],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
@@ -31915,6 +31920,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1340,
+                    "title": "[AHMv2] Proxy stage",
+                    "state": "OPEN",
+                    "created_at": "2026-10-29T14:44:16Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "ank4n",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1340",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1337,
                     "title": "[AHMv2] Inbound messages drain during the warm-up, follow-ups from #1321 and #1324",
@@ -126297,6 +126318,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "4a8da70b429098ecd804da5ea9fad05718ff6d0f",
+                    "message": "asset-conversion: treat frozen or blocked pools as unusable (#13598)",
+                    "date": "2026-10-29T13:47:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/4a8da70b429098ecd804da5ea9fad05718ff6d0f"
+                  },
+                  {
                     "sha": "111317723512d237327aa0dadfdcea054533675c",
                     "message": "Fix user losing remainder of swapped funds when pool liquidity goes below ED (#13601)",
                     "date": "2026-10-27T16:47:48Z",
@@ -129692,6 +129719,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13638,
+                    "pr_title": "[stable2609 Backport #13598] asset-conversion: treat frozen or blocked pools as unusable",
+                    "reviewed_at": "2026-10-29T15:02:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13638"
+                  },
                   {
                     "pr_number": 13604,
                     "pr_title": "[stable2603 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
@@ -173314,6 +173347,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "7047603f28d68aac24fff8016d0c908d79e2462e",
+                    "message": "Registrar: Force Register (#13113)",
+                    "date": "2026-10-29T20:09:41Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/7047603f28d68aac24fff8016d0c908d79e2462e"
+                  },
+                  {
                     "sha": "193aa6c20eed45a960830aabedae6d6b8213abe9",
                     "message": "Registrar: Deregister (#13091)",
                     "date": "2026-10-20T12:18:36Z",
@@ -176930,6 +176969,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13630,
+                    "pr_title": "Remove dead links that fail the link checker",
+                    "reviewed_at": "2026-10-29T11:25:51Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13630"
+                  },
+                  {
                     "pr_number": 13616,
                     "pr_title": "[stable2609] Backport #13085 & #13039 - pallet-revive storage deposit and terminate fixes",
                     "reviewed_at": "2026-10-29T08:59:00Z",
@@ -176940,12 +176985,6 @@
                     "pr_title": "[stable2606] Backport #13085, #13039 & #12267 - pallet-revive storage deposit and terminate fixes",
                     "reviewed_at": "2026-10-29T08:55:41Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13615"
-                  },
-                  {
-                    "pr_number": 13630,
-                    "pr_title": "Remove dead links that fail the link checker",
-                    "reviewed_at": "2026-10-29T07:53:05Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13630"
                   },
                   {
                     "pr_number": 13448,
