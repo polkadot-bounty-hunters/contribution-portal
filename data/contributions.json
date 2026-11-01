@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T09:07:15.800Z",
+  "generated_at": "2026-11-01T09:46:34.663Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1604,
-    "total_prs": 1792,
+    "total_prs": 1794,
     "total_merged_prs": 1042,
-    "total_reviews": 2477
+    "total_reviews": 2479
   },
   "leaderboard": {
     "overall": [
@@ -237,8 +237,8 @@
         "commits": 15,
         "prs": 25,
         "merged_prs": 2,
-        "reviews": 18,
-        "score": 214
+        "reviews": 19,
+        "score": 217
       },
       {
         "name": "DrW3RK",
@@ -4340,8 +4340,8 @@
           "commits": 15,
           "prs": 25,
           "merged_prs": 2,
-          "reviews": 18,
-          "score": 214
+          "reviews": 19,
+          "score": 217
         },
         {
           "name": "castillax",
@@ -5126,6 +5126,16 @@
           "score": 288
         },
         {
+          "name": "agustinustheo",
+          "github": "agustinustheo",
+          "cohort": "PBA 7 Bali 2025",
+          "commits": 1,
+          "prs": 5,
+          "merged_prs": 0,
+          "reviews": 3,
+          "score": 35
+        },
+        {
           "name": "surajk-m",
           "github": "surajk-m",
           "cohort": "PBA 7 Bali 2025",
@@ -5144,16 +5154,6 @@
           "merged_prs": 1,
           "reviews": 0,
           "score": 27
-        },
-        {
-          "name": "agustinustheo",
-          "github": "agustinustheo",
-          "cohort": "PBA 7 Bali 2025",
-          "commits": 1,
-          "prs": 3,
-          "merged_prs": 0,
-          "reviews": 2,
-          "score": 22
         },
         {
           "name": "vrom911",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.07651882424875,
+    "average_review_time_hours": 74.01835493584706,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.97511994949494,
-        "pr_count": 836,
+        "avg_review_time_hours": 82.8760264834727,
+        "pr_count": 837,
         "merged_count": 669
       },
       {
@@ -168581,6 +168581,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13661,
+                    "pr_title": "fungible(s): Check deposit against capped amount in best-effort `release`",
+                    "reviewed_at": "2026-10-31T10:10:01Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13661"
+                  },
+                  {
                     "pr_number": 13541,
                     "pr_title": "[Release|CI/CD] Add eth-rpc image mention to release notes",
                     "reviewed_at": "2026-10-21T16:35:53Z",
@@ -173015,6 +173021,44 @@
                 "commits": [],
                 "prs": [
                   {
+                    "number": 13666,
+                    "title": "sc-tracing: keep events without the filtered field when the filter is empty",
+                    "state": "OPEN",
+                    "created_at": "2026-11-01T02:25:35Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "agustinustheo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13666",
+                    "ready_for_review_at": "2026-11-01T02:25:35Z",
+                    "reviews": [
+                      {
+                        "reviewer": "agustinustheo",
+                        "submitted_at": "2026-11-01T02:27:37Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 0.03388888888888889,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13665,
+                    "title": "omni-node: use the parachain tracing executor in `--dev` mode",
+                    "state": "OPEN",
+                    "created_at": "2026-11-01T02:25:28Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "agustinustheo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13665",
+                    "ready_for_review_at": "2026-11-01T02:25:28Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13597,
                     "title": "sc-tracing: keep events without the filtered field when the filter is empty",
                     "state": "OPEN",
@@ -173065,6 +173109,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13666,
+                    "pr_title": "sc-tracing: keep events without the filtered field when the filter is empty",
+                    "reviewed_at": "2026-11-01T02:27:37Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13666"
+                  },
                   {
                     "pr_number": 13597,
                     "pr_title": "sc-tracing: keep events without the filtered field when the filter is empty",

@@ -522,6 +522,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13661,
+      "pr_title": "fungible(s): Check deposit against capped amount in best-effort `release`",
+      "reviewed_at": "2026-10-31T10:10:01Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13661"
+    },
+    {
       "pr_number": 13541,
       "pr_title": "[Release|CI/CD] Add eth-rpc image mention to release notes",
       "reviewed_at": "2026-10-21T16:35:53Z",
