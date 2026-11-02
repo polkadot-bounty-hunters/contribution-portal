@@ -17,6 +17,16 @@
           "reviewer": "agustinustheo",
           "submitted_at": "2026-11-01T02:27:37Z",
           "state": "COMMENTED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-01T21:20:05Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "lexnv",
+          "submitted_at": "2026-11-02T09:30:12Z",
+          "state": "APPROVED"
         }
       ],
       "comments": [],
@@ -34,9 +44,15 @@
       "author": "agustinustheo",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13665",
       "ready_for_review_at": "2026-11-01T02:25:28Z",
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-01T21:22:55Z",
+          "state": "APPROVED"
+        }
+      ],
       "comments": [],
-      "time_to_first_review_hours": null,
+      "time_to_first_review_hours": 18.9575,
       "time_to_merge_hours": null
     },
     {
@@ -93,7 +109,7 @@
     {
       "pr_number": 13666,
       "pr_title": "sc-tracing: keep events without the filtered field when the filter is empty",
-      "reviewed_at": "2026-11-01T02:27:37Z",
+      "reviewed_at": "2026-11-02T09:30:12Z",
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13666"
     },
     {

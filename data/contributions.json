@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T09:46:34.663Z",
+  "generated_at": "2026-11-02T10:00:32.929Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 74.01835493584706,
+    "average_review_time_hours": 73.97513605442174,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 710,
-        "approved_count": 407,
-        "avg_time_to_review_hours": 46.7999664750958,
-        "approval_rate": 57.32394366197183
+        "review_count": 712,
+        "approved_count": 409,
+        "avg_time_to_review_hours": 46.64086666666668,
+        "approval_rate": 57.4438202247191
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.8760264834727,
-        "pr_count": 837,
+        "avg_review_time_hours": 82.79975139220365,
+        "pr_count": 838,
         "merged_count": 669
       },
       {
@@ -173036,6 +173036,16 @@
                         "reviewer": "agustinustheo",
                         "submitted_at": "2026-11-01T02:27:37Z",
                         "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-01T21:20:05Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "lexnv",
+                        "submitted_at": "2026-11-02T09:30:12Z",
+                        "state": "APPROVED"
                       }
                     ],
                     "comments": [],
@@ -173053,9 +173063,15 @@
                     "author": "agustinustheo",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13665",
                     "ready_for_review_at": "2026-11-01T02:25:28Z",
-                    "reviews": [],
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-01T21:22:55Z",
+                        "state": "APPROVED"
+                      }
+                    ],
                     "comments": [],
-                    "time_to_first_review_hours": null,
+                    "time_to_first_review_hours": 18.9575,
                     "time_to_merge_hours": null
                   },
                   {
@@ -173112,7 +173128,7 @@
                   {
                     "pr_number": 13666,
                     "pr_title": "sc-tracing: keep events without the filtered field when the filter is empty",
-                    "reviewed_at": "2026-11-01T02:27:37Z",
+                    "reviewed_at": "2026-11-02T09:30:12Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13666"
                   },
                   {
