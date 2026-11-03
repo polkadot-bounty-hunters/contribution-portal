@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-02T10:00:32.929Z",
+  "generated_at": "2026-11-03T10:12:46.958Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1604,
-    "total_prs": 1794,
+    "total_commits": 1607,
+    "total_prs": 1798,
     "total_merged_prs": 1042,
-    "total_reviews": 2479
+    "total_reviews": 2484
   },
   "leaderboard": {
     "overall": [
@@ -57,18 +57,18 @@
         "commits": 86,
         "prs": 127,
         "merged_prs": 84,
-        "reviews": 197,
-        "score": 2152
+        "reviews": 198,
+        "score": 2155
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 129,
-        "prs": 109,
+        "prs": 111,
         "merged_prs": 58,
         "reviews": 73,
-        "score": 1473
+        "score": 1483
       },
       {
         "name": "jsidorenko",
@@ -124,11 +124,11 @@
         "name": "rossbulat",
         "github": "rossbulat",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 1,
-        "prs": 36,
+        "commits": 2,
+        "prs": 38,
         "merged_prs": 16,
         "reviews": 50,
-        "score": 491
+        "score": 502
       },
       {
         "name": "Krayt78",
@@ -147,8 +147,8 @@
         "commits": 30,
         "prs": 42,
         "merged_prs": 4,
-        "reviews": 44,
-        "score": 412
+        "reviews": 45,
+        "score": 415
       },
       {
         "name": "pandres95",
@@ -217,8 +217,8 @@
         "commits": 8,
         "prs": 10,
         "merged_prs": 6,
-        "reviews": 53,
-        "score": 277
+        "reviews": 54,
+        "score": 280
       },
       {
         "name": "Overkillus",
@@ -237,8 +237,8 @@
         "commits": 15,
         "prs": 25,
         "merged_prs": 2,
-        "reviews": 19,
-        "score": 217
+        "reviews": 21,
+        "score": 223
       },
       {
         "name": "DrW3RK",
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 127,
           "merged_prs": 84,
-          "reviews": 197,
-          "score": 2152
+          "reviews": 198,
+          "score": 2155
         },
         {
           "name": "jsidorenko",
@@ -557,11 +557,11 @@
           "name": "rossbulat",
           "github": "rossbulat",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 1,
-          "prs": 36,
+          "commits": 2,
+          "prs": 38,
           "merged_prs": 16,
           "reviews": 50,
-          "score": 491
+          "score": 502
         },
         {
           "name": "BradleyOlson64",
@@ -982,8 +982,8 @@
           "commits": 8,
           "prs": 10,
           "merged_prs": 6,
-          "reviews": 53,
-          "score": 277
+          "reviews": 54,
+          "score": 280
         },
         {
           "name": "Overkillus",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 129,
-          "prs": 109,
+          "prs": 111,
           "merged_prs": 58,
           "reviews": 73,
-          "score": 1473
+          "score": 1483
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 15,
           "prs": 25,
           "merged_prs": 2,
-          "reviews": 19,
-          "score": 217
+          "reviews": 21,
+          "score": 223
         },
         {
           "name": "castillax",
@@ -5112,8 +5112,8 @@
           "commits": 30,
           "prs": 42,
           "merged_prs": 4,
-          "reviews": 44,
-          "score": 412
+          "reviews": 45,
+          "score": 415
         },
         {
           "name": "cirko33",
@@ -5129,11 +5129,11 @@
           "name": "agustinustheo",
           "github": "agustinustheo",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 1,
+          "commits": 3,
           "prs": 5,
           "merged_prs": 0,
           "reviews": 3,
-          "score": 35
+          "score": 37
         },
         {
           "name": "surajk-m",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.97513605442174,
+    "average_review_time_hours": 73.86776776384532,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 712,
-        "approved_count": 409,
-        "avg_time_to_review_hours": 46.64086666666668,
-        "approval_rate": 57.4438202247191
+        "review_count": 714,
+        "approved_count": 411,
+        "avg_time_to_review_hours": 46.437239583333344,
+        "approval_rate": 57.56302521008403
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.79975139220365,
-        "pr_count": 838,
+        "avg_review_time_hours": 82.61564285714286,
+        "pr_count": 840,
         "merged_count": 669
       },
       {
@@ -15002,6 +15002,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13676,
+                    "pr_title": "Derive `MaxEncodedLen` for `StatementAllowance`",
+                    "reviewed_at": "2026-11-02T20:50:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13676"
+                  },
                   {
                     "pr_number": 13045,
                     "pr_title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
@@ -33142,6 +33148,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "c50e3922182168884d0c108b17b23db9baca2242",
+                    "message": "Fix CI change filtering at the producer (#13611)",
+                    "date": "2026-11-02T11:05:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/c50e3922182168884d0c108b17b23db9baca2242"
+                  },
+                  {
                     "sha": "a0ef3da4f1d9173dd44f8d8dbb181e69ff5c001a",
                     "message": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state (#12297)",
                     "date": "2026-06-08T13:01:52Z",
@@ -33149,6 +33161,63 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13684,
+                    "title": "Consolidate CI script tests with pinned pytest dependencies",
+                    "state": "OPEN",
+                    "created_at": "2026-11-03T06:02:54Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13684",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "socket-security[bot]",
+                        "commented_at": "2026-11-03T06:03:26Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13683,
+                    "title": "ci: exclude failing PBA YouTube playlist from link checks",
+                    "state": "OPEN",
+                    "created_at": "2026-11-03T05:58:55Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rossbulat",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13683",
+                    "ready_for_review_at": "2026-11-03T05:58:55Z",
+                    "reviews": [
+                      {
+                        "reviewer": "pepoviola",
+                        "submitted_at": "2026-11-03T06:07:40Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-03T06:08:12Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "rossbulat",
+                        "commented_at": "2026-11-03T06:01:24Z"
+                      },
+                      {
+                        "commenter": "rossbulat",
+                        "commented_at": "2026-11-03T06:02:58Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.14583333333333334,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13614,
                     "title": "Add report-only Subsystem Benchmarks filtering",
@@ -109388,6 +109457,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13678,
+                    "pr_title": "[pallet-revive] PVM performance: early return on mem read",
+                    "reviewed_at": "2026-11-03T01:42:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13678"
+                  },
+                  {
                     "pr_number": 13413,
                     "pr_title": "pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
                     "reviewed_at": "2026-10-05T14:34:38Z",
@@ -126781,6 +126856,44 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13673,
+                    "title": "`pallet-bounties`: Pay out only spendable funds",
+                    "state": "OPEN",
+                    "created_at": "2026-11-02T11:35:03Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13673",
+                    "ready_for_review_at": "2026-11-02T11:35:03Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-02T22:23:12Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 10.8025,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13669,
+                    "title": "Price Oracle: metrics",
+                    "state": "OPEN",
+                    "created_at": "2026-11-02T10:18:23Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13669",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13626,
                     "title": "pallet-psm: simplify PSM account handling",
@@ -168581,6 +168694,18 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13676,
+                    "pr_title": "Derive `MaxEncodedLen` for `StatementAllowance`",
+                    "reviewed_at": "2026-11-02T20:50:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13676"
+                  },
+                  {
+                    "pr_number": 13672,
+                    "pr_title": "Version bumps and prdocs reordering from stable2609-1",
+                    "reviewed_at": "2026-11-02T12:41:42Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13672"
+                  },
+                  {
                     "pr_number": 13661,
                     "pr_title": "fungible(s): Check deposit against capped amount in best-effort `release`",
                     "reviewed_at": "2026-10-31T10:10:01Z",
@@ -173018,7 +173143,20 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "abd3ba33f9d2de9958e9a393715302833a391201",
+                    "message": "omni-node: use the parachain tracing executor in `--dev` mode (#13665)",
+                    "date": "2026-11-02T13:43:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/abd3ba33f9d2de9958e9a393715302833a391201"
+                  },
+                  {
+                    "sha": "cc5d217cc61241ce97d5921c04eab97bb27be916",
+                    "message": "sc-tracing: keep events without the filtered field when the filter is empty (#13666)",
+                    "date": "2026-11-02T12:14:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/cc5d217cc61241ce97d5921c04eab97bb27be916"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 13666,
@@ -177034,6 +177172,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13678,
+                    "pr_title": "[pallet-revive] PVM performance: early return on mem read",
+                    "reviewed_at": "2026-11-03T01:42:26Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13678"
+                  },
                   {
                     "pr_number": 13630,
                     "pr_title": "Remove dead links that fail the link checker",

@@ -1438,6 +1438,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13678,
+      "pr_title": "[pallet-revive] PVM performance: early return on mem read",
+      "reviewed_at": "2026-11-03T01:42:26Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13678"
+    },
+    {
       "pr_number": 13413,
       "pr_title": "pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
       "reviewed_at": "2026-10-05T14:34:38Z",

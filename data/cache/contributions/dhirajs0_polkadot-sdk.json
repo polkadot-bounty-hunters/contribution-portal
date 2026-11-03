@@ -522,6 +522,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13676,
+      "pr_title": "Derive `MaxEncodedLen` for `StatementAllowance`",
+      "reviewed_at": "2026-11-02T20:50:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13676"
+    },
+    {
+      "pr_number": 13672,
+      "pr_title": "Version bumps and prdocs reordering from stable2609-1",
+      "reviewed_at": "2026-11-02T12:41:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13672"
+    },
+    {
       "pr_number": 13661,
       "pr_title": "fungible(s): Check deposit against capped amount in best-effort `release`",
       "reviewed_at": "2026-10-31T10:10:01Z",

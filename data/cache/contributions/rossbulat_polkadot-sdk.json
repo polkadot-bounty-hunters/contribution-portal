@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "c50e3922182168884d0c108b17b23db9baca2242",
+      "message": "Fix CI change filtering at the producer (#13611)",
+      "date": "2026-11-02T11:05:18Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/c50e3922182168884d0c108b17b23db9baca2242"
+    },
+    {
       "sha": "a0ef3da4f1d9173dd44f8d8dbb181e69ff5c001a",
       "message": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state (#12297)",
       "date": "2026-06-08T13:01:52Z",
@@ -8,6 +14,63 @@
     }
   ],
   "prs": [
+    {
+      "number": 13684,
+      "title": "Consolidate CI script tests with pinned pytest dependencies",
+      "state": "OPEN",
+      "created_at": "2026-11-03T06:02:54Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13684",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "socket-security[bot]",
+          "commented_at": "2026-11-03T06:03:26Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13683,
+      "title": "ci: exclude failing PBA YouTube playlist from link checks",
+      "state": "OPEN",
+      "created_at": "2026-11-03T05:58:55Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rossbulat",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13683",
+      "ready_for_review_at": "2026-11-03T05:58:55Z",
+      "reviews": [
+        {
+          "reviewer": "pepoviola",
+          "submitted_at": "2026-11-03T06:07:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-03T06:08:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2026-11-03T06:01:24Z"
+        },
+        {
+          "commenter": "rossbulat",
+          "commented_at": "2026-11-03T06:02:58Z"
+        }
+      ],
+      "time_to_first_review_hours": 0.14583333333333334,
+      "time_to_merge_hours": null
+    },
     {
       "number": 13614,
       "title": "Add report-only Subsystem Benchmarks filtering",

@@ -465,6 +465,44 @@
   ],
   "prs": [
     {
+      "number": 13673,
+      "title": "`pallet-bounties`: Pay out only spendable funds",
+      "state": "OPEN",
+      "created_at": "2026-11-02T11:35:03Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13673",
+      "ready_for_review_at": "2026-11-02T11:35:03Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-02T22:23:12Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 10.8025,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13669,
+      "title": "Price Oracle: metrics",
+      "state": "OPEN",
+      "created_at": "2026-11-02T10:18:23Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13669",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13626,
       "title": "pallet-psm: simplify PSM account handling",
       "state": "OPEN",

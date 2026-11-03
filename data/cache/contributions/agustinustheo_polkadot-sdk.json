@@ -1,5 +1,18 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "abd3ba33f9d2de9958e9a393715302833a391201",
+      "message": "omni-node: use the parachain tracing executor in `--dev` mode (#13665)",
+      "date": "2026-11-02T13:43:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/abd3ba33f9d2de9958e9a393715302833a391201"
+    },
+    {
+      "sha": "cc5d217cc61241ce97d5921c04eab97bb27be916",
+      "message": "sc-tracing: keep events without the filtered field when the filter is empty (#13666)",
+      "date": "2026-11-02T12:14:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/cc5d217cc61241ce97d5921c04eab97bb27be916"
+    }
+  ],
   "prs": [
     {
       "number": 13666,
