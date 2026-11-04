@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T10:12:46.958Z",
+  "generated_at": "2026-11-04T09:41:11.382Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1607,
-    "total_prs": 1798,
-    "total_merged_prs": 1042,
-    "total_reviews": 2484
+    "total_commits": 1610,
+    "total_prs": 1799,
+    "total_merged_prs": 1043,
+    "total_reviews": 2493
   },
   "leaderboard": {
     "overall": [
@@ -37,8 +37,8 @@
         "commits": 110,
         "prs": 157,
         "merged_prs": 80,
-        "reviews": 247,
-        "score": 2436
+        "reviews": 248,
+        "score": 2439
       },
       {
         "name": "liamaharon",
@@ -57,18 +57,18 @@
         "commits": 86,
         "prs": 127,
         "merged_prs": 84,
-        "reviews": 198,
-        "score": 2155
+        "reviews": 199,
+        "score": 2158
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 129,
-        "prs": 111,
-        "merged_prs": 58,
-        "reviews": 73,
-        "score": 1483
+        "commits": 131,
+        "prs": 112,
+        "merged_prs": 59,
+        "reviews": 79,
+        "score": 1518
       },
       {
         "name": "jsidorenko",
@@ -144,11 +144,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 30,
+        "commits": 31,
         "prs": 42,
         "merged_prs": 4,
         "reviews": 45,
-        "score": 415
+        "score": 416
       },
       {
         "name": "pandres95",
@@ -217,8 +217,8 @@
         "commits": 8,
         "prs": 10,
         "merged_prs": 6,
-        "reviews": 54,
-        "score": 280
+        "reviews": 55,
+        "score": 283
       },
       {
         "name": "Overkillus",
@@ -530,8 +530,8 @@
           "commits": 110,
           "prs": 157,
           "merged_prs": 80,
-          "reviews": 247,
-          "score": 2436
+          "reviews": 248,
+          "score": 2439
         },
         {
           "name": "franciscoaguirre",
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 127,
           "merged_prs": 84,
-          "reviews": 198,
-          "score": 2155
+          "reviews": 199,
+          "score": 2158
         },
         {
           "name": "jsidorenko",
@@ -982,8 +982,8 @@
           "commits": 8,
           "prs": 10,
           "merged_prs": 6,
-          "reviews": 54,
-          "score": 280
+          "reviews": 55,
+          "score": 283
         },
         {
           "name": "Overkillus",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 129,
-          "prs": 111,
-          "merged_prs": 58,
-          "reviews": 73,
-          "score": 1483
+          "commits": 131,
+          "prs": 112,
+          "merged_prs": 59,
+          "reviews": 79,
+          "score": 1518
         },
         {
           "name": "pandres95",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 30,
+          "commits": 31,
           "prs": 42,
           "merged_prs": 4,
           "reviews": 45,
-          "score": 415
+          "score": 416
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.86776776384532,
+    "average_review_time_hours": 73.81087248760112,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,17 +5617,17 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 714,
-        "approved_count": 411,
+        "review_count": 715,
+        "approved_count": 412,
         "avg_time_to_review_hours": 46.437239583333344,
-        "approval_rate": 57.56302521008403
+        "approval_rate": 57.62237762237762
       },
       {
         "reviewer": "bkontur",
-        "review_count": 492,
-        "approved_count": 146,
+        "review_count": 493,
+        "approved_count": 147,
         "avg_time_to_review_hours": 18.870238095238093,
-        "approval_rate": 29.67479674796748
+        "approval_rate": 29.817444219066935
       },
       {
         "reviewer": "athei",
@@ -5729,10 +5729,10 @@
       },
       {
         "reviewer": "Ank4n",
-        "review_count": 99,
-        "approved_count": 23,
-        "avg_time_to_review_hours": 192.64479166666672,
-        "approval_rate": 23.232323232323232
+        "review_count": 100,
+        "approved_count": 24,
+        "avg_time_to_review_hours": 177.91923076923084,
+        "approval_rate": 24
       },
       {
         "reviewer": "seadanda",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.61564285714286,
-        "pr_count": 840,
-        "merged_count": 669
+        "avg_review_time_hours": 82.51884958382877,
+        "pr_count": 841,
+        "merged_count": 670
       },
       {
         "repository": "paritytech/substrate",
@@ -15002,6 +15002,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13704,
+                    "pr_title": "More XCM rollback hardening",
+                    "reviewed_at": "2026-11-03T20:15:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13704"
+                  },
                   {
                     "pr_number": 13676,
                     "pr_title": "Derive `MaxEncodedLen` for `StatementAllowance`",
@@ -27769,6 +27775,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13690,
+                    "pr_title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
+                    "reviewed_at": "2026-11-03T14:27:33Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13690"
+                  },
+                  {
                     "pr_number": 13475,
                     "pr_title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
                     "reviewed_at": "2026-10-14T20:59:37Z",
@@ -33202,6 +33214,16 @@
                       {
                         "reviewer": "bkchr",
                         "submitted_at": "2026-11-03T06:08:12Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "georgepisaltu",
+                        "submitted_at": "2026-11-03T09:08:40Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-11-03T09:14:28Z",
                         "state": "APPROVED"
                       }
                     ],
@@ -109457,6 +109479,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13682,
+                    "pr_title": "[stable2609 Backport #13678] [pallet-revive] PVM performance: early return on mem read",
+                    "reviewed_at": "2026-11-03T10:04:47Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13682"
+                  },
+                  {
                     "pr_number": 13678,
                     "pr_title": "[pallet-revive] PVM performance: early return on mem read",
                     "reviewed_at": "2026-11-03T01:42:26Z",
@@ -126393,6 +126421,18 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "6eeaf84e47f18020ecf4bfbb5e8809a6381bdce8",
+                    "message": "`pallet-staking-async`: Only move spendable funds out of expired era pots (#13690)",
+                    "date": "2026-11-03T13:33:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/6eeaf84e47f18020ecf4bfbb5e8809a6381bdce8"
+                  },
+                  {
+                    "sha": "7c7b86afe492eb0c6af381cd74863a5818d62cf7",
+                    "message": "pallet-psm: simplify PSM account handling (#13626)",
+                    "date": "2026-11-03T08:57:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/7c7b86afe492eb0c6af381cd74863a5818d62cf7"
+                  },
+                  {
                     "sha": "4a8da70b429098ecd804da5ea9fad05718ff6d0f",
                     "message": "asset-conversion: treat frozen or blocked pools as unusable (#13598)",
                     "date": "2026-10-29T13:47:35Z",
@@ -126856,6 +126896,42 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13690,
+                    "title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
+                    "state": "MERGED",
+                    "created_at": "2026-11-03T09:35:56Z",
+                    "closed_at": "2026-11-03T14:26:31Z",
+                    "merged_at": "2026-11-03T14:26:31Z",
+                    "merged_by": "Szegoo",
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13690",
+                    "ready_for_review_at": "2026-11-03T09:35:56Z",
+                    "reviews": [
+                      {
+                        "reviewer": "Ank4n",
+                        "submitted_at": "2026-11-03T10:48:41Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-03T11:18:09Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-11-03T14:27:26Z"
+                      },
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-11-03T14:27:33Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.2125,
+                    "time_to_merge_hours": 4.843055555555556
+                  },
                   {
                     "number": 13673,
                     "title": "`pallet-bounties`: Pay out only spendable funds",
@@ -129832,6 +129908,42 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13702,
+                    "pr_title": "[stable2609 Backport #13690] `pallet-staking-async`: Only move spendable funds out of expired era pots",
+                    "reviewed_at": "2026-11-03T22:38:07Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13702"
+                  },
+                  {
+                    "pr_number": 13691,
+                    "pr_title": "[stable2606 Backport #13626] pallet-psm: simplify PSM account handling",
+                    "reviewed_at": "2026-11-03T21:46:52Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13691"
+                  },
+                  {
+                    "pr_number": 13701,
+                    "pr_title": "[stable2606 Backport #13690] `pallet-staking-async`: Only move spendable funds out of expired era pots",
+                    "reviewed_at": "2026-11-03T20:52:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13701"
+                  },
+                  {
+                    "pr_number": 13696,
+                    "pr_title": "[stable2606 Backport #13256] pallet-psm: reject the `None` origin as a PSM admin",
+                    "reviewed_at": "2026-11-03T20:51:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13696"
+                  },
+                  {
+                    "pr_number": 13692,
+                    "pr_title": "[stable2609 Backport #13626] pallet-psm: simplify PSM account handling",
+                    "reviewed_at": "2026-11-03T13:21:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13692"
+                  },
+                  {
+                    "pr_number": 13697,
+                    "pr_title": "[stable2609 Backport #13256] pallet-psm: reject the `None` origin as a PSM admin",
+                    "reviewed_at": "2026-11-03T11:21:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13697"
+                  },
                   {
                     "pr_number": 13638,
                     "pr_title": "[stable2609 Backport #13598] asset-conversion: treat frozen or blocked pools as unusable",
@@ -175772,6 +175884,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "94361101f96f0d6ff0991c37cdcbacc8447c7681",
+                    "message": "pallet-revive: split the call and instantiate benchmarks by value transfer (#13342)",
+                    "date": "2026-11-03T13:58:12Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/94361101f96f0d6ff0991c37cdcbacc8447c7681"
+                  },
                   {
                     "sha": "4f70f263f11a4ee2c25731f9fcf8759be5e510a0",
                     "message": "eth-rpc: send only new latest blocks to newHeads subscribers (#13477)",

@@ -1438,6 +1438,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13682,
+      "pr_title": "[stable2609 Backport #13678] [pallet-revive] PVM performance: early return on mem read",
+      "reviewed_at": "2026-11-03T10:04:47Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13682"
+    },
+    {
       "pr_number": 13678,
       "pr_title": "[pallet-revive] PVM performance: early return on mem read",
       "reviewed_at": "2026-11-03T01:42:26Z",

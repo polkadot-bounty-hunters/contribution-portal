@@ -56,6 +56,16 @@
           "reviewer": "bkchr",
           "submitted_at": "2026-11-03T06:08:12Z",
           "state": "APPROVED"
+        },
+        {
+          "reviewer": "georgepisaltu",
+          "submitted_at": "2026-11-03T09:08:40Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkontur",
+          "submitted_at": "2026-11-03T09:14:28Z",
+          "state": "APPROVED"
         }
       ],
       "comments": [

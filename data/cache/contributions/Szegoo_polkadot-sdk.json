@@ -1,6 +1,18 @@
 {
   "commits": [
     {
+      "sha": "6eeaf84e47f18020ecf4bfbb5e8809a6381bdce8",
+      "message": "`pallet-staking-async`: Only move spendable funds out of expired era pots (#13690)",
+      "date": "2026-11-03T13:33:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6eeaf84e47f18020ecf4bfbb5e8809a6381bdce8"
+    },
+    {
+      "sha": "7c7b86afe492eb0c6af381cd74863a5818d62cf7",
+      "message": "pallet-psm: simplify PSM account handling (#13626)",
+      "date": "2026-11-03T08:57:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7c7b86afe492eb0c6af381cd74863a5818d62cf7"
+    },
+    {
       "sha": "4a8da70b429098ecd804da5ea9fad05718ff6d0f",
       "message": "asset-conversion: treat frozen or blocked pools as unusable (#13598)",
       "date": "2026-10-29T13:47:35Z",
@@ -464,6 +476,42 @@
     }
   ],
   "prs": [
+    {
+      "number": 13690,
+      "title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
+      "state": "MERGED",
+      "created_at": "2026-11-03T09:35:56Z",
+      "closed_at": "2026-11-03T14:26:31Z",
+      "merged_at": "2026-11-03T14:26:31Z",
+      "merged_by": "Szegoo",
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13690",
+      "ready_for_review_at": "2026-11-03T09:35:56Z",
+      "reviews": [
+        {
+          "reviewer": "Ank4n",
+          "submitted_at": "2026-11-03T10:48:41Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-03T11:18:09Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2026-11-03T14:27:26Z"
+        },
+        {
+          "commenter": "paritytech-release-backport-bot[bot]",
+          "commented_at": "2026-11-03T14:27:33Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.2125,
+      "time_to_merge_hours": 4.843055555555556
+    },
     {
       "number": 13673,
       "title": "`pallet-bounties`: Pay out only spendable funds",
@@ -3440,6 +3488,42 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13702,
+      "pr_title": "[stable2609 Backport #13690] `pallet-staking-async`: Only move spendable funds out of expired era pots",
+      "reviewed_at": "2026-11-03T22:38:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13702"
+    },
+    {
+      "pr_number": 13691,
+      "pr_title": "[stable2606 Backport #13626] pallet-psm: simplify PSM account handling",
+      "reviewed_at": "2026-11-03T21:46:52Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13691"
+    },
+    {
+      "pr_number": 13701,
+      "pr_title": "[stable2606 Backport #13690] `pallet-staking-async`: Only move spendable funds out of expired era pots",
+      "reviewed_at": "2026-11-03T20:52:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13701"
+    },
+    {
+      "pr_number": 13696,
+      "pr_title": "[stable2606 Backport #13256] pallet-psm: reject the `None` origin as a PSM admin",
+      "reviewed_at": "2026-11-03T20:51:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13696"
+    },
+    {
+      "pr_number": 13692,
+      "pr_title": "[stable2609 Backport #13626] pallet-psm: simplify PSM account handling",
+      "reviewed_at": "2026-11-03T13:21:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13692"
+    },
+    {
+      "pr_number": 13697,
+      "pr_title": "[stable2609 Backport #13256] pallet-psm: reject the `None` origin as a PSM admin",
+      "reviewed_at": "2026-11-03T11:21:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13697"
+    },
     {
       "pr_number": 13638,
       "pr_title": "[stable2609 Backport #13598] asset-conversion: treat frozen or blocked pools as unusable",

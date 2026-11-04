@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "94361101f96f0d6ff0991c37cdcbacc8447c7681",
+      "message": "pallet-revive: split the call and instantiate benchmarks by value transfer (#13342)",
+      "date": "2026-11-03T13:58:12Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/94361101f96f0d6ff0991c37cdcbacc8447c7681"
+    },
+    {
       "sha": "4f70f263f11a4ee2c25731f9fcf8759be5e510a0",
       "message": "eth-rpc: send only new latest blocks to newHeads subscribers (#13477)",
       "date": "2026-10-17T06:07:15Z",

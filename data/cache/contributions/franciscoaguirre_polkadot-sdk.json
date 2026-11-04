@@ -9082,6 +9082,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13704,
+      "pr_title": "More XCM rollback hardening",
+      "reviewed_at": "2026-11-03T20:15:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13704"
+    },
+    {
       "pr_number": 13676,
       "pr_title": "Derive `MaxEncodedLen` for `StatementAllowance`",
       "reviewed_at": "2026-11-02T20:50:23Z",
