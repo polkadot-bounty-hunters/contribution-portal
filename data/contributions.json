@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T09:41:11.382Z",
+  "generated_at": "2026-11-05T10:07:23.527Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1610,
-    "total_prs": 1799,
+    "total_commits": 1611,
+    "total_prs": 1801,
     "total_merged_prs": 1043,
-    "total_reviews": 2493
+    "total_reviews": 2496
   },
   "leaderboard": {
     "overall": [
@@ -37,8 +37,8 @@
         "commits": 110,
         "prs": 157,
         "merged_prs": 80,
-        "reviews": 248,
-        "score": 2439
+        "reviews": 249,
+        "score": 2442
       },
       {
         "name": "liamaharon",
@@ -55,20 +55,20 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 86,
-        "prs": 127,
+        "prs": 128,
         "merged_prs": 84,
-        "reviews": 199,
-        "score": 2158
+        "reviews": 200,
+        "score": 2166
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 131,
-        "prs": 112,
+        "prs": 113,
         "merged_prs": 59,
         "reviews": 79,
-        "score": 1518
+        "score": 1523
       },
       {
         "name": "jsidorenko",
@@ -144,11 +144,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 31,
+        "commits": 32,
         "prs": 42,
         "merged_prs": 4,
         "reviews": 45,
-        "score": 416
+        "score": 417
       },
       {
         "name": "pandres95",
@@ -207,8 +207,8 @@
         "commits": 13,
         "prs": 36,
         "merged_prs": 2,
-        "reviews": 25,
-        "score": 288
+        "reviews": 26,
+        "score": 291
       },
       {
         "name": "smiasojed",
@@ -530,18 +530,18 @@
           "commits": 110,
           "prs": 157,
           "merged_prs": 80,
-          "reviews": 248,
-          "score": 2439
+          "reviews": 249,
+          "score": 2442
         },
         {
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 86,
-          "prs": 127,
+          "prs": 128,
           "merged_prs": 84,
-          "reviews": 199,
-          "score": 2158
+          "reviews": 200,
+          "score": 2166
         },
         {
           "name": "jsidorenko",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 131,
-          "prs": 112,
+          "prs": 113,
           "merged_prs": 59,
           "reviews": 79,
-          "score": 1518
+          "score": 1523
         },
         {
           "name": "pandres95",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 31,
+          "commits": 32,
           "prs": 42,
           "merged_prs": 4,
           "reviews": 45,
-          "score": 416
+          "score": 417
         },
         {
           "name": "cirko33",
@@ -5122,8 +5122,8 @@
           "commits": 13,
           "prs": 36,
           "merged_prs": 2,
-          "reviews": 25,
-          "score": 288
+          "reviews": 26,
+          "score": 291
         },
         {
           "name": "agustinustheo",
@@ -6331,6 +6331,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13720,
+                    "title": "Fix weights accuracy",
+                    "state": "OPEN",
+                    "created_at": "2026-11-04T17:48:14Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13720",
+                    "ready_for_review_at": "2026-11-04T17:48:14Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13629,
                     "title": "Remove XCMv3",
@@ -15002,6 +15018,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13713,
+                    "pr_title": "`try_decode_entire_state`: also decode storage map keys",
+                    "reviewed_at": "2026-11-04T18:27:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13713"
+                  },
                   {
                     "pr_number": 13704,
                     "pr_title": "More XCM rollback hardening",
@@ -27774,6 +27796,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13722,
+                    "pr_title": "EPMB: determine the signed base deposit at registration",
+                    "reviewed_at": "2026-11-05T08:21:55Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13722"
+                  },
                   {
                     "pr_number": 13690,
                     "pr_title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
@@ -126897,6 +126925,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13712,
+                    "title": "`pallet-broker`: Fix double counting when re-pooling an active region",
+                    "state": "OPEN",
+                    "created_at": "2026-11-04T12:10:52Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13712",
+                    "ready_for_review_at": "2026-11-04T12:10:52Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13690,
                     "title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
                     "state": "MERGED",
@@ -174641,6 +174685,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13722,
+                    "pr_title": "EPMB: determine the signed base deposit at registration",
+                    "reviewed_at": "2026-11-05T09:18:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13722"
+                  },
+                  {
                     "pr_number": 13475,
                     "pr_title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
                     "reviewed_at": "2026-10-14T20:59:37Z",
@@ -175884,6 +175934,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "1de9ddfe5387691ee0867946876368088b57ac6a",
+                    "message": "pallet-revive: measure the contract's own account in host function benchmarks (#13501)",
+                    "date": "2026-11-04T09:03:19Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/1de9ddfe5387691ee0867946876368088b57ac6a"
+                  },
                   {
                     "sha": "94361101f96f0d6ff0991c37cdcbacc8447c7681",
                     "message": "pallet-revive: split the call and instantiate benchmarks by value transfer (#13342)",

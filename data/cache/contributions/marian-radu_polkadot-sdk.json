@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "1de9ddfe5387691ee0867946876368088b57ac6a",
+      "message": "pallet-revive: measure the contract's own account in host function benchmarks (#13501)",
+      "date": "2026-11-04T09:03:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1de9ddfe5387691ee0867946876368088b57ac6a"
+    },
+    {
       "sha": "94361101f96f0d6ff0991c37cdcbacc8447c7681",
       "message": "pallet-revive: split the call and instantiate benchmarks by value transfer (#13342)",
       "date": "2026-11-03T13:58:12Z",

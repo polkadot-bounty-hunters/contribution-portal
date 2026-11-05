@@ -7931,6 +7931,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13722,
+      "pr_title": "EPMB: determine the signed base deposit at registration",
+      "reviewed_at": "2026-11-05T08:21:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13722"
+    },
+    {
       "pr_number": 13690,
       "pr_title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
       "reviewed_at": "2026-11-03T14:27:33Z",

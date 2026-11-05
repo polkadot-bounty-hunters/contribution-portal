@@ -477,6 +477,22 @@
   ],
   "prs": [
     {
+      "number": 13712,
+      "title": "`pallet-broker`: Fix double counting when re-pooling an active region",
+      "state": "OPEN",
+      "created_at": "2026-11-04T12:10:52Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "Szegoo",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13712",
+      "ready_for_review_at": "2026-11-04T12:10:52Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13690,
       "title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
       "state": "MERGED",

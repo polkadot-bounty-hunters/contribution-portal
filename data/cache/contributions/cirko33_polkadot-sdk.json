@@ -979,6 +979,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13722,
+      "pr_title": "EPMB: determine the signed base deposit at registration",
+      "reviewed_at": "2026-11-05T09:18:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13722"
+    },
+    {
       "pr_number": 13475,
       "pr_title": "[AHMv2] Abstracts away HRMP deposits into a Deposit Provider impl. Paves way for remote deposits later (on CT)",
       "reviewed_at": "2026-10-14T20:59:37Z",
