@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-05T10:07:23.527Z",
+  "generated_at": "2026-11-06T10:08:21.563Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1611,
     "total_prs": 1801,
     "total_merged_prs": 1043,
-    "total_reviews": 2496
+    "total_reviews": 2499
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 86,
         "prs": 128,
         "merged_prs": 84,
-        "reviews": 200,
-        "score": 2166
+        "reviews": 202,
+        "score": 2172
       },
       {
         "name": "Szegoo",
@@ -237,8 +237,8 @@
         "commits": 15,
         "prs": 25,
         "merged_prs": 2,
-        "reviews": 21,
-        "score": 223
+        "reviews": 22,
+        "score": 226
       },
       {
         "name": "DrW3RK",
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 128,
           "merged_prs": 84,
-          "reviews": 200,
-          "score": 2166
+          "reviews": 202,
+          "score": 2172
         },
         {
           "name": "jsidorenko",
@@ -4340,8 +4340,8 @@
           "commits": 15,
           "prs": 25,
           "merged_prs": 2,
-          "reviews": 21,
-          "score": 223
+          "reviews": 22,
+          "score": 226
         },
         {
           "name": "castillax",
@@ -15018,6 +15018,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13742,
+                    "pr_title": "Uniques/NFTs: make ownership transafer fail if deposit cannot be moved",
+                    "reviewed_at": "2026-11-05T20:27:53Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13742"
+                  },
+                  {
+                    "pr_number": 13733,
+                    "pr_title": "pallet-balances: Do not store empty reserves in state",
+                    "reviewed_at": "2026-11-05T15:28:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13733"
+                  },
                   {
                     "pr_number": 13713,
                     "pr_title": "`try_decode_entire_state`: also decode storage map keys",
@@ -168849,6 +168861,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13733,
+                    "pr_title": "pallet-balances: Do not store empty reserves in state",
+                    "reviewed_at": "2026-11-05T15:28:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13733"
+                  },
                   {
                     "pr_number": 13676,
                     "pr_title": "Derive `MaxEncodedLen` for `StatementAllowance`",

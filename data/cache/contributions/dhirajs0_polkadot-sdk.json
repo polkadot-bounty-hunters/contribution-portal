@@ -522,6 +522,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13733,
+      "pr_title": "pallet-balances: Do not store empty reserves in state",
+      "reviewed_at": "2026-11-05T15:28:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13733"
+    },
+    {
       "pr_number": 13676,
       "pr_title": "Derive `MaxEncodedLen` for `StatementAllowance`",
       "reviewed_at": "2026-11-02T20:50:23Z",

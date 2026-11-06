@@ -9098,6 +9098,18 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13742,
+      "pr_title": "Uniques/NFTs: make ownership transafer fail if deposit cannot be moved",
+      "reviewed_at": "2026-11-05T20:27:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13742"
+    },
+    {
+      "pr_number": 13733,
+      "pr_title": "pallet-balances: Do not store empty reserves in state",
+      "reviewed_at": "2026-11-05T15:28:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13733"
+    },
+    {
       "pr_number": 13713,
       "pr_title": "`try_decode_entire_state`: also decode storage map keys",
       "reviewed_at": "2026-11-04T18:27:45Z",
