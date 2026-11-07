@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06T10:08:21.563Z",
+  "generated_at": "2026-11-07T09:22:41.564Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1611,
+    "total_commits": 1613,
     "total_prs": 1801,
     "total_merged_prs": 1043,
-    "total_reviews": 2499
+    "total_reviews": 2501
   },
   "leaderboard": {
     "overall": [
@@ -57,8 +57,8 @@
         "commits": 86,
         "prs": 128,
         "merged_prs": 84,
-        "reviews": 202,
-        "score": 2172
+        "reviews": 203,
+        "score": 2175
       },
       {
         "name": "Szegoo",
@@ -204,11 +204,11 @@
         "name": "cirko33",
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 13,
+        "commits": 14,
         "prs": 36,
         "merged_prs": 2,
         "reviews": 26,
-        "score": 291
+        "score": 292
       },
       {
         "name": "smiasojed",
@@ -501,13 +501,13 @@
         "score": 48
       },
       {
-        "name": "charlesHetterich",
-        "github": "charlesHetterich",
+        "name": "andrzejSulkowski",
+        "github": "andrzejSulkowski",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 3,
-        "prs": 3,
-        "merged_prs": 3,
-        "reviews": 0,
+        "commits": 2,
+        "prs": 6,
+        "merged_prs": 1,
+        "reviews": 2,
         "score": 48
       }
     ],
@@ -540,8 +540,8 @@
           "commits": 86,
           "prs": 128,
           "merged_prs": 84,
-          "reviews": 202,
-          "score": 2172
+          "reviews": 203,
+          "score": 2175
         },
         {
           "name": "jsidorenko",
@@ -3215,11 +3215,11 @@
           "name": "voliva",
           "github": "voliva",
           "cohort": "PBA 5 Singapore 2024",
-          "commits": 3,
+          "commits": 4,
           "prs": 4,
           "merged_prs": 2,
           "reviews": 1,
-          "score": 46
+          "score": 47
         },
         {
           "name": "josepot",
@@ -4364,6 +4364,16 @@
           "score": 87
         },
         {
+          "name": "andrzejSulkowski",
+          "github": "andrzejSulkowski",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 2,
+          "prs": 6,
+          "merged_prs": 1,
+          "reviews": 2,
+          "score": 48
+        },
+        {
           "name": "charlesHetterich",
           "github": "charlesHetterich",
           "cohort": "PBA 6 Lucerne 2025",
@@ -4382,16 +4392,6 @@
           "merged_prs": 1,
           "reviews": 2,
           "score": 47
-        },
-        {
-          "name": "andrzejSulkowski",
-          "github": "andrzejSulkowski",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 2,
-          "prs": 6,
-          "merged_prs": 1,
-          "reviews": 1,
-          "score": 45
         },
         {
           "name": "leonardocustodio",
@@ -5119,11 +5119,11 @@
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 13,
+          "commits": 14,
           "prs": 36,
           "merged_prs": 2,
           "reviews": 26,
-          "score": 291
+          "score": 292
         },
         {
           "name": "agustinustheo",
@@ -15018,6 +15018,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13753,
+                    "pr_title": "backport label check: must be inclusive of all more recent releases",
+                    "reviewed_at": "2026-11-06T18:33:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13753"
+                  },
                   {
                     "pr_number": 13742,
                     "pr_title": "Uniques/NFTs: make ownership transafer fail if deposit cannot be moved",
@@ -159284,6 +159290,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "b0ab3dd05594f0daae77c7ee863b5c1f9b2f2ed4",
+                    "message": "[referenda] Add `slash_submission_deposit` extrinsic (#11524)",
+                    "date": "2026-11-06T18:21:40Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/b0ab3dd05594f0daae77c7ee863b5c1f9b2f2ed4"
+                  },
+                  {
                     "sha": "68c1250bbc3b28cfdec1e6effbaa91d9a8999b3d",
                     "message": "fix(rpc-spec-v2): best block not announced immediately after initialised (#10525)",
                     "date": "2025-12-05T10:58:57Z",
@@ -166388,6 +166400,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13750,
+                    "pr_title": "FRAME: preserve constants from multiple extra_constants blocks",
+                    "reviewed_at": "2026-11-06T18:06:34Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13750"
+                  },
                   {
                     "pr_number": 12254,
                     "pr_title": "claims: Reject vesting claims below the existential deposit",
@@ -173724,6 +173742,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "7a87c0c6ad0049f7442ec820a43dae31b1d4ecee",
+                    "message": "Registrar: Set Current Head (#13096)",
+                    "date": "2026-11-06T11:07:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/7a87c0c6ad0049f7442ec820a43dae31b1d4ecee"
+                  },
                   {
                     "sha": "7047603f28d68aac24fff8016d0c908d79e2462e",
                     "message": "Registrar: Force Register (#13113)",

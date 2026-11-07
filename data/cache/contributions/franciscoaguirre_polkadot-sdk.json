@@ -9098,6 +9098,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13753,
+      "pr_title": "backport label check: must be inclusive of all more recent releases",
+      "reviewed_at": "2026-11-06T18:33:20Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13753"
+    },
+    {
       "pr_number": 13742,
       "pr_title": "Uniques/NFTs: make ownership transafer fail if deposit cannot be moved",
       "reviewed_at": "2026-11-05T20:27:53Z",

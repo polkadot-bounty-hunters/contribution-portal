@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "7a87c0c6ad0049f7442ec820a43dae31b1d4ecee",
+      "message": "Registrar: Set Current Head (#13096)",
+      "date": "2026-11-06T11:07:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/7a87c0c6ad0049f7442ec820a43dae31b1d4ecee"
+    },
+    {
       "sha": "7047603f28d68aac24fff8016d0c908d79e2462e",
       "message": "Registrar: Force Register (#13113)",
       "date": "2026-10-29T20:09:41Z",

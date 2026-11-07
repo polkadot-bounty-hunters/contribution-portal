@@ -117,6 +117,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13750,
+      "pr_title": "FRAME: preserve constants from multiple extra_constants blocks",
+      "reviewed_at": "2026-11-06T18:06:34Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13750"
+    },
+    {
       "pr_number": 12254,
       "pr_title": "claims: Reject vesting claims below the existential deposit",
       "reviewed_at": "2026-06-02T15:20:34Z",

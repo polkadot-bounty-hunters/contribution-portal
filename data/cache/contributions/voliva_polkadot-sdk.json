@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "b0ab3dd05594f0daae77c7ee863b5c1f9b2f2ed4",
+      "message": "[referenda] Add `slash_submission_deposit` extrinsic (#11524)",
+      "date": "2026-11-06T18:21:40Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/b0ab3dd05594f0daae77c7ee863b5c1f9b2f2ed4"
+    },
+    {
       "sha": "68c1250bbc3b28cfdec1e6effbaa91d9a8999b3d",
       "message": "fix(rpc-spec-v2): best block not announced immediately after initialised (#10525)",
       "date": "2025-12-05T10:58:57Z",
