@@ -93,6 +93,28 @@
   ],
   "prs": [
     {
+      "number": 1357,
+      "title": "Coretime: broker `sale_index `migration",
+      "state": "MERGED",
+      "created_at": "2026-11-09T08:41:24Z",
+      "closed_at": "2026-11-09T08:48:47Z",
+      "merged_at": "2026-11-09T08:48:47Z",
+      "merged_by": "joepetrowski",
+      "author": "Szegoo",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1357",
+      "ready_for_review_at": "2026-11-09T08:41:24Z",
+      "reviews": [
+        {
+          "reviewer": "joepetrowski",
+          "submitted_at": "2026-11-09T08:48:39Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 0.12083333333333333,
+      "time_to_merge_hours": 0.12305555555555556
+    },
+    {
       "number": 1254,
       "title": "Add PSM remote tests for Asset Hub Polkadot",
       "state": "OPEN",
