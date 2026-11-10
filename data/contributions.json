@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T10:14:59.760Z",
+  "generated_at": "2026-11-10T10:21:16.505Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1613,
-    "total_prs": 1802,
+    "total_prs": 1803,
     "total_merged_prs": 1044,
     "total_reviews": 2501
   },
@@ -235,10 +235,10 @@
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
         "commits": 15,
-        "prs": 25,
+        "prs": 26,
         "merged_prs": 2,
         "reviews": 22,
-        "score": 226
+        "score": 231
       },
       {
         "name": "DrW3RK",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 15,
-          "prs": 25,
+          "prs": 26,
           "merged_prs": 2,
           "reviews": 22,
-          "score": 226
+          "score": 231
         },
         {
           "name": "castillax",
@@ -169084,6 +169084,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1361,
+                    "title": "Asset Hubs: free referenda deciding slots and queue entries left by the AHM",
+                    "state": "OPEN",
+                    "created_at": "2026-11-09T15:25:50Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1361",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 1226,
                     "title": "Release 2.3.2",
