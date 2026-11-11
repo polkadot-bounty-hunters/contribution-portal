@@ -9611,6 +9611,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13798,
+      "pr_title": "Fix deprecated `UnboundedReceiver::try_next`",
+      "reviewed_at": "2026-11-11T00:37:06Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13798"
+    },
+    {
       "pr_number": 13521,
       "pr_title": "network-gossip: Don't refresh known messages during garbage collection",
       "reviewed_at": "2026-10-20T11:14:48Z",

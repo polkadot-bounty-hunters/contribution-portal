@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "ceb65d8059ab785f0eb1d481ef9be23811952189",
+      "message": "`pallet-bounties`: Pay out only spendable funds (#13673)",
+      "date": "2026-11-10T13:14:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/ceb65d8059ab785f0eb1d481ef9be23811952189"
+    },
+    {
       "sha": "6eeaf84e47f18020ecf4bfbb5e8809a6381bdce8",
       "message": "`pallet-staking-async`: Only move spendable funds out of expired era pots (#13690)",
       "date": "2026-11-03T13:33:25Z",
@@ -3504,6 +3510,18 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13795,
+      "pr_title": "[stable2609 Backport #13673] `pallet-bounties`: Pay out only spendable funds",
+      "reviewed_at": "2026-11-11T09:04:53Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13795"
+    },
+    {
+      "pr_number": 13794,
+      "pr_title": "[stable2606 Backport #13673] `pallet-bounties`: Pay out only spendable funds",
+      "reviewed_at": "2026-11-10T15:26:36Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13794"
+    },
     {
       "pr_number": 13702,
       "pr_title": "[stable2609 Backport #13690] `pallet-staking-async`: Only move spendable funds out of expired era pots",

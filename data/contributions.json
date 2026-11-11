@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T10:21:16.505Z",
+  "generated_at": "2026-11-11T10:01:47.776Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1613,
-    "total_prs": 1803,
-    "total_merged_prs": 1044,
-    "total_reviews": 2501
+    "total_commits": 1616,
+    "total_prs": 1806,
+    "total_merged_prs": 1045,
+    "total_reviews": 2504
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 262,
         "prs": 202,
         "merged_prs": 149,
-        "reviews": 252,
-        "score": 3518
+        "reviews": 253,
+        "score": 3521
       },
       {
         "name": "pgherveou",
@@ -54,21 +54,21 @@
         "name": "franciscoaguirre",
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 86,
+        "commits": 87,
         "prs": 128,
         "merged_prs": 84,
         "reviews": 203,
-        "score": 2175
+        "score": 2176
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 131,
+        "commits": 132,
         "prs": 114,
         "merged_prs": 60,
-        "reviews": 79,
-        "score": 1538
+        "reviews": 81,
+        "score": 1545
       },
       {
         "name": "jsidorenko",
@@ -144,11 +144,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 32,
-        "prs": 42,
-        "merged_prs": 4,
+        "commits": 33,
+        "prs": 43,
+        "merged_prs": 5,
         "reviews": 45,
-        "score": 417
+        "score": 433
       },
       {
         "name": "pandres95",
@@ -235,10 +235,10 @@
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
         "commits": 15,
-        "prs": 26,
+        "prs": 28,
         "merged_prs": 2,
         "reviews": 22,
-        "score": 231
+        "score": 241
       },
       {
         "name": "DrW3RK",
@@ -520,8 +520,8 @@
           "commits": 262,
           "prs": 202,
           "merged_prs": 149,
-          "reviews": 252,
-          "score": 3518
+          "reviews": 253,
+          "score": 3521
         },
         {
           "name": "ank4n",
@@ -537,11 +537,11 @@
           "name": "franciscoaguirre",
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 86,
+          "commits": 87,
           "prs": 128,
           "merged_prs": 84,
           "reviews": 203,
-          "score": 2175
+          "score": 2176
         },
         {
           "name": "jsidorenko",
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 131,
+          "commits": 132,
           "prs": 114,
           "merged_prs": 60,
-          "reviews": 79,
-          "score": 1538
+          "reviews": 81,
+          "score": 1545
         },
         {
           "name": "pandres95",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 15,
-          "prs": 26,
+          "prs": 28,
           "merged_prs": 2,
           "reviews": 22,
-          "score": 231
+          "score": 241
         },
         {
           "name": "castillax",
@@ -5109,11 +5109,11 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 32,
-          "prs": 42,
-          "merged_prs": 4,
+          "commits": 33,
+          "prs": 43,
+          "merged_prs": 5,
           "reviews": 45,
-          "score": 417
+          "score": 433
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.75321205007822,
+    "average_review_time_hours": 73.69664299365822,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 715,
-        "approved_count": 412,
+        "review_count": 716,
+        "approved_count": 413,
         "avg_time_to_review_hours": 46.437239583333344,
-        "approval_rate": 57.62237762237762
+        "approval_rate": 57.68156424581006
       },
       {
         "reviewer": "bkontur",
@@ -5694,10 +5694,10 @@
       },
       {
         "reviewer": "xermicus",
-        "review_count": 134,
-        "approved_count": 93,
-        "avg_time_to_review_hours": 41.823611111111106,
-        "approval_rate": 69.40298507462687
+        "review_count": 135,
+        "approved_count": 94,
+        "avg_time_to_review_hours": 40.51966845878136,
+        "approval_rate": 69.62962962962963
       },
       {
         "reviewer": "skunert",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.51884958382877,
-        "pr_count": 841,
-        "merged_count": 670
+        "avg_review_time_hours": 82.42251055687515,
+        "pr_count": 842,
+        "merged_count": 671
       },
       {
         "repository": "paritytech/substrate",
@@ -5781,7 +5781,7 @@
       },
       {
         "merger": "bkchr",
-        "merge_count": 117
+        "merge_count": 118
       },
       {
         "merger": "ggwpez",
@@ -5921,6 +5921,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "6ddfcc0dcbb1c0e89386c1d6f0d388ee44593372",
+                    "message": "Fix weights accuracy (#13720)",
+                    "date": "2026-11-10T12:02:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/6ddfcc0dcbb1c0e89386c1d6f0d388ee44593372"
+                  },
                   {
                     "sha": "aff2e5c0202695852eebe9bc6a22c5d4dcd8da2d",
                     "message": "XCM hardening (#12832)",
@@ -48940,6 +48946,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13798,
+                    "pr_title": "Fix deprecated `UnboundedReceiver::try_next`",
+                    "reviewed_at": "2026-11-11T00:37:06Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13798"
+                  },
                   {
                     "pr_number": 13521,
                     "pr_title": "network-gossip: Don't refresh known messages during garbage collection",
@@ -126467,6 +126479,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "ceb65d8059ab785f0eb1d481ef9be23811952189",
+                    "message": "`pallet-bounties`: Pay out only spendable funds (#13673)",
+                    "date": "2026-11-10T13:14:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/ceb65d8059ab785f0eb1d481ef9be23811952189"
+                  },
+                  {
                     "sha": "6eeaf84e47f18020ecf4bfbb5e8809a6381bdce8",
                     "message": "`pallet-staking-async`: Only move spendable funds out of expired era pots (#13690)",
                     "date": "2026-11-03T13:33:25Z",
@@ -129970,6 +129988,18 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13795,
+                    "pr_title": "[stable2609 Backport #13673] `pallet-bounties`: Pay out only spendable funds",
+                    "reviewed_at": "2026-11-11T09:04:53Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13795"
+                  },
+                  {
+                    "pr_number": 13794,
+                    "pr_title": "[stable2606 Backport #13673] `pallet-bounties`: Pay out only spendable funds",
+                    "reviewed_at": "2026-11-10T15:26:36Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13794"
+                  },
                   {
                     "pr_number": 13702,
                     "pr_title": "[stable2609 Backport #13690] `pallet-staking-async`: Only move spendable funds out of expired era pots",
@@ -168437,6 +168467,38 @@
                 ],
                 "prs": [
                   {
+                    "number": 13797,
+                    "title": "multi-asset-bounties: multiple assets per bounty",
+                    "state": "OPEN",
+                    "created_at": "2026-11-10T14:48:43Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13797",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13788,
+                    "title": "multi-asset-bounties: keep an approved bounty when its funding payment fails",
+                    "state": "OPEN",
+                    "created_at": "2026-11-10T12:15:41Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13788",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13365,
                     "title": "frame-system: apply call filter to AuthorizeCall origin",
                     "state": "OPEN",
@@ -176015,6 +176077,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "df933b058a7da6edfa226ef76d47b079654fe0f6",
+                    "message": "eth-rpc: bump subxt to 0.51 so signed v4 extrinsics can be decoded (#13793)",
+                    "date": "2026-11-10T22:54:27Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/df933b058a7da6edfa226ef76d47b079654fe0f6"
+                  },
+                  {
                     "sha": "1de9ddfe5387691ee0867946876368088b57ac6a",
                     "message": "pallet-revive: measure the contract's own account in host function benchmarks (#13501)",
                     "date": "2026-11-04T09:03:19Z",
@@ -176208,6 +176276,38 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13793,
+                    "title": "eth-rpc: bump subxt to 0.51 so signed v4 extrinsics can be decoded",
+                    "state": "MERGED",
+                    "created_at": "2026-11-10T14:01:27Z",
+                    "closed_at": "2026-11-11T00:01:23Z",
+                    "merged_at": "2026-11-11T00:01:23Z",
+                    "merged_by": "bkchr",
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13793",
+                    "ready_for_review_at": "2026-11-10T14:01:27Z",
+                    "reviews": [
+                      {
+                        "reviewer": "xermicus",
+                        "submitted_at": "2026-11-10T15:25:32Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-10T22:54:13Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "socket-security[bot]",
+                        "commented_at": "2026-11-10T14:02:07Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.4013888888888888,
+                    "time_to_merge_hours": 9.998888888888889
+                  },
                   {
                     "number": 13501,
                     "title": "pallet-revive: measure the contract's own account in host function benchmarks",

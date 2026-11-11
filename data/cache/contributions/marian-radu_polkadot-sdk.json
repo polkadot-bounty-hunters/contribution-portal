@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "df933b058a7da6edfa226ef76d47b079654fe0f6",
+      "message": "eth-rpc: bump subxt to 0.51 so signed v4 extrinsics can be decoded (#13793)",
+      "date": "2026-11-10T22:54:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/df933b058a7da6edfa226ef76d47b079654fe0f6"
+    },
+    {
       "sha": "1de9ddfe5387691ee0867946876368088b57ac6a",
       "message": "pallet-revive: measure the contract's own account in host function benchmarks (#13501)",
       "date": "2026-11-04T09:03:19Z",
@@ -194,6 +200,38 @@
     }
   ],
   "prs": [
+    {
+      "number": 13793,
+      "title": "eth-rpc: bump subxt to 0.51 so signed v4 extrinsics can be decoded",
+      "state": "MERGED",
+      "created_at": "2026-11-10T14:01:27Z",
+      "closed_at": "2026-11-11T00:01:23Z",
+      "merged_at": "2026-11-11T00:01:23Z",
+      "merged_by": "bkchr",
+      "author": "marian-radu",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13793",
+      "ready_for_review_at": "2026-11-10T14:01:27Z",
+      "reviews": [
+        {
+          "reviewer": "xermicus",
+          "submitted_at": "2026-11-10T15:25:32Z",
+          "state": "APPROVED"
+        },
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-10T22:54:13Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "socket-security[bot]",
+          "commented_at": "2026-11-10T14:02:07Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.4013888888888888,
+      "time_to_merge_hours": 9.998888888888889
+    },
     {
       "number": 13501,
       "title": "pallet-revive: measure the contract's own account in host function benchmarks",

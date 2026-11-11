@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "6ddfcc0dcbb1c0e89386c1d6f0d388ee44593372",
+      "message": "Fix weights accuracy (#13720)",
+      "date": "2026-11-10T12:02:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6ddfcc0dcbb1c0e89386c1d6f0d388ee44593372"
+    },
+    {
       "sha": "aff2e5c0202695852eebe9bc6a22c5d4dcd8da2d",
       "message": "XCM hardening (#12832)",
       "date": "2026-08-20T17:54:30Z",
