@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T10:01:47.776Z",
+  "generated_at": "2026-11-12T10:21:54.356Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1616,
-    "total_prs": 1806,
+    "total_commits": 1617,
+    "total_prs": 1810,
     "total_merged_prs": 1045,
-    "total_reviews": 2504
+    "total_reviews": 2505
   },
   "leaderboard": {
     "overall": [
@@ -55,20 +55,20 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 87,
-        "prs": 128,
+        "prs": 129,
         "merged_prs": 84,
         "reviews": 203,
-        "score": 2176
+        "score": 2181
       },
       {
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
         "commits": 132,
-        "prs": 114,
+        "prs": 115,
         "merged_prs": 60,
         "reviews": 81,
-        "score": 1545
+        "score": 1550
       },
       {
         "name": "jsidorenko",
@@ -191,6 +191,16 @@
         "score": 306
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 14,
+        "prs": 37,
+        "merged_prs": 2,
+        "reviews": 26,
+        "score": 297
+      },
+      {
         "name": "tonyalaribe",
         "github": "tonyalaribe",
         "cohort": "PBA 1 Cambridge 2022",
@@ -199,16 +209,6 @@
         "merged_prs": 9,
         "reviews": 33,
         "score": 294
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 14,
-        "prs": 36,
-        "merged_prs": 2,
-        "reviews": 26,
-        "score": 292
       },
       {
         "name": "smiasojed",
@@ -234,11 +234,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 15,
+        "commits": 16,
         "prs": 28,
         "merged_prs": 2,
-        "reviews": 22,
-        "score": 241
+        "reviews": 23,
+        "score": 245
       },
       {
         "name": "DrW3RK",
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 87,
-          "prs": 128,
+          "prs": 129,
           "merged_prs": 84,
           "reviews": 203,
-          "score": 2176
+          "score": 2181
         },
         {
           "name": "jsidorenko",
@@ -1672,10 +1672,10 @@
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
           "commits": 132,
-          "prs": 114,
+          "prs": 115,
           "merged_prs": 60,
           "reviews": 81,
-          "score": 1545
+          "score": 1550
         },
         {
           "name": "pandres95",
@@ -2480,6 +2480,16 @@
           "score": 5
         },
         {
+          "name": "daiagi",
+          "github": "daiagi",
+          "cohort": "PBA 4 Hong Kong 2024",
+          "commits": 0,
+          "prs": 1,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 5
+        },
+        {
           "name": "Fiono11",
           "github": "Fiono11",
           "cohort": "PBA 4 Hong Kong 2024",
@@ -2672,16 +2682,6 @@
         {
           "name": "Mar1",
           "github": "Mar1",
-          "cohort": "PBA 4 Hong Kong 2024",
-          "commits": 0,
-          "prs": 0,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 0
-        },
-        {
-          "name": "daiagi",
-          "github": "daiagi",
           "cohort": "PBA 4 Hong Kong 2024",
           "commits": 0,
           "prs": 0,
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 15,
+          "commits": 16,
           "prs": 28,
           "merged_prs": 2,
-          "reviews": 22,
-          "score": 241
+          "reviews": 23,
+          "score": 245
         },
         {
           "name": "castillax",
@@ -5120,10 +5120,10 @@
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 14,
-          "prs": 36,
+          "prs": 37,
           "merged_prs": 2,
           "reviews": 26,
-          "score": 292
+          "score": 297
         },
         {
           "name": "agustinustheo",
@@ -6337,6 +6337,27 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13818,
+                    "title": "Migrate stored XCM data types to latest version",
+                    "state": "OPEN",
+                    "created_at": "2026-11-12T01:47:54Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13818",
+                    "ready_for_review_at": "2026-11-12T01:47:54Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-11-12T01:55:45Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13720,
                     "title": "Fix weights accuracy",
@@ -126961,6 +126982,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13808,
+                    "title": "Price Oracle: tests",
+                    "state": "OPEN",
+                    "created_at": "2026-11-11T12:12:39Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13808",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13712,
                     "title": "`pallet-broker`: Fix double counting when re-pooling an active region",
                     "state": "OPEN",
@@ -140858,7 +140895,33 @@
               "category": "sdk",
               "contributions": {
                 "commits": [],
-                "prs": [],
+                "prs": [
+                  {
+                    "number": 13822,
+                    "title": "frame-metadata-hash-extension: reject mode 1 for extension versions other than 0",
+                    "state": "OPEN",
+                    "created_at": "2026-11-12T07:32:48Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "daiagi",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13822",
+                    "ready_for_review_at": "2026-11-12T07:32:48Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "daiagi",
+                        "commented_at": "2026-11-12T07:37:57Z"
+                      },
+                      {
+                        "commenter": "daiagi",
+                        "commented_at": "2026-11-12T07:43:58Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  }
+                ],
                 "issues": [],
                 "reviews": []
               }
@@ -168411,6 +168474,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "23b84ba442d0b22fb21ab50ba5156153539528a4",
+                    "message": "frame-system: refund authorize weight when AuthorizeCall skips it (#13364)",
+                    "date": "2026-11-11T10:01:29Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/23b84ba442d0b22fb21ab50ba5156153539528a4"
+                  },
+                  {
                     "sha": "40801b808531a58136a8bf310abd62c47183c342",
                     "message": "pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close (#13258)",
                     "date": "2026-10-13T10:43:48Z",
@@ -168963,6 +169032,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13823,
+                    "pr_title": "Version bumps and prdocs reordering from stable2609-2",
+                    "reviewed_at": "2026-11-12T09:51:48Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13823"
+                  },
                   {
                     "pr_number": 13733,
                     "pr_title": "pallet-balances: Do not store empty reserves in state",
@@ -173928,6 +174003,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13807,
+                    "title": "Registrar: relayed para requests + deprecations",
+                    "state": "OPEN",
+                    "created_at": "2026-11-11T11:16:51Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13807",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13372,
                     "title": "HRMP: New Deposit Flow",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "23b84ba442d0b22fb21ab50ba5156153539528a4",
+      "message": "frame-system: refund authorize weight when AuthorizeCall skips it (#13364)",
+      "date": "2026-11-11T10:01:29Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/23b84ba442d0b22fb21ab50ba5156153539528a4"
+    },
+    {
       "sha": "40801b808531a58136a8bf310abd62c47183c342",
       "message": "pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close (#13258)",
       "date": "2026-10-13T10:43:48Z",
@@ -553,6 +559,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13823,
+      "pr_title": "Version bumps and prdocs reordering from stable2609-2",
+      "reviewed_at": "2026-11-12T09:51:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13823"
+    },
     {
       "pr_number": 13733,
       "pr_title": "pallet-balances: Do not store empty reserves in state",

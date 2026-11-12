@@ -1,6 +1,32 @@
 {
   "commits": [],
-  "prs": [],
+  "prs": [
+    {
+      "number": 13822,
+      "title": "frame-metadata-hash-extension: reject mode 1 for extension versions other than 0",
+      "state": "OPEN",
+      "created_at": "2026-11-12T07:32:48Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "daiagi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13822",
+      "ready_for_review_at": "2026-11-12T07:32:48Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "daiagi",
+          "commented_at": "2026-11-12T07:37:57Z"
+        },
+        {
+          "commenter": "daiagi",
+          "commented_at": "2026-11-12T07:43:58Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    }
+  ],
   "issues": [],
   "reviews": []
 }

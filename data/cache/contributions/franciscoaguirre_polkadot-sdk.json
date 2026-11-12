@@ -417,6 +417,27 @@
   ],
   "prs": [
     {
+      "number": 13818,
+      "title": "Migrate stored XCM data types to latest version",
+      "state": "OPEN",
+      "created_at": "2026-11-12T01:47:54Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "franciscoaguirre",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13818",
+      "ready_for_review_at": "2026-11-12T01:47:54Z",
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "paritytech-workflow-stopper[bot]",
+          "commented_at": "2026-11-12T01:55:45Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13720,
       "title": "Fix weights accuracy",
       "state": "OPEN",
