@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T10:21:54.356Z",
+  "generated_at": "2026-11-13T10:17:53.139Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1617,
-    "total_prs": 1810,
+    "total_commits": 1619,
+    "total_prs": 1811,
     "total_merged_prs": 1045,
-    "total_reviews": 2505
+    "total_reviews": 2506
   },
   "leaderboard": {
     "overall": [
@@ -34,11 +34,11 @@
         "name": "ank4n",
         "github": "ank4n",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 110,
+        "commits": 111,
         "prs": 157,
         "merged_prs": 80,
         "reviews": 249,
-        "score": 2442
+        "score": 2443
       },
       {
         "name": "liamaharon",
@@ -197,8 +197,8 @@
         "commits": 14,
         "prs": 37,
         "merged_prs": 2,
-        "reviews": 26,
-        "score": 297
+        "reviews": 27,
+        "score": 300
       },
       {
         "name": "tonyalaribe",
@@ -215,10 +215,10 @@
         "github": "smiasojed",
         "cohort": "PBA 2 BA 2023",
         "commits": 8,
-        "prs": 10,
+        "prs": 11,
         "merged_prs": 6,
         "reviews": 55,
-        "score": 283
+        "score": 288
       },
       {
         "name": "Overkillus",
@@ -234,11 +234,11 @@
         "name": "dhirajs0",
         "github": "dhirajs0",
         "cohort": "PBA 6 Lucerne 2025",
-        "commits": 16,
+        "commits": 17,
         "prs": 28,
         "merged_prs": 2,
         "reviews": 23,
-        "score": 245
+        "score": 246
       },
       {
         "name": "DrW3RK",
@@ -527,11 +527,11 @@
           "name": "ank4n",
           "github": "ank4n",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 110,
+          "commits": 111,
           "prs": 157,
           "merged_prs": 80,
           "reviews": 249,
-          "score": 2442
+          "score": 2443
         },
         {
           "name": "franciscoaguirre",
@@ -980,10 +980,10 @@
           "github": "smiasojed",
           "cohort": "PBA 2 BA 2023",
           "commits": 8,
-          "prs": 10,
+          "prs": 11,
           "merged_prs": 6,
           "reviews": 55,
-          "score": 283
+          "score": 288
         },
         {
           "name": "Overkillus",
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 16,
+          "commits": 17,
           "prs": 28,
           "merged_prs": 2,
           "reviews": 23,
-          "score": 245
+          "score": 246
         },
         {
           "name": "castillax",
@@ -5122,8 +5122,8 @@
           "commits": 14,
           "prs": 37,
           "merged_prs": 2,
-          "reviews": 26,
-          "score": 297
+          "reviews": 27,
+          "score": 300
         },
         {
           "name": "agustinustheo",
@@ -31937,6 +31937,12 @@
               "category": "polkadot",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "d8f912fa4df0cb91f425d82b73e9f97d9d0c42f0",
+                    "message": "[AHMv2] Inbound messages drain during the warm-up, follow-ups from #1321 and #1324 (#1337)",
+                    "date": "2026-11-12T09:07:57Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/commit/d8f912fa4df0cb91f425d82b73e9f97d9d0c42f0"
+                  },
                   {
                     "sha": "66945c6265b78321e191a0c8caa85f4e57df2441",
                     "message": "[AHMv2] Accounts stage of the migration (#1324)",
@@ -108171,6 +108177,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13839,
+                    "title": "Add native burn to system precompile",
+                    "state": "OPEN",
+                    "created_at": "2026-11-12T21:52:45Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "smiasojed",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13839",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13628,
                     "title": "jamkb PoC",
                     "state": "OPEN",
@@ -168474,6 +168496,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "6c62ddce50f23017e8df717b94ee7d199bfd8fe2",
+                    "message": "`pallet-collective`: include the voting threshold in the proposal hash (#13259)",
+                    "date": "2026-11-12T12:28:35Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/6c62ddce50f23017e8df717b94ee7d199bfd8fe2"
+                  },
+                  {
                     "sha": "23b84ba442d0b22fb21ab50ba5156153539528a4",
                     "message": "frame-system: refund authorize weight when AuthorizeCall skips it (#13364)",
                     "date": "2026-11-11T10:01:29Z",
@@ -175095,6 +175123,12 @@
                 "prs": [],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1370,
+                    "pr_title": "[AHMv2] Lockdown: stop fees and account messages once the migration starts",
+                    "reviewed_at": "2026-11-13T10:08:03Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1370"
+                  },
                   {
                     "pr_number": 1212,
                     "pr_title": "Disable relay session set_keys/purge_keys post-AHM",

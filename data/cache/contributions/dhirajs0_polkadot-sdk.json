@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "6c62ddce50f23017e8df717b94ee7d199bfd8fe2",
+      "message": "`pallet-collective`: include the voting threshold in the proposal hash (#13259)",
+      "date": "2026-11-12T12:28:35Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/6c62ddce50f23017e8df717b94ee7d199bfd8fe2"
+    },
+    {
       "sha": "23b84ba442d0b22fb21ab50ba5156153539528a4",
       "message": "frame-system: refund authorize weight when AuthorizeCall skips it (#13364)",
       "date": "2026-11-11T10:01:29Z",

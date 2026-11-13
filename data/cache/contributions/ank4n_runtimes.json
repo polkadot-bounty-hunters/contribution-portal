@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "d8f912fa4df0cb91f425d82b73e9f97d9d0c42f0",
+      "message": "[AHMv2] Inbound messages drain during the warm-up, follow-ups from #1321 and #1324 (#1337)",
+      "date": "2026-11-12T09:07:57Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/commit/d8f912fa4df0cb91f425d82b73e9f97d9d0c42f0"
+    },
+    {
       "sha": "66945c6265b78321e191a0c8caa85f4e57df2441",
       "message": "[AHMv2] Accounts stage of the migration (#1324)",
       "date": "2026-10-23T09:06:05Z",
