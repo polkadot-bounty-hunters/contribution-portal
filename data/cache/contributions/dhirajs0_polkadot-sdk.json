@@ -566,6 +566,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13852,
+      "pr_title": "pallet-oracle: remove sp-std and make the median provider macro self-contained",
+      "reviewed_at": "2026-11-13T16:53:07Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13852"
+    },
+    {
       "pr_number": 13823,
       "pr_title": "Version bumps and prdocs reordering from stable2609-2",
       "reviewed_at": "2026-11-12T09:51:48Z",
