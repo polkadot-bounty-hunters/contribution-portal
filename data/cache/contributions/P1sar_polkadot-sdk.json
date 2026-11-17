@@ -184,6 +184,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13863,
+      "pr_title": "statement-store: resend statements a slow or failing peer missed",
+      "reviewed_at": "2026-11-17T10:16:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13863"
+    },
+    {
       "pr_number": 13007,
       "pr_title": "Unflake statement network tests",
       "reviewed_at": "2026-08-26T15:15:31Z",

@@ -566,6 +566,48 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13887,
+      "pr_title": "[stable2609 Backport #13259] `pallet-collective`: include the voting threshold in the proposal hash",
+      "reviewed_at": "2026-11-17T08:06:14Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13887"
+    },
+    {
+      "pr_number": 13886,
+      "pr_title": "[stable2606 Backport #13259] `pallet-collective`: include the voting threshold in the proposal hash",
+      "reviewed_at": "2026-11-17T08:06:10Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13886"
+    },
+    {
+      "pr_number": 13885,
+      "pr_title": "[stable2609 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+      "reviewed_at": "2026-11-17T07:59:30Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13885"
+    },
+    {
+      "pr_number": 13884,
+      "pr_title": "[stable2606 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+      "reviewed_at": "2026-11-17T07:59:23Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13884"
+    },
+    {
+      "pr_number": 13889,
+      "pr_title": "[stable2609 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+      "reviewed_at": "2026-11-17T07:55:33Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13889"
+    },
+    {
+      "pr_number": 13888,
+      "pr_title": "[stable2606 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+      "reviewed_at": "2026-11-17T07:55:28Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13888"
+    },
+    {
+      "pr_number": 13878,
+      "pr_title": "pallet-bounties: fix `reclaim_bounty_funds` benchmark",
+      "reviewed_at": "2026-11-16T20:42:27Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13878"
+    },
+    {
       "pr_number": 13852,
       "pr_title": "pallet-oracle: remove sp-std and make the median provider macro self-contained",
       "reviewed_at": "2026-11-13T16:53:07Z",

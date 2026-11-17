@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-16T10:10:05.071Z",
+  "generated_at": "2026-11-17T11:17:27.415Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1620,
-    "total_prs": 1812,
-    "total_merged_prs": 1045,
-    "total_reviews": 2508
+    "total_commits": 1622,
+    "total_prs": 1814,
+    "total_merged_prs": 1046,
+    "total_reviews": 2517
   },
   "leaderboard": {
     "overall": [
@@ -64,11 +64,11 @@
         "name": "Szegoo",
         "github": "Szegoo",
         "cohort": "PBA 3 Berkeley 2023",
-        "commits": 132,
-        "prs": 115,
-        "merged_prs": 60,
-        "reviews": 81,
-        "score": 1550
+        "commits": 133,
+        "prs": 116,
+        "merged_prs": 61,
+        "reviews": 82,
+        "score": 1569
       },
       {
         "name": "jsidorenko",
@@ -144,11 +144,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 33,
+        "commits": 34,
         "prs": 43,
         "merged_prs": 5,
         "reviews": 45,
-        "score": 433
+        "score": 434
       },
       {
         "name": "pandres95",
@@ -181,22 +181,22 @@
         "score": 319
       },
       {
+        "name": "cirko33",
+        "github": "cirko33",
+        "cohort": "PBA 7 Bali 2025",
+        "commits": 15,
+        "prs": 39,
+        "merged_prs": 2,
+        "reviews": 27,
+        "score": 311
+      },
+      {
         "name": "BradleyOlson64",
         "github": "BradleyOlson64",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 20,
         "prs": 17,
         "merged_prs": 12,
-        "reviews": 27,
-        "score": 306
-      },
-      {
-        "name": "cirko33",
-        "github": "cirko33",
-        "cohort": "PBA 7 Bali 2025",
-        "commits": 15,
-        "prs": 38,
-        "merged_prs": 2,
         "reviews": 27,
         "score": 306
       },
@@ -221,6 +221,16 @@
         "score": 288
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 17,
+        "prs": 28,
+        "merged_prs": 2,
+        "reviews": 31,
+        "score": 270
+      },
+      {
         "name": "Overkillus",
         "github": "Overkillus",
         "cohort": "PBA 2 BA 2023",
@@ -229,16 +239,6 @@
         "merged_prs": 10,
         "reviews": 30,
         "score": 254
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 17,
-        "prs": 28,
-        "merged_prs": 2,
-        "reviews": 24,
-        "score": 249
       },
       {
         "name": "DrW3RK",
@@ -371,6 +371,16 @@
         "score": 90
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 4,
+        "prs": 5,
+        "merged_prs": 1,
+        "reviews": 17,
+        "score": 90
+      },
+      {
         "name": "BigTava",
         "github": "BigTava",
         "cohort": "PBA 5 Singapore 2024",
@@ -388,16 +398,6 @@
         "prs": 3,
         "merged_prs": 3,
         "reviews": 13,
-        "score": 87
-      },
-      {
-        "name": "P1sar",
-        "github": "P1sar",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 4,
-        "prs": 5,
-        "merged_prs": 1,
-        "reviews": 16,
         "score": 87
       },
       {
@@ -1671,11 +1671,11 @@
           "name": "Szegoo",
           "github": "Szegoo",
           "cohort": "PBA 3 Berkeley 2023",
-          "commits": 132,
-          "prs": 115,
-          "merged_prs": 60,
-          "reviews": 81,
-          "score": 1550
+          "commits": 133,
+          "prs": 116,
+          "merged_prs": 61,
+          "reviews": 82,
+          "score": 1569
         },
         {
           "name": "pandres95",
@@ -4340,8 +4340,8 @@
           "commits": 17,
           "prs": 28,
           "merged_prs": 2,
-          "reviews": 24,
-          "score": 249
+          "reviews": 31,
+          "score": 270
         },
         {
           "name": "castillax",
@@ -4360,8 +4360,8 @@
           "commits": 4,
           "prs": 5,
           "merged_prs": 1,
-          "reviews": 16,
-          "score": 87
+          "reviews": 17,
+          "score": 90
         },
         {
           "name": "andrzejSulkowski",
@@ -5109,21 +5109,21 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 33,
+          "commits": 34,
           "prs": 43,
           "merged_prs": 5,
           "reviews": 45,
-          "score": 433
+          "score": 434
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 15,
-          "prs": 38,
+          "prs": 39,
           "merged_prs": 2,
           "reviews": 27,
-          "score": 306
+          "score": 311
         },
         {
           "name": "agustinustheo",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.69664299365822,
+    "average_review_time_hours": 73.63911414930553,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5687,10 +5687,10 @@
       },
       {
         "reviewer": "joepetrowski",
-        "review_count": 148,
-        "approved_count": 52,
-        "avg_time_to_review_hours": 71.00222222222223,
-        "approval_rate": 35.13513513513514
+        "review_count": 149,
+        "approved_count": 53,
+        "avg_time_to_review_hours": 68.37472222222223,
+        "approval_rate": 35.57046979865772
       },
       {
         "reviewer": "xermicus",
@@ -5745,9 +5745,9 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.42251055687515,
-        "pr_count": 842,
-        "merged_count": 671
+        "avg_review_time_hours": 82.3248085541057,
+        "pr_count": 843,
+        "merged_count": 672
       },
       {
         "repository": "paritytech/substrate",
@@ -126528,6 +126528,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "597d47dc7fc4b56ee3fae54c54c7da9da428643f",
+                    "message": "pallet-bounties: fix `reclaim_bounty_funds` benchmark (#13878)",
+                    "date": "2026-11-16T19:49:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/597d47dc7fc4b56ee3fae54c54c7da9da428643f"
+                  },
+                  {
                     "sha": "ceb65d8059ab785f0eb1d481ef9be23811952189",
                     "message": "`pallet-bounties`: Pay out only spendable funds (#13673)",
                     "date": "2026-11-10T13:14:25Z",
@@ -127009,6 +127015,42 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13878,
+                    "title": "pallet-bounties: fix `reclaim_bounty_funds` benchmark",
+                    "state": "MERGED",
+                    "created_at": "2026-11-16T14:31:29Z",
+                    "closed_at": "2026-11-16T20:41:48Z",
+                    "merged_at": "2026-11-16T20:41:48Z",
+                    "merged_by": "Szegoo",
+                    "author": "Szegoo",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13878",
+                    "ready_for_review_at": "2026-11-16T14:31:29Z",
+                    "reviews": [
+                      {
+                        "reviewer": "joepetrowski",
+                        "submitted_at": "2026-11-16T14:35:04Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "dhirajs0",
+                        "submitted_at": "2026-11-16T14:56:46Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "Szegoo",
+                        "commented_at": "2026-11-16T14:58:03Z"
+                      },
+                      {
+                        "commenter": "paritytech-release-backport-bot[bot]",
+                        "commented_at": "2026-11-16T20:42:27Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 0.059722222222222225,
+                    "time_to_merge_hours": 6.171944444444445
+                  },
                   {
                     "number": 13808,
                     "title": "Price Oracle: tests",
@@ -130053,6 +130095,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13881,
+                    "pr_title": "[stable2609 Backport #13878] pallet-bounties: fix `reclaim_bounty_funds` benchmark",
+                    "reviewed_at": "2026-11-17T08:30:18Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13881"
+                  },
                   {
                     "pr_number": 13795,
                     "pr_title": "[stable2609 Backport #13673] `pallet-bounties`: Pay out only spendable funds",
@@ -169067,6 +169115,48 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13887,
+                    "pr_title": "[stable2609 Backport #13259] `pallet-collective`: include the voting threshold in the proposal hash",
+                    "reviewed_at": "2026-11-17T08:06:14Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13887"
+                  },
+                  {
+                    "pr_number": 13886,
+                    "pr_title": "[stable2606 Backport #13259] `pallet-collective`: include the voting threshold in the proposal hash",
+                    "reviewed_at": "2026-11-17T08:06:10Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13886"
+                  },
+                  {
+                    "pr_number": 13885,
+                    "pr_title": "[stable2609 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+                    "reviewed_at": "2026-11-17T07:59:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13885"
+                  },
+                  {
+                    "pr_number": 13884,
+                    "pr_title": "[stable2606 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+                    "reviewed_at": "2026-11-17T07:59:23Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13884"
+                  },
+                  {
+                    "pr_number": 13889,
+                    "pr_title": "[stable2609 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+                    "reviewed_at": "2026-11-17T07:55:33Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13889"
+                  },
+                  {
+                    "pr_number": 13888,
+                    "pr_title": "[stable2606 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+                    "reviewed_at": "2026-11-17T07:55:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13888"
+                  },
+                  {
+                    "pr_number": 13878,
+                    "pr_title": "pallet-bounties: fix `reclaim_bounty_funds` benchmark",
+                    "reviewed_at": "2026-11-16T20:42:27Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13878"
+                  },
+                  {
                     "pr_number": 13852,
                     "pr_title": "pallet-oracle: remove sp-std and make the median provider macro self-contained",
                     "reviewed_at": "2026-11-13T16:53:07Z",
@@ -170510,6 +170600,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13863,
+                    "pr_title": "statement-store: resend statements a slow or failing peer missed",
+                    "reviewed_at": "2026-11-17T10:16:11Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13863"
+                  },
                   {
                     "pr_number": 13007,
                     "pr_title": "Unflake statement network tests",
@@ -174050,6 +174146,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13880,
+                    "title": "Registrar: retry refused reports",
+                    "state": "OPEN",
+                    "created_at": "2026-11-16T16:00:58Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13880",
+                    "ready_for_review_at": "2026-11-16T16:00:58Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13851,
                     "title": "accumulate-and-forward: make send_native benchmark measure a successful forward",
                     "state": "OPEN",
@@ -176248,6 +176360,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "55a995e0fe0ac62f81013358c55ec8ca24295fa5",
+                    "message": "[pallet-revive]: implement EIP-150 63/64 gas rule (#11079)",
+                    "date": "2026-11-16T17:52:11Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/55a995e0fe0ac62f81013358c55ec8ca24295fa5"
+                  },
                   {
                     "sha": "df933b058a7da6edfa226ef76d47b079654fe0f6",
                     "message": "eth-rpc: bump subxt to 0.51 so signed v4 extrinsics can be decoded (#13793)",

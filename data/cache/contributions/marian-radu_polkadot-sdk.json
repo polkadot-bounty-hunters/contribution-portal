@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "55a995e0fe0ac62f81013358c55ec8ca24295fa5",
+      "message": "[pallet-revive]: implement EIP-150 63/64 gas rule (#11079)",
+      "date": "2026-11-16T17:52:11Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/55a995e0fe0ac62f81013358c55ec8ca24295fa5"
+    },
+    {
       "sha": "df933b058a7da6edfa226ef76d47b079654fe0f6",
       "message": "eth-rpc: bump subxt to 0.51 so signed v4 extrinsics can be decoded (#13793)",
       "date": "2026-11-10T22:54:27Z",

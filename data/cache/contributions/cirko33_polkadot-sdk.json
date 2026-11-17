@@ -93,6 +93,22 @@
   ],
   "prs": [
     {
+      "number": 13880,
+      "title": "Registrar: retry refused reports",
+      "state": "OPEN",
+      "created_at": "2026-11-16T16:00:58Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13880",
+      "ready_for_review_at": "2026-11-16T16:00:58Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13851,
       "title": "accumulate-and-forward: make send_native benchmark measure a successful forward",
       "state": "OPEN",
