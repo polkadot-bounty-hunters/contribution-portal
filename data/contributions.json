@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T11:17:27.415Z",
+  "generated_at": "2026-11-18T10:51:33.648Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1622,
-    "total_prs": 1814,
+    "total_prs": 1815,
     "total_merged_prs": 1046,
-    "total_reviews": 2517
+    "total_reviews": 2518
   },
   "leaderboard": {
     "overall": [
@@ -227,8 +227,8 @@
         "commits": 17,
         "prs": 28,
         "merged_prs": 2,
-        "reviews": 31,
-        "score": 270
+        "reviews": 32,
+        "score": 273
       },
       {
         "name": "Overkillus",
@@ -471,6 +471,16 @@
         "score": 55
       },
       {
+        "name": "andrzejSulkowski",
+        "github": "andrzejSulkowski",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 2,
+        "prs": 7,
+        "merged_prs": 1,
+        "reviews": 2,
+        "score": 53
+      },
+      {
         "name": "bee344",
         "github": "bee344",
         "cohort": "PBA 2 BA 2023",
@@ -498,16 +508,6 @@
         "prs": 3,
         "merged_prs": 3,
         "reviews": 0,
-        "score": 48
-      },
-      {
-        "name": "andrzejSulkowski",
-        "github": "andrzejSulkowski",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 2,
-        "prs": 6,
-        "merged_prs": 1,
-        "reviews": 2,
         "score": 48
       }
     ],
@@ -4340,8 +4340,8 @@
           "commits": 17,
           "prs": 28,
           "merged_prs": 2,
-          "reviews": 31,
-          "score": 270
+          "reviews": 32,
+          "score": 273
         },
         {
           "name": "castillax",
@@ -4368,10 +4368,10 @@
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 2,
-          "prs": 6,
+          "prs": 7,
           "merged_prs": 1,
           "reviews": 2,
-          "score": 48
+          "score": 53
         },
         {
           "name": "charlesHetterich",
@@ -166637,6 +166637,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 1375,
+                    "title": "People Polkadot: remove leftover subscription whitelist record of #1292",
+                    "state": "OPEN",
+                    "created_at": "2026-11-17T16:15:33Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "andrzejSulkowski",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1375",
+                    "ready_for_review_at": "2026-11-17T16:15:33Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 1320,
                     "title": "Update Individuality dependencies",
                     "state": "OPEN",
@@ -169115,6 +169131,36 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13893,
+                    "pr_title": "Bump WAH spec_version to 1_025_005",
+                    "reviewed_at": "2026-11-17T19:05:30Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13893"
+                  },
+                  {
+                    "pr_number": 13885,
+                    "pr_title": "[stable2609 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+                    "reviewed_at": "2026-11-17T14:33:44Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13885"
+                  },
+                  {
+                    "pr_number": 13889,
+                    "pr_title": "[stable2609 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+                    "reviewed_at": "2026-11-17T13:32:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13889"
+                  },
+                  {
+                    "pr_number": 13884,
+                    "pr_title": "[stable2606 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+                    "reviewed_at": "2026-11-17T13:30:20Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13884"
+                  },
+                  {
+                    "pr_number": 13888,
+                    "pr_title": "[stable2606 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+                    "reviewed_at": "2026-11-17T13:28:45Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13888"
+                  },
+                  {
                     "pr_number": 13887,
                     "pr_title": "[stable2609 Backport #13259] `pallet-collective`: include the voting threshold in the proposal hash",
                     "reviewed_at": "2026-11-17T08:06:14Z",
@@ -169125,30 +169171,6 @@
                     "pr_title": "[stable2606 Backport #13259] `pallet-collective`: include the voting threshold in the proposal hash",
                     "reviewed_at": "2026-11-17T08:06:10Z",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13886"
-                  },
-                  {
-                    "pr_number": 13885,
-                    "pr_title": "[stable2609 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
-                    "reviewed_at": "2026-11-17T07:59:30Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13885"
-                  },
-                  {
-                    "pr_number": 13884,
-                    "pr_title": "[stable2606 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
-                    "reviewed_at": "2026-11-17T07:59:23Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13884"
-                  },
-                  {
-                    "pr_number": 13889,
-                    "pr_title": "[stable2609 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
-                    "reviewed_at": "2026-11-17T07:55:33Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13889"
-                  },
-                  {
-                    "pr_number": 13888,
-                    "pr_title": "[stable2606 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
-                    "reviewed_at": "2026-11-17T07:55:28Z",
-                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13888"
                   },
                   {
                     "pr_number": 13878,
