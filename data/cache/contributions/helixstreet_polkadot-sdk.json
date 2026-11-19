@@ -1,5 +1,12 @@
 {
-  "commits": [],
+  "commits": [
+    {
+      "sha": "1ea042997ff92b26c6458d85a04e6b9d1fff0856",
+      "message": "Add Helixstreet bootnodes for Polkadot, Kusama, Asset Hub Polkadot, and People Polkadot (#13571)",
+      "date": "2026-11-18T18:52:39Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/1ea042997ff92b26c6458d85a04e6b9d1fff0856"
+    }
+  ],
   "prs": [
     {
       "number": 13571,

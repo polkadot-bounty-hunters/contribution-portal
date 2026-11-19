@@ -1422,6 +1422,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 1378,
+      "pr_title": "Release 2.6.0",
+      "reviewed_at": "2026-11-19T05:08:00Z",
+      "url": "https://github.com/polkadot-fellows/runtimes/pull/1378"
+    },
+    {
       "pr_number": 1336,
       "pr_title": "Move BH to async backing",
       "reviewed_at": "2026-10-27T18:08:11Z",

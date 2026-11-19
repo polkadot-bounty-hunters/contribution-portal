@@ -417,6 +417,22 @@
   ],
   "prs": [
     {
+      "number": 13910,
+      "title": "ClaimAsset now fails when the matcher errors",
+      "state": "OPEN",
+      "created_at": "2026-11-18T15:06:32Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "franciscoaguirre",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13910",
+      "ready_for_review_at": "2026-11-18T15:06:32Z",
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13818,
       "title": "Migrate stored XCM data types to latest version",
       "state": "OPEN",
@@ -9124,6 +9140,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 13902,
+      "pr_title": "introduce the pallet unpaid-transact for polkadot",
+      "reviewed_at": "2026-11-19T02:09:16Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13902"
+    },
     {
       "pr_number": 13852,
       "pr_title": "pallet-oracle: remove sp-std and make the median provider macro self-contained",

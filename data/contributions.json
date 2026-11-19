@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T10:51:33.648Z",
+  "generated_at": "2026-11-19T11:03:25.937Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1622,
-    "total_prs": 1815,
+    "total_commits": 1623,
+    "total_prs": 1816,
     "total_merged_prs": 1046,
-    "total_reviews": 2518
+    "total_reviews": 2521
   },
   "leaderboard": {
     "overall": [
@@ -55,10 +55,10 @@
         "github": "franciscoaguirre",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 87,
-        "prs": 129,
+        "prs": 130,
         "merged_prs": 84,
-        "reviews": 204,
-        "score": 2184
+        "reviews": 206,
+        "score": 2195
       },
       {
         "name": "Szegoo",
@@ -361,6 +361,16 @@
         "score": 94
       },
       {
+        "name": "P1sar",
+        "github": "P1sar",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 4,
+        "prs": 5,
+        "merged_prs": 1,
+        "reviews": 18,
+        "score": 93
+      },
+      {
         "name": "castillax",
         "github": "castillax",
         "cohort": "PBA 6 Lucerne 2025",
@@ -368,16 +378,6 @@
         "prs": 6,
         "merged_prs": 3,
         "reviews": 9,
-        "score": 90
-      },
-      {
-        "name": "P1sar",
-        "github": "P1sar",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 4,
-        "prs": 5,
-        "merged_prs": 1,
-        "reviews": 17,
         "score": 90
       },
       {
@@ -538,10 +538,10 @@
           "github": "franciscoaguirre",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 87,
-          "prs": 129,
+          "prs": 130,
           "merged_prs": 84,
-          "reviews": 204,
-          "score": 2184
+          "reviews": 206,
+          "score": 2195
         },
         {
           "name": "jsidorenko",
@@ -1196,18 +1196,18 @@
           "score": 8
         },
         {
-          "name": "sylvaincormier",
-          "github": "sylvaincormier",
+          "name": "helixstreet",
+          "github": "helixstreet",
           "cohort": "PBA 2 BA 2023",
-          "commits": 0,
+          "commits": 1,
           "prs": 1,
           "merged_prs": 0,
           "reviews": 0,
-          "score": 5
+          "score": 6
         },
         {
-          "name": "helixstreet",
-          "github": "helixstreet",
+          "name": "sylvaincormier",
+          "github": "sylvaincormier",
           "cohort": "PBA 2 BA 2023",
           "commits": 0,
           "prs": 1,
@@ -4344,6 +4344,16 @@
           "score": 273
         },
         {
+          "name": "P1sar",
+          "github": "P1sar",
+          "cohort": "PBA 6 Lucerne 2025",
+          "commits": 4,
+          "prs": 5,
+          "merged_prs": 1,
+          "reviews": 18,
+          "score": 93
+        },
+        {
           "name": "castillax",
           "github": "castillax",
           "cohort": "PBA 6 Lucerne 2025",
@@ -4351,16 +4361,6 @@
           "prs": 6,
           "merged_prs": 3,
           "reviews": 9,
-          "score": 90
-        },
-        {
-          "name": "P1sar",
-          "github": "P1sar",
-          "cohort": "PBA 6 Lucerne 2025",
-          "commits": 4,
-          "prs": 5,
-          "merged_prs": 1,
-          "reviews": 17,
           "score": 90
         },
         {
@@ -6337,6 +6337,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13910,
+                    "title": "ClaimAsset now fails when the matcher errors",
+                    "state": "OPEN",
+                    "created_at": "2026-11-18T15:06:32Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "franciscoaguirre",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13910",
+                    "ready_for_review_at": "2026-11-18T15:06:32Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13818,
                     "title": "Migrate stored XCM data types to latest version",
@@ -15046,6 +15062,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13902,
+                    "pr_title": "introduce the pallet unpaid-transact for polkadot",
+                    "reviewed_at": "2026-11-19T02:09:16Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13902"
+                  },
+                  {
                     "pr_number": 13852,
                     "pr_title": "pallet-oracle: remove sp-std and make the median provider macro self-contained",
                     "reviewed_at": "2026-11-13T16:53:07Z",
@@ -17494,6 +17516,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 1378,
+                    "pr_title": "Release 2.6.0",
+                    "reviewed_at": "2026-11-19T05:08:00Z",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1378"
+                  },
                   {
                     "pr_number": 1336,
                     "pr_title": "Move BH to async backing",
@@ -77828,7 +77856,14 @@
             "paritytech/polkadot-sdk": {
               "category": "sdk",
               "contributions": {
-                "commits": [],
+                "commits": [
+                  {
+                    "sha": "1ea042997ff92b26c6458d85a04e6b9d1fff0856",
+                    "message": "Add Helixstreet bootnodes for Polkadot, Kusama, Asset Hub Polkadot, and People Polkadot (#13571)",
+                    "date": "2026-11-18T18:52:39Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/1ea042997ff92b26c6458d85a04e6b9d1fff0856"
+                  }
+                ],
                 "prs": [
                   {
                     "number": 13571,
@@ -170622,6 +170657,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13904,
+                    "pr_title": "statement-store: reject statements without topics",
+                    "reviewed_at": "2026-11-19T10:04:50Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13904"
+                  },
                   {
                     "pr_number": 13863,
                     "pr_title": "statement-store: resend statements a slow or failing peer missed",
