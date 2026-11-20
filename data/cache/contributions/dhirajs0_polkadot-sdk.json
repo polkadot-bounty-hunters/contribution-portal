@@ -566,6 +566,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13928,
+      "pr_title": "pallet-preimage: preserve the deposit when release fails",
+      "reviewed_at": "2026-11-20T05:16:19Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13928"
+    },
+    {
       "pr_number": 13893,
       "pr_title": "Bump WAH spec_version to 1_025_005",
       "reviewed_at": "2026-11-17T19:05:30Z",

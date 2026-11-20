@@ -63,6 +63,22 @@
   ],
   "prs": [
     {
+      "number": 13927,
+      "title": "Embedded smoldot light-client transport for the bridge relayer",
+      "state": "OPEN",
+      "created_at": "2026-11-19T18:13:24Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "rosarp",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13927",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13546,
       "title": "Return dedicated error for justifications signed by previous authority set",
       "state": "OPEN",

@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "17dc1c600794025d227cd3e98408c39bb46691ad",
+      "message": "eth-rpc: add a CLI option to rate-limit the historical block sync (#13492)",
+      "date": "2026-11-19T11:01:32Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/17dc1c600794025d227cd3e98408c39bb46691ad"
+    },
+    {
       "sha": "55a995e0fe0ac62f81013358c55ec8ca24295fa5",
       "message": "[pallet-revive]: implement EIP-150 63/64 gas rule (#11079)",
       "date": "2026-11-16T17:52:11Z",

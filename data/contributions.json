@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-19T11:03:25.937Z",
+  "generated_at": "2026-11-20T10:47:56.291Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1623,
-    "total_prs": 1816,
+    "total_commits": 1624,
+    "total_prs": 1818,
     "total_merged_prs": 1046,
-    "total_reviews": 2521
+    "total_reviews": 2522
   },
   "leaderboard": {
     "overall": [
@@ -144,11 +144,11 @@
         "name": "marian-radu",
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
-        "commits": 34,
+        "commits": 35,
         "prs": 43,
         "merged_prs": 5,
         "reviews": 45,
-        "score": 434
+        "score": 435
       },
       {
         "name": "pandres95",
@@ -165,10 +165,10 @@
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
         "commits": 10,
-        "prs": 25,
+        "prs": 26,
         "merged_prs": 14,
         "reviews": 22,
-        "score": 341
+        "score": 346
       },
       {
         "name": "muraca",
@@ -185,10 +185,10 @@
         "github": "cirko33",
         "cohort": "PBA 7 Bali 2025",
         "commits": 15,
-        "prs": 39,
+        "prs": 40,
         "merged_prs": 2,
         "reviews": 27,
-        "score": 311
+        "score": 316
       },
       {
         "name": "BradleyOlson64",
@@ -227,8 +227,8 @@
         "commits": 17,
         "prs": 28,
         "merged_prs": 2,
-        "reviews": 32,
-        "score": 273
+        "reviews": 33,
+        "score": 276
       },
       {
         "name": "Overkillus",
@@ -3126,10 +3126,10 @@
           "github": "rosarp",
           "cohort": "PBA 5 Singapore 2024",
           "commits": 10,
-          "prs": 25,
+          "prs": 26,
           "merged_prs": 14,
           "reviews": 22,
-          "score": 341
+          "score": 346
         },
         {
           "name": "ndkazu",
@@ -4340,8 +4340,8 @@
           "commits": 17,
           "prs": 28,
           "merged_prs": 2,
-          "reviews": 32,
-          "score": 273
+          "reviews": 33,
+          "score": 276
         },
         {
           "name": "P1sar",
@@ -5109,21 +5109,21 @@
           "name": "marian-radu",
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
-          "commits": 34,
+          "commits": 35,
           "prs": 43,
           "merged_prs": 5,
           "reviews": 45,
-          "score": 434
+          "score": 435
         },
         {
           "name": "cirko33",
           "github": "cirko33",
           "cohort": "PBA 7 Bali 2025",
           "commits": 15,
-          "prs": 39,
+          "prs": 40,
           "merged_prs": 2,
           "reviews": 27,
-          "score": 311
+          "score": 316
         },
         {
           "name": "agustinustheo",
@@ -161334,6 +161334,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13927,
+                    "title": "Embedded smoldot light-client transport for the bridge relayer",
+                    "state": "OPEN",
+                    "created_at": "2026-11-19T18:13:24Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "rosarp",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13927",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13546,
                     "title": "Return dedicated error for justifications signed by previous authority set",
                     "state": "OPEN",
@@ -169166,6 +169182,12 @@
                 "issues": [],
                 "reviews": [
                   {
+                    "pr_number": 13928,
+                    "pr_title": "pallet-preimage: preserve the deposit when release fails",
+                    "reviewed_at": "2026-11-20T05:16:19Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13928"
+                  },
+                  {
                     "pr_number": 13893,
                     "pr_title": "Bump WAH spec_version to 1_025_005",
                     "reviewed_at": "2026-11-17T19:05:30Z",
@@ -174209,6 +174231,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 13919,
+                    "title": "Registrar: receive migrated paras",
+                    "state": "OPEN",
+                    "created_at": "2026-11-19T12:09:20Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "cirko33",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13919",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13880,
                     "title": "Registrar: retry refused reports",
                     "state": "OPEN",
@@ -176423,6 +176461,12 @@
               "category": "sdk",
               "contributions": {
                 "commits": [
+                  {
+                    "sha": "17dc1c600794025d227cd3e98408c39bb46691ad",
+                    "message": "eth-rpc: add a CLI option to rate-limit the historical block sync (#13492)",
+                    "date": "2026-11-19T11:01:32Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/17dc1c600794025d227cd3e98408c39bb46691ad"
+                  },
                   {
                     "sha": "55a995e0fe0ac62f81013358c55ec8ca24295fa5",
                     "message": "[pallet-revive]: implement EIP-150 63/64 gas rule (#11079)",

@@ -93,6 +93,22 @@
   ],
   "prs": [
     {
+      "number": 13919,
+      "title": "Registrar: receive migrated paras",
+      "state": "OPEN",
+      "created_at": "2026-11-19T12:09:20Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "cirko33",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13919",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13880,
       "title": "Registrar: retry refused reports",
       "state": "OPEN",
