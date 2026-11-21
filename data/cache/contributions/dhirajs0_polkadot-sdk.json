@@ -566,6 +566,12 @@
   "issues": [],
   "reviews": [
     {
+      "pr_number": 13935,
+      "pr_title": "frame-support: Allow `cfg`-exclusive pallets to share an index",
+      "reviewed_at": "2026-11-20T19:39:25Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13935"
+    },
+    {
       "pr_number": 13928,
       "pr_title": "pallet-preimage: preserve the deposit when release fails",
       "reviewed_at": "2026-11-20T05:16:19Z",

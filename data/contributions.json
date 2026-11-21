@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-20T10:47:56.291Z",
+  "generated_at": "2026-11-21T10:22:06.880Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1624,
-    "total_prs": 1818,
+    "total_prs": 1819,
     "total_merged_prs": 1046,
-    "total_reviews": 2522
+    "total_reviews": 2524
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 262,
-        "prs": 202,
+        "prs": 203,
         "merged_prs": 149,
         "reviews": 253,
-        "score": 3521
+        "score": 3526
       },
       {
         "name": "pgherveou",
@@ -57,8 +57,8 @@
         "commits": 87,
         "prs": 130,
         "merged_prs": 84,
-        "reviews": 206,
-        "score": 2195
+        "reviews": 207,
+        "score": 2198
       },
       {
         "name": "Szegoo",
@@ -227,8 +227,8 @@
         "commits": 17,
         "prs": 28,
         "merged_prs": 2,
-        "reviews": 33,
-        "score": 276
+        "reviews": 34,
+        "score": 279
       },
       {
         "name": "Overkillus",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 262,
-          "prs": 202,
+          "prs": 203,
           "merged_prs": 149,
           "reviews": 253,
-          "score": 3521
+          "score": 3526
         },
         {
           "name": "ank4n",
@@ -540,8 +540,8 @@
           "commits": 87,
           "prs": 130,
           "merged_prs": 84,
-          "reviews": 206,
-          "score": 2195
+          "reviews": 207,
+          "score": 2198
         },
         {
           "name": "jsidorenko",
@@ -4340,8 +4340,8 @@
           "commits": 17,
           "prs": 28,
           "merged_prs": 2,
-          "reviews": 33,
-          "score": 276
+          "reviews": 34,
+          "score": 279
         },
         {
           "name": "P1sar",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.63911414930553,
+    "average_review_time_hours": 73.58280249804837,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5701,10 +5701,10 @@
       },
       {
         "reviewer": "skunert",
-        "review_count": 132,
-        "approved_count": 86,
-        "avg_time_to_review_hours": 101.58427083333332,
-        "approval_rate": 65.15151515151516
+        "review_count": 133,
+        "approved_count": 87,
+        "avg_time_to_review_hours": 95.69718954248366,
+        "approval_rate": 65.41353383458647
       },
       {
         "reviewer": "gpestana",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.3248085541057,
-        "pr_count": 843,
+        "avg_review_time_hours": 82.22904917061612,
+        "pr_count": 844,
         "merged_count": 672
       },
       {
@@ -15061,6 +15061,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13935,
+                    "pr_title": "frame-support: Allow `cfg`-exclusive pallets to share an index",
+                    "reviewed_at": "2026-11-20T19:39:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13935"
+                  },
                   {
                     "pr_number": 13902,
                     "pr_title": "introduce the pallet unpaid-transact for polkadot",
@@ -40443,6 +40449,28 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13936,
+                    "title": "sp-state-machine: roll back transaction index operations together with storage",
+                    "state": "OPEN",
+                    "created_at": "2026-11-20T15:12:54Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13936",
+                    "ready_for_review_at": "2026-11-20T15:12:54Z",
+                    "reviews": [
+                      {
+                        "reviewer": "skunert",
+                        "submitted_at": "2026-11-20T16:43:08Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 1.5038888888888888,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13088,
                     "title": "wip: jam collator with authorizers",
@@ -169181,6 +169209,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13935,
+                    "pr_title": "frame-support: Allow `cfg`-exclusive pallets to share an index",
+                    "reviewed_at": "2026-11-20T19:39:25Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13935"
+                  },
                   {
                     "pr_number": 13928,
                     "pr_title": "pallet-preimage: preserve the deposit when release fails",
