@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "e603a47c9412a237e2667cddd57fb3c2661eb032",
+      "message": "ci: exclude failing PBA YouTube playlist from link checks (#13683)",
+      "date": "2026-11-22T21:38:48Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/e603a47c9412a237e2667cddd57fb3c2661eb032"
+    },
+    {
       "sha": "c50e3922182168884d0c108b17b23db9baca2242",
       "message": "Fix CI change filtering at the producer (#13611)",
       "date": "2026-11-02T11:05:18Z",
