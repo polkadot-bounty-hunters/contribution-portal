@@ -2,6 +2,33 @@
   "commits": [],
   "prs": [
     {
+      "number": 13964,
+      "title": "xcm: taking a zero amount from holding takes nothing",
+      "state": "OPEN",
+      "created_at": "2026-11-24T09:47:26Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "daiagi",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13964",
+      "ready_for_review_at": "2026-11-24T09:47:26Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-24T10:58:18Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [
+        {
+          "commenter": "daiagi",
+          "commented_at": "2026-11-24T09:47:42Z"
+        }
+      ],
+      "time_to_first_review_hours": 1.181111111111111,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13822,
       "title": "frame-metadata-hash-extension: reject mode 1 for extension versions other than 0",
       "state": "OPEN",

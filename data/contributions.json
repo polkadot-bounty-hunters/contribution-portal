@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-23T11:23:08.986Z",
+  "generated_at": "2026-11-24T13:11:45.571Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1625,
-    "total_prs": 1819,
+    "total_prs": 1820,
     "total_merged_prs": 1046,
-    "total_reviews": 2524
+    "total_reviews": 2525
   },
   "leaderboard": {
     "overall": [
@@ -17,8 +17,8 @@
         "commits": 262,
         "prs": 203,
         "merged_prs": 149,
-        "reviews": 253,
-        "score": 3526
+        "reviews": 254,
+        "score": 3529
       },
       {
         "name": "pgherveou",
@@ -520,8 +520,8 @@
           "commits": 262,
           "prs": 203,
           "merged_prs": 149,
-          "reviews": 253,
-          "score": 3526
+          "reviews": 254,
+          "score": 3529
         },
         {
           "name": "ank4n",
@@ -2460,6 +2460,16 @@
           "score": 16
         },
         {
+          "name": "daiagi",
+          "github": "daiagi",
+          "cohort": "PBA 4 Hong Kong 2024",
+          "commits": 0,
+          "prs": 2,
+          "merged_prs": 0,
+          "reviews": 0,
+          "score": 10
+        },
+        {
           "name": "asoliman92",
           "github": "asoliman92",
           "cohort": "PBA 4 Hong Kong 2024",
@@ -2472,16 +2482,6 @@
         {
           "name": "johandroid",
           "github": "johandroid",
-          "cohort": "PBA 4 Hong Kong 2024",
-          "commits": 0,
-          "prs": 1,
-          "merged_prs": 0,
-          "reviews": 0,
-          "score": 5
-        },
-        {
-          "name": "daiagi",
-          "github": "daiagi",
           "cohort": "PBA 4 Hong Kong 2024",
           "commits": 0,
           "prs": 1,
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.58280249804837,
+    "average_review_time_hours": 73.52632691974343,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 716,
+        "review_count": 717,
         "approved_count": 413,
-        "avg_time_to_review_hours": 46.437239583333344,
-        "approval_rate": 57.68156424581006
+        "avg_time_to_review_hours": 46.181555241682375,
+        "approval_rate": 57.601115760111576
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.22904917061612,
-        "pr_count": 844,
+        "avg_review_time_hours": 82.13313445101906,
+        "pr_count": 845,
         "merged_count": 672
       },
       {
@@ -49041,6 +49041,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13962,
+                    "pr_title": "rpc-v2: `chainHead` use `RuntimeUpgraded` digest to determine if the runtime changed",
+                    "reviewed_at": "2026-11-24T09:40:58Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13962"
+                  },
                   {
                     "pr_number": 13798,
                     "pr_title": "Fix deprecated `UnboundedReceiver::try_next`",
@@ -141041,6 +141047,33 @@
               "contributions": {
                 "commits": [],
                 "prs": [
+                  {
+                    "number": 13964,
+                    "title": "xcm: taking a zero amount from holding takes nothing",
+                    "state": "OPEN",
+                    "created_at": "2026-11-24T09:47:26Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "daiagi",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13964",
+                    "ready_for_review_at": "2026-11-24T09:47:26Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-24T10:58:18Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "daiagi",
+                        "commented_at": "2026-11-24T09:47:42Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 1.181111111111111,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13822,
                     "title": "frame-metadata-hash-extension: reject mode 1 for extension versions other than 0",
