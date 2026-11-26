@@ -69,6 +69,67 @@
   ],
   "prs": [
     {
+      "number": 13995,
+      "title": "pallet-child-bounties: let RejectOrigin unassign a PendingPayout curator after parent deactivation",
+      "state": "OPEN",
+      "created_at": "2026-11-26T10:19:54Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13995",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13988,
+      "title": "pallet-bounties: charge the asset sweep in `reclaim_bounty_funds` and `close_bounty`",
+      "state": "OPEN",
+      "created_at": "2026-11-25T16:33:02Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13988",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [
+        {
+          "commenter": "dhirajs0",
+          "commented_at": "2026-11-25T16:48:55Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-11-25T16:49:48Z"
+        },
+        {
+          "commenter": "github-actions[bot]",
+          "commented_at": "2026-11-25T18:32:34Z"
+        }
+      ],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 13987,
+      "title": "Budget treasury spends per origin instead of per spend limit",
+      "state": "OPEN",
+      "created_at": "2026-11-25T16:26:19Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "dhirajs0",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13987",
+      "ready_for_review_at": null,
+      "reviews": [],
+      "comments": [],
+      "time_to_first_review_hours": null,
+      "time_to_merge_hours": null
+    },
+    {
       "number": 13797,
       "title": "multi-asset-bounties: multiple assets per bounty",
       "state": "OPEN",

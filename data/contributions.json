@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T10:40:29.560Z",
+  "generated_at": "2026-11-26T11:36:00.211Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
     "total_commits": 1625,
-    "total_prs": 1820,
-    "total_merged_prs": 1046,
-    "total_reviews": 2525
+    "total_prs": 1826,
+    "total_merged_prs": 1047,
+    "total_reviews": 2526
   },
   "leaderboard": {
     "overall": [
@@ -15,10 +15,10 @@
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
         "commits": 262,
-        "prs": 203,
+        "prs": 204,
         "merged_prs": 149,
         "reviews": 254,
-        "score": 3529
+        "score": 3534
       },
       {
         "name": "pgherveou",
@@ -145,10 +145,10 @@
         "github": "marian-radu",
         "cohort": "PBA 7 Bali 2025",
         "commits": 35,
-        "prs": 43,
+        "prs": 44,
         "merged_prs": 5,
         "reviews": 45,
-        "score": 435
+        "score": 440
       },
       {
         "name": "pandres95",
@@ -211,6 +211,16 @@
         "score": 294
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 17,
+        "prs": 31,
+        "merged_prs": 2,
+        "reviews": 34,
+        "score": 294
+      },
+      {
         "name": "smiasojed",
         "github": "smiasojed",
         "cohort": "PBA 2 BA 2023",
@@ -219,16 +229,6 @@
         "merged_prs": 6,
         "reviews": 55,
         "score": 288
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 17,
-        "prs": 28,
-        "merged_prs": 2,
-        "reviews": 34,
-        "score": 279
       },
       {
         "name": "Overkillus",
@@ -431,6 +431,16 @@
         "score": 73
       },
       {
+        "name": "andrzejSulkowski",
+        "github": "andrzejSulkowski",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 2,
+        "prs": 8,
+        "merged_prs": 2,
+        "reviews": 2,
+        "score": 68
+      },
+      {
         "name": "JuaniRios",
         "github": "JuaniRios",
         "cohort": "PBA 2 BA 2023",
@@ -471,16 +481,6 @@
         "score": 55
       },
       {
-        "name": "andrzejSulkowski",
-        "github": "andrzejSulkowski",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 2,
-        "prs": 7,
-        "merged_prs": 1,
-        "reviews": 2,
-        "score": 53
-      },
-      {
         "name": "bee344",
         "github": "bee344",
         "cohort": "PBA 2 BA 2023",
@@ -518,10 +518,10 @@
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
           "commits": 262,
-          "prs": 203,
+          "prs": 204,
           "merged_prs": 149,
           "reviews": 254,
-          "score": 3529
+          "score": 3534
         },
         {
           "name": "ank4n",
@@ -2466,8 +2466,8 @@
           "commits": 0,
           "prs": 2,
           "merged_prs": 0,
-          "reviews": 0,
-          "score": 10
+          "reviews": 1,
+          "score": 13
         },
         {
           "name": "asoliman92",
@@ -4338,10 +4338,10 @@
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 17,
-          "prs": 28,
+          "prs": 31,
           "merged_prs": 2,
           "reviews": 34,
-          "score": 279
+          "score": 294
         },
         {
           "name": "P1sar",
@@ -4368,10 +4368,10 @@
           "github": "andrzejSulkowski",
           "cohort": "PBA 6 Lucerne 2025",
           "commits": 2,
-          "prs": 7,
-          "merged_prs": 1,
+          "prs": 8,
+          "merged_prs": 2,
           "reviews": 2,
-          "score": 53
+          "score": 68
         },
         {
           "name": "charlesHetterich",
@@ -5110,10 +5110,10 @@
           "github": "marian-radu",
           "cohort": "PBA 7 Bali 2025",
           "commits": 35,
-          "prs": 43,
+          "prs": 44,
           "merged_prs": 5,
           "reviews": 45,
-          "score": 435
+          "score": 440
         },
         {
           "name": "cirko33",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.52632691974343,
+    "average_review_time_hours": 73.48092794665278,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,17 +5617,17 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 717,
-        "approved_count": 413,
-        "avg_time_to_review_hours": 46.181555241682375,
-        "approval_rate": 57.601115760111576
+        "review_count": 718,
+        "approved_count": 414,
+        "avg_time_to_review_hours": 46.007947877652946,
+        "approval_rate": 57.66016713091921
       },
       {
         "reviewer": "bkontur",
-        "review_count": 493,
-        "approved_count": 147,
+        "review_count": 494,
+        "approved_count": 148,
         "avg_time_to_review_hours": 18.870238095238093,
-        "approval_rate": 29.817444219066935
+        "approval_rate": 29.959514170040485
       },
       {
         "reviewer": "athei",
@@ -5701,10 +5701,10 @@
       },
       {
         "reviewer": "skunert",
-        "review_count": 133,
-        "approved_count": 87,
+        "review_count": 134,
+        "approved_count": 88,
         "avg_time_to_review_hours": 95.69718954248366,
-        "approval_rate": 65.41353383458647
+        "approval_rate": 65.67164179104478
       },
       {
         "reviewer": "gpestana",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.13313445101906,
-        "pr_count": 845,
+        "avg_review_time_hours": 82.05411117677963,
+        "pr_count": 846,
         "merged_count": 672
       },
       {
@@ -5759,7 +5759,7 @@
         "repository": "polkadot-fellows/runtimes",
         "avg_review_time_hours": 53.46047178130511,
         "pr_count": 63,
-        "merged_count": 45
+        "merged_count": 46
       },
       {
         "repository": "paritytech/cumulus",
@@ -40455,6 +40455,52 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13971,
+                    "title": "bump: trie-db to 0.33, hash-db to 0.17 and criterion to 0.8",
+                    "state": "OPEN",
+                    "created_at": "2026-11-24T15:44:56Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13971",
+                    "ready_for_review_at": "2026-11-24T15:44:56Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-25T07:01:42Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "gab8i",
+                        "submitted_at": "2026-11-25T07:32:30Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "skunert",
+                        "submitted_at": "2026-11-25T09:55:54Z",
+                        "state": "APPROVED"
+                      },
+                      {
+                        "reviewer": "bkontur",
+                        "submitted_at": "2026-11-25T10:05:38Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [
+                      {
+                        "commenter": "socket-security[bot]",
+                        "commented_at": "2026-11-24T15:46:22Z"
+                      },
+                      {
+                        "commenter": "paritytech-workflow-stopper[bot]",
+                        "commented_at": "2026-11-25T19:23:07Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": 15.279444444444444,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13936,
                     "title": "sp-state-machine: roll back transaction index operations together with storage",
@@ -141063,6 +141109,16 @@
                         "reviewer": "bkchr",
                         "submitted_at": "2026-11-24T10:58:18Z",
                         "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "daiagi",
+                        "submitted_at": "2026-11-25T05:55:23Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "daiagi",
+                        "submitted_at": "2026-11-25T05:55:42Z",
+                        "state": "COMMENTED"
                       }
                     ],
                     "comments": [
@@ -141101,7 +141157,14 @@
                   }
                 ],
                 "issues": [],
-                "reviews": []
+                "reviews": [
+                  {
+                    "pr_number": 13964,
+                    "pr_title": "xcm: taking a zero amount from holding takes nothing",
+                    "reviewed_at": "2026-11-25T05:55:42Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13964"
+                  }
+                ]
               }
             },
             "paritytech/substrate": {
@@ -166755,6 +166818,22 @@
                 ],
                 "prs": [
                   {
+                    "number": 1388,
+                    "title": "Individuality Update to polkadot-sdk stable2611",
+                    "state": "MERGED",
+                    "created_at": "2026-11-25T12:50:29Z",
+                    "closed_at": "2026-11-25T13:46:49Z",
+                    "merged_at": "2026-11-25T13:46:49Z",
+                    "merged_by": "joepetrowski",
+                    "author": "andrzejSulkowski",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1388",
+                    "ready_for_review_at": "2026-11-25T12:50:29Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": 0.9388888888888889
+                  },
+                  {
                     "number": 1375,
                     "title": "People Polkadot: remove leftover subscription whitelist record of #1292",
                     "state": "OPEN",
@@ -168751,6 +168830,67 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13995,
+                    "title": "pallet-child-bounties: let RejectOrigin unassign a PendingPayout curator after parent deactivation",
+                    "state": "OPEN",
+                    "created_at": "2026-11-26T10:19:54Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13995",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13988,
+                    "title": "pallet-bounties: charge the asset sweep in `reclaim_bounty_funds` and `close_bounty`",
+                    "state": "OPEN",
+                    "created_at": "2026-11-25T16:33:02Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13988",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-25T16:48:55Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-11-25T16:49:48Z"
+                      },
+                      {
+                        "commenter": "github-actions[bot]",
+                        "commented_at": "2026-11-25T18:32:34Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 13987,
+                    "title": "Budget treasury spends per origin instead of per spend limit",
+                    "state": "OPEN",
+                    "created_at": "2026-11-25T16:26:19Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13987",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13797,
                     "title": "multi-asset-bounties: multiple assets per bounty",
@@ -176746,6 +176886,22 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 13970,
+                    "title": "eth-rpc: fail readiness while catching up and liveness once stalled",
+                    "state": "OPEN",
+                    "created_at": "2026-11-24T14:28:26Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "marian-radu",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13970",
+                    "ready_for_review_at": "2026-11-24T14:28:26Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13793,
                     "title": "eth-rpc: bump subxt to 0.51 so signed v4 extrinsics can be decoded",

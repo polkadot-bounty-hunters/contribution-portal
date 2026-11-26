@@ -17,6 +17,16 @@
           "reviewer": "bkchr",
           "submitted_at": "2026-11-24T10:58:18Z",
           "state": "COMMENTED"
+        },
+        {
+          "reviewer": "daiagi",
+          "submitted_at": "2026-11-25T05:55:23Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "daiagi",
+          "submitted_at": "2026-11-25T05:55:42Z",
+          "state": "COMMENTED"
         }
       ],
       "comments": [
@@ -55,5 +65,12 @@
     }
   ],
   "issues": [],
-  "reviews": []
+  "reviews": [
+    {
+      "pr_number": 13964,
+      "pr_title": "xcm: taking a zero amount from holding takes nothing",
+      "reviewed_at": "2026-11-25T05:55:42Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13964"
+    }
+  ]
 }
