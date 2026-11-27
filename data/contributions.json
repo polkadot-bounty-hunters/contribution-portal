@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T11:36:00.211Z",
+  "generated_at": "2026-11-27T11:42:09.474Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1625,
-    "total_prs": 1826,
-    "total_merged_prs": 1047,
-    "total_reviews": 2526
+    "total_commits": 1626,
+    "total_prs": 1838,
+    "total_merged_prs": 1048,
+    "total_reviews": 2527
   },
   "leaderboard": {
     "overall": [
@@ -161,6 +161,16 @@
         "score": 396
       },
       {
+        "name": "dhirajs0",
+        "github": "dhirajs0",
+        "cohort": "PBA 6 Lucerne 2025",
+        "commits": 18,
+        "prs": 43,
+        "merged_prs": 3,
+        "reviews": 34,
+        "score": 365
+      },
+      {
         "name": "rosarp",
         "github": "rosarp",
         "cohort": "PBA 5 Singapore 2024",
@@ -208,16 +218,6 @@
         "prs": 18,
         "merged_prs": 9,
         "reviews": 33,
-        "score": 294
-      },
-      {
-        "name": "dhirajs0",
-        "github": "dhirajs0",
-        "cohort": "PBA 6 Lucerne 2025",
-        "commits": 17,
-        "prs": 31,
-        "merged_prs": 2,
-        "reviews": 34,
         "score": 294
       },
       {
@@ -4337,11 +4337,11 @@
           "name": "dhirajs0",
           "github": "dhirajs0",
           "cohort": "PBA 6 Lucerne 2025",
-          "commits": 17,
-          "prs": 31,
-          "merged_prs": 2,
+          "commits": 18,
+          "prs": 43,
+          "merged_prs": 3,
           "reviews": 34,
-          "score": 294
+          "score": 365
         },
         {
           "name": "P1sar",
@@ -5132,8 +5132,8 @@
           "commits": 3,
           "prs": 5,
           "merged_prs": 0,
-          "reviews": 3,
-          "score": 37
+          "reviews": 4,
+          "score": 40
         },
         {
           "name": "surajk-m",
@@ -5759,7 +5759,7 @@
         "repository": "polkadot-fellows/runtimes",
         "avg_review_time_hours": 53.46047178130511,
         "pr_count": 63,
-        "merged_count": 46
+        "merged_count": 47
       },
       {
         "repository": "paritytech/cumulus",
@@ -168763,6 +168763,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "913974288a48522bcd9159583c1a0dff9b68ffd8",
+                    "message": "frame-system: apply call filter to AuthorizeCall origin (#13365)",
+                    "date": "2026-11-26T16:40:28Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/913974288a48522bcd9159583c1a0dff9b68ffd8"
+                  },
+                  {
                     "sha": "6c62ddce50f23017e8df717b94ee7d199bfd8fe2",
                     "message": "`pallet-collective`: include the voting threshold in the proposal hash (#13259)",
                     "date": "2026-11-12T12:28:35Z",
@@ -168831,6 +168837,211 @@
                 ],
                 "prs": [
                   {
+                    "number": 14022,
+                    "title": "staking-async: remove try_state(false) test escape hatch",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T11:00:49Z",
+                    "closed_at": "2026-11-27T11:21:21Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14022",
+                    "ready_for_review_at": "2026-11-27T11:00:49Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:21:20Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14021,
+                    "title": "pallet-scheduler: place retries with a zero period into the next block",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T11:00:30Z",
+                    "closed_at": "2026-11-27T11:21:12Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14021",
+                    "ready_for_review_at": "2026-11-27T11:00:30Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:21:11Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14020,
+                    "title": "multi-asset-bounties: keep an approved bounty when its funding payment fails",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T11:00:09Z",
+                    "closed_at": "2026-11-27T11:21:03Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14020",
+                    "ready_for_review_at": "2026-11-27T11:00:09Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:21:02Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14019,
+                    "title": "pallet-multi-asset-bounties: allow a single bounty to hold a basket of assets",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T10:59:51Z",
+                    "closed_at": "2026-11-27T11:20:55Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14019",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:20:54Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14018,
+                    "title": "Budget treasury spends per origin instead of per spend limit",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T10:59:35Z",
+                    "closed_at": "2026-11-27T11:20:47Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14018",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:20:46Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14017,
+                    "title": "pallet-bounties: charge the asset sweep in `reclaim_bounty_funds` and `close_bounty`",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T10:59:17Z",
+                    "closed_at": "2026-11-27T11:20:38Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14017",
+                    "ready_for_review_at": null,
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:20:37Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14016,
+                    "title": "pallet-child-bounties: let RejectOrigin unassign a PendingPayout curator after parent deactivation",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T10:59:00Z",
+                    "closed_at": "2026-11-27T11:20:29Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14016",
+                    "ready_for_review_at": "2026-11-27T10:59:00Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:20:28Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14015,
+                    "title": "pallet-conviction-voting: stop counting nay capital as support in `Tally::from_vote`",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T10:58:43Z",
+                    "closed_at": "2026-11-27T11:20:19Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14015",
+                    "ready_for_review_at": "2026-11-27T10:58:43Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:20:19Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14014,
+                    "title": "Clarify that scheduler priority never bypasses MaximumWeight",
+                    "state": "CLOSED",
+                    "created_at": "2026-11-27T10:57:47Z",
+                    "closed_at": "2026-11-27T11:20:06Z",
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14014",
+                    "ready_for_review_at": "2026-11-27T10:57:47Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-27T11:20:05Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14002,
+                    "title": "pallet-conviction-voting: stop counting nay capital as support in `Tally::from_vote`",
+                    "state": "OPEN",
+                    "created_at": "2026-11-26T18:20:26Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14002",
+                    "ready_for_review_at": "2026-11-26T18:20:26Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
                     "number": 13995,
                     "title": "pallet-child-bounties: let RejectOrigin unassign a PendingPayout curator after parent deactivation",
                     "state": "OPEN",
@@ -168840,7 +169051,7 @@
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/13995",
-                    "ready_for_review_at": null,
+                    "ready_for_review_at": "2026-11-26T10:19:54Z",
                     "reviews": [],
                     "comments": [],
                     "time_to_first_review_hours": null,
@@ -169643,6 +169854,43 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 1394,
+                    "title": "CI: run the cmd bot only for /cmd comments on pull requests",
+                    "state": "OPEN",
+                    "created_at": "2026-11-26T17:44:17Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1394",
+                    "ready_for_review_at": "2026-11-26T17:44:17Z",
+                    "reviews": [],
+                    "comments": [],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 1393,
+                    "title": "Re-enable `reclaim_bounty_funds` benchmark on the relay chains",
+                    "state": "MERGED",
+                    "created_at": "2026-11-26T17:34:13Z",
+                    "closed_at": "2026-11-26T17:55:44Z",
+                    "merged_at": "2026-11-26T17:55:44Z",
+                    "merged_by": "joepetrowski",
+                    "author": "dhirajs0",
+                    "url": "https://github.com/polkadot-fellows/runtimes/pull/1393",
+                    "ready_for_review_at": "2026-11-26T17:34:13Z",
+                    "reviews": [],
+                    "comments": [
+                      {
+                        "commenter": "dhirajs0",
+                        "commented_at": "2026-11-26T17:49:27Z"
+                      }
+                    ],
+                    "time_to_first_review_hours": null,
+                    "time_to_merge_hours": 0.3586111111111111
+                  },
                   {
                     "number": 1361,
                     "title": "Asset Hubs: free referenda deciding slots and queue entries left by the AHM",
@@ -174064,6 +174312,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 13999,
+                    "pr_title": "statement-store: keep the other axis when a decrease depletes an",
+                    "reviewed_at": "2026-11-27T09:44:36Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/13999"
+                  },
                   {
                     "pr_number": 13666,
                     "pr_title": "sc-tracing: keep events without the filtered field when the filter is empty",
