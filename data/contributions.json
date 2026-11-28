@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-27T11:42:09.474Z",
+  "generated_at": "2026-11-28T10:59:46.268Z",
   "since_date": "2022-07-01T00:00:00Z",
   "summary": {
     "total_contributors": 507,
-    "total_commits": 1626,
-    "total_prs": 1838,
+    "total_commits": 1627,
+    "total_prs": 1840,
     "total_merged_prs": 1048,
-    "total_reviews": 2527
+    "total_reviews": 2528
   },
   "leaderboard": {
     "overall": [
@@ -14,11 +14,11 @@
         "name": "michalkucharczyk",
         "github": "michalkucharczyk",
         "cohort": "PBA 1 Cambridge 2022",
-        "commits": 262,
-        "prs": 204,
+        "commits": 263,
+        "prs": 206,
         "merged_prs": 149,
-        "reviews": 254,
-        "score": 3534
+        "reviews": 255,
+        "score": 3548
       },
       {
         "name": "pgherveou",
@@ -517,11 +517,11 @@
           "name": "michalkucharczyk",
           "github": "michalkucharczyk",
           "cohort": "PBA 1 Cambridge 2022",
-          "commits": 262,
-          "prs": 204,
+          "commits": 263,
+          "prs": 206,
           "merged_prs": 149,
-          "reviews": 254,
-          "score": 3534
+          "reviews": 255,
+          "score": 3548
         },
         {
           "name": "ank4n",
@@ -5599,7 +5599,7 @@
     }
   },
   "pr_review_metrics": {
-    "average_review_time_hours": 73.48092794665278,
+    "average_review_time_hours": 73.37348530047555,
     "top_reviewers": [
       {
         "reviewer": "kianenigma",
@@ -5617,10 +5617,10 @@
       },
       {
         "reviewer": "bkchr",
-        "review_count": 718,
-        "approved_count": 414,
-        "avg_time_to_review_hours": 46.007947877652946,
-        "approval_rate": 57.66016713091921
+        "review_count": 720,
+        "approved_count": 415,
+        "avg_time_to_review_hours": 45.54618209876544,
+        "approval_rate": 57.638888888888886
       },
       {
         "reviewer": "bkontur",
@@ -5745,8 +5745,8 @@
     "repositories_by_review_time": [
       {
         "repository": "paritytech/polkadot-sdk",
-        "avg_review_time_hours": 82.05411117677963,
-        "pr_count": 846,
+        "avg_review_time_hours": 81.87108031970652,
+        "pr_count": 848,
         "merged_count": 672
       },
       {
@@ -39410,6 +39410,12 @@
               "contributions": {
                 "commits": [
                   {
+                    "sha": "19649d3273780e99de878480bcc08e55a25e731d",
+                    "message": "sp-state-machine: roll back transaction index operations together with storage (#13936)",
+                    "date": "2026-11-27T11:22:55Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/commit/19649d3273780e99de878480bcc08e55a25e731d"
+                  },
+                  {
                     "sha": "6812e669754dc9f473e3adf277d4532c42e27ac9",
                     "message": "`bitswap_unstable_stream` implementation added (#12029)",
                     "date": "2026-10-27T11:37:22Z",
@@ -40455,6 +40461,55 @@
                   }
                 ],
                 "prs": [
+                  {
+                    "number": 14036,
+                    "title": "fatxpool: clear bans on reorg",
+                    "state": "OPEN",
+                    "created_at": "2026-11-27T17:16:09Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14036",
+                    "ready_for_review_at": "2026-11-27T17:16:09Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-27T19:36:07Z",
+                        "state": "COMMENTED"
+                      },
+                      {
+                        "reviewer": "michalkucharczyk",
+                        "submitted_at": "2026-11-27T21:26:04Z",
+                        "state": "COMMENTED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 2.332777777777778,
+                    "time_to_merge_hours": null
+                  },
+                  {
+                    "number": 14035,
+                    "title": "fatxpool: fix dropped watcher leaking entries",
+                    "state": "OPEN",
+                    "created_at": "2026-11-27T16:55:47Z",
+                    "closed_at": null,
+                    "merged_at": null,
+                    "merged_by": null,
+                    "author": "michalkucharczyk",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14035",
+                    "ready_for_review_at": "2026-11-27T16:55:47Z",
+                    "reviews": [
+                      {
+                        "reviewer": "bkchr",
+                        "submitted_at": "2026-11-27T23:29:42Z",
+                        "state": "APPROVED"
+                      }
+                    ],
+                    "comments": [],
+                    "time_to_first_review_hours": 6.565277777777778,
+                    "time_to_merge_hours": null
+                  },
                   {
                     "number": 13971,
                     "title": "bump: trie-db to 0.33, hash-db to 0.17 and criterion to 0.8",
@@ -49087,6 +49142,12 @@
                 ],
                 "issues": [],
                 "reviews": [
+                  {
+                    "pr_number": 14036,
+                    "pr_title": "fatxpool: clear bans on reorg",
+                    "reviewed_at": "2026-11-27T21:26:04Z",
+                    "url": "https://github.com/paritytech/polkadot-sdk/pull/14036"
+                  },
                   {
                     "pr_number": 13962,
                     "pr_title": "rpc-v2: `chainHead` use `RuntimeUpgraded` digest to determine if the runtime changed",
@@ -168839,9 +168900,9 @@
                   {
                     "number": 14022,
                     "title": "staking-async: remove try_state(false) test escape hatch",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T11:00:49Z",
-                    "closed_at": "2026-11-27T11:21:21Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
@@ -168850,8 +168911,8 @@
                     "reviews": [],
                     "comments": [
                       {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:21:20Z"
+                        "commenter": "sigurpol",
+                        "commented_at": "2026-11-27T13:45:02Z"
                       }
                     ],
                     "time_to_first_review_hours": null,
@@ -168860,168 +168921,128 @@
                   {
                     "number": 14021,
                     "title": "pallet-scheduler: place retries with a zero period into the next block",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T11:00:30Z",
-                    "closed_at": "2026-11-27T11:21:12Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14021",
                     "ready_for_review_at": "2026-11-27T11:00:30Z",
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:21:11Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
                   {
                     "number": 14020,
                     "title": "multi-asset-bounties: keep an approved bounty when its funding payment fails",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T11:00:09Z",
-                    "closed_at": "2026-11-27T11:21:03Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14020",
                     "ready_for_review_at": "2026-11-27T11:00:09Z",
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:21:02Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
                   {
                     "number": 14019,
                     "title": "pallet-multi-asset-bounties: allow a single bounty to hold a basket of assets",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T10:59:51Z",
-                    "closed_at": "2026-11-27T11:20:55Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14019",
                     "ready_for_review_at": null,
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:20:54Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
                   {
                     "number": 14018,
                     "title": "Budget treasury spends per origin instead of per spend limit",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T10:59:35Z",
-                    "closed_at": "2026-11-27T11:20:47Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14018",
                     "ready_for_review_at": null,
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:20:46Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
                   {
                     "number": 14017,
                     "title": "pallet-bounties: charge the asset sweep in `reclaim_bounty_funds` and `close_bounty`",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T10:59:17Z",
-                    "closed_at": "2026-11-27T11:20:38Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14017",
                     "ready_for_review_at": null,
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:20:37Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
                   {
                     "number": 14016,
                     "title": "pallet-child-bounties: let RejectOrigin unassign a PendingPayout curator after parent deactivation",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T10:59:00Z",
-                    "closed_at": "2026-11-27T11:20:29Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14016",
                     "ready_for_review_at": "2026-11-27T10:59:00Z",
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:20:28Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
                   {
                     "number": 14015,
                     "title": "pallet-conviction-voting: stop counting nay capital as support in `Tally::from_vote`",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T10:58:43Z",
-                    "closed_at": "2026-11-27T11:20:19Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14015",
-                    "ready_for_review_at": "2026-11-27T10:58:43Z",
+                    "ready_for_review_at": null,
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:20:19Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },
                   {
                     "number": 14014,
                     "title": "Clarify that scheduler priority never bypasses MaximumWeight",
-                    "state": "CLOSED",
+                    "state": "OPEN",
                     "created_at": "2026-11-27T10:57:47Z",
-                    "closed_at": "2026-11-27T11:20:06Z",
+                    "closed_at": null,
                     "merged_at": null,
                     "merged_by": null,
                     "author": "dhirajs0",
                     "url": "https://github.com/paritytech/polkadot-sdk/pull/14014",
                     "ready_for_review_at": "2026-11-27T10:57:47Z",
                     "reviews": [],
-                    "comments": [
-                      {
-                        "commenter": "dhirajs0",
-                        "commented_at": "2026-11-27T11:20:05Z"
-                      }
-                    ],
+                    "comments": [],
                     "time_to_first_review_hours": null,
                     "time_to_merge_hours": null
                   },

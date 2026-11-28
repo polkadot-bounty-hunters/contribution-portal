@@ -1,6 +1,12 @@
 {
   "commits": [
     {
+      "sha": "19649d3273780e99de878480bcc08e55a25e731d",
+      "message": "sp-state-machine: roll back transaction index operations together with storage (#13936)",
+      "date": "2026-11-27T11:22:55Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/commit/19649d3273780e99de878480bcc08e55a25e731d"
+    },
+    {
       "sha": "6812e669754dc9f473e3adf277d4532c42e27ac9",
       "message": "`bitswap_unstable_stream` implementation added (#12029)",
       "date": "2026-10-27T11:37:22Z",
@@ -1046,6 +1052,55 @@
     }
   ],
   "prs": [
+    {
+      "number": 14036,
+      "title": "fatxpool: clear bans on reorg",
+      "state": "OPEN",
+      "created_at": "2026-11-27T17:16:09Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/14036",
+      "ready_for_review_at": "2026-11-27T17:16:09Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-27T19:36:07Z",
+          "state": "COMMENTED"
+        },
+        {
+          "reviewer": "michalkucharczyk",
+          "submitted_at": "2026-11-27T21:26:04Z",
+          "state": "COMMENTED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 2.332777777777778,
+      "time_to_merge_hours": null
+    },
+    {
+      "number": 14035,
+      "title": "fatxpool: fix dropped watcher leaking entries",
+      "state": "OPEN",
+      "created_at": "2026-11-27T16:55:47Z",
+      "closed_at": null,
+      "merged_at": null,
+      "merged_by": null,
+      "author": "michalkucharczyk",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/14035",
+      "ready_for_review_at": "2026-11-27T16:55:47Z",
+      "reviews": [
+        {
+          "reviewer": "bkchr",
+          "submitted_at": "2026-11-27T23:29:42Z",
+          "state": "APPROVED"
+        }
+      ],
+      "comments": [],
+      "time_to_first_review_hours": 6.565277777777778,
+      "time_to_merge_hours": null
+    },
     {
       "number": 13971,
       "title": "bump: trie-db to 0.33, hash-db to 0.17 and criterion to 0.8",
@@ -9678,6 +9733,12 @@
   ],
   "issues": [],
   "reviews": [
+    {
+      "pr_number": 14036,
+      "pr_title": "fatxpool: clear bans on reorg",
+      "reviewed_at": "2026-11-27T21:26:04Z",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/14036"
+    },
     {
       "pr_number": 13962,
       "pr_title": "rpc-v2: `chainHead` use `RuntimeUpgraded` digest to determine if the runtime changed",
